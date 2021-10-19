@@ -1,0 +1,11 @@
+java_import  {
+	name: "SystemUIGoogle-lib",
+    sdk_version: "current",
+	jars: ["libs/SystemUIGoogle.jar"],
+}
+
+java_import  {
+	name: "SettingsGoogle-lib",
+    sdk_version: "current",
+	jars: ["libs/SettingsGoogle.jar"],
+}
