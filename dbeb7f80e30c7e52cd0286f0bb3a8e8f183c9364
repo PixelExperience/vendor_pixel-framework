@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd054b8b_592a8eab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2022-01-06T08:32:43Z",
+      "side": 1,
+      "message": "Accuracy is much better now 😊",
+      "revId": "dbeb7f80e30c7e52cd0286f0bb3a8e8f183c9364",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
