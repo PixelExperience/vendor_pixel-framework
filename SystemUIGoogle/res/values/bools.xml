@@ -8,4 +8,5 @@
     <bool name="config_show_low_light_clock_when_docked">false</bool>
     <bool name="config_touch_context_enabled">false</bool>
     <bool name="config_wlc_support_enabled">false</bool>
+    <bool name="flag_smartspace">true</bool>
 </resources>
