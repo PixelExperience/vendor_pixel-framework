@@ -63,6 +63,7 @@
     <uses-permission android:name="com.google.android.ambientindication.permission.AMBIENT_INDICATION"/>
 
     <application>
+        <provider android:name=".keyguard.KeyguardSliceProvider" tools:node="remove" />
         <!--service android:exported="true" android:name="com.google.android.systemui.elmyra.ElmyraServiceProxy" android:permission="com.google.android.elmyra.permission.CONFIGURE_ASSIST_GESTURE"/>
         <service android:exported="true" android:name="com.google.android.systemui.columbus.ColumbusServiceProxy" android:permission="com.google.android.columbus.permission.CONFIGURE_COLUMBUS_GESTURE"/>
         <service android:exported="true" android:name="com.google.android.systemui.columbus.ColumbusTargetRequestService">
@@ -70,9 +71,6 @@
                 <action android:name="com.google.android.systemui.QUICK_TAP_TARGET_REQUEST"/>
             </intent-filter>
         </service>
-        <service android:exported="true" android:name="com.google.android.systemui.statusbar.NotificationVoiceReplyManagerService"/>
-        <provider android:name=".keyguard.KeyguardSliceProvider"
-            tools:node="remove" />
-        <provider android:name="com.google.android.systemui.keyguard.KeyguardSliceProviderGoogle" android:enabled="true" android:exported="true" android:authorities="com.android.systemui.keyguard"/-->
+        <service android:exported="true" android:name="com.google.android.systemui.statusbar.NotificationVoiceReplyManagerService"/-->
     </application>
 </manifest>
