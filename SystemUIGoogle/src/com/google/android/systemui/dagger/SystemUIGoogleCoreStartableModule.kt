@@ -43,6 +43,7 @@ import com.android.systemui.util.NotificationChannels
 import com.android.systemui.util.leak.GarbageMonitor
 import com.android.systemui.volume.VolumeUI
 import com.android.systemui.wmshell.WMShell
+import com.google.android.systemui.theme.ThemeOverlayControllerGoogle
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.ClassKey
@@ -174,7 +175,7 @@ abstract class SystemUIGoogleCoreStartableModule {
     @Binds
     @IntoMap
     @ClassKey(ThemeOverlayController::class)
-    abstract fun bindThemeOverlayController(sysui: ThemeOverlayController): CoreStartable
+    abstract fun bindThemeOverlayControllerGoogle(sysui: ThemeOverlayControllerGoogle): CoreStartable
 
     /** Inject into ToastUI.  */
     @Binds
