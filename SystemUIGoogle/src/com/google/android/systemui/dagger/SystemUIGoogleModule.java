@@ -73,6 +73,7 @@ import com.android.systemui.volume.dagger.VolumeModule;
 
 import com.google.android.systemui.power.dagger.PowerModuleGoogle;
 import com.google.android.systemui.qs.dagger.QSModuleGoogle;
+import com.google.android.systemui.smartspace.dagger.SmartspaceModule;
 import com.google.android.systemui.statusbar.dagger.StartCentralSurfacesGoogleModule;
 
 import javax.inject.Named;
@@ -86,7 +87,8 @@ import dagger.Provides;
         PowerModuleGoogle.class,
         QSModuleGoogle.class,
         StartCentralSurfacesGoogleModule.class,
-        VolumeModule.class
+        VolumeModule.class,
+        SmartspaceModule.class
 })
 public abstract class SystemUIGoogleModule {
 

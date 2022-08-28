@@ -21,6 +21,9 @@ import android.content.Context;
 import com.android.systemui.SystemUIFactory;
 import com.android.systemui.dagger.GlobalRootComponent;
 import com.google.android.systemui.dagger.DaggerSystemUIGoogleGlobalRootComponent;
+import com.google.android.systemui.dagger.SystemUIGoogleComponent;
+
+import java.util.concurrent.ExecutionException;
 
 public class SystemUIGoogleFactory extends SystemUIFactory {
     @Override
@@ -28,5 +31,13 @@ public class SystemUIGoogleFactory extends SystemUIFactory {
         return DaggerSystemUIGoogleGlobalRootComponent.builder()
                 .context(context)
                 .build();
+    }
+
+    @Override
+    public void init(Context context, boolean z) throws ExecutionException, InterruptedException {
+        super.init(context, z);
+        if (shouldInitializeComponents()) {
+            ((SystemUIGoogleComponent) getSysUIComponent()).createKeyguardSmartspaceController();
+        }
     }
 }
