@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <integer name="biometric_dialog_text_gravity">1</integer>
+    <integer name="columbus_default_sensitivity_percent">77</integer>
+    <integer name="columbus_low_sensitivity_percent">0</integer>
+    <integer name="config_dock_animation_delay_ms">0</integer>
+    <integer name="elmyra_charging_gate_duration">500</integer>
+    <integer name="elmyra_false_prime_window">50</integer>
+    <integer name="elmyra_gesture_cooldown_time">450</integer>
+    <integer name="elmyra_keyguard_proximity_threshold">5</integer>
+    <item type="integer" name="elmyra_progress_always_on_vibration">@null</item>
+    <item type="integer" name="elmyra_resolve_always_on_vibration">@null</item>
+    <integer name="elmyra_snapshot_gesture_delay_ms">100</integer>
+    <integer name="elmyra_snapshot_logger_gesture_size">10</integer>
+    <integer name="elmyra_snapshot_logger_incomplete_gesture_size">10</integer>
+    <integer name="elmyra_system_key_gate_duration">500</integer>
+    <integer name="elmyra_usb_gate_duration">500</integer>
+    <integer name="low_light_clock_alpha_animation_in_duration_ms">167</integer>
+    <integer name="low_light_clock_alpha_animation_in_start_delay_ms">33</integer>
+    <integer name="low_light_clock_alpha_animation_out_duration_ms">167</integer>
+    <integer name="low_light_clock_alpha_animation_out_start_delay_ms">100</integer>
+    <integer name="low_light_clock_animation_in_duration_ms">300</integer>
+    <integer name="low_light_clock_animation_out_duration_ms">300</integer>
+</resources>

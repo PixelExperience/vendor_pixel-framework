@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/media_shell_device_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/dream_cast_complication_drawable_padding"
+    android:drawableStart="@drawable/drawable_dream_cast_icon"
+    android:paddingHorizontal="@dimen/dream_overlay_complication_shadow_padding"
+    android:shadowColor="@color/keyguard_shadow_color"
+    android:shadowRadius="?shadowRadius"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textColor="@color/media_shell_text_color"
+    android:textSize="@dimen/dream_overlay_complication_cast_text_size" />

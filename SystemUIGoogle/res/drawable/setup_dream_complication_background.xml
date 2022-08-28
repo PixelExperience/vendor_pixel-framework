@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/accessibility_floating_menu_small_single_radius" android:topRightRadius="@dimen/accessibility_floating_menu_small_single_radius" android:bottomLeftRadius="@dimen/accessibility_floating_menu_small_single_radius" android:bottomRightRadius="@dimen/accessibility_floating_menu_small_single_radius" />
+    <solid android:color="@color/setup_dream_complication_background_color" />
+</shape>

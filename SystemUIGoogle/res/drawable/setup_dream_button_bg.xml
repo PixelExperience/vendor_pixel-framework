@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/setup_dream_complication_button_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <solid android:color="@color/setup_dream_complication_button_background" />
+            <size android:height="@dimen/setup_dream_complication_button_height" android:width="@dimen/setup_dream_complication_button_height" />
+        </shape>
+    </item>
+</ripple>
