@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.android.systemui"
+        android:sharedUserId="android.uid.systemui"
+        xmlns:tools="http://schemas.android.com/tools"
+        coreApp="true">
+
+    <original-package android:name="com.android.systemui"/>
+
+    <application>
+    </application>
+</manifest>
