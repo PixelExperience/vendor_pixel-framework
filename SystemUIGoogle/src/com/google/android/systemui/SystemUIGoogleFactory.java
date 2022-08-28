@@ -17,11 +17,15 @@
 package com.google.android.systemui;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 
 import com.android.systemui.SystemUIFactory;
 import com.android.systemui.dagger.GlobalRootComponent;
+import com.android.systemui.navigationbar.gestural.BackGestureTfClassifierProvider;
+
 import com.google.android.systemui.dagger.DaggerSystemUIGoogleGlobalRootComponent;
 import com.google.android.systemui.dagger.SystemUIGoogleComponent;
+import com.google.android.systemui.gesture.BackGestureTfClassifierProviderGoogle;
 
 import java.util.concurrent.ExecutionException;
 
@@ -39,5 +43,10 @@ public class SystemUIGoogleFactory extends SystemUIFactory {
         if (shouldInitializeComponents()) {
             ((SystemUIGoogleComponent) getSysUIComponent()).createKeyguardSmartspaceController();
         }
+    }
+
+    @Override
+    public BackGestureTfClassifierProvider createBackGestureTfClassifierProvider(AssetManager assetManager, String str) {
+        return new BackGestureTfClassifierProviderGoogle(assetManager, str);
     }
 }
