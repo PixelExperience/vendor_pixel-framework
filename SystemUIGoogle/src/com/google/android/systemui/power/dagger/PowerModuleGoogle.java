@@ -21,6 +21,8 @@ import com.android.systemui.power.EnhancedEstimatesImpl;
 import com.android.systemui.power.PowerNotificationWarnings;
 import com.android.systemui.power.PowerUI;
 
+import com.google.android.systemui.power.EnhancedEstimatesGoogleImpl;
+
 import dagger.Binds;
 import dagger.Module;
 
@@ -30,7 +32,7 @@ import dagger.Module;
 public interface PowerModuleGoogle {
     /** */
     @Binds
-    EnhancedEstimates bindEnhancedEstimates(EnhancedEstimatesImpl enhancedEstimates);
+    EnhancedEstimates bindEnhancedEstimates(EnhancedEstimatesGoogleImpl enhancedEstimates);
 
     /** */
     @Binds
