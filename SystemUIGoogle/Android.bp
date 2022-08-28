@@ -15,6 +15,7 @@ android_library {
         "vendor-pixelatoms-java",
         "smartspace-proto-java",
         "guava",
+        "matchmaker-lib",
     ],
     manifest: "AndroidManifest.xml",
 

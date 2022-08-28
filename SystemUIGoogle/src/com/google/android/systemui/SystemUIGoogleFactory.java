@@ -18,15 +18,19 @@ package com.google.android.systemui;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.os.Handler;
 
 import com.android.systemui.SystemUIFactory;
 import com.android.systemui.dagger.GlobalRootComponent;
 import com.android.systemui.navigationbar.gestural.BackGestureTfClassifierProvider;
+import com.android.systemui.screenshot.ScreenshotNotificationSmartActionsProvider;
 
 import com.google.android.systemui.dagger.DaggerSystemUIGoogleGlobalRootComponent;
 import com.google.android.systemui.dagger.SystemUIGoogleComponent;
 import com.google.android.systemui.gesture.BackGestureTfClassifierProviderGoogle;
+import com.google.android.systemui.screenshot.ScreenshotNotificationSmartActionsProviderGoogle;
 
+import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutionException;
 
 public class SystemUIGoogleFactory extends SystemUIFactory {
@@ -48,5 +52,12 @@ public class SystemUIGoogleFactory extends SystemUIFactory {
     @Override
     public BackGestureTfClassifierProvider createBackGestureTfClassifierProvider(AssetManager assetManager, String str) {
         return new BackGestureTfClassifierProviderGoogle(assetManager, str);
+    }
+
+    @Override
+    public ScreenshotNotificationSmartActionsProvider
+                createScreenshotNotificationSmartActionsProvider(
+                        Context context, Executor executor, Handler uiHandler) {
+        return new ScreenshotNotificationSmartActionsProviderGoogle(context, executor, uiHandler);
     }
 }
