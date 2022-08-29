@@ -44,6 +44,7 @@ import com.android.systemui.util.leak.GarbageMonitor
 import com.android.systemui.volume.VolumeUI
 import com.android.systemui.wmshell.WMShell
 import com.google.android.systemui.theme.ThemeOverlayControllerGoogle
+import com.google.android.systemui.GoogleServices
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.ClassKey
@@ -206,4 +207,10 @@ abstract class SystemUIGoogleCoreStartableModule {
     @IntoMap
     @ClassKey(KeyguardLiftController::class)
     abstract fun bindKeyguardLiftController(sysui: KeyguardLiftController): CoreStartable
+
+    /** Inject into GoogleServices.  */
+    @Binds
+    @IntoMap
+    @ClassKey(GoogleServices::class)
+    abstract fun bindGoogleServices(sysui: GoogleServices): CoreStartable
 }

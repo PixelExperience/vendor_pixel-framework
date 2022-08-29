@@ -71,6 +71,7 @@ import com.android.systemui.statusbar.policy.SensorPrivacyController;
 import com.android.systemui.statusbar.policy.SensorPrivacyControllerImpl;
 import com.android.systemui.volume.dagger.VolumeModule;
 
+import com.google.android.systemui.GoogleServices;
 import com.google.android.systemui.power.dagger.PowerModuleGoogle;
 import com.google.android.systemui.qs.dagger.QSModuleGoogle;
 import com.google.android.systemui.smartspace.dagger.SmartspaceModule;
@@ -215,4 +216,10 @@ public abstract class SystemUIGoogleModule {
 
     @Binds
     abstract DozeHost provideDozeHost(DozeServiceHost dozeServiceHost);
+
+    @Provides
+    @SysUISingleton
+    static GoogleServices provideGoogleServices(Context context) {
+        return new GoogleServices(context);
+    }
 }
