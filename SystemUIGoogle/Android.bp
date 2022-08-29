@@ -16,6 +16,7 @@ android_library {
         "smartspace-proto-java",
         "guava",
         "matchmaker-lib",
+        "touchcontext-lib",
     ],
     manifest: "AndroidManifest.xml",
 

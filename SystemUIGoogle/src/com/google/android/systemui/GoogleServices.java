@@ -2,7 +2,10 @@ package com.google.android.systemui;
 
 import android.content.Context;
 
+import com.android.systemui.R;
 import com.android.systemui.VendorServices;
+
+import com.google.android.systemui.input.TouchContextService;
 
 import java.util.ArrayList;
 
@@ -16,6 +19,9 @@ public class GoogleServices extends VendorServices {
 
     @Override
     public void start() {
+        if (mContext.getResources().getBoolean(R.bool.config_touch_context_enabled)) {
+            addService(new TouchContextService(mContext));
+        }
     }
 
     private void addService(Object obj) {
