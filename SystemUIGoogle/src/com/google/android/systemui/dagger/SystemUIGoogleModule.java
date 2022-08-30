@@ -19,6 +19,7 @@ package com.google.android.systemui.dagger;
 import static com.android.systemui.Dependency.ALLOW_NOTIFICATION_LONG_PRESS_NAME;
 import static com.android.systemui.Dependency.LEAK_REPORT_EMAIL_NAME;
 
+import android.app.AlarmManager;
 import android.content.Context;
 import android.hardware.SensorPrivacyManager;
 import android.os.Handler;
@@ -50,6 +51,7 @@ import com.android.systemui.statusbar.NotificationShadeWindowController;
 import com.android.systemui.statusbar.notification.NotificationEntryManager;
 import com.android.systemui.statusbar.notification.collection.provider.VisualStabilityProvider;
 import com.android.systemui.statusbar.notification.collection.render.GroupMembershipManager;
+import com.android.systemui.statusbar.phone.CentralSurfaces;
 import com.android.systemui.statusbar.phone.DozeServiceHost;
 import com.android.systemui.statusbar.phone.HeadsUpManagerPhone;
 import com.android.systemui.statusbar.phone.KeyguardBypassController;
@@ -219,7 +221,7 @@ public abstract class SystemUIGoogleModule {
 
     @Provides
     @SysUISingleton
-    static GoogleServices provideGoogleServices(Context context) {
-        return new GoogleServices(context);
+    static GoogleServices provideGoogleServices(Context context, AlarmManager alarmManager, CentralSurfaces centralSurfaces) {
+        return new GoogleServices(context, alarmManager, centralSurfaces);
     }
 }
