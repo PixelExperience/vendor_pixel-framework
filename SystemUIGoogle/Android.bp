@@ -17,6 +17,7 @@ android_library {
         "guava",
         "matchmaker-lib",
         "touchcontext-lib",
+        "vendor-google-interfaces-lib",
     ],
     manifest: "AndroidManifest.xml",
 

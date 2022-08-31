@@ -44,10 +44,12 @@ import com.android.systemui.qs.dagger.QSModule;
 import com.android.systemui.qs.tileimpl.QSFactoryImpl;
 import com.android.systemui.recents.Recents;
 import com.android.systemui.recents.RecentsImplementation;
+import com.android.systemui.settings.UserContentResolverProvider;
 import com.android.systemui.statusbar.CommandQueue;
 import com.android.systemui.statusbar.NotificationLockscreenUserManager;
 import com.android.systemui.statusbar.NotificationLockscreenUserManagerImpl;
 import com.android.systemui.statusbar.NotificationShadeWindowController;
+import com.android.systemui.statusbar.KeyguardIndicationController;
 import com.android.systemui.statusbar.notification.NotificationEntryManager;
 import com.android.systemui.statusbar.notification.collection.provider.VisualStabilityProvider;
 import com.android.systemui.statusbar.notification.collection.render.GroupMembershipManager;
@@ -74,10 +76,17 @@ import com.android.systemui.statusbar.policy.SensorPrivacyControllerImpl;
 import com.android.systemui.volume.dagger.VolumeModule;
 
 import com.google.android.systemui.GoogleServices;
+import com.google.android.systemui.dreamliner.DockObserver;
+import com.google.android.systemui.dreamliner.dagger.DreamlinerModule;
 import com.google.android.systemui.power.dagger.PowerModuleGoogle;
 import com.google.android.systemui.qs.dagger.QSModuleGoogle;
+import com.google.android.systemui.qs.tileimpl.QSFactoryImplGoogle;
+import com.google.android.systemui.reversecharging.ReverseChargingController;
+import com.google.android.systemui.reversecharging.dagger.ReverseChargingModule;
 import com.google.android.systemui.smartspace.dagger.SmartspaceModule;
 import com.google.android.systemui.statusbar.dagger.StartCentralSurfacesGoogleModule;
+import com.google.android.systemui.statusbar.KeyguardIndicationControllerGoogle;
+import com.google.android.systemui.statusbar.policy.BatteryControllerImplGoogle;
 
 import javax.inject.Named;
 
@@ -91,7 +100,9 @@ import dagger.Provides;
         QSModuleGoogle.class,
         StartCentralSurfacesGoogleModule.class,
         VolumeModule.class,
-        SmartspaceModule.class
+        SmartspaceModule.class,
+        DreamlinerModule.class,
+        ReverseChargingModule.class
 })
 public abstract class SystemUIGoogleModule {
 
@@ -105,28 +116,6 @@ public abstract class SystemUIGoogleModule {
     @Binds
     abstract NotificationLockscreenUserManager bindNotificationLockscreenUserManager(
             NotificationLockscreenUserManagerImpl notificationLockscreenUserManager);
-
-    @Provides
-    @SysUISingleton
-    static BatteryController provideBatteryController(
-            Context context,
-            EnhancedEstimates enhancedEstimates,
-            PowerManager powerManager,
-            BroadcastDispatcher broadcastDispatcher,
-            DemoModeController demoModeController,
-            @Main Handler mainHandler,
-            @Background Handler bgHandler) {
-        BatteryController bC = new BatteryControllerImpl(
-                context,
-                enhancedEstimates,
-                powerManager,
-                broadcastDispatcher,
-                demoModeController,
-                mainHandler,
-                bgHandler);
-        bC.init();
-        return bC;
-    }
 
     @Provides
     @SysUISingleton
@@ -146,14 +135,6 @@ public abstract class SystemUIGoogleModule {
         spC.init();
         return spC;
     }
-
-    /** */
-    @Binds
-    @SysUISingleton
-    public abstract QSFactory bindQSFactory(QSFactoryImpl qsFactoryImpl);
-
-    @Binds
-    abstract DockManager bindDockManager(DockManagerImpl dockManager);
 
     @Binds
     abstract NotificationEntryManager.KeyguardEnvironment bindKeyguardEnvironment(
@@ -224,4 +205,41 @@ public abstract class SystemUIGoogleModule {
     static GoogleServices provideGoogleServices(Context context, AlarmManager alarmManager, CentralSurfaces centralSurfaces) {
         return new GoogleServices(context, alarmManager, centralSurfaces);
     }
+
+    @Binds
+    abstract KeyguardIndicationController bindKeyguardIndicationControllerGoogle(KeyguardIndicationControllerGoogle keyguardIndicationControllerGoogle);
+
+    @Binds
+    abstract DockManager bindDockManager(DockObserver dockObserver);
+
+    @Provides
+    @SysUISingleton
+    static BatteryController provideBatteryController(
+            Context context,
+            EnhancedEstimates enhancedEstimates,
+            PowerManager powerManager,
+            BroadcastDispatcher broadcastDispatcher,
+            DemoModeController demoModeController,
+            @Main Handler mainHandler,
+            @Background Handler bgHandler,
+            UserContentResolverProvider userContentResolverProvider,
+            ReverseChargingController reverseChargingController) {
+        BatteryController bC = new BatteryControllerImplGoogle(
+                context,
+                enhancedEstimates,
+                powerManager,
+                broadcastDispatcher,
+                demoModeController,
+                mainHandler,
+                bgHandler,
+                userContentResolverProvider,
+                reverseChargingController);
+        bC.init();
+        return bC;
+    }
+
+    /** */
+    @Binds
+    @SysUISingleton
+    public abstract QSFactory bindQSFactoryGoogle(QSFactoryImplGoogle qsFactoryImpl);
 }
