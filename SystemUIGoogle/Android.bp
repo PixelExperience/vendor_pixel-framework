@@ -18,6 +18,7 @@ android_library {
         "matchmaker-lib",
         "touchcontext-lib",
         "vendor-google-interfaces-lib",
+        "nga-lib",
     ],
     manifest: "AndroidManifest.xml",
 

@@ -28,6 +28,7 @@ import android.os.PowerManager;
 import androidx.annotation.Nullable;
 
 import com.android.keyguard.KeyguardViewController;
+import com.android.systemui.assist.AssistManager;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Background;
@@ -76,6 +77,8 @@ import com.android.systemui.statusbar.policy.SensorPrivacyControllerImpl;
 import com.android.systemui.volume.dagger.VolumeModule;
 
 import com.google.android.systemui.GoogleServices;
+import com.google.android.systemui.assist.AssistManagerGoogle;
+import com.google.android.systemui.assist.dagger.AssistModule;
 import com.google.android.systemui.dreamliner.DockObserver;
 import com.google.android.systemui.dreamliner.dagger.DreamlinerModule;
 import com.google.android.systemui.power.dagger.PowerModuleGoogle;
@@ -102,7 +105,8 @@ import dagger.Provides;
         VolumeModule.class,
         SmartspaceModule.class,
         DreamlinerModule.class,
-        ReverseChargingModule.class
+        ReverseChargingModule.class,
+        AssistModule.class,
 })
 public abstract class SystemUIGoogleModule {
 
@@ -242,4 +246,8 @@ public abstract class SystemUIGoogleModule {
     @Binds
     @SysUISingleton
     public abstract QSFactory bindQSFactoryGoogle(QSFactoryImplGoogle qsFactoryImpl);
+
+    @Binds
+    @SysUISingleton
+    abstract AssistManager bindAssistManagerGoogle(AssistManagerGoogle assistManager);
 }
