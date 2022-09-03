@@ -70,7 +70,6 @@
             <intent-filter>
                 <action android:name="com.google.android.systemui.QUICK_TAP_TARGET_REQUEST"/>
             </intent-filter>
-        </service>
-        <service android:exported="true" android:name="com.google.android.systemui.statusbar.NotificationVoiceReplyManagerService"/-->
+        </service>-->
     </application>
 </manifest>
