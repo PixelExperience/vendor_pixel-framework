@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.systemui;
+package org.pixelexperience.systemui;
 
 public class Dependency {
     public static final String OVERLAY_UI_HOST_PARENT_VIEW_GROUP = "overlay_ui_host_parent_view_group";
