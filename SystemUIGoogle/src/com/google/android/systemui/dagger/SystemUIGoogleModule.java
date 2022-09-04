@@ -19,7 +19,6 @@ package com.google.android.systemui.dagger;
 import static com.android.systemui.Dependency.ALLOW_NOTIFICATION_LONG_PRESS_NAME;
 import static com.android.systemui.Dependency.LEAK_REPORT_EMAIL_NAME;
 
-import android.app.AlarmManager;
 import android.content.Context;
 import android.hardware.SensorPrivacyManager;
 import android.os.Handler;
@@ -54,7 +53,6 @@ import com.android.systemui.statusbar.KeyguardIndicationController;
 import com.android.systemui.statusbar.notification.NotificationEntryManager;
 import com.android.systemui.statusbar.notification.collection.provider.VisualStabilityProvider;
 import com.android.systemui.statusbar.notification.collection.render.GroupMembershipManager;
-import com.android.systemui.statusbar.phone.CentralSurfaces;
 import com.android.systemui.statusbar.phone.DozeServiceHost;
 import com.android.systemui.statusbar.phone.HeadsUpManagerPhone;
 import com.android.systemui.statusbar.phone.KeyguardBypassController;
@@ -76,7 +74,6 @@ import com.android.systemui.statusbar.policy.SensorPrivacyController;
 import com.android.systemui.statusbar.policy.SensorPrivacyControllerImpl;
 import com.android.systemui.volume.dagger.VolumeModule;
 
-import com.google.android.systemui.GoogleServices;
 import com.google.android.systemui.assist.AssistManagerGoogle;
 import com.google.android.systemui.assist.dagger.AssistModule;
 import com.google.android.systemui.dreamliner.DockObserver;
@@ -203,12 +200,6 @@ public abstract class SystemUIGoogleModule {
 
     @Binds
     abstract DozeHost provideDozeHost(DozeServiceHost dozeServiceHost);
-
-    @Provides
-    @SysUISingleton
-    static GoogleServices provideGoogleServices(Context context, AlarmManager alarmManager, CentralSurfaces centralSurfaces) {
-        return new GoogleServices(context, alarmManager, centralSurfaces);
-    }
 
     @Binds
     abstract KeyguardIndicationController bindKeyguardIndicationControllerGoogle(KeyguardIndicationControllerGoogle keyguardIndicationControllerGoogle);
