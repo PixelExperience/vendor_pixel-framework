@@ -19,6 +19,7 @@ android_library {
         "touchcontext-lib",
         "vendor-google-interfaces-lib",
         "nga-lib",
+        "elmyra-lib",
     ],
     manifest: "AndroidManifest.xml",
 

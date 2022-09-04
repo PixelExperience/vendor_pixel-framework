@@ -1,0 +1,5 @@
+java_import  {
+    name: "elmyra-lib",
+    sdk_version: "current",
+    jars: ["libs/elmyra-lib.jar"],
+}

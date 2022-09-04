@@ -31,12 +31,12 @@ import android.widget.FrameLayout;
 
 import com.android.systemui.R;
 import com.android.systemui.animation.Interpolators;
-/*import com.google.android.systemui.elmyra.feedback.FeedbackEffect;
-import com.google.android.systemui.elmyra.sensors.GestureSensor;*/
+import com.google.android.systemui.elmyra.feedback.FeedbackEffect;
+import com.google.android.systemui.elmyra.sensors.GestureSensor;
 
 import java.util.ArrayList;
 
-public class LockscreenOpaLayout extends FrameLayout /*implements FeedbackEffect*/ {
+public class LockscreenOpaLayout extends FrameLayout implements FeedbackEffect {
     private final Interpolator INTERPOLATOR_5_100;
     private final int RED_YELLOW_START_DELAY;
     private final ArrayList<View> mAnimatedViews;
@@ -199,7 +199,7 @@ public class LockscreenOpaLayout extends FrameLayout /*implements FeedbackEffect
         }
     }
 
-/*    @Override
+    @Override
     public void onRelease() {
         if (mGestureState == 2 || mGestureState == 4) {
             return;
@@ -290,7 +290,7 @@ public class LockscreenOpaLayout extends FrameLayout /*implements FeedbackEffect
             return;
         }
         mGestureAnimatorSet.start();
-    }*/
+    }
 
     private AnimatorSet getCannedAnimatorSet() {
         if (mCannedAnimatorSet != null) {

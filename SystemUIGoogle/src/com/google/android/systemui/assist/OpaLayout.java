@@ -52,13 +52,13 @@ import com.android.systemui.navigationbar.buttons.KeyButtonDrawable;
 import com.android.systemui.navigationbar.buttons.KeyButtonView;
 import com.android.systemui.recents.OverviewProxyService;
 import com.android.systemui.shared.system.QuickStepContract;
-/*import com.google.android.systemui.elmyra.feedback.FeedbackEffect;
-import com.google.android.systemui.elmyra.sensors.GestureSensor;*/
+import com.google.android.systemui.elmyra.feedback.FeedbackEffect;
+import com.google.android.systemui.elmyra.sensors.GestureSensor;
 
 import java.util.ArrayList;
 
 
-public class OpaLayout extends FrameLayout implements ButtonInterface/*, FeedbackEffect*/ {
+public class OpaLayout extends FrameLayout implements ButtonInterface, FeedbackEffect {
     private final Interpolator HOME_DISAPPEAR_INTERPOLATOR;
     private final ArrayList<View> mAnimatedViews;
     private final ArraySet<Animator> mCurrentAnimators;
@@ -724,7 +724,7 @@ public class OpaLayout extends FrameLayout implements ButtonInterface/*, Feedbac
         mDelayTouchFeedback = z;
     }
 
-/*    @Override
+    @Override
     public void onRelease() {
         if (mAnimationState == 0 && mGestureState == 1) {
             if (mGestureAnimatorSet != null) {
@@ -769,7 +769,7 @@ public class OpaLayout extends FrameLayout implements ButtonInterface/*, Feedbac
             return;
         }
         skipToStartingValue();
-    }*/
+    }
 
     private AnimatorSet getGestureAnimatorSet() {
         if (mGestureLineSet != null) {
