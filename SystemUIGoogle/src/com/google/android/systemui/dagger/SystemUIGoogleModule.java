@@ -77,6 +77,7 @@ import com.android.systemui.volume.dagger.VolumeModule;
 
 import com.google.android.systemui.assist.AssistManagerGoogle;
 import com.google.android.systemui.assist.dagger.AssistModule;
+import com.google.android.systemui.columbus.dagger.ColumbusModule;
 import com.google.android.systemui.elmyra.dagger.ElmyraModule;
 import com.google.android.systemui.dreamliner.DockObserver;
 import com.google.android.systemui.dreamliner.dagger.DreamlinerModule;
@@ -110,6 +111,7 @@ import dagger.Lazy;
         ReverseChargingModule.class,
         AssistModule.class,
         ElmyraModule.class,
+        ColumbusModule.class,
 })
 public abstract class SystemUIGoogleModule {
 

@@ -20,6 +20,7 @@ android_library {
         "vendor-google-interfaces-lib",
         "nga-lib",
         "elmyra-lib",
+        "columbus-lib",
     ],
     manifest: "AndroidManifest.xml",
 

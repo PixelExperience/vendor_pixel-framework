@@ -1,0 +1,5 @@
+java_import  {
+    name: "columbus-lib",
+    sdk_version: "current",
+    jars: ["libs/columbus-lib.jar"],
+}
