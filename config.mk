@@ -1,2 +1,3 @@
 PRODUCT_PACKAGES += \
-    SystemUIGoogle
+    SystemUIGoogle \
+    SettingsGoogle
