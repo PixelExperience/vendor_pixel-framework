@@ -8,6 +8,7 @@ android_library {
         "android.hidl.base-V1.0-java",
         "android.frameworks.stats-V1-java",
         "vendor-pixelatoms-java",
+        "SettingsGoogle-lib",
     ],
     resource_dirs: [
         "res",
@@ -39,4 +40,10 @@ android_app {
     ],
     manifest: ":Settings_manifest",
     additional_manifests: ["AndroidManifest.xml"],
+}
+
+java_import  {
+    name: "SettingsGoogle-lib",
+    sdk_version: "current",
+    jars: ["libs/SettingsGoogle-lib.jar"],
 }
