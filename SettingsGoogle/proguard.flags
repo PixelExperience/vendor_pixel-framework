@@ -1,3 +1,5 @@
 # Custom rules
 -keep class com.google.** { *; }
 -keep class vendor.** { *; }
+
+-include ../../../packages/apps/Settings/proguard.flags
