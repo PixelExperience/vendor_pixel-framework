@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <integer name="gesture_assist_sensitivity_default">4</integer>
+    <integer name="gesture_assist_sensitivity_max">8</integer>
+</resources>
