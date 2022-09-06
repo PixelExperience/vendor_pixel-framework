@@ -5,6 +5,9 @@ android_library {
     srcs: ["src/**/*.java"],
     static_libs: [
         "Settings-core",
+        "android.hidl.base-V1.0-java",
+        "android.frameworks.stats-V1-java",
+        "vendor-pixelatoms-java",
     ],
     resource_dirs: [
         "res",
