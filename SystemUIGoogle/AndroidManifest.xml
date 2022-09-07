@@ -45,6 +45,7 @@
     <uses-permission android:name="android.permission.ACCESS_FPS_COUNTER"/>
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
     <uses-permission android:name="com.google.android.apps.nest.DOCK_MANAGER_SERVICE"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
     <original-package android:name="com.android.systemui"/>
     <protected-broadcast android:name="com.google.android.apps.dreamliner.SETTINGS"/>
     <protected-broadcast android:name="com.google.android.systemui.smartspace.ENABLE_UPDATE"/>
