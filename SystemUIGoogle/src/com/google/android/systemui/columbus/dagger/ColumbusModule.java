@@ -70,6 +70,7 @@ import com.google.android.systemui.columbus.actions.SettingsAction;
 import com.google.android.systemui.columbus.actions.SilenceCall;
 import com.google.android.systemui.columbus.actions.SnoozeAlarm;
 import com.google.android.systemui.columbus.actions.TakeScreenshot;
+import com.google.android.systemui.columbus.actions.ToggleFlashlight;
 import com.google.android.systemui.columbus.actions.UnpinNotifications;
 import com.google.android.systemui.columbus.actions.UserAction;
 import com.google.android.systemui.columbus.actions.UserSelectedAction;
@@ -406,7 +407,7 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static Map<String, UserAction> provideUserSelectedActions(LaunchOpa launchOpa, ManageMedia manageMedia, TakeScreenshot takeScreenshot, LaunchOverview launchOverview, OpenNotificationShade openNotificationShade, LaunchApp launchApp) {
+    static Map<String, UserAction> provideUserSelectedActions(LaunchOpa launchOpa, ManageMedia manageMedia, TakeScreenshot takeScreenshot, LaunchOverview launchOverview, OpenNotificationShade openNotificationShade, LaunchApp launchApp, ToggleFlashlight toggleFlashlight) {
         Map<String, UserAction> result = new HashMap<>();
         result.put("assistant", launchOpa);
         result.put("media", manageMedia);
@@ -414,6 +415,7 @@ public class ColumbusModule {
         result.put("overview", launchOverview);
         result.put("notifications", openNotificationShade);
         result.put("launch", launchApp);
+        result.put("flashlight", toggleFlashlight);
         return result;
     }
 
