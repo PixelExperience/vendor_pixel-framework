@@ -2,6 +2,7 @@ package com.google.android.systemui;
 
 import android.app.AlarmManager;
 import android.content.Context;
+import android.os.SystemProperties;
 import com.android.internal.logging.UiEventLogger;
 
 import com.android.systemui.R;
@@ -31,6 +32,8 @@ public class GoogleServices extends VendorServices {
     private final UiEventLogger mUiEventLogger;
     private final Lazy<ServiceConfigurationGoogle> mServiceConfigurationGoogle;
     private final Lazy<ColumbusServiceWrapper> mColumbusServiceLazy;
+    final boolean elmyraEnabled = SystemProperties.getBoolean(
+                    "ro.sysui.enable_assistonly_gesture", true);
 
     @Inject
     public GoogleServices(Context context, AlarmManager alarmManager, CentralSurfaces centralSurfaces, UiEventLogger uiEventLogger, Lazy<ServiceConfigurationGoogle> serviceConfigurationGoogleLazy, Lazy<ColumbusServiceWrapper> columbusServiceWrapperLazy) {
@@ -46,7 +49,7 @@ public class GoogleServices extends VendorServices {
 
     @Override
     public void start() {
-        if (mContext.getPackageManager().hasSystemFeature("android.hardware.context_hub") && new ElmyraContext(mContext).isAvailable()) {
+        if (mContext.getPackageManager().hasSystemFeature("android.hardware.context_hub") && new ElmyraContext(mContext).isAvailable() && elmyraEnabled) {
             addService(new ElmyraService(mContext, mServiceConfigurationGoogle.get(), mUiEventLogger));
         }
         if (new ColumbusContext(mContext).isAvailable()) {
