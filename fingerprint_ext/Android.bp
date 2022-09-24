@@ -1,0 +1,27 @@
+aidl_interface {
+    name: "com.google.hardware.biometrics.fingerprint.fingerprint-ext",
+
+    srcs: [
+        "com/google/hardware/biometrics/fingerprint/IFingerprintExt.aidl",
+    ],
+
+    stability: "vintf",
+    owner: "google",
+
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            enabled: true,
+            platform_apis: true,
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+    ],
+
+}
