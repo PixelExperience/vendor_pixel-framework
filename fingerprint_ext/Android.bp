@@ -16,6 +16,9 @@ aidl_interface {
             enabled: true,
             platform_apis: true,
         },
+        ndk: {
+            enabled: false,
+        }
     },
     versions_with_info: [
         {
