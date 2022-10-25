@@ -337,8 +337,7 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
     }
 
     private void updateColors() {
-        ValueAnimator valueAnimator = mTextColorAnimator;
-        if (valueAnimator != null && valueAnimator.isRunning()) {
+        if (mTextColorAnimator != null && mTextColorAnimator.isRunning()) {
             mTextColorAnimator.cancel();
         }
         int defaultColor = mTextView.getTextColors().getDefaultColor();
@@ -348,11 +347,10 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
             mIconView.setImageTintList(ColorStateList.valueOf(i));
             return;
         }
-        ValueAnimator ofArgb = ValueAnimator.ofArgb(defaultColor, i);
-        mTextColorAnimator = ofArgb;
-        ofArgb.setInterpolator(Interpolators.LINEAR_OUT_SLOW_IN);
+        mTextColorAnimator = ValueAnimator.ofArgb(defaultColor, i);
+        mTextColorAnimator.setInterpolator(Interpolators.LINEAR_OUT_SLOW_IN);
         mTextColorAnimator.setDuration(500L);
-        mTextColorAnimator.addUpdateListener(valueAnimator2 -> {
+        mTextColorAnimator.addUpdateListener(valueAnimator -> {
             int intValue = (Integer) valueAnimator.getAnimatedValue();
             mTextView.setTextColor(intValue);
             mIconView.setImageTintList(ColorStateList.valueOf(intValue));
