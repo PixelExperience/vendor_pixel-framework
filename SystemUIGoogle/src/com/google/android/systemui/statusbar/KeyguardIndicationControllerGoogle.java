@@ -27,6 +27,7 @@ import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.DeviceConfig;
 import android.text.TextUtils;
+import android.view.accessibility.AccessibilityManager;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.internal.app.IBatteryStats;
@@ -100,9 +101,10 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
             ScreenLifecycle screenLifecycle,
             IActivityManager iActivityManager,
             KeyguardBypassController keyguardBypassController,
+            AccessibilityManager accessibilityManager,
             TunerService tunerService,
             DeviceConfigProxy deviceConfigProxy) {
-        super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor, dockManager, broadcastDispatcher, devicePolicyManager, iBatteryStats, userManager, executor, bgExecutor, falsingManager, lockPatternUtils, screenLifecycle, iActivityManager, keyguardBypassController);
+        super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor, dockManager, broadcastDispatcher, devicePolicyManager, iBatteryStats, userManager, executor, bgExecutor, falsingManager, lockPatternUtils, screenLifecycle, iActivityManager, keyguardBypassController, accessibilityManager);
         mBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context2, Intent intent) {
