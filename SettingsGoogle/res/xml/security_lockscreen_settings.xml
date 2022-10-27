@@ -14,6 +14,17 @@
             android:title="@string/lock_screen_notifications_title"
             settings:keywords="@string/keywords_lock_screen_notif" />
 
+        <com.android.settings.custom.preference.SecureSettingListPreference
+            android:key="face_unlock_method"
+            android:title="@string/face_unlock_method_title"
+            android:summary="%s"
+            android:dialogTitle="@string/face_unlock_method_title"
+            android:entries="@array/face_unlock_method_entries"
+            android:entryValues="@array/face_unlock_method_values"
+            android:defaultValue="0"
+            settings:searchable="false"
+            settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
+
         <SwitchPreference
             android:key="security_dispaly_lockscreen_bypass"
             android:summary="@string/lockscreen_bypass_summary"
