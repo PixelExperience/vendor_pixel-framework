@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Сэрэмжлүүлгийн зангааг чимээгүй болгох</string>
     <string name="gesture_skip_title">Зангааг алгасах</string>
     <string name="keywords_touch_sensitivity">хүрэх, мэдрэгшил, мэдрэг, дэлгэц хамгаалагч, хальс, хариу үйлдэлтэй, хариу үйлдэл</string>
-    <string name="touch_sensitivity_summary">Дэлгэц хамгаалагч ашиглах үед хүрэлтийг сайжруулдаг</string>
-    <string name="touch_sensitivity_title">Хүрэлтийн мэдрэгшлийг нэмэгдүүлэх</string>
+    <string name="touch_sensitivity_summary">Дэлгэц хамгаалагчийг ашиглаж байх үед хүрэлтийн мэдрэгшлийг нэмж, хүрэлтийг сайжруулна уу</string>
+    <string name="touch_sensitivity_title">Дэлгэц хамгаалагч горим</string>
     <string name="columbus_title">Үйлдлийг эхлүүлэх Шуурхай товшилт</string>
+    <string name="about_phone">Утасны тухай</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge-г тохируулсан. Дараагийн дэлгэцэд очих эсвэл үргэлжлүүлэн тохируулна уу.</string>
     <string name="accessibility_keyboard_haptics_title">Гарын хүртэхүйн тохиргоо</string>
     <string name="adaptive_charging">Орчинтой тохируулан цэнэглэх</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">контентын зураг авах, аппын контент, аппын өгөгдөл</string>
     <string name="keywords_gesture">зангаа, алхам</string>
     <string name="keywords_global_actions_panel">картууд, тасалбарууд</string>
+    <string name="keywords_limited_warranty">баталгаа, баталгаа, хязгаарлагдмал баталгаа, амлалт, засвар, rma, солих</string>
     <string name="keywords_live_transcribe">Тайлбарууд, хаалттай тайлбарууд, Хаалттай тайлбар, Шууд тайлбар, сонсголын бэрхшээл, сонсголын алдагдал, CART, яриаг бичвэрт буулгах, хадмал</string>
     <string name="keywords_reverse_charging_stop_threshold">Утас дараах түвшинд хүрэхэд батарей хуваалцахыг зогсоох:</string>
     <string name="keywords_select_to_speak">Текстийг сонсох, чангаар унших, дэлгэцийг унших, дэлгэц уншигч</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge-г унтраасан</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge-г асаасан</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge-г асаасан, Туслахаа ашиглахын тулд базна уу</string>
+    <string name="limited_warranty_introduction">Энэ төхөөрөмжийн баталгааг харахын тулд худалдан авсан улс дээрээ товшино уу. Мөн баталгааг g.co/devicewarranty дээрээс авах боломжтой</string>
+    <string name="limited_warranty_title">Хязгаарлагдмал баталгаа</string>
     <string name="me_card_title">Миний Pixel</string>
     <string name="my_device_info_account_preference_title">Google Бүртгэл</string>
     <string name="owner_info_settings_edit_text_hint">Жишээ нь Joe-н Pixel.</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_education_message_accessibility">Дараагийн дэлгэц дээр утсаа нүднийхээ түвшинд барина уу</string>
     <string name="security_settings_face_enroll_error_dialog_title">Бүртгэлийг гүйцээж чадсангүй</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Царайгаар түгжээ тайлах завсарласан</string>
-    <string name="security_settings_face_enroll_finish_description">Одоо та царайгаа утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалт зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд ашиглах боломжтой</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Одоо та царайгаа утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалт зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд ашиглах боломжтой</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Одоо та утсаа авах эсвэл дэлгэц дээр товших үедээ царайгаараа түгжээ тайлах боломжтой.
+
+Царайгаар түгжээ тайлах нь хангалттай гэрэлтэй бөгөөд таныг амны хаалт, бараан нүдний шил зүүгээгүй үед хамгийн сайн ажиллана."</string>
     <string name="security_settings_face_enroll_finish_title">Ямар ч асуудалгүй байна!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Харааны бэрхшээлтэй эсвэл толгойгоо хөдөлгөх боломжгүй хэрэглэгчийн тохируулга</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Царайгаар түгжээ тайлахыг ашиглах үед та толгойгоо утасныхаа урд аль болох эгц байлгах шаардлагатай.</string>
@@ -279,10 +286,11 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="security_settings_face_enroll_introduction_how_title">Энэ нь хэрхэн ажилладаг вэ?</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таны хүүхдийг мөн болохыг баталгаажуулахын тулд таны хүүхдээс нүдээ нээлттэй байлгахыг шаардаж болно. Та болон таны хүүхэд энэ сонголтын хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Хэрэв таны хүүхэд ердийн үед нүдний шил зүүдэг бол тохируулгын үеэр шилээ зүүж болно.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Хүүхдийнхээ царайг утасных нь түгжээг тайлахад ашиглах нь сайн хээ, ПИН эсвэл нууц үгээс хамгаалалт сул байж магадгүй</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Та хүүхэд утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны хүүхдийн утасны түгжээг мөн түүний ихэр зэрэг түүнтэй маш адилхан харагддаг хүн эсвэл хэн нэгэн үүнийг түүний нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таныг мөн болохыг баталгаажуулахын тулд танаас нүдээ нээлттэй байлгахыг шаардаж болно. Та энэ сонголтыг хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Нүдний шил эсвэл үл ялиг өнгө оруулсан нарны шил зүүж болно.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Утасны түгжээг тайлахдаа царайг ашиглах нь хүчтэй хээ эсвэл ПИН-с аюул багатай байж магадгүй.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Царайгаа ашиглан утасныхаа түгжээг тайлах нь хүчтэй хээ, ПИН эсвэл нууц үгээс хамгаалалт багатай байж магадгүй</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Та утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны утасны түгжээг мөн таны ихэр зэрэг тантай маш адилхан харагддаг хүн эсвэл хэн нэгэн утсыг таны нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Санаж яваарай</string>
     <string name="security_settings_face_enroll_introduction_message">Утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалт зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд царайгаа ашиглана уу.</string>
@@ -312,13 +320,18 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="sound_dashboard_summary">Дууны түвшин, хүртэхүй, Бүү саад бол</string>
     <string name="sound_settings">Дуу болон чичиргээ</string>
     <string name="storage_manager_indicator">Ухаалаг сан: ^1</string>
+    <string name="suw_warranty_description">Энэ төхөөрөмжийн баталгааг харахын тулд худалдан авсан улсаа товшино уу.&lt;br /&gt;&lt;br /&gt;Баталгаа нь мөн &lt;b&gt;Тохиргоо &gt; %s &gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээр боломжтой.</string>
+    <string name="suw_warranty_language_consistent_description">Таны төхөөрөмжид хамаарах хязгаарлагдмал баталгаа нь мөн төхөөрөмжийн Тохиргоонд &lt;b&gt;Тохиргоо &gt; %s &gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээр боломжтой.</string>
+    <string name="suw_warranty_next_button_text">Дараах</string>
+    <string name="suw_warranty_positive_button_text">Хаах</string>
     <string name="time_remaining_warning_subtext">Таны өнгөрсөн хэрэглээнд тулгуурлан %1$s орчмын хугацаа үлдсэн байна</string>
-    <string name="time_remaining_warning_text">Батерей удахгүй дуусна</string>
+    <string name="time_remaining_warning_text">Батарей удахгүй дуусна</string>
     <string name="tips_suggestion_summary">Утсаараа юу хийж болохоо судлаарай</string>
     <string name="tips_suggestion_title">Pixel-ээ мэдэж аваарай</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Утсаа нүүрнийхээ урд барина уу</string>
     <string name="usb_use_file_transfers">Файл шилжүүлэлт / Android Авто</string>
     <string name="wallpaper_dashboard_summary">Өнгө, загварын дүрс тэмдэг, аппын хүснэгт</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming захиалгыг харах эсвэл өөрчлөх</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s-тай холбогдсон</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Холбогдохын тулд товшино уу</string>

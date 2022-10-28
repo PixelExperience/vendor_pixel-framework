@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">خاموشی الرٹس کا اشارہ</string>
     <string name="gesture_skip_title">اشارہ کو نظر انداز کریں</string>
     <string name="keywords_touch_sensitivity">ٹچ ، حساسیت ، حساس ، اسکرین محافظ ، فلم ، ذمہ دار ، ردعمل</string>
-    <string name="touch_sensitivity_summary">اسکرین محافظوں کا استعمال کرتے وقت ٹچ کو بہتر بناتا ہے</string>
-    <string name="touch_sensitivity_title">ٹچ کی حساسیت میں اضافہ کریں</string>
+    <string name="touch_sensitivity_summary">اسکرین پروٹیکٹر استعمال کرتے وقت ٹچ کی حساسیت میں اضافہ کریں اور ٹچ کو بہتر بنائیں</string>
+    <string name="touch_sensitivity_title">اسکرین پروٹیکٹر موڈ</string>
     <string name="columbus_title">کارروائیاں شروع کرنے کے لیے فوری تھپتھپاہٹ</string>
+    <string name="about_phone">فون کے بارے میں</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏Active Edge سیٹ اپ۔ اگلی اسکرین پر جائيں یا ایڈجسٹ کرتے رہیں۔</string>
     <string name="accessibility_keyboard_haptics_title">کی بورڈ ہیپٹکس</string>
     <string name="adaptive_charging">اڈاپٹیو چارجنگ</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">مواد کیپچر، ایپ کا مواد، ایپ کا ڈیٹا</string>
     <string name="keywords_gesture">اشارہ، اشاراتی حرکتیں</string>
     <string name="keywords_global_actions_panel">کارڈز، پاسز</string>
+    <string name="keywords_limited_warranty">‏وارنٹی، ضمانت، محدود وارنٹی، وعدہ، مرمت، rma، تبدیلی</string>
     <string name="keywords_live_transcribe">کیپشنز، سب ٹائٹلز، سب ٹائٹلز، لائیو کیپشن، اونچا سننے والا، سننے میں دشواری، کارٹ، اسپیچ ٹو ٹیکسٹ، ذیلی عنوان</string>
     <string name="keywords_reverse_charging_stop_threshold">جب فون کی بیٹری اس حد کو پہنچ جائے تو اشتراک بند کر دیں:</string>
     <string name="keywords_select_to_speak">ٹیکسٹ سننا، اونچی آواز میں پڑھنا، اسپیک اسکرین، اسکرین قاری</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">‏Active Edge آف ہے</string>
     <string name="language_input_gesture_summary_on_non_assist">‏Active Edge آن ہے</string>
     <string name="language_input_gesture_summary_on_with_assist">‏Active Edge آن ہے، اسسٹنٹ کیلئے دبائیں</string>
+    <string name="limited_warranty_introduction">‏اس آلے کی وارنٹی دیکھنے کے لیے خریداری کے ملک پر تھپتھپائیں۔ وارنٹی g.co/devicewarranty پر بھی دستیاب ہے</string>
+    <string name="limited_warranty_title">محدود وارنٹی</string>
     <string name="me_card_title">میرا پکسل</string>
     <string name="my_device_info_account_preference_title">‏Google اکاؤنٹ</string>
     <string name="owner_info_settings_edit_text_hint">‏جیسے، شمائلہ کا Pixel۔</string>
@@ -256,18 +260,21 @@
     <string name="security_settings_face_enroll_education_message_accessibility">اگلی اسکرین پر، اپنے فون کو آنکھ کی سطح پر پکڑیں</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">چہرے کے اندراج کے وقت کی حد پوری ہو گئی۔ دوبارہ کوشش کریں۔</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">فیس اَنلاک کے سیٹ اپ کا وقت ختم ہو گیا</string>
-    <string name="security_settings_face_enroll_finish_description">اب آپ اپنے فون کو غیر مقفل کرنے یا یہ توثیق کرنے کے لیے کہ یہ آپ ہی ہیں اپنے چہرے کا استعمال کر سکتے ہیں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی منظوری دیتے ہیں</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">اب آپ اپنا فون غیر مقفل کرنے یا اس بات کی توثیق کرنے کیلئے اپنے چہرے کا استعمال کر سکتے ہیں کہ یہ آپ ہی ہیں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی منظوری دیتے ہیں</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"اب جب آپ اپنا فون اٹھاتے ہیں یا اسکرین پر تھپتھپاتے ہیں تو آپ اپنے چہرے کو غیر مقفل کرنے کے لیے استعمال کر سکتے ہیں۔
+
+فیس اَنلاک اس وقت بہترین کام کرتا ہے جب کافی روشنی ہو اور آپ نے ماسک یا سیاہ چشمہ نہیں پہن رکھا ہو۔"</string>
     <string name="security_settings_face_enroll_finish_title">ٹھیک لگ رہا ہے!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">محدود بصارت یا سر کی حرکت کے لیے سیٹ اپ کریں</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">فیس اَنلاک کی خصوصیت کا استعمال کرتے وقت، آپ کے سر کو فون کے براہ راست سامنے ہونے کی ضرورت ہو سکتی ہے۔</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">آنکھوں کو کھولنا ہوگا</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"‏آپ اور آپ کا بچہ اپنے چہرے کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز کو فون پر تب تک اسٹور کیا جاتا ہے جب تک کہ انہیں حذف نہیں کیا جاتا ہے۔
 
-g.co/pixel/faceunlock پر مزید جائیں۔"</string>
+مزید جاننے کیلئے g.co/pixel/faceunlock ملاحظہ کریں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">آپ اور آپ کے بچے کا کنٹرول ہے</string>
     <string name="security_settings_face_enroll_introduction_control_message">"‏آپ ترتیبات میں کسی بھی وقت اپنے چہرے کا ماڈل حذف کر سکتے ہیں یا فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز فون پر تب تک اسٹور ہوتے ہیں جب تک آپ انہیں حذف نہیں کرتے ہیں۔
 
-g.co/pixel/faceunlock پر مزید جانیں۔"</string>
+مزید جاننے کیلئے g.co/pixel/faceunlock ملاحظہ کریں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_title">سب کچھ آپ کے اختیار میں ہے</string>
     <string name="security_settings_face_enroll_introduction_how_consent_message">"فیس اَنلاک کی خصوصیت آپ کے بچے کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ کا بچہ اپنے چہرے کی تصاویر مختلف زاویوں سے لے گا۔
 
@@ -278,10 +285,11 @@ g.co/pixel/faceunlock پر مزید جانیں۔"</string>
     <string name="security_settings_face_enroll_introduction_how_title">یہ کیسے کام کرتا ہے</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">فون کو غیر مقفل کرنے یا اس کی توثیق کرنے کے لیے کہ یہ وہی بچہ ہے، فیس اَنلاک کا آپ کے بچے کی آنکھیں کھلی رکھنے کا تقاضہ ہو سکتا ہے۔ آپ اور آپ کا بچہ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">اگر آپ کا بچہ عام طور پر عینک پہنتا ہے تو وہ سیٹ اپ کے دوران انہیں پہن سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">‏اپنے بچے کے فون کو غیر مقفل کرنے کے لیے اس کا چہرہ استعمال کرنا ایک مضبوط پیٹرن، PIN یا پاس ورڈ کی بنسبت کم محفوظ ہو سکتا ہے</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">غیر ارادتاً طور پر بھی فون کو دیکھنا اس کو غیر فعال کر سکتا ہے۔ اس کے فون کو اس سے بہت زیادہ مشابہ کسی شخص کے ذریعے بھی غیر مقفل کیا جا سکتا ہے جیسے کوئی ہم شکل بھائی بہن یا اگر کوئی اسے اس کے چہرے کے سامنے رکھ دے تو بھی غیر مقفل ہو سکتا ہے۔</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">فون کو غیر مقفل کرنے یا یہ توثیق کرنے کی خاطر کہ یہ آپ ہی ہیں فیس اَنلاک کیلئے یہ ضروری ہو سکتا ہے کہ آپ کی آنکھیں کھلی ہوں۔ آپ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">چشمے یا ہلکے ٹِنٹ کردہ دھوپ چشمے ٹھیک ہیں۔</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">‏فون اَن لاک کرنے کے لیے چہرے کا استعمال کرنا مضبوط پیٹرن یا PIN سے کم محفوظ ہو سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">‏اپنے فون کو غیر مقفل کرنے کے لیے اپنے چہرے کا استعمال مضبوط پیٹرن، PIN یا پاس ورڈ سے کم محفوظ ہو سکتا ہے</string>
     <string name="security_settings_face_enroll_introduction_info_looking">فون کو غیر ارادتاً دیکھنے سے بھی یہ غیر مقفل ہو سکتا ہے۔ آپ سے بہت زیادہ مشابہ کوئی بھی شخص، جیسے کوئی ہم شکل بھائی بہن، آپ کے فون کو غیر مقفل کر سکتا ہے، یا اگر کوئی اسے آپ کے چہرے کے سامنے رکھ دے تو بھی یہ غیر مقفل ہو سکتا ہے۔</string>
     <string name="security_settings_face_enroll_introduction_info_title">یاد رکھیں</string>
     <string name="security_settings_face_enroll_introduction_message">اپنا فون غیر مقفل کرنے یا یہ توثیق کرنے کیلئے کہ یہ آپ ہی ہیں اپنا چہرہ استعمال کریں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی اجازت دیتے ہیں۔</string>
@@ -310,6 +318,10 @@ g.co/pixel/faceunlock پر مزید جانیں۔"</string>
     <string name="smart_battery_title">تغیر پذیر بیٹری</string>
     <string name="sound_dashboard_summary">والیوم، ہیپٹکس، ڈسٹرب نہ کریں</string>
     <string name="storage_manager_indicator">اسمارٹ اسٹوریج: ^1</string>
+    <string name="suw_warranty_description">‏اس آلے کی وارنٹی دیکھنے کے لیے خریداری کے ملک پر تھپتھپائیں۔&lt;br /&gt;&lt;br /&gt;وارنٹی &lt;b&gt;ترتیبات &gt; %s &gt; محدود وارنٹی&lt;/b&gt; اور g.co/devicewarranty پر بھی دستیاب ہے۔</string>
+    <string name="suw_warranty_language_consistent_description">‏آپ کے آلے پر قابل اطلاق محدود وارنٹی آلے کی ترتیبات میں &lt;b&gt;ترتیبات &gt; %s ‏&gt; محدود وارنٹی&lt;/b&gt; اور at g.co/devicewarranty پر بھی دستیاب ہے۔</string>
+    <string name="suw_warranty_next_button_text">اگلا</string>
+    <string name="suw_warranty_positive_button_text">بند کریں</string>
     <string name="time_remaining_warning_subtext">گزشتہ استعمال کی بنیاد پر تقریباً %1$s باقی ہے</string>
     <string name="time_remaining_warning_text">بیٹری جلد ہی ختم ہو سکتی ہے</string>
     <string name="tips_suggestion_summary">دریافت کریں کہ اپنے فون سے کیا کر سکتے ہیں</string>
@@ -317,6 +329,7 @@ g.co/pixel/faceunlock پر مزید جانیں۔"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">فون کو اپنے چہرے کے سامنے پکڑیں</string>
     <string name="usb_use_file_transfers">‏فائل کی منتقلی / Android Auto</string>
     <string name="wallpaper_dashboard_summary">رنگ، تھیم کردہ آئیکنز، ایپ گرڈ</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏OpenRoaming سبسکرپشن دیکھیں یا تبدیل کریں</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">‫%1$s کے ساتھ منسلک ہے</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">منسلک کرنے کیلئے تھپتھپائیں</string>

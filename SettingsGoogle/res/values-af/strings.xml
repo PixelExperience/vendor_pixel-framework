@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gebaar om opletberigte stil te maak</string>
     <string name="gesture_skip_title">Oorslaan-gebaar</string>
     <string name="keywords_touch_sensitivity">raak, sensitiwiteit, sensitief, skermbeskermer, bedekking, reagerend, reaksie</string>
-    <string name="touch_sensitivity_summary">Verbeter raak wanneer skermbeskermers gebruik word</string>
-    <string name="touch_sensitivity_title">Vergroot raaksensitiwiteit</string>
+    <string name="touch_sensitivity_summary">Vergroot raaksensitiwiteit en verbeter aanraking wanneer ’n skermbeskermer gebruik word</string>
+    <string name="touch_sensitivity_title">Skermbeskermermodus</string>
     <string name="columbus_title">Dubbeltik om handelinge te begin</string>
+    <string name="about_phone">Meer oor foon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge is opgestel. Gaan na die volgende skerm toe of hou aan om te verstel.</string>
     <string name="accessibility_keyboard_haptics_title">Fisiese sleutelbordterugvoer</string>
     <string name="adaptive_charging">Aanpasbare laaiproses</string>
@@ -202,6 +203,7 @@ Rugsteundata sal nie deel vorm van jou Drive-bergingkwota nie. Groot lêers, of 
     <string name="keywords_content_capture">inhoudvaslegging, programinhoud, programdata</string>
     <string name="keywords_gesture">gebaar, bewegings</string>
     <string name="keywords_global_actions_panel">kaarte, passe</string>
+    <string name="keywords_limited_warranty">waarborg, garansie, beperkte waarborg, belofte, herstel, RMA, vervanging</string>
     <string name="keywords_live_transcribe">Onderskrifte, onderskrifte, CC, intydse onderskrifte, hardhorend, gehoorverlies, CART, spraak-na-teks, onderskrifte</string>
     <string name="keywords_reverse_charging_stop_threshold">Hou op om battery te deel wanneer foon die volgende vlak bereik:</string>
     <string name="keywords_select_to_speak">Hoor teks, lees hardop, lees op skerm, skermleser</string>
@@ -213,6 +215,8 @@ Rugsteundata sal nie deel vorm van jou Drive-bergingkwota nie. Groot lêers, of 
     <string name="language_input_gesture_summary_off">Active Edge is afgeskakel</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge is aangeskakel</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge is aan, druk vir jou Assistent</string>
+    <string name="limited_warranty_introduction">Tik op die aankoopland om die waarborg vir hierdie toestel te bekyk. Die waarborg is ook beskikbaar by g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Beperkte waarborg</string>
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google-rekening</string>
     <string name="owner_info_settings_edit_text_hint">Byvoorbeeld, Jan se Pixel.</string>
@@ -256,7 +260,10 @@ Keer jou foon om om te probeer."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Hou jou foon op die volgende skerm op oogvlak</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Gesiginskrywing-tydlimiet is bereik. Probeer weer.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Opstelling van Gesigslot het uitgetel</string>
-    <string name="security_settings_face_enroll_finish_description">"Jy kan nou jou gesig gebruik om jou foon te ontsluit of te verifieer dis jy, soos wanneer jy aanmeld by programme of 'n aankoop goedkeur"</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Jy kan nou jou gesig gebruik om jou foon te ontsluit of te verifieer dis jy, soos wanneer jy aanmeld by programme of ’n aankoop goedkeur</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Jy kan nou jou gesig gebruik om jou foon te ontsluit wanneer jy dit optel of op die skerm tik.
+
+Gesigslot werk die beste wanneer dit lig genoeg is en wanneer jy nie ’n masker of donkerbril dra nie."</string>
     <string name="security_settings_face_enroll_finish_title">Lyk goed!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Opstelling vir beperkte visie of kopbeweging</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Wanneer jy Gesigslot gebruik, sal jou kop dalk meer direk voor jou foon moet wees.</string>
@@ -278,10 +285,11 @@ Wanneer jy Gesigslot gebruik, word prente gebruik om jou gesigmodel op te dateer
     <string name="security_settings_face_enroll_introduction_how_title">Hoe dit werk</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Gesigslot kan vereis dat jou kind se oë oop moet wees om die foon te ontsluit of te verifieer dis hy of sy. Jy en jou kind kan enige tyd hierdie opsie in Instellings afskakel.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">"As jou kind gewoonlik 'n bril dra, kan hy of sy dit gedurende die opstelling dra."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Om jou kind se gesig te gebruik om hul foon te ontsluit, kan minder veilig wees as ’n sterk patroon, PIN of wagwoord.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">"As jou kind na die foon kyk, kan dit ontsluit selfs al het hulle nie bedoel om dit te doen nie. Jou kind se foon kan ook ontsluit word deur iemand wat baie soos hy of sy lyk, soos 'n identiese broer of suster, of wanneer iemand dit voor jou kind se gesig hou."</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Gesigslot kan vereis dat jou oë oop moet wees om die foon te ontsluit of te verifieer dis jy. Jy kan hierdie opsie enige tyd in Instellings afskakel.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">"'n Bril of sonbril met ligte tint is nie 'n probleem nie."</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">"Dit kan dalk minder veilig wees om die foon met 'n gesig te ontsluit eerder as met 'n sterk patroon of PIN."</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">"Om jou gesig te gebruik om jou foon te ontsluit, is dalk minder veilig as 'n sterk patroon, PIN of wagwoord."</string>
     <string name="security_settings_face_enroll_introduction_info_looking">"As jy na die foon kyk, kan dit ontsluit selfs al het jy nie bedoel om dit te doen nie. Jou foon kan ook ontsluit word deur iemand wat baie soos jy lyk, soos 'n identiese broer of suster, of wanneer iemand dit voor jou gesig hou."</string>
     <string name="security_settings_face_enroll_introduction_info_title">Hou in gedagte</string>
     <string name="security_settings_face_enroll_introduction_message">"Gebruik jou gesig om jou foon te ontsluit of te verifieer dis jy, soos wanneer jy by programme aanmeld of 'n aankoop goedkeur."</string>
@@ -310,6 +318,10 @@ Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel."
     <string name="smart_battery_title">Aanpasbare Battery</string>
     <string name="sound_dashboard_summary">Volume, fisiese terugvoer, Moenie Steur Nie</string>
     <string name="storage_manager_indicator">Slimberging: ^1</string>
+    <string name="suw_warranty_description">Tik op die aankoopland om die waarborg vir hierdie toestel te bekyk.&lt;br /&gt;&lt;br /&gt;Die waarborg is ook beskikbaar by &lt;b&gt;Instellings &gt; %s &gt; Beperkte waarborg&lt;/b&gt; en g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Die beperkte waarborg wat vir jou toestel geld, is ook beskikbaar in toestelinstellings by &lt;b&gt;Settings &gt; %s &gt; Beperkte waarborg&lt;/b&gt; en by g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Volgende</string>
+    <string name="suw_warranty_positive_button_text">Maak toe</string>
     <string name="time_remaining_warning_subtext">Ongeveer %1$s oor gegrond op vorige gebruik</string>
     <string name="time_remaining_warning_text">Battery kan binnekort afloop</string>
     <string name="tips_suggestion_summary">Verken wat jy met jou foon kan doen</string>
@@ -317,6 +329,7 @@ Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel."
     <string name="traffic_light_face_enrolling_title_accessibility">Hou foon voor jou gesig</string>
     <string name="usb_use_file_transfers">Lêeroordrag / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Kleure, ikone met temas, programrooster</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Bekyk of verander OpenRoaming-intekening</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Gekoppel met %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tik om te koppel</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Alertak isilarazteko keinua</string>
     <string name="gesture_skip_title">Saltatu keinua</string>
     <string name="keywords_touch_sensitivity">ukitu, sentikortasuna, sentikorra, pantailaren babesa, filma, moldagarri, moldagarritasun</string>
-    <string name="touch_sensitivity_summary">Ukipenaren erabilera hobetzen du pantaila babesteko osagarria erabiltzean</string>
-    <string name="touch_sensitivity_title">Handitu ukipenaren sentikortasuna</string>
+    <string name="touch_sensitivity_summary">Handitu ukipenaren sentikortasuna eta hobetu ukipena pantaila babesteko osagarri bat erabiltzean</string>
+    <string name="touch_sensitivity_title">Pantaila babesteko osagarriaren modua</string>
     <string name="columbus_title">Ekintzak gauzatzeko sakatze bizkorrak</string>
+    <string name="about_phone">Telefonoari buruz</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Konfiguratu da Active Edge. Joan hurrengo pantailara edo jarraitu aukerak doitzen.</string>
     <string name="accessibility_keyboard_haptics_title">Teklatuaren haptika</string>
     <string name="adaptive_charging">Karga egokitua</string>
@@ -202,6 +203,7 @@ Babeskopiek ez dute eraginik Drive-ko biltegiratze-kuotan. Fitxategiak handiak b
     <string name="keywords_content_capture">eduki-bilketa, aplikazioko edukia, aplikazioetako datuak</string>
     <string name="keywords_gesture">keinuak, mugimenduak</string>
     <string name="keywords_global_actions_panel">txartelak, sarrerak</string>
+    <string name="keywords_limited_warranty">bermea, berme mugatua, promesa, konponketa, konpondu, salgaiak itzultzeko baimena, ordezkapena, ordeztu, ordeztea</string>
     <string name="keywords_live_transcribe">azpitituluak, istanteko azpitituluak, entzumen txarra, entzumen-galera, CART, ordenagailuz lagundutako transkripzioa denbora errealean, ahotsa testu bihurtzea</string>
     <string name="keywords_reverse_charging_stop_threshold">Utzi bateria partekatzeari telefonoaren bateria-maila hona iristean:</string>
     <string name="keywords_select_to_speak">testua entzun, ozen irakurri, pantailan dagoena esan, pantaila-irakurgailua</string>
@@ -213,6 +215,8 @@ Babeskopiek ez dute eraginik Drive-ko biltegiratze-kuotan. Fitxategiak handiak b
     <string name="language_input_gesture_summary_off">Active Edge desaktibatuta</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge aktibatuta</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge aktibatuta. Estutu gailua Laguntzailea atzitzeko.</string>
+    <string name="limited_warranty_introduction">Gailuaren bermea ikusteko, adierazi zein herrialdetan egin zenuen erosketa. g.co/devicewarranty helbidean ere baduzu eskuragarri bermea.</string>
+    <string name="limited_warranty_title">Berme mugatua</string>
     <string name="me_card_title">Nire Pixel gailua</string>
     <string name="my_device_info_account_preference_title">Google-ko kontua</string>
     <string name="owner_info_settings_edit_text_hint">Adibidez, Jonen Pixel gailua.</string>
@@ -255,9 +259,12 @@ Probatzeko, irauli telefonoa."</string>
     <string name="security_settings_face_enroll_education_message">Hurrengo pantailan, biratu burua aurpegiaren angelu guztiak hauteman daitezen</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Hurrengo pantailan, eutsi telefonoari begien parean</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Gainditu da eginbidea konfiguratzeko denbora-muga</string>
-    <string name="security_settings_face_enroll_finish_description">Orain, aurpegia erabil dezakezu telefonoa desblokeatzeko edo zeu zarela egiaztatzeko, hala nola aplikazioetan saioa hastean edo erosketak onartzean</string>
-    <string name="security_settings_face_enroll_finish_title">Dena ongi!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Konfiguratu ikusmena mugatuta edo buruaren mugimendua murriztuta dutenentzat</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Orain, aurpegia erabil dezakezu telefonoa desblokeatzeko edo zeu zarela egiaztatzeko, hala nola aplikazioetan saioa hastean edo erosketak onartzean</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Orain, telefonoa hartzen duzunean edo pantaila sakatzen duzunean, aurpegia erabil dezakezu telefonoa desblokeatzeko.
+
+Behar adina argi dagoenean eta maskararik edo betaurreko ilunik ez daramazunean funtzionatzen du hoberen aurpegi bidez desblokeatzeko eginbideak."</string>
+    <string name="security_settings_face_enroll_finish_title">Dena prest duzu!</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Konfiguratu ikusmena mugatuta edo buruaren mugimendua murriztuta daukatenentzat</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Aurpegi bidez desblokeatzeko, litekeena da telefonoari zuzenago begiratu behar izatea.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Begiak irekita eduki behar dituzu</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Haurrak eta zuk haren aurpegi-eredua ezabatu nahi baduzue edo aurpegi bidez desblokeatzeko eginbidea desaktibatu nahi baduzue, joan Ezarpenak atalera. Ezabatzen dituzuen arte, telefonoan gordeko dira aurpegi-ereduak.
@@ -277,11 +284,12 @@ Aurpegi bidez desblokeatzeko eginbidea erabiltzen duzunean, zure aurpegi-eredua 
     <string name="security_settings_face_enroll_introduction_how_title">Nola funtzionatzen du?</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Baliteke haurrak begiak irekita edukitzeko eskatzea aurpegi bidez desblokeatzeko eginbideak, telefonoa desblokeatze edo hura dela egiaztatze aldera. Ezarpenetan aktiba edo desaktiba dezakezue aukera hori bai zuk, bai haurrak berak.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Haurrak betaurrekoak erabili ohi baditu, konfigurazio-prozesuan jantzita eduki ditzake.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Baliteke haurraren telefonoa desblokeatzeko haren aurpegia erabiltzea ez izatea eredu, PIN edo pasahitz konplexu bat erabiltzea bezain segurua.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefonoari begiratuz gero, baliteke hura desblokeatzea, halako asmorik izan ez arren. Haren antz handia duen norbaitek ere (biki batek, esaterako) desblokea dezake telefonoa, edo telefonoa aurpegiaren parean jartzen badiote.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Baliteke begiak irekita edukitzeko eskatzea aurpegi bidez desblokeatzeko eginbideak, telefonoa desblokeatze edo zeu zarela egiaztatze aldera. Ezarpenetan aktiba edo desaktiba dezakezu aukera hori.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Betaurrekoak jantzita utz daitezke, baita kristalak leunki tindatuta badituzte ere.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonoa aurpegiaren bidez desblokeatzea agian ez da eredu edo PIN konplexuak erabiltzea bezain segurua.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Telefonoari begiratuz gero, baliteke hura desblokeatzea, halako asmorik izan ez arren. Zure antz handia duen norbaitek ere (biki batek, esaterako) desblokea dezake telefonoa, edo telefonoa aurpegiaren parean jartzen badizute.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Baliteke telefonoa aurpegi bidez desblokeatzea ez izatea eredu, PIN edo pasahitz konplexuak erabiltzea bezain segurua</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefonoari begiratuz gero, baliteke hura desblokeatzea, halako asmorik izan ez arren. Halaber, zure antz handia duen norbaitek (biki batek, esaterako) telefonoa desblokea dezake, bai eta telefonoa aurpegiaren parean jartzen badizute ere.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Gogoan izan</string>
     <string name="security_settings_face_enroll_introduction_message">Erabili aurpegia telefonoa desblokeatzeko edo zeu zarela egiaztatzeko, hala nola aplikazioetan saioa hastean edo erosketak onartzean.</string>
     <string name="security_settings_face_enroll_introduction_title">Konfiguratu aurpegi bidez desblokeatzeko eginbidea</string>
@@ -310,6 +318,10 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="sound_dashboard_summary">Bolumena, haptika, Ez molestatu</string>
     <string name="sound_settings">Soinua eta dardara</string>
     <string name="storage_manager_indicator">Biltegi adimenduna: ^1</string>
+    <string name="suw_warranty_description">Sakatu gailua erosi zenuen herrialdearen izena gailuaren bermea ikusteko.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Ezarpenak &gt; %s &gt; Berme mugatua&lt;/b&gt; atalean eta g.co/devicewarranty helbidean ere ikus dezakezu.</string>
+    <string name="suw_warranty_language_consistent_description">Gailuaren berme mugatua gailuko &lt;b&gt;Ezarpenak &gt; %s &gt; Berme mugatua&lt;/b&gt; atalean eta g.co/devicewarranty helbidean ere ikus dezakezu.</string>
+    <string name="suw_warranty_next_button_text">Hurrengoa</string>
+    <string name="suw_warranty_positive_button_text">Itxi</string>
     <string name="time_remaining_warning_subtext">%1$s inguru gelditzen dira, erabileraren arabera</string>
     <string name="time_remaining_warning_text">Laster agortuko da bateria</string>
     <string name="tips_suggestion_summary">Ikusi zer egin dezakezun telefonoarekin</string>
@@ -317,6 +329,7 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="traffic_light_face_enrolling_title_accessibility">Eutsi telefonoari aurpegiaren aurrean</string>
     <string name="usb_use_file_transfers">Fitxategi-transferentzia / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Koloreak, ikono gaidunak, aplikazioen sareta</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Ikusi edo aldatu OpenRoaming-eko harpidetza</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s autentifikatzailearekin konektatuta</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Sakatu konektatzeko</string>

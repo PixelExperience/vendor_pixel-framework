@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">გაფრთხილებების გაჩუმების ჟესტი</string>
     <string name="gesture_skip_title">ჟესტის გამოტოვება</string>
     <string name="keywords_touch_sensitivity">შეხება, მგრძნობიარობა, სენსიტიური, ეკრანის დამცავი, ფირი, რეაგირებადი, რეაგირება</string>
-    <string name="touch_sensitivity_summary">აუმჯობესებს შეხებას ეკრანის დამცავის გამოყენებისას</string>
-    <string name="touch_sensitivity_title">აუმჯობესებს შეხების მგრძნობიარობას</string>
+    <string name="touch_sensitivity_summary">გაზარდეთ შეხების მგრძნობიარობა და გააუმჯობესეთ შეხება, როცა ეკრანის დამცავს იყენებთ</string>
+    <string name="touch_sensitivity_title">ეკრანის დამცავის რეჟიმი</string>
     <string name="columbus_title">სწრაფად შეეხეთ მოქმედებების დასაწყებად</string>
+    <string name="about_phone">ტელეფონის შესახებ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge დაყენებულია. გადადით მომდევნო ეკრანზე ან განაგრძეთ დარეგულირება.</string>
     <string name="accessibility_keyboard_haptics_title">კლავიატურის შეხებისადმი მგრძნობელობა</string>
     <string name="adaptive_charging">ადაპტირებადი დატენვა</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">კონტენტის აღბეჭდვა, აპების კონტენტი, აპების მონაცემები</string>
     <string name="keywords_gesture">ჟესტები, მოძრაობები</string>
     <string name="keywords_global_actions_panel">ბარათები, საშვები</string>
+    <string name="keywords_limited_warranty">გარანტია, გარანტიის მიცემა, შეზღუდული გარანტია, პირობა, შეკეთება, RMA, ჩანაცვლება</string>
     <string name="keywords_live_transcribe">სუბტიტრები, დახურული სუბტიტრები, დახ. სუბტ., ავტოსუბტიტრები, სმენადაქვეითებული, სმენის დაკარგვა, კომუნიკაციური წვდომის მომსახურება რეალურ დროში (CART), მეტყველების გარდაქმნა ტექსტად, სუბტიტრი</string>
     <string name="keywords_reverse_charging_stop_threshold">შეწყდეს ბატარეის გაზიარება, როდესაც ტელეფონი მიაღწევს:</string>
     <string name="keywords_select_to_speak">ტექსტის მოსმენა, ხმამაღლა წაკითხვა, ეკრანის გახმოვანება, ეკრანის წამკითხველი</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge გამორთულია</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ჩართულია</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ჩართულია, მოუჭირეთ ასისტენტთან სასაუბროდ</string>
+    <string name="limited_warranty_introduction">შეხებით აირჩიეთ შეძენის ქვეყანა ამ მოწყობილობის გარანტიის სანახავად. გარანტია ასევე ხელმისაწვდომია აქ: g.co/devicewarranty</string>
+    <string name="limited_warranty_title">შეზღუდული გარანტია</string>
     <string name="me_card_title">ჩემი Pixel</string>
     <string name="my_device_info_account_preference_title">Google ანგარიში</string>
     <string name="owner_info_settings_edit_text_hint">მაგ., ნიკას Pixel.</string>
@@ -255,7 +259,10 @@
     <string name="security_settings_face_enroll_education_message">შემდეგ ეკრანზე შეატრიალეთ თავი, რომ სახე ყველა კუთხიდან გადაიღოთ</string>
     <string name="security_settings_face_enroll_education_message_accessibility">მომდევნო ეკრანზე ტელეფონი სახესთან, თვალების დონეზე მიიტანეთ</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">სახით განბლოკვის დაყენებამ ლოდინის დროს გადააჭარბა</string>
-    <string name="security_settings_face_enroll_finish_description">ახლა უკვე შეგიძლიათ სახის გამოყენება ტელეფონის განსაბლოკად ან ვინაობის დასადასტურებლად, ისეთ შემთხვევებში, როცა აპებში შედიხართ ან შენაძენს ადასტურებთ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ახლა უკვე შეგიძლიათ სახის გამოყენება ტელეფონის განსაბლოკად ან ვინაობის დასადასტურებლად, ისეთ შემთხვევებში, როცა აპებში შედიხართ ან შენაძენს ადასტურებთ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ახლა, როცა ხელში აიღებთ თქვენს ტელეფონს ან შეეხებით ეკრანს, განსაბლოკად შეგიძლიათ სახის გამოყენება.
+
+სახით განბლოკვა საუკეთესო საშუალებაა, როცა საკმარისი განათებაა და არ გიკეთიათ ნიღაბი ან მზის სათვალე."</string>
     <string name="security_settings_face_enroll_finish_title">ყველაფერი რიგზეა!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">დაყენება შეზღუდული მხედველ/ თავის მოძრაობით</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">სახით განბლოკვის გამოყენებისას, შესაძლოა დაგჭირდეთ, სახე ტელეფონს უფრო მეტად უსწოროთ.</string>
@@ -277,10 +284,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">მუშაობის პრინციპი</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">სახით განბლოკვამ, ტელეფონის განსაბლოკად ან იმის დადასტურებლად, რომ ნამდვილად ის არის, შეიძლება მოითხოვოს, რომ თქვენს ბავშვს თვალები გახელილი ჰქონდეს. თქვენ და თქვენს ბავშვს ამ ვარიანტის ჩართვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">თუ თქვენი ბავშვი, ჩვეულებრივ, სათვალეს ატარებს, მას სახით ამოცნობის დაყენების დროსაც შეუძლია მისი გამოყენება.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">თქვენი ბავშვის სახის გამოყენება მისი მოწყობილობის განსაბლოკად შეიძლება ნაკლებად უსაფრთხო იყოს, ვიდრე სანდო ნიმუშის, PIN-კოდის ან პაროლის გამოყენება</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">ტელეფონზე დახედვისასაც შეიძლება განიბლოკოს ის, თუნდაც ამის განზრახვა არ ჰქონდეს ადამიანს. მისი ტელეფონის განბლოკვა შეუძლია სხვასაც, ვინც ტყუპისცალივით ჰგავს მას, ან იმ შემთხვევაში, თუ ვინმე სახესთან მიუტანს ტელეფონს.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">სახით განბლოკვამ, ტელეფონის განსაბლოკად ან იმის დადასტურებლად, რომ ნამდვილად თქვენ ხართ, შეიძლება მოითხოვოს, რომ თვალები გახელილი გქონდეთ. ამ ვარიანტის ჩართვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">სათვალე ან მკრთალად შეფერილი მზის სათვალე დასაშვებია.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ტელეფონის განსაბლოკად სახის გამოყენება შეიძლება ნაკლებად უსაფრთხო იყოს, ვიდრე მძლავრი განმბლოკავი ნიმუში ან PIN-კოდი.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">სახით განბლოკვა, შესაძლოა, ძლიერ ნიმუშზე, PIN კოდსა და პაროლზე ნაკლებად დაცული იყოს.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">ტელეფონზე შეხედვას შეუძლია განბლოკოს ის, თუნდაც ამის განზრახვა არ გქონდეთ. თქვენი ტელეფონის განბლოკვა შეუძლია ისეთ პირსაც, რომელიც ძალიან გგავთ, მაგალითად, იდენტურ დას ან ძმას, ან თუ ვინმე ტელეფონს თქვენს სახეთან დაიჭერს.</string>
     <string name="security_settings_face_enroll_introduction_info_title">გაითვალისწინეთ</string>
     <string name="security_settings_face_enroll_introduction_message">გამოიყენეთ სახე ტელეფონის განბლოკვისას ან ვინაობის დადასტურებისას, ისეთ შემთხვევებში, როცა აპებში შედიხართ ან შენაძენს ადასტურებთ.</string>
@@ -309,6 +317,10 @@
     <string name="smart_battery_title">ადაპტაციური ბატარეა</string>
     <string name="sound_dashboard_summary">ხმის სიმძლავრე, შეხებისადმი მგრძნობელობა, არ შემაწუხოთ</string>
     <string name="storage_manager_indicator">გონიერი მეხსიერება: ^1</string>
+    <string name="suw_warranty_description">შეეხეთ შესყიდვის ქვეყანას ამ მოწყობილობის გარანტიის სანახავად.&lt;br /&gt;&lt;br /&gt;გარანტია ხელმისაწვდომია აქ: &lt;b&gt;პარამეტრები &gt; %s &gt; შეზღუდული გარანტია&lt;/b&gt; და მისამართზე g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">თქვენს მოწყობილობაზე მოქმედი შეზღუდული გარანტია ხელმისაწვდომია მოწყობილობის პარამეტრებში აქ: &lt;b&gt;პარამეტრები &gt; %s &gt; შეზღუდული გარანტია&lt;/b&gt; და მისამართზე g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">შემდეგ</string>
+    <string name="suw_warranty_positive_button_text">დახურვა</string>
     <string name="time_remaining_warning_subtext">დარჩა დაახლოებით %1$s, ბატარეის წარსული მოხმარების გათვალისწინებით</string>
     <string name="time_remaining_warning_text">ბატარეა შესაძლოა მალე ამოიწუროს</string>
     <string name="tips_suggestion_summary">გაეცანით, რის საშუალებას გაძლევთ ტელეფონი</string>
@@ -316,6 +328,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">დაიჭირეთ ტელეფონი სახის პირისპირ</string>
     <string name="usb_use_file_transfers">ფაილის გადატანა / Android Auto</string>
     <string name="wallpaper_dashboard_summary">ფერები, თემატური ხატულები, აპების ბადე</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming გამოწერის ნახვა ან შეცვლა</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">დაკავშირებულია %1$s-თან</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">შეეხეთ დასაკავშირებლად</string>

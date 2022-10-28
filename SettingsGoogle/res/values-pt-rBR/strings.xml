@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gesto de silenciar alertas</string>
     <string name="gesture_skip_title">Gesto de pular</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de tela, filme, responsivo, responsividade</string>
-    <string name="touch_sensitivity_summary">Melhora o toque ao usar uma película</string>
-    <string name="touch_sensitivity_title">Aumentar a sensibilidade ao toque</string>
+    <string name="touch_sensitivity_summary">Aumente a sensibilidade do toque para que ele fique melhor ao usar uma película</string>
+    <string name="touch_sensitivity_title">Modo película</string>
     <string name="columbus_title">Toque rapidamente para iniciar as ações</string>
+    <string name="about_phone">Sobre o dispositivo</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge configurado. Vá para a próxima tela ou continue com os ajustes.</string>
     <string name="accessibility_keyboard_haptics_title">Retorno tátil do teclado</string>
     <string name="adaptive_charging">Carregamento adaptável</string>
@@ -202,6 +203,7 @@ Dados de backup não afetam sua cota de armazenamento do Google Drive. Arquivos 
     <string name="keywords_content_capture">captura de conteúdo, conteúdo do app, dados do app</string>
     <string name="keywords_gesture">gesto, movimentos</string>
     <string name="keywords_global_actions_panel">cartões, passes</string>
+    <string name="keywords_limited_warranty">garantia, garantia limitada, promessa, reparo, adm, substituição</string>
     <string name="keywords_live_transcribe">Legendas, closed captions, CC, Legenda instantânea, deficiência auditiva, perda auditiva, legenda ao vivo, voz em texto</string>
     <string name="keywords_reverse_charging_stop_threshold">Parar de compartilhar bateria quando o smartphone chegar a:</string>
     <string name="keywords_select_to_speak">Ouvir texto, ler em voz alta, ler a tela, leitor de tela</string>
@@ -213,6 +215,8 @@ Dados de backup não afetam sua cota de armazenamento do Google Drive. Arquivos 
     <string name="language_input_gesture_summary_off">Active Edge desativado</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ativado</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ativado, apertar para abrir o Assistente</string>
+    <string name="limited_warranty_introduction">Toque no país da compra para consultar a garantia deste dispositivo. A garantia também está disponível em g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garantia limitada</string>
     <string name="me_card_title">Meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta do Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel do João.</string>
@@ -256,9 +260,12 @@ Vire o smartphone para testar."</string>
     <string name="security_settings_face_enroll_education_message">Na próxima tela, vire a cabeça para capturar todos os ângulos do seu rosto</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Na próxima tela, segure o smartphone na altura dos olhos</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">A configuração do Desbloqueio facial expirou</string>
-    <string name="security_settings_face_enroll_finish_description">Agora, você pode usar seu rosto para desbloquear o smartphone ou confirmar sua identidade, como ao fazer login em apps ou aprovar uma compra</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Agora, você pode usar seu rosto para desbloquear o smartphone ou confirmar sua identidade, como ao fazer login em apps ou aprovar uma compra</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Agora, você pode usar seu rosto para desbloquear o smartphone depois de pegar o dispositivo ou tocar na tela dele.
+
+O Desbloqueio facial funciona melhor quando há luz suficiente e você não está usando máscara ou óculos escuros."</string>
     <string name="security_settings_face_enroll_finish_title">Tudo certo!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Configurar p/ visão ou mov. limitados</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Visão ou movimentos limitados</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Quando você estiver usando o Desbloqueio facial, pode ser necessário que sua cabeça fique mais diretamente na frente do smartphone.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Exigir olhos abertos</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Você e a criança podem excluir o modelo de rosto dela ou desativar o Desbloqueio facial a qualquer momento nas Configurações. Os modelos de rosto ficam armazenados no smartphone até serem excluídos.
@@ -278,10 +285,11 @@ Quando você utiliza o Desbloqueio facial, as imagens são usadas para atualizar
     <string name="security_settings_face_enroll_introduction_how_title">Como funciona</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">O Desbloqueio facial pode exigir que os olhos da criança estejam abertos para desbloquear o smartphone ou para confirmar a identidade dela. Você e a criança podem ativar essa opção a qualquer momento nas Configurações.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se a criança normalmente usa óculos, ela pode usá-los durante a configuração.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Usar o rosto da criança para desbloquear o smartphone pode ser menos seguro do que um padrão, um PIN ou uma senha fortes</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Olhar para o smartphone pode desbloqueá-lo mesmo que essa não seja a intenção dela. O smartphone também pode ser desbloqueado por alguém que se pareça muito com a criança, como um gêmeo idêntico, ou se alguém o segurar perto do rosto dela.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">O Desbloqueio facial pode exigir que seus olhos estejam abertos para desbloquear o smartphone ou para confirmar sua identidade. Ative essa opção a qualquer momento nas Configurações.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Óculos de grau ou óculos de sol com lentes claras são permitidos.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">O uso do rosto para desbloquear o smartphone pode ser menos seguro que um padrão ou PIN fortes.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">O uso do rosto para desbloquear o smartphone pode ser menos seguro que um padrão, PIN ou senha forte.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Olhar para o smartphone pode desbloqueá-lo mesmo que essa não seja sua intenção. O dispositivo também pode ser desbloqueado por alguém que se pareça muito com você, como um gêmeo idêntico, ou ao ser virado para seu rosto.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Lembre-se</string>
     <string name="security_settings_face_enroll_introduction_message">Use seu rosto para desbloquear o smartphone ou confirmar sua identidade, como ao fazer login em apps ou aprovar uma compra.</string>
@@ -311,6 +319,10 @@ Para melhorar o desempenho, você pode configurar o Desbloqueio facial novamente
     <string name="smart_battery_title">Bateria adaptável</string>
     <string name="sound_dashboard_summary">Volume, retorno tátil, Não perturbe</string>
     <string name="storage_manager_indicator">Armazenamento inteligente: ^1</string>
+    <string name="suw_warranty_description">Toque no país da compra para ver a garantia deste dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Configurações &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">A garantia limitada aplicável ao seu dispositivo também está disponível em &lt;b&gt;Configurações &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Próxima</string>
+    <string name="suw_warranty_positive_button_text">Fechar</string>
     <string name="time_remaining_warning_subtext">Aproximadamente %1$s restantes com base no histórico de uso</string>
     <string name="time_remaining_warning_text">A bateria pode acabar em breve</string>
     <string name="tips_suggestion_summary">Veja o que fazer com o smartphone</string>
@@ -318,6 +330,7 @@ Para melhorar o desempenho, você pode configurar o Desbloqueio facial novamente
     <string name="traffic_light_face_enrolling_title_accessibility">Segure o smartphone na frente do seu rosto</string>
     <string name="usb_use_file_transfers">Transferência de arquivo/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Cores, ícones com tema, grade de apps</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Ver ou mudar inscrição de OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Conectado a %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Toque para conectar</string>

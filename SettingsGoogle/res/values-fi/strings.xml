@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Ilmoitusten vaimennusele</string>
     <string name="gesture_skip_title">Ohitusele</string>
     <string name="keywords_touch_sensitivity">kosketus, herkkyys, herkkä, näytön suojakalvo, reagoiva, reagoivuus</string>
-    <string name="touch_sensitivity_summary">Parantaa kosketuksen toimintaa näyttösuojusten kanssa</string>
-    <string name="touch_sensitivity_title">Lisää kosketusherkkyyttä</string>
+    <string name="touch_sensitivity_summary">Lisää kosketuksen herkkyyttä ja paranna kosketuskäyttöä, kun näytönsuojus on käytössä</string>
+    <string name="touch_sensitivity_title">Näytönsuojustila</string>
     <string name="columbus_title">Käynnistä toimintoja pikanäpäytyksellä</string>
+    <string name="about_phone">Tietoa puhelimesta</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge on määritetty. Siirry seuraavalle näytölle tai säädä ominaisuutta lisää.</string>
     <string name="accessibility_keyboard_haptics_title">Näppäimistön haptinen palaute</string>
     <string name="adaptive_charging">Mukautuva lataus</string>
@@ -202,6 +203,7 @@ Varmuuskopioita ei vähennetä Drive-tallennustilan kiintiöstäsi. Suuria ja ke
     <string name="keywords_content_capture">sisällön tallennus, sovelluksen sisältö, sovellusdata</string>
     <string name="keywords_gesture">ele, liikkeet</string>
     <string name="keywords_global_actions_panel">kortit</string>
+    <string name="keywords_limited_warranty">takuu, rajoitettu takuu, lupaus, korjaus, tuotepalautusvaltuutus, vaihto</string>
     <string name="keywords_live_transcribe">Tekstitykset, videotekstitykset, Livetekstitys, huonokuuloinen, kuulon heikkeneminen, CART, puheesta tekstiksi, tekstitys</string>
     <string name="keywords_reverse_charging_stop_threshold">Lopeta virran jakaminen, kun puhelimen akun varaus on</string>
     <string name="keywords_select_to_speak">Kuuntele tekstiä, lue ääneen, puhu näytölle, näytönlukuohjelma</string>
@@ -213,6 +215,8 @@ Varmuuskopioita ei vähennetä Drive-tallennustilan kiintiöstäsi. Suuria ja ke
     <string name="language_input_gesture_summary_off">Active Edge pois käytöstä</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge käytössä</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge käytössä, aktivoi Assistant puristamalla</string>
+    <string name="limited_warranty_introduction">Valitse ostomaa, niin näet laitteen takuun. Takuu on saatavilla myös osoitteessa g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Rajoitettu takuu</string>
     <string name="me_card_title">Oma Pixel</string>
     <string name="my_device_info_account_preference_title">Google-tili</string>
     <string name="owner_info_settings_edit_text_hint">Esim. Rikun Pixel</string>
@@ -257,7 +261,10 @@ Kokeile kääntämällä puhelin ympäri."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Seuraavassa näytössä pidä puhelinta silmien korkeudella</string>
     <string name="security_settings_face_enroll_error_dialog_title">Käyttöönotto ei ole valmis</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Kasvojentunnistusavauksen käyttöönotto katkaistiin</string>
-    <string name="security_settings_face_enroll_finish_description">Voit nyt käyttää kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Voit nyt käyttää kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Voit nyt avata puhelimen lukituksen kasvoillasi, kun nostat sen tai napautat sen näyttöä.
+
+Kasvojentunnistusavaus toimii parhaiten, kun ympäristö on sopivan valoisa eikä kasvoillasi ole maskia tai tummia laseja."</string>
     <string name="security_settings_face_enroll_finish_title">Hyvältä näyttää!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Näkö- tai päänliikerajoitukset</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kasvojentunnistusavauksen käyttö voi edellyttää, että pää on suoremmin puhelimen edessä.</string>
@@ -279,10 +286,11 @@ Kun käytät kasvojentunnistusavausta, kuvia käytetään kasvomallin päivittä
     <string name="security_settings_face_enroll_introduction_how_title">Näin se toimii</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Kasvojentunnistusavaus saattaa edellyttää, että lapsesi silmät ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Sinä ja lapsesi voitte laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jos lapsi käyttää yleensä silmälaseja, hän voi käyttää niitä myös käyttöönoton aikana.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Puhelimen lukituksen avaaminen lapsen kasvojen avulla ei ehkä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttö</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Puhelimen katsominen voi avata sen lukituksen lapsen haluamatta. Joku muu voi myös avata lapsesi puhelimen lukituksen, jos hän näyttää lapselta (esim. identtinen kaksonen) tai pitää laitetta tämän kasvojen edessä.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Kasvojentunnistusavaus saattaa edellyttää, että silmäsi ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Voit laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Silmälasit tai kevyesti sävytetyt aurinkolasit eivät haittaa.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Puhelimen avaaminen kasvojen avulla voi olla vähemmän turvallista kuin vahvan kuvion tai PIN-koodin käyttö.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Puhelimen lukituksen avaaminen kasvoilla ei välttämättä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttäminen</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Puhelimen katsominen voi avata sen lukituksen haluamattasi. Joku muu voi myös avata puhelimesi lukituksen, jos hän näyttää sinulta (esim. identtinen kaksonen) ta pitää laitetta kasvojesi edessä.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Hyvä muistaa</string>
     <string name="security_settings_face_enroll_introduction_message">Käytä kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen.</string>
@@ -311,6 +319,10 @@ Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uude
     <string name="smart_battery_title">Mukautuva virta</string>
     <string name="sound_dashboard_summary">Äänenvoimakkuus, haptinen palaute, Älä häiritse</string>
     <string name="storage_manager_indicator">Älykäs tallennustila: ^1</string>
+    <string name="suw_warranty_description">Näet laitteen takuun valitsemalla ostomaan.&lt;br /&gt;&lt;br /&gt;Näet takuun myös, kun valitset &lt;b&gt;Asetukset &gt; %s &gt; Rajoitettu takuu&lt;/b&gt; ja osoitteessa g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Näet laitteen rajoitetun takuun myös, kun valitset &lt;b&gt;Asetukset &gt; %s &gt; Rajoitettu takuu&lt;/b&gt; ja osoitteessa g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Seuraava</string>
+    <string name="suw_warranty_positive_button_text">Sulje</string>
     <string name="time_remaining_warning_subtext">Noin %1$s jäljellä aiemman käytön perusteella</string>
     <string name="time_remaining_warning_text">Akku voi loppua pian.</string>
     <string name="tips_suggestion_summary">Tutki, mitä voit tehdä puhelimellasi</string>
@@ -318,6 +330,7 @@ Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uude
     <string name="traffic_light_face_enrolling_title_accessibility">Pidä puhelinta kasvojesi edessä</string>
     <string name="usb_use_file_transfers">Tiedostonsiirto / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Värit, kuvakkeiden teemat, sovellusruudukko</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Katso tai muuta OpenRoaming-tilausta</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s on yhdistetty</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Yhdistä napauttamalla</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Įspėjimų nutildymo gestas</string>
     <string name="gesture_skip_title">Praleisti gestą</string>
     <string name="keywords_touch_sensitivity">palietimas, jautrumas, jautrus, ekrano apsaugos priemonė, plėvelė, reaguojantis, reagavimas</string>
-    <string name="touch_sensitivity_summary">Naudojant ekrano apsaugos priemones padidinamas palietimo jautrumas</string>
-    <string name="touch_sensitivity_title">Palietimo jautrumo padidinimas</string>
+    <string name="touch_sensitivity_summary">Padidinkite palietimo jautrumą ir pagerinkite atsaką į palietimą, kai naudojate apsauginį ekrano stiklą</string>
+    <string name="touch_sensitivity_title">Apsauginio ekrano stiklo režimas</string>
     <string name="columbus_title">Veiksmų pradžia naudojant „Quick Tap“</string>
+    <string name="about_phone">Apie telefoną</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">„Active Edge“ nustatytas. Eikite į kitą ekraną arba koreguokite toliau.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviatūros lietimo technologija</string>
     <string name="adaptive_charging">Prisitaikantis įkrovimas</string>
@@ -202,6 +203,7 @@ Atsarginių kopijų duomenys nebus įtraukti skaičiuojant Disko saugyklos kvot�
     <string name="keywords_content_capture">turinio fiksavimas, programos turinys, programos duomenys</string>
     <string name="keywords_gesture">gestas, veiksmai</string>
     <string name="keywords_global_actions_panel">kortelės, pasai</string>
+    <string name="keywords_limited_warranty">garantija, garantijos, ribota garantija, įsipareigojimas, taisymas, gpl, pakeitimas</string>
     <string name="keywords_live_transcribe">Subtitrai, CC, subtitrai realiuoju laiku, neprigirdintis asmuo, klausos sutrikimai, CART, kalba į tekstą, titrai</string>
     <string name="keywords_reverse_charging_stop_threshold">Nebebendrinti akumuliatoriaus telefonui pasiekus:</string>
     <string name="keywords_select_to_speak">Išgirsti tekstą, skaityti garsiai, kalbantis ekranas, ekrano skaitytuvas</string>
@@ -213,6 +215,8 @@ Atsarginių kopijų duomenys nebus įtraukti skaičiuojant Disko saugyklos kvot�
     <string name="language_input_gesture_summary_off">„Active Edge“ išjungtas</string>
     <string name="language_input_gesture_summary_on_non_assist">„Active Edge“ įjungtas</string>
     <string name="language_input_gesture_summary_on_with_assist">„Active Edge“ įjungtas, suspauskite ir įjunkite Padėjėją</string>
+    <string name="limited_warranty_introduction">Palieskite šalį, kurioje įsigijote įrenginį, ir peržiūrėkite šio įrenginio garantiją. Garantija taip pat pasiekiama adresu g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ribota garantija</string>
     <string name="me_card_title">Mano „Pixel“ įrenginys</string>
     <string name="my_device_info_account_preference_title">„Google“ paskyra</string>
     <string name="owner_info_settings_edit_text_hint">Pvz., Jurgio „Pixel“ įrenginys.</string>
@@ -255,7 +259,10 @@ Norėdami pabandyti, apverskite telefoną."</string>
     <string name="security_settings_face_enroll_education_message">Kitame ekrane sukinėkite galvą, kad užfiksuotumėte veidą visais kampais</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Kitame ekrane laikykite telefoną akių lygyje</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Baigėsi atrakinimo pagal veidą nustatymo skirtasis laikas</string>
-    <string name="security_settings_face_enroll_finish_description">Dabar galite naudoti veidą, kad atrakintumėte telefoną ar patvirtintumėte savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Dabar galite naudoti veidą, kad atrakintumėte telefoną ar patvirtintumėte savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Dabar paėmę telefoną ar palietę ekraną galite jį atrakinti pagal veidą.
+
+Atrakinimas pagal veidą geriausiai veikia, kai yra tinkamas apšvietimas ir nedėvite kaukės ar tamsių akinių."</string>
     <string name="security_settings_face_enroll_finish_title">Viskas gerai!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nust. esant ribotam regėj. ar galvos judes.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Naudojant atrakinimą pagal veidą, galva turi būti laikoma tiesiai priešais telefoną.</string>
@@ -277,10 +284,11 @@ Naudojant atrakinimą pagal veidą vaizdai naudojami jūsų veido modeliui atnau
     <string name="security_settings_face_enroll_introduction_how_title">Kaip tai veikia</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Atrakinimo pagal veidą funkcijai gali reikėti, jog vaikas būtų atsimerkęs, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai vaikas nori naudotis telefonu. Jūs ir jūsų vaikas bet kada galite ištrinti šią parinktį skiltyje „Nustatymai“.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jei vaikas įprastai nešioja akinius, nustatydamas jis gali juos užsidėti.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Atrakinant telefoną vaiko veidu gali būti ne taip saugu kaip naudojant sudėtingą atrakinimo piešinį, PIN kodą ar slaptažodį</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Žiūrint į telefoną galima jį atrakinti net neketinant to daryti. Be to, telefoną gali atrakinti į vaiką labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną vaikui prie veido.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Atrakinimo pagal veidą funkcijai gali reikėti, jog būtumėte atsimerkę, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai jūs. Bet kada galite įjungti šią parinktį skiltyje „Nustatymai“.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Akiniai arba neryškaus atspalvio akiniai nuo saulės netrukdys.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefono atrakinimas naudojant veido atpažinimo funkciją gali būti mažiau saugus nei naudojant stiprų atrakinimo piešinį ar PIN kodą.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefono atrakinimo pagal veidą metodas gali būti ne toks saugus kaip sudėtingas atrakinimo piešinys, PIN kodas ar slaptažodis</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Žiūrėdami į telefoną galite jį atrakinti net neketindami to daryti. Be to, telefoną gali atrakinti į jus labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną jums prie veido.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Atminkite</string>
     <string name="security_settings_face_enroll_introduction_message">Naudodami atrakinimą pagal veidą atrakinkite telefoną ar patvirtinkite savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį.</string>
@@ -309,6 +317,10 @@ Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti a
     <string name="smart_battery_title">Prisitaikantis akum.</string>
     <string name="sound_dashboard_summary">Garsumas, lietimo technologija, netrukdymo režimas</string>
     <string name="storage_manager_indicator">Išmanioji saugykla: ^1</string>
+    <string name="suw_warranty_description">Palieskite šalį, kurioje įsigijote įrenginį, ir peržiūrėkite šio įrenginio garantiją.&lt;br /&gt;&lt;br /&gt;Garantija taip pat pasiekiama skiltyje &lt;b&gt;„Nustatymai“ &gt; „%s“ &gt; „Ribota garantija“&lt;/b&gt; ir adresu g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Jūsų įrenginiui taikoma garantija taip pat pasiekiama įrenginio nustatymų skiltyje &lt;b&gt;„Nustatymai“ &gt; „%s“ &gt; „Ribota garantija“&lt;/b&gt; ir adresu g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Kitas</string>
+    <string name="suw_warranty_positive_button_text">Uždaryti</string>
     <string name="time_remaining_warning_subtext">Remiantis tuo, kaip įrenginys buvo naudojamas anksčiau, liko maždaug %1$s</string>
     <string name="time_remaining_warning_text">Akumuliatoriaus energija gali netrukus išsekti</string>
     <string name="tips_suggestion_summary">Sužinokite, ką galite atlikti telefonu</string>
@@ -316,6 +328,7 @@ Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti a
     <string name="traffic_light_face_enrolling_title_accessibility">Laikykite telefoną prieš save</string>
     <string name="usb_use_file_transfers">Failų perkėlimas / „Android Auto“</string>
     <string name="wallpaper_dashboard_summary">Spalvos, teminės piktogramos, programų tinklelis</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">„OpenRoaming“ prenumeratos peržiūra arba keitimas</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Prisijungta naudojant „%1$s“</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Palieskite, kad prisijungtumėte</string>

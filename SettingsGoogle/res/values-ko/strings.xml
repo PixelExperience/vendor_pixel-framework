@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">알림 무음 설정 동작</string>
     <string name="gesture_skip_title">동작 건너뛰기</string>
     <string name="keywords_touch_sensitivity">터치, 민감도, 민감한, 화면 보호 필름, 필름, 반응성, 반응 속도</string>
-    <string name="touch_sensitivity_summary">화면 보호재 사용 시 터치 반응 개선</string>
-    <string name="touch_sensitivity_title">터치 민감도 향상</string>
+    <string name="touch_sensitivity_summary">화면 보호재 사용 시 터치 감도 향상 및 터치 개선</string>
+    <string name="touch_sensitivity_title">화면 보호재 모드</string>
     <string name="columbus_title">더블 탭하여 작업 시작하기</string>
+    <string name="about_phone">휴대전화 정보</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge가 설정되었습니다. 다음 화면으로 이동하거나 조정을 계속하세요.</string>
     <string name="accessibility_keyboard_haptics_title">키보드 햅틱 반응</string>
     <string name="adaptive_charging">자동 조절 충전</string>
@@ -201,6 +202,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="keywords_content_capture">콘텐츠 캡처, 앱 콘텐츠, 앱 데이터</string>
     <string name="keywords_gesture">동작, 빠른 동작</string>
     <string name="keywords_global_actions_panel">카드, 패스</string>
+    <string name="keywords_limited_warranty">보증, 보장, 한정 보증, 약속, 수리, RMA, 교환</string>
     <string name="keywords_live_transcribe">캡션, 폐쇄 자막, CC, 실시간 자막, 난청, 청력 손실, CART, 음성 텍스트 변환, 자막</string>
     <string name="keywords_reverse_charging_stop_threshold">배터리 공유를 중지할 휴대전화 배터리 잔량:</string>
     <string name="keywords_select_to_speak">텍스트 듣기, 소리 내 읽기, 화면 읽기, 스크린 리더</string>
@@ -212,6 +214,8 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="language_input_gesture_summary_off">Active Edge 사용 중지됨</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge 사용 설정됨</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge 사용 설정됨, 휴대전화를 쥐어서 어시스턴트 부르기</string>
+    <string name="limited_warranty_introduction">이 기기의 보증 정보를 보려면 기기를 구매한 국가를 탭하세요. g.co/devicewarranty에서도 보증 정보를 볼 수 있습니다.</string>
+    <string name="limited_warranty_title">한정 보증</string>
     <string name="me_card_title">내 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 계정</string>
     <string name="owner_info_settings_edit_text_hint">예: 수지의 Pixel</string>
@@ -256,7 +260,10 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="security_settings_face_enroll_error_dialog_title">등록이 완료되지 않음</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">얼굴 등록 시간제한이 초과되었습니다. 다시 시도해 보세요.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">얼굴 인식 잠금 해제 설정 시간 초과</string>
-    <string name="security_settings_face_enroll_finish_description">이제 얼굴 인식을 사용하여 휴대전화를 잠금 해제하거나 앱 로그인, 구매 승인 등을 위해 본인을 인증할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">이제 얼굴 인식을 사용하여 휴대전화를 잠금 해제하거나 앱 로그인, 구매 승인 등을 위해 본인 인증을 진행할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"이제 휴대전화를 들어 올리거나 화면을 탭하면 얼굴 인식을 사용해 잠금 해제할 수 있습니다.
+
+얼굴 인식 잠금 해제 기능은 주변이 밝고 마스크 또는 렌즈에 색이 들어간 안경을 쓰고 있지 않아야 잘 작동합니다."</string>
     <string name="security_settings_face_enroll_finish_title">좋아요!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">시력이 약하거나 고개 움직임이 제한된 경우의 설정</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">얼굴 인식 잠금 해제를 사용할 때 휴대전화가 더욱 확실하게 얼굴 정면을 향하도록 두어야 할 수도 있습니다.</string>
@@ -278,10 +285,11 @@ g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="security_settings_face_enroll_introduction_how_title">작동 방식</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 자녀에게 눈을 뜨도록 요구할 수 있습니다. 부모와 자녀가 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">평소 자녀가 안경을 쓰는 경우 설정 중 안경을 착용할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">자녀의 얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안 취약할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">자녀가 휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 자녀와 닮은 사람이 자녀의 휴대전화 잠금을 해제하거나 다른 사람이 자녀의 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 눈을 뜨도록 요구할 수 있습니다. 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">안경이나 옅은 색의 선글라스는 괜찮습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">얼굴 인식을 사용하여 휴대전화를 잠금 해제하는 것은 강력한 패턴이나 PIN보다 보안 강도가 떨어질 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안이 취약할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 나와 닮은 사람이 휴대전화의 잠금을 해제하거나 다른 사람이 내 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_title">주의사항</string>
     <string name="security_settings_face_enroll_introduction_message">얼굴 인식을 사용하여 휴대전화를 잠금 해제하거나 앱 로그인, 구매 승인 등을 위해 본인을 인증하세요.</string>
@@ -310,13 +318,18 @@ g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="smart_battery_title">배터리 자동 조절</string>
     <string name="sound_dashboard_summary">볼륨, 햅틱, 방해 금지 모드</string>
     <string name="storage_manager_indicator">스마트 저장용량: ^1</string>
+    <string name="suw_warranty_description">기기를 구매한 국가를 탭하여 기기 보증을 확인하세요.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;설정 &gt; %s &gt; 한정 보증&lt;/b&gt; 및 g.co/devicewarranty에서도 보증을 확인할 수 있습니다.</string>
+    <string name="suw_warranty_language_consistent_description">기기에 적용되는 한정 보증은 &lt;b&gt;설정 &gt; %s &gt; 한정 보증&lt;/b&gt; 및 g.co/devicewarranty에서도 확인할 수 있습니다.</string>
+    <string name="suw_warranty_next_button_text">다음</string>
+    <string name="suw_warranty_positive_button_text">닫기</string>
     <string name="time_remaining_warning_subtext">이전 사용량을 기준으로 약 %1$s 남음</string>
     <string name="time_remaining_warning_text">배터리가 얼마 남지 않았습니다.</string>
     <string name="tips_suggestion_summary">휴대전화로 할 수 있는 작업 살펴보기</string>
     <string name="tips_suggestion_title">Pixel 알아보기</string>
-    <string name="traffic_light_face_enrolling_title_accessibility">휴대전화가 얼굴을 향하도록 잡기</string>
+    <string name="traffic_light_face_enrolling_title_accessibility">휴대전화가 얼굴을 향하도록 잡아 주세요.</string>
     <string name="usb_use_file_transfers">파일 전송/Android Auto</string>
     <string name="wallpaper_dashboard_summary">색상, 테마 아이콘, 앱 그리드</string>
+    <string name="warranty_country_information">%1$s(%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming 구독 확인 또는 변경</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s에 연결됨</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">탭하여 연결</string>

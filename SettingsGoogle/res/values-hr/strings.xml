@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Pokret za utišavanje upozorenja</string>
     <string name="gesture_skip_title">Pokret za preskakanje</string>
     <string name="keywords_touch_sensitivity">dodirnuti, osjetljivost, osjetljivo, zaštitnik zaslona, film, responzivno, responzivnost</string>
-    <string name="touch_sensitivity_summary">Poboljšava osjetljivost dodira kad se koristi zaštita za zaslon</string>
-    <string name="touch_sensitivity_title">Povećaj osjetljivost dodira</string>
+    <string name="touch_sensitivity_summary">Povećajte osjetljivost dodira i poboljšajte dodir prilikom korištenja zaštite zaslona</string>
+    <string name="touch_sensitivity_title">Način zaštite zaslona</string>
     <string name="columbus_title">Brzi dodir za pokretanje radnji</string>
+    <string name="about_phone">O telefonu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge postavljen je. Prijeđite na sljedeći zaslon ili nastavite s podešavanjem.</string>
     <string name="accessibility_keyboard_haptics_title">Dodirne povratne informacije tipkovnice</string>
     <string name="adaptive_charging">Adaptivno punjenje</string>
@@ -201,6 +202,7 @@ Podaci sigurnosnih kopija ne uračunavaju se u kvotu pohrane na Disku. Velike da
     <string name="keywords_content_capture">snimanje sadržaja, sadržaj aplikacije, podaci aplikacije</string>
     <string name="keywords_gesture">geste, pokreti</string>
     <string name="keywords_global_actions_panel">kartice, propusnice</string>
+    <string name="keywords_limited_warranty">jamstvo, garancija, ograničeno jamstvo, obećanje, popravak, rma, zamjena</string>
     <string name="keywords_live_transcribe">Titlovi, automatski titlovi, nagluhost, gubitak sluha, računalni prijepis u stvarnom vremenu, pretvaranje govora u tekst</string>
     <string name="keywords_reverse_charging_stop_threshold">Prestani dijeliti bateriju kad telefon padne na:</string>
     <string name="keywords_select_to_speak">Čuti tekst, čitati naglas, izgovarati sadržaj zaslona, čitač zaslona</string>
@@ -212,6 +214,8 @@ Podaci sigurnosnih kopija ne uračunavaju se u kvotu pohrane na Disku. Velike da
     <string name="language_input_gesture_summary_off">Isključena je značajka Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Uključena je značajka Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Uključena je značajka Active Edge, stisnite za Asistent</string>
+    <string name="limited_warranty_introduction">Dodirnite zemlju kupnje da biste pogledali jamstvo za ovaj uređaj. Jamstvo je dostupno i na g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ograničeno jamstvo</string>
     <string name="me_card_title">Moj Pixel</string>
     <string name="my_device_info_account_preference_title">Google račun</string>
     <string name="owner_info_settings_edit_text_hint">Na primjer, Markov Pixel.</string>
@@ -256,7 +260,10 @@ Okrenite svoj telefon i pokušajte."</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Prijava lica nije uspjela.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Isteklo je vrijeme za prijavu lica. Pokušajte ponovo.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Postavljanje otključavanja licem je isteklo</string>
-    <string name="security_settings_face_enroll_finish_description">Sad svojim licem možete otključati telefon ili potvrditi da ste to vi, na primjer prilikom prijave u aplikacije ili odobravanja kupnje</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Sad svojim licem možete otključati telefon ili potvrditi da ste to vi, na primjer prilikom prijave u aplikacije ili odobravanja kupnje</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Sad svojim licem možete otključati telefon kada ga podignete ili dodirnete zaslon.
+
+Otključavanje licem najbolje funkcionira kada ima dovoljno svjetla i kada ne nosite masku ili tamne naočale."</string>
     <string name="security_settings_face_enroll_finish_title">U redu je!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Postavljanje za poteškoće s vidom/glavom</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Prilikom upotrebe otključavanja licem vaša bi glava možda trebala biti izravnije ispred telefona.</string>
@@ -278,10 +285,11 @@ Kad koristite otključavanje licem, slike se koriste za ažuriranje modela vaše
     <string name="security_settings_face_enroll_introduction_how_title">Kako to funkcionira</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Za otključavanje licem oči djeteta trebaju biti otvorene kako bi se telefon otključao ili kako bi se potvrdilo da je to vaše dijete. Dijete i vi uvijek možete uključiti tu opciju u postavkama.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ako dijete obično nosi naočale, može ih nositi tijekom postavljanja.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Otključavanje djetetovog telefona pomoću njegovog lica može biti manje sigurno od uzorka, PIN-a ili zaporke</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Gledajući telefon može ga otključati čak i kad to ne namjerava. Telefon može otključati i osoba koja mu je vrlo slična, na primjer jednojajčani blizanac, ili osoba koja prinese telefon njegovom licu.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Za otključavanje licem oči vam trebaju biti otvorene kako biste otključali telefon ili potvrdili da ste to vi. Tu opciju uvijek možete uključiti u postavkama.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Možete imati dioptrijske ili lagano zatamnjene sunčane naočale.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Otključavanje uređaja autentifikacijom lica može biti manje sigurno od snažnog uzorka ili PIN-a.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Otključavanje telefona licem može biti nesigurnije od snažnog uzorka, PIN-a ili zaporke.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefon možete otključati kada ga gledate, čak i ako to ne namjeravate. Vaš telefon može otključati i osoba koja vam je vrlo slična, na primjer vaš jednojajčani blizanac, ili osoba koja ga prinese vašem licu.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Napomena</string>
     <string name="security_settings_face_enroll_introduction_message">Pomoću lica možete otključati telefon ili potvrditi da ste to vi, na primjer prilikom prijave u aplikacije ili odobravanja kupnje.</string>
@@ -310,6 +318,10 @@ Da biste poboljšali izvedbu, možete ponovo postaviti otključavanje licem u po
     <string name="smart_battery_title">Adaptivna baterija</string>
     <string name="sound_dashboard_summary">Glasnoća, dodirne povratne informacije, Ne uznemiravaj</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="suw_warranty_description">Dodirnite zemlju kupnje da biste pogledali jamstvo za ovaj uređaj.&lt;br /&gt;&lt;br /&gt;Jamstvo je dostupno i u dijelu &lt;b&gt;Postavke &gt; %s &gt; Ograničeno jamstvo&lt;/b&gt; i na web-adresi g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ograničeno jamstvo koje se primjenjuje na vaš uređaj dostupno je i u postavkama uređaja u dijelu &lt;b&gt;Postavke &gt; %s &gt; Ograničeno jamstvo&lt;/b&gt; i na web-adresi g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Dalje</string>
+    <string name="suw_warranty_positive_button_text">Zatvori</string>
     <string name="time_remaining_warning_subtext">Još otprilike %1$s na temelju prošle upotrebe</string>
     <string name="time_remaining_warning_text">Baterija bi se uskoro mogla isprazniti</string>
     <string name="tips_suggestion_summary">Istražite što sve može vaš telefon</string>
@@ -317,6 +329,7 @@ Da biste poboljšali izvedbu, možete ponovo postaviti otključavanje licem u po
     <string name="traffic_light_face_enrolling_title_accessibility">Držite telefon ispred lica</string>
     <string name="usb_use_file_transfers">Prijenos datoteka/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Boje, tematske ikone, rešetka aplikacija</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Pregled ili promjena pretplate OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Povezano s davateljem usluga %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Dodirnite za povezivanje</string>

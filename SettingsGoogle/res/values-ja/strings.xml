@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">通知の消音操作</string>
     <string name="gesture_skip_title">スキップ操作</string>
     <string name="keywords_touch_sensitivity">タップ, 感度, 敏感, 画面保護シート, フィルム, 反応, 反応性</string>
-    <string name="touch_sensitivity_summary">画面保護シートを使用している場合にタップの感度を高めることができます</string>
-    <string name="touch_sensitivity_title">タップの感度の向上</string>
+    <string name="touch_sensitivity_summary">タップの感度を上げ、画面保護シートを使用しているときのタップを改善します</string>
+    <string name="touch_sensitivity_title">画面保護シート モード</string>
     <string name="columbus_title">クイックタップでアクションを開始</string>
+    <string name="about_phone">デバイス情報</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge をセットアップしました。次の画面に進むか、調整を続けてください。</string>
     <string name="accessibility_keyboard_haptics_title">キーボードのハプティクス</string>
     <string name="adaptive_charging">アダプティブ充電</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">コンテンツ キャプチャ, アプリ コンテンツ, アプリデータ</string>
     <string name="keywords_gesture">操作 移動</string>
     <string name="keywords_global_actions_panel">カード, パス</string>
+    <string name="keywords_limited_warranty">保証, 保険, 限定保証, 契約, 修理, RMA, 交換</string>
     <string name="keywords_live_transcribe">キャプション, クローズド キャプション, CC, 自動 字幕起こし, 難聴, 聴覚 障がい, CART, 音声 入力, 字幕</string>
     <string name="keywords_reverse_charging_stop_threshold">スマートフォンのバッテリーが以下の残量になったらバッテリー シェアを停止する:</string>
     <string name="keywords_select_to_speak">聴く テキスト, 読み上げ, 読み上げ 画面, スクリーン リーダー</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge は OFF です</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge は ON です</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge: ON。スクイーズしてアシスタントに話しかけます</string>
+    <string name="limited_warranty_introduction">購入した国をタップすると、このデバイスについての保証が表示されます。この保証は g.co/devicewarranty でもご覧いただけます</string>
+    <string name="limited_warranty_title">限定保証</string>
     <string name="me_card_title">自分の Pixel</string>
     <string name="my_device_info_account_preference_title">Google アカウント</string>
     <string name="owner_info_settings_edit_text_hint">例: 佐藤の Pixel</string>
@@ -255,7 +259,10 @@
     <string name="security_settings_face_enroll_education_message">次の画面で、首を振ってさまざまな角度から顔を撮影してください</string>
     <string name="security_settings_face_enroll_education_message_accessibility">次の画面で、スマートフォンを目の高さに合わせて持ってください</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">顔認証設定のタイムアウト</string>
-    <string name="security_settings_face_enroll_finish_description">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行えるようになりました</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行えるようになりました</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"スマートフォンを持ち上げるか画面をタップしたときに、顔認証を使用してロック解除できるようになりました。
+
+顔が十分に照らされていて、マスクやサングラスを着けていない場合は、顔認証が特に便利です。"</string>
     <string name="security_settings_face_enroll_finish_title">完了です</string>
     <string name="security_settings_face_enroll_introduction_accessibility">視覚や頭の動きに制限がある場合の設定</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">顔認証を使用する場合は、顔をスマートフォンの真正面に向けてください。</string>
@@ -277,10 +284,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">仕組み</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">顔認証を使用するには、スマートフォンのロック解除または本人確認の際にお子様に目を開いていただくことが必要になる場合があります。あなたとお子様はいつでも [設定] でこのオプションを ON にできます。 顔認証の設定により、スマートフォンのロック解除または本人確認の際にお子様が目を開いていることを必須にできます。保護者やお子様はいつでも [設定] でこのオプションを ON にできます。</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">お子様が眼鏡を普段かけている場合は、設定の際にかけていても構いません。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">お子様の顔認証によるスマートフォンのロック解除は、複雑なパターンや PIN、安全なパスワードよりも安全面で劣る可能性があります</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、お子様の顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">顔認証の設定により、スマートフォンのロック解除または本人確認の際に目を開いていることを必須にできます。このオプションは [設定] でいつでも ON にできます。</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">メガネやサングラス（薄い色）をかけていても大丈夫です。</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">顔を使ったスマートフォンのロック解除は、複雑なパターンや PIN よりも安全面で劣る可能性があります。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">顔認証によるスマートフォンのロック解除は、複雑なパターン、PIN、パスワードよりも安全面で劣る可能性があります</string>
     <string name="security_settings_face_enroll_introduction_info_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、あなたの顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
     <string name="security_settings_face_enroll_introduction_info_title">注意事項</string>
     <string name="security_settings_face_enroll_introduction_message">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行います。</string>
@@ -309,6 +317,10 @@
     <string name="smart_battery_title">自動調整バッテリー</string>
     <string name="sound_dashboard_summary">音量、ハプティクス、サイレント モード</string>
     <string name="storage_manager_indicator">スマート ストレージ: ^1</string>
+    <string name="suw_warranty_description">購入した国をタップすると、このデバイスについての保証が表示されます。&lt;br /&gt;&lt;br /&gt;この保証は、&lt;b&gt;[設定] &gt; [%s] &gt; [限定保証]&lt;/b&gt; および g.co/devicewarranty でもご覧いただけます。</string>
+    <string name="suw_warranty_language_consistent_description">デバイスに適用される限定保証は、デバイスの設定（&lt;b&gt;[設定] &gt; [%s] &gt; [限定保証]&lt;/b&gt;）および g.co/devicewarranty でもご覧いただけます。</string>
+    <string name="suw_warranty_next_button_text">次へ</string>
+    <string name="suw_warranty_positive_button_text">閉じる</string>
     <string name="time_remaining_warning_subtext">過去の使用状況によると、あと約 %1$s使用できます</string>
     <string name="time_remaining_warning_text">もうすぐ電池がなくなります</string>
     <string name="tips_suggestion_summary">スマートフォンで何ができるかをご覧ください</string>
@@ -316,6 +328,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">スマートフォンを顔の前で持ちます</string>
     <string name="usb_use_file_transfers">ファイル転送 / Android Auto</string>
     <string name="wallpaper_dashboard_summary">色、テーマアイコン、アプリグリッド</string>
+    <string name="warranty_country_information">%1$s（%2$s）</string>
     <string name="wifi_subscription_summary">OpenRoaming の定期購入を確認、変更できます</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s に接続</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">タップして接続</string>

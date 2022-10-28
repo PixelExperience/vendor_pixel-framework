@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">¨Шашылыш билдирүүлөр көрүнбөсүн¨ жаңсоосу</string>
     <string name="gesture_skip_title">Өткөрүп жиберүү жаңсоосу</string>
     <string name="keywords_touch_sensitivity">басуу, сезгичтик, сезгич, экранды коргогуч, плёнка, жооп берүүчү, жооп берүү</string>
-    <string name="touch_sensitivity_summary">Коргоочу пленка же айнек менен капталган экрандын сезгичтигин жакшыртат</string>
-    <string name="touch_sensitivity_title">Экрандын сезгичтигин жакшыртуу</string>
+    <string name="touch_sensitivity_summary">Экранды коргогучту колдонуп жатканда тийүүнүн сезгичтигин жана басууну аныктоону жакшыртыңыз</string>
+    <string name="touch_sensitivity_title">Экранды коргогуч режими</string>
     <string name="columbus_title">Тез баскылап, аракеттерди аткарып баштоо</string>
+    <string name="about_phone">Телефон жөнүндө</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge жөндөлдү. Кийинки экранга өтүңүз же тууралоону улантыңыз.</string>
     <string name="accessibility_keyboard_haptics_title">Баскычтоптун сенсорлору</string>
     <string name="adaptive_charging">Ыңгайлаштырылган кубаттоо</string>
@@ -163,7 +164,7 @@
     <string name="face_enrolling_title">Телефонду түз кармаңыз. Башыңызды буруңуз. Жай кыймылдаңыз.</string>
     <string name="face_enrolling_title_accessibility">Телефонуңузду караңыз</string>
     <string name="face_enrolling_title_accessibility_progress">Телефонуңузга түз карап туруңуз</string>
-    <string name="face_enrolling_too_close">Телефонду алысыраак жылдырыңыз</string>
+    <string name="face_enrolling_too_close">Телефонду алыстатыңыз</string>
     <string name="face_enrolling_too_far">Телефонду жакындатыңыз</string>
     <string name="face_enrolling_too_high">Телефонду ылдый жылдырыңыз</string>
     <string name="face_enrolling_too_left">Телефонду оңго жылдырыңыз</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">мазмунду тартып алуу, колдонмонун мазмуну, колдонмонун дайындары</string>
     <string name="keywords_gesture">жаңсоо, кыймылдар</string>
     <string name="keywords_global_actions_panel">карталар, билеттер</string>
+    <string name="keywords_limited_warranty">кепилдик, чектелген кепилдик, убада, оңдоо, rma, алмаштыруу</string>
     <string name="keywords_live_transcribe">Коштомо жазуулар, ыкчам коштомо жазуулар, начар угуу, угуу жөндөмүнүн жоголушу, CART, сөздөн текстке, коштомо жазуу</string>
     <string name="keywords_reverse_charging_stop_threshold">Телефондун батареясынын кубаты төмөнкүгө жеткенде кубатты бөлүшүү токтотулсун:</string>
     <string name="keywords_select_to_speak">Текстти угуу, үн чыгарып окуу, экрандагыны окуу, экрандагыны окугуч</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge өчүрүлгөн</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge күйгүзүлгөн</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge күйүк, Жардамчыңызга кайрылуу үчүн телефонду кысыңыз</string>
+    <string name="limited_warranty_introduction">Бул түзмөккө берилген кепилдикти көрүү үчүн аны саткан өлкөнү таптаңыз. Ошондой эле кепилдикти g.co/devicewarranty бөлүмүнөн көрүүгө болот</string>
+    <string name="limited_warranty_title">Чектелген кепилдик</string>
     <string name="me_card_title">Pixel түзмөгүм</string>
     <string name="my_device_info_account_preference_title">Google аккаунту</string>
     <string name="owner_info_settings_edit_text_hint">Мисалы, Асандын Pixel түзмөгү.</string>
@@ -254,11 +258,14 @@
     <string name="security_dismiss_dialog_title">Бул эскертүүнү жабасызбы?</string>
     <string name="security_settings_face_enroll_education_message">Кийинки экран ачылганда башыңызды буруп, жүзүңүздү ар кайсы тараптан тартыңыз</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Кийинки экранда телефонуңузду көзүңүздүн деңгээлинде кармаңыз</string>
-    <string name="security_settings_face_enroll_error_timeout_dialog_title">Жүзүнөн таанып ачууну жөндөө убактысы бүтүп калды</string>
-    <string name="security_settings_face_enroll_finish_description">Эми манжаңыздын изи менен телефонуңуздун кулпусун ачып же колдонмолорго кирүүдө өзүңүздү ырастайсыз</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Жүзүнөн таанып ачууну тууралоо убактысы бүтүп калды</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Эми манжаңыздын изи менен телефонуңуздун кулпусун ачып же колдонмолорго кирүүдө өзүңүздү ырастайсыз</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Эми телефонуңузду колуңузга алганда же экранына тийгенде анын кулпусун жүзүңүз менен ача аласыз.
+
+Жүзүнөн таанып ачуу жарык жерде жана беткап же кара көз айнек тагынбай турганда иштейт."</string>
     <string name="security_settings_face_enroll_finish_title">Баары жайында!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Атайын мүмкүнчүлүктөрдү иштетүү</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Жүзүнөн таанып ачууну колдонгондо, башыңызды телефонго түз каратышыңыз керек.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Телефондун кулпусун жүзүңүз менен ачканда, телефонду жүзүңүзгө алып келишиңиз керек.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Көзүңүз ачык болушу керек</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Балаңыз жүзүнүн үлгүсүн же Жүзүнөн таанып ачуу функциясын Жөндөөлөрдөн каалаган убакта өчүрө алат. Жүздүн үлгүлөрү өчүрүлмөйүнчө телефондо сакталат.
 
@@ -271,24 +278,25 @@
     <string name="security_settings_face_enroll_introduction_how_consent_message">"Жүзүнөн таанып ачуу функциясы балаңызды таануу үчүн жүзүнүн өзгөчө үлгүсүн түзөт. Жүзүнүн үлгүсүн түзүү үчүн балаңыз жүзүн ар тараптан сүрөткө тартышы керек.
 
 Ал Жүзүнөн таанып ачуу функциясын колдонгондо, жүзүнүн үлгүсү сүрөттөр аркылуу жаңырат. Анын жүзүнүн үлгүсүн түзүү үчүн колдонулган сүрөттөр сакталбайт, ал эми жүзүнүн үлгүсү телефондо гана сакталат. Сүрөттөр телефондо гана иштетилет."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Жүзүнөн таанып ачуу функциясы сиз экениңизди ырастоо үчүн жүзүңүздүн өзгөчө үлгүсүн түзөт. Жүздүн үлгүсүн түзүү үчүн жүзүңүздү ар тараптан сүрөткө тартышыңыз керек.
+    <string name="security_settings_face_enroll_introduction_how_message">"Жүзүнөн таанып ачуу функциясы сизди ырастоо үчүн жүзүңүздүн үлгүсүн алат. Жүздүн үлгүсүн алуу үчүн жүзүңүздү ар тараптан сүрөткө тартышыңыз керек.
 
-Жүзүнөн таанып ачуу функциясын колдонгонуңузда, жүзүңүздүн үлгүсү сүрөттөр аркылуу жаңырат. Жүзүңүздүн үлгүсүн түзүү үчүн колдонулган сүрөттөр сакталбайт, ал эми жүздүн үлгүсү телефонуңузда гана сакталат. Сүрөттөр телефонуңузда гана иштетилет."</string>
+Жүзүңүздүн үлгүсү жүзүнөн таанып ачуу функциясын колдонгондо алынган сүрөттөрдүн негизинде жаңырып турат. Сүрөттөр менен жүзүңүздүн үлгүсү телефонуңузда гана иштелип, сакталат жана эч кимге жөнөтүлбөйт."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Кантип иштейт</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Жүзүнөн таанып ачуу функциясы телефондун кулпусун ачуу үчүн балаңыздан көздөрүн ачып туруусун талап кылышы мүмкүн, же болбосо, аныктыгын ырастоо керек болот. Бул функцияны Жөндөөлөргө өтүп, өзүңүз же балаңыз каалаган убакта өчүрүп коё аласыңар.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Эгер балаңыз көз айнек тагынса, жөндөп жатканда аны тагып алса болот.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Балаңыздын телефонунун кулпусун Жүзүнөн таанып ачуу функциясы менен ачуу татаал графикалык ачкыч, PIN код же сырсөз менен ачкандагыдай коопсуз болбошу мүмкүн</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ал телефонду карап койсо эле кулпусу ачылат. Анын телефонунун кулпусун ага аябай окшош адам (мисалы, эгизи), ошондой эле кимдир бирөө телефонун анын жүзүнө жакын алып келип ачып алышы мүмкүн.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Көздөрүңүз жабык болгондо жүзүнөн таанып ачуу функциясынын параметрлеринен телефондун кулпусун ачууга же өзүңүздү аныктаганга тыюу салсаңыз болот.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Көз айнегиңизди чечпей эле койсоңуз болот (күндөн коргогон көз айнегиңизди да, эгер өтө капкара болбосо).</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Телефонду жүзүнөн таанып ачууга салыштырмалуу татаал графикалык ачкыч же PIN код коопсуз болот.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Жүзүнөн таанып ачуу функциясына караганда телефонуңузду графикалык ачкыч, PIN код же сырсөз менен коргоо бир кыйла коопсуз</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Телефонду карап койсоңуз эле кулпусу ачылат. Телефонуңуздун кулпусун сизге аябай окшош адам (мисалы, эгизиңиз), ошондой эле кимдир бирөө телефонуңузду жүзүңүзгө жакын алып келип ачып алышы мүмкүн.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Көңүл буруңуз</string>
     <string name="security_settings_face_enroll_introduction_message">Манжаңыздын изи менен телефонуңуздун кулпусун ачыңыз же өзүңүздү ырастаңыз (мисалы, колдонмолорго кирүүдө же кандайдыр бир нерсе сатып алып жатканда).</string>
-    <string name="security_settings_face_enroll_introduction_title">Жүзүнөн таанып ачууну жөндөө</string>
+    <string name="security_settings_face_enroll_introduction_title">Жүзүнөн таанып ачууну тууралоо</string>
     <string name="security_settings_face_enroll_next">Кийинки</string>
     <string name="security_settings_face_enroll_partial_message">Майнаптуулугун жакшыртуу үчүн жүзүнөн таанып ачууну Жөндөөлөрдөн кайра жөндөп алсаңыз болот</string>
     <string name="security_settings_face_enroll_partial_start_over">Кайра баштоо</string>
-    <string name="security_settings_face_enroll_partial_title">Жүзүнөн таанып ачууну жөндөө аягына чыкты</string>
+    <string name="security_settings_face_enroll_partial_title">Жүзүнөн таанып ачууну тууралоо аягына чыкты</string>
     <string name="security_settings_face_enroll_timeout_message">"Андан көрө ыкчам жол менен кошуп көрүңүз. Жүзүнөн таанып ачуу функциясын колдонгондо, жүзүңүз телефондун так маңдайында болушу керек.
 
 Бул функцияны Жөндөөлөрдөн кайра тууралап алсаңыз болот."</string>
@@ -309,6 +317,10 @@
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="sound_dashboard_summary">Үндүн катуулугу, сенсорлор, Тынчымды алба</string>
     <string name="storage_manager_indicator">Акылдуу сактагыч: ^1</string>
+    <string name="suw_warranty_description">Түзмөккө берилген кепилдикти көрүү үчүн сатып алган өлкөнү тандаңыз.&lt;br /&gt;&lt;br /&gt;Ошондой эле кепилдикти &lt;b&gt;Тууралоолор &gt; %s &gt; Чектелген кепилдик&lt;/b&gt; жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
+    <string name="suw_warranty_language_consistent_description">Ошондой эле түзмөгүңүзгө берилген чектелген кепилдикти &lt;b&gt;Тууралоолор &gt; %s &gt; Чектелген кепилдик&lt;/b&gt; жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
+    <string name="suw_warranty_next_button_text">Кийинки</string>
+    <string name="suw_warranty_positive_button_text">Жабуу</string>
     <string name="time_remaining_warning_subtext">Мурда колдонгонуңузга караганда, болжол менен %1$s калды</string>
     <string name="time_remaining_warning_text">Батарея жакында отуруп калышы мүмкүн</string>
     <string name="tips_suggestion_summary">Телефонуңуздун мүмкүнчүлүктөрүн карап чыгыңыз</string>
@@ -316,6 +328,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Телефонду жүзүңүздүн алдына алып келиңиз</string>
     <string name="usb_use_file_transfers">Файлдарды өткөрүү / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Түстөр, тематикалык сүрөтчөлөр, колдонмолор торчосу</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming жазылуусун көрүү же өзгөртүү</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Төмөнкү менен туташты: %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Туташуу үчүн таптап коюңуз</string>

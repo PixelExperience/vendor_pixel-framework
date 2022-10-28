@@ -9,9 +9,10 @@
     <string name="gesture_skip_title">[Šķîþ ĝéšţûŕé one two]</string>
     <string name="keywords_touch_sensitivity">[ţöûçĥ, šéñšîţîVîţý, šéñšîţîVé, šçŕééñ þŕöţéçţöŕ, ƒîļḿ, ŕéšþöñšîVé, ŕéšþöñšîVéñéšš one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]</string>
     <string name="keywords_wake_display">[]</string>
-    <string name="touch_sensitivity_summary">[ÎḿþŕöVéš ţöûçĥ ŵĥéñ ûšîñĝ šçŕééñ þŕöţéçţöŕš one two three four five]</string>
-    <string name="touch_sensitivity_title">[Îñçŕéåšé ţöûçĥ šéñšîţîVîţý one two three four]</string>
+    <string name="touch_sensitivity_summary">[Îñçŕéåšé ţöûçĥ šéñšîţîVîţý åñð îḿþŕöVé ţöûçĥ ŵĥéñ ûšîñĝ å šçŕééñ þŕöţéçţöŕ one two three four five six seven eight]</string>
+    <string name="touch_sensitivity_title">[Šçŕééñ þŕöţéçţöŕ ḿöðé one two three]</string>
     <string name="columbus_title">[qûîçķ Ţåþ ţö šţåŕţ åçţîöñš one two three four]</string>
+    <string name="about_phone">[Åɓöûţ þĥöñé one two]</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">[ÅçţîVé Éðĝé šéţ ûþ. Ĝö ţö ţĥé ñéхţ šçŕééñ öŕ ķééþ åðĵûšţîñĝ. one two three four five six seven]</string>
     <string name="accessibility_keyboard_haptics_title">[Ķéýɓöåŕð ĥåþţîçš one two three]</string>
     <string name="adaptive_charging">[ÅðåþţîVé Çĥåŕĝîñĝ one two three]</string>
@@ -220,7 +221,10 @@
     <string name="keywords_gesture_skip">[]</string>
     <string name="keywords_gesture_tap">[]</string>
     <string name="keywords_global_actions_panel">[çåŕðš, þåššéš one two]</string>
+    <string name="keywords_limited_warranty">[ŵåŕŕåñţý, ĝûåŕåñţéé, ļîḿîţéð ŵåŕŕåñţý, þŕöḿîšé, ŕéþåîŕ, ŕḿå, ŕéþļåçéḿéñţ one two three four five six seven eight nine ten eleven twelve thirteen fourteen]</string>
     <string name="keywords_reverse_charging_stop_threshold">[Šţöþ šĥåŕîñĝ ɓåţţéŕý ŵĥéñ þĥöñé ŕéåçĥéš: one two three four five]</string>
+    <string name="limited_warranty_introduction">[Ţåþ ţĥé çöûñţŕý öƒ þûŕçĥåšé ţö Vîéŵ ţĥé ŵåŕŕåñţý ƒöŕ ţĥîš ðéVîçé. Ţĥé ŵåŕŕåñţý îš åļšö åVåîļåɓļé åţ ĝ.çö/ðéVîçéŵåŕŕåñţý one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="limited_warranty_title">[Ļîḿîţéð Ŵåŕŕåñţý one two three]</string>
     <string name="me_card_title">[Ḿý Þîхéļ one two]</string>
     <string name="reverse_charging_charging_wirelessly_message">[ÛñåVåîļåɓļé ɓéçåûšé þĥöñé çĥåŕĝîñĝ ŵîŕéļéššļý one two three four five]</string>
     <string name="reverse_charging_detail_charging_overheat_message">[βåţţéŕý Šĥåŕé îš ûñåVåîļåɓļé ɓéçåûšé Þîхéļ îš ţöö ĥöţ. Ŵåîţ ƒöŕ þĥöñé ţö çööļ ðöŵñ åñð ţŕý åĝåîñ. one two three four five six seven eight nine ten eleven]</string>
@@ -254,7 +258,10 @@ Fļîþ ýöûŕ þĥöñé öVéŕ ţö ţŕý. one two three four five six sev
     <string name="security_dismiss_dialog_dismiss_button">[Ðîšḿîšš one two]</string>
     <string name="security_dismiss_dialog_title">[Ðîšḿîšš ţĥîš ŵåŕñîñĝ¿ one two three]</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">[Fåçé Ûñļöçķ šéţûþ ţîḿéð öûţ one two three four]</string>
-    <string name="security_settings_face_enroll_finish_description">[Ñöŵ ýöû çåñ ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ Véŕîƒý îţ’š ýöû, ļîķé ŵĥéñ ýöû šîĝñ îñ ţö åþþš öŕ åþþŕöVé å þûŕçĥåšé one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">[Ñöŵ ýöû çåñ ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ Véŕîƒý îţ’š ýöû, ļîķé ŵĥéñ ýöû šîĝñ îñ ţö åþþš öŕ åþþŕöVé å þûŕçĥåšé one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"[Ñöŵ ŵĥéñ ýöû þîçķ ûþ ýöûŕ þĥöñé öŕ ţåþ ţĥé šçŕééñ, ýöû çåñ ûšé ýöûŕ ƒåçé ţö ûñļöçķ.
+
+Fåçé Ûñļöçķ ŵöŕķš ɓéšţ ŵĥéñ ţĥéŕé’š éñöûĝĥ ļîĝĥţ åñð ýöû’ŕé ñöţ ŵéåŕîñĝ å ḿåšķ öŕ ðåŕķ ĝļåššéš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve]"</string>
     <string name="security_settings_face_enroll_next">[Ñéхţ one]</string>
     <string name="security_settings_face_enroll_partial_message">[Ţö îḿþŕöVé þéŕƒöŕḿåñçé, ýöû çåñ šéţ ûþ Fåçé Ûñļöçķ åĝåîñ îñ Šéţţîñĝš one two three four five six seven eight]</string>
     <string name="security_settings_face_enroll_partial_start_over">[Šţåŕţ öVéŕ one two]</string>
@@ -271,6 +278,10 @@ Fļîþ ýöûŕ þĥöñé öVéŕ ţö ţŕý. one two three four five six sev
     <string name="security_settings_face_enroll_too_hot_title">[Þĥöñé îš ţöö ĥöţ one two three]</string>
     <string name="setup_suggestion_summary">[Çöþý ðåţå, þåý ŵîţĥ ýöûŕ þĥöñé, åñð ḿöŕé one two three four five]</string>
     <string name="setup_suggestion_title">[Fîñîšĥ šéţţîñĝ ûþ one two three]</string>
+    <string name="suw_warranty_description">[Ţåþ ţĥé çöûñţŕý öƒ þûŕçĥåšé ţö Vîéŵ ţĥé ŵåŕŕåñţý ƒöŕ ţĥîš ðéVîçé.&lt;br /&gt;&lt;br /&gt;Ţĥé ŵåŕŕåñţý îš åļšö åVåîļåɓļé åţ &lt;b&gt;Šéţţîñĝš &gt; %s &gt; Ļîḿîţéð ŵåŕŕåñţý&lt;/b&gt; åñð ĝ.çö/ðéVîçéŵåŕŕåñţý. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven]</string>
+    <string name="suw_warranty_language_consistent_description">[Ţĥé ļîḿîţéð ŵåŕŕåñţý åþþļîçåɓļé ţö ýöûŕ ðéVîçé îš åļšö åVåîļåɓļé îñ ðéVîçé Šéţţîñĝš åţ &lt;b&gt;Šéţţîñĝš &gt; %s &gt; Ļîḿîţéð ŵåŕŕåñţý&lt;/b&gt; åñð åţ ĝ.çö/ðéVîçéŵåŕŕåñţý. one two three four five six seven eight nine ten eleven twelve thirteen fourteen]</string>
+    <string name="suw_warranty_next_button_text">[Ñéхţ one]</string>
+    <string name="suw_warranty_positive_button_text">[Çļöšé one]</string>
     <string name="time_remaining_warning_subtext">[Åɓöûţ %1$s ļéƒţ ɓåšéð öñ þåšţ ûšåĝé one two three four]</string>
     <string name="time_remaining_warning_text">[βåţţéŕý ḿåý ŕûñ öûţ šööñ one two three]</string>
     <string name="tips_suggestion_summary">[Éхþļöŕé ŵĥåţ ýöû çåñ ðö ŵîţĥ ýöûŕ þĥöñé one two three four five]</string>
@@ -281,6 +292,7 @@ Fļîþ ýöûŕ þĥöñé öVéŕ ţö ţŕý. one two three four five six sev
     <string name="wake_screen_aware_off_dialog_title">[]</string>
     <string name="wake_screen_suggestion_summary">[]</string>
     <string name="wake_screen_suggestion_title">[]</string>
+    <string name="warranty_country_information">[%1$s (%2$s) one]</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">[Çöññéçţéð ŵîţĥ %1$s one two three]</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">[Ţåþ ţö çöññéçţ one two three]</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">[Çåñ’ţ çöññéçţ. Ţåþ ţö ţŕý åĝåîñ. one two three four]</string>

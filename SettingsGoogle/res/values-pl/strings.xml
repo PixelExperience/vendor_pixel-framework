@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gest wyciszania alarmów</string>
     <string name="gesture_skip_title">Gest pomijania</string>
     <string name="keywords_touch_sensitivity">dotknąć, czułość, osłona ekranu, folia, reakcja, reagowanie</string>
-    <string name="touch_sensitivity_summary">Lepsze reagowanie na dotyk przez osłonę ekranu</string>
-    <string name="touch_sensitivity_title">Większa czułość reagowania na dotyk</string>
+    <string name="touch_sensitivity_summary">Zwiększ czułość dotyku podczas korzystania z osłony ekranu</string>
+    <string name="touch_sensitivity_title">Tryb osłony ekranu</string>
     <string name="columbus_title">Dotknij dwukrotnie, aby rozpocząć działania</string>
+    <string name="about_phone">Informacje o telefonie</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Konfiguracja Active Edge. Przejdź na następny ekran lub kontynuuj dostosowywanie.</string>
     <string name="accessibility_keyboard_haptics_title">Klawiatura – reakcja haptyczna</string>
     <string name="adaptive_charging">Ładowanie adaptacyjne</string>
@@ -202,6 +203,7 @@ Kopia zapasowa nie wlicza się do limitu miejsca na Dysku Google. Nie zostanie t
     <string name="keywords_content_capture">przechwytywanie treści, treści aplikacji, dane aplikacji</string>
     <string name="keywords_gesture">gesty, ruchy</string>
     <string name="keywords_global_actions_panel">karty, bilety</string>
+    <string name="keywords_limited_warranty">gwarancja, ograniczona gwarancja, obietnica, naprawa, RMA, wymiana</string>
     <string name="keywords_live_transcribe">napisy, Napisy na żywo, niedosłuch, utrata słuchu, CART, zamiana mowy na tekst</string>
     <string name="keywords_reverse_charging_stop_threshold">Wyłącz współdzielenie baterii, gdy telefon osiągnie:</string>
     <string name="keywords_select_to_speak">słyszenie tekstu, czytanie na głos, czytanie ekranu, czytnik ekranu</string>
@@ -213,6 +215,8 @@ Kopia zapasowa nie wlicza się do limitu miejsca na Dysku Google. Nie zostanie t
     <string name="language_input_gesture_summary_off">Funkcja Active Edge wyłączona</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcja Active Edge włączona</string>
     <string name="language_input_gesture_summary_on_with_assist">Funkcja Active Edge włączona – ściśnij, by włączyć Asystenta</string>
+    <string name="limited_warranty_introduction">Kliknij kraj zakupu, aby wyświetlić gwarancję na to urządzenie. Gwarancja jest również dostępna na stronie g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ograniczona gwarancja</string>
     <string name="me_card_title">Mój Pixel</string>
     <string name="my_device_info_account_preference_title">Konto Google</string>
     <string name="owner_info_settings_edit_text_hint">Np. Pixel Jurka</string>
@@ -256,7 +260,10 @@ Odwróć telefon, aby wypróbować."</string>
     <string name="security_settings_face_enroll_education_message">Na następnym ekranie obracaj głowę tak, by zarejestrować obraz twarzy pod wszystkimi kątami</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Na następnym ekranie przytrzymaj telefon na wysokości oczu</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Przekroczono limit czasu konfiguracji rozpoznawania twarzy</string>
-    <string name="security_settings_face_enroll_finish_description">Możesz teraz używać rozpoznawania twarzy do odblokowywania telefonu oraz weryfikacji tożsamości, na przykład podczas logowania się w aplikacjach i zatwierdzania zakupów</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Możesz teraz używać rozpoznawania twarzy do odblokowywania telefonu oraz weryfikacji tożsamości, na przykład podczas logowania się w aplikacjach i zatwierdzania zakupów</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Możesz teraz odblokować telefon przy użyciu modelu twarzy, gdy go podniesiesz lub klikniesz jego ekran.
+
+Rozpoznawanie twarzy działa najlepiej w dobrze oświetlonych miejscach i gdy nie masz na sobie maseczki ani ciemnych okularów."</string>
     <string name="security_settings_face_enroll_finish_title">W porządku</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfiguracja przy ograniczeniach widzenia lub ruchomości głowy</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Podczas używania funkcji rozpoznawania twarzy może być konieczne ustawienie głowy bardziej na wprost telefonu.</string>
@@ -278,10 +285,11 @@ Telefon będzie też wykorzystywać obrazy z Twoich interakcji z rozpoznawanie
     <string name="security_settings_face_enroll_introduction_how_title">Jak to działa</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odblokowywanie telefonu dziecka oraz potwierdzanie jego tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. Ty i Twoje dziecko w dowolnej chwili możecie włączyć tę opcję w Ustawieniach.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jeśli Twoje dziecko zwykle nosi okulary, może mieć je na sobie podczas konfiguracji.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odblokowywanie telefonu dziecka skanem jego twarzy może być mniej bezpieczne niż trudny wzór, kod PIN czy hasło</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Patrząc na telefon, dziecko może go niechcący odblokować. Telefon mogą również odblokować osoby podobne do dziecka, np. jego rodzeństwo, a także ktoś, kto zbliży telefon do twarzy dziecka.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Odblokowywanie telefonu oraz potwierdzanie tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. W dowolnej chwili możesz włączyć tę opcję w Ustawieniach.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Możesz mieć okulary, nawet niezbyt ciemne okulary przeciwsłoneczne.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Używanie rozpoznawania twarzy do odblokowywania telefonu może być mniej bezpieczne niż korzystanie ze skomplikowanego wzoru lub kodu PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Korzystanie z rozpoznawania twarzy do odblokowywania telefonu może być mniej bezpieczne niż skomplikowany wzór, mocne hasło lub kod PIN.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Patrząc na telefon, możesz go niechcący odblokować. Telefon mogą również odblokować osoby podobne do Ciebie, np. Twoje rodzeństwo, jeśli zbliżą go do twarzy.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Pamiętaj</string>
     <string name="security_settings_face_enroll_introduction_message">Używaj rozpoznawania twarzy do odblokowywania telefonu i potwierdzania tożsamości, na przykład podczas logowania się w aplikacjach lub zatwierdzania zakupów.</string>
@@ -310,6 +318,10 @@ Aby poprawić szybkość działania, możesz skonfigurować rozpoznawanie twarzy
     <string name="smart_battery_title">Bateria adaptacyjna</string>
     <string name="sound_dashboard_summary">Głośność, reakcje haptyczne, Nie przeszkadzać</string>
     <string name="storage_manager_indicator">Inteligentne przechowywanie danych: ^1</string>
+    <string name="suw_warranty_description">Kliknij kraj zakupu, aby wyświetlić gwarancję na to urządzenie.&lt;br /&gt;&lt;br /&gt;Gwarancję znajdziesz również, klikając &lt;b&gt;Ustawienia &gt; %s &gt; Ograniczona gwarancja&lt;/b&gt; oraz na stronie g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ograniczoną gwarancję na urządzenie znajdziesz również w Ustawieniach urządzenia (kliknij &lt;b&gt;Ustawienia &gt; %s &gt; Ograniczona gwarancja&lt;/b&gt;) oraz na stronie g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Dalej</string>
+    <string name="suw_warranty_positive_button_text">Zamknij</string>
     <string name="time_remaining_warning_subtext">Jeszcze około %1$s (na podstawie dotychczasowego sposobu korzystania)</string>
     <string name="time_remaining_warning_text">Bateria może się wkrótce wyczerpać</string>
     <string name="tips_suggestion_summary">Zobacz, do czego możesz użyć telefonu</string>
@@ -317,6 +329,7 @@ Aby poprawić szybkość działania, możesz skonfigurować rozpoznawanie twarzy
     <string name="traffic_light_face_enrolling_title_accessibility">Trzymaj telefon przed sobą na wysokości twarzy</string>
     <string name="usb_use_file_transfers">Przesyłanie plików / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Kolory, ikony z motywem, siatka aplikacji</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Wyświetl lub zmień subskrypcję OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Połączono z: %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Kliknij, by połączyć</string>

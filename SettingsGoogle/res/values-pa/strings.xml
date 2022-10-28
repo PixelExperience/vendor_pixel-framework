@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">ਖਾਮੋਸ਼ੀ ਦੀਆਂ ਸੁਚੇਤਨਾਵਾਂ ਦੇ ਸੰਕੇਤ</string>
     <string name="gesture_skip_title">ਸੰਕੇਤ ਛੱਡੋ</string>
     <string name="keywords_touch_sensitivity">ਸਪਰਸ਼, ਸੰਵੇਦਨਸ਼ੀਲਤਾ, ਸੰਵੇਦਨਸ਼ੀਲ, ਸਕ੍ਰੀਨ ਰੱਖਿਅਕ, ਫ਼ਿਲਮ, ਪ੍ਰਤਿਕਿਰਿਆਤਮਕ, ਪ੍ਰਤੀਕਿਰਿਆ</string>
-    <string name="touch_sensitivity_summary">ਸਕ੍ਰੀਨ ਰੱਖਿਅਕ ਵਰਤਣ ਵੇਲੇ ਸਪਰਸ਼ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਂਦਾ ਹੈ</string>
-    <string name="touch_sensitivity_title">ਸਪਰਸ਼ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਨੂੰ ਵਧਾਓ</string>
+    <string name="touch_sensitivity_summary">ਸਪਰਸ਼ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਵਧਾਓ ਅਤੇ ਸਕ੍ਰੀਨ ਰੱਖਿਅਕ ਵਰਤਣ ਦੌਰਾਨ ਸਪਰਸ਼ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ</string>
+    <string name="touch_sensitivity_title">ਸਕ੍ਰੀਨ ਰੱਖਿਅਕ ਮੋਡ</string>
     <string name="columbus_title">ਕਾਰਵਾਈਆਂ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਵਿੱਕ ਟੈਪ</string>
+    <string name="about_phone">ਫ਼ੋਨ ਬਾਰੇ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">"Active Edge ਸੈੱਟਅੱਪ ਕਰੋ। ਅਗਲੀ ਸਕ੍ਰੀਨ 'ਤੇ ਜਾਓ ਜਾਂ ਵਿਵਸਥਿਤ ਕਰਦੇ ਰਹੋ।"</string>
     <string name="accessibility_keyboard_haptics_title">ਕੀ-ਬੋਰਡ ਸਪਰਸ਼ ਸੰਵੇਦਕ</string>
     <string name="adaptive_charging">ਅਡੈਪਟਿਵ ਚਾਰਜਿੰਗ</string>
@@ -22,7 +23,7 @@
     <string name="assist_gesture_setting_enable_assistant_text">ਆਪਣੀ Assistant ਨਾਲ ਗੱਲ ਕਰਨ ਲਈ, ਆਪਣੇ ਫ਼ੋਨ ਦਾ ਹੇਠਲਾ ਅੱਧਾ ਹਿੱਸਾ ਤੁਰੰਤ ਘੁੱਟੋ, ਫਿਰ ਛੱਡੋ</string>
     <string name="assist_gesture_setting_enable_assistant_title">ਆਪਣੀ Assistant ਲਈ ਘੁੱਟੋ</string>
     <string name="assist_gesture_setting_enable_ring_alarm_silence_text">ਅਲਾਰਮਾਂ, ਟਾਈਮਰਾਂ, ਸੂਚਨਾਵਾਂ ਅਤੇ ਇਨਕਮਿੰਗ ਕਾਲਾਂ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਲਈ ਘੁੱਟੋ</string>
-    <string name="assist_gesture_setting_enable_ring_silence_text">ਸੂਚਨਾਵਾਂ ਅਤੇ ਇਨਕਮਿੰਗ ਕਾਲਾਂ ਨੂੰ ਖਾਮੋਸ਼ ਕਰਨ ਲਈ ਘੁੱਟੋ</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">ਸੂਚਨਾਵਾਂ ਅਤੇ ਇਨਕਮਿੰਗ ਕਾਲਾਂ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਲਈ ਘੁੱਟੋ</string>
     <string name="assist_gesture_setting_enable_ring_silence_title">ਫ਼ੋਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਲਈ ਘੁੱਟੋ</string>
     <string name="assist_gesture_setting_enable_wake_title">"ਸਕ੍ਰੀਨ ਬੰਦ ਹੋਣ 'ਤੇ Assistant ਖੋਲ੍ਹੋ"</string>
     <string name="assist_gesture_squeeze_help_maximum_sensitivity">ਹਲਕਾ ਘੁੱਟਣਾ</string>
@@ -40,8 +41,8 @@
     <string name="assist_gesture_training_finished_title">ਪੂਰਾ ਕਰੋ ਜਾਂ ਵਿਵਸਥਿਤ ਕਰਦੇ ਰਹੋ</string>
     <string name="assist_gesture_training_intro_text">ਕਦੇ ਵੀ ਆਪਣੀ Assistant ਨਾਲ ਗੱਲ ਕਰਨ ਲਈ, ਆਪਣੇ ਫ਼ੋਨ ਦਾ ਹੇਠਲਾ ਅੱਧਾ ਹਿੱਸਾ ਤੁਰੰਤ ਘੁੱਟੋ, ਫਿਰ ਛੱਡੋ</string>
     <string name="assist_gesture_training_intro_title">ਆਪਣੀ Assistant ਲਈ ਘੁੱਟੋ</string>
-    <string name="assist_gesture_training_suggestion_summary">Assistant ਨਾਲ ਗੱਲਾਂ ਕਰੋ, ਕਾਲਾਂ ਨੂੰ ਖਾਮੋਸ਼ ਕਰੋ</string>
-    <string name="assist_gesture_training_suggestion_summary_including_alarms">Assistant ਨਾਲ ਗੱਲ ਕਰੋ, ਅਲਾਰਮਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਖਾਮੋਸ਼ ਕਰੋ</string>
+    <string name="assist_gesture_training_suggestion_summary">Assistant ਨਾਲ ਗੱਲਾਂ ਕਰੋ, ਕਾਲਾਂ ਨੂੰ ਸ਼ਾਂਤ ਕਰੋ</string>
+    <string name="assist_gesture_training_suggestion_summary_including_alarms">Assistant ਨਾਲ ਗੱਲ ਕਰੋ, ਅਲਾਰਮਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਸ਼ਾਂਤ ਕਰੋ</string>
     <string name="assist_gesture_training_suggestion_title">Assistant ਲਈ ਘੁੱਟੋ ਅਤੇ ਛੱਡੋ</string>
     <string name="automatic_storage_manager_activation_warning">"ਜਦ ਤੁਸੀਂ ਕਨੈਕਟ ਹੋਵੋ, ਤਾਂ ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਬੈਕਅੱਪ ਲਈ ਚੁਣੀ ਗਈ ਕੁਆਲਿਟੀ 'ਤੇ ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਤੱਕ ਪਹੁੰਚ ਕਰ ਸਕਦੇ ਹੋ"</string>
     <string name="automatic_storage_manager_days_title">ਬੈਕਅੱਪ ਲਈਆਂ ਗਈਆਂ ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਹਟਾਓ</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">ਸਮੱਗਰੀ ਕੈਪਚਰ, ਐਪ ਸਮੱਗਰੀ, ਐਪ ਡਾਟਾ</string>
     <string name="keywords_gesture">ਸੰਕੇਤ, ਹਲਚਲਾਂ</string>
     <string name="keywords_global_actions_panel">ਕਾਰਡ, ਪਾਸ</string>
+    <string name="keywords_limited_warranty">ਵਾਰੰਟੀ, ਗਰੰਟੀ, ਸੀਮਤ ਵਾਰੰਟੀ, ਵਾਅਦਾ, ਮੁਰੰਮਤ, RMA, ਰਿਪਲੇਸਮੈਂਟ</string>
     <string name="keywords_live_transcribe">ਸੁਰਖੀਆਂ, ਬੰਦ ਸੁਰਖੀਆਂ, ਬੰਦ ਸੁੁਰਖੀਆਂ, ਲਾਈਵ ਸੁਰਖੀਆਂ, ਘੱਟ ਸੁਣਨ ਵਾਲੇ, ਘੱਟ ਸੁਣਨਾ, CART, ਬੋਲੀ ਤੋਂ ਲਿਖਤ, ਉਪਸਿਰਲੇਖ</string>
     <string name="keywords_reverse_charging_stop_threshold">"ਜਦੋਂ ਫ਼ੋਨ ਚਾਰਜਿੰਗ ਦੇ ਹੇਠਾਂ ਲਿਖੇ ਪੱਧਰ 'ਤੇ ਪਹੁੰਚ ਜਾਂਦਾ ਹੈ ਤਾਂ ਬੈਟਰੀ ਸਾਂਝਾਕਰਨ ਬੰਦ ਕਰੋ:"</string>
     <string name="keywords_select_to_speak">ਲਿਖਤ ਨੂੰ ਸੁਣੋ, ਉੱਚੀ ਪੜ੍ਹੋ, ਸਕ੍ਰੀਨ ਲਈ ਬੋਲੋ, ਸਕ੍ਰੀਨ ਰੀਡਰ</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge ਬੰਦ ਕੀਤਾ ਹੋਇਆ ਹੈ</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ਚਾਲੂ ਹੈ</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ਚਾਲੂ ਹੈ, ਆਪਣੀ Assistant ਲਈ ਘੁੱਟੋ</string>
+    <string name="limited_warranty_introduction">"ਇਸ ਡੀਵਾਈਸ ਦੀ ਵਾਰੰਟੀ ਦੇਖਣ ਲਈ ਖਰੀਦ ਵਾਲੇ ਦੇਸ਼ 'ਤੇ ਟੈਪ ਕਰੋ। ਇਹ ਵਾਰੰਟੀ g.co/devicewarranty 'ਤੇ ਵੀ ਉਪਲਬਧ ਹੈ"</string>
+    <string name="limited_warranty_title">ਸੀਮਤ ਵਾਰੰਟੀ</string>
     <string name="me_card_title">ਮੇਰਾ Pixel</string>
     <string name="my_device_info_account_preference_title">Google ਖਾਤਾ</string>
     <string name="owner_info_settings_edit_text_hint">ਜਿਵੇਂ ਕਿ, ਏਕਮ ਦਾ Pixel.</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">ਚਿਹਰਾ ਐਨਰੋਲਮੈਂਟ ਕੰਮ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">ਚਿਹਰਾ ਐਨਰੋਲਮੈਂਟ ਕਰਨ ਦੀ ਸਮਾਂ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ਫ਼ੇਸ ਅਣਲਾਕ ਸੈੱਟਅੱਪ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ</string>
-    <string name="security_settings_face_enroll_finish_description">ਹੁਣ ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤ ਸਕਦੇ ਹੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ਹੁਣ ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤ ਸਕਦੇ ਹੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ਹੁਣ ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਚੁੱਕਦੇ ਹੋ ਜਾਂ ਸਕ੍ਰੀਨ 'ਤੇ ਟੈਪ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤ ਸਕਦੇ ਹੋ।
+
+ਫ਼ੇਸ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਉਦੋਂ ਬਿਹਤਰੀਨ ਢੰਗ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ ਜਦੋਂ ਰੌਸ਼ਨੀ ਪੂਰੀ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਮਾਸਕ ਜਾਂ ਧੁੱਪ ਦੀਆਂ ਐਨਕਾਂ ਨਾ ਲਾਈਆਂ ਹੋਣ।"</string>
     <string name="security_settings_face_enroll_finish_title">ਸਭ ਠੀਕ ਲੱਗ ਰਿਹਾ ਹੈ!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ਸੀਮਤ ਨਜ਼ਰ ਜਾਂ ਸਿਰ ਹਿੱਲਣ ਦਾ ਸੈੱਟਅੱਪ</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਣ ਵੇਲੇ, ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਸਿਰ ਨੂੰ ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੇ ਸਾਹਮਣੇ ਵਧੇਰੇ ਸਿੱਧਾ ਰੱਖਣ ਦੀ ਲੋੜ ਹੋਵੇ।</string>
@@ -279,10 +286,11 @@ g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
     <string name="security_settings_face_enroll_introduction_how_title">ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਉਹਨਾਂ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਾਸਤੇ ਤੁਹਾਡੇ ਬੱਚੇ ਦੀਆਂ ਅੱਖਾਂ ਦਾ ਖੁੱਲ੍ਹਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ ਅਤੇ ਤੁਹਾਡਾ ਬੱਚਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਕਿਸੇ ਵੇਲੇ ਵੀ ਇਸ ਵਿਕਲਪ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">"ਜੇ ਤੁਹਾਡਾ ਬੱਚਾ ਆਮ ਤੌਰ 'ਤੇ ਐਨਕਾਂ ਪਹਿਨਦਾ ਹੈ, ਤਾਂ ਉਹ ਸੈੱਟਅੱਪ ਦੌਰਾਨ ਇਹਨਾਂ ਨੂੰ ਪਹਿਨ ਸਕਦਾ ਹੈ।"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ਤੁਹਾਡੇ ਬੱਚੇ ਦੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਉਸਦੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਿਸੇ ਮਜ਼ਬੂਤ ਪੈਟਰਨ ਜਾਂ ਪਿੰਨ ਜਾਂ ਪਾਸਵਰਡ ਨਾਲੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">ਫ਼ੋਨ ਵੱਲ ਦੇਖਦੇ ਸਾਰ ਹੀ ਇਹ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਉਸਦਾ ਇਰਾਦਾ ਵੀ ਨਾ ਹੋਵੇ। ਉਸਦੇ ਨਾਲ ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਿਲਦੇ-ਜੁਲਦੇ ਚਿਹਰੇ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਉਸਦਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ ਉਸਦੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ ਜਾਂ ਜੇ ਕਿਸੇ ਨੇ ਇਸਨੂੰ ਉਸਦੇ ਚਿਹਰੇ ਦੇ ਮੂਹਰੇ ਕੀਤਾ ਹੋਵੇ।</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਤੁਹਾਡੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਾਸਤੇ ਤੁਹਾਡੀਆਂ ਅੱਖਾਂ ਦਾ ਖੁੱਲ੍ਹਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਕਿਸੇ ਵੇਲੇ ਵੀ ਇਸ ਵਿਕਲਪ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">ਐਨਕਾਂ ਜਾਂ ਹਲਕੀ ਜਿਹੀ ਭਾਹ ਦੀਆਂ ਧੁੱਪ ਵਾਲੀਆਂ ਐਨਕਾਂ ਠੀਕ ਰਹਿਣਗੀਆਂ।</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਮਜ਼ਬੂਤ ਪੈਟਰਨ ਜਾਂ ਪਿੰਨ ਨਾਲੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਿਸੇ ਮਜ਼ਬੂਤ ਪੈਟਰਨ, ਪਿੰਨ ਜਾਂ ਪਾਸਵਰਡ ਤੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ</string>
     <string name="security_settings_face_enroll_introduction_info_looking">ਫ਼ੋਨ ਵੱਲ ਦੇਖਦੇ ਸਾਰ ਹੀ ਇਹ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਤੁਹਾਡਾ ਇਰਾਦਾ ਵੀ ਨਾ ਹੋਵੇ। ਤੁਹਾਡੇ ਨਾਲ ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਿਲਦੇ-ਜੁਲਦੇ ਚਿਹਰੇ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਤੁਹਾਡਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ ਤੁਹਾਡੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ ਜਾਂ ਜੇ ਇਹ ਕਿਸੇ ਨੇ ਤੁਹਾਡੇ ਚਿਹਰੇ ਦੇ ਮੂਹਰੇ ਕੀਤਾ ਹੈ।</string>
     <string name="security_settings_face_enroll_introduction_info_title">ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ</string>
     <string name="security_settings_face_enroll_introduction_message">ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ।</string>
@@ -311,6 +319,10 @@ g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
     <string name="smart_battery_title">ਅਡੈਪਟਿਵ ਬੈਟਰੀ</string>
     <string name="sound_dashboard_summary">ਅਵਾਜ਼, ਸਪਰਸ਼ ਸੰਵੇਦਕ, ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ</string>
     <string name="storage_manager_indicator">ਸਮਾਰਟ ਸਟੋਰੇਜ: ^1</string>
+    <string name="suw_warranty_description">"ਇਸ ਡੀਵਾਈਸ ਦੀ ਵਾਰੰਟੀ ਦੇਖਣ ਲਈ ਉਸ ਦੇਸ਼ 'ਤੇ ਟੈਪ ਕਰੋ ਜਿੱਥੋਂ ਇਹ ਡੀਵਾਈਸ ਖਰੀਦਿਆ ਗਿਆ ਹੈ।&lt;br /&gt;&lt;br /&gt;ਵਾਰੰਟੀ &lt;b&gt;ਸੈਟਿੰਗਾਂ &gt; %s &gt; ਸੀਮਤ ਵਾਰੰਟੀ&lt;/b&gt; ਅਤੇ g.co/devicewarranty 'ਤੇ ਵੀ ਉਪਲਬਧ ਹੈ।"</string>
+    <string name="suw_warranty_language_consistent_description">"ਤੁਹਾਡੇ ਡੀਵਾਈਸ 'ਤੇ ਲਾਗੂ ਹੋਣ ਵਾਲੀ ਸੀਮਤ ਵਾਰੰਟੀ ਡੀਵਾਈਸ ਦੀਆਂ ਸੈਟਿੰਗਾਂ &lt;b&gt;ਸੈਟਿੰਗਾਂ&gt; %s &gt; ਸੀਮਤ ਵਾਰੰਟੀ&lt;/b&gt; ਅਤੇ g.co/devicewarranty 'ਤੇ ਵੀ ਉਪਲਬਧ ਹੈ।"</string>
+    <string name="suw_warranty_next_button_text">ਅੱਗੇ</string>
+    <string name="suw_warranty_positive_button_text">ਬੰਦ ਕਰੋ</string>
     <string name="time_remaining_warning_subtext">"ਪਿਛਲੀ ਵਰਤੋਂ ਦੇ ਆਧਾਰ 'ਤੇ ਲਗਭਗ %1$s ਬਾਕੀ"</string>
     <string name="time_remaining_warning_text">ਬੈਟਰੀ ਛੇਤੀ ਹੀ ਖਤਮ ਹੋ ਸਕਦੀ ਹੈ</string>
     <string name="tips_suggestion_summary">ਪੜਚੋਲ ਕਰੋ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਫ਼ੋਨ ਨਾਲ ਕੀ ਕਰ ਸਕਦੇ ਹੋ</string>
@@ -318,7 +330,8 @@ g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਚਿਹਰੇ ਦੇ ਸਾਹਮਣੇ ਫੜ ਕੇ ਰੱਖੋ</string>
     <string name="usb_use_file_transfers">ਫ਼ਾਈਲ ਟ੍ਰਾਂਸਫ਼ਰ / Android Auto</string>
     <string name="wallpaper_dashboard_summary">ਰੰਗ, ਥੀਮ ਵਾਲੇ ਪ੍ਰਤੀਕ, ਐਪ ਗ੍ਰਿਡ</string>
-    <string name="wifi_subscription_summary">OpenRoaming ਦੀ ਗਾਹਕੀ ਦੇਖੋ ਜਾਂ ਬਦਲੋ</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
+    <string name="wifi_subscription_summary">OpenRoaming ਦੀ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਦੇਖੋ ਜਾਂ ਬਦਲੋ</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s ਨਾਲ ਕਨੈਕਟ ਹੈ</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ਕਨੈਕਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ।</string>

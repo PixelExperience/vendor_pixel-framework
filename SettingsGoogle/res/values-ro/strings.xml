@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gestul pentru dezactivarea sunetului alertelor</string>
     <string name="gesture_skip_title">Gestul pentru omitere</string>
     <string name="keywords_touch_sensitivity">atingere, sensibilitate, sensibil, protecție pentru ecran, peliculă, receptiv, receptivitate</string>
-    <string name="touch_sensitivity_summary">Îmbunătățește atingerea în cazul folosirii protecțiilor pentru ecran</string>
-    <string name="touch_sensitivity_title">Crește sensibilitatea la atingere</string>
+    <string name="touch_sensitivity_summary">Creșteți sensibilitatea și îmbunătățiți răspunsul la atingere când folosiți o protecție pentru ecran</string>
+    <string name="touch_sensitivity_title">Modul protecție pentru ecran</string>
     <string name="columbus_title">Atingere rapidă pentru a iniția acțiuni</string>
+    <string name="about_phone">Despre telefon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">S-a configurat Active Edge. Accesați ecranul următor sau continuați să reglați.</string>
     <string name="accessibility_keyboard_haptics_title">Feedback tactil pentru tastatură</string>
     <string name="adaptive_charging">Încărcare adaptabilă</string>
@@ -202,6 +203,7 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="keywords_content_capture">captură conținut, conținut aplicație, date aplicație</string>
     <string name="keywords_gesture">gest, mișcări</string>
     <string name="keywords_global_actions_panel">carduri, permise</string>
+    <string name="keywords_limited_warranty">garanție, garanții, garanție limitată, promisiune, reparare, rma, înlocuire</string>
     <string name="keywords_live_transcribe">subtitrări, subtitrări live, deficiențe de auz, pierderea auzului, CART, redare în scris a vorbirii, subtitrare</string>
     <string name="keywords_reverse_charging_stop_threshold">Nu mai folosiți Încărcarea în comun atunci când telefonul ajunge la:</string>
     <string name="keywords_select_to_speak">auziți textul, citește cu voce tare, citește de pe ecran, cititor de ecran</string>
@@ -213,6 +215,8 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="language_input_gesture_summary_off">Active Edge dezactivat</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activat</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge activat, strângeți pentru Asistent</string>
+    <string name="limited_warranty_introduction">Atingeți țara de achiziție ca să vedeți garanția pentru acest dispozitiv. Garanția este disponibilă și la g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garanție limitată</string>
     <string name="me_card_title">Dispozitvul meu Pixel</string>
     <string name="my_device_info_account_preference_title">Cont Google</string>
     <string name="owner_info_settings_edit_text_hint">De ex., telefonul Pixel al lui Andrei.</string>
@@ -259,7 +263,10 @@ Bateria telefonului se va descărca mai rapid dacă folosiți această funcție.
     <string name="security_settings_face_enroll_error_generic_dialog_message">Înregistrarea chipului nu a funcționat.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">A expirat timpul pentru înregistrarea chipului. Încercați din nou.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Configurarea Deblocării faciale a expirat</string>
-    <string name="security_settings_face_enroll_finish_description">Acum vă puteți folosi fața pentru a vă debloca telefonul sau pentru a vă confirma identitatea, de exemplu, când vă conectați la aplicații sau aprobați o achiziție</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Acum vă puteți folosi fața pentru a vă debloca telefonul sau pentru a vă confirma identitatea, de exemplu, când vă conectați la aplicații sau aprobați o achiziție</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Acum, când ridicați telefonul sau atingeți ecranul, vă puteți folosi fața pentru a debloca.
+
+Deblocarea facială funcționează cel mai bine când există suficientă lumină și nu purtați mască sau ochelari de culoare închisă."</string>
     <string name="security_settings_face_enroll_finish_title">Pare în regulă!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configurați pentru probleme de vedere sau dificultăți de mișcare a capului</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Când folosiți funcția Deblocare facială, capul dvs. trebuie să fie direct în fața telefonului.</string>
@@ -281,10 +288,11 @@ Când folosiți Deblocarea facială, imaginile sunt utilizate pentru a vă actua
     <string name="security_settings_face_enroll_introduction_how_title">Cum funcționează</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Deblocarea facială poate solicita ca ochii copilului dvs. să fie deschiși pentru a-i debloca telefonul sau pentru a-i confirma identitatea. Dvs. și copilul dvs. puteți activa oricând această opțiune în Setări.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Dacă în mod normal copilul dvs. poartă ochelari, îi poate purta și în timpul configurării.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Deblocarea telefonului folosind fața copilului poate fi mai puțin sigură decât un model puternic, un cod PIN sau o parolă.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Dacă privește spre telefon, îl poate debloca și când nu dorește. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu copilul dvs., cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața sa.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Deblocarea facială poate solicita să țineți ochii deschiși pentru a debloca telefonul sau pentru a vă confirma identitatea. Puteți activa oricând această opțiune în Setări.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Puteți folosi ochelari de vedere sau de soare cu lentile ușor nuanțate.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Folosirea unui chip pentru a debloca telefonul poate fi mai puțin sigură decât un model sau un cod PIN puternic.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Este posibil ca deblocarea telefonului folosind fața să fie mai puțin sigură decât un model, un cod PIN sau o parolă complexă</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Dacă priviți spre telefon, îl puteți debloca și când nu doriți. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu dvs., cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața dvs.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Rețineți</string>
     <string name="security_settings_face_enroll_introduction_message">Folosiți-vă fața ca să deblocați telefonul sau să vă confirmați identitatea, de exemplu, când vă conectați la aplicații sau aprobați o achiziție.</string>
@@ -313,6 +321,10 @@ Pentru a îmbunătăți performanța, puteți să configurați din nou Deblocare
     <string name="smart_battery_title">Baterie adaptabilă</string>
     <string name="sound_dashboard_summary">Volum, feedback tactil, Nu deranja</string>
     <string name="storage_manager_indicator">Spațiu de stocare inteligent: ^1</string>
+    <string name="suw_warranty_description">Atingeți țara de achiziție ca să vedeți garanția pentru acest dispozitiv.&lt;br /&gt;&lt;br /&gt;Garanția este disponibilă și la &lt;b&gt;Setări &gt; %s &gt; Garanție limitată&lt;/b&gt; și g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Garanția limitată aplicabilă dispozitivului este disponibilă și în Setările acestuia, la &lt;b&gt;Setări &gt; %s &gt; Garanție limitată&lt;/b&gt; și la g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Înainte</string>
+    <string name="suw_warranty_positive_button_text">Închideți</string>
     <string name="time_remaining_warning_subtext">Pe baza utilizării anterioare, timpul aproximativ rămas este %1$s</string>
     <string name="time_remaining_warning_text">Este posibil ca bateria să se descarce în curând</string>
     <string name="tips_suggestion_summary">Explorați ce puteți face cu telefonul</string>
@@ -320,6 +332,7 @@ Pentru a îmbunătăți performanța, puteți să configurați din nou Deblocare
     <string name="traffic_light_face_enrolling_title_accessibility">Țineți telefonul în fața dvs.</string>
     <string name="usb_use_file_transfers">Transferul fișierelor / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Culori, pictograme tematice, grilă de aplicații</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Vedeți sau modificați abonamentul OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Conectată la %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Atingeți pentru a vă conecta</string>

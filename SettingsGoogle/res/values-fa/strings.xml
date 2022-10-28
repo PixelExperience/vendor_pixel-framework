@@ -4,11 +4,12 @@
     <string name="gesture_silence_title">اشاره هشدارهای ساکت کردن</string>
     <string name="gesture_skip_title">اشاره رد کردن</string>
     <string name="keywords_touch_sensitivity">لمسی، حساسیت، حساس، محافظ صفحه‌نمایش،پوشش محافظ، پاسخگو، پاسخ‌گویی</string>
-    <string name="touch_sensitivity_summary">درصورت استفاده از محافظ‌های صفحه‌نمایش، حساسیت لمس کردن را بهبود می‌بخشد</string>
-    <string name="touch_sensitivity_title">افزایش حساسیت لمس کردن</string>
+    <string name="touch_sensitivity_summary">افزایش حساسیت لمس و بهبود لمس هنگام استفاده از محافظ صفحه‌نمایش</string>
+    <string name="touch_sensitivity_title">حالت محافظ صفحه‌نمایش</string>
     <string name="columbus_title">ضربه سریع برای شروع کنش‌ها</string>
+    <string name="about_phone">درباره تلفن</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏Active Edge راه‌اندازی شد. به صفحه بعد بروید یا به تنظیم ادامه دهید.</string>
-    <string name="accessibility_keyboard_haptics_title">فناوری لمسی صفحه‌کلید</string>
+    <string name="accessibility_keyboard_haptics_title">صفحه‌کلید لمسی</string>
     <string name="adaptive_charging">شارژ تطبیقی</string>
     <string name="adaptive_charging_description">افزایش طول عمر باتری با شارژ پیوسته در دوره‌های شارژ طولانی‌تر. براساس چرخه استفاده فعال می‌شود.</string>
     <string name="adaptive_charging_time_estimate"><b>شارژ تطبیقی</b> • تا %1$s کامل می‌شود</string>
@@ -54,7 +55,7 @@
     <string name="automatic_storage_manager_settings">ذخیره‌سازی هوشمند</string>
     <string name="automatic_storage_manager_text">‏زمانی که حافظه‌تان تقریباً پر است، عکس‌ها و ویدیوهای پشتیبان‌گیری‌شده پاک می‌شود. همچنان می‌توانید در Google photos آن‌ها را پیدا کنید.</string>
     <string name="aware_disabled_preference_action">روشن کردن</string>
-    <string name="aware_disabled_preference_neutral">اکنون نه</string>
+    <string name="aware_disabled_preference_neutral">حالا نه</string>
     <string name="aware_footer_when_airplane_batterysaver_on">‏Motion Sense در دسترس نیست، زیرا حالت هواپیما و «بهینه‌سازی باتری» روشن هستند</string>
     <string name="aware_footer_when_airplane_on">‏Motion Sense در دسترس نیست، زیرا حالت هواپیما روشن است</string>
     <string name="aware_footer_when_batterysaver_on">‏Motion Sense در دسترس نیست، زیرا «بهینه‌سازی باتری» روشن است</string>
@@ -96,7 +97,7 @@
     <string name="bluetooth_untethered_unpair_dialog_body">‏%1$s دیگر با دستگاه‌های پیوندداده‌شده با این حساب Google مرتبط نخواهد بود</string>
     <string name="columbus_gesture_detected">«ضربه سریع» شناسایی شد!</string>
     <string name="columbus_gesture_enrollment_complete">تمام</string>
-    <string name="columbus_gesture_enrollment_do_it_later">الآن نه</string>
+    <string name="columbus_gesture_enrollment_do_it_later">حالا نه</string>
     <string name="columbus_gesture_enrollment_settings">رفتن به تنظیمات</string>
     <string name="columbus_gesture_enrollment_try_it">امتحان کنید</string>
     <string name="columbus_gesture_training_action_no_selection_error">لطفاً کنشی را برای اجرا انتخاب کنید</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">ضبط محتوا، محتوای برنامه، داده‌های برنامه</string>
     <string name="keywords_gesture">اشاره، حرکت‌ها</string>
     <string name="keywords_global_actions_panel">کارت‌ها، مجوزها</string>
+    <string name="keywords_limited_warranty">ضمانت‌نامه، گارانتی، ضمانت‌نامه محدود، تعهد، تعمیر، مجوز پس دادن کالا، تعویض</string>
     <string name="keywords_live_transcribe">‏زیرنویس، زیرنویس ناشنوایان، CC، زیرنویس ناشنوایان زنده، کم‌شنوا، ازدست دادن شنوایی، CART، گفتار به نوشتار، زیرنویس</string>
     <string name="keywords_reverse_charging_stop_threshold">توقف اشتراک‌گذاری باتری وقتی شارژ باتری تلفن به این میزان می‌رسد:</string>
     <string name="keywords_select_to_speak">شنیدن نوشتار، بلند خواندن، خواندن صفحه‌نمایش، صفحه‌خوان</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">‏Active Edge خاموش است</string>
     <string name="language_input_gesture_summary_on_non_assist">‏Active Edge روشن شد</string>
     <string name="language_input_gesture_summary_on_with_assist">‏Active Edge روشن است. برای دسترسی به «دستیار» فشار دهید</string>
+    <string name="limited_warranty_introduction">‏برای مشاهده ضمانت‌نامه این دستگاه، روی کشور محل خرید ضربه بزنید. این ضمانت‌نامه در g.co/devicewarranty هم دردسترس است.</string>
+    <string name="limited_warranty_title">ضمانت‌نامه محدود</string>
     <string name="me_card_title">‏Pixel من</string>
     <string name="my_device_info_account_preference_title">‏حساب Google</string>
     <string name="owner_info_settings_edit_text_hint">‏برای مثال، Ali’s Pixel (پیکسل علی)</string>
@@ -256,10 +260,13 @@
     <string name="security_settings_face_enroll_education_message_accessibility">در صفحه بعدی، تلفن را هم‌سطح چشمانتان نگه دارید</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">مهلت ثبت چهره به پایان رسید. دوباره امتحان کنید.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">مهلت راه‌اندازی «قفل‌گشایی با چهره» تمام شد</string>
-    <string name="security_settings_face_enroll_finish_description">اکنون می‌توانید از چهره‌تان برای باز کردن قفل تلفن یا به‌تأیید رساندن هویتتان (مثلاً هنگام ورود به سیستم برنامه‌ها یا تأیید خریدها) استفاده کنید</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">اکنون می‌توانید از چهره‌تان برای باز کردن قفل تلفن یا به‌تأیید رساندن هویتتان (مثلاً هنگام ورود به سیستم برنامه‌ها یا تأیید خریدها) استفاده کنید</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"اکنون وقتی تلفنتان را برمی‌دارید یا روی صفحه‌نمایش آن ضربه می‌زنید، می‌توانید از چهره‌تان برای باز کردن قفل آن استفاده کنید.
+
+«قفل‌گشایی با چهره» زمانی بهترین عملکرد را دارد که نور کافی وجود داشته باشد و از ماسک یا عینک‌های تیره استفاده نکنید."</string>
     <string name="security_settings_face_enroll_finish_title">خوب به نظر می‌رسد!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">راه‌اندازی برای دید محدود یا حرکت سر</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">هنگام استفاده از «قفل‌گشایی با چهره»، ممکن است لازم باشد سرتان مستقیم روبروی تلفن قرار گیرد.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">راه‌اندازی برای افراد با حرکت سر یا دید محدود</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">هنگام استفاده از «قفل‌گشایی با چهره»، ممکن است لازم شود سرتان را مستقیماً روبروی تلفن قرار دهید.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">به چشمان باز نیاز دارد</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"‏شما و فرزندتان هرزمان بخواهید می‌توانید مدل چهره را حذف کنید، یا «قفل‌گشایی با چهره» را در «تنظیمات» خاموش کنید. تا وقتی مدل‌های چهره را حذف نکنید، در تلفن ذخیره می‌مانند.
 
@@ -278,10 +285,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">نحوه کار</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">«قفل‌گشایی با چهره» می‌تواند باز بودن چشم‌های فرزندتان را برای باز کردن قفل تلفن یا تأیید هویت او الزامی کند. شما و فرزندتان هروقت بخواهید می‌توانید این گزینه را در «تنظیمات» روشن کنید.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">اگر فرزندتان معمولاً از عینک استفاده می‌کند، می‌تواند درطول راه‌اندازی آن را به چشم بزند.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">استفاده از چهره فرزندتان برای باز کردن قفل تلفن او ممکن است نسبت به الگو، پین، یا گذرواژه قوی از امنیت کمتری برخوردار باشد</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">نگاه کردن به تلفن می‌تواند قفل آن را باز کند، حتی اگر فرزندتان چنین قصدی نداشته باشد. اگر فرد دیگری تلفن را در جلوی صورت فرزندتان نگه دارد یا شباهت زیادی به او داشته باشد (مثل خواهر یا برادر دوقلو)، می‌تواند قفل تلفن را باز کند.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">«قفل‌گشایی با چهره» می‌تواند باز بودن چشم‌هایتان را برای باز کردن قفل تلفن یا تأیید هویتتان الزامی کند. هروقت بخواهید می‌توانید این گزینه را در «تنظیمات» روشن کنید.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">عینک یا عینک دودی با کمی سایه‌روشن قابل قبول است.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">استفاده از چهره برای باز کردن قفل تلفن ممکن است امنیت کمتری نسبت به الگو یا پین قوی داشته باشد.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">استفاده از چهره برای باز کردن قفل تلفن می‌تواند ایمنی کمتری نسبت به الگو، پین، یا گذرواژه قوی داشته باشد</string>
     <string name="security_settings_face_enroll_introduction_info_looking">نگاه کردن به تلفن می‌تواند قفل آن را باز کند، حتی اگر چنین قصدی نداشته باشید. اگر فرد دیگری تلفنتان را جلوی صورتتان نگه دارد یا شباهت زیادی به شما داشته باشد (مثل خواهر یا برادر دوقلو)، می‌تواند قفل تلفنتان را باز کند.</string>
     <string name="security_settings_face_enroll_introduction_info_title">به‌خاطر داشته باشید</string>
     <string name="security_settings_face_enroll_introduction_message">از چهره‌تان برای باز کردن قفل تلفن یا به‌تأیید رساندن هویتتان (مثلاً هنگام ورود به سیستم برنامه‌ها یا تأیید خریدها) استفاده کنید.</string>
@@ -290,9 +298,9 @@
     <string name="security_settings_face_enroll_partial_message">برای بهبود عملکرد، می‌توانید «قفل‌گشایی با چهره» را در «تنظیمات» دوباره راه‌اندازی کنید</string>
     <string name="security_settings_face_enroll_partial_start_over">شروع مجدد</string>
     <string name="security_settings_face_enroll_partial_title">راه‌اندازی «قفل‌گشایی با چهره» به‌پایان رسید</string>
-    <string name="security_settings_face_enroll_timeout_message">"درعوض، راه‌اندازی سریع را امتحان کنید. به‌خاطر داشته باشید که هنگام استفاده از «قفل‌گشایی با چهره»، ممکن است لازم باشد سرتان مستقیماً روبروی تلفن قرار بگیرد.
+    <string name="security_settings_face_enroll_timeout_message">"به‌جای آن می‌توانید راه‌اندازی سریع را امتحان کنید. به‌خاطر داشته باشید که هنگام استفاده از «قفل‌گشایی با چهره» شاید لازم شود سرتان را مستقیماً جلوی تلفن قرار دهید.
 
-برای بهبود عملکرد، می‌توانید دوباره در «تنظیمات»، «قفل‌گشایی با چهره» را راه‌اندازی کنید."</string>
+برای بهبود عملکرد، می‌توانید دوباره «قفل‌گشایی با چهره» را در «تنظیمات» راه‌اندازی کنید."</string>
     <string name="security_settings_face_enroll_timeout_title">ادامه راه‌اندازی امکان‌پذیر نیست</string>
     <string name="security_settings_face_enroll_timeout_try_again">دوباره امتحان کنید</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">استفاده از راه‌اندازی سریع</string>
@@ -308,8 +316,12 @@
     <string name="smart_battery_footer">برای افزایش عمر باتری، «باتری تطبیقی» می‌تواند عملکرد و فعالیت پس‌زمینه را کاهش دهد. ممکن است بعضی از اعلان‌ها تأخیر داشته باشد.</string>
     <string name="smart_battery_manager_title">اولویت‌های تطبیقی</string>
     <string name="smart_battery_title">باتری تطبیقی</string>
-    <string name="sound_dashboard_summary">صدا، فناوری لمسی، «مزاحم نشوید»</string>
+    <string name="sound_dashboard_summary">صدا، لمسی، «مزاحم نشوید»</string>
     <string name="storage_manager_indicator">ذخیره‌سازی هوشمند: ^1</string>
+    <string name="suw_warranty_description">‏برای مشاهده ضمانت‌نامه این دستگاه، روی کشور محل خرید ضربه بزنید.&lt;br /&gt;&lt;br /&gt;این ضمانت‌نامه در بخش &lt;b&gt;تنظیمات &gt; %s &gt; ضمانت‌نامه محدود&lt;/b&gt; و در g.co/devicewarranty هم دردسترس است.</string>
+    <string name="suw_warranty_language_consistent_description">‏ضمانت‌نامه محدود مربوط به دستگاه شما در «تنظیمات» دستگاه در بخش &lt;b&gt;تنظیمات &gt; %s &gt; ضمانت‌نامه محدود&lt;/b&gt; و در g.co/devicewarranty هم دردسترس است.</string>
+    <string name="suw_warranty_next_button_text">بعدی</string>
+    <string name="suw_warranty_positive_button_text">بستن</string>
     <string name="time_remaining_warning_subtext">براساس میزان مصرف گذشته، تقریباً %1$s باقی‌مانده است</string>
     <string name="time_remaining_warning_text">ممکن است باتری به‌زودی تمام شود</string>
     <string name="tips_suggestion_summary">آنچه را می‌توانید با تلفنتان انجام دهید کاوش کنید</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">تلفن را جلوی صورتتان نگه دارید</string>
     <string name="usb_use_file_transfers">‏انتقال فایل / Android Auto</string>
     <string name="wallpaper_dashboard_summary">رنگ‌ها، نمادهای دارای زمینه، جدول برنامه</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏مشاهده یا تغییر اشتراک OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">با %1$s متصل شد</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">برای اتصال ضربه بزنید</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Покрет за утишавање обавештења</string>
     <string name="gesture_skip_title">Покрет за прескакање</string>
     <string name="keywords_touch_sensitivity">додир, осетљивост, осетљиво, заштита екрана, филм, прилагодљиво, прилагодљивост</string>
-    <string name="touch_sensitivity_summary">Побољшава додир при коришћењу заштите екрана</string>
-    <string name="touch_sensitivity_title">Повећај осетљивост екрана</string>
+    <string name="touch_sensitivity_summary">Повећајте осетљивост додира и побољшајте додир док користите заштиту за екран</string>
+    <string name="touch_sensitivity_title">Режим заштите за екран</string>
     <string name="columbus_title">Брзи додир за покретање радњи</string>
+    <string name="about_phone">О телефону</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge је подешен. Пређите на следећи екран или наставите са подешавањем.</string>
     <string name="accessibility_keyboard_haptics_title">Тактилни одзиви тастатуре</string>
     <string name="adaptive_charging">Прилагодљиво пуњење</string>
@@ -201,6 +202,7 @@
     <string name="keywords_battery_share_settings">дељење батерије, обрнуто бежично пуњење</string>
     <string name="keywords_content_capture">снимање садржаја, садржај апликације, подаци апликација</string>
     <string name="keywords_global_actions_panel">кредитне картице, картице</string>
+    <string name="keywords_limited_warranty">гаранција, ограничена гаранција, обећање, поправка, овлашћење за враћање робе, замена</string>
     <string name="keywords_live_transcribe">титл, титлови, CC, титл уживо, оштећење слуха, губитак слуха, CART, претварање говора у текст, титловање</string>
     <string name="keywords_reverse_charging_stop_threshold">Заустави дељење батерије када телефон достигне:</string>
     <string name="keywords_select_to_speak">слушање текста, читање наглас, изговарање са екрана, читач екрана</string>
@@ -212,6 +214,8 @@
     <string name="language_input_gesture_summary_off">Active Edge је искључен</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge је укључен</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge је укључен, стисните за покретање Помоћника</string>
+    <string name="limited_warranty_introduction">Додирните земљу куповине да бисте видели гаранцију за овај уређај. Гаранција је доступна и на g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ограничена гаранција</string>
     <string name="me_card_title">Мој Pixel</string>
     <string name="my_device_info_account_preference_title">Google налог</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јованов Pixel.</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">Регистровање лица није успело.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнуто је ограничење времена за регистровање лица. Пробајте поново.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Време за подешавање откључавања лицем је истекло</string>
-    <string name="security_settings_face_enroll_finish_description">Сада можете да користите лице за откључавање телефона или потврду идентитета, на пример, кад се пријављујете у апликације или одобравате куповину</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Сада можете да користите лице за откључавање телефона или потврду идентитета, на пример, кад се пријављујете у апликације или одобравате куповину</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Сада можете да откључате телефон помоћу лица када га узмете или додирнете екран.
+
+Откључавање лицем најбоље ради када има довољно светла и не носите маску или тамне наочаре."</string>
     <string name="security_settings_face_enroll_finish_title">Одлично!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ограничен вид или покрети главом</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Када користите откључавање лицем, глава треба да буде директно испред телефона.</string>
@@ -279,10 +286,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">Принцип рада</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Откључавање лицем ће можда захтевати да очи детета буду отворене да би се телефон откључао или ради потврде дететовог идентитета. Ви и ваше дете у било ком тренутку можете да укључите ову опцију у Подешавањима.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако дете обично носи наочаре, може да их носи током подешавања.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Коришћење лица детета за откључавање телефона може да буде мање безбедно од јаког шаблона, PIN-а или лозинке</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ако погледа телефон, може и нехотице да га откључа. Телефон може да откључа и неко ко много личи на дете, попут идентичног близанца, или ако га неко приближи лицу детета.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Откључавање лицем ће можда захтевати да вам очи буду отворене да би се телефон откључао или ради потврде вашег идентитета. У било ком тренутку можете да укључите ову опцију у Подешавањима.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Наочаре за вид или сунце са благом нијансом су у реду.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Откључавање помоћу лица може да буде мање безбедно у односу на снажан шаблон или PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Коришћење лица за откључавање телефона може да буде мање безбедно него јак шаблон, PIN или лозинка</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Ако погледате телефон, можете и нехотице да га откључате. Телефон може да откључа и неко ко много личи на вас, попут идентичног близанца, или ко га приближи вашем лицу.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Имајте на уму</string>
     <string name="security_settings_face_enroll_introduction_message">Користите лице да бисте откључавали телефон или потврђивали идентитет, на пример, када се пријављујете у апликације или одобравате куповину.</string>
@@ -312,6 +320,10 @@
     <string name="smart_battery_title">Прилагодљива батерија</string>
     <string name="sound_dashboard_summary">Јачина звука, тактилни одзиви, Не узнемиравај</string>
     <string name="storage_manager_indicator">Паметна меморија: ^1</string>
+    <string name="suw_warranty_description">Додирните земљу куповине да бисте видели гаранцију за овај уређај.&lt;br /&gt;&lt;br /&gt;Гаранција је доступна и у одељку &lt;b&gt;Подешавања &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и на g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ограничена гаранција која важи за ваш уређај доступна је и у подешавањима уређаја у одељку &lt;b&gt;Подешавања &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и на g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Даље</string>
+    <string name="suw_warranty_positive_button_text">Затвори</string>
     <string name="time_remaining_warning_subtext">На основу претходног коришћења имате још отприлике %1$s</string>
     <string name="time_remaining_warning_text">Батерија ће се можда ускоро испразнити</string>
     <string name="tips_suggestion_summary">Истражите шта можете да радите телефоном</string>
@@ -319,6 +331,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Држите телефон испред лица</string>
     <string name="usb_use_file_transfers">Пребацивање фајлова/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Боје, тематске иконе, мрежа апликација</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Прегледајте или промените OpenRoaming претплату</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Повезано са добављачем %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Додирните да бисте се повезали</string>

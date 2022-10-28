@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gesto para silenciar alertas</string>
     <string name="gesture_skip_title">Gesto para ignorar</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de ecrã, película, capacidade de resposta</string>
-    <string name="touch_sensitivity_summary">Melhora o toque quando são utilizados protetores de ecrã</string>
-    <string name="touch_sensitivity_title">Aumentar a sensibilidade do toque</string>
+    <string name="touch_sensitivity_summary">Aumente a sensibilidade do toque e melhore o toque quando usar um protetor de ecrã</string>
+    <string name="touch_sensitivity_title">Modo de protetor de ecrã</string>
     <string name="columbus_title">Use o Quick Tap para iniciar ações</string>
+    <string name="about_phone">Acerca do telemóvel</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge configurado. Aceda ao ecrã seguinte ou continue a ajustar.</string>
     <string name="accessibility_keyboard_haptics_title">Funcionalidade tátil do teclado</string>
     <string name="adaptive_charging">Carregamento adaptável</string>
@@ -163,7 +164,7 @@ Após a reposição, execute o processo de configuração e selecione a transfer
     <string name="face_enrolling_title">Mantenha o telemóvel imóvel. Rode a cabeça. Mexa-se lentamente.</string>
     <string name="face_enrolling_title_accessibility">Olhe diretamente para o telemóvel</string>
     <string name="face_enrolling_title_accessibility_progress">Continue a olhar diretamente para o telemóvel</string>
-    <string name="face_enrolling_too_close">Afaste ainda mais o telemóvel.</string>
+    <string name="face_enrolling_too_close">Afaste ainda mais o telemóvel</string>
     <string name="face_enrolling_too_far">Aproxime o telemóvel.</string>
     <string name="face_enrolling_too_high">Mova o telemóvel mais para baixo.</string>
     <string name="face_enrolling_too_left">Mova o telemóvel para a sua direita.</string>
@@ -202,17 +203,20 @@ Os dados das cópias de segurança não contam para a quota de armazenamento do 
     <string name="keywords_content_capture">captura de conteúdo, conteúdo de aplicações, dados de apps</string>
     <string name="keywords_gesture">gesto, movimentos</string>
     <string name="keywords_global_actions_panel">cartões, passes</string>
+    <string name="keywords_limited_warranty">garantia, garantia limitada, promessa, reparação, RMA, substituição</string>
     <string name="keywords_live_transcribe">Legendas, Legendas instantâneas, dificuldade de audição, perda de audição, CART, conversão de voz para texto</string>
     <string name="keywords_reverse_charging_stop_threshold">Parar de partilhar a bateria quando o telemóvel alcançar:</string>
     <string name="keywords_select_to_speak">Ouvir texto, ler em voz alta, ler ecrã, leitor de ecrã</string>
     <string name="keywords_sound_amplifier">PSAP, amplificar, amplificação do som, dificuldade de audição, perda de audição, amplificação</string>
     <string name="keywords_sound_notifications">Notificações, dificuldade de audição, perda de audição, enviar notificações</string>
     <string name="keywords_switch_access">incapacidade motora, interruptor, mão, TA, tecnologia de assistência, paralisia, ELA, análise, análise passo a passo</string>
-    <string name="keywords_talkback">Leitor de ecrã, locução, VoiceOver, assistência por voz, pessoa cega, visão reduzida, TTS, síntese de voz, feedback de voz</string>
+    <string name="keywords_talkback">Leitor de ecrã, locução, VoiceOver, assistência por voz, pessoa cega, visão reduzida, TTS, conversão de texto em voz, feedback de voz</string>
     <string name="keywords_voice_access">voz, controlo por voz, incapacidade motora, mão, micro, microfone, ditado, falar, controlar</string>
     <string name="language_input_gesture_summary_off">Active Edge desativado</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ativado</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ativado, apertar para iniciar o Assistente</string>
+    <string name="limited_warranty_introduction">Toque no país de compra para ver a garantia para este dispositivo. A garantia também está disponível em g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garantia limitada</string>
     <string name="me_card_title">O meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel do João.</string>
@@ -256,7 +260,10 @@ Vire o telemóvel para experimentar."</string>
     <string name="security_settings_face_enroll_education_message">No ecrã seguinte, rode a cabeça para capturar todos os ângulos do seu rosto.</string>
     <string name="security_settings_face_enroll_education_message_accessibility">No ecrã seguinte, mantenha o telemóvel ao nível dos olhos</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">A configuração do Desbloqueio facial expirou</string>
-    <string name="security_settings_face_enroll_finish_description">Já pode utilizar o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Já pode usar o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Agora, quando pegar no seu telemóvel ou tocar no ecrã, pode usar o rosto para desbloquear.
+
+O Desbloqueio facial funciona melhor quando existe luz suficiente e quando não está a usar uma máscara ou óculos escuros."</string>
     <string name="security_settings_face_enroll_finish_title">Tudo OK!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Definir para visão/mobilidade limitada</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Ao utilizar o Desbloqueio facial, a sua cabeça pode ter de estar mais diretamente em frente ao telemóvel.</string>
@@ -278,10 +285,11 @@ Quando utiliza o Desbloqueio facial, são utilizadas imagens para atualizar o se
     <string name="security_settings_face_enroll_introduction_how_title">Como funciona</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">O Desbloqueio facial pode requerer que os olhos da criança estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Você e a criança podem ativar esta opção em qualquer altura nas Definições.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se a criança costuma utilizar óculos, pode utilizá-los durante a configuração.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Usar o rosto da criança para desbloquear o respetivo telemóvel pode ser menos seguro do que um padrão, um PIN ou uma palavra-passe fortes</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">A criança pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O telemóvel também pode ser desbloqueado por alguém muito parecido com a criança, como um irmão com traços semelhantes, ou se for segurado junto ao rosto da criança.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">O Desbloqueio facial pode requerer que os seus olhos estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Pode ativar esta opção em qualquer altura nas Definições.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">É possível usar óculos ou óculos de sol ligeiramente matizados.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Utilizar um rosto para desbloquear o telemóvel pode ser menos seguro do que um padrão ou um PIN fortes.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">A utilização do seu rosto para desbloquear o telemóvel pode ser menos segura do que um padrão, um PIN ou uma palavra-passe forte</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O seu telemóvel também pode ser desbloqueado por alguém muito parecido consigo, como um irmão com traços semelhantes, ou se for segurado junto ao seu rosto.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Atenção</string>
     <string name="security_settings_face_enroll_introduction_message">Utilize o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra.</string>
@@ -310,6 +318,10 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="smart_battery_title">Bateria adaptável</string>
     <string name="sound_dashboard_summary">Volume, funcionalidade tátil, Não incomodar</string>
     <string name="storage_manager_indicator">Armazenamento inteligente: ^1</string>
+    <string name="suw_warranty_description">Toque no país de compra para ver a garantia deste dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">A garantia limitada aplicada ao seu dispositivo também está disponível nas Definições do dispositivo em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Seguinte</string>
+    <string name="suw_warranty_positive_button_text">Fechar</string>
     <string name="time_remaining_warning_subtext">Resta(m) cerca de %1$s com base na utilização anterior</string>
     <string name="time_remaining_warning_text">Pode ficar sem bateria em breve</string>
     <string name="tips_suggestion_summary">Explore o que pode fazer com o telemóvel</string>
@@ -317,6 +329,7 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="traffic_light_face_enrolling_title_accessibility">Mantenha o telemóvel à frente do seu rosto</string>
     <string name="usb_use_file_transfers">Transf. ficheiros/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Cores, ícones temáticos, grelha de apps</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Veja ou altere a subscrição OpenRoaming.</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Ligado ao fornecedor %1$s.</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Toque para ligar.</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Uyarıları sessize al hareketi</string>
     <string name="gesture_skip_title">Atlama hareketi</string>
     <string name="keywords_touch_sensitivity">dokunma, hassasiyet, hassas, ekran koruyucu, film, duyarlı, yanıt verme</string>
-    <string name="touch_sensitivity_summary">Ekran koruyucu kullanırken dokunmayı iyileştirir</string>
-    <string name="touch_sensitivity_title">Dokunma hassasiyetini artır</string>
+    <string name="touch_sensitivity_summary">Ekran koruyucu kullanırken dokunma hassasiyetini artırın ve dokunma işlevini iyileştirin</string>
+    <string name="touch_sensitivity_title">Ekran koruyucu modu</string>
     <string name="columbus_title">"İşlemleri başlatmak için Hızlı Dokun'u kullan"</string>
+    <string name="about_phone">Telefon hakkında</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge kuruldu. Sonraki ekrana geçin veya ayarlamaya devam edin.</string>
     <string name="accessibility_keyboard_haptics_title">Klavye dokunma teknolojisi</string>
     <string name="adaptive_charging">Uyarlanabilir Şarj</string>
@@ -201,6 +202,7 @@ Yedek veriler Drive depolama kotanıza dahil edilmez. Büyük dosyalar veya geli
     <string name="keywords_content_capture">içerik yakalama, uygulama içeriği, uygulama verileri</string>
     <string name="keywords_gesture">hareket, hareketler</string>
     <string name="keywords_global_actions_panel">kartlar</string>
+    <string name="keywords_limited_warranty">garanti, sınırlı garanti, taahhüt, onarım, rma, değiştirme</string>
     <string name="keywords_live_transcribe">Altyazı, altyazılar, alt yazılar, Canlı Altyazı, duyma zorluğu, duyma kaybı, gerçek zamanlı altyazı, sesle yazma, alt yazı</string>
     <string name="keywords_reverse_charging_stop_threshold">Telefon şu seviyeye ulaştığında pil paylaşımını durdur:</string>
     <string name="keywords_select_to_speak">Metin okuma, sesli okuma, ekranı oku, ekran okuyucu</string>
@@ -212,6 +214,8 @@ Yedek veriler Drive depolama kotanıza dahil edilmez. Büyük dosyalar veya geli
     <string name="language_input_gesture_summary_off">Active Edge kapalı</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge açık</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge açık, Asistanınız için sıkın</string>
+    <string name="limited_warranty_introduction">Bu cihazla ilgili garantiyi görmek için cihazın satın alındığı ülkeye dokunun. Garantiyi g.co/devicewarranty sayfasında da bulabilirsiniz.</string>
+    <string name="limited_warranty_title">Sınırlı Garanti</string>
     <string name="me_card_title">"Pixel'im"</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Ör. Can'ın Pixel'i"</string>
@@ -255,9 +259,12 @@ Denemek için telefonunuzu çevirin."</string>
     <string name="security_settings_face_enroll_education_message">Bir sonraki ekranda, yüzünüzün tüm açılardan fotoğrafını çekmek için başınızı çevirin</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Sonraki ekranda telefonunuzu göz hizasında tutun</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Yüz Tanıma Kilidi kurulumu zaman aşımına uğradı</string>
-    <string name="security_settings_face_enroll_finish_description">Artık telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da satın alma işlemlerini onaylama gibi durumlarda kimliğinizi doğrulamak için yüzünüzü kullanabilirsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Artık telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da satın alma işlemlerini onaylama gibi durumlarda kimliğinizi doğrulamak için yüzünüzü kullanabilirsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Artık telefonunuzu elinize aldığınızda veya ekranına dokunduğunuzda kilidini açmak için yüzünüzü kullanabilirsiniz.
+
+Yüz Tanıma Kilidi'nin iyi bir şekilde çalışabilmesi için yeterli ışık olması ve maske ya da koyu renk gözlük takmıyor olmanız gerekir."</string>
     <string name="security_settings_face_enroll_finish_title">İyi görünüyor!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Görme veya başını hareket ettirme yeteneği kısıtlı olanlar için kur</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Görme veya başını hareket ettirme yeteneği kısıtlı olanlar için kurulum</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">"Yüz Tanıma Kilidi'ni kullanırken başınızın doğrudan telefonunuzun karşısında olması gerekebilir."</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Gözlerin açık olması gerekli</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Siz ve çocuğunuz, istediğiniz zaman Ayarlar'dan Yüz Tanıma Kilidi'ni devre dışı bırakabilir veya çocuğunuzun yüz modelini silebilirsiniz. Yüz modelleri, silinene kadar telefonda saklanır.
@@ -277,10 +284,11 @@ Yüz Tanıma Kilidi'ni kullandığınızda resimler, yüz modelinizi güncelleme
     <string name="security_settings_face_enroll_introduction_how_title">İşleyiş şekli</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">"Yüz Tanıma Kilidi, telefon kilidini açmak veya kimliğini doğrulamak için çocuğunuzun gözlerinin açık olmasını isteyebilir. Siz ve çocuğunuz, istediğiniz zaman Ayarlar'dan bu seçeneği açabilirsiniz."</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Çocuğunuz normalde gözlük takıyorsa kurulum sırasında da takabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Çocuğunuzun telefon kilidini açmak için yüzünü kullanmak, güçlü bir desen, PIN veya şifreden daha az güvenli olabilir.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Çocuğunuz telefona baktığında istemese bile kilidi açılabilir. Telefon kilidi, çocuğunuza çok benzeyen birisi (ör. ikiz kardeşi) tarafından veya telefonu yüzüne tutularak da açılabilir.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">"Yüz Tanıma Kilidi, telefon kilidini açmak veya kimliğinizi doğrulamak için gözlerinizin açık olmasını isteyebilir. İstediğiniz zaman Ayarlar'dan bu seçeneği açabilirsiniz."</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Gözlük veya camı açık renkli olan güneş gözlüğü kullanılabilir.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">"Telefonun kilidini açmak için yüz tanımanın kullanılması, güçlü bir desen veya PIN'e kıyasla daha az güvenli olabilir."</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonunuzun kilidini yüzünüzle açmak, güçlü bir desen, PIN veya şifre kullanmak kadar güvenli olmayabilir.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefona baktığınızda istemeseniz bile kilidi açılabilir. Telefonunuzun kilidi, size çok benzeyen (örneğin ikiz kardeşiniz gibi) birisi tarafından veya birisi telefonunuzu yüzünüze tuttuğunda da açılabilir.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Unutmayın</string>
     <string name="security_settings_face_enroll_introduction_message">Telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da satın alma işlemlerini onaylama gibi durumlarda kimliğinizi doğrulamak için yüzünüzü kullanın.</string>
@@ -309,6 +317,10 @@ Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebili
     <string name="smart_battery_title">Uyarlanabilir Pil</string>
     <string name="sound_dashboard_summary">Ses seviyesi, dokunma teknolojisi, Rahatsız Etmeyin</string>
     <string name="storage_manager_indicator">Akıllı Depolama: ^1</string>
+    <string name="suw_warranty_description">Bu cihazın satın alındığı ülkeye dokunarak garantisini görüntüleyebilirsiniz.&lt;br /&gt;&lt;br /&gt;Garantiyi &lt;b&gt;Ayarlar &gt; %s &gt; Sınırlı garanti&lt;/b&gt; bölümünde ve g.co/devicewarranty adresinde de bulabilirsiniz.</string>
+    <string name="suw_warranty_language_consistent_description">Cihazınız için geçerli olan sınırlı garantiyi cihazın Ayarlar bölümünde (&lt;b&gt;Ayarlar &gt; %s &gt; Sınırlı garanti&lt;/b&gt;) ve g.co/devicewarranty adresinde de bulabilirsiniz.</string>
+    <string name="suw_warranty_next_button_text">Sonraki</string>
+    <string name="suw_warranty_positive_button_text">Kapat</string>
     <string name="time_remaining_warning_subtext">Geçmiş kullanıma göre yaklaşık %1$s kaldı</string>
     <string name="time_remaining_warning_text">Pil kısa süre sonra bitebilir</string>
     <string name="tips_suggestion_summary">Telefonunuzla yapabileceklerinizi keşfedin</string>
@@ -316,6 +328,7 @@ Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebili
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonunuzu yüzünüzün önünde tutun</string>
     <string name="usb_use_file_transfers">Dosya aktarımı / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Renkler, temalı simgeler, uygulama tablosu</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming aboneliğini görüntüleyin veya değiştirin</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s ile bağlı</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Bağlanmak için dokunun</string>

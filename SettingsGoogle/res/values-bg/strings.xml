@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Жест за заглушаване на сигналите</string>
     <string name="gesture_skip_title">Жест за пропускане</string>
     <string name="keywords_touch_sensitivity">докосване, чувствителност, чувствително, защитен слой за екрана, филм, адаптивно, реагиране</string>
-    <string name="touch_sensitivity_summary">Подобрява докосването, когато използвате защитни слоеве за екрана</string>
-    <string name="touch_sensitivity_title">Увеличаване на чувствителността при докосване</string>
+    <string name="touch_sensitivity_summary">Увеличаване на чувствителността и подобряване на точността при докосване, когато използвате защитен слой на екрана</string>
+    <string name="touch_sensitivity_title">Режим при защитен слой на екрана</string>
     <string name="columbus_title">Бързо докосване за стартиране на действия</string>
+    <string name="about_phone">Всичко за телефона</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Настройване на Active Edge. Преминете към следващия екран или продължете да коригирате.</string>
     <string name="accessibility_keyboard_haptics_title">Осезателна обратна връзка от клавиатурата</string>
     <string name="adaptive_charging">Адаптивно зареждане</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">заснемане на съдържание, съдържание на приложението, данни от приложението</string>
     <string name="keywords_gesture">жестове, движения</string>
     <string name="keywords_global_actions_panel">карти, пропуски</string>
+    <string name="keywords_limited_warranty">гаранция, ограничена гаранция, обещание, ремонт, rma, замяна</string>
     <string name="keywords_live_transcribe">Надписи, субтитри, „Надписи на живо“, увреден слух, загуба на слуха, надписи в реално време (CART), транскрибиране на говор</string>
     <string name="keywords_reverse_charging_stop_threshold">Спиране на споделянето на батерията, когато нивото ѝ достигне:</string>
     <string name="keywords_select_to_speak">слушане на текст, четене на глас, изговаряне на елементите на екрана, екранен четец</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Функцията Active Edge е изключена</string>
     <string name="language_input_gesture_summary_on_non_assist">Функцията Active Edge е включена</string>
     <string name="language_input_gesture_summary_on_with_assist">Функцията Active Edge е вкл., стиснете за достъп до Асистент</string>
+    <string name="limited_warranty_introduction">За да прегледате гаранцията за това устройство, докоснете държавата, в която е закупено. Тя е налице и на адрес g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ограничена гаранция</string>
     <string name="me_card_title">Моят Pixel</string>
     <string name="my_device_info_account_preference_title">Профил в Google</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството Pixel на Иван“.</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_education_message_accessibility">На следващия екран дръжте телефона на нивото на очите си</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнато е времевото ограничение за регистриране на лице. Опитайте отново.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Настройването на откл. с лице не завърши навреме</string>
-    <string name="security_settings_face_enroll_finish_description">Вече можете да използвате лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Вече можете да използвате лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Сега, когато вземете телефона си или докоснете екрана, можете да използвате лицето си за отключване.
+
+Функцията „Отключване с лице“ работи най-добре, когато има достатъчно светлина и не носите маска или тъмни очила."</string>
     <string name="security_settings_face_enroll_finish_title">Всичко изглежда наред!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Настройка при ограничено зрение или движение на главата</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Когато използвате функцията за отключване с лице, може да се наложи да поставите телефона точно пред главата си.</string>
@@ -278,10 +285,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">Начин на работа</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Функцията за отключване с лице може да изисква очите на детето ви да са отворени за отключване на телефона или потвърждаване на самоличността му. По всяко време вие и детето ви можете да включите тази опция от настройките.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако обикновено детето ви е с очила, може да ги носи и при настройването.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Отключването на телефона на детето ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, PIN код или парола.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Дори и да не възнамерява да отключи телефона, това може да стане, когато детето ви гледа в него. Той може да бъде отключен и от някого, който много прилича на детето ви, например от негов брат или сестра близнак, или ако бъде задържан пред лицето му.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Функцията за отключване с лице може да изисква очите ви да са отворени за отключване на телефона или потвърждаване на самоличността ви. По всяко време можете да включите тази опция от настройките.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Може да носите очила или леко затъмнени слънчеви очила.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Използването на лице за отключване на телефона може да не е толкова сигурно в сравнение с надеждна фигура или ПИН код.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Отключването на телефона ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, ПИН код или парола</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Дори и да не възнамерявате да отключите телефона, това може да стане, когато гледате в него. Той може да бъде отключен и от някого, който много прилича на вас, например от ваш брат или сестра близнак, или ако бъде задържан пред лицето ви.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Имайте предвид следното</string>
     <string name="security_settings_face_enroll_introduction_message">Използвайте лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки.</string>
@@ -310,6 +318,10 @@
     <string name="smart_battery_title">Адаптивна батерия</string>
     <string name="sound_dashboard_summary">Сила на звука, осезателна обратна връзка, режим „Не безпокойте“</string>
     <string name="storage_manager_indicator">Интелигентно хранилище: ^1</string>
+    <string name="suw_warranty_description">За да прегледате гаранцията за това устройство, докоснете държавата, в която е закупено.&lt;br /&gt;&lt;br /&gt;Гаранцията е налице и в &lt;b&gt;Настройки &gt; %s &gt; Ограничена гаранция&lt;/b&gt;, както и на адрес g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ограничената гаранция, приложима за устройството ви, е налице и в настройките му (&lt;b&gt;Настройки &gt; %s &gt; Ограничена гаранция&lt;/b&gt;), както и на адрес g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Напред</string>
+    <string name="suw_warranty_positive_button_text">Затваряне</string>
     <string name="time_remaining_warning_subtext">Още около %1$s въз основа на историята на използване</string>
     <string name="time_remaining_warning_text">Батерията може скоро да се изтощи</string>
     <string name="tips_suggestion_summary">Разгледайте възможностите на телефона си</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Дръжте телефона пред лицето си</string>
     <string name="usb_use_file_transfers">Прехв. на файлове/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Цветове, икони с теми, решетка с приложения</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Преглед или промяна на абонамента за OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Установена е връзка с(ъс) %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Докоснете за свързване</string>

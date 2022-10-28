@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gest per silenciar alertes</string>
     <string name="gesture_skip_title">Gest per ometre</string>
     <string name="keywords_touch_sensitivity">tacte, sensibilitat, sensible, protector de pantalla, protector, responsiu, responsivitat</string>
-    <string name="touch_sensitivity_summary">"Millora la sensibilitat al tacte quan s'utilitzen protectors de pantalla"</string>
-    <string name="touch_sensitivity_title">Augmenta la sensibilitat al tacte</string>
+    <string name="touch_sensitivity_summary">Augmenta la sensibilitat al tacte i millora la resposta tàctil en utilitzar un protector de pantalla</string>
+    <string name="touch_sensitivity_title">Mode de protector de pantalla</string>
     <string name="columbus_title">Toc ràpid per iniciar accions</string>
+    <string name="about_phone">Informació del telèfon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">"Configuració d'Active Edge. Ves a la pantalla següent o continua ajustant."</string>
     <string name="accessibility_keyboard_haptics_title">Tecnologia hàptica del teclat</string>
     <string name="adaptive_charging">Càrrega intel·ligent</string>
@@ -202,6 +203,7 @@ Les dades de la còpia de seguretat no ocupen espai de la teva quota d'emmagatze
     <string name="keywords_content_capture">"captura de contingut, contingut d'aplicacions, dades d'aplicacions"</string>
     <string name="keywords_gesture">gestos, moviments</string>
     <string name="keywords_global_actions_panel">targetes, passis</string>
+    <string name="keywords_limited_warranty">garantia, garantia limitada, promesa, reparació, rma, substitució</string>
     <string name="keywords_live_transcribe">subtítols, subtítols instantanis, deficiències auditives, pèrdua auditiva, CART, parla a text, subtítol</string>
     <string name="keywords_reverse_charging_stop_threshold">Deixa de compartir la bateria quan el telèfon arribi al:</string>
     <string name="keywords_select_to_speak">escoltar text, llegir en veu alta, veu en pantalla, lector de pantalla</string>
@@ -213,6 +215,8 @@ Les dades de la còpia de seguretat no ocupen espai de la teva quota d'emmagatze
     <string name="language_input_gesture_summary_off">Active Edge està desactivat</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge està activat</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge està activat. Estreny per iniciar el teu Assistent.</string>
+    <string name="limited_warranty_introduction">"Toca el país de compra per veure la garantia d'aquest dispositiu. La garantia també està disponible a g.co/devicewarranty."</string>
+    <string name="limited_warranty_title">Garantia limitada</string>
     <string name="me_card_title">El meu Pixel</string>
     <string name="my_device_info_account_preference_title">Compte de Google</string>
     <string name="owner_info_settings_edit_text_hint">"P. ex.: el Pixel de l'Anna."</string>
@@ -258,10 +262,13 @@ Per provar-ho, gira el telèfon."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">"A la pantalla següent, subjecta el telèfon a l'altura dels ulls"</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">"S'ha arribat al límit de temps del registre de cara. Torna-ho a provar."</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Temps esgotat per configurar Desbloqueig facial</string>
-    <string name="security_settings_face_enroll_finish_description">Ara pots utilitzar la cara per desbloquejar el telèfon o verificar que ets tu, com ara quan inicies la sessió en aplicacions o aproves una compra</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Ara pots utilitzar la cara per desbloquejar el telèfon o verificar que ets tu, com ara quan inicies la sessió en aplicacions o aproves una compra</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Ara, quan agafes el telèfon o toques la pantalla, pots utilitzar la cara per desbloquejar-lo.
+
+La funció Desbloqueig facial funciona millor quan hi ha prou llum i no portes mascareta ni ulleres fosques."</string>
     <string name="security_settings_face_enroll_finish_title">Tot correcte!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configuració amb visió o moviment limitats</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Quan utilitzis Desbloqueig facial, és possible que hagis de col·locar el telèfon més directament davant teu.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Quan utilitzis Desbloqueig facial, és possible que hagis de col·locar el cap just davant del telèfon.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">"Els ulls han d'estar oberts"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Tu i el teu fill podeu suprimir les imatges i el seu model facial o desactivar Desbloqueig facial en qualsevol moment a Configuració. Els models facials s'emmagatzemen al telèfon fins que se suprimeixin.
 
@@ -280,10 +287,11 @@ Quan fas servir Desbloqueig facial, les imatges s'utilitzen per actualitzar el t
     <string name="security_settings_face_enroll_introduction_how_title">Com funciona</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Desbloqueig facial pot requerir que el teu fill tingui els ulls oberts per desbloquejar el telèfon o verificar la seva identitat. Tu i el teu fill podeu activar aquesta opció en qualsevol moment a Configuració.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Si el teu fill normalment porta ulleres, pot dur-les posades durant la configuració.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Utilitzar la cara del teu fill o filla per desbloquejar el telèfon pot ser menys segur que un bon patró, PIN o contrasenya</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">"Si mira el telèfon, es pot desbloquejar sense voler. També pot desbloquejar el telèfon una persona que s'assembli molt a ell (per exemple, un bessó idèntic), o algú que li apropi el telèfon a la cara."</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Desbloqueig facial pot requerir que tinguis els ulls oberts per desbloquejar el telèfon o verificar la teva identitat. Pots activar aquesta opció en qualsevol moment a Configuració.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Pots utilitzar ulleres o ulleres de sol amb els vidres clars.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Utilitzar la cara per desbloquejar el telèfon pot ser menys segur que un bon patró o PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Utilitzar la cara per desbloquejar el telèfon pot ser menys segur que un bon patró, PIN o contrasenya</string>
     <string name="security_settings_face_enroll_introduction_info_looking">"Si mires el telèfon, es pot desbloquejar sense voler. També pot desbloquejar el telèfon una persona que s'assembli molt a tu (per exemple, un bessó idèntic), o algú que t'apropi el telèfon a la cara."</string>
     <string name="security_settings_face_enroll_introduction_info_title">Nota important</string>
     <string name="security_settings_face_enroll_introduction_message">Utilitza la cara per desbloquejar el telèfon o verificar que ets tu, com ara quan inicies la sessió en aplicacions o aproves una compra.</string>
@@ -292,7 +300,7 @@ Quan fas servir Desbloqueig facial, les imatges s'utilitzen per actualitzar el t
     <string name="security_settings_face_enroll_partial_message">Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Configuració</string>
     <string name="security_settings_face_enroll_partial_start_over">Torna a començar</string>
     <string name="security_settings_face_enroll_partial_title">"Desbloqueig facial s'ha acabat de configurar"</string>
-    <string name="security_settings_face_enroll_timeout_message">"Prova la configuració ràpida. Tingues en compte que és possible que hagis de col·locar el telèfon més directament davant teu quan utilitzis Desbloqueig facial.
+    <string name="security_settings_face_enroll_timeout_message">"Prova la configuració ràpida. Tingues en compte que és possible que hagis de col·locar el cap just davant del telèfon quan utilitzis Desbloqueig facial.
 
 Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Configuració."</string>
     <string name="security_settings_face_enroll_timeout_title">No es pot continuar amb la configuració</string>
@@ -312,6 +320,10 @@ Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Conf
     <string name="smart_battery_title">Bateria adaptativa</string>
     <string name="sound_dashboard_summary">Volum, tecnologia hàptica, No molestis</string>
     <string name="storage_manager_indicator">Emmagatzematge intel·ligent: ^1</string>
+    <string name="suw_warranty_description">"Toca el país de compra per veure la garantia d'aquest dispositiu.&lt;br /&gt;&lt;br /&gt;La garantia també està disponible a &lt;b&gt;Configuració &gt; %s &gt; Garantia limitada&lt;/b&gt; i a g.co/devicewarranty."</string>
+    <string name="suw_warranty_language_consistent_description">La garantia limitada aplicable al teu dispositiu també està disponible a &lt;b&gt;Configuració &gt; %s &gt; Garantia limitada&lt;/b&gt; i a g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Següent</string>
+    <string name="suw_warranty_positive_button_text">Tanca</string>
     <string name="time_remaining_warning_subtext">"Temps restant aproximat segons l'ús fet anteriorment: %1$s"</string>
     <string name="time_remaining_warning_text">"És possible que la bateria s'esgoti aviat"</string>
     <string name="tips_suggestion_summary">Explora què pots fer amb el teu telèfon</string>
@@ -319,6 +331,7 @@ Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Conf
     <string name="traffic_light_face_enrolling_title_accessibility">Subjecta el telèfon davant de la cara</string>
     <string name="usb_use_file_transfers">Transferència de fitxers / Android Auto</string>
     <string name="wallpaper_dashboard_summary">"Colors, icones temàtiques, quadrícula d'aplicacions"</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Consulta o canvia la subscripció a OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Connectada amb %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Toca per connectar</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gesto ke ztišení upozornění</string>
     <string name="gesture_skip_title">Přeskočit gesto</string>
     <string name="keywords_touch_sensitivity">dotyk, citlivost, citlivý, ochrana displeje, fólie, responzivní, responzivita</string>
-    <string name="touch_sensitivity_summary">Vylepšuje dotyk při použití ochrany displeje</string>
-    <string name="touch_sensitivity_title">Zvýšení citlivosti dotyku</string>
+    <string name="touch_sensitivity_summary">Zvýšit citlivost dotyku a vylepšit reakci na dotyk při použití chrániče obrazovky</string>
+    <string name="touch_sensitivity_title">Režim ochrany displeje</string>
     <string name="columbus_title">Rychlým poklepáním spouštět akce</string>
+    <string name="about_phone">Informace o telefonu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Nastavení funkce Active Edge. Přejděte na další obrazovku nebo pokračujte v úpravách.</string>
     <string name="accessibility_keyboard_haptics_title">Hmatová odezva klávesnice</string>
     <string name="adaptive_charging">Adaptivní nabíjení</string>
@@ -202,6 +203,7 @@ Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké 
     <string name="keywords_content_capture">zachycení obsahu, obsah aplikací, data aplikací</string>
     <string name="keywords_gesture">gesta, pohyby</string>
     <string name="keywords_global_actions_panel">platební karty, lístky</string>
+    <string name="keywords_limited_warranty">záruka, omezená záruka, oprava, rma, výměna</string>
     <string name="keywords_live_transcribe">Titulky pro neslyšící, skryté titulky, živý přepis, nedoslýchavost, ztráta sluchu, převod řeči na text, titulky</string>
     <string name="keywords_reverse_charging_stop_threshold">Přestat sdílet, když baterie klesne na:</string>
     <string name="keywords_select_to_speak">Poslech textu, čtení nahlas, čtení obsahu obrazovky nahlas, čtečka obrazovky</string>
@@ -213,6 +215,8 @@ Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké 
     <string name="language_input_gesture_summary_off">Active Edge je vypnuto</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge je zapnuto</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge je zapnuto. Zmáčknutím aktivujete Asistenta.</string>
+    <string name="limited_warranty_introduction">Klepnutím na zemi, ve které jste toto zařízení zakoupili, zobrazíte záruku. Záruka je také k dispozici na adrese g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Omezená záruka</string>
     <string name="me_card_title">Můj Pixel</string>
     <string name="my_device_info_account_preference_title">Účet Google</string>
     <string name="owner_info_settings_edit_text_hint">Např. Tomův Pixel.</string>
@@ -257,7 +261,10 @@ Pokud to chcete zkusit, otočte telefon."</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Registrace obličeje nefungovala.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Bylo dosaženo časového limitu registrace obličeje. Zkuste to znovu.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Časový limit vypršel</string>
-    <string name="security_settings_face_enroll_finish_description">Odteď můžete obličejem odemykat telefon nebo ověřovat svoji identitu, například při přihlašování do aplikací nebo schvalování nákupů</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Odteď můžete obličejem odemykat telefon nebo ověřovat svoji identitu, například při přihlašování do aplikací nebo schvalování nákupů</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Odteď když zvednete telefon nebo klepnete na obrazovku, můžete ho odemknout obličejem.
+
+Odemknutí obličejem funguje nejlépe v dobře osvětleném prostoru. Nemějte zakrytý obličej ani nasazené tmavé brýle."</string>
     <string name="security_settings_face_enroll_finish_title">A je to.</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nastavení pro špatný zrak nebo hybnost hlavy</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Je možné, že při odemykání obličejem bude muset být vaše hlava příměji před telefonem.</string>
@@ -279,10 +286,11 @@ Když používáte odemknutí obličejem, snímky slouží k aktualizaci modelu
     <string name="security_settings_face_enroll_introduction_how_title">Princip</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, aby dítě mělo otevřené oči. Tuto možnost můžete vy nebo vaše dítě kdykoliv zapnout v Nastavení.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Pokud dítě běžně nosí brýle, může je mít i při nastavování.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odemykání telefonu dítěte obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Dítě telefon může odemknout pohledem, i když zrovna nechce. Telefon bude moci odemknout také někdo, kdo je dítěti hodně podobný, například jeho identické dvojče, nebo někdo, kdo mu telefon podrží před obličejem.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, abyste měli otevřené oči. Tuto možnost můžete kdykoliv zapnout v Nastavení.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brýle nebo lehce zabarvené sluneční brýle jsou v pořádku.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Odemykání telefonu obličejem může být méně bezpečné než silné gesto nebo PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odemykání telefonu obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefon je možné odemknout pohledem, i když zrovna nechcete. Telefon bude moci odemknout také někdo, kdo je vám hodně podobný, například vaše jednovaječné dvojče. Telefon se může odemknout i v případě, že vám ho někdo podrží před obličejem.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Upozornění</string>
     <string name="security_settings_face_enroll_introduction_message">Odemykejte telefon a ověřujte svou identitu v aplikacích (např. při přihlašování nebo schvalování nákupů) pomocí obličeje.</string>
@@ -311,6 +319,10 @@ Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nasta
     <string name="smart_battery_title">Adaptivní baterie</string>
     <string name="sound_dashboard_summary">Hlasitost, hmatová odezva, režim Nerušit</string>
     <string name="storage_manager_indicator">Chytré úložiště: ^1</string>
+    <string name="suw_warranty_description">Klepnutím na zemi, ve které jste toto zařízení zakoupili, zobrazíte záruku.&lt;br /&gt;&lt;br /&gt;Záruka je také k dispozici v sekci &lt;b&gt;Nastavení &gt; %s &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Omezená záruka platná pro toto zařízení je také k dispozici v nastavení zařízení v sekci &lt;b&gt;Nastavení &gt; %s &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Další</string>
+    <string name="suw_warranty_positive_button_text">Zavřít</string>
     <string name="time_remaining_warning_subtext">Podle předchozího používání zbývá přibližně %1$s</string>
     <string name="time_remaining_warning_text">Baterie se může brzy vybít</string>
     <string name="tips_suggestion_summary">Zjistěte, co všechno můžete s telefonem dělat</string>
@@ -318,6 +330,7 @@ Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nasta
     <string name="traffic_light_face_enrolling_title_accessibility">Podržte si telefon před obličejem</string>
     <string name="usb_use_file_transfers">Přenos souborů / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Barvy, tematické ikony, mřížka aplikací</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Zobrazení nebo změna odběru OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Připojeno přes %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Připojíte se klepnutím</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Nonaktifkan gestur notifikasi</string>
     <string name="gesture_skip_title">Lewati gestur</string>
     <string name="keywords_touch_sensitivity">sentuh, sensitivitas, sensitif, pelindung layar, film, responsif, responsivitas</string>
-    <string name="touch_sensitivity_summary">Meningkatkan sensitivitas sentuhan pada layar yang dilapisi pelindung</string>
-    <string name="touch_sensitivity_title">Tingkatkan sensitivitas sentuhan</string>
+    <string name="touch_sensitivity_summary">Meningkatkan sensitivitas sentuh dan respons sentuh saat menggunakan pelindung layar</string>
+    <string name="touch_sensitivity_title">Mode pelindung layar</string>
     <string name="columbus_title">Ketuk Cepat untuk memulai tindakan</string>
+    <string name="about_phone">Tentang ponsel</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge sudah disiapkan. Buka layar berikutnya atau lanjutkan penyesuaian.</string>
     <string name="accessibility_keyboard_haptics_title">Sentuhan keyboard</string>
     <string name="adaptive_charging">Pengisian daya adaptif</string>
@@ -202,6 +203,7 @@ Data cadangan tidak dihitung dari kuota penyimpanan Drive. File besar, atau file
     <string name="keywords_content_capture">gambar konten, konten aplikasi, data aplikasi</string>
     <string name="keywords_gesture">gestur, gerakan</string>
     <string name="keywords_global_actions_panel">kartu, pas</string>
+    <string name="keywords_limited_warranty">jaminan, garansi, garansi terbatas, dijamin, perbaikan, rma, penggantian</string>
     <string name="keywords_live_transcribe">Teks, teks tertutup, CC, Teks Otomatis, gangguan pendengaran, kerusakan pendengaran, CART, speech to text, subtitel</string>
     <string name="keywords_reverse_charging_stop_threshold">Berhenti berbagi baterai saat ponsel mencapai:</string>
     <string name="keywords_select_to_speak">Dengarkan teks, baca dengan keras, layar bicara, pembaca layar</string>
@@ -213,6 +215,8 @@ Data cadangan tidak dihitung dari kuota penyimpanan Drive. File besar, atau file
     <string name="language_input_gesture_summary_off">Active Edge dinonaktifkan</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge diaktifkan</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge aktif, squeeze untuk terhubung dengan Asisten</string>
+    <string name="limited_warranty_introduction">Ketuk negara pembelian untuk melihat garansi perangkat ini. Garansi juga tersedia di g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garansi Terbatas</string>
     <string name="me_card_title">Pixel Saya</string>
     <string name="my_device_info_account_preference_title">Akun Google</string>
     <string name="owner_info_settings_edit_text_hint">Misalnya, Pixel Joko.</string>
@@ -257,7 +261,10 @@ Balik ponsel Anda untuk mencobanya."</string>
     <string name="security_settings_face_enroll_education_message">Di layar berikutnya, putar kepala agar dapat mengambil foto semua sudut wajah Anda</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Di layar berikutnya, pegang ponsel sejajar dengan mata</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Waktu penyiapan Face Unlock sudah habis</string>
-    <string name="security_settings_face_enroll_finish_description">Kini Anda dapat menggunakan wajah untuk membuka kunci ponsel atau memverifikasi diri Anda, seperti saat login ke aplikasi atau menyetujui pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Kini Anda dapat menggunakan wajah untuk membuka kunci ponsel atau memverifikasi diri Anda, seperti saat login ke aplikasi atau menyetujui pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Kini saat Anda mengambil ponsel atau mengetuk layar, Anda dapat menggunakan wajah untuk membuka kunci.
+
+Face Unlock berfungsi optimal saat ada cukup cahaya dan Anda tidak sedang memakai masker atau kacamata hitam."</string>
     <string name="security_settings_face_enroll_finish_title">Sip, selesai!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Penyiapan untuk gerakan kepala atau pandangan yang terbatas</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Saat menggunakan Face Unlock, kepala Anda mungkin harus lebih lurus menghadap ke ponsel.</string>
@@ -279,10 +286,11 @@ Saat Anda menggunakan Face Unlock, gambar digunakan untuk memperbarui model waja
     <string name="security_settings_face_enroll_introduction_how_title">Cara kerjanya</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Mata anak Anda harus terbuka agar terdeteksi oleh Face Unlock untuk membuka kunci ponsel atau memverifikasi diri anak. Anda dan anak Anda dapat mengaktifkan opsi ini kapan saja di Setelan.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jika anak Anda biasanya memakai kacamata, dia dapat memakainya selama penyiapan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Menggunakan wajah anak Anda untuk membuka kunci ponselnya mungkin kurang aman dibandingkan dengan pola, PIN, atau sandi yang kuat</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Dengan melihat ponsel, dia dapat membuka kuncinya meski tidak bermaksud melakukannya. Ponselnya juga dapat dibuka kuncinya oleh seseorang yang sangat mirip dengannya, seperti saudara kembar identik, atau jika seseorang mendekatkan ponsel ke wajah anak Anda.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Mata Anda harus terbuka agar terdeteksi oleh Face Unlock untuk membuka kunci ponsel atau memverifikasi diri Anda. Anda dapat mengaktifkan opsi ini kapan saja di Setelan.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Kacamata atau kacamata berlensa warna transparan dapat digunakan.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Menggunakan wajah untuk membuka kunci ponsel mungkin kurang aman dibandingkan dengan pola atau PIN yang rumit.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Menggunakan wajah Anda untuk membuka kunci ponsel mungkin kurang aman dibandingkan dengan pola, PIN, atau sandi yang rumit</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Dengan melihat ponsel, Anda dapat membuka kuncinya meski tidak bermaksud untuk melakukannya. Ponsel Anda juga dapat dibuka kuncinya oleh seseorang yang sangat mirip dengan Anda, seperti saudara kembar identik, atau jika seseorang mendekatkan ponsel ke wajah Anda.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Ingat</string>
     <string name="security_settings_face_enroll_introduction_message">Gunakan wajah untuk membuka kunci ponsel atau memverifikasi diri Anda, seperti saat login ke aplikasi atau menyetujui pembelian.</string>
@@ -311,6 +319,10 @@ Untuk meningkatkan performa, Anda dapat menyiapkan Face Unlock lagi di Setelan."
     <string name="smart_battery_title">Baterai adaptif</string>
     <string name="sound_dashboard_summary">Volume, sentuhan, Jangan Ganggu</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="suw_warranty_description">Ketuk negara pembelian untuk melihat garansi perangkat ini.&lt;br /&gt;&lt;br /&gt;Garansi juga tersedia di &lt;b&gt;Setelan &gt; %s &gt; Garansi terbatas&lt;/b&gt; dan g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Garansi terbatas yang berlaku di perangkat Anda juga tersedia pada Setelan perangkat di &lt;b&gt;Setelan &gt; %s &gt; Garansi terbatas&lt;/b&gt; dan di g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Berikutnya</string>
+    <string name="suw_warranty_positive_button_text">Tutup</string>
     <string name="time_remaining_warning_subtext">Tentang %1$s yang tersisa berdasarkan penggunaan sebelumnya</string>
     <string name="time_remaining_warning_text">Baterai mungkin akan segera habis</string>
     <string name="tips_suggestion_summary">Jelajahi hal-hal yang dapat Anda lakukan dengan ponsel</string>
@@ -318,6 +330,7 @@ Untuk meningkatkan performa, Anda dapat menyiapkan Face Unlock lagi di Setelan."
     <string name="traffic_light_face_enrolling_title_accessibility">Pegang ponsel di depan wajah Anda</string>
     <string name="usb_use_file_transfers">Transfer file / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Warna, ikon bertema, petak aplikasi</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Melihat atau mengubah langganan OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Terhubung dengan %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Ketuk untuk menghubungkan</string>

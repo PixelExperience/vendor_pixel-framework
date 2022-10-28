@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Touch-Geste zum Stummschalten von Benachrichtigungen</string>
     <string name="gesture_skip_title">Touch-Geste zum Überspringen</string>
     <string name="keywords_touch_sensitivity">Berühren, Empfindlichkeit, empfindlich, Displayschutz, Folie, responsiv, Reaktivität</string>
-    <string name="touch_sensitivity_summary">Verbessert die Touchbedienung, wenn ein Displayschutz angebracht wurde</string>
-    <string name="touch_sensitivity_title">Bessere Berührungsempfindlichkeit</string>
+    <string name="touch_sensitivity_summary">Bei Verwendung eines Displayschutzes die Berührungsempfindlichkeit erhöhen und die Touchreaktion verbessern</string>
+    <string name="touch_sensitivity_title">Displayschutzmodus</string>
     <string name="columbus_title">Schnelltippen, um Aktionen zu starten</string>
+    <string name="about_phone">Über das Smartphone</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge ist eingerichtet. Gehe zum nächsten Bildschirm oder fahre mit der Anpassung fort.</string>
     <string name="accessibility_keyboard_haptics_title">Haptisches Feedback der Tastatur</string>
     <string name="adaptive_charging">Adaptives Laden</string>
@@ -162,7 +163,7 @@ Nach dem Zurücksetzen muss das Gerät erneut eingerichtet werden. Dabei legst d
     <string name="face_enrolling_title">Halte das Gerät ruhig und drehe langsam deinen Kopf</string>
     <string name="face_enrolling_title_accessibility">Smartphone direkt ansehen</string>
     <string name="face_enrolling_title_accessibility_progress">Schau weiterhin direkt auf dein Smartphone</string>
-    <string name="face_enrolling_too_close">Beweg das Smartphone weiter weg</string>
+    <string name="face_enrolling_too_close">Bewege das Smartphone weiter weg</string>
     <string name="face_enrolling_too_far">Beweg das Smartphone näher heran</string>
     <string name="face_enrolling_too_high">Beweg das Smartphone nach unten</string>
     <string name="face_enrolling_too_left">Beweg das Smartphone nach rechts</string>
@@ -201,6 +202,7 @@ Sicherungsdaten werden nicht auf dein Speicherkontingent bei Google Drive angere
     <string name="keywords_content_capture">Inhalte erfassen, App-Inhalte, App-Daten</string>
     <string name="keywords_gesture">gesten,bewegungen,touch-gesten</string>
     <string name="keywords_global_actions_panel">Karten, Tickets</string>
+    <string name="keywords_limited_warranty">Gewährleistung, Garantie, beschränkte Garantie, Versprechen, Reparatur, RMA, Ersatz</string>
     <string name="keywords_live_transcribe">Untertitel, Automatische Untertitel, Schwerhörigkeit, Hörverlust, Spracherkennung in Echtzeit (CART), Spracherkennung</string>
     <string name="keywords_reverse_charging_stop_threshold">Funktion „Akku teilen“ beenden, sobald das Smartphone den folgenden Akkustand erreicht:</string>
     <string name="keywords_select_to_speak">Text hören, laut vorlesen, Bildschirminhalt sprechen, Screenreader</string>
@@ -212,6 +214,8 @@ Sicherungsdaten werden nicht auf dein Speicherkontingent bei Google Drive angere
     <string name="language_input_gesture_summary_off">Active Edge deaktiviert</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge aktiviert</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ist aktiviert: gleichzeitiges Drücken der Seiten öffnet Google Assistant</string>
+    <string name="limited_warranty_introduction">Tippe auf das Land, in dem das Gerät gekauft wurde, um die beschränkte Garantie für dieses Gerät einzusehen. Weitere Informationen zur beschränkten Garantie findest du auch auf g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Beschränkte Garantie</string>
     <string name="me_card_title">Mein Pixel</string>
     <string name="my_device_info_account_preference_title">Google-Konto</string>
     <string name="owner_info_settings_edit_text_hint">Zum Beispiel „Peters Pixel“.</string>
@@ -258,9 +262,12 @@ Drehe dein Phone hierzu um."</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Gesichtsscan ist fehlgeschlagen.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Zeitüberschreitung bei der Anmeldung per Gesichtsscan. Versuch es noch einmal.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Zeitüberschreitung beim Einrichten der Gesichtsentsperrung</string>
-    <string name="security_settings_face_enroll_finish_description">Du kannst jetzt die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder deine Identität zu bestätigen, z. B. um dich in Apps anzumelden oder Käufe zu autorisieren.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Du kannst jetzt die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder deine Identität zu bestätigen, z. B. um dich in Apps anzumelden oder Käufe zu autorisieren</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Wenn du jetzt dein Smartphone zur Hand nimmst oder auf das Display tippst, kannst du die Entsperrung per Gesichtserkennung verwenden.
+
+Die Entsperrung per Gesichtserkennung funktioniert am besten, wenn die Umgebung hell genug ist und du keine Maske oder Brille mit dunklen Gläsern trägst."</string>
     <string name="security_settings_face_enroll_finish_title">Sieht gut aus!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Einrichtung bei Einschränkung von Sehvermögen oder Kopfbeweglichkeit</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Einrichtung bei Einschränkung von Sehvermögen oder Kopfbeweglichkeit.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Wenn du die Entsperrung per Gesichtserkennung verwendest, muss sich dein Kopf möglicherweise noch direkter vor dem Smartphone befinden.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Augen müssen geöffnet sein</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Du und dein Kind könnt jederzeit das Gesichtsmodell löschen oder die Funktion „Entsperrung per Gesichtserkennung“ in den Einstellungen deaktivieren. Gesichtsmodelle bleiben auf dem Smartphone gespeichert, bis sie gelöscht werden.
@@ -280,10 +287,11 @@ Jedes Mal, wenn du dein Smartphone per Gesichtserkennung entsperrst, wird das Mo
     <string name="security_settings_face_enroll_introduction_how_title">So gehts</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Bei der Entsperrung per Gesichtserkennung kann festgelegt werden, dass die Augen deines Kindes offen sein müssen, damit seine Identität bestätigt bzw. das Smartphone entsperrt werden kann. Du und dein Kind könnt diese Option jederzeit in den Einstellungen aktivieren.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Falls dein Kind eine Brille hat, kann es sie auch bei der Einrichtung tragen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Das Entsperren des Smartphones deines Kindes mit seinem Gesicht kann weniger sicher sein als ein starkes Muster, eine PIN oder ein Passwort</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Wenn dein Kind das Smartphone ansieht, kann es entsperrt werden, selbst wenn das nicht beabsichtigt ist. Das Smartphone kann eventuell auch entsperrt werden, wenn ihm jemand sehr ähnlich sieht, etwa ein eineiiger Zwilling, oder das Gerät vor das Gesicht hält.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Bei der Entsperrung per Gesichtserkennung kannst du festlegen, dass deine Augen offen sein müssen, damit deine Identität bestätigt bzw. das Smartphone entsperrt werden kann. Du kannst diese Option jederzeit in den Einstellungen aktivieren.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Eine Korrekturbrille oder eine leicht getönte Sonnenbrille sind in Ordnung.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Dein Smartphone per Gesichtserkennung zu entsperren ist möglicherweise nicht so sicher wie ein komplexes Muster oder eine PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Das Entsperren per Gesichtserkennung ist möglicherweise nicht so sicher wie ein komplexes Muster, eine PIN oder ein Passwort</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Wenn du auf das Smartphone blickst, kann es entsperrt werden, selbst wenn du dies nicht möchtest. Dein Smartphone kann eventuell auch von jemandem entsperrt werden, der dir sehr ähnlich sieht, beispielsweise einem eineiigen Zwilling, oder wenn jemand das Gerät vor dein Gesicht hält.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Hinweis</string>
     <string name="security_settings_face_enroll_introduction_message">Du kannst die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder deine Identität zu bestätigen, z. B. um dich in Apps anzumelden oder Käufe zu autorisieren.</string>
@@ -312,6 +320,10 @@ Damit die Entsperrung per Gesichtserkennung optimal funktioniert, kannst du sie 
     <string name="smart_battery_title">Intelligenter Akku</string>
     <string name="sound_dashboard_summary">Lautstärke, haptisches Feedback, Bitte nicht stören</string>
     <string name="storage_manager_indicator">Intelligenter Speicher: ^1</string>
+    <string name="suw_warranty_description">Tippe auf das Land, in dem das Gerät gekauft wurde, um die beschränkte Garantie für dieses Gerät einzusehen.&lt;br /&gt;&lt;br /&gt;Du findest diese Information auch unter &lt;b&gt;Einstellungen &gt; %s &gt; Beschränkte Garantie&lt;/b&gt; und unter g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Die beschränkte Garantie für dein Gerät findest du auch in den Geräteeinstellungen unter &lt;b&gt;Einstellungen &gt; %s &gt; Beschränkte Garantie&lt;/b&gt; und unter g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Weiter</string>
+    <string name="suw_warranty_positive_button_text">Schließen</string>
     <string name="time_remaining_warning_subtext">Noch ca. %1$s, basierend auf der bisherigen Nutzung</string>
     <string name="time_remaining_warning_text">Der Akku ist fast leer</string>
     <string name="tips_suggestion_summary">Was du mit dem Smartphone alles tun kannst</string>
@@ -319,6 +331,7 @@ Damit die Entsperrung per Gesichtserkennung optimal funktioniert, kannst du sie 
     <string name="traffic_light_face_enrolling_title_accessibility">Halte das Smartphone vor dein Gesicht</string>
     <string name="usb_use_file_transfers">Dateiübertragung / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Farben, Symboldesigns, App-Raster</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Einstellungen für das OpenRoaming-Abo ansehen oder ändern</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Mit %1$s verbunden</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Zum Verbinden tippen</string>

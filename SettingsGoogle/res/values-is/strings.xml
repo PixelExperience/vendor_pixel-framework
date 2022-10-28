@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Slökkva á hljóði fyrir tilkynningar</string>
     <string name="gesture_skip_title">Sleppa bendingu</string>
     <string name="keywords_touch_sensitivity">snerting, næmi, næm, næmur, skjáhlíf, filma, mikil svörun, svörun</string>
-    <string name="touch_sensitivity_summary">Bætir snertingu þegar skjáhlíf er notuð</string>
-    <string name="touch_sensitivity_title">Auka næmi fyrir snertingu</string>
+    <string name="touch_sensitivity_summary">Þú getur aukið næmi fyrir snertingu og bætt snertingu með því að nota skjávörn</string>
+    <string name="touch_sensitivity_title">Skjávarnarstilling</string>
     <string name="columbus_title">Pikka til að ræsa aðgerðir</string>
+    <string name="about_phone">Um símann</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Uppsetning á Active Edge. Farðu á næsta skjá eða haltu áfram að stilla.</string>
     <string name="accessibility_keyboard_haptics_title">Snertisvörun lyklaborðs</string>
     <string name="adaptive_charging">Aðlöguð hleðsla</string>
@@ -201,6 +202,7 @@ Afritunargögn nota ekki geymslukvótann þinn á Drive. Stórar skrár eða skr
     <string name="keywords_content_capture">efnistaka, forritsefni, forritsgögn</string>
     <string name="keywords_gesture">bending, hreyfingar</string>
     <string name="keywords_global_actions_panel">kort, passar</string>
+    <string name="keywords_limited_warranty">ábyrgð, trygging, takmörkuð ábyrgð, loforð, viðgerð, heimild fyrir vöruskilum, skipti</string>
     <string name="keywords_live_transcribe">skjátextar, skýringartextar, CC, skjátextar í rauntíma, heyrnarskerðing, heyrnarleysi, tölvustudd umritun í beinni, talgreinir, texti</string>
     <string name="keywords_reverse_charging_stop_threshold">Hætta að deila rafhlöðu þegar síminn nær:</string>
     <string name="keywords_select_to_speak">heyra texta, lesa upphátt, talskjár, skjálesari</string>
@@ -212,6 +214,8 @@ Afritunargögn nota ekki geymslukvótann þinn á Drive. Stórar skrár eða skr
     <string name="language_input_gesture_summary_off">Slökkt á Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Kveikt á Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Kveikt á Active Edge, kreistu til að opna aðstoðarmanninn</string>
+    <string name="limited_warranty_introduction">Ýttu á landið þar sem tækið var keypt til að sjá ábyrgðina sem gildir. Ábyrgðina má einnig sjá á g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Takmörkuð ábyrgð</string>
     <string name="me_card_title">Pixel síminn minn</string>
     <string name="my_device_info_account_preference_title">Google reikningur</string>
     <string name="owner_info_settings_edit_text_hint">Til dæmis „Pixel sími Jóa“.</string>
@@ -256,7 +260,10 @@ Settu símann á hvolf til að prófa."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Á næsta skjá skaltu halda símanum í augnhæð</string>
     <string name="security_settings_face_enroll_error_dialog_title">Ekki var lokið við skráningu</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Uppsetning andlitskennis rann út á tíma</string>
-    <string name="security_settings_face_enroll_finish_description">Nú geturðu notað andlitið til að taka símann úr lás eða til að staðfesta hver þú ert, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nú geturðu notað andlitið til að taka símann úr lás eða til að staðfesta hver þú ert, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Nú geturðu notað andlitið til að taka símann úr lás þegar þú tekur hann upp eða ýtir á skjáinn.
+
+Andlitskenni virkar best þegar birtan er næg og þú ert ekki með grímu eða dökk gleraugu."</string>
     <string name="security_settings_face_enroll_finish_title">Lítur vel út!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Uppsetning fyrir skerta sjón eða hreyfigetu</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Við notkun á andlitskenni gætirðu þurft að hafa höfuðið beint fyrir framan símann.</string>
@@ -278,10 +285,11 @@ Síminn mun einnig nota myndir frá notkun barnsins á andlitskenni til að uppf
     <string name="security_settings_face_enroll_introduction_how_title">Svona virkar þetta</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Andlitskenni kann að krefjast þess að barnið hafi augun opin til að taka símann úr lás eða staðfesta hver það er. Þú og barnið þitt getið slökkt á þessum valkosti hvenær sem er í stillingum.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ef barnið notar gleraugu að staðaldri getur það verið með þau við uppsetningu.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Óvíst er að öruggara sé að nota andlit barnsins til að taka símann úr lás heldur en að nota sterkt mynstur, PIN-númer eða aðgangsorð</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Síminn gæti opnast óvart þegar barnið lítur á hann. Sími barnsins gæti einnig opnast þegar einhver sem líkist því mikið horfir á hann, t.d. eineggja tvíburi, eða ef einhver heldur símanum upp að andliti barnsins.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Andlitskenni kann að krefjast þess að þú hafir augun opin til að taka símann úr lás eða staðfesta hver þú ert. Þú getur slökkt á þessum valkosti hvenær sem er í stillingum.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Gleraugu eða lítið dekkt sólgleraugu trufla ekki.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Hugsanlega er ekki eins öruggt að taka símann úr lás með andliti eins og að taka hann úr lás með öflugu mynstri eða PIN-númeri.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Ekki er víst að öruggara sé að nota andlitið til að taka símann úr lás heldur en sterkt mynstur, PIN-númer eða aðgangsorð.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Síminn gæti opnast óvart þegar þú lítur á hann. Síminn gæti einnig opnast þegar einhver sem líkist þér mikið horfir á hann, t.d. eineggja tvíburi, eða ef einhver heldur símanum upp að andlitinu á þér.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Hafðu í huga</string>
     <string name="security_settings_face_enroll_introduction_message">Notaðu andlitið til að opna símann eða staðfesta að þetta sért þú, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup.</string>
@@ -310,6 +318,10 @@ Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."<
     <string name="smart_battery_title">Breytileg rafhlöðustjórnun</string>
     <string name="sound_dashboard_summary">Hljóðstyrkur, snertisvörun, ónáðið ekki</string>
     <string name="storage_manager_indicator">Snjallgeymsla: ^1</string>
+    <string name="suw_warranty_description">Ýttu á kauplandið til að skoða ábyrgð þessa tækis.&lt;br /&gt;&lt;br /&gt;Ábyrgðina má einnig sjá í &lt;b&gt;Stillingar &gt; %s &gt; Takmörkuð ábyrgð&lt;/b&gt; og á g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Einnig má sjá takmörkuðu ábyrgðina sem gildir um þetta tæki í stillingum tækisins undir &lt;b&gt;Stillingar &gt; %s &gt; Takmörkuð ábyrgð&lt;/b&gt; og á g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Áfram</string>
+    <string name="suw_warranty_positive_button_text">Loka</string>
     <string name="time_remaining_warning_subtext">Um það bil %1$s eftir miðað við fyrri notkun þína</string>
     <string name="time_remaining_warning_text">Rafhlaðan gæti tæmst bráðlega</string>
     <string name="tips_suggestion_summary">Skoðaðu hvað þú getur gert með símanum</string>
@@ -317,6 +329,7 @@ Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."<
     <string name="traffic_light_face_enrolling_title_accessibility">Haltu símanum fyrir framan andlitið</string>
     <string name="usb_use_file_transfers">Skráaflutningur / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Litir, þematákn, forritatafla</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Skoða eða breyta OpenRoaming-áskrift</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Tengt við %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Ýttu til að tengjast</string>

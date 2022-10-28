@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Értesítések némítására szolgáló kézmozdulat</string>
     <string name="gesture_skip_title">Átugrásra szolgáló kézmozdulat</string>
     <string name="keywords_touch_sensitivity">érintés, érzékenység, érzékeny, kijelzővédő, film, reszponzív, reszponzivitás</string>
-    <string name="touch_sensitivity_summary">Kijelzővédő használata esetén növeli az érintésérzékenységet</string>
-    <string name="touch_sensitivity_title">Érintésérzékenység növelése</string>
+    <string name="touch_sensitivity_summary">Érintésérzékenység növelése és érintésjavítás kijelzővédő használatakor</string>
+    <string name="touch_sensitivity_title">Kijelzővédő mód</string>
     <string name="columbus_title">Gyors koppintás műveletek indításához</string>
+    <string name="about_phone">A telefonról</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Az Active Edge beállítva. Továbbléphet a következő képernyőre, vagy folytathatja a finomhangolást.</string>
     <string name="accessibility_keyboard_haptics_title">Billentyűzet haptikus visszajelzése</string>
     <string name="adaptive_charging">Adaptív töltés</string>
@@ -202,6 +203,7 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="keywords_content_capture">tartalomrögzítés, alkalmazástartalom, alkalmazásadatok</string>
     <string name="keywords_gesture">kézmozdulatok, mozdulatok</string>
     <string name="keywords_global_actions_panel">kártyák, utalványok</string>
+    <string name="keywords_limited_warranty">szavatosság, garancia, korlátozott jótállás, ígéret, javítás, visszáru-engedélyezés, csere</string>
     <string name="keywords_live_transcribe">Feliratok, feliratozás, élő feliratozás, nagyothalló, halláskárosodás, CART, beszéd szöveggé alakítása, felirat</string>
     <string name="keywords_reverse_charging_stop_threshold">Az akkumulátor megosztásának leállítása, amikor a telefon töltöttségi szintje a következőre csökken:</string>
     <string name="keywords_select_to_speak">Szöveg hallgatás, hangos felolvasás, beszélő képernyő, képernyőolvasó</string>
@@ -213,6 +215,8 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="language_input_gesture_summary_off">Az Active Edge ki van kapcsolva</string>
     <string name="language_input_gesture_summary_on_non_assist">Az Active Edge be van kapcsolva</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge bekapcsolva, összenyomással elérheti a Segédet</string>
+    <string name="limited_warranty_introduction">Az eszközre vonatkozó szavatosság megtekintéséhez koppintson a vásárlás országára. A szavatossági információk a következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Korlátozott jótállás</string>
     <string name="me_card_title">Saját Pixel telefon</string>
     <string name="my_device_info_account_preference_title">Google-fiók</string>
     <string name="owner_info_settings_edit_text_hint">Pl. Péter Pixele.</string>
@@ -255,7 +259,10 @@ A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="security_settings_face_enroll_education_message">A következő képernyőnél forgassa körbe a fejét, hogy arcát minden szögből rögzítse az eszköz</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Amikor a következő képernyőn van, tartsa szemmagasságban a telefonját</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Időtúllépés az Arcalapú feloldás beállításakor</string>
-    <string name="security_settings_face_enroll_finish_description">Mostantól használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például amikor alkalmazásokba jelentkezik be, vagy vásárlást hagy jóvá).</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Mostantól használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például amikor valamilyen alkalmazásba jelentkezik be, vagy vásárlást hagy jóvá).</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Mostantól használhatja az Arcalapú feloldás funkciót, amikor kézbe veszi a telefont, vagy rákoppint a képernyőre.
+
+A funkció akkor működik a leghatékonyabban, ha megfelelően megvilágított térben tartózkodik, és nem visel maszkot vagy sötét szemüveget."</string>
     <string name="security_settings_face_enroll_finish_title">Sikerült!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Beállítás kisegítő használatra</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Az Arcalapú feloldás használatához szükséges lehet, hogy a telefon közvetlenül az arca előtt legyen.</string>
@@ -277,10 +284,11 @@ Az Arcalapú feloldás használatakor a rendszer felhasználja a képeket az arc
     <string name="security_settings_face_enroll_introduction_how_title">Hogyan működik?</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Az Arcalapú feloldás funkció megkövetelheti, hogy gyermeke szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Ön és gyermeke bármikor kikapcsolhatják ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ha gyermeke általában szemüveget hord, a beállítás során is viselheti.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Ha gyermeke az arcát használja a telefonja feloldásához, az kevésbé biztonságos lehet, mint egy erős minta, PIN-kód vagy jelszó.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">A telefonjára nézve gyermeke akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít gyermekére, például az egypetéjű ikertestvére; vagy aki az Ön gyermekének arca elé tartja a telefont.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Az Arcalapú feloldás funkció megkövetelheti, hogy az Ön szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Bármikor kikapcsolhatja ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">A szemüvegek és az enyhén színezett napszemüvegek nem jelentenek problémát.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">A telefon arccal való feloldása kevésbé biztonságos lehet, mint egy erős minta vagy PIN-kód használata.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Előfordulhat, hogy a telefon arcalapú feloldása kevésbé biztonságos, mint egy bonyolult minta, PIN-kód vagy jelszó.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">A telefonjára nézve akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít Önre, például az egypetéjű ikertestvére; vagy aki az Ön arca elé tartja a telefont.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Fontos tudnivalók</string>
     <string name="security_settings_face_enroll_introduction_message">Használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például alkalmazásokba való bejelentkezés vagy vásárlás jóváhagyása során).</string>
@@ -309,6 +317,10 @@ A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a
     <string name="smart_battery_title">Alkalmazkodó akkumulátor</string>
     <string name="sound_dashboard_summary">Hangerő, haptikus visszajelzés, Ne zavarjanak</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="suw_warranty_description">Az eszközre vonatkozó szavatosság megtekintéséhez koppintson a vásárlás országára.&lt;br /&gt;&lt;br /&gt;A szavatossági információk a következő helyeken is rendelkezésre állnak: &lt;b&gt;Beállítások &gt; %s &gt; Korlátozott jótállás&lt;/b&gt; és g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Az eszközére vonatkozó korlátozott jótállás megtalálható az eszköz Beállítások alkalmazásában a &lt;b&gt;Beállítások &gt; %s &gt; Korlátozott jótállás&lt;/b&gt; menüpontban, valamint a következő weboldalon is: g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Következő</string>
+    <string name="suw_warranty_positive_button_text">Bezárás</string>
     <string name="time_remaining_warning_subtext">Körülbelül %1$s van hátra az eddigi igénybevétel alapján</string>
     <string name="time_remaining_warning_text">Az akkumulátor hamarosan lemerül</string>
     <string name="tips_suggestion_summary">Nézze meg, mire használhatja telefonját</string>
@@ -316,6 +328,7 @@ A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a
     <string name="traffic_light_face_enrolling_title_accessibility">Tartsa a telefont az arca előtt</string>
     <string name="usb_use_file_transfers">Fájlátvitel / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Színek, tematikus ikonok, alkalmazásrács</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming-előfizetés megtekintése vagy módosítása</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Csatlakozva a következővel: %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Koppintson a csatlakozáshoz</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">إيماءة كتم صوت التنبيهات</string>
     <string name="gesture_skip_title">إيماءة التخطي</string>
     <string name="keywords_touch_sensitivity">لمس، حساسية، حساس، واقي شاشة، فيلم، مستجيب، استجابة</string>
-    <string name="touch_sensitivity_summary">يؤدي إلى تحسين اللمس عند استخدام واقي شاشة.</string>
-    <string name="touch_sensitivity_title">زيادة حساسية اللمس</string>
+    <string name="touch_sensitivity_summary">يمكنك زيادة حساسية اللمس وتحسين الاستجابة اللمس عند استخدام واقي الشاشة.</string>
+    <string name="touch_sensitivity_title">وضع واقي الشاشة</string>
     <string name="columbus_title">النقرة السريعة لبدء الإجراءات</string>
+    <string name="about_phone">لمحة عن الهاتف</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏تم إعداد Active Edge. انتقل إلى الشاشة التالية أو استمر في التعديل.</string>
     <string name="accessibility_keyboard_haptics_title">لوحات مفاتيح تعمل باللمس</string>
     <string name="adaptive_charging">الشحن التكيُّفي</string>
@@ -166,9 +167,9 @@
     <string name="face_enrolling_too_close">يُرجى إبعاد الهاتف عنك.</string>
     <string name="face_enrolling_too_far">يُرجى تقريب الهاتف منك.</string>
     <string name="face_enrolling_too_high">يُرجى خفض الهاتف للأسفل.</string>
-    <string name="face_enrolling_too_left">يُرجى تحريك هاتفك لجهة يمينك.</string>
+    <string name="face_enrolling_too_left">يُرجى تحريك هاتفك لجهة اليمين.</string>
     <string name="face_enrolling_too_low">يُرجى رفع الهاتف للأعلى.</string>
-    <string name="face_enrolling_too_right">يُرجى تحريك الهاتف لجهة يسارك.</string>
+    <string name="face_enrolling_too_right">يُرجى تحريك الهاتف لجهة اليسار.</string>
     <string name="face_enrolling_turn_head_to_arrow">حرّك رأسك باتجاه السهم.</string>
     <string name="face_enrolling_turned_too_far">إدارة الرأس أقل من ذلك بقليل</string>
     <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">التقاط المحتوى، محتوى التطبيق، بيانات التطبيق</string>
     <string name="keywords_gesture">إيماءة، حركات</string>
     <string name="keywords_global_actions_panel">بطاقات، تذاكر</string>
+    <string name="keywords_limited_warranty">ضمان، كفالة، ضمان محدود، تعاقُد، إصلاح، الحصول على إذن بإعادة السلع، استبدال</string>
     <string name="keywords_live_transcribe">‏شرح، ترجمة وشرح، CC، النسخ النصي التلقائي، ضعيف السمع، فقدان السمع، الترجمة في الوقت الفعلي، تحويل الكلام إلى نص، ترجمة</string>
     <string name="keywords_reverse_charging_stop_threshold">إيقاف مشاركة البطارية عندما يصل مستوى شحن الهاتف إلى:</string>
     <string name="keywords_select_to_speak">سماع النص، القراءة بصوت عالٍ، قول ما على الشاشة، قارئ الشاشة</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">‏تم إيقاف Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">‏تم تفعيل Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">‏تم تفعيل Active Edge، ويمكنك الضغط لتشغيل المساعد</string>
+    <string name="limited_warranty_introduction">‏انقر على بلد الشراء لعرض بيان الضمان الخاص بهذا الجهاز. يتوفّر بيان الضمان أيضًا على g.co/devicewarranty‏.</string>
+    <string name="limited_warranty_title">الضمان المحدود</string>
     <string name="me_card_title">‏هاتف Pixel</string>
     <string name="my_device_info_account_preference_title">‏حساب Google</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Pixel الخاص بهاني مثلاً</string>
@@ -255,7 +259,10 @@
     <string name="security_settings_face_enroll_education_message">على الشاشة التالية، حرّك رأسك بشكل دائري ليتسنى التقاط جميع زوايا وجهك.</string>
     <string name="security_settings_face_enroll_education_message_accessibility">في الشاشة التالية، عليك مسك هاتفك على مستوى العين.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">انتهت مهلة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
-    <string name="security_settings_face_enroll_finish_description">يمكنك الآن استخدام وجهك لفتح قفل هاتفك أو إثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">يمكنك الآن استخدام وجهك لفتح قفل هاتفك أو إثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"عندما تُمسك هاتفك أو تنقر على شاشته، يمكنك استخدام وجهك لفتح قفله.
+
+تعمل ميزة \"فتح الجهاز بالتعرف على الوجه\" بشكل أفضل عند وجود إضاءة كافية وبدون ارتداء قناع أو نظارة شمسية."</string>
     <string name="security_settings_face_enroll_finish_title">تم الضبط بنجاح</string>
     <string name="security_settings_face_enroll_introduction_accessibility">صعوبة في الرؤية أو تحريك الرأس</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">عندما تستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، قد تضطر إلى تثبيت رأسك أمام الهاتف مباشرةً.</string>
@@ -277,10 +284,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">آلية العمل</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عينا الطفل مفتوحتين لفتح قفل الهاتف أو إثبات هويته. يمكنك أنت وطفلك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">إذا كان طفلك يرتدي نظارات في العادة، يمكنه ارتداؤها أثناء عملية الإعداد.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">قد يكون استخدام وجه طفلك لفتح قفل هاتفه أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كان لا يقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفه إذا كان يشبهه بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهه.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عيناك مفتوحتين لفتح قفل الهاتف أو إثبات هويتك. يمكنك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">مسموح بالنظارات العادية أو النظارات الشمسية الغامقة قليلاً.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">استخدام الوجه لفتح قفل الهاتف قد يكون أقل أمانًا من رقم تعريف شخصي أو نقش قوي.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">قد يكون استخدام وجهك لفتح قفل الهاتف أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كنت لا تقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفك إذا كان يشبهك بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهك.</string>
     <string name="security_settings_face_enroll_introduction_info_title">تنبيه</string>
     <string name="security_settings_face_enroll_introduction_message">يمكنك استخدام وجهك لفتح قفل الهاتف أو لإثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
@@ -309,6 +317,10 @@
     <string name="smart_battery_title">البطارية التكيُّفية</string>
     <string name="sound_dashboard_summary">مستوى الصوت والميزات التي تعمل باللمس وعدم الإزعاج</string>
     <string name="storage_manager_indicator">التخزين الذكي: ^1</string>
+    <string name="suw_warranty_description">‏انقر على بلد الشراء لعرض بيان الضمان الخاص بهذا الجهاز.&lt;br /&gt;&lt;br /&gt;يتوفّر بيان الضمان أيضًا في &lt;b&gt;الإعدادات &gt; %s &gt; الضمان المحدود&lt;/b&gt; وعلى g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">‏يتوفّر الضمان المحدود الذي ينطبق على جهازك أيضًا بإعدادات الجهاز في &lt;b&gt;الإعدادات &gt; %s &gt; الضمان المحدود&lt;/b&gt; وعلى g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">التالي</string>
+    <string name="suw_warranty_positive_button_text">إغلاق</string>
     <string name="time_remaining_warning_subtext">يتبقى %1$s تقريبًا بناءً على الاستخدام الماضي</string>
     <string name="time_remaining_warning_text">قد ينفد شحن البطارية قريبًا</string>
     <string name="tips_suggestion_summary">استكشاف ما يمكنك فعله باستخدام هاتفك</string>
@@ -316,6 +328,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">عليك تثبيت الهاتف أمام وجهك</string>
     <string name="usb_use_file_transfers">‏نقل الملفات / Android Auto</string>
     <string name="wallpaper_dashboard_summary">الألوان والرموز المرتبطة بموضوع معيّن وشبكة التطبيقات</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏عرض اشتراك OpenRoaming أو تغييره</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">الشبكة متصلة بـ %1$s.</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">انقر للاتصال بالإنترنت.</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Bevegelse for å dempe varsler</string>
     <string name="gesture_skip_title">Hopp over bevegelse</string>
     <string name="keywords_touch_sensitivity">trykk, sensitivitet, sensitiv, skjermbeskytter, film, responsiv, følsomhet</string>
-    <string name="touch_sensitivity_summary">Gir bedre berøringskontroll når du bruker skjermbeskyttere</string>
-    <string name="touch_sensitivity_title">Øk berøringsfølsomheten</string>
+    <string name="touch_sensitivity_summary">Øk berøringsfølsomheten og trykkresponsen når du bruker en skjermbeskytter</string>
+    <string name="touch_sensitivity_title">Skjermbeskyttermodus</string>
     <string name="columbus_title">Hurtigtrykk for å starte handlinger</string>
+    <string name="about_phone">Om telefonen</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge er konfigurert. Gå til neste skjerm eller fortsett å justere.</string>
     <string name="accessibility_keyboard_haptics_title">Fysisk tilbakemelding på tastaturet</string>
     <string name="adaptive_charging">Tilpasset lading</string>
@@ -173,12 +174,12 @@ Når den er tilbakestilt, går du gjennom konfigureringsprosessen og velger å k
     <string name="fallback_menu_item_copy_link">Kopiér linken</string>
     <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
     <string name="fallback_menu_item_share_link">Del link</string>
-    <string name="fullbackup_data_summary">"Sikkerhetskopiér enhetsdata automatisk (for eksempel Wi-Fi-passord og anropslogg) og appdata (for eksempel innstillinger og filer lagret av apper) på Google Disk.
+    <string name="fullbackup_data_summary">"Sikkerhetskopiér enhetsdata automatisk (for eksempel wifi-passord og anropslogg) og appdata (for eksempel innstillinger og filer lagret av apper) på Google Disk.
 
 Når du slår på automatisk sikkerhetskopiering, lagres app- og enhetsdata regelmessig i en privat mappe på Google Disk. Appdata kan være alle slags data som er lagret av apper (basert på utviklerinnstillingene). Dette inkluderer potensielt sensitive data, for eksempel kontakter, meldinger og bilder.
 
 Sikkerhetskopierte data teller ikke mot lagringsgrensen i Disk. Store filer eller filer utviklere har valgt å ekskludere fra tjenesten, sikkerhetskopieres ikke."</string>
-    <string name="fullbackup_erase_dialog_message">Vil du stoppe automatisk sikkerhetskopiering av enhetsdata (for eksempel Wi-Fi-passord og anropslogg) og appdata (for eksempel innstillinger og filer lagret av apper), og i tillegg slette alle kopier på Google Disk?</string>
+    <string name="fullbackup_erase_dialog_message">Vil du stoppe automatisk sikkerhetskopiering av enhetsdata (for eksempel wifi-passord og anropslogg) og appdata (for eksempel innstillinger og filer lagret av apper), og i tillegg slette alle kopier på Google Disk?</string>
     <string name="gesture_aware_confirmation_action_button">Greit</string>
     <string name="gesture_aware_footer"><annotation link="link">Preferanser</annotation></string>
     <string name="gesture_silence_footer"><annotation link="link">Preferanser</annotation></string>
@@ -201,6 +202,7 @@ Sikkerhetskopierte data teller ikke mot lagringsgrensen i Disk. Store filer elle
     <string name="keywords_content_capture">innholdsregistrering, appinnhold, appdata</string>
     <string name="keywords_gesture">bevegelse, bevegelser</string>
     <string name="keywords_global_actions_panel">kort, billetter</string>
+    <string name="keywords_limited_warranty">garanti, begrenset garanti, løfte, reparasjon, rma, erstatning, retur</string>
     <string name="keywords_live_transcribe">Teksting, teksting for hørselshemmede, CC, Direkteteksting, hørselshemmet, hørselstap, CART, tale til tekst, undertekst</string>
     <string name="keywords_reverse_charging_stop_threshold">Slutt å dele batteri når telefonen når:</string>
     <string name="keywords_select_to_speak">Hør tekst, høytlesing, les opp skjermen, skjermleser</string>
@@ -212,6 +214,8 @@ Sikkerhetskopierte data teller ikke mot lagringsgrensen i Disk. Store filer elle
     <string name="language_input_gesture_summary_off">Active Edge er av</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge er på</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge er på, klem for å åpne assistenten</string>
+    <string name="limited_warranty_introduction">Trykk på kjøpslandet for å se garantien for denne enheten. Garantien er også tilgjengelig på g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Begrenset garanti</string>
     <string name="me_card_title">Pixel-telefonen min</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Pixel.</string>
@@ -256,7 +260,10 @@ Vend telefonen for å prøve."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Hold telefonen i øyehøyde på den neste skjermen</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tidsgrensen for ansiktsregistrering er nådd. Prøv på nytt.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigureringen av ansiktslås ble tidsavbrutt</string>
-    <string name="security_settings_face_enroll_finish_description">Nå kan du bruke ansiktet til å låse opp telefonen eller bekrefte at det er deg, for eksempel når du logger på apper eller godkjenner kjøp</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nå kan du bruke ansiktet til å låse opp telefonen eller bekrefte at det er deg, for eksempel når du logger på apper eller godkjenner kjøp</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Når du løfter telefonen eller trykker på skjermen, kan du nå bruke ansiktet til å låse opp.
+
+Ansiktslås fungerer best når det er tilstrekkelig lys og du ikke bruker munnbind eller mørke briller."</string>
     <string name="security_settings_face_enroll_finish_title">Dette ser bra ut</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Oppsett for nedsatt syn eller hodemobilitet</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Når du bruker ansiktslås, må du muligens ha hodet mer direkte foran telefonen.</string>
@@ -278,10 +285,11 @@ Når du bruker ansiktslås, brukes bilder til å oppdatere ansiktsmodellen. Bild
     <string name="security_settings_face_enroll_introduction_how_title">Slik fungerer det</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ansiktslås kan kreve at barnet ditt har øynene åpne for å låse opp telefonen eller bekrefte at det er hen. Du og barnet ditt kan når som helst slå på dette alternativet i innstillingene.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Hvis barnet ditt vanligvis bruker briller, kan hen bruke dem under konfigureringen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Bruk av barnets ansikt til å låse opp telefonen kan være mindre sikkert enn et sterkt mønster, en sterk PIN-kode eller et sterkt passord.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Hvis hen ser på telefonen, kan hen låse den opp selv om det ikke er meningen. Telefonen til barnet kan også låses opp av noen som ligner veldig, for eksempel en tvilling, eller hvis noen holder den mot barnets ansikt.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Ansiktslås kan kreve at du har øynene åpne for å låse opp telefonen eller bekrefte at det er deg. Du kan når som helst slå på dette alternativet i innstillingene.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Briller eller lyse solbriller går bra.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Bruk av ansiktet for å låse opp telefonen kan være mindre sikkert enn et sterkt passord eller en sterk PIN-kode.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Bruk av ansiktet for å låse opp telefonen kan være mindre sikkert enn et sterkt mønster, en sterk PIN-kode eller et sterkt passord</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Hvis du ser på telefonen, kan du låse den opp selv om det ikke er meningen. Telefonen kan også låses opp av noen som ligner veldig på deg, for eksempel en tvilling, eller hvis noen holder den mot ansiktet ditt.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Vær obs på dette</string>
     <string name="security_settings_face_enroll_introduction_message">Bruk ansiktet til å låse opp telefonen eller bekrefte at det er deg, for eksempel når du logger på apper eller godkjenner kjøp.</string>
@@ -310,6 +318,10 @@ For å forbedre ytelsen kan du konfigurere ansiktslås på nytt i innstillingene
     <string name="smart_battery_title">Tilpasset batteri</string>
     <string name="sound_dashboard_summary">Volum, fysisk tilbakemelding, Ikke forstyrr</string>
     <string name="storage_manager_indicator">Smart lagring: ^1</string>
+    <string name="suw_warranty_description">Trykk på kjøpslandet for å se garantien for denne enheten.&lt;br /&gt;&lt;br /&gt;Du kan også se garantien på &lt;b&gt;Innstillinger &gt; %s &gt; Begrenset garanti&lt;/b&gt; og g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Du kan også se den begrensede garantien for enheten fra enhetsinnstillingene på &lt;b&gt;Innstillinger &gt; %s &gt; Begrenset garanti&lt;/b&gt; og på g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Neste</string>
+    <string name="suw_warranty_positive_button_text">Lukk</string>
     <string name="time_remaining_warning_subtext">Omtrent %1$s igjen basert på tidligere bruk</string>
     <string name="time_remaining_warning_text">Batteriet går kanskje snart tomt</string>
     <string name="tips_suggestion_summary">Finn ut hva du kan gjøre med telefonen</string>
@@ -317,6 +329,7 @@ For å forbedre ytelsen kan du konfigurere ansiktslås på nytt i innstillingene
     <string name="traffic_light_face_enrolling_title_accessibility">Hold telefonen foran ansiktet</string>
     <string name="usb_use_file_transfers">Filoverføring / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Farger, temaikoner, apprutenett</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Se eller endre OpenRoaming-abonnement</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Koblet til med %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Trykk for å koble til</string>

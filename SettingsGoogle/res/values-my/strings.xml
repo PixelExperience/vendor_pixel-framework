@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">သတိပေးချက်များ အသံပိတ်ရန် လက်ဟန်</string>
     <string name="gesture_skip_title">ကျော်ရန် လက်ဟန်</string>
     <string name="keywords_touch_sensitivity">ထိတွေ့မှု၊ အာရုံခံနိုင်စွမ်း၊ အထိမခံသော၊ ဖန်သားပြင် အကာအကွယ်၊ အလွှာပါး၊ တုံ့ပြန်မှု လျင်မြန်သော၊ တုံ့ပြန်မှု လျင်မြန်ခြင်း</string>
-    <string name="touch_sensitivity_summary">ဖန်သားပြင် အကာအကွယ်များကို အသုံးပြုလျှင် ထိတွေ့မှု ပိုမိုကောင်းမွန်ပါသည်</string>
-    <string name="touch_sensitivity_title">ထိတွေ့မှုအာရုံခံနိုင်စွမ်း မြှင့်ရန်</string>
+    <string name="touch_sensitivity_summary">ဖန်သားပြင် အကာအကွယ်ကို သုံးချိန်တွင် ထိတွေ့မှုအာရုံခံနိုင်စွမ်း မြင့်စေသည်</string>
+    <string name="touch_sensitivity_title">ဖန်သားပြင် အကာအကွယ်မုဒ်</string>
     <string name="columbus_title">လုပ်ဆောင်ချက်စတင်ရန် ‘အမြန်တို့ခြင်း’</string>
+    <string name="about_phone">ဖုန်းအကြောင်း</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge စနစ်ထည့်သွင်းမှု။ နောက်တစ်မျက်နှာသို့ သွားပါ သို့မဟုတ် ဆက်လက်ချိန်ညှိပါ။</string>
     <string name="accessibility_keyboard_haptics_title">ကီးဘုတ် တုန်ခါ၍တုံ့ပြန်မှုများ</string>
     <string name="adaptive_charging">အလိုက်သင့်အားသွင်းခြင်း</string>
@@ -67,7 +68,7 @@
     <string name="aware_summary_when_batterysaver_on">"'ဘက်ထရီ အားထိန်း' ဖွင့်ထားသောကြောင့် မရနိုင်ပါ"</string>
     <string name="backup_data_summary">Google ဆာဗာများသို့ အက်ပ်ဒေတာ၊ Wi-Fi စကားဝှက်များနှင့် အခြားဆက်တင်များကို အရန်ကူးယူပါ</string>
     <string name="backup_suggestion_cancel">မလုပ်တော့</string>
-    <string name="backup_suggestion_dialog_description">၎င်းသည် ဖုန်းအတွင်းပိုင်း သိုလှောင်ခန်းမှ ဒေတာများအားလုံးကို ဖျက်လိုက်ပါမည်။</string>
+    <string name="backup_suggestion_dialog_description">၎င်းသည် ဖုန်း၏ စက်တွင်းသိုလှောင်ခန်းရှိ ဒေတာအားလုံးကို ဖျက်လိုက်ပါမည်။</string>
     <string name="backup_suggestion_dialog_title">ဤစက်ကို ပြန်သတ်မှတ်လိုပါသလား။</string>
     <string name="backup_suggestion_get_started">ပိုမိုလေ့လာရန်</string>
     <string name="backup_suggestion_item_summary">Android သို့မဟုတ် iPhone® စက်ပစ္စည်းမှ ကူးယူပါ</string>
@@ -202,17 +203,20 @@
     <string name="keywords_content_capture">အကြောင်းအရာ ရယူမှု၊ အက်ပ်အကြောင်းအရာ၊ အက်ပ်ဒေတာ</string>
     <string name="keywords_gesture">လက်ဟန်၊ လှုပ်ရှားချက်များ</string>
     <string name="keywords_global_actions_panel">ကတ်များ၊ ဖြတ်သန်းခွင့်များ</string>
-    <string name="keywords_live_transcribe">စာတန်းများ၊ စာတန်းများ၊ CC၊ တိုက်ရိုက်စာတန်း၊ နားလေးခြင်း၊ အကြားအာရုံဆုံးရှုံးခြင်း၊ CART၊ စကားပြောမှ စာသားသို့၊ စာတန်းထိုးများ</string>
+    <string name="keywords_limited_warranty">အာမခံ၊ အာမခံချက်၊ ကန့်သတ်အာမခံ၊ ကတိ၊ ပြင်ဆင်မှု၊ rma၊ အစားထိုးခြင်း</string>
+    <string name="keywords_live_transcribe">စာတန်းများ၊ စာတန်းများ၊ CC၊ တိုက်ရိုက်စာတန်း၊ နားလေးခြင်း၊ အကြားအာရုံဆုံးရှုံးခြင်း၊ CART၊ စကားမှ စာသို့၊ စာတန်းထိုးများ</string>
     <string name="keywords_reverse_charging_stop_threshold">ဖုန်းက ဤပမာဏသို့ ရောက်သောအခါ ဘက်ထရီမျှဝေခြင်းကို ရပ်ပါ-</string>
     <string name="keywords_select_to_speak">စာသားကို နားထောင်ခြင်း၊ အသံထွက်ဖတ်ခြင်း၊ ဖန်သားပြင်သို့ စကားပြောခြင်း၊ ဖန်သားပြင်ဖတ် အက်ပ်</string>
     <string name="keywords_sound_amplifier">PSAP၊ အသံချဲ့ခြင်း၊ အသံချဲ့ခြင်း၊ နားလေးခြင်း၊ အကြားအာရုံဆုံးရှုံးခြင်း၊ အသံချဲ့ခြင်း</string>
     <string name="keywords_sound_notifications">အကြောင်းကြားချက်များ၊ နားလေးခြင်း၊ အကြားအာရုံဆုံးရှုံးခြင်း၊ အကြောင်းကြားခြင်း</string>
     <string name="keywords_switch_access">မော်တာ၊ အသွင်တူ ခလုတ်၊ လက်၊ AT၊ ကူညီပေးသော နည်းပညာ၊ သွက်ချာပါဒဖြစ်ခြင်း၊ ALS၊ စကင်ဖတ်ခြင်း၊ အဆင့်လိုက် စကင်ဖတ်ခြင်း</string>
-    <string name="keywords_talkback">ဖန်သားပြင်ဖတ် အက်ပ်၊ အသံ ထွက်ပေးမှု၊ နောက်ခံစကားပြော၊ အသံ အကူအညီ၊ မျက်မမြင်၊ အမြင်အာရုံချို့တဲ့ခြင်း၊ TTS၊ စာသားမှ စကားပြောသို့၊ အသံထွက် အကြံပြုချက်</string>
+    <string name="keywords_talkback">ဖန်သားပြင်ဖတ် အက်ပ်၊ အသံ ထွက်ပေးမှု၊ နောက်ခံစကားပြော၊ အသံ အကူအညီ၊ မျက်မမြင်၊ အမြင်အာရုံချို့တဲ့ခြင်း၊ TTS၊ စာမှ စကားသို့၊ အသံထွက် အကြံပြုချက်</string>
     <string name="keywords_voice_access">အသံ၊ အသံဖြင့် ထိန်းချုပ်ရန်၊ မော်တာ၊ လက်၊ မိုက်၊ မိုက်ခရိုဖုန်း၊ နှုတ်တိုက်ချပေးခြင်း၊ စကားပြောခြင်း၊ ထိန်းချုပ်ခြင်း</string>
     <string name="language_input_gesture_summary_off">Active Edge ကို ပိတ်ထားပါသည်</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ကို ဖွင့်ထားပါသည်</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ဖွင့်ထားသည်၊ Assistant ကိုသုံးရန် ဖျစ်ညှစ်ပါ</string>
+    <string name="limited_warranty_introduction">ဤစက်အာမခံကို ကြည့်ရန် ဝယ်ယူခဲ့သောတိုင်းပြည်ကို တို့ပါ။ ဤအာမခံကို g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်</string>
+    <string name="limited_warranty_title">ကန့်သတ်အာမခံ</string>
     <string name="me_card_title">ကျွန်ုပ်၏ Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">ဥပမာ- Joe ၏ Pixel</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_education_message">နောက်စာမျက်နှာတွင် သင့်မျက်နှာ၏ ရှုထောင့်ပေါင်းစုံကို ရိုက်ယူရန် သင့်ဦးခေါင်းကို လှည့်ပါ</string>
     <string name="security_settings_face_enroll_education_message_accessibility">နောက်ဖန်သားပြင်တွင် သင့်ဖုန်းကို မျက်လုံးနှင့် တစ်တန်းတည်းထား၍ ကိုင်ပါ</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းထည့်သွင်းချိန် ကုန်သွားပါပြီ</string>
-    <string name="security_settings_face_enroll_finish_description">အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ချိန် (သို့) ပစ္စည်းဝယ်ယူချိန်များတွင် သင်ဖြစ်ကြောင်း အတည်ပြုရန် (သို့) သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန်တို့အတွက် သင့်မျက်နှာကို ယခု သုံးနိုင်ပါပြီ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">အက်ပ်များသို့ လက်မှတ်ထိုးဝင်သောအခါ (သို့) ပစ္စည်းဝယ်ယူသောအခါ သင်ဖြစ်ကြောင်းအတည်ပြုရန် (သို့) သင့်ဖုန်းကိုဖွင့်ရန် သင့်မျက်နှာကို ယခုသုံးနိုင်ပါပြီ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ဖုန်းကိုင်လိုက်ချိန် (သို့) ဖန်သားပြင်တို့လိုက်ချိန်တွင် ဖွင့်ရန် သင့်မျက်နှာကို ယခုသုံးနိုင်ပါပြီ။
+
+အလင်းရောင်အလုံအလောက်ရပြီး နှာခေါင်းစည်း (သို့) မျက်မှန်အနက် တပ်မထားသောအခါ ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ အကောင်းဆုံးအလုပ်လုပ်သည်။"</string>
     <string name="security_settings_face_enroll_finish_title">အဆင်ပြေပါသည်။</string>
     <string name="security_settings_face_enroll_introduction_accessibility">မျက်လုံးအားနည်း၊ ခေါင်းသိပ်မလှုပ်နိုင်သူအတွက်</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ အသုံးပြုသည့်အခါ သင့်ခေါင်းကို ဖုန်းရှေ့တွင် တည့်အောင်ထားပေးရမည်။</string>
@@ -273,16 +280,17 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="security_settings_face_enroll_introduction_how_consent_message">"‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ က သင့်ကလေးကို သူဖြစ်ကြောင်း အတည်ပြုရန်အတွက် သူ့မျက်နှာ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာနမူနာကို ပြုလုပ်ရန်အတွက် သင့်ကလေး၏မျက်နှာကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးမည်။
 
 သူက ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သုံးသောအခါ သူ၏မျက်နှာနမူနာကို အပ်ဒိတ်လုပ်ရန် ပုံများကို သုံးသည်။ သူ၏မျက်နှာနမူနာပြုလုပ်ရန် သုံးထားသောပုံများကို မသိမ်းပါ။ သို့သော် မျက်နှာနမူနာကို ဖုန်းတွင် လုံခြုံစွာသိမ်းပြီး ဖုန်းအတွင်း၌သာ ထားပါသည်။ လုပ်ဆောင်ချက်အားလုံး ဖုန်းတွင် လုံခြုံစွာ ဖြစ်ပေါ်သည်။"</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ က သင်ဖြစ်ကြောင်း အတည်ပြုရန် သင့်မျက်နှာ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာနမူနာကို ပြုလုပ်ရန်အတွက် သင့်မျက်နှာကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးမည်။
+    <string name="security_settings_face_enroll_introduction_how_message">"‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ က သင်ဖြစ်ကြောင်း အတည်ပြုရန် သင့်မျက်နှာ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာနမူနာကို ပြုလုပ်ရန်အတွက် သင့်မျက်နှာကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးရမည်။
 
-‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သုံးသောအခါ သင့်မျက်နှာနမူနာကို အပ်ဒိတ်လုပ်ရန် ပုံများကို သုံးသည်။ သင်၏မျက်နှာနမူနာပြုလုပ်ရန် သုံးထားသောပုံများကို မသိမ်းပါ။ သို့သော် မျက်နှာနမူနာကို သင့်ဖုန်းတွင် လုံခြုံစွာသိမ်းပြီး ဖုန်းအတွင်း၌သာ ထားပါသည်။ လုပ်ဆောင်ချက်အားလုံး သင့်ဖုန်းတွင် လုံခြုံစွာ ဖြစ်ပေါ်သည်။"</string>
+‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သုံးသောအခါ သင့်မျက်နှာနမူနာကို အပ်ဒိတ်လုပ်ရန် ယင်းပုံများကို သုံးသည်။ သင်၏မျက်နှာနမူနာပြုလုပ်ရန် သုံးထားသောပုံများကို မသိမ်းပါ။ သို့သော် မျက်နှာနမူနာကို သင့်ဖုန်းတွင် လုံခြုံစွာသိမ်းပြီး ဖုန်းအတွင်း၌သာ ထားပါသည်။ လုပ်ဆောင်ချက်အားလုံး သင့်ဖုန်းတွင် လုံခြုံစွာ ဖြစ်ပေါ်သည်။"</string>
     <string name="security_settings_face_enroll_introduction_how_title">အလုပ်လုပ်ပုံ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် (သို့) သင့်ကလေးဖြစ်ကြောင်း အတည်ပြုရန်အတွက် ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သည် သူ၏မျက်လုံးများကို ဖွင့်ထားရန်လိုအပ်နိုင်သည်။ သင်နှင့် သင့်ကလေးက ဤနည်းလမ်းကို ဆက်တင်များတွင် အချိန်မရွေး ဖွင့်နိုင်သည်။</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">သင့်ကလေးသည် မျက်မှန်တပ်လေ့ရှိသူဖြစ်လျှင် စနစ်ထည့်သွင်းစဉ်တွင် မျက်မှန်တပ်ထားနိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">သင့်ကလေး၏ မျက်နှာကိုသုံး၍ ၎င်း၏ဖုန်းကို လော့ခ်ဖွင့်ခြင်းသည် ခိုင်မာသည့်ပုံစံ၊ ပင်နံပါတ် (သို့) စကားဝှက်လောက် လုံခြုံမှုမရှိနိုင်ပါ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">မတော်တဆ သူ ဖုန်းကို ကြည့်မိရုံမျှဖြင့် ဖုန်းပွင့်သွားနိုင်ပါသည်။ အမြွှာကဲ့သို့ သူနှင့်အလွန်တူသူကလည်း သူ့ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည် (သို့) တစ်စုံတစ်ယောက်က ဖုန်းကို သူ့မျက်နှာရှေ့ကိုင်ထားလျှင် ပွင့်နိုင်သည်။</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် (သို့) သင်ဖြစ်ကြောင်း အတည်ပြုရန်အတွက် ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သည် သင်၏မျက်လုံးများကို ဖွင့်ထားရန်လိုအပ်နိုင်သည်။ ဤနည်းလမ်းကို ဆက်တင်များတွင် အချိန်မရွေး ဖွင့်နိုင်သည်။</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">မျက်မှန် (သို့) အရောင်အနည်းငယ်ပါသည့် နေကာမျက်မှန်များ သုံးနိုင်သည်။</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">မျက်နှာကိုသုံး၍ ဖုန်းလော့ခ်ဖွင့်ခြင်းသည် ခိုင်မာသည့်ပုံစံ (သို့) ပင်နံပါတ်လောက် လုံခြုံမှုမရှိနိုင်ပါ။</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">သင့်မျက်နှာကိုသုံး၍ ဖုန်းကိုလော့ခ်ဖွင့်ခြင်းသည် ခိုင်မာသည့်ပုံစံ၊ ပင်နံပါတ် (သို့) စကားဝှက်တို့လောက် လုံခြုံမှုမရှိနိုင်ပါ</string>
     <string name="security_settings_face_enroll_introduction_info_looking">မတော်တဆ သင့်ဖုန်းကို ကြည့်မိရုံမျှဖြင့် ဖုန်းပွင့်သွားနိုင်ပါသည်။ အမြွှာကဲ့သို့ သင်နှင့်အလွန်တူသူကလည်း သင့်ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည် (သို့) တစ်စုံတစ်ယောက်က ဖုန်းကို သင့်မျက်နှာရှေ့ကိုင်ထားလျှင် ပွင့်နိုင်သည်။</string>
     <string name="security_settings_face_enroll_introduction_info_title">သတိပြုရန်</string>
     <string name="security_settings_face_enroll_introduction_message">အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ချိန် (သို့) ပစ္စည်းဝယ်ယူချိန်များတွင် သင်ဖြစ်ကြောင်း အတည်ပြုရန် (သို့) သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် သင့်မျက်နှာကို သုံးပါ။</string>
@@ -294,7 +302,7 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="security_settings_face_enroll_timeout_message">"၎င်းအစား အမြန် ထည့်သွင်းခြင်းကို စမ်းကြည့်ပါ။ မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း အသုံးပြုသည့်အခါ သင့်မျက်နှာကို ဖုန်းရှေ့တွင် တည့်အောင်ထားပေးရမည်။
 
 စွမ်းဆောင်ရည် ပိုမိုကောင်းမွန်စေရန် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ဆက်တင်များတွင် ထပ်မံထည့်သွင်းနိုင်ပါသည်။"</string>
-    <string name="security_settings_face_enroll_timeout_title">ဆက်လက် စနစ်ထည့်သွင်း၍ မရပါ</string>
+    <string name="security_settings_face_enroll_timeout_title">စနစ်ထည့်သွင်းခြင်း ရှေ့ဆက်၍မရပါ</string>
     <string name="security_settings_face_enroll_timeout_try_again">ထပ်စမ်းကြည့်ရန်</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">အမြန် ထည့်သွင်းခြင်း သုံးရန်</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">စနစ်ထည့်သွင်းမှုမှ ထွက်ရန်</string>
@@ -311,6 +319,10 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="smart_battery_title">အလိုက်အထိုက် ဘက်ထရီအားထိန်း</string>
     <string name="sound_dashboard_summary">"အသံ၊ တုန်ခါ၍တုံ့ပြန်မှု၊ 'မနှောင့်ယှက်ရ'"</string>
     <string name="storage_manager_indicator">စမတ်သိုလှောင်ခန်း− ^1</string>
+    <string name="suw_warranty_description">ဤစက်အာမခံကို ကြည့်ရန် ဝယ်ယူခဲ့သောတိုင်းပြည်ကို တို့ပါ။&lt;br /&gt;&lt;br /&gt;ဤအာမခံကို &lt;b&gt;ဆက်တင်များ &gt; %s &gt; ကန့်သတ်အာမခံ&lt;/b&gt; နှင့် g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်။</string>
+    <string name="suw_warranty_language_consistent_description">သင့်စက်နှင့် အကျုံးဝင်သော ကန့်သတ်အာမခံကို စက် ‘ဆက်တင်များ’ ရှိ &lt;b&gt;ဆက်တင်များ &gt; %s &gt; ကန့်သတ်အာမခံ&lt;/b&gt; နှင့် g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်။</string>
+    <string name="suw_warranty_next_button_text">ရှေ့သို့</string>
+    <string name="suw_warranty_positive_button_text">ပိတ်ရန်</string>
     <string name="time_remaining_warning_subtext">ယခင်က အသုံးပြုသည့်အနေအထားအရ %1$s ခန့် ကျန်ပါသည်</string>
     <string name="time_remaining_warning_text">မကြာမီ ဓာတ်ခဲကုန်သွားပါလိမ့်မည်</string>
     <string name="tips_suggestion_summary">သင့်ဖုန်းဖြင့်လုပ်နိုင်သည်ကို ရှာပါ</string>
@@ -318,6 +330,7 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="traffic_light_face_enrolling_title_accessibility">ဖုန်းကို သင့်မျက်နှာရှေ့တွင် ကိုင်ထားပါ</string>
     <string name="usb_use_file_transfers">ဖိုင်ရွှေ့ပြောင်းခြင်း / Android Auto</string>
     <string name="wallpaper_dashboard_summary">အရောင်များ၊ အပြင်အဆင်သုံး သင်္ကေတများ၊ အက်ပ်ဇယား</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming စာရင်းသွင်းမှုကို ကြည့်ရန် သို့မဟုတ် ပြောင်းရန်</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s နှင့် ချိတ်ဆက်ထားသည်</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ချိတ်ဆက်ရန် တို့ပါ</string>
