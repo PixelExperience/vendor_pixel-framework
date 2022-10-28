@@ -69,7 +69,7 @@ Kasvojentunnistusavauksen käyttämä kasvodata poistetaan pysyvästi ja turvall
     <string name="too_hot_label">Pixel liian kuuma</string>
     <string name="url_menu_copy">Kopioi</string>
     <string name="url_menu_share">Jaa</string>
-    <string name="voice_reply_cta_text">\"Ok Google, vastaa\"</string>
+    <string name="voice_reply_cta_text">\"Hey Google, vastaa\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Sano \"Reply\"</string>
     <string name="wireless_charging_label">Ladataan langattomasti</string>
 </resources>

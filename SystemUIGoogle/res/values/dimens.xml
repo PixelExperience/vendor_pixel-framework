@@ -76,7 +76,6 @@
     <dimen name="enhanced_smartspace_title_size">20.0sp</dimen>
     <dimen name="focus_rect_expand_size">400.0dip</dimen>
     <dimen name="gleam_popup_margin_top">-52.0dip</dimen>
-    <dimen name="global_actions_translate">9.0dip</dimen>
     <dimen name="glow_gone_max_y">0.0dip</dimen>
     <dimen name="glow_gone_min_y">-4.0dip</dimen>
     <dimen name="glow_invocation_max">46.0dip</dimen>
@@ -128,7 +127,6 @@
     <dimen name="page_indicator_padding_start">2dp</dimen>
     <dimen name="page_indicator_width">16.0dip</dimen>
     <dimen name="page_indicator_padding_top_bottom">8dp</dimen>
-    <item type="dimen" name="rounded_corner_content_padding">@*android:dimen/rounded_corner_content_padding</item>
     <dimen name="scaled_image_corner_radius">28.0dip</dimen>
     <dimen name="scrim_touchable_height">132.0dip</dimen>
     <dimen name="selection_padding">4.0dip</dimen>

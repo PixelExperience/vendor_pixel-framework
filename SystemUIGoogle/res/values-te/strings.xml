@@ -28,7 +28,7 @@
     <string name="dock_a11y_action_show_photo_text">ఫోటో ఫ్రేమ్‌ను చూపండి</string>
     <string name="dock_photo_preview_text">ఫోటో ఫ్రేమ్ ప్రారంభమవుతోంది...</string>
     <string name="dock_promo_text">ఫోటో ఫ్రేమ్ కోసం ఎడమవైపుకి స్వైప్ చేయండి</string>
-    <string name="dream_settings_notification_text">మీ స్క్రీన్ సేవర్‌ను అనుకూలీకరించండి</string>
+    <string name="dream_settings_notification_text">మీ స్క్రీన్ సేవర్‌ను అనుకూలంగా మార్చండి</string>
     <string name="dream_settings_notification_title">సెట్టింగ్‌లు</string>
     <string name="extreme_battery_saver_text">ఎక్స్‌ట్రీమ్</string>
     <string name="face_notification_name">ఫేస్ అన్‌లాక్</string>

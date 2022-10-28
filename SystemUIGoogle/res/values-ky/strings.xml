@@ -37,7 +37,7 @@
     <string name="face_reenroll_dialog_content">"Жүзүнөн таанып ачуу функциясын кайра коюу үчүн учурдагы үлгүлөрдү өчүрүңүз.
 
 Сизди таануу үчүн колдонулган нерселердин баары биротоло өчүп, телефонуңуздун кулпусун ачуу, колдонмолорго кирүү жана кандайдыр бир нерселерди сатып алуу үчүн PIN кодду, сырсөздү же графикалык ачкычты колдонушуңуз керек болот."</string>
-    <string name="face_reenroll_dialog_title">Жүзүнөн таанып ачуу функциясын жөндөңүз</string>
+    <string name="face_reenroll_dialog_title">Жүзүнөн таанып ачуу функциясын тууралаңыз</string>
     <string name="face_reenroll_failure_dialog_content">Жүзүнөн таанып ачуу функциясы жөндөлгөн жок. Жөндөөлөргө өтүп, кайталап көрүңүз.</string>
     <string name="face_reenroll_notification_content">Жөндөө коопсуздукту жана иштин майнаптуулугун жакшыртуу үчүн талап кылынат</string>
     <string name="face_reenroll_notification_title">Жүзүнөн таанып ачуу функциясын кайрадан жөндөө керек</string>

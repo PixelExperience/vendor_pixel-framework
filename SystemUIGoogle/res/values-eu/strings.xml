@@ -31,7 +31,7 @@
     <string name="dream_settings_notification_text">Pertsonalizatu pantaila-babeslea</string>
     <string name="dream_settings_notification_title">Ezarpenak</string>
     <string name="extreme_battery_saver_text">Muturrekoa</string>
-    <string name="face_notification_name">Aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="face_notification_name">Aurpegi bidez desblokeatzea</string>
     <string name="face_reenroll_dialog_cancel">Orain ez</string>
     <string name="face_reenroll_dialog_confirm">Konfiguratu</string>
     <string name="face_reenroll_dialog_content">"Ezabatu aurpegiaren datuak aurpegi bidez desblokeatzeko eginbidea berriro konfiguratzeko.
