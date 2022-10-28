@@ -32,7 +32,7 @@
     <string name="dream_settings_notification_title">تنظیمات</string>
     <string name="extreme_battery_saver_text">نهایت</string>
     <string name="face_notification_name">قفل‌گشایی با چهره</string>
-    <string name="face_reenroll_dialog_cancel">اکنون نه</string>
+    <string name="face_reenroll_dialog_cancel">حالا نه</string>
     <string name="face_reenroll_dialog_confirm">تنظیم</string>
     <string name="face_reenroll_dialog_content">"برای تنظیم مجدد «قفل‌گشایی با چهره»، داده‌های چهره فعلی را پاک کنید.
 
