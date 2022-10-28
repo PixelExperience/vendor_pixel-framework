@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">ඇඟවීම් අභිනය නිහඬ කරන්න</string>
     <string name="gesture_skip_title">අභිනය මඟ හරින්න</string>
     <string name="keywords_touch_sensitivity">ස්පර්ශය, සංවේදීතාව, සංවේදී, තිර ආරක්ෂකය, චිත්‍රපටය, ප්‍රතිචාරාත්මක, ප්‍රතිචාරාත්මකතාව</string>
-    <string name="touch_sensitivity_summary">තිර ආරක්ෂකය භාවිත කරන විට ස්පර්ශය වැඩිදියුණු කරයි</string>
-    <string name="touch_sensitivity_title">ස්පර්ශ සංවේදිතාව වැඩි කරන්න</string>
+    <string name="touch_sensitivity_summary">තිර ආරක්ෂකයක් භාවිත කරන විට ස්පර්ශ සංවේදීතාව වැඩි කරන්න සහ ස්පර්ශය වැඩි දියුණු කරන්න</string>
+    <string name="touch_sensitivity_title">තිර ආරක්ෂක ප්‍රකාරය</string>
     <string name="columbus_title">ක්‍රියා ආරම්භ කිරීමට ඉක්මන් තට්ටු කිරීම</string>
+    <string name="about_phone">දුරකථනය ගැන</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge පිහිටුවීම. ඊළඟ තිරය වෙත යන්න නැතහොත් සීරුමාරු කිරීම දිගටම කරගෙන යන්න.</string>
     <string name="accessibility_keyboard_haptics_title">යතුරු පුවරු ස්පර්ශ</string>
     <string name="adaptive_charging">අනුවර්තී ආරෝපණය</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">අන්තර්ගත ග්‍රහණය, යෙදුම් අන්තර්ගතය, යෙදුම් දත්ත</string>
     <string name="keywords_gesture">ඉංගිත, චලන</string>
     <string name="keywords_global_actions_panel">කාඩ්පත්, පාස්පත්</string>
+    <string name="keywords_limited_warranty">වගකීම, සහතික වීම, සීමිත වගකීම, පොරොන්දුව, අලුත්වැඩියාව, rma, ප්‍රතිස්ථාපනය</string>
     <string name="keywords_live_transcribe">සිරස්තල, සංවෘත සිරස්තල, CC, සජීවී සිරස්තල, ඇසීමට අපහසු, ශ්‍රවණය අහිමි, CART, කථනයෙන් පෙළට, උපසිරැසි</string>
     <string name="keywords_reverse_charging_stop_threshold">දුරකථනය මේ දක්වා ළඟා වන විට බැටරිය බෙදා ගැනීම නතර කරන්න:</string>
     <string name="keywords_select_to_speak">පෙළ අසන්න, ශබ්ද නඟා කියවන්න, කථන තිරය, තිර කියවනය</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">සක්‍රිය දාරය ක්‍රියාවිරහිතයි</string>
     <string name="language_input_gesture_summary_on_non_assist">සක්‍රිය දාරය ක්‍රියාත්මකයි</string>
     <string name="language_input_gesture_summary_on_with_assist">සක්‍රිය දාරය ක්‍රියාත්මකයි, ඔබේ සහායක සඳහා මිරිකන්න</string>
+    <string name="limited_warranty_introduction">මෙම උපාංගය සඳහා වන වගකීම බැලීමට මිලදී ගත් රටට තට්ටු කරන්න. වගකීම් සහතිකය g.co/devicewarranty තුළ ද ඇත</string>
+    <string name="limited_warranty_title">සීමිත වගකීම</string>
     <string name="me_card_title">මගේ Pixel</string>
     <string name="my_device_info_account_preference_title">Google ගිණුම</string>
     <string name="owner_info_settings_edit_text_hint">උදාහරණයක් ලෙස, ජෝගේ Pixel.</string>
@@ -259,7 +263,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">මුහුණු ලියාපදිංචිය ක්‍රියා කළේ නැත.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">මුහුණු ලියාපදිංචි කාල සීමාව ළඟා විය. නැවත උත්සාහ කරන්න.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">මුහුණෙන් අගුළු හැරීම පිහිටුවීම කාල නිමා විය</string>
-    <string name="security_settings_face_enroll_finish_description">ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ යෙදුම්වලට පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි අවස්ථාවල, ඒ ඔබ බව තහවුරු කිරීමට ඔබට ඔබගේ මුහුණ භාවිත කළ හැකිය</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ යෙදුම්වලට පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි අවස්ථාවල, ඒ ඔබ බව තහවුරු කිරීමට ඔබට ඔබගේ මුහුණ භාවිත කළ හැකිය</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"දැන් ඔබ ඔබේ දුරකථනය ගන්නා විට හෝ තිරයට තට්ටු කරන විට අගුලු හැරීමට ඔබ ඔබේ මුහුණ භාවිත කළ හැක.
+
+මුහුණෙන් අගුලු හැරීම හොඳට ම ක්‍රියා කරන්නේ ප්‍රමාණවත් ආලෝකය ඇති අතර ඔබ මුහුණු වැස්මක් හෝ අඳුරු කණ්ණාඩි නොපළඳින විට ය."</string>
     <string name="security_settings_face_enroll_finish_title">පෙනෙන විදිහට හොඳයි!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">සීමිත දෘෂ්ටිය හෝ හිසේ චලනය සඳහා සකසන්න</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">මුහුණෙන් අගුළු හැරීම භාවිත කරන විට, ඔබගේ හිස ඔබගේ දුරකථනය ඉදිරියේ තවත් ඍජුව තිබීමට අවශ්‍ය විය හැකිය.</string>
@@ -281,10 +288,11 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="security_settings_face_enroll_introduction_how_title">එය ක්‍රියා කරන ආකාරය</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">මුහුණෙන් අගුළු ඇරීමට දුරකථනය අගුළු ඇරීමට හෝ ඒවා සත්‍යාපනය කිරීමට ඔබගේ දරුවාගේ දෑස් විවෘතව තිබීම අවශ්‍යය. ඔබට සහ ඔබගේ දරුවාට ඕනෑම වේලාවක සැකසීම් තුළ මෙම විකල්පය ක්‍රියාත්මක කළ හැකිය.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ඔබගේ දරුවා සාමාන්‍යයෙන් ඇස් කණ්ණාඩි පළඳින්නේ නම්, පිහිටුවීම අතරතුර ඔවුන්ට ඒවා පැළඳිය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ඔබේ දරුවාගේ දුරකථනය අගුලු හැරීම සඳහා දරුවාගේ මුහුණ යොදා ගැනීම ප්‍රබල රටාවක් හෝ රහස් අංකයක් යොදා ගැනීමට වඩා ආරක්ෂිත බවින් අඩු විය හැක.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">දුරකථනය දෙස බැලීම ඔවුන් අදහස් නොකරන නමුත් අගුලු හැරිය හැකිය. ඔවුන්ගේ දුරකථනය බොහෝ දුරට පෙනුමෙන් ඔවුන්ට සමාන, සර්වසම සහෝදර සහෝදරියක් වැනි යමෙකු විසින්, හෝ එය යම් කෙනෙක් ඔවුන්ගේ මුහුණට අල්ලාගෙන සිටියහොත් අගුලු හැරිය හැකිය.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">මුහුණෙන් අගුළු ඇරීමට දුරකථනය අගුළු ඇරීමට හෝ ඒ ඔබ බව සත්‍යාපනය කිරීමට ඔබගේ දෑස් විවෘතව තිබීම අවශ්‍යය. ඔබට ඕනෑම වේලාවක සැකසීම් තුළ මෙම විකල්පය ක්‍රියාත්මක කළ හැකිය.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">කණ්ණාඩි හෝ සුළු වශයෙන් වර්ණ ගැන්වූ අවු කණ්ණාඩි කමක් නැත.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">දුරකථනය අගුලු හැරීමට මුහුණක් භාවිත කිරීම ප්‍රබල රටාවකට හෝ PIN අංකයකට වඩා ආරක්ෂාව අඩු විය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">අගුලු හැරීමට ඔබගේ මුහුණ භාවිත කිරීම ප්‍රබල රටාවකට, PIN අංකයකට හෝ මුරපදයකට වඩා ආරක්ෂාකාරී බව අඩු විය හැකිය</string>
     <string name="security_settings_face_enroll_introduction_info_looking">දුරකථනය දෙස බැලීම ඔබ අදහස් නොකරන නමුත් අගුලු හැරිය හැකිය. ඔබගේ දුරකථනය බොහෝ දුරට පෙනුමෙන් ඔබට සමාන, සර්වසම සහෝදර සහෝදරියක් වැනි යමෙකු විසින්, හෝ එය යම් කෙනෙක් ඔබගේ මුහුණට අල්ලාගෙන සිටියහොත් අගුලු හැරිය හැකිය.</string>
     <string name="security_settings_face_enroll_introduction_info_title">මතක තබා ගන්න</string>
     <string name="security_settings_face_enroll_introduction_message">ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ යෙදුම්වලට පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි අවස්ථාවල, ඒ ඔබ බව තහවුරු කිරීමට ඔබගේ මුහුණ භාවිත කරන්න.</string>
@@ -314,6 +322,10 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="sound_dashboard_summary">හඬ පරිමාව, ස්පර්ශ, බාධා නොකරන්න</string>
     <string name="sound_settings">ශබ්දය &amp; කම්පනය</string>
     <string name="storage_manager_indicator">ස්මාර්ට් ගබඞාව: ^1</string>
+    <string name="suw_warranty_description">මෙම උපාංගය සඳහා වගකීම බැලීමට මිලදී ගත් රටට තට්ටු කරන්න.&lt;br /&gt;&lt;br /&gt;වගකීම &lt;b&gt;සැකසීම් &gt; %s &gt; සීමිත වගකීම&lt;/b&gt; සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
+    <string name="suw_warranty_language_consistent_description">ඔබේ උපාංගයට ලැබෙන සීමිත වගකීම උපාංග සැකසීම් තුළ &lt;b&gt;සැකසීම් &gt; %s &gt; සීමිත වගකීම&lt;/b&gt; සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
+    <string name="suw_warranty_next_button_text">ඊළඟ</string>
+    <string name="suw_warranty_positive_button_text">වසන්න</string>
     <string name="time_remaining_warning_subtext">ඔබගේ භාවිතය මත පදනම්ව %1$s පමණ ඉතිරිව ඇත</string>
     <string name="time_remaining_warning_text">බැටරිය ඉක්මනින් අවසන් විය හැකිය</string>
     <string name="tips_suggestion_summary">ඔබගේ දුරකථනයෙන් ඔබට කළ හැකි දේ ගවේෂණය ක.</string>
@@ -321,6 +333,7 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ඔබගේ දුරකථනය ඔබගේ මුහුණ ඉදිරියෙන් අල්ලා ගන්න</string>
     <string name="usb_use_file_transfers">ගොනු මාරුව / Android Auto</string>
     <string name="wallpaper_dashboard_summary">වර්ණ, තේමා නිරූපක, යෙදුම් ජාලකය</string>
+    <string name="warranty_country_information">%1$s %2$s</string>
     <string name="wifi_subscription_summary">OpenRoaming දායකත්වය බලන්න නැතහොත් වෙනස් කරන්න</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s සමග සම්බන්ධ විය</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">සම්බන්ධ වීමට තට්ටු කරන්න</string>

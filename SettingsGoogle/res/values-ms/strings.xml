@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gerak isyarat senyapkan makluman</string>
     <string name="gesture_skip_title">Gerak isyarat langkau</string>
     <string name="keywords_touch_sensitivity">sentuh, kepekaan, sensitif, pelindung skrin, filem, responsif, keresponsifan</string>
-    <string name="touch_sensitivity_summary">Meningkatkan sentuhan apabila menggunakan pelindung skrin</string>
-    <string name="touch_sensitivity_title">Tingkatkan kepekaan sentuhan</string>
+    <string name="touch_sensitivity_summary">Tingkatkan kepekaan sentuhan dan tingkatkan sentuhan semasa menggunakan pelindung skrin</string>
+    <string name="touch_sensitivity_title">Mod pelindung skrin</string>
     <string name="columbus_title">Ketikan Segera untuk memulakan tindakan</string>
+    <string name="about_phone">Perihal telefon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Sisi Aktif disediakan. Pergi ke skrin seterusnya atau teruskan membuat pelarasan.</string>
     <string name="accessibility_keyboard_haptics_title">Haptik papan kekunci</string>
     <string name="adaptive_charging">Pengecasan Mudah Suai</string>
@@ -201,6 +202,7 @@ Data sandaran tidak dikira dalam kuota storan Drive anda. Fail yang besar atau f
     <string name="keywords_content_capture">rakaman kandungan, kandungan apl, data apl</string>
     <string name="keywords_gesture">gerak isyarat, pergerakan</string>
     <string name="keywords_global_actions_panel">kad, pas</string>
+    <string name="keywords_limited_warranty">waranti, jaminan, jaminan terhad, janji, pembaikan, rma, penggantian</string>
     <string name="keywords_live_transcribe">Sari kata, SK, Sari Kata Langsung, pekak labang, kehilangan pendengaran, CART, pertuturan kepada teks, sari kata</string>
     <string name="keywords_reverse_charging_stop_threshold">Berhenti berkongsi kuasa bateri apabila telefon mencapai:</string>
     <string name="keywords_select_to_speak">Dengar teks, baca dengan lantang, skrin tutur, pembaca skrin</string>
@@ -212,6 +214,8 @@ Data sandaran tidak dikira dalam kuota storan Drive anda. Fail yang besar atau f
     <string name="language_input_gesture_summary_off">Sisi Aktif dimatikan</string>
     <string name="language_input_gesture_summary_on_non_assist">Sisi Aktif dihidupkan</string>
     <string name="language_input_gesture_summary_on_with_assist">Sisi Aktif dihidupkan, picit untuk mendapatkan Assistant</string>
+    <string name="limited_warranty_introduction">Ketik negara pembelian untuk melihat jaminan bagi peranti ini. Jaminan juga tersedia di g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Jaminan Terhad</string>
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Mis., Pixel Johari.</string>
@@ -256,7 +260,10 @@ Balikkan telefon anda untuk mencuba."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Pada skrin seterusnya, pegang telefon anda pada paras mata</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Pendaftaran wajah tidak berfungsi.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Persediaan Buka Kunci Wajah sudah tamat masa</string>
-    <string name="security_settings_face_enroll_finish_description">Sekarang wajah anda boleh digunakan untuk membuka kunci telefon atau mengesahkan diri anda, misalnya untuk log masuk apl atau meluluskan pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Kini anda boleh menggunakan wajah anda untuk membuka kunci telefon atau mengesahkan diri anda, misalnya ketika anda log masuk apl atau meluluskan pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Kini anda boleh menggunakan wajah anda untuk membuka kunci apabila memegang telefon atau mengetik skrin.
+
+Buka Kunci Wajah paling sesuai digunakan apabila terdapat cahaya yang mencukupi dan anda tidak memakai pelitup muka atau cermin mata hitam."</string>
     <string name="security_settings_face_enroll_finish_title">Nampak bagus!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Persediaan untuk penglihatan/gerakan terhad</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Apabila menggunakan Buka Kunci Wajah, kepala anda mungkin perlu berada betul-betul di hadapan telefon.</string>
@@ -278,10 +285,11 @@ Apabila anda menggunakan Buka Kunci Wajah, imej akan digunakan untuk mengemas ki
     <string name="security_settings_face_enroll_introduction_how_title">Caranya</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Buka Kunci Wajah memerlukan mata anak anda dibuka untuk membuka kunci telefon atau mengesahkan diri mereka. Anda dan anak anda boleh menghidupkan pilihan ini pada bila-bila masa dalam Tetapan.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jika anak anda biasanya memakai cermin mata, mereka boleh memakai cermin mata semasa persediaan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Menggunakan wajah anak anda untuk membuka kunci telefon mereka mungkin kurang selamat berbanding dengan corak, PIN atau kata laluan yang kukuh.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Tindakan melihat telefon boleh membuka kunci telefon itu meskipun mereka tidak bermaksud untuk berbuat demikian. Telefon mereka juga boleh dibuka kunci oleh seseorang yang amat mirip dengan mereka, seperti kembar seiras atau jika seseorang menghalakan telefon rapat ke wajah mereka.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Mata anda mesti terbuka untuk membuka kunci telefon atau mengesahkan diri menggunakan Buka Kunci Wajah. Pergi ke Tetapan untuk menghidupkan pilihan ini.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Anda boleh memakai cermin mata atau kaca mata hitam yang tidak begitu gelap.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Penggunaan wajah untuk membuka kunci telefon mungkin menjadi kurang selamat daripada corak atau PIN yang kuat.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Menggunakan wajah anda untuk membuka kunci telefon anda mungkin kurang selamat berbanding dengan corak, PIN atau kata laluan yang kukuh</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Dengan memandang telefon, anda boleh membuka kuncinya meskipun bukan niat anda berbuat demikian. Telefon anda juga boleh dibuka kunci oleh seseorang yang sangat mirip dengan anda, seperti kembar seiras, atau jika seseorang mendekatkan telefon ke muka anda.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Jangan lupa</string>
     <string name="security_settings_face_enroll_introduction_message">Gunakan wajah anda untuk membuka kunci telefon atau mengesahkan diri anda, misalnya semasa log masuk aplikasi atau meluluskan pembelian.</string>
@@ -310,6 +318,10 @@ Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dala
     <string name="smart_battery_title">Bateri Mudah Suai</string>
     <string name="sound_dashboard_summary">Kelantangan, haptik, Jangan Ganggu</string>
     <string name="storage_manager_indicator">Storan Pintar: ^1</string>
+    <string name="suw_warranty_description">Ketik negara pembelian untuk melihat jaminan bagi peranti ini.&lt;br /&gt;&lt;br /&gt;Jaminan juga tersedia di &lt;b&gt;Tetapan &gt; %s &gt; Jaminan terhad&lt;/b&gt; dan g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Jaminan terhad yang terpakai untuk peranti anda juga tersedia dalam Tetapan peranti di &lt;b&gt;Tetapan &gt; %s &gt; Jaminan terhad&lt;/b&gt; dan di g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Seterusnya</string>
+    <string name="suw_warranty_positive_button_text">Tutup</string>
     <string name="time_remaining_warning_subtext">Tinggal kira-kira %1$s berdasarkan penggunaan lepas</string>
     <string name="time_remaining_warning_text">Bateri akan kehabisan tidak lama lagi</string>
     <string name="tips_suggestion_summary">Teroka yang boleh dibuat dengan telefon</string>
@@ -317,6 +329,7 @@ Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dala
     <string name="traffic_light_face_enrolling_title_accessibility">Pegang telefon anda di hadapan wajah anda</string>
     <string name="usb_use_file_transfers">Pindahan fail / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Warna, ikon bertema, grid apl</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Lihat atau tukar langganan OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Disambungkan dengan %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Ketik untuk sambung</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">ท่าทางสัมผัสสำหรับปิดเสียงการแจ้งเตือน</string>
     <string name="gesture_skip_title">ท่าทางสัมผัสสำหรับข้าม</string>
     <string name="keywords_touch_sensitivity">สัมผัส, ความไว, ตอบสนองไว, แผ่นปกป้องหน้าจอ, ฟิล์ม, ตอบสนอง, การตอบสนอง</string>
-    <string name="touch_sensitivity_summary">ปรับปรุงการแตะเมื่อมีการใช้แผ่นปกป้องหน้าจอ</string>
-    <string name="touch_sensitivity_title">เพิ่มความไวในการตอบสนองต่อการแตะ</string>
+    <string name="touch_sensitivity_summary">เพิ่มความไวในการสัมผัสและปรับปรุงการสัมผัสเมื่อใช้แผ่นปกป้องหน้าจอ</string>
+    <string name="touch_sensitivity_title">โหมดแผ่นปกป้องหน้าจอ</string>
     <string name="columbus_title">การแตะด่วนเพื่อเริ่มการดำเนินการ</string>
+    <string name="about_phone">เกี่ยวกับโทรศัพท์</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">ตั้งค่า Active Edge เสร็จแล้ว ไปที่หน้าจอถัดไปหรือปรับเปลี่ยนต่อ</string>
     <string name="accessibility_keyboard_haptics_title">การโต้ตอบการสัมผัสของแป้นพิมพ์</string>
     <string name="adaptive_charging">การชาร์จแบบปรับอัตโนมัติ</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">การบันทึกเนื้อหา, เนื้อหาแอป, ข้อมูลแอป</string>
     <string name="keywords_gesture">ท่าทางสัมผัส, การเคลื่อนไหว</string>
     <string name="keywords_global_actions_panel">บัตร บัตรผ่าน</string>
+    <string name="keywords_limited_warranty">การรับประกัน, การค้ำประกัน, การรับประกันแบบจำกัด, สัญญา, การซ่อม, RMA, การเปลี่ยนทดแทน</string>
     <string name="keywords_live_transcribe">คำบรรยายวิดีโอ, คำอธิบายภาพ, คำบรรยาย, คำบรรยายสด, มีปัญหาในการได้ยิน, สูญเสียการได้ยิน, CART, การแปลงคำพูดเป็นข้อความ, คำบรรยาย</string>
     <string name="keywords_reverse_charging_stop_threshold">หยุดแชร์แบตเตอรี่เมื่อโทรศัพท์เหลือแบตเตอรี่</string>
     <string name="keywords_select_to_speak">ฟังข้อความ, อ่านออกเสียง, อ่านหน้าจอ, โปรแกรมอ่านหน้าจอ</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge ปิดอยู่</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge เปิดอยู่</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge เปิดอยู่ บีบเพื่อเรียกใช้ Assistant</string>
+    <string name="limited_warranty_introduction">แตะประเทศที่ซื้อเพื่อดูการรับประกันสำหรับอุปกรณ์นี้ หรือดูที่ g.co/devicewarranty ก็ได้</string>
+    <string name="limited_warranty_title">การรับประกันแบบจำกัด</string>
     <string name="me_card_title">Pixel ของฉัน</string>
     <string name="my_device_info_account_preference_title">บัญชี Google</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Pixel ของสมชาย</string>
@@ -255,7 +259,10 @@
     <string name="security_settings_face_enroll_education_message">ในหน้าจอถัดไป ให้หมุนศีรษะเพื่อจับภาพใบหน้าทุกมุม</string>
     <string name="security_settings_face_enroll_education_message_accessibility">ในหน้าจอถัดไป ให้ถือโทรศัพท์ไว้ที่ระดับสายตา</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">การตั้งค่าการปลดล็อกด้วยใบหน้าหมดเวลา</string>
-    <string name="security_settings_face_enroll_finish_description">ตอนนี้คุณสามารถใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นคุณ เช่น เมื่อลงชื่อเข้าใช้แอปหรืออนุมัติการซื้อ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ตอนนี้คุณใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือยืนยันตัวตนได้ เช่น เมื่อลงชื่อเข้าใช้แอปหรืออนุมัติการซื้อ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ตอนนี้เมื่อหยิบโทรศัพท์ขึ้นมาหรือแตะหน้าจอ คุณก็จะใช้ใบหน้าเพื่อปลดล็อกได้
+
+การปลดล็อกด้วยใบหน้าจะทำงานได้ดีที่สุดเมื่อมีแสงสว่างเพียงพอและไม่สวมหน้ากากหรือแว่นตาดำ"</string>
     <string name="security_settings_face_enroll_finish_title">เรียบร้อยแล้ว</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ตั้งค่าสำหรับการมองหรือการขยับศีรษะที่จำกัด</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">เมื่อใช้การปลดล็อกด้วยใบหน้า คุณอาจต้องหันหน้าให้ตรงกับโทรศัพท์มากขึ้น</string>
@@ -277,10 +284,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">วิธีการทำงาน</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">การปลดล็อกด้วยใบหน้าสามารถกำหนดได้ว่าบุตรหลานต้องลืมตาในการปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นตนเอง คุณและบุตรหลานเปิดตัวเลือกนี้ได้ทุกเมื่อในการตั้งค่า</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">หากบุตรหลานสวมแว่นตาเป็นปกติ ก็สวมไว้ระหว่างการตั้งค่าได้</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">การใช้ใบหน้าของบุตรหลานเพื่อปลดล็อกโทรศัพท์อาจมีความปลอดภัยน้อยกว่ารูปแบบ PIN หรือรหัสผ่านที่เดายาก</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">การมองโทรศัพท์จะปลดล็อกโทรศัพท์ได้แม้ว่าบุตรหลานไม่ได้ตั้งใจก็ตาม หากมีคนที่หน้าคล้ายบุตรหลานมากๆ เช่น ฝาแฝด หรือหากมีผู้ถือโทรศัพท์ไว้ตรงหน้าของบุตรหลานก็อาจปลดล็อกโทรศัพท์ได้เช่นกัน</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">การปลดล็อกด้วยใบหน้าสามารถกำหนดได้ว่าคุณต้องลืมตาในการปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นคุณ คุณเปิดตัวเลือกนี้ได้ทุกเมื่อในการตั้งค่า</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">สวมแว่นตาหรือแว่นกันแดดที่มีเลนส์สีอ่อนได้</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">การใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์อาจไม่ปลอดภัยเท่ารูปแบบหรือ PIN ที่รัดกุม</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">การใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์อาจไม่ปลอดภัยเท่ารูปแบบ, PIN หรือรหัสผ่านที่เดายาก</string>
     <string name="security_settings_face_enroll_introduction_info_looking">การมองโทรศัพท์จะปลดล็อกโทรศัพท์ได้แม้ว่าคุณไม่ได้ตั้งใจก็ตาม หากมีคนที่หน้าคล้ายคุณมากๆ เช่น ฝาแฝด หรือหากมีผู้ถือโทรศัพท์ไว้ตรงหน้าของคุณก็อาจปลดล็อกโทรศัพท์ได้เช่นกัน</string>
     <string name="security_settings_face_enroll_introduction_info_title">โปรดทราบ</string>
     <string name="security_settings_face_enroll_introduction_message">ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นคุณ เช่น เมื่อลงชื่อเข้าใช้แอปหรืออนุมัติการซื้อ</string>
@@ -310,6 +318,10 @@
     <string name="smart_battery_title">แบตเตอรี่แบบปรับอัตโนมัติ</string>
     <string name="sound_dashboard_summary">ระดับเสียง การโต้ตอบแบบรู้สึกได้ ห้ามรบกวน</string>
     <string name="storage_manager_indicator">พื้นที่เก็บข้อมูลอัจฉริยะ: ^1</string>
+    <string name="suw_warranty_description">แตะประเทศที่ซื้อเพื่อดูการรับประกันของอุปกรณ์เครื่องนี้&lt;br /&gt;&lt;br /&gt;คุณยังสามารถดูการรับประกันได้ที่ &lt;b&gt;การตั้งค่า &gt; %s &gt; การรับประกันแบบจำกัด&lt;/b&gt; และ g.co/devicewarranty</string>
+    <string name="suw_warranty_language_consistent_description">คุณยังสามารถดูการรับประกันแบบจำกัดที่ใช้กับอุปกรณ์ของคุณได้ในการตั้งค่าอุปกรณ์ที่ &lt;b&gt;การตั้งค่า &gt; %s &gt; การรับประกันแบบจำกัด&lt;/b&gt; และที่ g.co/devicewarranty</string>
+    <string name="suw_warranty_next_button_text">ถัดไป</string>
+    <string name="suw_warranty_positive_button_text">ปิด</string>
     <string name="time_remaining_warning_subtext">เหลืออีกราว %1$s โดยอิงจากการใช้งานที่ผ่านมาของคุณ</string>
     <string name="time_remaining_warning_text">แบตเตอรี่อาจหมดเร็วๆ นี้</string>
     <string name="tips_suggestion_summary">ดูสิ่งที่คุณทําได้ด้วยโทรศัพท์</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">ถือโทรศัพท์ไว้ตรงหน้าคุณ</string>
     <string name="usb_use_file_transfers">การโอนไฟล์/Android Auto</string>
     <string name="wallpaper_dashboard_summary">สี, ไอคอนตามธีม, ตารางกริดสำหรับแอป</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">ดูหรือเปลี่ยนการสมัครใช้บริการ OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">เชื่อมต่อกับ %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">แตะเพื่อเชื่อมต่อ</string>

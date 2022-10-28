@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Движење за стишување предупредувања</string>
     <string name="gesture_skip_title">Прескокни го движењето</string>
     <string name="keywords_touch_sensitivity">допир, чувствителност, чувствителен, заштитник на екранот, филм, подготвен, реакција</string>
-    <string name="touch_sensitivity_summary">Го подобрува допирот кога се користат заштитници на екранот</string>
-    <string name="touch_sensitivity_title">Зголемување на чувствителноста на допир</string>
+    <string name="touch_sensitivity_summary">Зголемете ја чувствителноста на допир и подобрете го допирот кога користите заштитник на екранот</string>
+    <string name="touch_sensitivity_title">Режим на заштитник на екранот</string>
     <string name="columbus_title">„Брз допир“ за започнување дејства</string>
+    <string name="about_phone">За телефонот</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Поставете Active Edge. Одете на следниот екран или продолжете со приспособување.</string>
     <string name="accessibility_keyboard_haptics_title">Допир на тастатурата</string>
     <string name="adaptive_charging">Адаптивно полнење</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">снимање содржини, содржини од апликација, податоци од апликација</string>
     <string name="keywords_gesture">движење, потези</string>
     <string name="keywords_global_actions_panel">картички, пропусници</string>
+    <string name="keywords_limited_warranty">гаранција, ограничена гаранција, ветување, поправка, rma, замена</string>
     <string name="keywords_live_transcribe">Титлови, затворени титлови, CC, Автоматски титлови, нарушување на слух, загуба на слух, CART, од говор во текст</string>
     <string name="keywords_reverse_charging_stop_threshold">Сопри го споделувањето на батеријата кога телефонот ќе достигне:</string>
     <string name="keywords_select_to_speak">Слушај текст, читање на глас, изговор на екранот, читач на екран</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge е исклучена</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge е вклучена</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge е вклучена, стуткајте за „Помошникот“</string>
+    <string name="limited_warranty_introduction">Допрете ја земјата на купување за да ја прегледате гаранцијата за уредов. Гаранцијата е исто така достапна на g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ограничена гаранција</string>
     <string name="me_card_title">Мојот Pixel</string>
     <string name="my_device_info_account_preference_title">Сметка на Google</string>
     <string name="owner_info_settings_edit_text_hint">На пр. Pixel-от на Миле.</string>
@@ -258,7 +262,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">„Регистрацијата на лик“ не успеа.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнато е временското ограничување на „Регистрација на лик“. Обидете се повторно.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Времето за поставување „Отклучување со лик“ истече</string>
-    <string name="security_settings_face_enroll_finish_description">Сега може да го користите вашето лице за да го отклучите телефонот или да потврдите дека сте вие, како кога се најавувате на апликации или одобрувате купување</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Сега може да го користите вашето лице за да го отклучите телефонот или да потврдите дека сте вие, како кога се најавувате на апликации или одобрувате купување</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Отсега ќе може да го отклучувате телефонот со вашиот лик кога ќе го земете телефонот или ќе допрете на екранот.
+
+„Отклучување со лик“ функционира најдобро кога има доволно светлина и не носите маска или темни очила."</string>
     <string name="security_settings_face_enroll_finish_title">Добро е!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ограничен вид/движење на главата</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Кога користите „Отклучување со лик“, можеби ќе треба да ја поставите главата директно пред телефонот.</string>
@@ -267,24 +274,25 @@
 
 Дознајте повеќе на g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Вие и вашето дете сте во контрола</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Може да го избришете моделот на лице или да го исклучите „Отклучувањето со лик“ во секое време во „Поставки“. Моделите на лицето се складираат во телефонот додека не ги избришете.
+    <string name="security_settings_face_enroll_introduction_control_message">"Може да го избришете моделот на лик или да го исклучите „Отклучувањето со лик“ во секое време во „Поставки“. Моделите на лик се складираат во телефонот додека не ги избришете.
 
 Дознајте повеќе на g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Вие сте главни</string>
     <string name="security_settings_face_enroll_introduction_how_consent_message">"„Отклучувањето со лик“ создава уникатен модел од лицето на вашето дете за да потврди дека е тоа. За да го создаде моделов на лице при поставувањето, детето ќе направи слики од своето лице од различни агли.
 
 Кога го користи „Отклучувањето со лик“, сликите се користат за ажурирање на неговиот модел на лице. Сликите што се користат за создавање на моделот на неговото лице не се складираат, а самиот модел се складира безбедно во телефонот и никогаш не го напушта. Целата обработка се одвива безбедно во телефонот."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"„Отклучувањето со лик“ создава единствен модел од вашето лице за да потврди дека сте вие. За да го создадете моделов на лице при поставувањето, ќе направите слики од лицето од различни агли.
+    <string name="security_settings_face_enroll_introduction_how_message">"„Отклучувањето со лик“ создава уникатен модел од вашиот лик за да потврди дека сте вие. За да го создадете моделов на лик при поставувањето, ќе направите слики од ликот од различни агли.
 
-Кога го користите „Отклучувањето со лик“, сликите се користат за ажурирање на моделот на вашето лице. Сликите што се користат за создавање на моделот на вашето лице не се складираат, а самиот модел се складира безбедно во телефонот и никогаш не го напушта. Целата обработка се одвива безбедно во телефонот."</string>
+Кога го користите „Отклучувањето со лик“, сликите се користат за ажурирање на моделот на вашиот лик. Сликите што се користат за создавање на моделот на вашиот лик не се складираат, а самиот модел се складира безбедно во телефонот и никогаш не го напушта. Целата обработка се одвива безбедно во телефонот."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Како функционира</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">„Отклучување со лик“ може да бара очите на детето да бидат отворени за да се отклучи телефонот или да се потврди дека е тоа. Вие и вашето дете може да ја вклучите опцијава во „Поставки“ во секое време.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако вашето дете вообичаено носи очила, може да ги носи при поставувањето.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Користењето на лицето на детето за отклучување на телефонот може да е понесигурно од силна шема, PIN или лозинка</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ако гледа во телефонот, тој може да се отклучи дури и ако нема таква намера. Телефонот може да го отклучи и некој што многу наликува на него, на пример, идентичен близнак или ако некој го држи пред неговото лице.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">„Отклучување со лик“ може да бара очите да ви бидат отворени за да се отклучи телефонот или да се потврди дека сте вие. Може да ја вклучите опцијава во „Поставки“ во секое време.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Очила или малку затемнети очила за сонце се во ред.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Користењето лик за отклучување на телефонот може да биде понесигурно од силна шема или PIN.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Ако гледате во телефонот, тој може да се отклучи дури и ако немате таква намера. Телефонот може да го отклучи и некој што многу наликува на вас, на пример, идентичен близнак или ако некој го држи пред вашето лице.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Користењето на вашиот лик за отклучување на телефонот може да биде помалку безбедно од силна шема, PIN или лозинка</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Ако гледате во телефонот, тој може да се отклучи дури и ако немате таква намера. Телефонот може да го отклучи и некој што многу наликува на вас, на пример, идентичен близнак или ако некој го држи пред вашиот лик.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Имајте предвид</string>
     <string name="security_settings_face_enroll_introduction_message">Користете го лицето за да го отклучите телефонот или да потврдите дека сте вие, како кога се најавувате во апликации или одобрувате купување.</string>
     <string name="security_settings_face_enroll_introduction_title">Поставете „Отклучување со лик“</string>
@@ -312,6 +320,10 @@
     <string name="smart_battery_title">Адаптивна батерија</string>
     <string name="sound_dashboard_summary">Јачина на звук, допир, „Не вознемирувај“</string>
     <string name="storage_manager_indicator">„Паметен капацитет“: ^1</string>
+    <string name="suw_warranty_description">Допрете ја земјата на купување за да ја прегледате гаранцијата за уредов.&lt;br /&gt;&lt;br /&gt;Гаранцијата е исто така достапна на &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ограничената гаранција што важи за вашиот уред е исто така достапна во „Поставки“ на уредот во &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и на g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Следно</string>
+    <string name="suw_warranty_positive_button_text">Затвори</string>
     <string name="time_remaining_warning_subtext">Уште околу %1$s според досегашното користење</string>
     <string name="time_remaining_warning_text">Наскоро може да снема батерија</string>
     <string name="tips_suggestion_summary">Откријте што може да правите со телефонот</string>
@@ -319,6 +331,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Држете го телефонот пред лицето</string>
     <string name="usb_use_file_transfers">Пренос на датотеки/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Бои, икони со тема, мрежа со апликации</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Прегледајте ја или изменете ја претплатата за OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Поврзано со %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Допрете за поврзување</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Жест, яким вмикаються беззвучні сповіщення</string>
     <string name="gesture_skip_title">Жест, яким пропускається файл</string>
     <string name="keywords_touch_sensitivity">торкнутися, чутливість, чутливий, захист екрана, плівка, реагує, реагування</string>
-    <string name="touch_sensitivity_summary">Покращує якість сенсорного вводу, якщо використовується захист екрана</string>
-    <string name="touch_sensitivity_title">Підвищення чутливості екрана</string>
+    <string name="touch_sensitivity_summary">Збільште чутливість екрана й покращте ефективність дотику, якщо використовуєте захисне скло чи плівку</string>
+    <string name="touch_sensitivity_title">Режим \"Захисне скло\"</string>
     <string name="columbus_title">Подвійний дотик для виконання дій</string>
+    <string name="about_phone">Про телефон</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge налаштовано. Перейдіть на наступний екран або продовжуйте коригування.</string>
     <string name="accessibility_keyboard_haptics_title">Вібровідгук клавіатури</string>
     <string name="adaptive_charging">Адаптивне заряджання</string>
@@ -15,7 +16,7 @@
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Параметри</annotation></string>
     <string name="app_and_notification_dashboard_summary">Асистент, нещодавні додатки, додатки за умовчанням</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Відкрити Асистент</string>
-    <string name="assist_gesture_enrollment_do_it_later">Пізніше</string>
+    <string name="assist_gesture_enrollment_do_it_later">Не зараз</string>
     <string name="assist_gesture_enrollment_seekbar_light">Легке стиснення</string>
     <string name="assist_gesture_enrollment_seekbar_strong">Сильне стиснення</string>
     <string name="assist_gesture_enrollment_settings">Налаштування</string>
@@ -154,7 +155,7 @@
     <string name="duration_less_than_one_minute">Менше 1 хвилини</string>
     <string name="face_enrolling_center_head">Розташуйте обличчя у внутрішній рамці</string>
     <string name="face_enrolling_description">Зніміть своє обличчя з усіх кутів, вилучаючи фрагменти.</string>
-    <string name="face_enrolling_do_it_later">Пізніше</string>
+    <string name="face_enrolling_do_it_later">Не зараз</string>
     <string name="face_enrolling_gaze_dialog_cancel">Скасувати</string>
     <string name="face_enrolling_gaze_dialog_continue">Налаштувати без погляду</string>
     <string name="face_enrolling_gaze_dialog_message">Розблоковувати телефон за допомогою фейсконтролю, навіть якщо у вас заплющені очі? У такому разі будь-хто зможе розблокувати телефон, якщо наведе його на ваше обличчя без вашого відома.</string>
@@ -166,9 +167,9 @@
     <string name="face_enrolling_too_close">Тримайте телефон далі від обличчя</string>
     <string name="face_enrolling_too_far">Тримайте телефон ближче до обличчя</string>
     <string name="face_enrolling_too_high">Опустіть телефон нижче</string>
-    <string name="face_enrolling_too_left">Тримайте телефон правіше</string>
+    <string name="face_enrolling_too_left">Посуньте телефон правіше</string>
     <string name="face_enrolling_too_low">Підніміть телефон вище</string>
-    <string name="face_enrolling_too_right">Тримайте телефон лівіше</string>
+    <string name="face_enrolling_too_right">Посуньте телефон лівіше</string>
     <string name="face_enrolling_turn_head_to_arrow">Поверніть обличчя в напрямку стрілки</string>
     <string name="face_enrolling_turned_too_far">Трохи поверніть обличчя</string>
     <string name="fallback_menu_item_copy_link">Копіювати посилання</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">запис вмісту, вміст додатка, дані додатка</string>
     <string name="keywords_gesture">жести, рухи</string>
     <string name="keywords_global_actions_panel">картки, перепустки</string>
+    <string name="keywords_limited_warranty">гарантія, обмежена гарантія, обіцянка, ремонт, дозвіл на повернення товарів, заміна</string>
     <string name="keywords_live_transcribe">Підписи, субтитри, субтитрування, живі субтитри, поганий слух, втрата слуху, системи CART, перетворення мовлення на текст, субтитр</string>
     <string name="keywords_reverse_charging_stop_threshold">Зупинити спільне використання акумулятора, коли його заряд на телефоні досягне:</string>
     <string name="keywords_select_to_speak">Прослухати текст, читати вголос, озвучити текст на екрані, зчитування з екрана</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge вимкнено</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge увімкнено</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge увімкнено. Стисніть, щоб відкрити Асистент</string>
+    <string name="limited_warranty_introduction">Виберіть країну покупки, щоб переглянути гарантію для цього пристрою. З нею можна також ознайомитися на сторінці g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Обмежена гарантія</string>
     <string name="me_card_title">Мій Pixel</string>
     <string name="my_device_info_account_preference_title">Обліковий запис Google</string>
     <string name="owner_info_settings_edit_text_hint">Приклад: Pixel Олега.</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_education_message_accessibility">Коли відкриється наступний екран, утримуйте телефон на рівні очей</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Час на сканування обличчя вичерпано. Повторіть спробу.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Час очікування налаштування фейсконтролю минув</string>
-    <string name="security_settings_face_enroll_finish_description">Тепер за допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу, наприклад, щоб входити в додатки або схвалювати покупки</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Тепер за допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу (наприклад, щоб входити в додатки чи схвалювати покупки)</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Тепер, коли ви берете телефон у руки або торкаєтеся екрана, його можна розблокувати за допомогою фейсконтролю.
+
+Фейсконтроль найкраще працює за належного освітлення та за відсутності на обличчі маски чи темних окулярів."</string>
     <string name="security_settings_face_enroll_finish_title">Непогано!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Налаштувати без повороту голови</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Під час використання фейсконтролю телефон потрібно тримати просто перед обличчям.</string>
@@ -278,10 +285,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">Як це працює</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Можливо, для розблокування телефона за допомогою фейсконтролю або підтвердження особи дитині потрібно буде розплющити очі. Ви та дитина будь-коли можете вимкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Якщо дитина зазвичай носить окуляри, вона може не знімати їх під час налаштування.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Розблокування телефона через фейсконтроль дитини може поступатися за надійністю ключу, PIN-коду або паролю</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Дитина може випадково розблокувати телефон, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на неї (наприклад, близнюк) або інша особа, яка піднесе пристрій до її обличчя.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Фейсконтроль може вимагати, щоб ви розплющили очі, перш ніж розблокувати телефон або підтверити особу. Ви будь-коли можете ввімкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Можна не знімати звичайні або слабозатінені сонцезахисні окуляри.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Розблокування телефона за допомогою фейсконтролю може не гарантувати таку саму безпеку, як використання надійного пароля чи PIN-коду.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Розблокування телефона через фейсконтроль може поступатися за надійністю ключу, PIN-коду або паролю</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Ви можете випадково розблокувати телефон у недоречний момент, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на вас (наприклад, ваш близнюк) або інша особа, яка піднесе пристрій до вашого обличчя.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Зверніть увагу</string>
     <string name="security_settings_face_enroll_introduction_message">За допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу, наприклад, щоб входити в додатки або схвалювати покупки.</string>
@@ -310,6 +318,10 @@
     <string name="smart_battery_title">Адаптивний акумулятор</string>
     <string name="sound_dashboard_summary">Гучність, вібровідгук, режим \"Не турбувати\"</string>
     <string name="storage_manager_indicator">Інтелектуальне сховище: ^1</string>
+    <string name="suw_warranty_description">Виберіть країну покупки, щоб переглянути гарантію для цього пристрою.&lt;br /&gt;&lt;br /&gt;З нею можна також ознайомитися в розділі &lt;b&gt;Налаштування &gt; %s &gt; Обмежена гарантія&lt;/b&gt; та на сторінці g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Щоб ознайомитися з обмеженою гарантією, яка застосовується до вашого пристрою, перейдіть у налаштування пристрою: &lt;b&gt;Налаштування &gt; %s &gt; Обмежена гарантія&lt;/b&gt; або відвідайте сторінку g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Далі</string>
+    <string name="suw_warranty_positive_button_text">Закрити</string>
     <string name="time_remaining_warning_subtext">Залишилося приблизно %1$s (на основі попереднього використання)</string>
     <string name="time_remaining_warning_text">Акумулятор невдовзі розрядиться</string>
     <string name="tips_suggestion_summary">Дізнайтеся про можливості телефона</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Тримайте телефон перед обличчям</string>
     <string name="usb_use_file_transfers">Передавання файлів/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Кольори, теми значків, сітка додатків</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Перегляд або редагування підписки OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Підключено до автентифікатора %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Натисніть, щоб підключитися</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Teatiste vaigistamise liigutus</string>
     <string name="gesture_skip_title">Vahelejätmise liigutus</string>
     <string name="keywords_touch_sensitivity">puudutus, tundlikkus, tundlik, ekraanikaitse, plastikkate, reageeriv, reaktsioon</string>
-    <string name="touch_sensitivity_summary">Täiustab ekraanikaitse kasutamisel puutetundlikkust</string>
-    <string name="touch_sensitivity_title">Puutetundlikkuse suurendamine</string>
+    <string name="touch_sensitivity_summary">Suurendab puudutuse tundlikkust ja täiustab puudutuste toimimist ekraanikaitse kasutamisel</string>
+    <string name="touch_sensitivity_title">Ekraanikaitse režiim</string>
     <string name="columbus_title">Kiirpuudutus toimingute käivitamiseks</string>
+    <string name="about_phone">Teave telefoni kohta</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge on seadistatud. Minge järgmisele kuvale või jätkake kohandamist.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviatuuri värintagasiside</string>
     <string name="adaptive_charging">Kohanduv laadimine</string>
@@ -202,6 +203,7 @@ Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja f
     <string name="keywords_content_capture">sisu jäädvustamine, rakenduse sisu, rakenduse andmed</string>
     <string name="keywords_gesture">liigutus, liigutused</string>
     <string name="keywords_global_actions_panel">kaardid, pääsmed</string>
+    <string name="keywords_limited_warranty">garantii, piiratud garantii, lubadus, parandus, parandamine, remont, RMA, kaubatagastuse volitus, asendus, asendamine</string>
     <string name="keywords_live_transcribe">Subtiitrid, reaalajas subtiitrid, kuulmislangus, kuulmiskadu, CART, kõnesüntees</string>
     <string name="keywords_reverse_charging_stop_threshold">Lõpeta aku jagamine, kui akutase on:</string>
     <string name="keywords_select_to_speak">teksti kuulmine, ettelugemine, ekraanikuvalt lugemine, ekraanilugeja</string>
@@ -213,6 +215,8 @@ Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja f
     <string name="language_input_gesture_summary_off">Active Edge on välja lülitatud</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge on sisse lülitatud</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge on sees, pigistage assistendi kasutamiseks</string>
+    <string name="limited_warranty_introduction">Selle seadme garantii vaatamiseks puudutage riiki, kust seade osteti. Garantii on saadaval ka aadressil g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Piiratud garantii</string>
     <string name="me_card_title">Minu Pixel</string>
     <string name="my_device_info_account_preference_title">"Google'i konto"</string>
     <string name="owner_info_settings_edit_text_hint">Nt Karli Pixel.</string>
@@ -256,7 +260,10 @@ Proovimiseks pöörake telefon ümber."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Hoidke järgmisel kuval telefoni silmade kõrgusel</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Näo registreerimise ajalimiit on täis. Proovige uuesti.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Näoga avamise seadistamine aegus</string>
-    <string name="security_settings_face_enroll_finish_description">Nüüd saate telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostu kinnitamisel) oma nägu kasutada.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nüüd saate telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostu kinnitamisel) oma nägu kasutada.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Nüüd saate telefoni kättevõtmisel või ekraani puudutamisel avamiseks oma nägu kasutada.
+
+Näoga avamine toimib kõige paremini, kui valgust on piisavalt ja te ei kanna maski ega tumedaid prille."</string>
     <string name="security_settings_face_enroll_finish_title">Paistab korras!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Seadistus piiratud nägemise või pealiikumise jaoks</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kui kasutate funktsiooni Näoga avamine, peate võib-olla oma pead täpsemalt telefoni ees hoidma.</string>
@@ -278,10 +285,11 @@ Kui kasutate näoga avamist, kasutatakse kujutisi teie näomudeli värskendamise
     <string name="security_settings_face_enroll_introduction_how_title">Tööpõhimõtted</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie lapse silmad oleksid lahti. Selle valiku saate (või saab laps) seadetes alati sisse lülitada.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kui laps kannab tavaliselt prille, võib ta neid kanda ka seadistamise ajal.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Lapse telefoni avamiseks tema näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefoni vaatamisel võib see avaneda ka siis, kui ta seda ei soovi. Temaga sarnane inimene, näiteks tema identne vend või õde, saab samuti tema telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni tema näo ees.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie silmad oleksid lahti. Selle valiku saate seadetes alati sisse lülitada.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Prille ja heledama klaasiga päikeseprille tohib kasutada.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefoni näoga avamine võib olla vähem turvaline kui tugev muster või PIN-kood.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefoni avamiseks näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefoni vaatamisel võib see avaneda ka siis, kui te seda ei soovi. Teiega sarnane inimene, näiteks teie identne vend või õde, saab samuti teie telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni teie näo ees.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Pidage meeles</string>
     <string name="security_settings_face_enroll_introduction_message">Kasutage oma telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostude kinnitamisel) oma nägu.</string>
@@ -310,6 +318,10 @@ Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</strin
     <string name="smart_battery_title">Kohanduv akuhaldur</string>
     <string name="sound_dashboard_summary">Helitugevus, värintagasiside, Mitte segada</string>
     <string name="storage_manager_indicator">Nutikas salvestusruum: ^1</string>
+    <string name="suw_warranty_description">Selle seadme garantii vaatamiseks puudutage riiki, kust seade osteti.&lt;br /&gt;&lt;br /&gt;Garantii on saadaval ka menüüs &lt;b&gt;Seaded &gt; %s &gt; Piiratud garantii&lt;/b&gt; ja aadressil g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Teie seadme puhul kehtiv piiratud garantii on saadaval ka seadme seadetes menüüs &lt;b&gt;Seaded &gt; %s &gt; Piiratud garantii&lt;/b&gt; ja aadressil g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Järgmine</string>
+    <string name="suw_warranty_positive_button_text">Sule</string>
     <string name="time_remaining_warning_subtext">Teie kasutuse alusel on jäänud ligikaudu %1$s</string>
     <string name="time_remaining_warning_text">Aku võib peagi tühjaks saada</string>
     <string name="tips_suggestion_summary">Uurige, mida saate oma telefoniga teha</string>
@@ -317,6 +329,7 @@ Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</strin
     <string name="traffic_light_face_enrolling_title_accessibility">Hoidke telefoni oma näo ees</string>
     <string name="usb_use_file_transfers">Failiedastus / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Värvid, temaatilised ikoonid, rakenduste ruudustik</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Tellimuse OpenRoaming vaatamine või muutmine</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Ühendatud teenusepakkujaga %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Puudutage ühendamiseks</string>

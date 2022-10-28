@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Ishara ya kuzima sauti za arifa</string>
     <string name="gesture_skip_title">Ruka ishara</string>
     <string name="keywords_touch_sensitivity">kugusa, kiwango cha hisi, hisi, ulinzi wa skrini, utando, rahisi kufanya kazi, urahisi wa kufanya kazi</string>
-    <string name="touch_sensitivity_summary">Huboresha utendaji wa kugusa wakati kifaa kinatumia ulinzi wa skrini</string>
-    <string name="touch_sensitivity_title">Ongeza kiwango cha hisi unapogusa</string>
+    <string name="touch_sensitivity_summary">Ongeza kiwango cha hisi unapogusa na uboreshe matumizi ya kugusa wakati unatumia ulinzi wa skrini</string>
+    <string name="touch_sensitivity_title">Hali ya ulinzi wa skrini</string>
     <string name="columbus_title">Kugusa Haraka ili kuanzisha vitendo</string>
+    <string name="about_phone">Kuhusu simu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Mipangilio ya Active Edge. Nenda kwenye skrini inayofuata au endelea kurekebisha.</string>
     <string name="accessibility_keyboard_haptics_title">Uhisi wa kibodi</string>
     <string name="adaptive_charging">Hali ya Kuchaji Inayojirekebisha</string>
@@ -201,6 +202,7 @@ Data ya nakala haitajumuishwa katika kiwango cha nafasi yako kwenye Hifadhi ya G
     <string name="keywords_content_capture">kunasa maudhui, maudhui ya programu, data ya programu</string>
     <string name="keywords_gesture">ishara, mwendo</string>
     <string name="keywords_global_actions_panel">kadi, pasi</string>
+    <string name="keywords_limited_warranty">dhima, dhamana, dhamana yenye kikomo, ahadi, rekebisha, rma, mbadala</string>
     <string name="keywords_live_transcribe">Manukuu, manukuu, manukuu, Manukuu Papo Hapo, tatizo la kusikia, kupoteza uwezo wa kusikia, KIKAPU, kunukuu matamshi, manukuu</string>
     <string name="keywords_reverse_charging_stop_threshold">Acha kushiriki betri simu inapofika:</string>
     <string name="keywords_select_to_speak">Sikiliza maandishi, soma kwa sauti, skrini inayozungumza, kisoma skrini</string>
@@ -212,6 +214,8 @@ Data ya nakala haitajumuishwa katika kiwango cha nafasi yako kwenye Hifadhi ya G
     <string name="language_input_gesture_summary_off">Active Edge imezimwa</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge imewashwa</string>
     <string name="language_input_gesture_summary_on_with_assist">Umewasha Active Edge, bana ili ufungue Mratibu</string>
+    <string name="limited_warranty_introduction">Gusa nchi uliponunua kifaa ili uone dhima ya kifaa hiki. Dhima hiyo pia inapatikana katika g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Dhamana yenye Kikomo</string>
     <string name="me_card_title">Pixel Yangu</string>
     <string name="my_device_info_account_preference_title">Akaunti ya Google</string>
     <string name="owner_info_settings_edit_text_hint">Kwa mfano, Pixel ya Juma.</string>
@@ -255,9 +259,12 @@ Geuza simu yako ili ujaribu."</string>
     <string name="security_settings_face_enroll_education_message">Kwenye skrini inayofuata, zungusha kichwa chako ili upige picha ya pande zote za uso wako</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Kwenye skrini inayofuata, shikilia simu yako ikilingana na macho yako</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Muda wa kuweka mipangilio ya Kufungua kwa uso umekwisha</string>
-    <string name="security_settings_face_enroll_finish_description">Sasa unaweza kutumia uso wako kufungua simu yako au kuthibitisha kuwa ni wewe, kama vile unapoingia katika akaunti kwenye programu au unapoidhinisha ununuzi</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Sasa unaweza kutumia uso wako kufungua simu yako au kuthibitisha kuwa ni wewe, kama vile unapoingia katika akaunti kwenye programu au unapoidhinisha ununuzi</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Sasa unapochukua simu yako au kugusa skrini, unaweza kutumia uso wako kuifungua.
+
+Kufungua kwa uso hufanya kazi vizuri zaidi kukiwa na mwangaza wa kutosha na ukiwa hujavaa barakoa au miwani nyeusi."</string>
     <string name="security_settings_face_enroll_finish_title">Kila kitu ni shwari!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Mipangilio ya wasioweza kuona au kuzungusha kichwa vizuri</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Mipangilio ya wasioona au kuzungusha kichwa vizuri</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Unapotumia kipengele cha Kufungua kwa uso, huenda ukahitajika kuweka kichwa chako moja kwa moja mbele ya simu yako.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Inahitaji ufungue macho</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Wewe na mtoto wako mnaweza kufuta muundo wa uso wake au kuzima kipengele cha Kufungua kwa Uso wakati wowote katika Mipangilio. Miundo ya uso inahifadhiwa kwenye simu hadi utakapoifuta.
@@ -277,10 +284,11 @@ Unapotumia kipengele cha Kufungua kwa Uso, picha zinatumiwa ili kusasisha muundo
     <string name="security_settings_face_enroll_introduction_how_title">Jinsi kinavyofanya kazi</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Kipengele cha kufungua kwa uso kinaweza kuhitaji mtoto wako afungue macho ili kufungua simu au kuthibitisha kuwa ni yeye. Wewe na mtoto wako mnaweza kuwasha chaguo hili katika Mipangilio wakati wowote.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ikiwa kwa kawaida mtoto wako anavaa miwani, anaweza kuivaa wakati wa kuweka mipangilio.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Kutumia uso wa mtoto wako kufungua simu yake huenda kusiwe salama ikilinganishwa na mchoro, PIN au nenosiri thabiti</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Kuangalia simu kunaweza kuifungua hata ikiwa hana lengo la kufanya hivyo. Simu yake inaweza pia kufunguliwa na mtu ambaye anamfanana, kama vile ndugu anayemfanana sana au mtu mwingine akiishikilia mbele ya uso wake.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Kipengele cha kufungua kwa uso kinaweza kuhitaji ufungue macho ili kufungua simu au kuthibitisha kuwa ni wewe. Unaweza kuwasha chaguo hili katika Mipangilio wakati wowote.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Miwani au miwani ya jua iliyowekwa rangi maalum kidogo ni sawa.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Huenda PIN au mchoro thabiti ukawa salama zaidi kuliko kutumia uso kufungua simu.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Huenda kiwango cha usalama wa kufungua simu yako kwa uso kikawa kidogo ikilinganishwa na kufungua kwa mchoro, PIN au nenosiri.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Kuangalia simu kunaweza kuifungua hata ikiwa huna lengo la kufanya hivyo. Simu yako inaweza pia kufunguliwa na mtu mnayefanana, kama vile ndugu mnayefanana sana au mtu mwingine akiishikilia mbele ya uso wako.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Kumbuka</string>
     <string name="security_settings_face_enroll_introduction_message">Tumia uso wako kufungua simu yako au kuthibitisha kuwa ni wewe, kama vile unapoingia katika akaunti kwenye programu au unapoidhinisha ununuzi.</string>
@@ -309,6 +317,10 @@ Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika
     <string name="smart_battery_title">Betri Inayojirekebisha</string>
     <string name="sound_dashboard_summary">Sauti, kuhisi, Usinisumbue</string>
     <string name="storage_manager_indicator">Hifadhi Mahiri: ^1</string>
+    <string name="suw_warranty_description">Gusa nchi uliponunua kifaa ili uone dhima ya kifaa hiki.&lt;br /&gt;&lt;br /&gt;Dhima hiyo pia inapatikana katika &lt;b&gt;Mipangilio &gt; %s &gt; Dhamana yenye kikomo&lt;/b&gt; na g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Dhamana yenye kikomo inayotumika kwenye kifaa chako pia inapatikana kwenye Mipangilio ya kifaa kwenye &lt;b&gt;Mipangilio &gt; %s &gt; Dhamana yenye kikomo&lt;/b&gt; na katika g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Endelea</string>
+    <string name="suw_warranty_positive_button_text">Funga</string>
     <string name="time_remaining_warning_subtext">Takriban %1$s zimesalia kulingana na matumizi yako</string>
     <string name="time_remaining_warning_text">Huenda chaji ya betri ikaisha baada ya muda mfupi</string>
     <string name="tips_suggestion_summary">Gundua unachoweza kufanya kwenye simu yako</string>
@@ -316,6 +328,7 @@ Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika
     <string name="traffic_light_face_enrolling_title_accessibility">Shikilia simu mbele ya uso wako</string>
     <string name="usb_use_file_transfers">Kuhamisha faili / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Rangi, aikoni zenye mada, gridi ya programu</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Angalia au ubadilishe usajili wa OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Imeunganishwa na %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Gusa ili uunganishe</string>

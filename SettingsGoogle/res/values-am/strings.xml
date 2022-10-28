@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">ጸጥታ የጣት ምልክትን ያነቃል</string>
     <string name="gesture_skip_title">የጣት ምልክትን ይዝለሉ</string>
     <string name="keywords_touch_sensitivity">ንኪ፣ አደጋ ላይ መጣል የሚችልበት ሁኔታ፣ አደጋ ላይ ሊጥል የሚችል፣ የማያ ገጽ ጠባቂ፣ ፊልም፣ ምላሽ ሰጪ፣ ምላሽ ሰጪነት</string>
-    <string name="touch_sensitivity_summary">የማያ ገጽ ጠባቂዎችን በመጠቀም ላይ ንኪን ያሻሽላል</string>
-    <string name="touch_sensitivity_title">የንኪ አደጋ ተጋላጭነትን ይጨምራል</string>
+    <string name="touch_sensitivity_summary">የማያ ገጽ መከላከያን ሲጠቀሙ የንክኪ አደጋ ተጋላጭነትን ይጨምሩ እና ንክኪን ያሻሽሉ።</string>
+    <string name="touch_sensitivity_title">የማያ ገጽ መከላከያ ሁነታ</string>
     <string name="columbus_title">እርምጃዎችን ለመጀመር ፈጣን መታ ያድርጉ</string>
+    <string name="about_phone">ስለስልክ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">ንቁ የEdge ቅንብር። ወደ ቀጣዩ ማያ ገጽ ይሂዱ ወይም ማስተካከል ይቀጥሉ።</string>
     <string name="accessibility_keyboard_haptics_title">የቁልፍ ሰሌዳ ረቂቅ ንዝረት</string>
     <string name="adaptive_charging">ተስማሚ ኃይል መሙላት</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">ይዘትን መቅረጽ፣ የመተግበሪያ ይዘት፣ የመተግበሪያ ውሂብ</string>
     <string name="keywords_gesture">የጣት ምልክት፣ እንቅስቃሴዎች</string>
     <string name="keywords_global_actions_panel">ካርዶች፣ ማለፊያዎች</string>
+    <string name="keywords_limited_warranty">የዋስትና ማረጋገጫ፣ ዋስትና፣ የተወሰነ የዋስትና ማረጋገጫ፣ የተገባ ቃል፣ ጥገና፣ አርኤምኤ፣ ምትክ</string>
     <string name="keywords_live_transcribe">የመግለጫ ጽሑፎች፣ ዝግ መግለጫ ጽሑፎች፣ ካርቦን ቅጂ (ካቅ)፣ የቀጥታ ጽሑፍ ግልባጭ፣ የመስማት ችግር፣ መስማት አለመቻል፣ ተሳቢ፣ ከንግግር- ወደ-ጽሑፍ፣ የግርጌ ጽሑፎች</string>
     <string name="keywords_reverse_charging_stop_threshold">ስልኩ እዚህ ሲደርስ ባትሪ ማጋራትን አቁም፦</string>
     <string name="keywords_select_to_speak">ጽሑፍን ይስሙ፣ ጮክ ብለው ያንብቡ፣ ማያ ገጽ ላይ ይናገሩ ፣ የማያ ገጽ አንባቢ</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge ጠፍቷል</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge በርቷል</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge በርቷል፣ የእርስዎን ረዳት ለማግኘት ጨመቅ ያድርጉ</string>
+    <string name="limited_warranty_introduction">የዚህን መሣሪያ የዋስትና ማረጋገጫ ለማየት ግዢ የተፈፀመበትን አገር መታ ያድርጉ። ዋስትናው እንዲሁም g.co/devicewarranty ላይ ይገኛል</string>
+    <string name="limited_warranty_title">የተወሰነ የዋስትና ማረጋገጫ</string>
     <string name="me_card_title">የእኔ Pixel</string>
     <string name="my_device_info_account_preference_title">የGoogle መለያ</string>
     <string name="owner_info_settings_edit_text_hint">ለምሳሌ፦ የአበበ Pixel</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_education_message_accessibility">በሚቀጥለው ማያ ገጽ ላይ ስልክዎን በዓይንዎ ልክ ይያዙት</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">የፊት ማስመዘገቢያ ጊዜ ገደብ ላይ ተደርሷል። እንደገና ይሞክሩ።</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">የበመልክ መክፈት ውቅረት ጊዜ አብቅቷል</string>
-    <string name="security_settings_face_enroll_finish_description">አሁን ስልክዎን ለመክፈት ወይም እንደ በመለያ ወደ መተግበሪያዎች ሲገቡ ወይም ግዢን ለማጽደቅ ላሉ እርስዎ መሆንዎን ለማረጋገጥ መልክዎን መጠቀም ይችላሉ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ስልክዎን ለመክፈት ወይም ለምሳሌ ወደ መተግበሪያዎች በመለያ ሲገቡ ወይም አንድን ግዢ ሲያጸድቁ እርስዎ መሆንዎን ለማረጋገጥ ከአሁን በኋላ መልክዎን መጠቀም ይችላሉ።</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"አሁን ስልክዎን ሲያነሱ ወይም የማያ ገጹን መታ ሲያደርጉ ለመክፈት መልክዎን መጠቀም ይችላሉ።
+
+በቂ ብርሃን በሚኖር እንዲሁም የፊት ጭምብል ወይም ጠቆር ያሉ መነጽሮችን በማያደርጉ ጊዜ በመልክ መክፈት በተሻለ ሁኔታ ይሰራል።"</string>
     <string name="security_settings_face_enroll_finish_title">ጥሩ ይመስላል!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ለተገደበ እይታ ወይም የጭንቅላት እንቅስቃሴ ያቀናብሩ</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">በመልክ መክፈትን ሲጠቀሙ የእርስዎ ጭንቅላት ይበልጥ ከስልክዎ ፊት ለፊት መሆን ሊያስፈልገው ይችላል።</string>
@@ -278,10 +285,11 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="security_settings_face_enroll_introduction_how_title">እንዴት እንደሚሠራ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">በመልክ መክፈት ስልኩን ለመክፈት ወይም እነሱ መሆናቸውን ለማረጋገጥ የልጅዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ልጅዎ በመደበኛነት የዓይን መነፅር የሚያደርግ ከሆነ በሚያቀናብሩበት ጊዜ ሊያደርጓቸው ይችላሉ።</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">የልጅዎን ስልክ ለመክፈት መልካቸውን መጠቀም ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነት ሊኖረው ይችላል።</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">እነሱ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልካቸው እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እነሱን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊታቸው ላይ ከያዘው ሊከፈት ይችላል።</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">በመልክ መክፈት ስልኩን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ የእርስዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">መነጽር ወይም ትንሽ ቅልም ያላቸው የፀሐይ መነጽሮች ችግር የላቸውም።</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ስልኩን ለመክፈት መልክን መጠቀም ከጠንካራ ስርዓተ-ጥለት ወይም ፒን ያነሰ ደህንነት ሊኖረው ይችላል።</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ስልክዎን ለመክፈት መልክዎን መጠቀሙ ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነቱ የተጠበቀ ሊሆን ይችላል</string>
     <string name="security_settings_face_enroll_introduction_info_looking">እርስዎ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልክዎ እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እርስዎን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊትዎ ላይ ከያዘው ሊከፈት ይችላል።</string>
     <string name="security_settings_face_enroll_introduction_info_title">ከግምት ውስጥ ያስገቡ</string>
     <string name="security_settings_face_enroll_introduction_message">እንደ ወደ መተግበሪያዎች ሲገቡ ወይም ግዢን ሲያጸድቁ ስልክዎን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ መልክዎን ይጠቀሙ።</string>
@@ -310,6 +318,10 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="smart_battery_title">ተለማማጅ ባትሪ</string>
     <string name="sound_dashboard_summary">የድምጽ መጠን፣ ረቂቅ ንዝረት፣ አትረብሽ</string>
     <string name="storage_manager_indicator">ዘመናዊ ማከማቻ፦ ^1</string>
+    <string name="suw_warranty_description">የዚህን መሣሪያ የዋስትና ማረጋገጫ ለማየት የተገዛበትን አገር መታ ያድርጉ።&lt;br /&gt;&lt;br /&gt;የዋስትና ማረጋገጫው እንዲሁም በ&lt;b&gt;ቅንብሮች &gt; %s &gt; የተወሰነ የዋስትና ማረጋገጫ&lt;/b&gt; እና g.co/devicewarranty ላይ ይገኛል።</string>
+    <string name="suw_warranty_language_consistent_description">የእርስዎ መሣሪያ ላይ መተግበር የሚችለው የተወሰነ የዋስትና ማረጋገጫ እንዲሁም በመሣሪያ ቅንብሮች ውስጥ &lt;b&gt;ቅንብሮች &gt; %s &gt; የተወሰነ የዋስትና ማረጋገጫ&lt;/b&gt; ላይ እና g.co/devicewarranty ላይ ይገኛል።</string>
+    <string name="suw_warranty_next_button_text">ቀጣይ</string>
+    <string name="suw_warranty_positive_button_text">ዝጋ</string>
     <string name="time_remaining_warning_subtext">ባለፈ አጠቃቀም ላይ በመመርኮዝ ወደ %1$s ገደማ ቀርቷል</string>
     <string name="time_remaining_warning_text">ባትሪ በጣም በቅርቡ ሊያልቅ ይችል ይሆናል</string>
     <string name="tips_suggestion_summary">በስልክዎ ምን ማድረግ እንደሚችሉ ያስሱ</string>
@@ -317,6 +329,7 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ስልክ ከፊትዎ ፊት ለፊት ይያዙ</string>
     <string name="usb_use_file_transfers">ፋይል ማስተላለፍ / ራስሰር Android</string>
     <string name="wallpaper_dashboard_summary">ቀለሞች፣ ገጽታ ያላቸው አዶዎች፣ የመተግበሪያ ፍርግርግ</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">የOpenRoaming ደንበኝነት ምዝገባን ይመልከቱ ወይም ይቀይሩ</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">ከ%1$s ጋር ተገናኝቷል</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ለማገናኘት መታ ያድርጉ</string>

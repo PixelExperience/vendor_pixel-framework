@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gebaar voor geluid uitzetten</string>
     <string name="gesture_skip_title">Gebaar voor overslaan</string>
     <string name="keywords_touch_sensitivity">tikken, gevoeligheid, gevoelig, schermbeschermer, folie, responsief, responsiviteit</string>
-    <string name="touch_sensitivity_summary">Verbetert de tikbediening bij gebruik van een schermbeschermer</string>
-    <string name="touch_sensitivity_title">Tikgevoeligheid vergroten</string>
+    <string name="touch_sensitivity_summary">Verhoog de tikgevoeligheid en verbeter de tikreactie als je een screenprotector gebruikt</string>
+    <string name="touch_sensitivity_title">Modus voor screenprotector</string>
     <string name="columbus_title">Snel tikken om acties te starten</string>
+    <string name="about_phone">Over de telefoon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge instellen. Ga naar het volgende scherm of ga door met aanpassen.</string>
     <string name="accessibility_keyboard_haptics_title">Haptische feedback voor toetsenbord</string>
     <string name="adaptive_charging">Aangepast opladen</string>
@@ -202,6 +203,7 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="keywords_content_capture">content vastleggen, app-content, appcontent, app-inhoud, appinhoud, app-gegevens, appgegevens</string>
     <string name="keywords_gesture">gebaar, bewegingen</string>
     <string name="keywords_global_actions_panel">kaarten, passen, pinpassen, bankpassen, creditcards, betaalpassen</string>
+    <string name="keywords_limited_warranty">garantie, garanties, beperkte garantie, toezegging, reparatie, rma, vervanging</string>
     <string name="keywords_live_transcribe">ondertiteling, ondertiteling voor doven en slechthorenden, CC, Live ondertiteling, slechthorend, gehoorverlies, CART, spraak naar tekst, ondertitels</string>
     <string name="keywords_reverse_charging_stop_threshold">Telefoonbatterij niet meer delen vanaf batterijlading:</string>
     <string name="keywords_select_to_speak">tekst horen, voorlezen, scherm voorlezen, schermlezer</string>
@@ -213,6 +215,8 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="language_input_gesture_summary_off">Active Edge staat uit</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge staat aan</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge staat aan, knijp voor je Assistent</string>
+    <string name="limited_warranty_introduction">Tik op het land van aankoop om de garantie voor dit apparaat te bekijken. De garantie is ook beschikbaar op g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Beperkte Garantie</string>
     <string name="me_card_title">Mijn Pixel</string>
     <string name="my_device_info_account_preference_title">Google-account</string>
     <string name="owner_info_settings_edit_text_hint">Bijvoorbeeld Pixel van Jan.</string>
@@ -256,7 +260,10 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Op het volgende scherm houd je je telefoon op ooghoogte</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tijdslimiet voor gezichtsregistratie bereikt. Probeer het opnieuw.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Time-out bij instellen Ontgrendelen via gezicht</string>
-    <string name="security_settings_face_enroll_finish_description">Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Als je nu je telefoon oppakt of op het scherm tikt, kun je de telefoon ontgrendelen met je gezicht.
+
+Ontgrendelen via gezichtsherkenning werkt het best als er genoeg licht is en je geen mondkapje of donkere bril draagt."</string>
     <string name="security_settings_face_enroll_finish_title">Dat ziet er goed uit</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Instellen voor visuele beperking of beperkte hoofdbeweging</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Als je Ontgrendelen via gezichtsherkenning gebruikt, moet je je hoofd misschien dichter bij je telefoon houden</string>
@@ -278,10 +285,11 @@ Als je ontgrendelen via gezichtsherkenning gebruikt, worden foto's gebruikt om j
     <string name="security_settings_face_enroll_introduction_how_title">Hoe het werkt</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ontgrendelen via gezichtsherkenning kan vereisen dat de ogen van je kind open zijn om de telefoon te ontgrendelen of voor verificatie. Jij en je kind kunnen deze optie op elk moment aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Draagt je kind normaal een bril, dan kan het deze dragen tijdens het instellen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Het gezicht van je kind gebruiken om de telefoon te ontgrendelen zorgt misschien voor minder goede beveiliging dan een sterk patroon, een sterke pincode of een sterk wachtwoord</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Als je kind naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet de bedoeling was. De telefoon van je kind kan ook worden ontgrendeld door iemand anders die veel op je kind lijkt, zoals een tweelingbroer of -zus, of als iemand de telefoon voor het gezicht van je kind houdt.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Ontgrendelen via gezichtsherkenning kan vereisen dat je ogen open zijn om de telefoon te ontgrendelen of om te bevestigen dat jij het bent. Je kunt deze optie altijd aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brillen of lichte zonnebrillen zijn geen probleem.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Als je je gezicht gebruikt om de telefoon te ontgrendelen, is dat misschien minder goed beveiligd dan een sterk patroon of een pincode.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Je gezicht gebruiken om je telefoon te ontgrendelen is misschien minder veilig dan een sterk patroon of wachtwoord, of een sterke pincode.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Als je naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet je bedoeling was. Je telefoon kan ook worden ontgrendeld door iemand anders die veel op je lijkt, zoals een tweelingbroer of -zus, of als iemand je telefoon voor je gezicht houdt.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Houd rekening met het volgende</string>
     <string name="security_settings_face_enroll_introduction_message">Gebruik je gezicht om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
@@ -310,13 +318,18 @@ Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning
     <string name="smart_battery_title">Aangepast batterijgebruik</string>
     <string name="sound_dashboard_summary">Volume, haptische feedback, Niet storen</string>
     <string name="storage_manager_indicator">Slimme opslag: ^1</string>
+    <string name="suw_warranty_description">Tik op het land van aankoop om de garantie voor dit apparaat te bekijken.&lt;br /&gt;&lt;br /&gt;De garantie is ook beschikbaar via &lt;b&gt;Instellingen &gt; %s &gt; Beperkte garantie&lt;/b&gt; en op g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">De beperkte garantie die van toepassing is op je apparaat, is ook op beschikbaar in de apparaatinstellingen via &lt;b&gt;Instellingen &gt; %s &gt; Beperkte garantie&lt;/b&gt; en op g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Volgende</string>
+    <string name="suw_warranty_positive_button_text">Sluiten</string>
     <string name="time_remaining_warning_subtext">Nog ongeveer %1$s op basis van eerder gebruik</string>
     <string name="time_remaining_warning_text">De batterij is bijna leeg</string>
     <string name="tips_suggestion_summary">Ontdek wat je kunt doen met je telefoon</string>
     <string name="tips_suggestion_title">Maak kennis met je Pixel</string>
-    <string name="traffic_light_face_enrolling_title_accessibility">Houd de telefoon voor je gezicht.</string>
+    <string name="traffic_light_face_enrolling_title_accessibility">Houd de telefoon voor je gezicht</string>
     <string name="usb_use_file_transfers">Bestandsoverdracht/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Kleuren, thema-iconen, app-raster</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming-abonnement bekijken of wijzigen</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Verbonden met %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tikken om verbinding te maken</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Brīdinājumu nerādīšanas žests</string>
     <string name="gesture_skip_title">Izlaišanas žests</string>
     <string name="keywords_touch_sensitivity">skāriens, jutīgums, jutīgs, ekrāna aizsargplēve, filma, adaptīvs, reaģētspēja</string>
-    <string name="touch_sensitivity_summary">Tiek uzlabots skāriens, kad tiek izmantotas ekrāna aizsargplēves.</string>
-    <string name="touch_sensitivity_title">Skāriena jutīguma palielināšana</string>
+    <string name="touch_sensitivity_summary">Palielināt skārienjutību un uzlabot skārienievadi caur ekrāna aizsargplēvi</string>
+    <string name="touch_sensitivity_title">Ekrāna aizsargplēves režīms</string>
     <string name="columbus_title">Ātri pieskarieties, lai sāktu darbības</string>
+    <string name="about_phone">Par tālruni</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge iestatīšana tika pabeigta. Pārejiet uz nākamo ekrānu vai turpiniet pielāgošanu.</string>
     <string name="accessibility_keyboard_haptics_title">Vibrācija, pieskaroties tastatūrai</string>
     <string name="adaptive_charging">Adaptīvā uzlāde</string>
@@ -202,6 +203,7 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="keywords_content_capture">satura tveršana, lietotņu saturs, lietotņu dati</string>
     <string name="keywords_gesture">žesti, kustības</string>
     <string name="keywords_global_actions_panel">kartes, caurlaides</string>
+    <string name="keywords_limited_warranty">garantija, garantijas, ierobežotā garantija, solījums, remonts, RMA, aizvietošana</string>
     <string name="keywords_live_transcribe">Titri, slēptie subtitri, subtitri, subtitri reāllaikā, vājdzirdība, nedzirdība, stenogrāfija reāllaikā, runas pārvēršana tekstā, runas teksts</string>
     <string name="keywords_reverse_charging_stop_threshold">Pārtraukt akumulatora koplietošanu, kad tālrunī tiek sasniegts:</string>
     <string name="keywords_select_to_speak">Atskaņot tekstu, lasīt skaļi, ekrāna satura atskaņošana, ekrāna lasītājs</string>
@@ -213,6 +215,8 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="language_input_gesture_summary_off">Funkcija Active Edge ir izslēgta</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcija Active Edge ir ieslēgta</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge iesl., saspiediet, lai aktivizētu Asistentu</string>
+    <string name="limited_warranty_introduction">Pieskarieties iegādes valstij, lai skatītu šai ierīcei pieejamo garantiju. Garantija ir atrodama arī vietnē g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Ierobežotā garantija</string>
     <string name="me_card_title">Mana Pixel ierīce</string>
     <string name="my_device_info_account_preference_title">Google konts</string>
     <string name="owner_info_settings_edit_text_hint">Piemērs: Jāņa Pixel ierīce.</string>
@@ -257,7 +261,10 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Pēc pāriešanas uz nākamo ekrānu turiet tālruni acu līmenī</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Sasniegts sejas reģistrēšanas reižu skaits. Mēģiniet vēlreiz.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Iestatot autorizāciju pēc sejas, iestājās noildze</string>
-    <string name="security_settings_face_enroll_finish_description">Tagad varat izmantot seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Tagad varat izmantot seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Tagad, paņemot tālruni vai pieskaroties ekrānam, varat izmantot seju, lai atbloķētu tālruni.
+
+Autorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles."</string>
     <string name="security_settings_face_enroll_finish_title">Gatavs!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Redzes vai galvas kust. ierobež.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Izmantojot autorizāciju pēc sejas, jūsu galvai jābūt tieši pretī tālrunim.</string>
@@ -279,10 +286,11 @@ Izmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmanto
     <string name="security_settings_face_enroll_introduction_how_title">Darbības principi</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja bērna acis ir atvērtas. Jebkurā laikā jūs vai jūsu bērns varat šo opciju ieslēgt sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ja jūsu bērns parasti valkā brilles, viņš var tās valkāt iestatīšanas laikā.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Autorizācijas pēc sejas izmantošana, lai atbloķētu bērna tālruni, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jūsu bērnam līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret bērna seju.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja jūsu acis ir atvērtas. Jebkurā laikā šo opciju varat ieslēgt sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brilles vai viegli tonētas saulesbrilles netraucēs.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Autorizācijas pēc sejas vai tālruņa atbloķēšanas opcijas izmantošana var būt mazāk droša nekā sarežģīta kombinācija vai PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Tālruņa atbloķēšana, izmantojot sejas atpazīšanu, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jums līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret jūsu seju.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Svarīga informācija</string>
     <string name="security_settings_face_enroll_introduction_message">Izmantojiet seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
@@ -311,6 +319,10 @@ Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc se
     <string name="smart_battery_title">Adaptīvais akumulators</string>
     <string name="sound_dashboard_summary">Skaļums, vibrācija pieskaroties, Netraucēt</string>
     <string name="storage_manager_indicator">Viedā krātuve: ^1</string>
+    <string name="suw_warranty_description">Pieskarieties iegādes valstij, lai skatītu šai ierīcei pieejamo garantiju.&lt;br /&gt;&lt;br /&gt;Garantija ir atrodama arī sadaļā &lt;b&gt;Iestatījumi &gt; %s &gt; Ierobežotā garantija&lt;/b&gt; un vietnē g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Jūsu ierīcei piemērojamā ierobežotā garantija ir atrodama arī ierīces iestatījumos sadaļā &lt;b&gt;Iestatījumi &gt; %s &gt; Ierobežotā garantija&lt;/b&gt; un vietnē g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Tālāk</string>
+    <string name="suw_warranty_positive_button_text">Aizvērt</string>
     <string name="time_remaining_warning_subtext">Atlikušais laiks: aptuveni %1$s (ņemot vērā iepriekšējo lietojumu)</string>
     <string name="time_remaining_warning_text">Iespējams, akumulators drīz izlādēsies</string>
     <string name="tips_suggestion_summary">Uzziniet vairāk par tālruņa iespējām</string>
@@ -318,6 +330,7 @@ Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc se
     <string name="traffic_light_face_enrolling_title_accessibility">Turiet tālruni sejas priekšā</string>
     <string name="usb_use_file_transfers">Failu pārsūtīšana/ Android Auto</string>
     <string name="wallpaper_dashboard_summary">Krāsas, motīvu ikonas, lietotņu režģis</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Skatīt vai mainīt OpenRoaming abonementu</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Izveidots savienojums, izmantojot %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Pieskarieties, lai izveidotu savienojumu.</string>

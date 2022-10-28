@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">"Gesto per disattivare l'audio degli avvisi"</string>
     <string name="gesture_skip_title">Gesto per ignorare</string>
     <string name="keywords_touch_sensitivity">touch, sensibilità, sensibile, protezione per lo schermo, pellicola, reattivo, reattività</string>
-    <string name="touch_sensitivity_summary">Migliora la reattività al tocco quando si usano protezioni per lo schermo</string>
-    <string name="touch_sensitivity_title">Aumenta la sensibilità del touchscreen</string>
+    <string name="touch_sensitivity_summary">Aumenta la sensibilità e migliora la risposta al tocco quando utilizzi una protezione per lo schermo</string>
+    <string name="touch_sensitivity_title">Modalità protezione per lo schermo</string>
     <string name="columbus_title">"Tocco rapido per iniziare un'azione"</string>
+    <string name="about_phone">Informazioni sul telefono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Funzione Active Edge configurata. Vai alla prossima schermata o continua a regolare la funzione.</string>
     <string name="accessibility_keyboard_haptics_title">Feedback aptico tastiera</string>
     <string name="adaptive_charging">Ricarica adattiva</string>
@@ -166,9 +167,9 @@ Una volta reimpostato, segui la procedura di configurazione e scegli di importar
     <string name="face_enrolling_too_close">Allontana il telefono</string>
     <string name="face_enrolling_too_far">Avvicina il telefono</string>
     <string name="face_enrolling_too_high">Sposta il telefono più in basso</string>
-    <string name="face_enrolling_too_left">Sposta il telefono alla tua destra</string>
+    <string name="face_enrolling_too_left">Sposta il telefono verso destra</string>
     <string name="face_enrolling_too_low">Sposta il telefono più in alto</string>
-    <string name="face_enrolling_too_right">Sposta il telefono alla tua sinistra</string>
+    <string name="face_enrolling_too_right">Sposta il telefono verso sinistra</string>
     <string name="face_enrolling_turn_head_to_arrow">Gira la testa verso la freccia</string>
     <string name="face_enrolling_turned_too_far">"Ruota un po' meno la testa"</string>
     <string name="fallback_menu_item_copy_link">Copia link</string>
@@ -202,6 +203,7 @@ I dati di backup non vengono considerati per la quota di spazio di archiviazione
     <string name="keywords_content_capture">acquisizione contenuti, contenuti app, dati app</string>
     <string name="keywords_gesture">gesto, movimenti</string>
     <string name="keywords_global_actions_panel">carte, pass</string>
+    <string name="keywords_limited_warranty">garanzia, garanzia limitata, promessa, riparazione, rma, sostituzione</string>
     <string name="keywords_live_transcribe">"sottotitoli codificati, sottotitolaggio codificato, CC, Sottotitoli in tempo reale, problemi di udito, perdita dell'udito, CART, conversione della voce in testo, sottotitolo"</string>
     <string name="keywords_reverse_charging_stop_threshold">Interrompi la condivisione della batteria quando il telefono arriva a:</string>
     <string name="keywords_select_to_speak">ascolto del testo, lettura ad alta voce, lettura dello schermo, screen reader</string>
@@ -213,6 +215,8 @@ I dati di backup non vengono considerati per la quota di spazio di archiviazione
     <string name="language_input_gesture_summary_off">Active Edge disattivato</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge attivato</string>
     <string name="language_input_gesture_summary_on_with_assist">"Active Edge attivo, stringi per parlare con l'assistente"</string>
+    <string name="limited_warranty_introduction">"Tocca il paese di acquisto per visualizzare la garanzia di questo dispositivo. La garanzia è disponibile anche all'indirizzo g.co/devicewarranty"</string>
+    <string name="limited_warranty_title">Garanzia limitata</string>
     <string name="me_card_title">Il mio telefono Pixel</string>
     <string name="my_device_info_account_preference_title">Account Google</string>
     <string name="owner_info_settings_edit_text_hint">Esempio: telefono di Anna</string>
@@ -257,10 +261,13 @@ Capovolgi il telefono per provare."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">"Nella prossima schermata, tieni il telefono all'altezza degli occhi"</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Registrazione volto non riuscita.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Timeout configurazione dello sblocco con il volto</string>
-    <string name="security_settings_face_enroll_finish_description">Ora puoi usare il volto per sbloccare il tuo telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Ora puoi usare il volto per sbloccare il tuo telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Ora quando sollevi il tuo telefono o tocchi lo schermo, puoi utilizzare il volto per sbloccarlo.
+
+Lo sblocco con il volto funziona meglio quando c'è abbastanza luce e non indossi una mascherina o occhiali scuri."</string>
     <string name="security_settings_face_enroll_finish_title">Molto bene.</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configurazione in caso di vista o mobilità della testa limitate</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Se usi lo sblocco con il volto, la testa potrebbe dover essere più frontale rispetto al telefono.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Quando usi lo sblocco con il volto, è possibile che tu debba tenere la testa in posizione più frontale rispetto al telefono.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Gli occhi devono essere aperti</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"Tu e tuo figlio potete eliminare il modello del volto o disattivare lo sblocco con il volto in qualsiasi momento nelle Impostazioni. I modelli del volto rimangono memorizzati sul telefono finché non vengono eliminati.
 
@@ -279,10 +286,11 @@ Quando utilizzi lo sblocco con il volto, le immagini vengono usate per aggiornar
     <string name="security_settings_face_enroll_introduction_how_title">Come funziona</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">La funzionalità di sblocco con il volto può richiedere che gli occhi di tuo figlio siano aperti per sbloccare il telefono e verificare la sua identità. Tu e tuo figlio potete attivare questa opzione in qualsiasi momento in Impostazioni.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se normalmente tuo figlio porta gli occhiali, potrà indossarli anche durante la configurazione.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">"L'uso del volto di tuo figlio per sbloccare il suo telefono potrebbe essere meno sicuro di una sequenza, un PIN o una password efficaci"</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Se guarda direttamente il telefono, potrebbe sbloccarlo anche senza volerlo. Il suo telefono può essere sbloccato anche da qualcuno che assomiglia molto a tuo figlio, ad esempio un gemello, o se viene rivolto verso il suo volto.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">La funzionalità di sblocco con il volto può richiedere che i tuoi occhi siano aperti per sbloccare il telefono e verificare la tua identità. Puoi attivare questa opzione in qualsiasi momento in Impostazioni.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Sono consentiti occhiali da vista e occhiali da sole chiari.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Utilizzare un volto per sbloccare il telefono potrebbe essere meno sicuro rispetto a un PIN o a una sequenza efficaci</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">"L'uso del tuo volto per sbloccare il telefono potrebbe essere meno sicuro dell'uso di una sequenza, un PIN o una password efficaci."</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Se guardi direttamente il telefono, potresti sbloccarlo anche senza volerlo. Il tuo telefono può essere sbloccato anche da qualcuno che ti assomiglia molto, ad esempio un gemello, o se viene rivolto verso il tuo viso.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Ricorda</string>
     <string name="security_settings_face_enroll_introduction_message">Usa il volto per sbloccare il telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto.</string>
@@ -291,7 +299,7 @@ Quando utilizzi lo sblocco con il volto, le immagini vengono usate per aggiornar
     <string name="security_settings_face_enroll_partial_message">Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle Impostazioni</string>
     <string name="security_settings_face_enroll_partial_start_over">Ricomincia</string>
     <string name="security_settings_face_enroll_partial_title">Configurazione di sblocco con il volto terminata</string>
-    <string name="security_settings_face_enroll_timeout_message">"Prova la configurazione rapida. Ricorda che la testa potrebbe dover essere più frontale rispetto al telefono quando usi lo sblocco con il volto.
+    <string name="security_settings_face_enroll_timeout_message">"Prova la configurazione rapida. Ricorda che potresti dover tenere la testa in posizione più frontale rispetto al telefono quando usi lo sblocco con il volto.
 
 Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle Impostazioni."</string>
     <string name="security_settings_face_enroll_timeout_title">Impossibile continuare la configurazione</string>
@@ -311,6 +319,10 @@ Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle 
     <string name="smart_battery_title">Batteria adattiva</string>
     <string name="sound_dashboard_summary">Volume, feedback aptico, Non disturbare</string>
     <string name="storage_manager_indicator">Archiviazione intelligente: ^1</string>
+    <string name="suw_warranty_description">Tocca il paese di acquisto per visualizzare la garanzia di questo dispositivo.&lt;br /&gt;&lt;br /&gt;La garanzia è disponibile anche in &lt;b&gt;Impostazioni &gt; %s &gt; Garanzia limitata&lt;/b&gt; e su g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">La garanzia limitata relativa al tuo dispositivo è disponibile anche nelle &lt;b&gt;Impostazioni &gt; %s &gt; Garanzia limitata&lt;/b&gt; e g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Avanti</string>
+    <string name="suw_warranty_positive_button_text">Esci</string>
     <string name="time_remaining_warning_subtext">Tempo rimanente in base al tuo utilizzo precedente: %1$s</string>
     <string name="time_remaining_warning_text">La batteria potrebbe esaurirsi a breve</string>
     <string name="tips_suggestion_summary">Scopri cosa puoi fare con il tuo telefono</string>
@@ -318,6 +330,7 @@ Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle 
     <string name="traffic_light_face_enrolling_title_accessibility">Tieni il telefono davanti al volto</string>
     <string name="usb_use_file_transfers">Trasferimento file/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Colori, icone a tema, griglia delle app</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">"Visualizza o modifica l'abbonamento a OpenRoaming"</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Connessione stabilita tramite %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tocca per connettere</string>

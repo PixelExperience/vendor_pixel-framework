@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">ທ່າທາງການເຕືອນແບບງຽບ</string>
     <string name="gesture_skip_title">ຂ້າມທ່າທາງ</string>
     <string name="keywords_touch_sensitivity">ສຳຜັດ, ຄວາມລະອຽດອ່ອນ, ລະອຽດອ່ອນ, ຕົວປົກປ້ອງໜ້າຈໍ, ຟີມ, ຕອບສະໜອງ, ການຕອບສະໜອງ</string>
-    <string name="touch_sensitivity_summary">ປັບປຸງການສຳຜັດເມື່ອໃຊ້ຕົວປົກປ້ອງໜ້າຈໍ</string>
-    <string name="touch_sensitivity_title">ເພີ່ມຄວາມລະອຽດອ່ອນໃນການສຳຜັດ</string>
+    <string name="touch_sensitivity_summary">ເພີ່ມຄວາມໄວການສຳຜັດ ແລະ ປັບປຸງການສຳຜັດໃນເວລາໃຊ້ຕົວປົກປ້ອງໜ້າຈໍ</string>
+    <string name="touch_sensitivity_title">ໂໝດຕົວປົກປ້ອງໜ້າຈໍ</string>
     <string name="columbus_title">ການແຕະດ່ວນເພື່ອເລີ່ມຄຳສັ່ງ</string>
+    <string name="about_phone">ກ່ຽວກັບໂທລະສັບ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">ຕັ້ງຄ່າ Active Edge. ໄປທີ່ໜ້າຈໍຖັດໄປ ຫຼື ສືບຕໍ່ປັບແຕ່ງ.</string>
     <string name="accessibility_keyboard_haptics_title">ການຕອບສະໜອງແປ້ນພິມ</string>
     <string name="adaptive_charging">ການສາກໄຟແບບປັບອັດຕະໂນມັດ</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">ບັນທຶກເນື້ອຫາ, ເນື້ອຫາແອັບ, ຂໍ້ມູນແອັບ</string>
     <string name="keywords_gesture">ທ່າງທາ, ການຍ້າຍ</string>
     <string name="keywords_global_actions_panel">ບັດ, ປີ້</string>
+    <string name="keywords_limited_warranty">ການຮັບປະກັນ, ຮັບປະກັນ, ການຮັບປະກັນແບບຈຳກັດ, ສັນຍາ, ສ້ອມແປງ, rma, ການປ່ຽນແທນ</string>
     <string name="keywords_live_transcribe">ຄຳບັນຍາຍ, CC, ຄຳບັນຍາຍສົດ, ມີບັນຫາໃນການໄດ້ຍິນ, ສູນເສຍການໄດ້ຍິນ, CART, ການປ່ຽນສຽງເວົ້າເປັນຂໍ້ຄວາມ, ຄຳແປ</string>
     <string name="keywords_reverse_charging_stop_threshold">ຢຸດການແບ່ງປັນແບັດເຕີຣີເມື່ອໂທລະສັບຮອດ:</string>
     <string name="keywords_select_to_speak">ໄດ້ຍິນຂໍ້ຄວາມ, ອ່ານອອກສຽງ, ອ່ານໜ້າຈໍ, ໂປຣແກຣມອ່ານໜ້າຈໍ</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">ປິດ Active Edge ແລ້ວ</string>
     <string name="language_input_gesture_summary_on_non_assist">ເປີດ Active Edge ແລ້ວ</string>
     <string name="language_input_gesture_summary_on_with_assist">ເປີດ Active Edge ແລ້ວ, ບີບເພື່ອເອີ້ນຜູ້ຊ່ວຍຂອງທ່ານ</string>
+    <string name="limited_warranty_introduction">ແຕະໃສ່ປະເທດທີ່ສັ່ງຊື້ເພື່ອເບິ່ງການຮັບປະກັນສຳລັບອຸປະກອນນີ້. ທ່ານສາມາດອ່ານຂໍ້ມູນການຮັບປະກັນໄດ້ຢູ່ g.co/devicewarranty ນຳ</string>
+    <string name="limited_warranty_title">ການຮັບປະກັນແບບຈຳກັດ</string>
     <string name="me_card_title">Pixel ຂອງຂ້ອຍ</string>
     <string name="my_device_info_account_preference_title">ບັນຊີ Google</string>
     <string name="owner_info_settings_edit_text_hint">ຕົວຢ່າງ: Pixel ຂອງ Joe.</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_dialog_title">ການລົງທະບຽນບໍ່ສຳເລັດ</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">ຮອດຂີດຈຳກັດເວລາການລົງທະບຽນໃບໜ້າແລ້ວ ລອງໃໝ່.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ໝົດເວລາຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
-    <string name="security_settings_face_enroll_finish_description">ຕອນນີ້ທ່ານສາມາດໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານໄດ້ແລ້ວ ເຊັ່ນ: ໃນເວລາທີ່ທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ຕອນນີ້ທ່ານສາມາດໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານໄດ້ແລ້ວ, ເຊັ່ນ: ໃນເວລາທີ່ທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ຕອນນີ້ເມື່ອທ່ານຈັບໂທລະສັບຂອງທ່ານຂຶ້ນມາ ຫຼື ແຕະໃສ່ໜ້າຈໍຂອງທ່ານ, ທ່ານຈະສາມາດໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໄດ້.
+
+ການປົດລັອກດ້ວຍໜ້າຈະເຮັດວຽກໄດ້ດີທີ່ສຸດເມື່ອມີແສງພຽງພໍ ແລະ ທ່ານບໍ່ໄດ້ໃສ່ຜ້າອັດປາກ ຫຼື ແວ່ນຕາດຳ."</string>
     <string name="security_settings_face_enroll_finish_title">ດີແລ້ວ!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ຕັ້ງຄ່າສຳລັບການເບິ່ງ ຫຼື ການເຄື່ອນໄຫວຫົວທີ່ຈຳກັດ</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">ເມື່ອໃຊ້ການປົດລັອກດ້ວຍໜ້າ, ຫົວຂອງທ່ານອາດຕ້ອງຢູ່ໜ້າໂທລະສັບຂອງທ່ານໃຫ້ຊື່ໆຫຼາຍຂຶ້ນ.</string>
@@ -279,10 +286,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">ມັນເຮັດວຽກແນວໃດ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">ການປົດລັອກດ້ວຍໜ້າສາມາດບັງຄັບໃຫ້ລູກຂອງທ່ານມືນຕາເພື່ອປົດລັອກໂທລະສັບ ຫຼື ຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າແທ້. ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດເປີດຕົວເລືອກນີ້ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ຫາກປົກກະຕິລູກຂອງທ່ານໃສ່ແວ່ນຕາ, ເຂົາເຈົ້າສາມາດໃສ່ໃນຂະນະທີ່ກຳລັງຕັ້ງຄ່າໄດ້.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ການໃຊ້ໜ້າຂອງລູກທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງເຂົາເຈົ້າອາດປອດໄພໜ້ອຍກວ່າຮູບແບບ, PIN ຫຼື ລະຫັດຜ່ານທີ່ຍາກ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">ການເບິ່ງໂທລະສັບສາມາດປົດລັອກມັນໄດ້ເຖິງແມ່ນວ່າເຂົາເຈົ້າຈະບໍ່ຕັ້ງໃຈກໍຕາມ. ໂທລະສັບຂອງເຂົາເຈົ້າສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຕາຄ້າຍເຂົາເຈົ້າຫຼາຍ ເຊັ່ນ: ຝາແຝດ ຫຼື ຫາກມີຄົນຖືມັນໄປໃສ່ໜ້າຂອງເຂົາເຈົ້າ.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">ການປົດລັອກດ້ວຍໜ້າສາມາດບັງຄັບໃຫ້ທ່ານມືນຕາເພື່ອປົດລັອກໂທລະສັບ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້. ທ່ານສາມາດເປີດຕົວເລືອກນີ້ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">ແວ່ນຕາ ຫຼື ແວ່ນກັນແດດທີ່ມີສີເລັກນ້ອຍແມ່ນໃຊ້ໄດ້.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ການໃຊ້ໜ້າເພື່ອປົດລັອກໂທລະສັບອາດມີຄວາມປອດໄພໜ້ອຍກວ່າການໃຊ້ຮູບແບບ ຫຼື PIN ທີ່ຊັບຊ້ອນ.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ການໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານອາດມີຄວາມປອດໄພໜ້ອຍກວ່າຮູບແບບ, PIN ຫຼື ລະຫັດຜ່ານທີ່ຍາກ</string>
     <string name="security_settings_face_enroll_introduction_info_looking">ການເບິ່ງໂທລະສັບຈະສາມາດປົດລັອກມັນໄດ້ເຖິງແມ່ນວ່າທ່ານຈະບໍ່ຕັ້ງໃຈກໍຕາມ. ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຕາຄ້າຍທ່ານຫຼາຍ ເຊັ່ນ: ຝາແຝດ ຫຼື ຫາກມີຄົນຖືມັນໄປໃສ່ໜ້າຂອງທ່ານ.</string>
     <string name="security_settings_face_enroll_introduction_info_title">ຂໍ້ຄວນຈື່</string>
     <string name="security_settings_face_enroll_introduction_message">ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບທ່ານ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້ ເຊັ່ນ: ໃນເວລາທີ່ທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້ໃດໜຶ່ງ.</string>
@@ -311,6 +319,10 @@
     <string name="smart_battery_title">ແບັດເຕີຣີແບບປັບຕົວໄດ້</string>
     <string name="sound_dashboard_summary">ລະດັບສຽງ, ການຕອບສະໜອງ, ຫ້າມລົບກວນ</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="suw_warranty_description">ແຕະໃສ່ປະເທດທີ່ສັ່ງຊື້ເພື່ອເບິ່ງການຮັບປະກັນສຳລັບອຸປະກອນນີ້.&lt;br /&gt;&lt;br /&gt;ນອກຈາກນັ້ນ,​ ການຮັບປະກັນຍັງສາມາດເບິ່ງໄດ້ຢູ່ &lt;b&gt;ການຕັ້ງຄ່າ &gt; %s &gt; ການຮັບປະກັນແບບຈຳກັດ&lt;/b&gt; and g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">ນອກຈາກນັ້, ການຮັບປະກັນແບບຈຳກັດທີ່ກ່ຽວຂ້ອງກັບອຸປະກອນຂອງທ່ານຍັງສາມາດເບິ່ງໄດ້ໃນການຕັ້ງຄ່າອຸປະກອນ &lt;b&gt;ການຕັ້ງຄ່າ &gt; %s &gt; ການຮັບປະກັນແບບຈຳກັດ&lt;/b&gt; and at g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">ຕໍ່ໄປ</string>
+    <string name="suw_warranty_positive_button_text">ປິດ</string>
     <string name="time_remaining_warning_subtext">ເຫຼືອອີກປະມານ %1$s ໂດຍອ້າງອີງຈາກການນຳໃຊ້ຂອງທ່ານ</string>
     <string name="time_remaining_warning_text">ແບັດເຕີຣີຈະໝົດໃນໄວໆນີ້</string>
     <string name="tips_suggestion_summary">ສຳຫຼວດສິ່ງທີ່ທ່ານເຮັດໄດ້ດ້ວຍໂທລະສັບທ່ານ</string>
@@ -318,6 +330,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">ຖືໂທລະສັບໄວ້ຕໍ່ໜ້າທ່ານ</string>
     <string name="usb_use_file_transfers">ການໂອນຍ້າຍໄຟລ໌ / Android Auto</string>
     <string name="wallpaper_dashboard_summary">ສີ, ໄອຄອນຕາມຮູບແບບສີສັນ, ຕາຕະລາງແອັບ</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">ເບິ່ງ ຫຼື ປ່ຽນ ການສະໝັກໃຊ້ OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">ເຊື່ອມຕໍ່ກັບ %1$s ແລ້ວ</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ແຕະເພື່ອເຊື່ອມຕໍ່</string>

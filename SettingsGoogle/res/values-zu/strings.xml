@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Thulisa ukuthinta kwezexwayiso</string>
     <string name="gesture_skip_title">Yeqa ukuthinta</string>
     <string name="keywords_touch_sensitivity">ukuthinta, ukuzwela, iyazwela, isivikeli sesikrini, ifilimu, iyaphendula, ukuphendula</string>
-    <string name="touch_sensitivity_summary">Ithuthukisa ukuthinta uma kusetshenziswa izivikeli zesikrini</string>
-    <string name="touch_sensitivity_title">Khuphula ukuzwela kokuthinta</string>
+    <string name="touch_sensitivity_summary">Nyusa ukuzwela kokuthinta futhi uthuthukise ukuthinta lapho usebenzisa isivikeli sesikrini</string>
+    <string name="touch_sensitivity_title">Imodi yesivikeli sesikrini</string>
     <string name="columbus_title">Thepha Ngokushesha ukuze uqalise izenzo</string>
+    <string name="about_phone">Mayelana nefoni</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Ukusetha kwe-Active Edge. Iya esikrinini esilandelayo noma qhubeka nokulungisa.</string>
     <string name="accessibility_keyboard_haptics_title">Ama-haptic wekhibhodi</string>
     <string name="adaptive_charging">Ukushaja Okuvumelana Nezimo</string>
@@ -202,6 +203,7 @@ Idatha eyenziwe isipele ngeke ibalwe ngokubhekiswe ku-quota yesitoreji sakho seD
     <string name="keywords_content_capture">ukuthwetshulwa kokuqukethwe, okuqukethwe kohlelo lokuseenza, idatha yohlelo lokusebenza</string>
     <string name="keywords_gesture">ukuthinta, ukuhamba</string>
     <string name="keywords_global_actions_panel">amakhadi, ukudlulwa</string>
+    <string name="keywords_limited_warranty">isiqinisekiso, isiqinisekiso ngokusemthethweni, ukuqinisekiswa okukhawulelwe, isithembiso, ukulungisa, i-rma, ukushintshwa</string>
     <string name="keywords_live_transcribe">Amagama-ncazo, amazwibela avaliwe, i-CC, Okushuthwe Bukhoma, inkinga yokuzwa, ukulahleka kokuzwa, UBHASKIDI, inkulumo eya kumbhalo, umbhalo ongezansi</string>
     <string name="keywords_reverse_charging_stop_threshold">Yeka ukushaja ibhethri uma ifoni ifika:</string>
     <string name="keywords_select_to_speak">Izwa umbhalo, funda ngokuzwakalayo, khuluma isikrini, isifundi sesikrini</string>
@@ -213,6 +215,8 @@ Idatha eyenziwe isipele ngeke ibalwe ngokubhekiswe ku-quota yesitoreji sakho seD
     <string name="language_input_gesture_summary_off">I-Active Edge ivaliwe</string>
     <string name="language_input_gesture_summary_on_non_assist">I-Active Edge ivuliwe</string>
     <string name="language_input_gesture_summary_on_with_assist">I-Active Edge ivuliwe, minyanisa umsizi wakho</string>
+    <string name="limited_warranty_introduction">Thepha izwe othenge kulo ukuze ubuke isiqinisekiso sale divayisi. Isiqinisekiso siyatholakala naku-g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Ukuqinisekisa Okukhawulelwe</string>
     <string name="me_card_title">I-Pixel yami</string>
     <string name="my_device_info_account_preference_title">I-akhawunti ye-Google</string>
     <string name="owner_info_settings_edit_text_hint">Isb., i-Pixel ka-Sipho.</string>
@@ -256,7 +260,10 @@ Phenya ifoni yakho ukuzama."</string>
     <string name="security_settings_face_enroll_education_message">Esikrinini esilandelayo, phendukisa ikhanda lakho ukuze uthwebule onke ama-engeli ebusweni bakho</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Esikrinini esilandelayo, bamba ifoni yakho iqondane namehlo</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Ukusethwa Kokuvula ngobuso kuphelelwe isikhathi</string>
-    <string name="security_settings_face_enroll_finish_description">Manje ungasebenzisa ubuso bakho ukuvula ifoni yakho noma uqinisekise ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ugunyaza ukuthenga</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Manje ungasebenzisa ubuso bakho ukuvula ifoni yakho noma ukuqinisekisa ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ugunyaza ukuthenga</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Manje uma uthatha ifoni yakho noma uthepha isikrini, ungasebenzisa ubuso bakho ukuze uvule.
+
+Ukuvula Ngobuso kusebenza kahle kakhulu uma kunokukhanya okwanele futhi ungafakanga imaski noma izibuko ezimnyama."</string>
     <string name="security_settings_face_enroll_finish_title">Kubukeka kukuhle!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ukusetha kokubuka okukhawulelwe noma ukunyakaza kwekhanda</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Uma usebenzisa Ukuvula ngobuso, ikhanda lakho kungenzeka kumele liqonde kakhulu phambi kwefoni yakho.</string>
@@ -278,10 +285,11 @@ Uma usebenzisa Ukuvula ngobuso, izithombe zisetshenziselwa ukuvuselela imodeli y
     <string name="security_settings_face_enroll_introduction_how_title">Isebenza kanjani</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ukuvula Ngobuso kungadinga ukuthi amehlo engane yakho avuleke ukuze ivule ifoni noma iqinisekise ukuthi yiyo. Wena nengane yakho ningavula le nketho noma kunini Kumasethingi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Uma ingane yakho ifaka izibuko zamehlo ngokuvamile, ingazigqoka ngesikhathi sokusetha.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Ukusebenzisa ubuso bengane yakho ukuze uvule ifoni yayo kungase kuvikeleke kancane kunephethini eqinile noma iphasiwedi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ukubheka efonini kungayivula ngisho noma ingahlosile. Ifoni yayo ingaphinda ivulwe ngomunye umuntu ofana ncamashi nayo, njengowakubo onjengayo, noma uma othile eyibambela ebusweni bayo.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Ukuvula Ngobuso kungadinga ukuthi amehlo akho avuleke ukuze uvule ifoni noma uqinisekise ukuthi nguwe. Ungavula le nketho nganoma yisiphi isikhathi Kumasethingi.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Izibuko noma izibuko zelanga ezenziwe mnyama kancane ZILUNGILE.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Ukusebenzisa ubuso ukuvula ifoni kungahle kuvikele kancane kunephethini eqinile noma Iphinikhodi.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Ukusebenzisa ubuso bakho ukuze uvule ifoni yakho kungase kungavikeleki kakhulu kunephetheni eqinile, Iphinikhodi, noma iphasiwedi.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Ukubheka efonini kungayivula ngisho noma ungahlosile. Ifoni yakho ingaphinda ivulwe ngomunye umuntu ofana ncamashi nawe, njengowakini oyiwele, noma uma othile eyibambela ebusweni bakho.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Khumbula</string>
     <string name="security_settings_face_enroll_introduction_message">Sebenzisa ubuso bakho ukuze uvule ifoni yakho noma uqinisekise ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ukugunyaza ukuthenga.</string>
@@ -310,6 +318,10 @@ Ukuze uthuthukise ukusebenza, ungasetha futhi Ukuvula ngobuso kokuthi Amasething
     <string name="smart_battery_title">I-Adaptive Battery</string>
     <string name="sound_dashboard_summary">Ivolumu, ama-haptic, Ungaphazamisi</string>
     <string name="storage_manager_indicator">Isitoreji esihlakaniphile: ^1</string>
+    <string name="suw_warranty_description">Thepha izwe lokuthenga ukuze ubuke ukuqinisekisa kwale divayisi.&lt;br /&gt;&lt;br /&gt;Ukuqinisekisa kuphinde kotholakale kokuthi &lt;b&gt;Amasethingi &gt; %s &gt; Ukuqinisekisa okukhawulelwe&lt;/b&gt; nokuthi g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Ukuqinisekisa okukhawulelwe okusebenza kudivayisi yakho kuphinde kutholakale Kumasethingi edivayisi kokuthi &lt;b&gt;Amasethingi &gt; %s &gt; Ukuqinisekisa okukhawulelwe&lt;/b&gt; nakokuthi g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Okulandelayo</string>
+    <string name="suw_warranty_positive_button_text">Vala</string>
     <string name="time_remaining_warning_subtext">Cishe kusele okungu-%1$s kusukela ekusetshenzisweni kwakho</string>
     <string name="time_remaining_warning_text">Ibhethri lingaphela maduze</string>
     <string name="tips_suggestion_summary">Hlola lokho ongakwenza ngefoni yakho</string>
@@ -317,6 +329,7 @@ Ukuze uthuthukise ukusebenza, ungasetha futhi Ukuvula ngobuso kokuthi Amasething
     <string name="traffic_light_face_enrolling_title_accessibility">Bamba ifoni phambi kobuso bakho</string>
     <string name="usb_use_file_transfers">Ukudluliselwa kwefayela / i-Android Auto</string>
     <string name="wallpaper_dashboard_summary">Imibala, izithonjana ezinetimu, igridi ye-app</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Buka noma shintsha okubhalisile kwe-OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Ixhunywe ne-%1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Thepha ukuze uxhume</string>

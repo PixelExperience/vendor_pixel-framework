@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="warranty_screen"
+    android:title="@string/limited_warranty_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="warranty_intro"
+        android:order="-100"
+        android:title="@string/limited_warranty_introduction"
+        settings:searchable="false" />
+
+</PreferenceScreen>

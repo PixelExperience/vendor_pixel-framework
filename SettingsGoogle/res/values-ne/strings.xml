@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">मौन अलर्टहरू नामक इसारा</string>
     <string name="gesture_skip_title">मिडिया छाड्नुहोस् नामक इसारा</string>
     <string name="keywords_touch_sensitivity">छुवाइ, संवेदनशीलता, संवेदनशील, स्क्रिन प्रोटेक्टर, फिल्म, उत्तरदायी, उत्तरदायिता</string>
-    <string name="touch_sensitivity_summary">स्क्रिन प्रोटेक्टर प्रयोग गर्दा छुवाइको सटिकतामा सुधार ल्याउँछ</string>
-    <string name="touch_sensitivity_title">छुवाइको संवेदनशीलता बढाइयोस्</string>
+    <string name="touch_sensitivity_summary">स्क्रिन प्रोटेक्टर प्रयोग गर्दा टच सेन्सिटिभिटी बढाउनुहोस् र स्क्रिनमा छुँदा अझ राम्रो अनुभव प्राप्त गर्नुहोस्</string>
+    <string name="touch_sensitivity_title">स्क्रिन प्रोटेक्टर मोड</string>
     <string name="columbus_title">क्विक ट्याप गर्दा कारबाही सुरु हुन्</string>
+    <string name="about_phone">फोनका बारेमा</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge सेटअप गरियो। अर्को स्क्रिनमा जानुहोस् वा समायोजन कार्य जारी राख्नुहोस्।</string>
     <string name="accessibility_keyboard_haptics_title">किबोर्ड स्पर्श गर्ने सुविधा</string>
     <string name="adaptive_charging">एड्याप्टिभ चार्जिङ</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">सामग्री समावेश गर्ने, एपको सामग्री, एपको डेटा</string>
     <string name="keywords_gesture">इसारा, चालहरू</string>
     <string name="keywords_global_actions_panel">कार्ड, पासहरू</string>
+    <string name="keywords_limited_warranty">वारेन्टी, ग्यारेन्टी, सीमित समयका लागि दिइने वारेन्टी, बाचा, मर्मत, RMA, प्रतिस्थापन</string>
     <string name="keywords_live_transcribe">क्याप्सन, क्लोज्ड क्याप्सन, CC, लाइभ क्याप्सन, कमजोर श्रवण शक्ति, कान राम्रोसँग नसुन्ने समस्या, CART, स्पिच-टू-टेक्स्ट, सबटाइटल</string>
     <string name="keywords_reverse_charging_stop_threshold">फोनको ब्याट्री निम्न लेबलमा पुगेपछि ब्याट्री सेयर गर्न छाडियोस्:</string>
     <string name="keywords_select_to_speak">पाठ सुन्नुहोस्, पढेर सुनाउने सुविधा, स्पिक स्क्रिन, स्क्रिन रिडर</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge निष्क्रिय छ</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge सक्रिय छ</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge सक्रिय छ, आफ्नो सहायक प्रयोग गर्न किनारामा थिच्नुहोस्</string>
+    <string name="limited_warranty_introduction">यो डिभाइसको वारेन्टी हेर्न यो डिभाइस खरिद गरिएको देशमा ट्याप गर्नुहोस्। सो वारेन्टी g.co/devicewarranty मा पनि उपलब्ध छ</string>
+    <string name="limited_warranty_title">सीमित समयका लागि दिइने वारेन्टी</string>
     <string name="me_card_title">मेरो Pixel</string>
     <string name="my_device_info_account_preference_title">Google खाता</string>
     <string name="owner_info_settings_edit_text_hint">जस्तै, Joe को Pixel।</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाले काम गरेन।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाको समय सीमा सकियो। फेरि प्रयास गर्नुहोस्।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">फेस अनलक सेटअप गर्ने समय सकियो</string>
-    <string name="security_settings_face_enroll_finish_description">तपाईं अब फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्न सक्नुहुन्छ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">तपाईं अब फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्न सक्नुहुन्छ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"तपाईंले अब आफ्नो फोन उठाउँदा वा सो फोनको स्क्रिनमा ट्याप गर्दा तपाईं फोन अनलक गर्न आफ्नो अनुहार प्रयोग गर्न सक्नुहुन्छ।
+
+Face Unlock ले पर्याप्त प्रकाश उपलब्ध भएका बेलामा र तपाईंले मास्क वा कालो चस्मा नलगाएका बेलामा सबैभन्दा राम्रोसँग काम गर्छ।"</string>
     <string name="security_settings_face_enroll_finish_title">ठिकै देखिन्छ!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">दृष्टि क्षमता वा टाउको हलचल गर्ने क्षमता कम भएका व्यक्तिका निम्ति सेटअप गर्नुहोस्</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">फेस अनलक प्रयोग गर्दा तपाईंले आफ्नो टाउको ठ्याक्कै फोनको अगाडि राख्नु पर्ने हुन सक्छ।</string>
@@ -279,10 +286,11 @@ g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</s
     <string name="security_settings_face_enroll_introduction_how_title">यसले कसरी काम गर्छ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"फेस अनलक\" प्रयोग गरी तपाईंका बच्चाको फोन अनलक गर्न वा उनले नै फोन अनलक गर्न खोजेका हुन् भन्ने पुष्टि गर्न उनले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं र तपाईंका बच्चा जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">तपाईंका बच्चाले प्रायः चस्मा लगाउने गर्छ भने उनी चस्मा लगाएरै सेटअप गर्न सक्छन्।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">तपाईंका बच्चाको अनुहार प्रयोग गरी उनको फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">तपाईंका बच्चाले फोनमा हेर्‍यो भने उनले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। उनको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि उनको फोन अनलक गर्न सक्छन्। साथै कसैले उनको अनुहारका अगाडि फोन लगे भने पनि उनको फोन अनलक हुन सक्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">\"फेस अनलक\" सुविधा प्रयोग गरी तपाईंको फोन अनलक गर्न वा तपाईंले नै फोन अनलक गर्न खोज्नुभएको हो भन्ने पुष्टि गर्न तपाईंले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">चस्मा वा हल्का रङ भएको सनग्लास प्रयोग गर्दा हुन्छ।</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">फोन अनलक गर्न फेस प्रयोग गर्नुभन्दा भरपर्दो प्याटर्न वा PIN प्रयोग गर्नु बढी सुरक्षित हुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">अनुहार प्रयोग गरी फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
     <string name="security_settings_face_enroll_introduction_info_looking">तपाईंले फोनमा हेर्नुभयो भने तपाईंले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। तपाईंको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि तपाईंको फोन अनलक गर्न सक्छन्। साथै तपाईंका आँखा खुला भएका बेला कसैले तपाईंको अनुहारका अगाडि फोन लगे भने पनि तपाईंको फोन अनलक हुन सक्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_title">ख्याल गर्नुहोस्</string>
     <string name="security_settings_face_enroll_introduction_message">आफ्नो फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्नुहोस्।</string>
@@ -311,6 +319,10 @@ g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</s
     <string name="smart_battery_title">एड्याप्टिभ ब्याट्री</string>
     <string name="sound_dashboard_summary">भोल्युम, ह्याप्टिक्स र \"बाधा नपुऱ्याउनुहोस्\"</string>
     <string name="storage_manager_indicator">स्मार्ट भण्डारण: ^1</string>
+    <string name="suw_warranty_description">यो डिभाइसको वारेन्टी हेर्न यो डिभाइस खरिद गरिएको देशमा ट्याप गर्नुहोस्।&lt;br /&gt;&lt;br /&gt;सो वारेन्टी &lt;b&gt;सेटिङ &gt; %s &gt; सीमित समयका लागि दिइने वारेन्टी&lt;/b&amp;gt र g.co/devicewarranty मा पनि उपलब्ध छ।</string>
+    <string name="suw_warranty_language_consistent_description">तपाईंको डिभाइसका लागि उपयुक्त हुने सीमित समयका लागि दिइने वारेन्टी &lt;b&gt;सेटिङ &gt; %s &gt; सीमित समयका लागि दिइने वारेन्टी&lt;/b&amp;gt र g.co/devicewarranty मा पनि उपलब्ध छ।</string>
+    <string name="suw_warranty_next_button_text">अर्को</string>
+    <string name="suw_warranty_positive_button_text">बन्द गर्नुहोस्</string>
     <string name="time_remaining_warning_subtext">विगतको प्रयोगको आधारमा लगभग %1$s बाँकी</string>
     <string name="time_remaining_warning_text">ब्याट्री छिट्टै सकिनसक्छ</string>
     <string name="tips_suggestion_summary">आफ्नो फोन प्रयोग गरी के के गर्न सकिन्छ भन्ने कुरा जान्नुहोस्</string>
@@ -318,6 +330,7 @@ g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</s
     <string name="traffic_light_face_enrolling_title_accessibility">आफ्नो अनुहार ठ्याक्कै अगाडि पर्ने गरी फोन समात्नुहोस्</string>
     <string name="usb_use_file_transfers">फाइल हस्तान्तरण / Android Auto</string>
     <string name="wallpaper_dashboard_summary">रङ, थिमयुक्त आइकन, एप ग्रिड</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming को सदस्यता हेर्नुहोस् वा परिवर्तन गर्नुहोस्</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s मार्फत कनेक्ट गरियो</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">कनेक्ट गर्न ट्याप गर्नुहोस्</string>

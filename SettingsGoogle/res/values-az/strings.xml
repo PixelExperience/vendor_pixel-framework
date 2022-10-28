@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Səssiz rejim siqnalları üçün işarə</string>
     <string name="gesture_skip_title">İşarəni keçin</string>
     <string name="keywords_touch_sensitivity">sensor, həssaslıq, həssas, ekran qoruyucusu, üzlük, reaktiv, reaksiya</string>
-    <string name="touch_sensitivity_summary">Plyonka taxılmış ekranın həssaslığını artırır</string>
-    <string name="touch_sensitivity_title">Ekran həssaslığını artırır</string>
+    <string name="touch_sensitivity_summary">Ekran qoruyucusu istifadə edərkən toxunma həssaslığını artırın və toxunuşu yaxşılaşdırın</string>
+    <string name="touch_sensitivity_title">Ekran qoruyucu rejimi</string>
     <string name="columbus_title">Fəaliyyətləri başlatmaq üçün Cəld Toxunun</string>
+    <string name="about_phone">Telefon haqqında</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Aktiv Kənar ayarlandı. Növbəti ekrana keçin və tənzimləyin.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviaturanın taktil əks-əlaqəsi</string>
     <string name="adaptive_charging">Adaptiv şarj</string>
@@ -201,6 +202,7 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="keywords_content_capture">kontentin əldə edilməsi, tətbiq kontenti, tətbiq datası</string>
     <string name="keywords_gesture">jest, hərəkət</string>
     <string name="keywords_global_actions_panel">kartlar, keçidlər</string>
+    <string name="keywords_limited_warranty">zəmanət, təminat, məhdud zəmanət, vəd, təmir, rma, dəyişdirmə</string>
     <string name="keywords_live_transcribe">Altyazı, qapalı altyazılar, Nüsxəni alan, Canlı Altyazı, eşitmə çətinliyi, eşitmə qabiliyyətinin itirilməsi, CART, nitqin mətnə çevrilməsi, subtitr</string>
     <string name="keywords_reverse_charging_stop_threshold">Enerji bu faizə çatdıqda enerjiyə qənaət edilməsin:</string>
     <string name="keywords_select_to_speak">Mətn dinləmə, ucadan oxuma, danışma ekranı, ekran oxuyucusu</string>
@@ -212,6 +214,8 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="language_input_gesture_summary_off">Aktiv Kənar deaktiv edildi</string>
     <string name="language_input_gesture_summary_on_non_assist">Aktiv Kənar aktiv edildi</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge funksiyası aktivdir, Assistent sıxmaqla çağrılır</string>
+    <string name="limited_warranty_introduction">Bu cihazın zəmanətinə baxmaq üçün alış ölkəsinə toxunun. Bu zəmanət həmçinin burada əlçatandır: g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Məhdud Zəmanət</string>
     <string name="me_card_title">Pikselim</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Məs, Joe'nin Pixel'i."</string>
@@ -255,7 +259,10 @@ Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Növbəti ekranda telefonunuzu göz səviyyəsində saxlayın</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Üz qeydiyyatı alınmadı.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Üz ilə kiliddən çıxarmanın ayarlanması vaxtı bitdi</string>
-    <string name="security_settings_face_enroll_finish_description">İndi tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzdən istifadə edə bilərsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">İndi tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzdən istifadə edə bilərsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"İndi telefonu götürəndə və ya ekrana toxunduqda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.
+
+Üzlə Kiliddən Açma kifayət qədər işıq olduqda və maska və ya tünd eynək taxmadığınız zaman yaxşı işləyir."</string>
     <string name="security_settings_face_enroll_finish_title">Qaydasındadır!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Məhdud görmə, baş hərəkəti üçün</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Üz ilə Kiliddən Açmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.</string>
@@ -277,10 +284,11 @@ Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="security_settings_face_enroll_introduction_how_title">İşləmə qaydası</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud uşağınızın özü olduğunu doğrulamaq üçün onun gözlərinin açıq olmasını tələb edə bilər. Siz və uşağınız Ayarlarda bu seçimi istənilən vaxt yandıra bilərsiniz.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Övladınız normalda eynəkdən istifadə edirsə, ayarlama zamanı onu taxa bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Övladınızın telefonunu kiliddən çıxarmaq üçün onun üzündən istifadə etmək güclü model, PIN kod və ya paroldan daha az güvənli ola bilər.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Övladınız telefona baxmaqla istəmədən telefonu kiliddən çıxara bilər. Övladınızın telefonu ona çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud onün üzünə tutularaq də kiliddən çıxarıla bilər.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud kimliyinizi doğrulamaq üçün gözlərinizin açıq olmasını tələb edə bilər. Bu seçimi Ayarlarda istənilən vaxt yandıra bilərsiniz.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Eynək və ya solğun rəngli gün eynəyi taxa bilərsiniz.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonu kiliddən çıxarmaq üçün üzdən istifadə etmək güclü bir model və ya PIN koddan daha güvənsiz ola bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonunuzu kiliddən çıxarmaq üçün üzünüzdən istifadə etmək güclü model, PIN və ya parol qədər təhlükəsiz olmaya bilər.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefona baxmaqla istəmədən telefonu kiliddən çıxara bilərsiniz. Telefonunuz sizə çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud sizə doğru yönəldilərək də kiliddən çıxarıla bilər.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Unutmayın</string>
     <string name="security_settings_face_enroll_introduction_message">Tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzü istifadə edin.</string>
@@ -309,6 +317,10 @@ Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarman�
     <string name="smart_battery_title">Enerjinin adaptiv istifadəsi</string>
     <string name="sound_dashboard_summary">Səs, taktil əks-əlaqə, Narahat Etməyin</string>
     <string name="storage_manager_indicator">Smart yaddaş: ^1</string>
+    <string name="suw_warranty_description">Bu cihazın zəmanətinə baxmaq üçün satınalma ölkəsinə toxunun.&lt;br /&gt;&lt;br /&gt;Zəmanət həmçinin burada əlçatandır: &lt;b&gt;Ayarlar &gt; %s &gt; Məhdud zəmanət&lt;/b&gt; və g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Cihazınıza tətbiq edilən məhdud zəmanət həmçinin cihaz Ayarlarında burada əlçatandır: &lt;b&gt;Ayarlar &gt; %s &gt; Məhdud zəmanət&lt;/b&gt; və g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Sonra</string>
+    <string name="suw_warranty_positive_button_text">Bağlayın</string>
     <string name="time_remaining_warning_subtext">İstifadəyə əsasən təxminən %1$s qalıb</string>
     <string name="time_remaining_warning_text">Batareya tezliklə bitə bilər</string>
     <string name="tips_suggestion_summary">Telefon ilə edə biləcəklərinizi öyrənin</string>
@@ -316,6 +328,7 @@ Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarman�
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonu üzünüzün önündə saxlayın</string>
     <string name="usb_use_file_transfers">Fayl köçürməsi / Android Avto</string>
     <string name="wallpaper_dashboard_summary">Rənglər, temalı ikonalar, tətbiq toru</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming abunəliyinə baxın və ya dəyişin</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s vasitəsilə qoşulub</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Qoşulmaq üçün toxunun</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Κίνηση σίγασης ειδοποιήσεων</string>
     <string name="gesture_skip_title">Κίνηση παράβλεψης</string>
     <string name="keywords_touch_sensitivity">αφή, ευαισθησία, ευαίσθητο, προστατευτικό οθόνης, ταινία, αποκριτικό, απόκριση</string>
-    <string name="touch_sensitivity_summary">Βελτιώνει τη αφή κατά τη χρήση προστατευτικών οθόνης</string>
-    <string name="touch_sensitivity_title">Αύξηση ευαισθησίας αφής</string>
+    <string name="touch_sensitivity_summary">Αυξήστε την ευαισθησία αφής και βελτιώστε την αφή όταν χρησιμοποιείτε προστατευτικό οθόνης</string>
+    <string name="touch_sensitivity_title">Λειτουργία προστατευτικού οθόνης</string>
     <string name="columbus_title">Γρήγορο πάτημα για έναρξη ενεργειών</string>
+    <string name="about_phone">Σχετικά με το τηλέφωνο</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Ρύθμιση Active Edge. Μεταβείτε στην επόμενη οθόνη ή συνεχίστε την προσαρμογή.</string>
     <string name="accessibility_keyboard_haptics_title">Απτική λειτουργία πληκτρολογίου</string>
     <string name="adaptive_charging">Προσαρμοστική φόρτιση</string>
@@ -201,6 +202,7 @@
     <string name="keywords_content_capture">λήψη περιεχομένου, περιεχόμενο εφαρμογής, δεδομένα εφαρμογών</string>
     <string name="keywords_gesture">κίνηση, κινήσεις</string>
     <string name="keywords_global_actions_panel">κάρτες, πάσα</string>
+    <string name="keywords_limited_warranty">εγγύηση, περιορισμένη εγγύηση, υπόσχεση, επισκευή, εξουσιοδότηση επιστροφής εμπορικών προϊόντων, rma, αντικατάσταση</string>
     <string name="keywords_live_transcribe">Υπότιτλοι, υπότιτλοι, Υπότιτλοι, Ζωντανoί υπότιτλοι, βαρήκοοι, απώλεια ακοής, CART, ομιλία σε κείμενο, υπότιτλος</string>
     <string name="keywords_reverse_charging_stop_threshold">Διακοπή κοινής χρήσης της μπαταρίας όταν το τηλέφωνο φτάνει το:</string>
     <string name="keywords_select_to_speak">Ακρόαση κειμένου, εκφώνηση, ομιλία οθόνης, αναγνώστης οθόνης</string>
@@ -212,6 +214,8 @@
     <string name="language_input_gesture_summary_off">Το Active Edge είναι απενεργοποιημένο</string>
     <string name="language_input_gesture_summary_on_non_assist">Το Active Edge είναι ενεργοποιημένο</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ενεργό, πιέστε για ενεργοποίηση του Βοηθού</string>
+    <string name="limited_warranty_introduction">Πατήστε τη χώρα αγοράς για να δείτε την εγγύηση για τη συσκευή. Η εγγύηση είναι επίσης διαθέσιμη στη διεύθυνση g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Περιορισμένη εγγύηση</string>
     <string name="me_card_title">Το Pixel μου</string>
     <string name="my_device_info_account_preference_title">Λογαριασμός Google</string>
     <string name="owner_info_settings_edit_text_hint">Π.χ. Το Pixel του Λευτέρη.</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">Η καταχώριση προσώπου απέτυχε.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Λήξη χρονικού ορίου καταχώρισης προσώπου. Δοκιμάστε ξανά.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Λήξη χρον. ορίου ρύθμισης Ξεκλείδωμ. με το πρόσωπο</string>
-    <string name="security_settings_face_enroll_finish_description">Μπορείτε πλέον να χρησιμοποιείτε το πρόσωπό σας για να ξεκλειδώσετε το τηλέφωνό σας ή να επαληθεύσετε την ταυτότητά σας, για παράδειγμα κατά τη σύνδεση σε εφαρμογές ή την έγκριση μιας αγοράς.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Μπορείτε πλέον να χρησιμοποιείτε το πρόσωπό σας για να ξεκλειδώσετε το τηλέφωνό σας ή να επαληθεύσετε την ταυτότητά σας, για παράδειγμα κατά τη σύνδεση σε εφαρμογές ή την έγκριση μιας αγοράς.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Πλέον, όταν σηκώνετε το τηλέφωνο ή πατάτε την οθόνη, μπορείτε να χρησιμοποιείτε το πρόσωπό σας για ξεκλείδωμα.
+
+Το Ξεκλείδωμα με το πρόσωπο λειτουργεί καλύτερα όταν υπάρχει αρκετό φως και δεν φοράτε μάσκα ή σκούρα γυαλιά."</string>
     <string name="security_settings_face_enroll_finish_title">Όλα εντάξει!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ρύθμ. για περιορ. όραση ή κινητ. κεφαλ.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Όταν χρησιμοποιείτε τη λειτουργία Ξεκλείδωμα με το πρόσωπο, ίσως χρειαστεί να μετακινηθείτε έτσι ώστε το κεφάλι σας να είναι ακριβώς μπροστά στο τηλέφωνό σας.</string>
@@ -279,14 +286,15 @@
     <string name="security_settings_face_enroll_introduction_how_title">Πώς λειτουργεί</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Το παιδί σας θα πρέπει να έχει τα μάτια του ανοικτά προκειμένου η λειτουργία Ξεκλείδωμα με το πρόσωπο να ξεκλειδώσει το τηλέφωνο ή να επαληθεύσει την ταυτότητά του. Εσείς και το παιδί σας μπορείτε να ενεργοποιήσετε αυτήν την επιλογή ανά πάσα στιγμή στις Ρυθμίσεις.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Εάν το παιδί σας φορά γυαλιά συνήθως, μπορεί να τα φορά κατά τη ρύθμιση.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Η χρήση του προσώπου του παιδιού σας για το ξεκλείδωμα του τηλεφώνου του μπορεί να είναι λιγότερο ασφαλής μέθοδος σε σχέση με ένα ισχυρό μοτίβο, PIN ή κωδικό πρόσβασης</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Το τηλέφωνο μπορεί να ξεκλειδώσει όταν το κοιτά ακόμη και αν δεν σκοπεύει να το ξεκλειδώσει. Το τηλέφωνο του παιδιού σας μπορεί επίσης να ξεκλειδωθεί από κάποιο άτομο που του μοιάζει πολύ, όπως για παράδειγμα, τον δίδυμο αδελφό του, ή σε περίπτωση που κάποιος το κρατήσει μπροστά στο πρόσωπό του.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Θα πρέπει να έχετε τα μάτια σας ανοικτά προκειμένου η λειτουργία Ξεκλείδωμα με το πρόσωπο να ξεκλειδώσει το τηλέφωνο ή να επαληθεύσει την ταυτότητά σας. Μπορείτε να ενεργοποιήσετε αυτήν την επιλογή ανά πάσα στιγμή στις Ρυθμίσεις.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Η χρήση γυαλιών όρασης και γυαλιών ηλίου με ελαφριά απόχρωση είναι αποδεκτή.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Η χρήση προσώπου για ξεκλείδωμα του τηλεφώνου ενδέχεται να είναι λιγότερο ασφαλής από ένα ισχυρό μοτίβο ή PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Το ξεκλείδωμα του τηλεφώνου με τη χρήση του προσώπου σας ενδέχεται να είναι λιγότερο ασφαλές από τη χρήση ενός ισχυρού μοτίβου, ενός PIN ή ενός κωδικού πρόσβασης</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Το τηλέφωνο μπορεί να ξεκλειδώσει όταν το κοιτάτε ακόμη και αν δεν σκοπεύετε να το ξεκλειδώσετε. Το τηλέφωνό σας μπορεί επίσης να ξεκλειδωθεί από κάποιο άτομο που σας μοιάζει πολύ, όπως για παράδειγμα, τον δίδυμο αδελφό σας, ή σε περίπτωση που κάποιος το κρατήσει μπροστά στο πρόσωπό σας.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Έχετε υπόψη τα εξής</string>
     <string name="security_settings_face_enroll_introduction_message">Χρησιμοποιήστε το πρόσωπό σας για να ξεκλειδώσετε το τηλέφωνό σας ή να επαληθεύσετε την ταυτότητά σας, για παράδειγμα κατά τη σύνδεση σε εφαρμογές ή την έγκριση μιας αγοράς.</string>
-    <string name="security_settings_face_enroll_introduction_title">Ρύθμιση του Ξεκλειδώματος με το πρόσωπο</string>
+    <string name="security_settings_face_enroll_introduction_title">Ρύθμιση Ξεκλειδώματος με το πρόσωπο</string>
     <string name="security_settings_face_enroll_next">Επόμενο</string>
     <string name="security_settings_face_enroll_partial_message">Για να βελτιώσετε την απόδοση, μπορείτε να επαναλάβετε τη ρύθμιση της λειτουργίας Ξεκλείδωμα με το πρόσωπο στις Ρυθμίσεις.</string>
     <string name="security_settings_face_enroll_partial_start_over">Έναρξη από την αρχή</string>
@@ -311,6 +319,10 @@
     <string name="smart_battery_title">Προσαρμοστική μπαταρία</string>
     <string name="sound_dashboard_summary">Ένταση ήχου, απτική λειτουργία, Μην ενοχλείτε</string>
     <string name="storage_manager_indicator">Έξυπνος αποθηκευτικός χώρος: ^1</string>
+    <string name="suw_warranty_description">Πατήστε τη χώρα αγοράς για να δείτε την εγγύηση για αυτήν τη συσκευή.&lt;br /&gt;&lt;br /&gt;Η εγγύηση είναι επίσης διαθέσιμη στο μενού &lt;b&gt;Ρυθμίσεις &gt; %s &gt; Περιορισμένη εγγύηση&lt;/b&gt; και στη διεύθυνση g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Η περιορισμένη εγγύηση που ισχύει για τη συσκευή σας είναι επίσης διαθέσιμη στις Ρυθμίσεις της συσκευής, στο μενού &lt;b&gt;Ρυθμίσεις &gt; %s &gt; Περιορισμένη εγγύηση&lt;/b&gt;, καθώς και στη διεύθυνση g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Επόμενο</string>
+    <string name="suw_warranty_positive_button_text">Κλείσιμο</string>
     <string name="time_remaining_warning_subtext">Απομένουν περίπου %1$s με βάση την προηγούμενη χρήση</string>
     <string name="time_remaining_warning_text">Η μπαταρία μπορεί να εξαντληθεί σύντομα</string>
     <string name="tips_suggestion_summary">Ανακαλύψτε τις δυνατότητες του τηλεφώνου</string>
@@ -318,6 +330,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Κρατήστε το τηλέφωνο μπροστά σας</string>
     <string name="usb_use_file_transfers">Μεταφορά αρχείου/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Χρώματα, εικονίδια θέματος, πλέγμα εφαρμογής</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Προβολή ή αλλαγή συνδρομής OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Συνδέθηκε με %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Πατήστε για σύνδεση</string>

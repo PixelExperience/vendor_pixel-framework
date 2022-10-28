@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gjesti i sinjalizimeve të heshtjes</string>
     <string name="gesture_skip_title">Gjesti i kapërcimit</string>
     <string name="keywords_touch_sensitivity">prekje, ndjeshmëri, i ndjeshëm, mbrojtësi i ekranit, shtresë plastike, reagues, reagueshmëria</string>
-    <string name="touch_sensitivity_summary">Përmirëson prekjen kur përdoren mbrojtës ekrani</string>
-    <string name="touch_sensitivity_title">Rrit ndjeshmërinë e prekjes</string>
+    <string name="touch_sensitivity_summary">Rrit ndjeshmërinë e prekjes dhe përmirëso prekjen kur përdor një mbrojtës ekrani</string>
+    <string name="touch_sensitivity_title">Modaliteti i mbrojtësit të ekranit</string>
     <string name="columbus_title">\"Trokit shpejt\" për të filluar veprimet</string>
+    <string name="about_phone">Rreth telefonit</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Konfigurimi i Active Edge. Shko tek ekrani tjetër ose vazhdo me rregullimin.</string>
     <string name="accessibility_keyboard_haptics_title">Prekja e tastierës</string>
     <string name="adaptive_charging">Karikimi me përshtatje</string>
@@ -200,6 +201,7 @@ Të dhënat e rezervimit nuk do të ndikojnë në kuotat e hapësirës ruajtëse
     <string name="keywords_content_capture">regjistrimi i përmbajtjes, përmbajtja e aplikacioneve, të dhënat e aplikacioneve</string>
     <string name="keywords_gesture">gjest, lëvizje</string>
     <string name="keywords_global_actions_panel">kartat, lejet e kalimit</string>
+    <string name="keywords_limited_warranty">garanci, siguri, garanci e kufizuar, premtim, riparim, AKM, zëvendësim</string>
     <string name="keywords_live_transcribe">Titrat, CC, Titrat në çast, vështirësi në dëgjim, humbje e dëgjimit, CART, ligjërimi në tekst, nëntitull</string>
     <string name="keywords_reverse_charging_stop_threshold">Ndalo ndarjen e baterisë kur telefoni arrin:</string>
     <string name="keywords_select_to_speak">Dëgjo tekst, lexo me zë të lartë, lexo ekranin, lexuesi i ekranit</string>
@@ -211,6 +213,8 @@ Të dhënat e rezervimit nuk do të ndikojnë në kuotat e hapësirës ruajtëse
     <string name="language_input_gesture_summary_off">Active Edge i çaktivizuar</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge i aktivizuar</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge i aktivizuar, shtrydh për \"Asistentin\"</string>
+    <string name="limited_warranty_introduction">Trokit te shteti i blerjes për të shikuar garancinë për këtë pajisje. Garancia ofrohet gjithashtu në g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garanci e kufizuar</string>
     <string name="me_card_title">Pixel-i im</string>
     <string name="my_device_info_account_preference_title">Llogaria e Google</string>
     <string name="owner_info_settings_edit_text_hint">P.sh. pajisja Pixel e Admirit</string>
@@ -257,7 +261,10 @@ Ktheje telefonin nga ana tjetër dhe provo."</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Regjistrimi me fytyrë nuk funksionoi.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">U arrit afati i regjistrimit. Provo sërish.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigurimit të \"Shkyçjes me fytyrë\" i mbaroi koha</string>
-    <string name="security_settings_face_enroll_finish_description">Tani mund të përdorësh fytyrën tënde për të shkyçur telefonin ose për të verifikuar që je ti, p.sh. kur identifikohesh në aplikacione ose kur miraton një blerje</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Tani mund të përdorësh fytyrën tënde për të shkyçur telefonin ose për të verifikuar që je ti, p.sh. kur identifikohesh në aplikacione ose kur miraton një blerje</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Tani kur ngre telefonin ose troket ekranin, mund të përdorësh fytyrën tënde për ta shkyçur.
+
+\"Shkyçja me fytyrë\" funksionon më mirë kur ka mjaftueshëm ndriçim dhe nuk ke vënë një maskë ose syze të errëta."</string>
     <string name="security_settings_face_enroll_finish_title">Duket mirë!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfiguro për kufizime me shikimin ose lëvizjen e kokës</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kur përdor \"Skyçjen me fytyrë\", mund të jetë e nevojshme që koka jote të jetë më direkt përpara telefonit tënd.</string>
@@ -273,16 +280,17 @@ Mëso më shumë te g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_how_consent_message">"\"Shkyçja me fytyrë\" krijon një model unik të fytyrës së fëmijës tënd për të verifikuar që është ai. Për ta krijuar këtë model të fytyrës gjatë konfigurimit, fëmija nxjerr imazhe të fytyrës së tij nga kënde të ndryshme.
 
 Kur të përdorë \"Shkyçjen me fytyrë\", imazhet përdoren për të përditësuar modelin e fytyrës së tij. Imazhet e përdorura për të krijuar modelin e fytyrës së tij nuk ruhen, por modeli i fytyrës ruhet në mënyrë të sigurt në telefon dhe nuk largohet asnjëherë nga telefoni. I gjithë përpunimi ndodh në mënyrë të sigurt në telefon."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"\"Shkyçja me fytyrë\" krijon një model unik të fytyrës tënde për të verifikuar që je ti. Për ta krijuar këtë model të fytyrës gjatë konfigurimit, do të nxjerrësh imazhe të fytyrës sate nga kënde të ndryshme.
+    <string name="security_settings_face_enroll_introduction_how_message">"\"Shkyçja me fytyrë\" krijon një model unik të fytyrës sate për të verifikuar që je ti. Për ta krijuar këtë model të fytyrës gjatë konfigurimit, do të nxjerrësh imazhe të fytyrës sate nga kënde të ndryshme.
 
 Kur të përdorësh \"Shkyçjen me fytyrë\", imazhet përdoren për të përditësuar modelin e fytyrës sate. Imazhet e përdorura për të krijuar modelin e fytyrës sate nuk ruhen, por modeli i fytyrës sate ruhet në mënyrë të sigurt në telefonin tënd dhe nuk largohet asnjëherë nga telefoni. I gjithë përpunimi ndodh në mënyrë të sigurt në telefonin tënd."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Si funksionon</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e fëmijës tënd të jenë të hapur për të shkyçur telefonin ose për të verifikuar që është ai fëmijë. Ti dhe fëmija yt mund ta aktivizoni këtë opsion në çdo kohë te \"Cilësimet\".</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">"Nëse fëmija yt normalisht mban syze, mund t'i mbajë dhe gjatë konfigurimit."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Përdorimi i fytyrës së fëmijës për të shkyçur telefonin e tij mund të jetë më pak i sigurt sesa një motiv, kod PIN apo fjalëkalim i fortë.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Shikimi drejt telefonit mund ta shkyçë këtë edhe nëse nuk kishte për qëllim ta bënte. Telefoni i tij mund të shkyçet dhe nga dikush që i ngjan shumë, si p.sh. një binjak identik, ose nëse dikush ia mban telefonin në nivelin e fytyrës.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e tu të jenë të hapur për të shkyçur telefonin ose për të verifikuar që je ti. Mund ta aktivizosh këtë opsion në çdo kohë te \"Cilësimet\".</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Syzet optike dhe syzet e diellit me nuancë të lehtë janë të pranueshme.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Përdorimi i fytyrës për të shkyçur telefonin mund të jetë më pak i sigurt se një motiv ose kod PIN i fortë.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Përdorimi i fytyrës për të shkyçur telefonin mund të jetë më pak i sigurt se një motiv i fortë, kod PIN ose fjalëkalim</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Shikimi te telefoni mund ta shkyçë atë edhe nëse nuk ke për qëllim një gjë të tillë. Telefoni yt mund të shkyçet dhe nga dikush që të ngjan shumë, si p.sh. një binjak identik, ose nëse dikush e mban telefonin në nivelin e fytyrës sate.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Mbaje mend</string>
     <string name="security_settings_face_enroll_introduction_message">Përdor fytyrën tënde për të shkyçur telefonin tënd ose për të verifikuar që je ti, si p.sh. kur identifikohesh në aplikacione ose kur miraton një blerje.</string>
@@ -312,6 +320,10 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="sound_dashboard_summary">Volumi, prekja, \"Mos shqetëso\"</string>
     <string name="sound_settings">Tingulli dhe dridhja</string>
     <string name="storage_manager_indicator">Hapësira ruajtëse inteligjente: ^1</string>
+    <string name="suw_warranty_description">Trokit shtetin e blerjes për të shikuar garancinë për këtë pajisje.&lt;br /&gt;&lt;br /&gt;Garancia ofrohet gjithashtu te &lt;b&gt;Cilësimet &gt; %s &gt; Garancia e kufizuar&lt;/b&gt; dhe në g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Garancia e kufizuar e zbatueshme për pajisjen tënde ofrohet gjithashtu te \"Cilësimet\" e pajisjes te &lt;b&gt;Cilësimet &gt; %s &gt; Garancia e kufizuar&lt;/b&gt; dhe në g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Para</string>
+    <string name="suw_warranty_positive_button_text">Mbyll</string>
     <string name="time_remaining_warning_subtext">Rreth %1$s të mbetura bazuar në përdorimin tënd</string>
     <string name="time_remaining_warning_text">Bateria mund të mbarojë së shpejti</string>
     <string name="tips_suggestion_summary">Eksploro se çfarë mund të bësh me telefonin tënd</string>
@@ -319,6 +331,7 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="traffic_light_face_enrolling_title_accessibility">Mbaje telefonin përpara fytyrës sate</string>
     <string name="usb_use_file_transfers">Transferimi i skedarëve / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Ngjyrat, ikonat tematike, rrjeta e aplikacioneve</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Shiko ose ndrysho abonimin e OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Lidhur me %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">"Trokit për t'u lidhur"</string>

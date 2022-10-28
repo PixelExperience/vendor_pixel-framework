@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Жэст пераводу абвестак у рэжым без гуку</string>
     <string name="gesture_skip_title">Жэст для пропуску</string>
     <string name="keywords_touch_sensitivity">дакрануцца, адчувальнасць, адчувальны, ахоўная плёнка, плёнка, аператыўны, хуткая рэакцыя</string>
-    <string name="touch_sensitivity_summary">Параметр павышае адчувальнасць экрана да дакрананняў пры выкарыстанні ахоўных плёнак</string>
-    <string name="touch_sensitivity_title">Павышэнне адчувальнасці да дакрананняў</string>
+    <string name="touch_sensitivity_summary">Павышэнне адчувальнасці да дакрананняў і паляпшэнне водгуку на націсканне падчас карыстання ахоўнай плёнкай</string>
+    <string name="touch_sensitivity_title">Рэжым ахоўнай плёнкі</string>
     <string name="columbus_title">Хуткі дотык для пачатку дзеянняў</string>
+    <string name="about_phone">Звесткі пра тэлефон</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge наладжаны. Перайдзіце да наступнага экрана ці працягвайце выконваць налады.</string>
     <string name="accessibility_keyboard_haptics_title">Тактыльны водгук клавіятуры</string>
     <string name="adaptive_charging">Адаптыўная зарадка</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">захаванне змесціва, змесціва праграм, даныя праграм</string>
     <string name="keywords_gesture">жэсты, рухі</string>
     <string name="keywords_global_actions_panel">карткі, талоны</string>
+    <string name="keywords_limited_warranty">гарантыя, абмежаваная гарантыя, даваць гарантыю, рамонт, дазвол на вяртанне тавару, замена</string>
     <string name="keywords_live_transcribe">Субцітры, субцітры, цітры, Імгненныя субцітры, слабы слых, страта слыху, транскрыпцыя ў рэальным часе, пераўтварэнне маўлення ў тэкст, субцітр</string>
     <string name="keywords_reverse_charging_stop_threshold">Спыняць перадачу зараду акумулятара тэлефона, калі зарад дасягае</string>
     <string name="keywords_select_to_speak">Слухаць тэкст, чытаць услых, экран маўлення, праграма чытання з экрана</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge выключаны</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge уключаны</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge уключаны, сцісніце, каб выклікаць Памочніка</string>
+    <string name="limited_warranty_introduction">Націсніце на краіну куплі, каб праглядзець гарантыю на гэту прыладу. Гарантыя таксама даступная на старонцы g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Абмежаваная гарантыя</string>
     <string name="me_card_title">Мая прылада Pixel</string>
     <string name="my_device_info_account_preference_title">Уліковы запіс Google</string>
     <string name="owner_info_settings_edit_text_hint">Напрыклад, Pixel Джо.</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_education_message_accessibility">Каб працягнуць, трымайце тэлефон на ўзроўні вачэй</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Час сканіравання твару скончыўся. Паспрабуйце яшчэ раз.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Перавышаны час чакання наладкі распазнавання твару</string>
-    <string name="security_settings_face_enroll_finish_description">Цяпер вы можаце выкарыстоўваць функцыю распазнавання твару для разблакіроўкі тэлефона ці спраўджання вашай асобы, напрыклад падчас уваходу ў праграмы ці ўхвалення куплі</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Цяпер вы можаце выкарыстоўваць функцыю распазнавання твару для разблакіроўкі тэлефона ці спраўджання вашай асобы, напрыклад падчас уваходу ў праграмы ці ўхвалення куплі</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Цяпер для разблакіроўкі тэлефона вы можаце выкарыстоўваць свой твар.
+
+Лепш за ўсё распазнаванне твару працуе, калі ёсць добрае асвятленне і нішто не засланяе ваш твар."</string>
     <string name="security_settings_face_enroll_finish_title">Усё добра!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Абмежаванні зроку ці руху галавы</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Падчас выкарыстання функцыі распазнавання твару трымайце галаву непасрэдна перад экранам тэлефона.</string>
@@ -278,10 +285,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">Як гэта працуе</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Для функцыі распазнавання твару можна забараніць разблакіроўку тэлефона ці спраўджанне асобы, калі ў дзіцяці не адкрыты вочы. Вы і ваша дзіця можаце ў любы час уключыць гэты параметр у Наладах.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Калі ваша дзіця звычайна носіць акуляры, падчас наладжвання яно можа не здымаць іх.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Разблакіроўка тэлефона вашага дзіцяці з дапамогай твару можа быць менш бяспечнай, чым з выкарыстаннем надзейнага ўзору разблакіроўкі, PIN-кода ці пароля.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Гледзячы на тэлефон, можна разблакіраваць яго, нават не маючы такога намеру. Акрамя таго, тэлефон можа быць разблакіраваны кімсьці, хто падобны на ваша дзіця (напрыклад, гэта можа быць брат ці сястра), ці чалавекам, які паднясе тэлефон да твару дзіцяці.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Для функцыі распазнавання твару можна забараніць разблакіроўку тэлефона ці спраўджанне асобы, калі ў вас не расплюшчаны вочы. Вы можаце ў любы час уключыць гэты параметр у Наладах.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Акуляры з празрыстымі лінзамі ці крыху зацемненым шклом не перашкодзяць распазнаванню твару.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Выкарыстанне распазнавання твару для разблакіроўкі тэлефона можа быць не такім бяспечным, як складаны ўзор разблакіроўкі ці PIN-код.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Выкарыстанне функцыі распазнавання твару для разблакіроўкі тэлефона можа быць менш бяспечным, чым складаны ўзор, PIN-код або пароль</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Гледзячы на тэлефон, вы можаце разблакіраваць яго, нават не маючы такога намеру. Акрамя таго, ваш тэлефон можа быць разблакіраваны кімсьці, хто падобны на вас (напрыклад, гэта можа быць ваш брат ці сястра), ці чалавекам, які паднясе тэлефон да вашага твару.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Майце на ўвазе</string>
     <string name="security_settings_face_enroll_introduction_message">Твар можна выкарыстоўваць для разблакіроўкі тэлефона ці спраўджання вашай асобы, напрыклад падчас уваходу ў праграмы ці ўхвалення куплі.</string>
@@ -310,6 +318,10 @@
     <string name="smart_battery_title">Адаптацыя акумулятара</string>
     <string name="sound_dashboard_summary">Гучнасць, тактыльны водгук, рэжым \"Не турбаваць\"</string>
     <string name="storage_manager_indicator">Разумнае сховішча: ^1</string>
+    <string name="suw_warranty_description">Для прагляду гарантыі на гэту прыладу націсніце краіну, дзе зроблена купля.&lt;br /&gt;&lt;br /&gt;Гарантыя таксама даступная ў раздзеле &lt;b&gt;Налады &gt; %s &gt; Абмежаваная гарантыя&lt;/b&gt; і на старонцы g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Абмежаваная гарантыя на вашу прыладу таксама даступная ў Наладах прылады ў раздзеле &lt;b&gt;Налады &gt; %s &gt; Абмежаваная гарантыя&lt;/b&gt; і на старонцы g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Далей</string>
+    <string name="suw_warranty_positive_button_text">Закрыць</string>
     <string name="time_remaining_warning_subtext">Засталося каля %1$s на аснове вашага былога выкарыстання</string>
     <string name="time_remaining_warning_text">Зарад акумулятара хутка можа скончыцца</string>
     <string name="tips_suggestion_summary">Даведайцеся, што можа рабіць ваш тэлефон</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Трымайце тэлефон перад тварам</string>
     <string name="usb_use_file_transfers">Перанос файла / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Колеры, тэматычныя значкі, сетка праграм</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Праглядзець або змяніць падпіску OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Падключана да сеткі \"%1$s\"</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Націсніце для падключэння</string>

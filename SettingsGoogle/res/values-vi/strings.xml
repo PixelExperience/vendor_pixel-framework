@@ -4,13 +4,14 @@
     <string name="gesture_silence_title">Cử chỉ tắt tiếng cảnh báo</string>
     <string name="gesture_skip_title">Cử chỉ bỏ qua</string>
     <string name="keywords_touch_sensitivity">chạm, độ nhạy, nhạy, miếng dán màn hình, màng dán, phản hồi, khả năng phản hồi</string>
-    <string name="touch_sensitivity_summary">Cải thiện độ nhạy của thao tác chạm khi dùng miếng dán màn hình</string>
-    <string name="touch_sensitivity_title">Tăng độ nhạy của thao tác chạm</string>
+    <string name="touch_sensitivity_summary">Tăng độ nhạy cảm ứng và cải thiện cảm ứng khi sử dụng miếng dán bảo vệ màn hình</string>
+    <string name="touch_sensitivity_title">Chế độ miếng dán bảo vệ màn hình</string>
     <string name="columbus_title">Chạm nhanh để bắt đầu các thao tác</string>
+    <string name="about_phone">Giới thiệu về điện thoại</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Thiết lập Active Edge. Hãy chuyển sang màn hình tiếp theo hoặc tiếp tục điều chỉnh.</string>
     <string name="accessibility_keyboard_haptics_title">Công nghệ cảm ứng xúc giác qua bàn phím</string>
     <string name="adaptive_charging">Sạc thích ứng</string>
-    <string name="adaptive_charging_description">Kéo dài tuổi thọ pin bằng cách sạc đều đặn trong thời gian dài hơn. Được kích hoạt dựa trên chu kỳ sử dụng của bạn.</string>
+    <string name="adaptive_charging_description">Kéo dài thời lượng pin bằng cách sạc đều đặn trong thời gian dài hơn. Được kích hoạt dựa trên chu kỳ sử dụng của bạn.</string>
     <string name="adaptive_charging_time_estimate"><b>Đang sạc thích ứng</b> • Pin sẽ đầy vào %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Tùy chọn</annotation></string>
     <string name="app_and_notification_dashboard_summary">Trợ lý, ứng dụng gần đây, ứng dụng mặc định</string>
@@ -200,6 +201,7 @@ Dữ liệu sao lưu sẽ không tính vào phần bộ nhớ trên Drive của 
     <string name="keywords_content_capture">ghi lại nội dung, nội dung ứng dụng, dữ liệu ứng dụng</string>
     <string name="keywords_gesture">cử chỉ, di chuyển</string>
     <string name="keywords_global_actions_panel">thẻ, vé</string>
+    <string name="keywords_limited_warranty">bảo hành, bảo đảm, bảo hành có giới hạn, cam kết, sửa chữa, rma (uỷ quyền trả lại hàng hoá), thay thế</string>
     <string name="keywords_live_transcribe">Phụ đề, phụ đề chi tiết, CC, Phụ đề trực tiếp, nặng tai, suy giảm thính lực, chép lời theo thời gian thực bằng máy tính (CART), chuyển lời nói thành văn bản</string>
     <string name="keywords_reverse_charging_stop_threshold">Ngừng chia sẻ pin khi mức pin điện thoại còn:</string>
     <string name="keywords_select_to_speak">Nghe văn bản, đọc to, đọc màn hình, trình đọc màn hình</string>
@@ -211,6 +213,8 @@ Dữ liệu sao lưu sẽ không tính vào phần bộ nhớ trên Drive của 
     <string name="language_input_gesture_summary_off">Đã tắt Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Đã bật Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge đang bật, hãy bóp vào hai cạnh để mở Trợ lý</string>
+    <string name="limited_warranty_introduction">Nhấn vào quốc gia nơi bạn đã mua để xem chính sách bảo hành cho thiết bị này. Bảo hành cũng có sẵn tại g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Bảo hành có giới hạn</string>
     <string name="me_card_title">Pixel của tôi</string>
     <string name="my_device_info_account_preference_title">Tài khoản Google</string>
     <string name="owner_info_settings_edit_text_hint">Ví dụ: Pixel của Tuấn</string>
@@ -253,7 +257,10 @@ Hãy lật điện thoại để thử."</string>
     <string name="security_settings_face_enroll_education_message">Trên màn hình tiếp theo, hãy xoay đầu để chụp mọi góc cạnh khuôn mặt bạn</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Trên màn hình tiếp theo, hãy cầm điện thoại ngang tầm mắt</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Đã hết giờ thiết lập tính năng Mở khóa bằng khuôn mặt</string>
-    <string name="security_settings_face_enroll_finish_description">Giờ đây, bạn có thể dùng khuôn mặt để mở khóa điện thoại hoặc xác minh danh tính, chẳng hạn như khi đăng nhập vào các ứng dụng hoặc phê duyệt một giao dịch mua</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Giờ đây, bạn có thể dùng khuôn mặt để mở khóa điện thoại hoặc xác minh danh tính, chẳng hạn như khi đăng nhập vào các ứng dụng hoặc phê duyệt một giao dịch mua</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Giờ đây, khi nhấc điện thoại lên hoặc nhấn vào màn hình, bạn có thể dùng khuôn mặt để mở khóa.
+
+Tính năng mở khóa bằng khuôn mặt hoạt động hiệu quả nhất khi màn hình đủ ánh sáng và bạn không đeo khẩu trang hoặc kính râm."</string>
     <string name="security_settings_face_enroll_finish_title">Vậy là xong!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Dành cho người có thị lực hoặc cử động đầu hạn chế</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Khi dùng tính năng Mở khóa bằng khuôn mặt, bạn có thể phải hướng thẳng đầu về phía trước điện thoại.</string>
@@ -269,16 +276,17 @@ Tìm hiểu thêm tại g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_how_consent_message">"Tính năng Mở khóa bằng khuôn mặt sẽ tạo một mẫu khuôn mặt duy nhất để xác minh danh tính của con bạn. Để tạo mẫu khuôn mặt này trong khi thiết lập, con bạn cần chụp ảnh khuôn mặt mình ở nhiều góc độ.
 
 Khi con dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh sẽ được dùng để cập nhật mẫu khuôn mặt của con. Các hình ảnh dùng để tạo mẫu khuôn mặt không được lưu trữ. Tuy nhiên, mẫu khuôn mặt sẽ được lưu trữ an toàn trên điện thoại và chỉ lưu trên điện thoại của con bạn mà thôi. Toàn bộ quá trình xử lý sẽ diễn ra một cách an toàn trên điện thoại."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Tính năng Mở khóa bằng khuôn mặt sẽ tạo một mẫu khuôn mặt duy nhất để xác minh danh tính của bạn. Để tạo mẫu khuôn mặt này trong khi thiết lập, bạn cần chụp ảnh khuôn mặt mình ở nhiều góc độ.
+    <string name="security_settings_face_enroll_introduction_how_message">"Tính năng Mở khóa bằng khuôn mặt sẽ tạo một mẫu khuôn mặt duy nhất để xác minh người mở khoá chính là bạn. Để tạo mẫu khuôn mặt này trong khi thiết lập, bạn cần chụp ảnh khuôn mặt mình ở nhiều góc độ.
 
 Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh sẽ được dùng để cập nhật mẫu khuôn mặt của bạn. Các hình ảnh dùng để tạo mẫu khuôn mặt không được lưu trữ. Tuy nhiên, mẫu khuôn mặt sẽ được lưu trữ an toàn trên điện thoại và chỉ lưu trên điện thoại của bạn mà thôi. Toàn bộ quá trình xử lý sẽ diễn ra một cách an toàn trên điện thoại."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Cách thức hoạt động</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Tính năng Mở khóa bằng khuôn mặt có thể yêu cầu con bạn phải mở mắt để mở khóa điện thoại hoặc xác minh danh tính của con. Bạn và con bạn có thể bật tùy chọn này bất cứ lúc nào trong phần Cài đặt.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Nếu thường đeo kính, con bạn có thể đeo kính trong khi thiết lập.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Việc sử dụng khuôn mặt của con bạn để mở khóa điện thoại của chúng có thể kém an toàn hơn so với hình mở khóa, mã PIN hoặc mật khẩu mạnh.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi con bạn không định làm vậy. Người khác có thể mở khóa điện thoại của con nếu họ giơ chiếc điện thoại đó ra trước mặt con. Việc này cũng xảy ra với trường hợp người khác trông giống con, chẳng hạn như anh chị em ruột giống hệt con.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Tính năng Mở khóa bằng khuôn mặt có thể yêu cầu bạn phải mở mắt để mở khóa điện thoại hoặc xác minh danh tính của bạn. Bạn có thể bật tùy chọn này bất cứ lúc nào trong phần Cài đặt.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Bạn có thể đeo kính hoặc kính râm màu nhạt.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Việc dùng khuôn mặt để mở khoá điện thoại có thể kém an toàn hơn so với dùng một hình mở khoá hoặc mã PIN mạnh.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Sử dụng khuôn mặt để mở khóa điện thoại có thể kém an toàn hơn so với dùng hình mở khóa, mã PIN hoặc mật khẩu mạnh</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi bạn không định làm vậy. Người khác có thể mở khóa điện thoại của bạn nếu họ giơ chiếc điện thoại đó ra trước mặt bạn. Việc này cũng xảy ra với trường hợp người khác trông giống bạn, chẳng hạn như anh chị em ruột giống hệt bạn.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Lưu ý</string>
     <string name="security_settings_face_enroll_introduction_message">Bạn có thể dùng khuôn mặt để mở khóa điện thoại hoặc xác minh danh tính, chẳng hạn như khi đăng nhập vào các ứng dụng hoặc phê duyệt một giao dịch mua.</string>
@@ -308,6 +316,10 @@ Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh s�
     <string name="smart_battery_title">Pin thích ứng</string>
     <string name="sound_dashboard_summary">Âm lượng, xúc giác, Không làm phiền</string>
     <string name="storage_manager_indicator">Bộ nhớ thông minh: ^1</string>
+    <string name="suw_warranty_description">Nhấn vào quốc gia bạn đã mua để xem chính sách bảo hành cho thiết bị này.&lt;br /&gt;&lt;br /&gt;Chính sách bảo hành cũng có sẵn trong &lt;b&gt;Cài đặt &gt; %s &gt; Bảo hành có giới hạn&lt;/b&gt; và trong g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Chính sách bảo hành có giới hạn áp dụng cho thiết bị của bạn cũng có sẵn ở mục Cài đặt thiết bị trong &lt;b&gt;Cài đặt &gt; %s &gt; Bảo hành có giới hạn&lt;/b&gt; và trong g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Tiếp</string>
+    <string name="suw_warranty_positive_button_text">Đóng</string>
     <string name="time_remaining_warning_subtext">Còn khoảng %1$s dựa trên mức sử dụng trước đây</string>
     <string name="time_remaining_warning_text">Có thể sẽ sớm hết pin</string>
     <string name="tips_suggestion_summary">Khám phá những việc bạn có thể làm bằng điện thoại</string>
@@ -315,6 +327,7 @@ Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh s�
     <string name="traffic_light_face_enrolling_title_accessibility">Giơ điện thoại ra trước mặt</string>
     <string name="usb_use_file_transfers">Truyền tệp/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Màu sắc, biểu tượng theo chủ đề, lưới ứng dụng</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Xem hoặc thay đổi tùy chọn đăng ký OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Đã kết nối với %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Nhấn để kết nối</string>

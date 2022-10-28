@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">「將快訊設為靜音」手勢</string>
     <string name="gesture_skip_title">「略過」手勢</string>
     <string name="keywords_touch_sensitivity">觸控, 敏感度, 敏感, 螢幕保護貼, 影片, 反應, 反應時間</string>
-    <string name="touch_sensitivity_summary">使用螢幕保護貼時，提升觸控敏感度</string>
-    <string name="touch_sensitivity_title">提升觸控敏感度</string>
+    <string name="touch_sensitivity_summary">提升使用螢幕保護貼時的觸控靈敏度，並改善觸控回應效果</string>
+    <string name="touch_sensitivity_title">螢幕保護貼模式</string>
     <string name="columbus_title">快速輕觸即可執行操作</string>
+    <string name="about_phone">關於手機</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge 已設定完成。請前往下一個畫面或繼續調整相關設定。</string>
     <string name="accessibility_keyboard_haptics_title">鍵盤觸動回饋</string>
     <string name="adaptive_charging">自動調節充電</string>
@@ -201,6 +202,7 @@
     <string name="keywords_content_capture">內容擷取, 應用程式內容, 應用程式資料</string>
     <string name="keywords_gesture">手勢、動作</string>
     <string name="keywords_global_actions_panel">卡片, 票證</string>
+    <string name="keywords_limited_warranty">保固, 保證, 有限保固, 承諾, 維修, 退貨授權, 替換</string>
     <string name="keywords_live_transcribe">字幕, 隱藏式輔助字幕, CC, 即時字幕, 聽障, 聽力受損, CART, 語音轉文字, 字幕 (Subtitle)</string>
     <string name="keywords_reverse_charging_stop_threshold">電量低於以下百分比時停止分享電池：</string>
     <string name="keywords_select_to_speak">讀出文字, 朗讀, 讀出螢幕文字, 螢幕閱讀器</string>
@@ -212,6 +214,8 @@
     <string name="language_input_gesture_summary_off">已關閉 Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">已開啟 Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge 已開啟。握壓裝置即可啟動 Google 助理</string>
+    <string name="limited_warranty_introduction">輕觸購買的國家/地區即可查看這部裝置的保固資訊。保固資訊亦可上網查詢，網址：g.co/devicewarranty</string>
+    <string name="limited_warranty_title">有限保固</string>
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帳戶</string>
     <string name="owner_info_settings_edit_text_hint">例如：小明的 Pixel。</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">無法進行臉部註冊。</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">臉部註冊程序已逾時，請再試一次。</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">人臉解鎖設定逾時</string>
-    <string name="security_settings_face_enroll_finish_description">現在只要使用自己的臉孔就能解鎖手機或驗證身分，以便執行特定操作，例如登入應用程式或核准購買交易</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">現在只要使用自己的臉孔就能解鎖手機或驗證身分以執行操作，例如登入應用程式或核准購買交易</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"現在只要拿起手機或輕觸螢幕就能夠使用臉孔解鎖裝置。
+
+「人臉解鎖」在未佩戴口罩或黑色眼鏡的情況運作最順利。"</string>
     <string name="security_settings_face_enroll_finish_title">大功告成！</string>
     <string name="security_settings_face_enroll_introduction_accessibility">視力或頭部活動能力受限者可採用的設定方式</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">使用人臉解鎖功能時，請盡量將頭部正對手機。</string>
@@ -278,10 +285,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">運作方式</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">如果使用人臉解鎖功能，系統可能會要求孩子必須睜開雙眼才能解鎖手機或驗證身分。你和孩子隨時可以前往「設定」開啟這個選項。</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">如果孩子通常戴著眼鏡，不用特地在設定過程中取下。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">比起複雜的解鎖圖案、PIN 碼或密碼，使用子女的臉孔解鎖手機的安全性可能較低</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">只要看著手機，就可能會讓手機意外解鎖。長相與你孩子十分相似的人 (例如孿生兄弟姐妹)，或有人將手機拿到孩子的面前，都有可能會將手機解鎖。</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">如果使用人臉解鎖功能，系統可能會要求你必須睜開雙眼才能解鎖手機或驗證身分。你隨時可以前往「設定」開啟這個選項。</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">配戴眼鏡或淺色太陽眼鏡不會造成影響。</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">你可以用臉解鎖手機，但安全性可能不如解鎖圖案或 PIN 碼。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">使用複雜的解鎖圖案或 PIN 碼或密碼可能比使用人臉解鎖來得安全</string>
     <string name="security_settings_face_enroll_introduction_info_looking">只要看著手機，就可能會讓手機意外解鎖。長相與你十分相似的人 (例如你的孿生兄弟姐妹)，或有人將手機拿到你的面前，都有可能會將手機解鎖。</string>
     <string name="security_settings_face_enroll_introduction_info_title">注意事項</string>
     <string name="security_settings_face_enroll_introduction_message">你可以使用臉孔解鎖手機或驗證身分，以便執行特定操作，例如登入應用程式或核准購買交易。</string>
@@ -310,6 +318,10 @@
     <string name="smart_battery_title">自動調節電池用量</string>
     <string name="sound_dashboard_summary">音量、觸動回饋、零打擾模式</string>
     <string name="storage_manager_indicator">智慧儲存空間：^1</string>
+    <string name="suw_warranty_description">點選購買國家/地區，即可查看此設備的保固。&lt;br /&gt;&lt;br /&gt;你也可以前往&lt;b&gt;設定 &gt; %s &gt; 有限保固&lt;/b&gt; 及 g.co/devicewarranty 查看保固。</string>
+    <string name="suw_warranty_language_consistent_description">適用於您設備的有限保固也可見於 &lt;b&gt;設定 &gt; %s &gt; 有限保固 &lt;/b&gt; 及 g.co/devicewarranty 中的設備設定。</string>
+    <string name="suw_warranty_next_button_text">繼續</string>
+    <string name="suw_warranty_positive_button_text">關閉</string>
     <string name="time_remaining_warning_subtext">依據過去的使用情況估計可再使用 %1$s</string>
     <string name="time_remaining_warning_text">電池電力可能很快就會耗盡</string>
     <string name="tips_suggestion_summary">探索手機的各項功能</string>
@@ -317,6 +329,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">將手機放在面前</string>
     <string name="usb_use_file_transfers">檔案轉移 / Android Auto</string>
     <string name="wallpaper_dashboard_summary">顏色、主題圖示、應用程式排列顯示</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">查看或變更 OpenRoaming 訂閱</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">已透過「%1$s」連線</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">輕觸即可連線</string>

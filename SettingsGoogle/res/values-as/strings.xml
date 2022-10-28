@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">আঙুলিৰ স্পৰ্শেৰে নীৰৱ কৰাৰ নিৰ্দেশ</string>
     <string name="gesture_skip_title">আঙুলিৰ স্পৰ্শৰ নিৰ্দেশ এৰি যাওক</string>
     <string name="keywords_touch_sensitivity">স্পৰ্শ, সংবেদনশীলতা, সংবেদনশীল, স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী, চলচ্চিত্ৰ, সঁহাৰিসূচক, সঁহাৰিসূচকতা</string>
-    <string name="touch_sensitivity_summary">স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী ব্যৱহাৰ কৰাৰ সময়ত স্পর্শ উন্নত কৰে</string>
-    <string name="touch_sensitivity_title">স্পর্শৰ সংবেদনশীলতা বৃদ্ধি কৰক</string>
+    <string name="touch_sensitivity_summary">স্পৰ্শৰ সংবেদনশীলতা বৃদ্ধি কৰক আৰু স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী ব্যৱহাৰ কৰাৰ সময়ত স্পৰ্শ উন্নত কৰক</string>
+    <string name="touch_sensitivity_title">স্ক্ৰীনৰ সুৰক্ষা প্ৰদানকাৰী ম’ড</string>
     <string name="columbus_title">কাৰ্য আৰম্ভ কৰিবলৈ কুইক টেপ</string>
+    <string name="about_phone">ফ’নৰ বিষয়ে</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edgeৰ ছেট আপ। পৰৱৰ্তী স্ক্ৰীনলৈ যাওক বা মিলাই থাকক।</string>
     <string name="accessibility_keyboard_haptics_title">কীব’ৰ্ডৰ হেপ্‌টিকসমূহ</string>
     <string name="adaptive_charging">অভিযোজিত চাৰ্জিং</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">সমলৰ কেপচ্চাৰ, এপৰ সমল, এপ্‌ ডেটা</string>
     <string name="keywords_gesture">আঙুলিৰ স্পৰ্শৰে নিৰ্দেশ, গতিবিধি</string>
     <string name="keywords_global_actions_panel">কাৰ্ড, পাছসমূহ</string>
+    <string name="keywords_limited_warranty">ৱাৰেণ্টী, গেৰাণ্টী, সীমিত ৱাৰেণ্টী, প্ৰতিশ্ৰুতি, মেৰামতি, rma, বিকল্প</string>
     <string name="keywords_live_transcribe">কেপশ্বন, ক্ল’জ্‌ড কেপশ্বন, CC, লাইভ কেপশ্বন, কমকৈ শুনা, শ্ৰৱণশক্তিৰ ক্ষয়, CART, কথনৰ পৰা পাঠ, ছাবটাইটেল</string>
     <string name="keywords_reverse_charging_stop_threshold">ফ’নৰ স্তৰ ইমান পালে বেটাৰী শ্বেয়াৰ কৰাটো বন্ধ কৰক:</string>
     <string name="keywords_select_to_speak">পাঠ শুনক, ডাঙৰকৈ পঢ়ক, স্ক্ৰীনখন পঢ়ক, স্ক্ৰীন ৰীডাৰ</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge অফ কৰা হ’ল</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge অন কৰা হ’ল</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge অন হৈ আছে, আপোনাৰ Assistantৰ বাবে দুয়োকাষত হেঁচা দিয়ক</string>
+    <string name="limited_warranty_introduction">এই ডিভাইচটোৰ বাবে থকা ৱাৰেণ্টী চাবলৈ ক্ৰয় কৰা দেশখনত টিপক। ৱাৰেণ্টীটো g.co/devicewarrantyতো উপলব্ধ</string>
+    <string name="limited_warranty_title">সীমিত ৱাৰেণ্টী</string>
     <string name="me_card_title">মোৰ Pixel</string>
     <string name="my_device_info_account_preference_title">Google একাউণ্ট</string>
     <string name="owner_info_settings_edit_text_hint">যেনে, মনোজৰ Pixel ফ’ন</string>
@@ -258,9 +262,12 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">মুখমণ্ডল অন্তৰ্ভুক্তিকৰণে কাম নকৰিলে।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">মুখমণ্ডল অন্তৰ্ভুক্তিকৰণৰ সময়সীমা সম্পূৰ্ণ হৈছে। আকৌ চেষ্টা কৰক।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ফেচ আনলক ছেটআপ কৰাৰ সময় উকলি গৈছে</string>
-    <string name="security_settings_face_enroll_finish_description">এতিয়া আপুনি নিজৰ ফ’নটো আনলক কৰিবলৈ অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰিব পাৰে</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">এতিয়া আপুনি নিজৰ ফ’নটো আনলক কৰোঁতে অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে এয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰিব পাৰে</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"এতিয়া আপুনি নিজৰ ফ’নটো হাতত তুলি লওঁতে অথবা স্ক্ৰীনত টিপোঁতে, আনলক কৰিবলৈ আপোনাৰ মুখাৱয়ব ব্যৱহাৰ কৰিব পাৰে।
+
+ফেচ আনলক সুবিধাটোৱে পৰ্যাপ্ত পোহৰ থকা পৰিৱেশত আৰু আপুনি মুখ ঢকা বন্ধনী অথবা ডাঠ ৰঙৰ চশমা পিন্ধি নথকা অৱস্থাত থাকিলে আটাইতকৈ ভালকৈ কাম কৰে।"</string>
     <string name="security_settings_face_enroll_finish_title">ঠিকেই লাগিছে!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">কম দৃষ্টিসম্পন্ন বা মূৰ ঘূৰোৱা লোকৰ বাবে ছেট আপ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">কম দৃষ্টিসম্পন্ন বা মূৰটো স্থিৰকৈ ৰাখিব নোৱৰা লোকৰ বাবে ছেট আপ</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">ফেচ আনলক ব্যৱহাৰ কৰোঁতে আপোনাৰ মূৰটো পোনপটীয়াকৈ আপোনাৰ ফ’নটোৰ সন্মুখত ৰাখিবলগীয়া হ’ব পাৰে।</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">চকু মেলি ৰখাৰ প্ৰয়োজন</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ তেওঁৰ মুখাৱয়বৰ মডেলটো মচিব পাৰে অথবা ফেচ আনলক সুবিধাটো অফ কৰিব পাৰে। মুখাৱয়বৰ মডেলসমূহ মচি নেপেলোৱালৈকে ফ’নটোত ষ্ট’ৰ হৈ থাকে।
@@ -280,10 +287,11 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="security_settings_face_enroll_introduction_how_title">এইটোৱে কিদৰে কাম কৰে</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">ফেচ আনলকৰ দ্বাৰা আনলক কৰিবলৈ অথবা এইয়া তেৱেঁই বুলি সত্যাপন কৰিবলৈ আপোনাৰ শিশুৰ চকু দুটা খোল খাই থাকিব লাগিব। আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ এই বিকল্পটো অন কৰিব পাৰে।</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">আপোনাৰ শিশুৱে সচৰাচৰ চশমা পিন্ধিলে, ছেটআপৰ সময়ত তেওঁ সেইয়া পিন্ধি থাকিব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">আপোনাৰ শিশুটিৰ ফ’নটো আনলক কৰিবলৈ তেওঁৰ মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা সবল আৰ্হি, পিন অথবা পাছৱৰ্ডতকৈ কম সুৰক্ষিত হ’ব পাৰে</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">তেওঁ ফ’নটো আনলক কৰিবলৈ ইচ্ছা নকৰিলেও তেওঁ ফ’নটোলৈ চালে সেইটো আনলক হ’ব পাৰে। তেওঁৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত প্ৰায় তেওঁৰ দৰে হয়, যেনে তেওঁৰ যমজ ভাতৃ-ভগ্নী, অথবা যদি কোনোবাই সেইটো তেওঁৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখে।</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">ফেচ আনলকৰ দ্বাৰা ফ’নটো আনলক কৰিবলৈ অথবা এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ আপোনাৰ চকু দুটা খোল খাই থাকিব লাগিব। আপুনি যিকোনো সময়তে ছেটিঙলৈ গৈ এই বিকল্পটো অন কৰিব পাৰে।</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">চশমা অথবা পাতল ৰঙীন ছানগ্লাছ ব্যৱহাৰ কৰাত অসুবিধা নাই।</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ফ’নটো আনলক কৰিবলৈ এখন মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা শক্তিশালী আর্হি অথবা পিন ব্যৱহাৰ কৰাতকৈ কম সুৰক্ষিত হ’ব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">আপোনাৰ ফ’নটো আনলক কৰিবলৈ আপোনাৰ মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা সবল আৰ্হি, পিন অথবা পাছৱৰ্ড ব্যৱহাৰ কৰাতকৈ কম সুৰক্ষিত হ’ব পাৰে</string>
     <string name="security_settings_face_enroll_introduction_info_looking">আপুনি ফ’নটো আনলক কৰিবলৈ ইচ্ছা নকৰিলেও ফ’নটোলৈ চালে ই আনলক হ’ব পাৰে। আপোনাৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত প্ৰায় আপোনাৰ দৰে হয়, যেনে আপোনাৰ যমজ ভাতৃ-ভগ্নী, অথবা যদি কোনোবাই সেইটো আপোনাৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখে।</string>
     <string name="security_settings_face_enroll_introduction_info_title">মনত ৰাখিব</string>
     <string name="security_settings_face_enroll_introduction_message">আপোনাৰ ফ’নটো আনলক কৰিবলৈ অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰক।</string>
@@ -313,6 +321,10 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="smart_battery_title">অভিযোজিত বেটাৰী</string>
     <string name="sound_dashboard_summary">ভলিউম, হেপ্‌টিকসমূহ, অসুবিধা নিদিব</string>
     <string name="storage_manager_indicator">স্মাৰ্ট ষ্ট’ৰেজ: ^1</string>
+    <string name="suw_warranty_description">এই ডিভাইচটোৰ বাবে ৱাৰেণ্টী চাবলৈ ক্ৰয় কৰা দেশখনত টিপক।&lt;br /&gt;&lt;br /&gt;ৱাৰেণ্টীৰ বিষয়ে তথ্য &lt;b&gt;ছেটিং &gt; %s &gt; সীমিত ৱাৰেণ্টী&lt;/b&gt; আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
+    <string name="suw_warranty_language_consistent_description">অপোনাৰ ডিভাইচৰ বাবে প্ৰযোজ্য ৱাৰেণ্টীৰ তথ্য ডিভাইচৰ ছেটিঙত &lt;b&gt;ছেটিং &gt; %s &gt; সীমিত ৱাৰেণ্টী&lt;/b&gt; আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
+    <string name="suw_warranty_next_button_text">পৰৱৰ্তী</string>
+    <string name="suw_warranty_positive_button_text">বন্ধ কৰক</string>
     <string name="time_remaining_warning_subtext">পূৰ্বৰ ব্যৱহাৰক ভিত্তি কৰি প্ৰায় %1$s সময় বাকী আছে</string>
     <string name="time_remaining_warning_text">বেটাৰী অতি সোনকালে শেষ হ’ব পাৰে</string>
     <string name="tips_suggestion_summary">নিজৰ ফ’নটোৰে কি কৰিব পাৰে অন্বেষণ কৰক</string>
@@ -320,6 +332,7 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">আপোনাৰ ফ’নটো নিজৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখক</string>
     <string name="usb_use_file_transfers">ফাইল স্থানান্তৰণ / Android Auto</string>
     <string name="wallpaper_dashboard_summary">ৰং, থীমযুক্ত চিহ্ন, এপৰ গ্ৰিড</string>
+    <string name="warranty_country_information">%1$s (%2$s</string>
     <string name="wifi_subscription_summary">OpenRoaming ছাবস্ক্ৰিপশ্বন চাওক অথবা সলনি কৰক</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$sৰ সৈতে সংযোগ কৰা হৈছে</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">সংযোগ কৰিবলৈ টিপক</string>

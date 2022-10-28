@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Xesto para silenciar as alertas</string>
     <string name="gesture_skip_title">Omitir xesto</string>
     <string name="keywords_touch_sensitivity">tocar, sensibilidade, sensible, protector de pantalla, película, resposta, capacidade de resposta</string>
-    <string name="touch_sensitivity_summary">Mellora a sensibilidade ao tacto ao usar protectores de pantalla</string>
-    <string name="touch_sensitivity_title">Mellorar a sensibilidade ao tacto</string>
+    <string name="touch_sensitivity_summary">Aumenta a sensibilidade ao tacto e mellora o tacto ao usar un protector de pantalla</string>
+    <string name="touch_sensitivity_title">Modo de protector de pantalla</string>
     <string name="columbus_title">Usar Toque rápido para iniciar accións</string>
+    <string name="about_phone">Acerca do teléfono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Configurouse Active Edge. Vai á seguinte pantalla ou sigue axustándoo.</string>
     <string name="accessibility_keyboard_haptics_title">Tecnoloxía háptica do teclado</string>
     <string name="adaptive_charging">Carga intelixente</string>
@@ -202,6 +203,7 @@ Os datos da copia de seguranza non contarán na cota de almacenamento de Drive. 
     <string name="keywords_content_capture">captura de contido, contido das aplicacións, datos das aplicacións</string>
     <string name="keywords_gesture">xestos, movementos</string>
     <string name="keywords_global_actions_panel">tarxetas, pases</string>
+    <string name="keywords_limited_warranty">garantía, garantía limitada, promesa, reparación, autorización de devolución de mercadoría, substitución</string>
     <string name="keywords_live_transcribe">Subtítulos, subtitulado, Subtítulos instantáneos, problemas auditivos, perda de audición, subtitulado en tempo real, CART, conversión de voz a texto, subtítulo</string>
     <string name="keywords_reverse_charging_stop_threshold">Deixar de compartir batería cando o teléfono chegue ao:</string>
     <string name="keywords_select_to_speak">Escoitar texto, lectura en voz alta, escoitar contido da pantalla, lector de pantalla</string>
@@ -213,6 +215,8 @@ Os datos da copia de seguranza non contarán na cota de almacenamento de Drive. 
     <string name="language_input_gesture_summary_off">Active Edge desactivado</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activado</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge activado: aperta para abrir o Asistente</string>
+    <string name="limited_warranty_introduction">Toca o país onde se realizou a compra para consultar a garantía deste dispositivo. A garantía tamén está dispoñible en g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Garantía limitada</string>
     <string name="me_card_title">O meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta de Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel de Brais.</string>
@@ -257,7 +261,10 @@ Voltea o teléfono para probar a función."</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Produciuse un erro co rexistro facial.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Acadouse o límite de tempo para o rexistro facial. Téntao de novo.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Tempo esgotado para configurar o desbloqueo facial</string>
-    <string name="security_settings_face_enroll_finish_description">Xa podes utilizar a autenticación facial para desbloquear o teléfono ou verificar a túa identidade (por exemplo, cando queiras iniciar sesión nunha aplicación ou aprobar unha compra)</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Agora podes utilizar a autenticación facial para desbloquear o teléfono ou verificar a túa identidade (por exemplo, cando queiras iniciar sesión nunha aplicación ou aprobar unha compra)</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Agora, cando collas o teléfono ou toques a pantalla, podes desbloquealo coa cara.
+
+O desbloqueo facial funciona mellor cando hai luz suficiente e non levas máscara nin lentes escuras."</string>
     <string name="security_settings_face_enroll_finish_title">Moi ben!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configuración con visión ou mobilidade da cabeza limitados</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Ao utilizar o desbloqueo facial, é posible que teñas que colocar a cabeza directamente fronte ao teléfono.</string>
@@ -279,10 +286,11 @@ Cando usas o desbloqueo facial, utilízanse imaxes para actualizar o teu modelo 
     <string name="security_settings_face_enroll_introduction_how_title">Como funciona?</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Para usar o desbloqueo facial, é posible que o teu fillo ou filla deba ter os ollos abertos a fin de desbloquear o teléfono ou verificar a súa identidade. A túa filla ou fillo e mais ti podedes activar esta opción en calquera momento en Configuración.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se a túa filla ou fillo adoita levar lentes, pode poñelas durante a configuración.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">O desbloqueo facial do teléfono coa cara da túa filla ou fillo pode ser menos fiable que o uso dun padrón, PIN ou contrasinal seguro</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ao mirar o teléfono, pode desbloquealo sen querer. Tamén poderán desbloquealo outras persoas se se parecen moito a el ou ela (por exemplo, un xemelgo) ou se lle poñen o teléfono diante da cara.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Para usar o desbloqueo facial, é posible que debas ter os ollos abertos a fin de desbloquear o teléfono ou verificar a túa identidade. Podes activar esta opción en calquera momento en Configuración.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">As lentes e as lentes de sol que non sexan moi escuras non supoñen ningún problema.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">O desbloqueo facial do teléfono pode ser menos fiable que o uso dun PIN ou dun padrón seguro.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">O desbloqueo facial do teléfono pode ser menos fiable que un padrón seguro, un PIN ou un contrasinal</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Ao mirar o teléfono, podes desbloquealo sen querer. Tamén poderán desbloquealo outras persoas se se parecen moito a ti (por exemplo, un xemelgo) ou se che poñen o teléfono diante da cara.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Importante</string>
     <string name="security_settings_face_enroll_introduction_message">Utiliza a autenticación facial para desbloquear o teléfono ou verificar a túa identidade (por exemplo, cando queiras iniciar sesión nunha aplicación ou aprobar unha compra).</string>
@@ -311,6 +319,10 @@ Para mellorar o funcionamento, podes configurar de novo o desbloqueo facial en C
     <string name="smart_battery_title">Batería intelixente</string>
     <string name="sound_dashboard_summary">Volume, tecnoloxía háptica, modo Non molestar</string>
     <string name="storage_manager_indicator">Almacenamento intelixente: ^1</string>
+    <string name="suw_warranty_description">Toca o país onde se realizou a compra para consultar a garantía deste dispositivo.&lt;br /&gt;&lt;br /&gt;A garantía tamén está dispoñible en &lt;b&gt;Configuración &gt; %s &gt; Garantía limitada&lt;/b&gt; e g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">A garantía limitada aplicable ao teu dispositivo tamén está dispoñible nel en &lt;b&gt;Configuración &gt; %s &gt; Garantía limitada&lt;/b&gt; e en g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Seguinte</string>
+    <string name="suw_warranty_positive_button_text">Pechar</string>
     <string name="time_remaining_warning_subtext">Tempo restante aproximado en función do uso efectuado anteriormente: %1$s</string>
     <string name="time_remaining_warning_text">É posible que a batería se esgote en breve</string>
     <string name="tips_suggestion_summary">Descubre o que podes facer co teléfono</string>
@@ -318,6 +330,7 @@ Para mellorar o funcionamento, podes configurar de novo o desbloqueo facial en C
     <string name="traffic_light_face_enrolling_title_accessibility">Coloca o teléfono diante da cara</string>
     <string name="usb_use_file_transfers">Android Auto/Transferencia de ficheiros</string>
     <string name="wallpaper_dashboard_summary">Cores, temas das iconas, grade de aplicacións</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Consulta ou cambia a subscrición a OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Conectada a %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Toca para establecer conexión</string>

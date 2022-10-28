@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">शांत सूचना जेश्चर</string>
     <string name="gesture_skip_title">जेश्चर वगळा</string>
     <string name="keywords_touch_sensitivity">स्पर्श करा, संवेदनशीलता, संवेदनशील, स्क्रीन प्रोटेक्टर, फिल्म, प्रतिसादात्मक, प्रतिसादक्षमता</string>
-    <string name="touch_sensitivity_summary">स्क्रीन प्रोटेक्टर वापरताना स्पर्श करा सुधारित करा</string>
-    <string name="touch_sensitivity_title">स्पर्श करा संवेदनशीलता सुधारित करा</string>
+    <string name="touch_sensitivity_summary">स्पर्शाची संवेदनशीलता वाढवा आणि स्क्रीन प्रोटेक्‍टर वापरताना स्पर्श करण्याच्या संवेदनशीलतेमध्ये सुधारणा करा</string>
+    <string name="touch_sensitivity_title">स्क्रीन प्रोटेक्‍टर मोड</string>
     <string name="columbus_title">कृती सुरू करण्यासाठी, क्विक टॅप करा</string>
+    <string name="about_phone">फोनबद्दल</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge सेट करा. पुढील स्क्रीनवर जा किंवा ॲडजस्‍ट करत राहा.</string>
     <string name="accessibility_keyboard_haptics_title">कीबोर्ड हॅप्टिक</string>
     <string name="adaptive_charging">अडॅप्टिव्ह चार्जिंग</string>
@@ -201,6 +202,7 @@
     <string name="keywords_content_capture">आशय कॅप्चर, अ‍ॅप आशय, अ‍ॅप डेटा</string>
     <string name="keywords_gesture">जेश्चर, हालचाली</string>
     <string name="keywords_global_actions_panel">कार्ड, पास</string>
+    <string name="keywords_limited_warranty">वाॅरंटी, गॅरंटी, मर्यादित हमी, प्रॉमिस, दुरुस्ती, RMA, बदल</string>
     <string name="keywords_live_transcribe">कॅप्शन, सबटायटल, सबटायटल, लाइव्ह कॅप्शन, कमी ऐकू येणे, ऐकू न येणे, CART, स्‍पीच टू टेक्‍स्‍ट, सबटायटल</string>
     <string name="keywords_reverse_charging_stop_threshold">फोनच्या बॅटरीने ही पातळी गाठल्यास, ती शेअर करणे थांबवा:</string>
     <string name="keywords_select_to_speak">मजकूर ऐका, मोठ्याने वाचा, स्क्रीन वाचा, स्क्रीन रीडर</string>
@@ -212,6 +214,8 @@
     <string name="language_input_gesture_summary_off">Active Edge बंद आहे</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge सुरू केले</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge सुरू आहे, तुमच्या साहाय्यकासाठी दाबा</string>
+    <string name="limited_warranty_introduction">या डिव्हाइससाठी हमी पाहण्याकरिता, जेथे खरेदी केली त्या देशावर टॅप करा. हमी g.co/devicewarranty येथेदेखील उपलब्ध आहे</string>
+    <string name="limited_warranty_title">मर्यादित हमी</string>
     <string name="me_card_title">माझे Pixel</string>
     <string name="my_device_info_account_preference_title">Google खाते</string>
     <string name="owner_info_settings_edit_text_hint">उदा. जो चा Pixel</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">फेस एनरोलमेंटचा उपयोग झाला नाही.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">फेस एनरोलमेंट वेळ मर्यादा गाठली. पुन्हा प्रयत्न करा.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">फेस अनलॉक सेट करण्याची वेळ संपली</string>
-    <string name="security_settings_face_enroll_finish_description">तुम्ही ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी किंवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी आता तुमचा चेहरा वापरा</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी किंवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी, आता तुम्ही तुमचा चेहरा वापरू शकता</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"आता तुम्ही तुमचा फोन उचलता किंवा स्क्रीनवर टॅप करता तेव्हा, अनलॉक करण्यासाठी, तुम्ही तुमचा चेहरा वापरू शकता.
+
+पुरेसा प्रकाश असताना आणि तुम्ही मास्क किंवा गडद चष्मा घातला असताना, फेस अनलॉक अधिक चांगले काम करते."</string>
     <string name="security_settings_face_enroll_finish_title">कोणत्याही समस्या नाहीत!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">मर्यादित दृष्टी/डोक्याच्या हालचालीचे सेटअप</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">फेस अनलॉक वापरताना, तुमचे डोके थेट तुमच्या फोनच्या अगदी समोर असणे आवश्यक आहे.</string>
@@ -279,10 +286,11 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="security_settings_face_enroll_introduction_how_title">हे कसे काम करते</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">फेस अनलॉक ला फोन अनलॉक करण्यासाठी किंवा तुमच्या लहान मुलाच्या ओळखीची पडताळणी करण्यासाठी त्यांचे डोळे उघडे ठेवण्याची आवश्यकता भासू शकते. तुमचे लहान मूल आणि तुम्ही सेटिंग्ज मध्ये हा पर्याय कधीही सुरू करू शकता.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">तुमचे लहान मूल नेहमी चष्मा वापरत असल्यास, ते सेटअपदरम्यान तो घालू शकतात.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">तुमच्‍या लहान मुलाचा फोन अनलॉक करण्‍यासाठी त्यांचा चेहरा वापरणे हे क्लिष्ट पॅटर्न, पिन किंवा पासवर्डपेक्षा कमी सुरक्षित असू शकते</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">फोन अनलॉक करायचा नसतानाही त्यांनी त्याकडे पाहिल्यास तो अनलॉक होऊ शकतो. त्यांच्यासारखे दिसणारे भावंड फोनसमोर आल्यास किंवा त्यांचा फोन त्यांच्या चेहऱ्यासमोर धरल्यामुळेदेखील तो अनलॉक केला जाऊ शकतो.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">फेस अनलॉक ला फोन अनलॉक करण्यासाठी किंवा तुमच्या ओळखीची पडताळणी करण्यासाठी तुमचे डोळे उघडे ठेवण्याची आवश्यकता भासू शकते. तुम्ही सेटिंग्ज मध्ये हा पर्याय कधीही सुरू करू शकता.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">चष्मा किंवा हलक्या रंगाचा सनग्लास ठीक आहे.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">फोन अनलॉक करण्यासाठी चेहरा वापरणे हे क्लिष्ट पॅटर्न किंवा पिनपेक्षा कमी सुरक्षित असू शकते.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">तुमचा फोन अनलॉक करण्यासाठी चेहरा वापरणे हे क्लिष्ट पॅटर्न, पिन किंवा पासवर्डपेक्षा कमी सुरक्षित असू शकते</string>
     <string name="security_settings_face_enroll_introduction_info_looking">फोन अनलॉक करायचा नसतानाही तुम्ही त्याकडे पाहिल्यास तो अनलॉक होऊ शकतो. तुमच्यासारखे दिसणारे भावंड फोनसमोर आल्यास किंवा एखाद्या व्यक्तीने तुमचा फोन तुमच्या चेहऱ्यासमोर धरल्यामुळेदेखील तो अनलॉक केला जाऊ शकतो.</string>
     <string name="security_settings_face_enroll_introduction_info_title">लक्षात ठेवा</string>
     <string name="security_settings_face_enroll_introduction_message">तुम्ही ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी किंवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी तुमचा चेहरा वापरा.</string>
@@ -313,6 +321,10 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="sound_dashboard_summary">व्हॉल्यूम, हॅप्टिक, व्यत्यय आणू नका</string>
     <string name="sound_settings">आवाज आणि व्हायब्रेशन</string>
     <string name="storage_manager_indicator">स्मार्ट स्टोरेज: ^1</string>
+    <string name="suw_warranty_description">या डिव्हाइससाठी हमी पाहण्याकरिता, जेथे खरेदी केली त्या देशावर टॅप करा.&lt;br /&gt;&lt;br /&gt;हमी &lt;b&gt;सेटिंग्ज &gt; %s &gt; मर्यादित हमी&lt;/b&gt; आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
+    <string name="suw_warranty_language_consistent_description">तुमच्या डिव्हाइसला लागू होणारी मर्यादित हमी &lt;b&gt;सेटिंग्ज &gt; %s &gt; मर्यादित हमी&lt;/b&gt; येथे डिव्हाइस सेटिंग्ज मध्ये आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
+    <string name="suw_warranty_next_button_text">पुढील</string>
+    <string name="suw_warranty_positive_button_text">बंद करा</string>
     <string name="time_remaining_warning_subtext">तुमच्या वापरानुसार अंदाजे %1$s पुरेल इतकी बॅटरी शिल्लक आहे</string>
     <string name="time_remaining_warning_text">बॅटरी लवकरच संपण्याची शक्यता आहे</string>
     <string name="tips_suggestion_summary">फोनने काय करू शकता ते एक्सप्लोर करा</string>
@@ -320,6 +332,7 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="traffic_light_face_enrolling_title_accessibility">तुमच्या चेहऱ्यासमोर फोन धरा</string>
     <string name="usb_use_file_transfers">फाइल ट्रान्सफर / Android Auto</string>
     <string name="wallpaper_dashboard_summary">रंग, थीम असलेले आयकन, अ‍ॅप ग्रिड</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming सदस्यत्व पहा किंवा बदला</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s सह कनेक्ट केले</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">कनेक्ट करण्यासाठी टॅप करा</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">सूचनाओं की आवाज़ बंद करने के लिए हाथ का जेस्चर (स्पर्श)</string>
     <string name="gesture_skip_title">हाथ के जेस्चर (स्पर्श) की प्रक्रिया अभी न करें</string>
     <string name="keywords_touch_sensitivity">टच, सेंसिटिविटी, सेंसिटिव, स्क्रीन प्रोटेक्टर, फ़िल्म, रिस्पॉन्सिव, रिस्पॉन्सिवनेस</string>
-    <string name="touch_sensitivity_summary">स्क्रीन प्रोटेक्टर का इस्तेमाल करने पर टच बेहतर तरीके से काम करता है</string>
-    <string name="touch_sensitivity_title">टच सेंसिटिविटी बेहतर होती है</string>
+    <string name="touch_sensitivity_summary">स्क्रीन प्राेटेक्टर का इस्तेमाल करने पर, इस मोड से टच सेंसिटिविटी बढ़ाएं और टच की सुविधा को बेहतर बनाएं</string>
+    <string name="touch_sensitivity_title">स्क्रीन प्राेटेक्टर मोड</string>
     <string name="columbus_title">कार्रवाइयां शुरू करने के लिए, क्विक टैप का इस्तेमाल करें</string>
+    <string name="about_phone">फ़ोन के बारे में जानकारी</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge का सेटअप पूरा हो गया है. अगली स्क्रीन पर जाएं या मनमुताबिक बदलाव करना जारी रखें.</string>
     <string name="accessibility_keyboard_haptics_title">कीबोर्ड हैप्टिक्स</string>
     <string name="adaptive_charging">अडैप्टिव चार्जिंग की सुविधा</string>
@@ -166,9 +167,9 @@
     <string name="face_enrolling_too_close">फ़ोन को दूर ले जाएं</string>
     <string name="face_enrolling_too_far">फ़ोन को नज़दीक लाएं</string>
     <string name="face_enrolling_too_high">फ़ोन को थोड़ा नीचे ले जाएं</string>
-    <string name="face_enrolling_too_left">फ़ोन को अपनी दाईं ओर ले जाएं</string>
+    <string name="face_enrolling_too_left">फ़ोन को अपने दाईं ओर ले जाएं</string>
     <string name="face_enrolling_too_low">फ़ोन को और ऊपर ले जाएं</string>
-    <string name="face_enrolling_too_right">फ़ोन को अपनी बाईं ओर ले जाएं</string>
+    <string name="face_enrolling_too_right">फ़ोन को अपने बाईं ओर ले जाएं</string>
     <string name="face_enrolling_turn_head_to_arrow">अपने सिर को तीर के निशान की तरफ घुमाएं</string>
     <string name="face_enrolling_turned_too_far">सिर को थोड़ा कम घुमाएं</string>
     <string name="fallback_menu_item_copy_link">लिंक कॉपी करें</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">सामग्री कैप्चर, ऐप्लिकेशन सामग्री, ऐप्लिकेशन डेटा</string>
     <string name="keywords_gesture">जेस्चर, मूव (हलचल)</string>
     <string name="keywords_global_actions_panel">क्रेडिट कार्ड, पास</string>
+    <string name="keywords_limited_warranty">वारंटी, गारंटी, सीमित वारंटी, वादा, रिपेयर, आरएमए, रिप्लेसमेंट</string>
     <string name="keywords_live_transcribe">कैप्शन, सबटाइटल, सीसी, लाइव कैप्शन, कम सुनने वाला, सुनने में समस्या, रीयल-टाइम कैप्शनिंग (CART), बोली को लिखाई में बदलना, सबटाइटल</string>
     <string name="keywords_reverse_charging_stop_threshold">फ़ोन की बैटरी इस लेवल तक पहुंचने पर, बैटरी शेयर करना बंद करें:</string>
     <string name="keywords_select_to_speak">टेक्स्ट सुनना, पढ़कर सुनाने की सुविधा, स्पीक स्क्रीन, स्क्रीन रीडर</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge बंद है</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge चालू है</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge चालू है, अपनी Assistant सेवा के लिए किनारे दबाएं</string>
+    <string name="limited_warranty_introduction">इस डिवाइस की वारंटी देखने के लिए, उस देश पर टैप करें जहां से आपने इसे खरीदा है. वारंटी, g.co/devicewarranty पर भी देखी जा सकती है</string>
+    <string name="limited_warranty_title">सीमित वारंटी</string>
     <string name="me_card_title">मेरा Pixel</string>
     <string name="my_device_info_account_preference_title">Google खाता</string>
     <string name="owner_info_settings_edit_text_hint">जैसे, सुधीर का Pixel फ़ोन.</string>
@@ -257,9 +261,12 @@
     <string name="security_settings_face_enroll_education_message_accessibility">अगली स्क्रीन पर जाकर, फ़ोन को अपनी आंखों की सीध में पकड़कर रखें</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">चेहरा रजिस्टर करने की समय सीमा खत्म हो गई. फिर से कोशिश करें.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">फ़ेस अनलॉक की सुविधा सेट अप करने का तय समय खत्म</string>
-    <string name="security_settings_face_enroll_finish_description">अब अपने चेहरे की मदद से फ़ोन अनलॉक किया जा सकता है. इसके अलावा, किसी ऐप्लिकेशन में साइन इन करने, खरीदारी की मंज़ूरी देने वगैरह के लिए, अपनी पहचान की पुष्टि करते समय भी अपने चेहरे का इस्तेमाल किया जा सकता है</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">अब अपने फ़ोन को अनलॉक करने या अपनी पहचान की पुष्टि करने के लिए, अपने चेहरे का इस्तेमाल किया जा सकता है. जैसे, किसी ऐप्लिकेशन में साइन इन करने या खरीदारी की मंज़ूरी देने के लिए, इस सुविधा का इस्तेमाल किया जा सकता है</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"अब अपने फ़ोन को उठाते समय या उसकी स्क्रीन पर टैप करके, अपने चेहरे की मदद से उसे अनलॉक किया जा सकता है.
+
+फ़ेस अनलॉक की सुविधा तब बेहतरीन तरीके से काम करती है, जब रोशनी अच्छी हो और आपने मास्क या गहरे रंग का चश्मा न पहना हो."</string>
     <string name="security_settings_face_enroll_finish_title">सब ठीक लग रहा है!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">नज़र कमज़ोर होने या सिर हिलने की समस्या होने पर यहां सेट अप करें</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">नज़र कमज़ोर होने या सिर हिलने की समस्या होने पर यहां सेटअप करें</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">फ़ेस अनलॉक करने की सुविधा का इस्तेमाल करते समय आपका चेहरा आपके फ़ोन के ठीक सामने होना चाहिए.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">आंखें खुली रखना ज़रूरी है</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"आपके और आपके बच्चे के पास किसी भी समय, सेटिंग में जाकर चेहरे के मॉडल को मिटाने या फ़ेस अनलॉक की सुविधा को बंद करने का विकल्प है. चेहरे के मॉडल फ़ोन में तब तक सेव रहते हैं, जब तक उन्हें नहीं मिटाया जाता.
@@ -279,10 +286,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">फ़ेस अनलॉक की सुविधा कैसे काम करती है</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">"फ़ेस अनलॉक की सुविधा का इस्तेमाल करते समय, आपके बच्चे की आंखों का खुला रहना ज़रूरी हो सकता है. ऐसा, फ़ोन अनलॉक करने या बच्चे की पहचान की पुष्टि करने के लिए ज़रूरी है. आप या आपका बच्चा जब चाहें, 'सेटिंग' में जाकर इस विकल्प को चालू कर सकते हैं."</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">अगर आपका बच्चा आम तौर पर चश्मा पहनता है, तो वह सेट अप के दौरान भी चश्मा पहन सकता है.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">फ़ोन को खोलने के लिए फ़ेस अनलॉक पर अपने बच्चे के चेहरे का इस्तेमाल करना, किसी मज़बूत पैटर्न, पिन या पासवर्ड को इस्तेमाल करने के मुकाबले कम सुरक्षित हो सकता है</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">फ़ोन को सामने से देखने पर, आपके बच्चे के न चाहते हुए भी फ़ोन अनलॉक हो सकता है. आपके बच्चे के फ़ोन को ऐसा कोई भी व्यक्ति अनलॉक कर सकता है जिसका चेहरा बच्चे से मिलता-जुलता हो, जैसे कि जुड़वां भाई या बहन. इसके अलावा, फ़ोन को बच्चे के चेहरे के सामने लाकर भी अनलॉक किया जा सकता है.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">"फ़ेस अनलॉक की सुविधा का इस्तेमाल करते समय, आपकी आंखों का खुला रहना ज़रूरी हो सकता है. ऐसा, फ़ोन अनलॉक करने या आपकी पहचान की पुष्टि करने के लिए ज़रूरी है. जब चाहें, 'सेटिंग' में जाकर इस विकल्प को चालू किया जा सकता है."</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">चश्मे या हल्के रंग वाले धूप के चश्मे पहने जा सकते हैं.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">फ़ोन को अनलॉक करने के लिए चेहरा दिखाना, किसी मज़बूत पैटर्न या पिन का इस्तेमाल करने के मुकाबले कम सुरक्षित हो सकता है.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">फ़ोन में फ़ेस अनलॉक सुविधा का इस्तेमाल करना, किसी मज़बूत पैटर्न, पिन या पासवर्ड के इस्तेमाल के मुकाबले कम सुरक्षित हो सकता है</string>
     <string name="security_settings_face_enroll_introduction_info_looking">फ़ोन की तरफ़ देखने से, आपके न चाहते हुए भी वह अनलॉक हो सकता है. आपका फ़ोन ऐसा कोई भी व्यक्ति अनलॉक कर सकता है जिसका चेहरा आपसे मिलता-जुलता हो, जैसे कि जुड़वां भाई या बहन. इसके अलावा, कोई भी व्यक्ति फ़ोन को आपके चेहरे के सामने लाकर भी अनलॉक कर सकता है.</string>
     <string name="security_settings_face_enroll_introduction_info_title">ध्यान रखें</string>
     <string name="security_settings_face_enroll_introduction_message">अपने चेहरे की मदद से फ़ोन अनलॉक करें. इसके अलावा, किसी ऐप्लिकेशन में साइन इन करने, किसी खरीदारी की मंज़ूरी देने वगैरह के लिए, अपनी पहचान की पुष्टि करते समय भी अपने चेहरे का इस्तेमाल करें.</string>
@@ -294,7 +302,7 @@
     <string name="security_settings_face_enroll_timeout_message">"इसके बजाय, झटपट पूरा होने वाला सेटअप आज़माएं. ध्यान रखें कि जब आप फ़ेस अनलॉक सुविधा का इस्तेमाल करें, तब आपका चेहरा फ़ोन के ठीक सामने होना चाहिए.
 
 इस सुविधा की परफ़ॉर्मेंस बेहतर बनाने के लिए, सेटिंग में जाकर इसे दोबारा सेट अप किया जा सकता है."</string>
-    <string name="security_settings_face_enroll_timeout_title">सेट अप जारी नहीं रखा जा सकता</string>
+    <string name="security_settings_face_enroll_timeout_title">सेटअप जारी नहीं रखा जा सकता</string>
     <string name="security_settings_face_enroll_timeout_try_again">फिर से कोशिश करें</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">झटपट सेटअप का इस्तेमाल करें</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">सेटअप रद्द करें</string>
@@ -312,13 +320,18 @@
     <string name="smart_battery_title">ज़रूरत के हिसाब से बैटरी का इस्तेमाल</string>
     <string name="sound_dashboard_summary">वॉल्यूम, हैप्टिक, परेशान न करें</string>
     <string name="storage_manager_indicator">स्मार्ट जगह: ^1</string>
+    <string name="suw_warranty_description">इस डिवाइस की वारंटी देखने के लिए, उस देश पर टैप करें जहां से इसे खरीदा था.&lt;br /&gt;&lt;br /&gt;वारंटी की जानकारी &lt;b&gt;सेटिंग &gt; %s &gt; सीमित वारंटी&lt;/b&gt; और g.co/devicewarranty पर भी देखी जा सकती है.</string>
+    <string name="suw_warranty_language_consistent_description">आपके डिवाइस की सीमित वारंटी की जानकारी, &lt;b&gt;सेटिंग &gt; %s &gt; सीमित वारंटी&lt;/b&gt; पर डिवाइस की सेटिंग और g.co/devicewarranty पर भी उपलब्ध है.</string>
+    <string name="suw_warranty_next_button_text">आगे बढ़ें</string>
+    <string name="suw_warranty_positive_button_text">बंद करें</string>
     <string name="time_remaining_warning_subtext">पिछले उपयोग के आधार पर करीब %1$s बचा है/बचे हैं</string>
     <string name="time_remaining_warning_text">बैटरी जल्द ही खत्म हो जाएगी</string>
     <string name="tips_suggestion_summary">जानें कि आपके फ़ोन से क्या-क्या किया जा सकता है</string>
     <string name="tips_suggestion_title">अपने Pixel के बारे में जानें</string>
-    <string name="traffic_light_face_enrolling_title_accessibility">अपने फ़ोन को अपने चेहरे के सामने रखें</string>
+    <string name="traffic_light_face_enrolling_title_accessibility">फ़ोन को अपने चेहरे के सामने रखें</string>
     <string name="usb_use_file_transfers">फ़ाइल ट्रांसफ़र / Android Auto</string>
     <string name="wallpaper_dashboard_summary">रंग, थीम वाले आइकॉन, ऐप्लिकेशन ग्रिड</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming की सदस्यता देखें या बदलें</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s से कनेक्ट किया गया</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">कनेक्ट करने के लिए टैप करें</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Geste permettant de couper le son des alertes</string>
     <string name="gesture_skip_title">Geste permettant de passer le contenu</string>
     <string name="keywords_touch_sensitivity">"toucher, sensibilité, sensible, protecteur d'écran, film, réactif, réactivité"</string>
-    <string name="touch_sensitivity_summary">"Améliorer le toucher quand une protection d'écran est utilisée"</string>
-    <string name="touch_sensitivity_title">Améliorer la sensibilité tactile</string>
+    <string name="touch_sensitivity_summary">"Améliorez la sensibilité tactile et le temps de réponse tactile quand une protection d'écran est utilisée"</string>
+    <string name="touch_sensitivity_title">"Mode protection d'écran"</string>
     <string name="columbus_title">Appuyer deux fois pour lancer les actions</string>
+    <string name="about_phone">À propos du téléphone</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">"Active Edge configuré. Passez à l'écran suivant ou continuez à apporter des ajustements."</string>
     <string name="accessibility_keyboard_haptics_title">Retour haptique du clavier</string>
     <string name="adaptive_charging">Recharge adaptative</string>
@@ -202,6 +203,7 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="keywords_content_capture">"capture de contenu, contenu de l'application, données de l'application"</string>
     <string name="keywords_gesture">gestes, mouvements</string>
     <string name="keywords_global_actions_panel">cartes de crédit, autres cartes</string>
+    <string name="keywords_limited_warranty">garantie, garantie limitée, promesse, réparation, procédure de retour, remplacement, remboursement</string>
     <string name="keywords_live_transcribe">"Sous-titres, sous-titrage, ST, Sous-titres instantanés, malentendant, perte d'audition, sous-titrage en temps réel, reconnaissance vocale, sous-titre"</string>
     <string name="keywords_reverse_charging_stop_threshold">"Arrêter de partager la batterie lorsque l'autonomie atteint :"</string>
     <string name="keywords_select_to_speak">"Entendre le texte, lire à voix haute, énoncer le contenu de l'écran, lecteur d'écran"</string>
@@ -213,6 +215,8 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="language_input_gesture_summary_off">Active Edge désactivé</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activé</string>
     <string name="language_input_gesture_summary_on_with_assist">"Active Edge activé, presser pour lancer l'Assistant"</string>
+    <string name="limited_warranty_introduction">"Appuyez sur le pays d'achat pour voir les conditions de garantie de cet appareil. La garantie est aussi disponible sur g.co/devicewarranty"</string>
+    <string name="limited_warranty_title">Garantie limitée</string>
     <string name="me_card_title">Mon Pixel</string>
     <string name="my_device_info_account_preference_title">Compte Google</string>
     <string name="owner_info_settings_edit_text_hint">Par exemple \"Pixel de Jean\".</string>
@@ -255,10 +259,13 @@ Retournez votre téléphone pour essayer."</string>
     <string name="security_settings_face_enroll_education_message">"Sur l'écran suivant, tournez la tête pour enregistrer votre visage sous tous les angles"</string>
     <string name="security_settings_face_enroll_education_message_accessibility">"Sur l'écran suivant, tenez votre téléphone à hauteur des yeux"</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Délai de configuration du déverrouillage dépassé</string>
-    <string name="security_settings_face_enroll_finish_description">Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone lorsque vous le saisissez ou que vous appuyez sur l'écran.
+
+Le déverrouillage par reconnaissance faciale fonctionne de façon optimale lorsqu'il y a assez de lumière et que vous ne portez ni masque ni lunettes sombres."</string>
     <string name="security_settings_face_enroll_finish_title">Parfait !</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configuration en cas de vision/mobilité de tête réduite</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Si vous utilisez le déverrouillage par reconnaissance faciale, pensez à placer votre visage bien en face du téléphone.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Lorsque vous utilisez le déverrouillage par reconnaissance faciale, il se peut que vous deviez placer votre tête plus en face de votre téléphone.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Les yeux doivent rester ouverts</string>
     <string name="security_settings_face_enroll_introduction_control_consent_message">"À tout moment dans les paramètres, vous et votre enfant pouvez supprimer votre empreinte faciale, ou désactiver le déverrouillage par reconnaissance faciale. Les empreintes faciales sont stockées sur le téléphone jusqu'à ce que vous les supprimiez.
 
@@ -277,10 +284,11 @@ Lorsque vous vous servirez du déverrouillage par reconnaissance faciale, les im
     <string name="security_settings_face_enroll_introduction_how_title">Fonctionnement</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Le déverrouillage par reconnaissance faciale peut exiger que votre enfant ait les yeux ouverts pour déverrouiller le téléphone ou valider son identité. Vous et votre enfant pouvez activer cette option à tout moment dans les paramètres.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Si votre enfant porte des lunettes, il peut les mettre lors de la configuration.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">"Votre enfant peut déverrouiller son téléphone avec son visage, mais cela sera peut-être moins sûr qu'un schéma, un code ou un mot de passe sécurisés"</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">"Il peut déverrouiller son téléphone sans le vouloir, simplement en le regardant. Il peut être déverrouillé par toute personne qui lui ressemble beaucoup, comme un jumeau, ou s'il est tenu devant son visage."</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Le déverrouillage par reconnaissance faciale peut exiger que vous ayez les yeux ouverts pour déverrouiller le téléphone ou valider votre identité. Vous pouvez activer cette option à tout moment dans les paramètres.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Le port de lunettes de vue ou de lunettes de soleil légèrement teintées ne pose pas de problème.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">"La reconnaissance faciale peut être moins sûre qu'un schéma ou code complexe pour déverrouiller votre téléphone."</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">"Déverrouiller votre téléphone avec votre visage peut être plus risqué qu'avec un schéma, un code PIN ou un mot de passe"</string>
     <string name="security_settings_face_enroll_introduction_info_looking">"Vous pouvez déverrouiller votre téléphone sans le vouloir, simplement en le regardant. Il peut être déverrouillé par toute personne qui vous ressemble beaucoup, comme un jumeau, ou s'il est tenu devant votre visage."</string>
     <string name="security_settings_face_enroll_introduction_info_title">À noter</string>
     <string name="security_settings_face_enroll_introduction_message">Utilisez la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat.</string>
@@ -289,7 +297,7 @@ Lorsque vous vous servirez du déverrouillage par reconnaissance faciale, les im
     <string name="security_settings_face_enroll_partial_message">Pour de meilleures performances, vous pouvez reconfigurer le déverrouillage par reconnaissance faciale dans les paramètres</string>
     <string name="security_settings_face_enroll_partial_start_over">Recommencer</string>
     <string name="security_settings_face_enroll_partial_title">Configuration du déverrouillage facial terminée</string>
-    <string name="security_settings_face_enroll_timeout_message">"Essayez plutôt la configuration rapide. Notez que vous devrez peut-être placer votre tête plus en face de votre téléphone lorsque vous utiliserez le déverrouillage par reconnaissance faciale.
+    <string name="security_settings_face_enroll_timeout_message">"Essayez plutôt la configuration rapide. Il se peut que vous deviez placer votre tête plus en face de votre téléphone lorsque vous utilisez le déverrouillage par reconnaissance faciale.
 
 Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouillage dans les paramètres."</string>
     <string name="security_settings_face_enroll_timeout_title">Impossible de poursuivre la configuration</string>
@@ -310,6 +318,10 @@ Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouil
     <string name="smart_battery_title">Batterie adaptative</string>
     <string name="sound_dashboard_summary">Volume, retour haptique, Ne pas déranger</string>
     <string name="storage_manager_indicator">Stockage intelligent : ^1</string>
+    <string name="suw_warranty_description">"Appuyez sur le pays d'achat pour voir les conditions de garantie de cet appareil.&lt;br /&gt;&lt;br /&gt;La garantie est aussi disponible sous &lt;b&gt;Paramètres &gt; %s &gt; Garantie limitée&lt;/b&gt; et sur g.co/devicewarranty."</string>
+    <string name="suw_warranty_language_consistent_description">"La garantie limitée applicable à votre appareil est aussi disponible dans les paramètres de l'appareil sous &lt;b&gt;Paramètres &gt; %s &gt; Garantie limitée&lt;/b&gt; et sur g.co/devicewarranty."</string>
+    <string name="suw_warranty_next_button_text">Suivant</string>
+    <string name="suw_warranty_positive_button_text">Fermer</string>
     <string name="time_remaining_warning_subtext">"Temps restant en fonction de l'utilisation : environ %1$s"</string>
     <string name="time_remaining_warning_text">La batterie est bientôt épuisée</string>
     <string name="tips_suggestion_summary">Voyez ce que vous pouvez faire avec votre téléphone</string>
@@ -317,6 +329,7 @@ Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouil
     <string name="traffic_light_face_enrolling_title_accessibility">Tenez votre téléphone face à votre visage</string>
     <string name="usb_use_file_transfers">Transfert de fichiers/Android Auto</string>
     <string name="wallpaper_dashboard_summary">"Couleurs, icônes à thème, grille d'applis"</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">"Afficher ou modifier l'abonnement OpenRoaming"</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Connecté avec %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Appuyez pour connecter</string>

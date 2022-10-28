@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">വിരൽചലന അലേർട്ടുകൾ നിശബ്‌ദമാക്കുക</string>
     <string name="gesture_skip_title">വിരൽചലനം ഒഴിവാക്കുക</string>
     <string name="keywords_touch_sensitivity">സ്പർശിക്കുക, സെൻസിറ്റിവിറ്റി, സൂക്ഷ്‌മമായി കൈകാര്യം ചെയ്യേണ്ടത്, സ്ക്രീൻ പ്രൊട്ടക്റ്റർ, ഫിലിം, പ്രതികരിക്കുന്നത്, പ്രതികരണം</string>
-    <string name="touch_sensitivity_summary">സ്ക്രീൻ പ്രൊട്ടക്റ്ററുകൾ ഉപയോഗിക്കുമ്പോൾ സ്‌പർശന സെൻസിറ്റിവിറ്റി മെച്ചപ്പെടുന്നു</string>
-    <string name="touch_sensitivity_title">സ്പർശന സെൻസിറ്റിവിറ്റി വർദ്ധിപ്പിക്കുക</string>
+    <string name="touch_sensitivity_summary">സ്പർശന സെൻസിറ്റിവിറ്റി വർദ്ധിപ്പിക്കുക, സ്ക്രീൻ പ്രൊട്ടക്ടർ ഉപയോഗിക്കുമ്പോൾ സ്പർശനം മെച്ചപ്പെടുത്തുക</string>
+    <string name="touch_sensitivity_title">സ്ക്രീൻ പ്രൊട്ടക്ടർ മോഡ്</string>
     <string name="columbus_title">പ്രവർത്തനങ്ങൾ ആരംഭിക്കാൻ വേഗത്തിലുള്ള ടാപ്പ്</string>
+    <string name="about_phone">ഫോണിനെക്കുറിച്ച്</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge സജ്ജീകരണം. അടുത്ത സ്‌ക്രീനിലേക്ക് പോവുക അല്ലെങ്കിൽ ക്രമീകരിക്കുക.</string>
     <string name="accessibility_keyboard_haptics_title">കീബോർഡ് സ്‌പർശനങ്ങൾ</string>
     <string name="adaptive_charging">അഡാപ്റ്റീവ് ചാർജിംഗ്</string>
@@ -201,6 +202,7 @@
     <string name="keywords_content_capture">ഉള്ളടക്കം ക്യാപ്‌ചർ ചെയ്യൽ, ആപ്പ് ഉള്ളടക്കം, ആപ്പ് ഡാറ്റ</string>
     <string name="keywords_gesture">ജെസ്‌റ്ററുകളും ‌ചലനങ്ങളും</string>
     <string name="keywords_global_actions_panel">കാർഡുകൾ, പാസുകൾ</string>
+    <string name="keywords_limited_warranty">വാറന്റി, ഗ്യാരണ്ടി, പരിമിത വാറന്റി, വാഗ്ദാനം, റിപ്പയർ, rma, റീപ്ലേസ്‌മെന്റ്</string>
     <string name="keywords_live_transcribe">അടിക്കുറിപ്പുകൾ, സബ്‌ടൈറ്റിലുകൾ, CC, തത്സമയ ക്യാപ്ഷൻ, കേൾവിക്ക് തകരാർ, കേൾവിക്കുറവ്, CART, സ്‌പീച്ച് ടു ടെക്‌സ്‌റ്റ്, സബ്‌ടൈറ്റിൽ</string>
     <string name="keywords_reverse_charging_stop_threshold">ഫോൺ ഇനിപ്പറയുന്ന നിലയിൽ എത്തുമ്പോൾ ബാറ്ററി പങ്കിടുന്നത് നിർത്തുക:</string>
     <string name="keywords_select_to_speak">ടെക്‌സ്റ്റ് കേൾക്കുക, ഉറക്കെ വായിക്കുക, സ്പീക്ക് സ്ക്രീൻ, സ്‌ക്രീൻ റീഡർ</string>
@@ -212,6 +214,8 @@
     <string name="language_input_gesture_summary_off">Active Edge ഓഫാക്കി</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ഓണാക്കി</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ഓണാണ്, Assistant-നായി സ്ക്യൂസ് ചെയ്യുക</string>
+    <string name="limited_warranty_introduction">ഈ ഉപകരണത്തിന്റെ വാറണ്ടി കാണാൻ ഇത് വാങ്ങിയ രാജ്യത്തിൽ ടാപ്പ് ചെയ്യുക. g.co/devicewarranty -യിലും വാറണ്ടി ലഭ്യമാണ്</string>
+    <string name="limited_warranty_title">പരിമിത വാറന്റി</string>
     <string name="me_card_title">എന്റെ Pixel</string>
     <string name="my_device_info_account_preference_title">Google അക്കൗണ്ട്</string>
     <string name="owner_info_settings_edit_text_hint">ഉദാ, ജോയുടെ Pixel.</string>
@@ -256,7 +260,10 @@
     <string name="security_settings_face_enroll_error_dialog_title">എൻറോൾ ചെയ്യൽ പൂർത്തിയായിട്ടില്ല</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">മുഖം എൻറോൾ ചെയ്യലിന്‍റെ സമയ പരിധി എത്തി. വീണ്ടും ശ്രമിക്കൂ.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ഫെയ്‌സ് അൺലോക്ക് സജ്ജീകരണം ടൈംഔട്ടായി</string>
-    <string name="security_settings_face_enroll_finish_description">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ആപ്പുകളിലേക്ക് സൈൻ ഇൻ ചെയ്യുന്നത് പോലുള്ള സന്ദർഭങ്ങളിൽ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ ഇപ്പോൾ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കാനാകും</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ആപ്പുകളിലേക്ക് സൈൻ ഇൻ ചെയ്യുന്നത് പോലുള്ള സന്ദർഭങ്ങളിൽ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ ഇപ്പോൾ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കാനാകും</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ഫോൺ കയ്യിലെടുക്കുമ്പോഴോ സ്ക്രീനിൽ ടാപ്പ് ചെയ്യുമ്പോഴോ അൺലോക്ക് ചെയ്യുന്നതിന് ഇപ്പോൾ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കാനാകും.
+
+ആവശ്യത്തിന് വെളിച്ചമുള്ളപ്പോഴും നിങ്ങൾ മാസ്‌ക്കോ ഇരുണ്ട നിറത്തിലുള്ള കണ്ണടയോ ധരിക്കാത്ത സമയത്തുമാണ് ഫെയ്‌സ് അൺലോക്ക് മികച്ച രീതിയിൽ പ്രവർത്തിക്കുന്നത്."</string>
     <string name="security_settings_face_enroll_finish_title">നന്നായിരിക്കുന്നു!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">കാഴ്‌ചയ്‌ക്കും തല തിരിക്കുന്നതിനും പരിമിതിയുള്ളവർക്കുള്ള സജ്ജീകരണം</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">ഫെയ്‌സ് അൺലോക്ക് ഉപയോഗിക്കുമ്പോൾ നിങ്ങളുടെ മുഖം ക്യാമറയ്ക്ക് നേരെയായിരിക്കണം.</string>
@@ -278,10 +285,11 @@ g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="security_settings_face_enroll_introduction_how_title">ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങളുടെ കുട്ടി തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ അവരുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്കും നിങ്ങളുടെ കുട്ടിക്കും ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">നിങ്ങളുടെ കുട്ടി സാധാരണ കണ്ണട ധരിക്കാറുണ്ടെങ്കിൽ, സജ്ജീകരിക്കുമ്പോൾ അവ ധരിക്കാം.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">നിങ്ങളുടെ കുട്ടിയുടെ മുഖം ഉപയോഗിച്ച് അവരുടെ ഫോൺ അൺലോക്ക് ചെയ്യുന്നത്, ശക്തമായ പാറ്റേൺ, പിൻ അല്ലെങ്കിൽ പാസ്‌വേഡ് ഉപയോഗിച്ച് അൺലോക്ക് ചെയ്യുന്നത് പോലുള്ള സുരക്ഷ നൽകുന്നില്ല</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">തുറക്കാൻ ഉദ്ദേശിക്കാത്ത സന്ദർഭത്തിൽ പോലും അവർ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, അവരുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, അല്ലെങ്കിൽ ഫോൺ അവരുടെ മുഖത്തിന് നേരെ പിടിച്ചാൽ മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്ക് ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">ഗ്ലാസുകളോ ഇളം നിറമുള്ള സൺ ഗ്ലാസുകളോ കുഴപ്പമില്ല.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ശക്തമായ പാറ്റേണോ പിന്നോ ഉപയോഗിച്ച് ഫോൺ അൺലോക്ക് ചെയ്യുന്നതിനേക്കാൾ സുരക്ഷ കുറവാണ് മുഖം ഉപയോഗിച്ച് ഫോൺ അൺലോക്ക് ചെയ്യൽ.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ഫോൺ അൺലോക്ക് ചെയ്യാൻ മുഖം ഉപയോഗിക്കുന്നത് ശക്തമായ പാറ്റേണോ പിൻ നമ്പറോ പാസ്‌വേഡോ ഉപയോഗിക്കുന്നത്ര സുരക്ഷിതമായിരിക്കണമെന്നില്ല</string>
     <string name="security_settings_face_enroll_introduction_info_looking">തുറക്കാൻ ഉദ്ദേശിക്കാതെ നിങ്ങൾ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, നിങ്ങളുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, മാത്രമല്ല ഫോൺ നിങ്ങളുടെ മുഖത്തിനു നേരെ നീട്ടിയും മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_title">ശ്രദ്ധിക്കുക</string>
     <string name="security_settings_face_enroll_introduction_message">ആപ്പുകളിലേക്ക് സൈൻ ഇൻ ചെയ്യുക, വാങ്ങൽ അംഗീകരിക്കുക പോലുള്ള സന്ദർഭങ്ങളിൽ ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കുക.</string>
@@ -312,6 +320,10 @@ g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="sound_dashboard_summary">ശബ്‌ദം, സ്‌പർശനങ്ങൾ, ശല്യപ്പെടുത്തരുത് എന്നിവ</string>
     <string name="sound_settings">ശബ്ദവും വൈബ്രേഷനും</string>
     <string name="storage_manager_indicator">സ്‌മാർട്ട് സ്റ്റോറേജ്: ^1</string>
+    <string name="suw_warranty_description">ഈ ഉപകരണത്തിന്റെ വാറണ്ടി കാണാൻ ഇത് വാങ്ങിയ രാജ്യത്തിൽ ടാപ്പ് ചെയ്യുക.&lt;br /&gt;&lt;br /&gt; &lt;b&gt;ക്രമീകരണം &gt; %s &gt; പരിമിത വാറണ്ടി&lt;/b&gt; എന്നതിലും g.co/devicewarranty എന്ന ലിങ്കിലും വാറണ്ടി ലഭ്യമാണ്.</string>
+    <string name="suw_warranty_language_consistent_description">നിങ്ങളുടെ ഉപകരണത്തിന് ബാധകമായ പരിമിത വാറണ്ടി, &lt;b&gt;ക്രമീകരണം &gt; %s &gt; പരിമിത വാറണ്ടി&lt;/b&gt; എന്നതിലെ ഉപകരണ ക്രമീകരണത്തിലും g.co/devicewarranty എന്ന ലിങ്കിലും ലഭ്യമാണ്.</string>
+    <string name="suw_warranty_next_button_text">അടുത്തത്</string>
+    <string name="suw_warranty_positive_button_text">അടയ്ക്കുക</string>
     <string name="time_remaining_warning_subtext">നിങ്ങളുടെ മുമ്പത്തെ ഉപയോഗത്തെ അടിസ്ഥാനമാക്കി ഏതാണ്ട് %1$s ശേഷിക്കുന്നു</string>
     <string name="time_remaining_warning_text">ബാറ്ററി താമസിയാതെ തീർന്നേക്കാം</string>
     <string name="tips_suggestion_summary">ഫോൺ ഉപയോഗിച്ച് എന്തൊക്കെ ചെയ്യാമെന്ന് കാണുക</string>
@@ -319,6 +331,7 @@ g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="traffic_light_face_enrolling_title_accessibility">നിങ്ങളുടെ മുഖത്തിന് അഭിമുഖമായി ഫോൺ പിടിക്കുക</string>
     <string name="usb_use_file_transfers">ഫയൽ കൈമാറൽ / Android Auto</string>
     <string name="wallpaper_dashboard_summary">നിറങ്ങൾ, തീമുള്ള ഐക്കണുകൾ, ആപ്പ് ഗ്രിഡ്</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming സബ്‌സ്‌ക്രിപ്‌ഷൻ കാണുകയോ മാറ്റുകയോ ചെയ്യുക</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s എന്നതുമായി കണക്‌റ്റ് ചെയ്യുക</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">കണക്‌റ്റ് ചെയ്യാൻ ടാപ്പ് ചെയ്യൂ</string>

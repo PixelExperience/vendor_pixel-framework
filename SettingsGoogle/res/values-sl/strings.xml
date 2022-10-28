@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Poteza za utišanje opozoril</string>
     <string name="gesture_skip_title">Poteza za preskok</string>
     <string name="keywords_touch_sensitivity">dotik, občutljivost, občutljivo, zaščita zaslona, folija, odzivno, odzivnost</string>
-    <string name="touch_sensitivity_summary">Izboljša zaznavanje dotikov pri uporabi zaščite zaslona.</string>
-    <string name="touch_sensitivity_title">Povečanje občutljivosti na dotik</string>
+    <string name="touch_sensitivity_summary">Povečanje občutljivosti na dotik in izboljšanje zaznavanja dotikov pri uporabi zaščite zaslona</string>
+    <string name="touch_sensitivity_title">Način z zaščito zaslona</string>
     <string name="columbus_title">Hitri dotik za zagon dejanj</string>
+    <string name="about_phone">O telefonu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Funkcija Active Edge je nastavljena. Pojdite na naslednji zaslon ali pa nadaljujte s prilagajanjem.</string>
     <string name="accessibility_keyboard_haptics_title">Odziv tipkovnice na dotik</string>
     <string name="adaptive_charging">Prilagodljivo polnjenje</string>
@@ -162,7 +163,7 @@ Ko je telefon ponastavljen, izvedite postopek nastavitve in izberite možnost za
     <string name="face_enrolling_title">Telefon držite pri miru. Zasukajte glavo. Ne hitite.</string>
     <string name="face_enrolling_title_accessibility">Glejte naravnost v telefon</string>
     <string name="face_enrolling_title_accessibility_progress">Še naprej glejte naravnost v telefon</string>
-    <string name="face_enrolling_too_close">Telefon nekoliko odmaknite</string>
+    <string name="face_enrolling_too_close">Telefon nekoliko odmaknite.</string>
     <string name="face_enrolling_too_far">Bolj približajte telefon.</string>
     <string name="face_enrolling_too_high">Telefon premaknite nižje.</string>
     <string name="face_enrolling_too_left">Telefon premaknite v svojo desno.</string>
@@ -201,6 +202,7 @@ Varnostno kopirani podatki se ne bodo šteli v vašo omejitev prostora za shranj
     <string name="keywords_content_capture">zajem vsebine, vsebina aplikacij, podatki aplikacij</string>
     <string name="keywords_gesture">poteze, gibi</string>
     <string name="keywords_global_actions_panel">kartice, vstopnice</string>
+    <string name="keywords_limited_warranty">garancija, jamstvo, omejeno jamstvo, obljuba, popravilo, dovoljenje za vračilo blaga, zamenjava</string>
     <string name="keywords_live_transcribe">podnapisi, samodejni podnapisi, naglušnost, izguba sluha, CART, pretvorba govora v besedilo, podnapis</string>
     <string name="keywords_reverse_charging_stop_threshold">Zaustavi deljenje energije baterije, ko napolnjenost telefona doseže:</string>
     <string name="keywords_select_to_speak">poslušanje besedila, glasno branje, izgovarjanje zaslona, bralnik zaslona</string>
@@ -212,6 +214,8 @@ Varnostno kopirani podatki se ne bodo šteli v vašo omejitev prostora za shranj
     <string name="language_input_gesture_summary_off">Funkcija Active Edge je izklopljena</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcija Active Edge je vklopljena</string>
     <string name="language_input_gesture_summary_on_with_assist">Funkcija Active Edge je vklopljena, stisnite za Pomočnika</string>
+    <string name="limited_warranty_introduction">Če si želite ogledati garancijsko izjavo za to napravo, se dotaknite države, v kateri ste napravo kupili. Garancijska izjava je na voljo tudi na naslovu g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Omejeno jamstvo</string>
     <string name="me_card_title">Moj Pixel</string>
     <string name="my_device_info_account_preference_title">Račun Google</string>
     <string name="owner_info_settings_edit_text_hint">Npr. Janezov Pixel.</string>
@@ -255,7 +259,10 @@ Obrnite telefon, če želite poskusiti."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Ko bo prikazan naslednji zaslon, držite telefon v višini oči.</string>
     <string name="security_settings_face_enroll_error_dialog_title">Registracija ni bila dokončana</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Čas za nastavitev odklepanja z obrazom je potekel</string>
-    <string name="security_settings_face_enroll_finish_description">Zdaj lahko z obrazom odklenete telefon ali potrdite svojo identiteto, na primer ob prijavi v aplikacije ali odobritvi nakupa.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Zdaj lahko z obrazom odklenete telefon ali potrdite svojo identiteto, na primer ob prijavi v aplikacije ali odobritvi nakupa.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Zdaj lahko z obrazom odklenete telefon, ko ga primete ali se dotaknete zaslona.
+
+Odklepanje z obrazom najbolje deluje, ko je dovolj svetlo in ne nosite maske ali temnih očal."</string>
     <string name="security_settings_face_enroll_finish_title">Videti je v redu</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nastavitev za slabovidne ali osebe z omejenim gibanjem glave</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Ko uporabljate odklepanje z obrazom, boste morda morali glavo nastaviti naravnost pred telefon.</string>
@@ -277,10 +284,11 @@ Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh
     <string name="security_settings_face_enroll_introduction_how_title">Delovanje</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odklepanje z obrazom lahko za odklepanje telefona ali potrditev identitete zahteva, da so otrokove oči odprte. Vi in otrok lahko to možnost kadar koli vklopite v nastavitvah.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Če otrok običajno nosi očala, jih lahko nadene med postopkom nastavitve.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Če otrok odklepa telefon z obrazom, je to morda manj varno od zapletenega vzorca, kode PIN ali gesla.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Če pogleda proti telefonu, ga bo morda nenamerno odklenil. Telefon lahko odklene tudi nekdo, ki je otroku zelo podoben, na primer enojajčni dvojček, ali nekdo, ki telefon podrži pred njegovim obrazom.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Odklepanje z obrazom lahko za odklepanje telefona ali potrditev identitete zahteva, da so vaše oči odprte. To možnost lahko kadar koli vklopite v nastavitvah.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Lahko nosite očala ali rahlo zatemnjena sončna očala.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Uporaba obraza za odklepanje telefona je lahko manj varna kot zapleten vzorec ali koda PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odklepanje telefona z obrazom je morda manj varno od odklepanja z zapletenim vzorcem, kodo PIN ali geslom.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Če pogledate proti telefonu, ga boste morda nenamerno odklenili. Telefon lahko odklene tudi nekdo, ki vam je zelo podoben, na primer enojajčni dvojček, ali nekdo, ki telefon podrži pred vašim obrazom.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Upoštevajte</string>
     <string name="security_settings_face_enroll_introduction_message">Z obrazom odklenite telefon ali potrdite svojo identiteto, na primer ob prijavi v aplikacije ali odobritvi nakupa.</string>
@@ -310,6 +318,10 @@ Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh
     <string name="smart_battery_title">Prilagodljivo varčevanje z energijo baterije</string>
     <string name="sound_dashboard_summary">Glasnost, haptična tehnologija, odziv na dotik, ne moti</string>
     <string name="storage_manager_indicator">Pametna shramba: ^1</string>
+    <string name="suw_warranty_description">Če si želite ogledati garancijo za to napravo, se dotaknite države, v kateri ste napravo kupili.&lt;br /&gt;&lt;br /&gt;Garancija je na voljo tudi v nastavitvah naprave (&lt;b&gt;Nastavitve &gt; %s &gt; Omejeno jamstvo&lt;/b&gt;) in na naslovu g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Omejeno jamstvo, ki velja za vašo napravo, je na voljo tudi v nastavitvah naprave (&lt;b&gt;Nastavitve &gt; %s &gt; Omejeno jamstvo&lt;/b&gt;) in na naslovu g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Naprej</string>
+    <string name="suw_warranty_positive_button_text">Zapri</string>
     <string name="time_remaining_warning_subtext">Glede na preteklo uporabo preostane še približno %1$s</string>
     <string name="time_remaining_warning_text">Baterija bo morda kmalu izpraznjena</string>
     <string name="tips_suggestion_summary">Raziščite, kaj vam telefon omogoča.</string>
@@ -317,6 +329,7 @@ Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh
     <string name="traffic_light_face_enrolling_title_accessibility">Držite telefon pred obrazom.</string>
     <string name="usb_use_file_transfers">Prenos datotek/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Barve, ikone s temo, mreža aplikacij</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Ogled ali sprememba naročnine OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Povezano z: %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Dotaknite se za vzpostavitev povezave</string>

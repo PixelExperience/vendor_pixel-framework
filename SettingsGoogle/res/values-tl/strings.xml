@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Galaw na i-silent ang mga alerto</string>
     <string name="gesture_skip_title">Galaw na laktawan</string>
     <string name="keywords_touch_sensitivity">pindutin, sensitivity, sensitibo, screen protector, film, tumutugon, pagtugon</string>
-    <string name="touch_sensitivity_summary">Pinapahusay ang pagpindot kapag gumagamit ng mga screen protector</string>
-    <string name="touch_sensitivity_title">Dagdagan ang sensitivity sa pagpindot</string>
+    <string name="touch_sensitivity_summary">Pataasin ang pagkasensitibo sa pagpindot at pahusayin ang pagpindot kapag gumagamit ng screen protector</string>
+    <string name="touch_sensitivity_title">Screen protector mode</string>
     <string name="columbus_title">Mag-Quick Tap para magsimula ng mga pagkilos</string>
+    <string name="about_phone">Tungkol sa telepono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Pag-set up ng Active Edge. Pumunta sa susunod na screen o patuloy na mag-adjust.</string>
     <string name="accessibility_keyboard_haptics_title">Haptics sa keyboard</string>
     <string name="adaptive_charging">Adaptive na Pag-charge</string>
@@ -201,6 +202,7 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="keywords_content_capture">pag-capture ng content, content ng app, data ng app</string>
     <string name="keywords_gesture">galaw, mga paggalaw</string>
     <string name="keywords_global_actions_panel">mga card, mga pass</string>
+    <string name="keywords_limited_warranty">warranty, garantiya, limitadong warranty, pangako, pag-aayos, rma, kapalit</string>
     <string name="keywords_live_transcribe">Mga caption, mga closed caption, CC, Instant Caption, may problema sa pandinig, walang pandinig, CART, speech to text, subtitle</string>
     <string name="keywords_reverse_charging_stop_threshold">Ihinto ang pagbabahagi ng baterya kapag umabot ang telepono sa:</string>
     <string name="keywords_select_to_speak">Pakinggan ang text, basahin nang malakas, bigkasin ang nasa screen, screen reader</string>
@@ -212,6 +214,8 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="language_input_gesture_summary_off">Naka-off ang Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Naka-on ang Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Naka-on ang Active Edge, pag-squeeze para sa iyong Assistant</string>
+    <string name="limited_warranty_introduction">I-tap ang bansang pinagbilhan para tingnan ang warranty para sa device na ito. Available din ang warranty sa g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Limitadong Warranty</string>
     <string name="me_card_title">Aking Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Hal., Pixel ni Joe.</string>
@@ -256,7 +260,10 @@ Itaob ang iyong telepono para subukan."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Sa susunod na screen, hawakan ang iyong telepono nang kapantay ng mata</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Naabot na ang limitasyon sa tagal ng pag-enroll ng mukha. Subukang muli.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Nag-time out ang pag-set up ng Pag-unlock Gamit ang Mukha</string>
-    <string name="security_settings_face_enroll_finish_description">Ngayon, magagamit mo na ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Ngayon, magagamit mo na ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Ngayon, kapag kinuha mo ang iyong telepono o nag-tap ka sa screen, puwede mong gamitin ang iyong mukha para mag-unlock.
+
+Pinakamahusay na gumagana ang Pag-unlock Gamit ang Mukha kapag sapat ang liwanag at wala kang suot na mask o madilim na salamin."</string>
     <string name="security_settings_face_enroll_finish_title">OK na!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Para sa problema sa mata/galaw ng ulo</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kapag gumagamit ng Pag-unlock Gamit ang Mukha, baka kailanganin mong mas direktang humarap sa iyong telepono.</string>
@@ -278,10 +285,11 @@ Kapag ginamit mo ang Pag-unlock Gamit ang Mukha, gagamitin ang mga larawan para 
     <string name="security_settings_face_enroll_introduction_how_title">Paano ito gumagana</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang mga mata ng iyong anak para i-unlock ang telepono o i-verify na siya ito. Magagawa mo at ng iyong anak na i-on ang opsyong ito anumang oras sa Mga Setting.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kung karaniwang nagsusuot ng salamin sa mata ang iyong anak, puwede niya itong isuot habang nagse-set up.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Posibleng hindi kasing-secure ng mahirap hulaang pattern, PIN, o password ang paggamit ng mukha ng iyong anak para i-unlock ang kanyang telepono.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Kapag tumingin siya sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang kanyang telepono ay puwede ring ma-unlock ng taong kamukha niya, tulad ng kanyang kapatid na kamukhang kamukha niya, o kung may magtatapat nito sa kanyang mukha.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang iyong mga mata para i-unlock ang telepono o i-verify na ikaw ito. Magagawa mong i-on ang opsyong ito anumang oras sa Mga Setting.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Ayos lang ang salamin o hindi madilim na sunglasses.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Posibleng mas hindi secure ang paggamit ng mukha para i-unlock ang telepono kaysa sa malakas na pattern o PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Posibleng hindi gaanong secure ang paggamit ng iyong mukha para i-unlock ang telepono mo kumpara sa malakas na pattern, PIN, o password</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Kapag tumingin ka sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang iyong telepono ay puwede ring ma-unlock ng taong kamukha mo, tulad ng iyong kapatid na kamukhang kamukha mo, o kung may magtatapat nito sa iyong mukha.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Tandaan</string>
     <string name="security_settings_face_enroll_introduction_message">Gamitin ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili.</string>
@@ -310,6 +318,10 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="sound_dashboard_summary">Volume, haptics, Huwag Istorbohin</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="suw_warranty_description">I-tap ang bansang pinagbilhan para tingnan ang warranty para sa device na ito.&lt;br /&gt;&lt;br /&gt;Available din ang warranty sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Available din ang limitadong warranty na nalalapat sa iyong device sa Mga Setting ng device sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Susunod</string>
+    <string name="suw_warranty_positive_button_text">Isara</string>
     <string name="time_remaining_warning_subtext">Humigit-kumulang %1$s ang natitira batay sa nakaraang paggamit</string>
     <string name="time_remaining_warning_text">Malapit nang maubos ang baterya</string>
     <string name="tips_suggestion_summary">I-explore ang magagawa gamit ang phone</string>
@@ -317,6 +329,7 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="traffic_light_face_enrolling_title_accessibility">Hawakan ang telepono sa harap ng iyong mukha</string>
     <string name="usb_use_file_transfers">Paglilipat ng file / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Mga kulay, mga may temang icon, grid ng app</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Tingnan o baguhin ang subscription sa OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Nakakonekta sa %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">I-tap para kumonekta</string>

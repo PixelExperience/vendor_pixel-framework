@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Sukut qilish ishorasi</string>
     <string name="gesture_skip_title">Imo-ishorani tashlab ketish</string>
     <string name="keywords_touch_sensitivity">tegish, sezuvchanlik, sezuvchan, ekran himoyasi, himoya oynasi, tez, tezlik</string>
-    <string name="touch_sensitivity_summary">Himoya oynasi yoki plyonkasidan foydalanganda sezuvchanlikni oshirish</string>
-    <string name="touch_sensitivity_title">Teginish sezuvchanligini oshirish</string>
+    <string name="touch_sensitivity_summary">Ekran himoyasidan foydalanganda sensor sezgirligini oshiring va teginish aniqlashni yaxshilang</string>
+    <string name="touch_sensitivity_title">Ekran himoyasi rejimi</string>
     <string name="columbus_title">Qisqa teginib amal bajarish</string>
+    <string name="about_phone">Telefon haqida</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge sozlandi. Keyingi ekranga o‘ting yoki sozlashni davom ettiring.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviaturada sezgir aloqa</string>
     <string name="adaptive_charging">Moslashuvchan quvvatlash</string>
@@ -202,6 +203,7 @@ Zaxiralangan ma’lumotlar egallagan joy Google Drive xizmatidagi sizga ajratilg
     <string name="keywords_content_capture">kontent yozib olish, ilova kontenti, ilova axboroti</string>
     <string name="keywords_gesture">imo-ishora, surishlar</string>
     <string name="keywords_global_actions_panel">kartalar, talonlar</string>
+    <string name="keywords_limited_warranty">kafolat, garantiya, cheklangan kafolat, vaʼda, taʼmirlash, rma, almashtirish</string>
     <string name="keywords_live_transcribe">Taglavhalar, yopiq taglavhalar, CC, Jonli izoh, nuqsonli eshitish, karlik, CART, nutq sintezatori, taglavha</string>
     <string name="keywords_reverse_charging_stop_threshold">Batareya quvvati shu darajaga yetsa, funksiya faolsizlantirilsin:</string>
     <string name="keywords_select_to_speak">Matnni eshitish, baland ovoz bilan oʻqish, ekranni eshitish, ekrandan oʻqish</string>
@@ -213,6 +215,8 @@ Zaxiralangan ma’lumotlar egallagan joy Google Drive xizmatidagi sizga ajratilg
     <string name="language_input_gesture_summary_off">Active Edge yoqilmagan</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge yoniq</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge yoniq, Assistentni chaqirish uchun qurilmani qising</string>
+    <string name="limited_warranty_introduction">Bu qurilma kafolatini koʻrish uchun xarid mamlakatining ustiga bosing. Kafolat bilan g.co/devicewarranty sahifasida tanishish ham mumkin.</string>
+    <string name="limited_warranty_title">Cheklangan kafolat</string>
     <string name="me_card_title">Pixel qurilmam</string>
     <string name="my_device_info_account_preference_title">Google hisobi</string>
     <string name="owner_info_settings_edit_text_hint">M-n: Abrorning Pixel telefoni.</string>
@@ -256,7 +260,10 @@ Boshlash uchun telefonni teskari qiling."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Keyingi ekranda telefonni koʻz balandligida tuting</string>
     <string name="security_settings_face_enroll_error_dialog_title">Yuzingiz qayd qilinmadi</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Yuz bilan ochishni sozlashda kutish vaqti tugadi</string>
-    <string name="security_settings_face_enroll_finish_description">Endi telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlash kabi hisob tekshiruvida yuzingizdan foydalanishingiz mumkin</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Endi telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlash kabi hisob tekshiruvida yuzingizdan foydalanishingiz mumkin</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Endi telefonni qoʻlingizga olganingizda yoki ekranga teginganingizda, qulfdan chiqarish uchun yuzingizdan foydalanishingiz mumkin.
+
+Face Unlock funksiyasi yorugʻlik yetarli boʻlganda va maska yoki qora koʻzoynak taqmaganingizda yaxshi ishlaydi."</string>
     <string name="security_settings_face_enroll_finish_title">Ajoyib!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Maxsus imkoniyatlarni yoqish</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Yuz bilan ochishda telefon ekraniga tikroq qarashingiz kerak boʻladi.</string>
@@ -278,10 +285,11 @@ Shuningdek, telefon yuz modelini yangilab turish maqsadida yuzingiz rasmlaridan 
     <string name="security_settings_face_enroll_introduction_how_title">Ishlash tartibi</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Yuz bilan ochish funksiyasi telefonni ochishi yoki farzandingizni shaxsini tasdiqlashi uchun uning koʻzlari ochiq boʻlishi kerak. Siz yoki farzandingiz istalgan vaqtda bu sozlamani Sozlamalar orqali yoqishi mumkin.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Farzandingiz odatda koʻzoynak taqsa, uni sozlash vaqtida ham taqishi mumkin.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Telefonini farzandingiz yuzi yordamida ochish murakkab grafik kalit, PIN kod yoki parolga nisbatan kamroq xavfsiz hisoblanadi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefonga tasodifan qaragalganda ham qulfi ochilishi mumkin. Telefon begonalar tomonidan ham qulfdan chiqarilishi mumkin, masalan farzandingizga oʻxshagan yaqinlaringiz tomonidan yoki kimdir yuziga qaratishi orqali.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Yuz bilan ochish funksiyasi telefonni ochishi yoki shaxsingizni tasdiqlashi uchun koʻzlaringiz ochiq boʻlishi kerak. Istalgan vaqtda bu sozlamani Sozlamalar orqali yoqishingiz mumkin.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Koʻzoynakni olish shart emas ( quyoshdan himoya qiluvchi koʻzoynak och rangda boʻlsa ham ruxsat beriladi)</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonni yuz bilan ochish kuchli grafik kalit yoki PIN kodga nisbatan xavfsizligi kamroq.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonni yuzingiz yordamida ochish murakkab grafik kalit, PIN kod yoki parolga nisbatan kamroq xavfsiz hisoblanadi.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefonga tasodifan qaraganingizda ham qulfi ochilishi mumkin. Telefoningiz begonalar tomonidan ham qulfdan chiqarilishi mumkin, masalan sizga oʻxshagan yaqinlaringiz tomonidan yoki kimdir yuzingizga qaratishi orqali.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Yodda tuting</string>
     <string name="security_settings_face_enroll_introduction_message">Telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlashda shaxsingizni tasdiqlash uchun yuzingizdan foydalaning.</string>
@@ -310,6 +318,10 @@ Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qa
     <string name="smart_battery_title">Moslashuvchan batareya</string>
     <string name="sound_dashboard_summary">Tovush balandligi, sezuvchanlik, Bezovta qilinmasin</string>
     <string name="storage_manager_indicator">Smart xotira: ^1</string>
+    <string name="suw_warranty_description">Qurilmangiz uchun kafolat maʼlumotlarini koʻrish uchun uni sotib olgan mamlakatni tanlang.&lt;br /&gt;&lt;br /&gt;Bu maʼlumot &lt;b&gt;Sozlamalar&gt; %s &gt; Cheklangan kafolat&lt;/b&gt; va g.co/devicewarranty sahifasida ham mavjud.</string>
+    <string name="suw_warranty_language_consistent_description">Shuningdek, qurilmangizga tegishli cheklangan kafolatni &lt;b&gt;Sozlamalar &gt; %s &gt; Cheklangan kafolat&lt;/b&gt; yoki g.co/devicewarranty sahifasida mavjud.</string>
+    <string name="suw_warranty_next_button_text">Keyingisi</string>
+    <string name="suw_warranty_positive_button_text">Yopish</string>
     <string name="time_remaining_warning_subtext">Oldingi foydalanishga nisbatan taxminan %1$s qoldi</string>
     <string name="time_remaining_warning_text">Batareya tez orada tugaydi</string>
     <string name="tips_suggestion_summary">Telefoningiz bilan nimalar qila olasiz</string>
@@ -317,6 +329,7 @@ Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qa
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonni yuzingizga qaratib tutib turing</string>
     <string name="usb_use_file_transfers">Fayl uzatish / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Ranglar, uslubiy belgilar, ilovalar jadvali</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming obunasini koʻrish yoki oʻzgartirish</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s orqali ulangan</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Ulanish uchun bosing</string>

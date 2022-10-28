@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">\"Ескертулердің дыбысын өшіру\" қимылы</string>
     <string name="gesture_skip_title">\"Өткізіп жіберу\" қимылы</string>
     <string name="keywords_touch_sensitivity">түрту, сезгіштік, сезгіш, экран қорғанышы, үлдір, жауап беретін, жауап беру</string>
-    <string name="touch_sensitivity_summary">Экран қорғаныштары қолданылғанда, сезгіштікті арттырады.</string>
-    <string name="touch_sensitivity_title">Түрту сезгіштігін арттыру</string>
+    <string name="touch_sensitivity_summary">Түрту сезгіштігін арттыру және экран қорғанышын пайдаланған кезде түрту сенсорын жақсарту.</string>
+    <string name="touch_sensitivity_title">Экран қорғанышы режимі</string>
     <string name="columbus_title">Әрекеттерді бастау үшін жылдам түрту</string>
+    <string name="about_phone">Телефон туралы</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge реттелді. Келесі экранға өтіңіз немесе реттеуді жалғастырыңыз.</string>
     <string name="accessibility_keyboard_haptics_title">Пернетақта хептикасы</string>
     <string name="adaptive_charging">Бейімдеп зарядтау</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">мазмұн түсіру, қолданба мазмұны, қолданба деректері</string>
     <string name="keywords_gesture">қимыл, қозғалыстар</string>
     <string name="keywords_global_actions_panel">карталар, жол жүру билеттері</string>
+    <string name="keywords_limited_warranty">кепілдік, шектелген кепілдік, уәде, жөндеу, қайтару, ауыстыру</string>
     <string name="keywords_live_transcribe">Жазулар, субтитрлер, субтитр, Live Caption, нашар есту қабілеті, есту қабілетінен айырылу, тікелей транскрипция, дауысты мәтінге айналдыру</string>
     <string name="keywords_reverse_charging_stop_threshold">Телефон заряды мына деңгейге жеткенде, батареяны бөлісу тоқтатылсын:</string>
     <string name="keywords_select_to_speak">Мәтінді есту, дауыстап оқу, сөйлейтін экран, экранды оқу құралы</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge өшірулі</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge қосулы</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge қосулы, Көмекші үшін қысыңыз</string>
+    <string name="limited_warranty_introduction">Бұл құрылғыға қатысты кепілдікті көру үшін тауарды сатып алу елін түртіңіз. Кепілдік мына сілтеме бойынша да қолжетімді: g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Шектелген кепілдік</string>
     <string name="me_card_title">Pixel құрылғым</string>
     <string name="my_device_info_account_preference_title">Google аккаунты</string>
     <string name="owner_info_settings_edit_text_hint">Мысалы, Жандостың Pixel құрылғысы</string>
@@ -255,7 +259,10 @@
     <string name="security_settings_face_enroll_education_message">Келесі экранда бетіңізді барлық бұрыштан түсіру керек болады. Басыңызды ары-бері бұрасыз.</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Келесі экранда телефонды көз деңгейінде ұстаңыз.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Бет тану функциясын реттеу уақыты өтіп кетті</string>
-    <string name="security_settings_face_enroll_finish_description">Енді телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде немесе бірдеңе сатып алғанда) бет тану функциясын пайдалана аласыз.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Енді телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде немесе бірдеңе сатып алғанда) бет тану функциясын пайдалана аласыз.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Енді телефонды қолыңызға алғанда немесе экранды түрткенде, оның құлпын ашу үшін бет тану функциясын пайдалана аласыз.
+
+Бет тану функциясы жеткілікті жарық болған кезде және бетперде не қою түсті көзілдірік кимеген кезде жақсы жұмыс істейді."</string>
     <string name="security_settings_face_enroll_finish_title">Жақсы!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Көру қабілеті не басты қозғалту мүмкіндігі шектеулі болған жағдайдағы реттеу</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Бет тану функциясын пайдалану кезінде басты телефонның алдында тік ұстау қажет.</string>
@@ -277,10 +284,11 @@
     <string name="security_settings_face_enroll_introduction_how_title">Бұл қалай жұмыс істейді?</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Бет тану функциясы телефонның құлпын ашу үшін немесе балаңыздың жеке басын растау үшін одан көзін ашуын талап етуі мүмкін. Балаңыз екеуіңіз бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыздар.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Балаңыз әдетте көзілдірік тағатын болса, реттеу кезінде оны шешпесе де болады.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Телефон құлпын баланың бетін пайдаланып ашу қауіпсіздік тұрғысынан PIN кодына, құпия сөзге немесе күрделі өрнекке қарағанда әлсіздеу болуы мүмкін.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Ашқысы келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты оған ұқсайтын біреу (мысалы, оның сыңары) ашып алуы мүмкін. Телефонды бетіне тақаған кезде де ашылып кетуі ықтимал.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Бет тану функциясы телефонның құлпын ашу үшін немесе жеке басыңызды растау үшін көзіңізді ашуды талап етуі мүмкін. Бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыз.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Түссіз немесе сәл күңгірттелген көзілдірікті шешпеуге болады.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Телефонның құлпын бетті анықтау функциясы арқылы ашу күрделі өрнекке немесе PIN кодына қарағанда сенімсіздеу болуы мүмкін.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Телефон құлпын ашу үшін беттен гөрі күрделі өрнек, PIN кодын немесе құпия сөз пайдаланған әлдеқайда қауіпсіз.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Ашқыңыз келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты өзіңізге ұқсайтын біреу, мысалы, егіз бауырыңыз ашып алуы мүмкін. Телефонды бетіңізге тақаған кезде де ашылып кетуі ықтимал.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Есте сақтаңыз</string>
     <string name="security_settings_face_enroll_introduction_message">Телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде не бірдеңе сатып алғанда) бет тану функциясын пайдаланыңыз.</string>
@@ -309,6 +317,10 @@
     <string name="smart_battery_title">Батарея шығынын бейімдеу</string>
     <string name="sound_dashboard_summary">Дыбыс деңгейі, хептика, Мазаламау режимі</string>
     <string name="storage_manager_indicator">Ақылды жад: ^1</string>
+    <string name="suw_warranty_description">Бұл құрылғыға қатысты кепілдікті көру үшін тауарды сатып алу елін түртіңіз.&lt;br /&gt;&lt;br /&gt;Кепілдікті &lt;b&gt;Параметрлер &gt; %s &gt; Шектелген кепілдік&lt;/b&gt; тармағы және g.co/devicewarranty сілтемесі бойынша да көре аласыз.</string>
+    <string name="suw_warranty_language_consistent_description">Құрылғыңызға қолданылатын шектелген кепілдікті &lt;b&gt;Параметрлер &gt; %s &gt; Шектелген кепілдік&lt;/b&gt; тармағы бойынша құрылғы параметрлерінен және g.co/devicewarranty сілтемесі бойынша да көре аласыз.</string>
+    <string name="suw_warranty_next_button_text">Келесі</string>
+    <string name="suw_warranty_positive_button_text">Жабу</string>
     <string name="time_remaining_warning_subtext">Соңғы пайдалану негізінде шамамен %1$s қалды</string>
     <string name="time_remaining_warning_text">Батареяның заряды көп ұзамай бітуі мүмкін</string>
     <string name="tips_suggestion_summary">Телефонмен не істеуге болатынын біліңіз.</string>
@@ -316,6 +328,7 @@
     <string name="traffic_light_face_enrolling_title_accessibility">Телефонды бетіңізге қарама-қарсы ұстаңыз</string>
     <string name="usb_use_file_transfers">Файл жіберу/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Түстер, тақырыпқа сай белгішелер, қолданбалар торы</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming жазылымын көру не өзгерту</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s арқылы қосылды</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Қосылу үшін түртіңіз.</string>

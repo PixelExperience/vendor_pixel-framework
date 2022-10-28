@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Gesto vypnutia zvukov upozornení</string>
     <string name="gesture_skip_title">Gesto preskočenia</string>
     <string name="keywords_touch_sensitivity">dotyk, citlivosť, citlivé, ochrana obrazovky, fólia, odozva, reakcia na dotyk</string>
-    <string name="touch_sensitivity_summary">Zlepšovať dotyk pri používaní ochrany obrazovky</string>
-    <string name="touch_sensitivity_title">Zvýšiť citlivosť na dotyk</string>
+    <string name="touch_sensitivity_summary">Zvýšenie citlivosti dotyku a jeho zlepšenie pri používaní ochrany obrazovky</string>
+    <string name="touch_sensitivity_title">Režim ochrany obrazovky</string>
     <string name="columbus_title">Rýchlym poklepaním spustiť akcie</string>
+    <string name="about_phone">Telefón</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Funkcia Active Edge je nastavená. Prejdite na ďalšiu obrazovku alebo pokračujte v úpravách.</string>
     <string name="accessibility_keyboard_haptics_title">Hmatová odozva klávesnice</string>
     <string name="adaptive_charging">Adaptívne nabíjanie</string>
@@ -202,6 +203,7 @@ Zálohované údaje sa nezapočítavajú do kvóty úložiska. Veľké súbory a
     <string name="keywords_content_capture">snímanie obsahu, obsah aplikácie, dáta aplikácie</string>
     <string name="keywords_gesture">gesto, pohyby</string>
     <string name="keywords_global_actions_panel">platobné karty, lístky</string>
+    <string name="keywords_limited_warranty">záruka, obmedzená záruka, sľub, oprava, povolenie na vrátenie tovaru, náhrada</string>
     <string name="keywords_live_transcribe">Titulky, skryté titulky, živý prepis, slabo počujúci, hluchota, CART, prevod reči na text, titulok</string>
     <string name="keywords_reverse_charging_stop_threshold">Zastaviť zdieľanie batérie, keď telefón dosiahne:</string>
     <string name="keywords_select_to_speak">Vypočuť text, čítať nahlas, vyslovovať obsah obrazovky, čítačka obrazovky</string>
@@ -213,6 +215,8 @@ Zálohované údaje sa nezapočítavajú do kvóty úložiska. Veľké súbory a
     <string name="language_input_gesture_summary_off">Funkcia Active Edge je vypnutá</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcia Active Edge je zapnutá</string>
     <string name="language_input_gesture_summary_on_with_assist">Funkcia Active Edge je zap., stlačením aktivujete Asistenta</string>
+    <string name="limited_warranty_introduction">Ak si chcete zobraziť záruku na toto zariadenie, klepnite na krajinu nákupu. Záruka je k dispozícii aj na g.co/devicewarranty.</string>
+    <string name="limited_warranty_title">Obmedzená záruka</string>
     <string name="me_card_title">Môj Pixel</string>
     <string name="my_device_info_account_preference_title">Účet Google</string>
     <string name="owner_info_settings_edit_text_hint">Napr. Petrov Pixel</string>
@@ -255,7 +259,10 @@ Otočte telefón a vyskúšajte to."</string>
     <string name="security_settings_face_enroll_education_message">Na ďalšej obrazovke otáčajte hlavou, aby sa vaša tvár nasnímala z rôznych uhlov.</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Na ďalšej obrazovke držte telefón na úrovni očí</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Čas nastavenia odomknutia tvárou vypršal</string>
-    <string name="security_settings_face_enroll_finish_description">Teraz môžete odomykať telefón alebo overovať svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií alebo schvaľovaní nákupov</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Teraz môžete odomykať telefón alebo overovať svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií alebo schvaľovaní nákupov</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Teraz keď zdvihnete telefón alebo klepnete na obrazovku, môžete ho odomknúť tvárou.
+
+Odomknutie tvárou najlepšie funguje pri dobrom osvetlení a keď na sebe nemáte rúško ani tmavé okuliare."</string>
     <string name="security_settings_face_enroll_finish_title">Vyzerá to dobre!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nastavenie pre obmedzené videnie alebo pohyb hlavou</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">Pri používaní odomknutia tvárou môže byť potrebné, aby bola vaša hlava priamejšie pred telefónom.</string>
@@ -277,10 +284,11 @@ Keď použijete odomknutie tvárou, model tváre sa aktualizuje pomocou príslu�
     <string name="security_settings_face_enroll_introduction_how_title">Ako to funguje</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odomknutie tvárou môže vyžadovať, aby malo vaše dieťa pri odomykaní telefónu alebo overovaní jeho totožnosti oči otvorené. Vy a vaše dieťa môžete túto možnosť kedykoľvek vypnúť v Nastaveniach.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ak vaše dieťa nosí okuliare, môže ich mať aj počas nastavovania.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odomykanie telefónu dieťaťa pomocou jeho tváre môže byť menej bezpečné ako odomykanie pomocou silného vzoru, kódu PIN alebo hesla</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefón je možné pohľadom odomknúť aj náhodne. Jeho telefón môže odomknúť aj osoba, ktorá sa na neho podobá (napríklad dvojča) alebo niekto, kto si ho pridrží pred tvárou.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Odomknutie tvárou môže vyžadovať, aby ste mali pri odomykaní telefónu alebo overovaní svojej totožnosti oči otvorené. Túto možnosť môžete kedykoľvek vypnúť v Nastaveniach.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Okuliare alebo slabo tónované okuliare sú v poriadku.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Odomykanie telefónu tvárou môže byť menej bezpečné než silný vzor alebo PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odomykanie telefónu tvárou môže byť menej bezpečné než silným vzorom, kódom PIN alebo heslom</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Telefón môžete pohľadom odomknúť aj náhodne. Váš telefón môže odomknúť aj iná osoba tým, že vám ho podrží pred tvárou, alebo niekto, kto sa na vás podobá, napríklad dvojča.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Upozornenie</string>
     <string name="security_settings_face_enroll_introduction_message">Odomykajte telefón a overujte svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií a schvaľovaní nákupov.</string>
@@ -309,6 +317,10 @@ Ak chcete zlepšiť fungovanie, môžete znova nastaviť odomknutie tvárou v N
     <string name="smart_battery_title">Adaptácia batérie</string>
     <string name="sound_dashboard_summary">Hlasitosť, hmatová odozva, režim bez vyrušení</string>
     <string name="storage_manager_indicator">Inteligentné úložisko: ^1</string>
+    <string name="suw_warranty_description">Klepnutím na krajinu, v ktorej ste toto zariadenie kúpili, si zobrazte jeho záruku.&lt;br /&gt;&lt;br /&gt;Záruka je k dispozícii aj v sekcii &lt;b&gt;Nastavenia &gt; %s &gt; Obmedzená záruka&lt;/b&gt; a na g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Obmedzená záruka uplatniteľná na vaše zariadenie je k dispozícii aj v Nastaveniach zariadenia, a to v sekcii &lt;b&gt;Nastavenia &gt; %s &gt; Obmedzená záruka&lt;/b&gt; a na g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Ďalej</string>
+    <string name="suw_warranty_positive_button_text">Zavrieť</string>
     <string name="time_remaining_warning_subtext">Zostáva približne %1$s (odhad na základe predchádzajúceho využitia)</string>
     <string name="time_remaining_warning_text">Batéria sa môže čoskoro minúť</string>
     <string name="tips_suggestion_summary">Zistite, čo vám telefón umožňuje</string>
@@ -316,6 +328,7 @@ Ak chcete zlepšiť fungovanie, môžete znova nastaviť odomknutie tvárou v N
     <string name="traffic_light_face_enrolling_title_accessibility">Podržte telefón pred svojou tvárou</string>
     <string name="usb_use_file_transfers">Prenos súborov / Android Auto</string>
     <string name="wallpaper_dashboard_summary">Farby, tematické ikony, mriežka aplikácií</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Zobrazenie alebo zmena odberu OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Pripojené pomocou poskytovateľa %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Klepnutím pripojíte</string>

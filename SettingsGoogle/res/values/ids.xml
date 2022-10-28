@@ -15,6 +15,7 @@
     <item type="id" name="columbus_gesture_illustration"/>
     <item type="id" name="content_container"/>
     <item type="id" name="current_score"/>
+    <item type="id" name="display_language"/>
     <item type="id" name="distance_indicator_view"/>
     <item type="id" name="dream_container"/>
     <item type="id" name="dream_setup_list"/>
@@ -53,6 +54,8 @@
     <item type="id" name="hats_lib_thank_you"/>
     <item type="id" name="hats_survey_question_scroll_view"/>
     <item type="id" name="indicator_view"/>
+    <item type="id" name="item_language"/>
+    <item type="id" name="items_container"/>
     <item type="id" name="learn_more_btn"/>
     <item type="id" name="nav_bar"/>
     <item type="id" name="ok_btn"/>
@@ -67,4 +70,6 @@
     <item type="id" name="toolbar_title"/>
     <item type="id" name="toolbar_wrapper"/>
     <item type="id" name="video_view"/>
+    <item type="id" name="warranty_scroll_view"/>
+    <item type="id" name="warranty_text"/>
 </resources>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">Rörelse för att stänga av ljudet för aviseringar</string>
     <string name="gesture_skip_title">Rörelse för att hoppa över</string>
     <string name="keywords_touch_sensitivity">tryck, känslighet, känslig, skärmskydd, film, tryckkänslig, tryckkänslighet</string>
-    <string name="touch_sensitivity_summary">Ger bättre tryckkänslighet med skärmskydd</string>
-    <string name="touch_sensitivity_title">Öka tryckkänsligheten</string>
+    <string name="touch_sensitivity_summary">Öka tryckkänsligheten och få ett bättre tryck när du använder ett skärmskydd</string>
+    <string name="touch_sensitivity_title">Skärmskyddsläge</string>
     <string name="columbus_title">Använd snabbtryck för att starta åtgärderna</string>
+    <string name="about_phone">Om telefonen</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge har konfigurerats. Fortsätt till nästa skärm eller gör fler justeringar.</string>
     <string name="accessibility_keyboard_haptics_title">Tangentbordets haptik</string>
     <string name="adaptive_charging">Smart laddning</string>
@@ -162,7 +163,7 @@ När mobilen har återställts konfigurerar du den och väljer att hämta data f
     <string name="face_enrolling_title">Håll mobilen stilla. Vrid långsamt på huvudet.</string>
     <string name="face_enrolling_title_accessibility">Titta rakt på telefonen</string>
     <string name="face_enrolling_title_accessibility_progress">Fortsätt att tita rakt på telefonen</string>
-    <string name="face_enrolling_too_close">Flytta mobilen längre bort</string>
+    <string name="face_enrolling_too_close">Flytta telefonen längre bort</string>
     <string name="face_enrolling_too_far">För mobilen närmare</string>
     <string name="face_enrolling_too_high">Sänk mobilen</string>
     <string name="face_enrolling_too_left">Flytta mobilen åt höger</string>
@@ -201,6 +202,7 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="keywords_content_capture">innehållsregistrering, appinnehåll, appdata</string>
     <string name="keywords_gesture">rörelse, rörelser</string>
     <string name="keywords_global_actions_panel">kort, värdekort</string>
+    <string name="keywords_limited_warranty">garanti, begränsad garanti, löfte, reparation, rma, retur av felaktig vara, ersättningsenhet</string>
     <string name="keywords_live_transcribe">Textning, undertexter, undertextning, Live Caption, hörselskada, hörselnedsättning, CART, tal till text, undertext</string>
     <string name="keywords_reverse_charging_stop_threshold">Stäng av batteridelning när telefonen når:</string>
     <string name="keywords_select_to_speak">Höra text, läsa högt, skärmuppläsning, skärmläsare</string>
@@ -212,6 +214,8 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="language_input_gesture_summary_off">Active Edge har inaktiverats</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge har aktiverats</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge är på. Kläm för att öppna Assistent.</string>
+    <string name="limited_warranty_introduction">Tryck på landet där du köpte enheten för att se din garanti. Garantin finns även på g.co/devicewarranty</string>
+    <string name="limited_warranty_title">Begränsad garanti</string>
     <string name="me_card_title">Min Pixel</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jonas Pixel.</string>
@@ -255,7 +259,10 @@ Vänd på telefonen om du vill testa."</string>
     <string name="security_settings_face_enroll_education_message_accessibility">Håll telefonen i ögonhöjd när du kommer till nästa skärm</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tidsgränsen för ansiktsregistrering har uppnåtts. Försök igen.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigureringen av ansiktslås har nått tidsgränsen</string>
-    <string name="security_settings_face_enroll_finish_description">Nu kan du låsa upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nu kan du låsa upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Nu kan du låsa upp telefonen med ditt ansikte när du tar upp den eller trycker på skärmen.
+
+Ansiktslås fungerar bäst när det finns tillräckligt med ljus och du inte har munskydd eller mörka glasögon på dig."</string>
     <string name="security_settings_face_enroll_finish_title">Det ser bra ut!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfigurering vid nedsatt syn eller rörelseförmåga</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">När du använder ansiktslås kan du behöva ha huvudet mer rakt framför telefonen.</string>
@@ -277,10 +284,11 @@ När du använder ansiktslås uppdateras ansiktsmodellen med hjälp av bilder. D
     <string name="security_settings_face_enroll_introduction_how_title">Så fungerar det</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ditt barns ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera sin identitet. Du och ditt barn kan när som helst aktivera inställningen i Inställningar.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Om ditt barn vanligen använder glasögon kan barnet ha dem på sig under konfigureringen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Det kan vara mindre säkert att använda ditt barns ansikte för att låsa upp hans eller hennes telefon än att ha ett starkt mönster, en stark pinkod eller ett starkt lösenord</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">Om ditt barn tittar på telefonen kan barnet oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik ditt barn, till exempel ett syskon, eller om någon håller upp den framför barnets ansikte.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">Dina ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera din identitet. Du kan när som helst aktivera inställningen i Inställningar.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Glasögon eller solglasögon i en ljus ton är okej.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Att låsa upp telefonen med ansiktet kan vara mindre säkert än ett starkt mönster eller en stark pinkod.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Att låsa upp telefonen med ansiktet kan vara mindre säkert än ett starkt mönster, en bra pinkod eller ett starkt lösenord.</string>
     <string name="security_settings_face_enroll_introduction_info_looking">Om du tittar på telefonen kan du oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik dig, till exempel ett syskon, eller om någon håller upp den framför ditt ansikte.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Kom ihåg</string>
     <string name="security_settings_face_enroll_introduction_message">Lås upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp.</string>
@@ -309,6 +317,10 @@ Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda
     <string name="smart_battery_title">Smart batteri</string>
     <string name="sound_dashboard_summary">Volym, haptik, Stör ej</string>
     <string name="storage_manager_indicator">Smart lagring: ^1</string>
+    <string name="suw_warranty_description">Tryck på landet där du köpte enheten för att se din garanti.&lt;br /&gt;&lt;br /&gt;Garantin finns även i &lt;b&gt;Inställningar &gt; %s &gt; den begränsade garantin&lt;/b&gt; och på g.co/devicewarranty.</string>
+    <string name="suw_warranty_language_consistent_description">Den begränsade garantin för enheten finns även i enhetsinställningarna i &lt;b&gt;Inställningar&gt; %s &gt; den begränsade garantin&lt;/b&gt; och på g.co/devicewarranty.</string>
+    <string name="suw_warranty_next_button_text">Nästa</string>
+    <string name="suw_warranty_positive_button_text">Stäng</string>
     <string name="time_remaining_warning_subtext">Omkring %1$s kvar, baserat på tidigare användning</string>
     <string name="time_remaining_warning_text">Batteriet kan ta slut snart</string>
     <string name="tips_suggestion_summary">Ta reda på vad du kan göra med telefonen</string>
@@ -316,6 +328,7 @@ Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda
     <string name="traffic_light_face_enrolling_title_accessibility">Håll upp telefonen framför ansiktet</string>
     <string name="usb_use_file_transfers">Filöverföring/Android Auto</string>
     <string name="wallpaper_dashboard_summary">Färger, ikoner med tema, rutnät för appar</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Visa eller ändra prenumeration för OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Ansluten med %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tryck för att ansluta</string>

@@ -4,9 +4,10 @@
     <string name="gesture_silence_title">সতর্কতার সাউন্ড বন্ধ করার ইঙ্গিত</string>
     <string name="gesture_skip_title">মিডিয়া এড়িয়ে যাওয়ার ইঙ্গিত</string>
     <string name="keywords_touch_sensitivity">টাচ, সেন্সিটিভিটি, সেন্সিটিভ স্ক্রিন প্রোটেক্টর, ফিল্ম, রেসপন্সিভ, রেসপন্সিভনেস</string>
-    <string name="touch_sensitivity_summary">স্ক্রিন প্রোটেক্টর ব্যবহার করার সময় টাচ সেন্সিটিভিটি বাড়ান</string>
-    <string name="touch_sensitivity_title">টাচ সেন্সিটিভিটি বাড়ান</string>
+    <string name="touch_sensitivity_summary">স্পর্শ সংবেদনশীলতা বাড়ান এবং স্ক্রিন প্রোটেকটর ব্যবহার করার সময় স্পর্শ বোঝার ক্ষমতা উন্নত করুন</string>
+    <string name="touch_sensitivity_title">স্ক্রিন প্রোটেকটর মোড</string>
     <string name="columbus_title">"'কুইক ট্যাপ' করে অ্যাকশন নিতে শুরু করা"</string>
+    <string name="about_phone">ফোন সম্পর্কে</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge সেট-আপ। পরবর্তী স্ক্রিনে যান বা অ্যাডজাস্ট করতে থাকুন।</string>
     <string name="accessibility_keyboard_haptics_title">কীবোর্ড হ্যাপটিক</string>
     <string name="adaptive_charging">অ্যাডাপ্টিভ চার্জিং</string>
@@ -202,6 +203,7 @@
     <string name="keywords_content_capture">কন্টেন্ট ক্যাপচার, অ্যাপ কন্টেন্ট, অ্যাপ ডেটা</string>
     <string name="keywords_gesture">ইঙ্গিত, নড়াচড়া</string>
     <string name="keywords_global_actions_panel">কার্ড, পাস</string>
+    <string name="keywords_limited_warranty">ওয়ারেন্টি, গ্যারেন্টি, সীমিত ওয়ারেন্টি, প্রতিশ্রুতি, সারানো, RMA, বদলানো</string>
     <string name="keywords_live_transcribe">ক্যাপশন, ক্লোজড ক্যাপশন, CC, লাইভ ক্যাপশন, কম শুনতে পাওয়া, শুনতে সমস্যা হওয়া, CART, স্পিচ টু টেক্সট, সাবটাইটেল</string>
     <string name="keywords_reverse_charging_stop_threshold">ফোনের ব্যাটারির চার্জ কমে নিচে উল্লেখ করা লেভেলে পৌঁছে গেলে ব্যাটারি শেয়ার করা বন্ধ করুন:</string>
     <string name="keywords_select_to_speak">টেক্সট শোনা, জোরে পড়া, স্পিক স্ক্রিন, স্ক্রিন রিডার</string>
@@ -213,6 +215,8 @@
     <string name="language_input_gesture_summary_off">Active Edge বন্ধ আছে</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge চালু আছে</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge চালু আছে, আপনার সহায়কের জন্য স্কুইজ করুন</string>
+    <string name="limited_warranty_introduction">এই ডিভাইসের ওয়ারেন্টি সংক্রান্ত তথ্য দেখতে, যে দেশে কেনাকাটা করা হয়েছে সেটিতে ট্যাপ করুন। এছাড়াও g.co/devicewarranty-এ ওয়ারেন্টি উপলভ্য আছে</string>
+    <string name="limited_warranty_title">সীমিত ওয়ারেন্টি</string>
     <string name="me_card_title">আমার Pixel</string>
     <string name="my_device_info_account_preference_title">Google অ্যাকাউন্ট</string>
     <string name="owner_info_settings_edit_text_hint">উদাহরণ, সুমনের Pixel</string>
@@ -257,7 +261,10 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">ফেস এনরোল করা যায়নি।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">ফেস এনরোল করার সময়সীমায় পৌঁছে গেছেন। আবার চেষ্টা করে দেখুন।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">"'ফেস আনলক' সেট আপ করার সময় পেরিয়ে গেছে"</string>
-    <string name="security_settings_face_enroll_finish_description">ফোন আনলক বা নিজের পরিচয় যাচাই করার জন্য আপনার মুখ ব্যবহার করতে পারেন, যেভাবে আপনি অ্যাপে সাইন-ইন বা কেনাকাটায় অনুমতি দেওয়ার সময় করে থাকেন</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">অ্যাপে সাইন-ইন বা কেনাকাটায় অনুমতি দেওয়ার সময় যেমন করেন, ঠিক তেমনভাবেই ফোন আনলক বা নিজের পরিচয় যাচাই করতে এখন আপনার ফেস ব্যবহার করতে পারবেন</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"এখন ফোন হাতে নেওয়া বা স্ক্রিনে ট্যাপ করার সময় ফেস ব্যবহার করে আনলক করতে পারবেন।
+
+'ফেস আনলক' ফিচার চারপাশে যথেষ্ট আলো থাকলে এবং আপনি কোনও মাস্ক বা কালো চশমা না পরলে সবচেয়ে ভালভাবে কাজ করে।"</string>
     <string name="security_settings_face_enroll_finish_title">ঠিক আছে!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">স্পষ্ট না দেখা বা মাথা স্থির রাখতে না পারার জন্য সেট-আপ</string>
     <string name="security_settings_face_enroll_introduction_accessibility_expanded">"'ফেস আনলক' ব্যবহার করার সময় আপনার মুখ সরাসরি ফোনের সামনে রাখতে হতে পারে।"</string>
@@ -279,10 +286,11 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="security_settings_face_enroll_introduction_how_title">এটি কীভাবে কাজ করে</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">"'ফেস আনলক' ব্যবহার করে, ফোন আনলক করতে বা তাদের পরিচয় যাচাই করতে আপনার বাচ্চার চোখ দুটি খোলা রাখতে হবে। আপনি এবং আপনার সন্তান যেকোনও সময়ে 'সেটিংস'-এ গিয়ে এই বিকল্প চালু করতে পারবেন।"</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">সাধারণত আপনার সন্তান চশমা পরলে, সেটআপ করার সময়ও সেটি পরতে পারে।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">শক্তিশালী প্যাটার্ন, পিন বা পাসওয়ার্ডের পরিবর্তে বাচ্চার ফোন আনলক করার জন্য তার মুখ ব্যবহার করলে সেটি যথেষ্ট নিরাপদ নাও হতে পারে</string>
     <string name="security_settings_face_enroll_introduction_info_consent_looking">আপনার সন্তান ফোনের দিকে তাকালে এটি আনলক হয়ে যেতে পারে, এমনকি সে না চাইলেও। অনেকটা তার মতো দেখতে কেউ, যেমন একই রকম দেখতে ভাই বা বোন অথবা অন্য কেউ তার মুখের সামনে এটি ধরলেও, তার ফোন আনলক হয়ে যেতে পারে।</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">"'ফেস আনলক' ব্যবহার করে, ফোন আনলক করতে বা নিজের পরিচয় যাচাই করতে আপনার চোখ দুটি খোলা রাখতে হবে। আপনি যেকোনও সময়ে সেটিংস'-এ গিয়ে এই বিকল্প চালু করতে পারবেন।"</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">চশমা বা হালকা আভাযুক্ত সানগ্লাস ব্যবহার করা যেতে পারে।</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ফোন আনলক করার জন্য জটিল প্যাটার্ন বা পিন ব্যবহার করার চেয়ে আপনার মুখ ব্যবহার করা কম নিরাপদ হতে পারে।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ফোন আনলক করার জন্য শক্তিশালী প্যাটার্ন, পিন বা পাসওয়ার্ড ব্যবহার করার পরিবর্তে নিজের ফেস ব্যবহার করলে সেটি কম নিরাপদ হতে পারে</string>
     <string name="security_settings_face_enroll_introduction_info_looking">আপনি না চাইলেও, ফোনের দিকে তাকালে তা আনলক হয়ে যাবে। আপনার মতো দেখতে এমন যে কেউ, যেমন আপনার যমজ ভাই বা বোন বা অন্য কেউ, আপনার মুখের সামনে ফোনটি এনেও আনলক করতে পারবেন।</string>
     <string name="security_settings_face_enroll_introduction_info_title">মনে রাখবেন</string>
     <string name="security_settings_face_enroll_introduction_message">অ্যাপে সাইন-ইন করা বা কেনাকাটায় অনুমতি দেওয়ার সময় যেভাবে আপনার মুখের ছবি ব্যবহার করেন, সেভাবেই ফোন আনলক বা নিজের পরিচয় যাচাই করুন।</string>
@@ -311,6 +319,10 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="smart_battery_title">অ্যাডাপটিভ ব্যাটারি</string>
     <string name="sound_dashboard_summary">ভলিউম, হ্যাপটিক, বিরক্ত করবে না</string>
     <string name="storage_manager_indicator">স্মার্ট স্টোরেজ: ^1</string>
+    <string name="suw_warranty_description">এই ডিভাইসের ওয়ারেন্টি দেখতে, যে দেশে ডিভাইসটি কেনা হয়েছে সেটির উপর ট্যাপ করুন।&lt;br /&gt;&lt;br /&gt;এই ওয়ারেন্টির তথ্য আপনি &lt;b&gt;সেটিংস &gt; %s &gt; সীমিত ওয়ারেন্টি&lt;/b&gt; এবং g.co/devicewarranty-তেও পেয়ে যাবেন।</string>
+    <string name="suw_warranty_language_consistent_description">আপনার ডিভাইসের জন্য প্রযোজ্য সীমিত ওয়ারেন্টি ডিভাইসের সেটিংসে &lt;b&gt;সেটিংস &gt; %s &gt; সীমিত ওয়ারেন্টি&lt;/b&gt; এবং at g.co/devicewarranty-তেও উপলভ্য।</string>
+    <string name="suw_warranty_next_button_text">পরবর্তী</string>
+    <string name="suw_warranty_positive_button_text">বন্ধ করুন</string>
     <string name="time_remaining_warning_subtext">ব্যাটারির ব্যবহার অনুযায়ী আর %1$s বাকি</string>
     <string name="time_remaining_warning_text">ব্যাটারি দ্রুত শেষ হয়ে যেতে পারে</string>
     <string name="tips_suggestion_summary">আপনার ফোন দিয়ে কী কী করতে পারবেন দেখুন</string>
@@ -318,6 +330,7 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="traffic_light_face_enrolling_title_accessibility">আপনার মুখের সামনে ফোন ধরুন</string>
     <string name="usb_use_file_transfers">ফাইল ট্রান্সফার / Android Auto</string>
     <string name="wallpaper_dashboard_summary">রঙ, থিমযুক্ত আইকন, অ্যাপ গ্রিড</string>
+    <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming সাবস্ক্রিপশন দেখুন বা পরিবর্তন করুন</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s-এর সাথে কানেক্ট করা হয়েছে</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">কানেক্ট করতে ট্যাপ করুন</string>
