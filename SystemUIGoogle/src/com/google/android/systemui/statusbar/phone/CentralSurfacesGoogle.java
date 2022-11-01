@@ -245,7 +245,8 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
             WallpaperNotifier wallpaperNotifier,
             Optional<ReverseChargingViewController> reverseChargingViewControllerOptional,
             KeyguardIndicationControllerGoogle keyguardIndicationControllerGoogle,
-            TunerService tunerService) {
+            TunerService tunerService,
+            @Main Handler refreshNavbarHandler) {
         super(context, notificationsController, fragmentService, lightBarController,
                 autoHideController, statusBarWindowController, statusBarWindowStateController,
                 keyguardUpdateMonitor, statusBarSignalPolicy, pulseExpansionHandler,
@@ -275,7 +276,7 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
                 featureFlags, keyguardUnlockAnimationController, delayableExecutor,
                 messageRouter, wallpaperManager, startingSurfaceOptional, activityLaunchAnimator,
                 notifPipelineFlags, jankMonitor, deviceStateManager, dreamOverlayStateController,
-                wiredChargingRippleController, dreamManager, tunerService);
+                wiredChargingRippleController, dreamManager, tunerService, refreshNavbarHandler);
         mBatteryStateChangeCallback = new BatteryController.BatteryStateChangeCallback() {
             @Override
             public void onBatteryLevelChanged(int i, boolean z, boolean z2) {

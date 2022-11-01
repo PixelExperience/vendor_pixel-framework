@@ -82,6 +82,14 @@
             settings:keywords="@string/keywords_display_night_display" />
 
         <Preference
+            android:key="livedisplay"
+            android:title="@*android:string/live_display_title"
+            android:summary="@string/live_display_summary"
+            settings:controller="com.android.settings.livedisplay.LiveDisplayPreferenceController">
+            <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
+        </Preference>
+
+        <Preference
             android:fragment="com.android.settings.display.ColorModePreferenceFragment"
             android:key="color_mode"
             android:title="@string/color_mode_title"
@@ -98,13 +106,6 @@
             android:key="auto_rotate"
             android:title="@string/accelerometer_title"
             settings:controller="com.android.settings.display.SmartAutoRotatePreferenceController"
-            settings:keywords="@string/keywords_auto_rotate" />
-
-        <Preference
-            android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
-            android:key="device_state_auto_rotate"
-            android:title="@string/accelerometer_title"
-            settings:controller="com.android.settings.display.DeviceStateAutoRotateOverviewController"
             settings:keywords="@string/keywords_auto_rotate" />
 
         <Preference
@@ -136,6 +137,15 @@
             android:summary="@string/peak_refresh_rate_summary"
             android:title="@string/peak_refresh_rate_title"
             settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
+
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="display_cutout_hidden"
+            android:title="@string/display_cutout_mode_title"
+            android:summary="%s"
+            android:entries="@array/display_cutout_mode_entries"
+            android:entryValues="@array/display_cutout_mode_values"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
 
         <SwitchPreference
             android:key="touch_sensitivity"
@@ -176,6 +186,19 @@
             android:summary="@string/high_touch_sensitivity_summary"
             android:defaultValue="false"
             settings:controller="com.android.settings.custom.touch.HighTouchSensitivitySettingsPreferenceController" />
+
+        <!-- Double tap to sleep -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/status_bar_double_tap_to_sleep_title"
+            android:summary="@string/status_bar_double_tap_to_sleep_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
         <ListPreference
             android:key="theme"

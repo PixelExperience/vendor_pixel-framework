@@ -27,8 +27,15 @@
         android:title="@string/button_pref_title"
         android:icon="@drawable/ic_button_settings"
         android:order="-249"
-        android:fragment="com.android.settings.custom.buttons.ButtonSettings"
-        settings:controller="com.android.settings.custom.buttons.ButtonSettingsPreferenceController"/>
+        android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
+
+    <!-- Statusbar Settings -->
+    <Preference
+        android:key="statusbar_settings"
+        android:title="@string/status_bar_title"
+        android:icon="@drawable/ic_settings_statusbar"
+        android:order="-248"
+        android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />
 
     <Preference
         android:fragment="com.android.settings.datetime.DateTimeSettings"

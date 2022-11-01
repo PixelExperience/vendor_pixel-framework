@@ -42,6 +42,11 @@
             android:summary="@string/owner_info_settings_summary"
             android:title="@string/owner_info_settings_title" />
 
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"
             android:summary="@string/lockscreen_privacy_wallet_summary"
