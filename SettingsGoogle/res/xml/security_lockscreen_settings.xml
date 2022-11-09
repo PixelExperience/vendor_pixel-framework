@@ -65,6 +65,12 @@
             android:title="@string/lockscreen_trivial_controls_setting_toggle"
             settings:controller="com.android.settings.display.ControlsTrivialPrivacyPreferenceController" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" /> 
+
         <SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:summary="@string/lockscreen_double_line_clock_summary"
