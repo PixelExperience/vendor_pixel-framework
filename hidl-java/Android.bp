@@ -1,0 +1,29 @@
+java_library {
+     name: "vendor.google.google_battery-V1.0-java",
+     srcs: [
+         "vendor/google/google_battery/V1_0/*.java",
+     ],
+     static_libs: [
+         "android.hidl.base-V1.0-java",
+     ],
+}
+
+java_library {
+     name: "vendor.google.google_battery-V1.1-java",
+     srcs: [
+         "vendor/google/google_battery/V1_1/*.java",
+     ],
+     static_libs: [
+         "vendor.google.google_battery-V1.0-java",
+     ],
+}
+
+java_library {
+     name: "vendor.google.google_battery-V1.2-java",
+     srcs: [
+         "vendor/google/google_battery/V1_2/*.java",
+     ],
+     static_libs: [
+         "vendor.google.google_battery-V1.1-java",
+     ],
+}
