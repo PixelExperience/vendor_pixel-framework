@@ -24,7 +24,7 @@
     <string name="config_media_shell_service_component"/>
     <string name="config_nest_dock_manager_service_component"/>
     <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
-    <string name="config_systemUIFactoryComponent">com.google.android.systemui.SystemUIGoogleFactory</string>
+    <string name="config_systemUIFactoryComponent">com.google.android.systemui.SystemUIGoogleInitializer</string>
     <string name="copied_text_label">Copied text</string>
     <string name="copy_url_description">Text copied</string>
     <string name="def_qr_code_component">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
