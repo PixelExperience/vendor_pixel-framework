@@ -16,7 +16,6 @@
 
 package com.google.android.systemui.statusbar;
 
-import android.app.IActivityManager;
 import android.app.admin.DevicePolicyManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -36,6 +35,7 @@ import com.android.keyguard.KeyguardUpdateMonitor;
 import com.android.keyguard.KeyguardUpdateMonitorCallback;
 import com.android.settingslib.fuelgauge.BatteryStatus;
 import com.android.systemui.R;
+import com.android.systemui.biometrics.FaceHelpMessageDeferral;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Background;
@@ -99,12 +99,12 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
             FalsingManager falsingManager,
             LockPatternUtils lockPatternUtils,
             ScreenLifecycle screenLifecycle,
-            IActivityManager iActivityManager,
             KeyguardBypassController keyguardBypassController,
             AccessibilityManager accessibilityManager,
+            FaceHelpMessageDeferral faceHelpMessageDeferral,
             TunerService tunerService,
             DeviceConfigProxy deviceConfigProxy) {
-        super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor, dockManager, broadcastDispatcher, devicePolicyManager, iBatteryStats, userManager, executor, bgExecutor, falsingManager, lockPatternUtils, screenLifecycle, iActivityManager, keyguardBypassController, accessibilityManager);
+        super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor, dockManager, broadcastDispatcher, devicePolicyManager, iBatteryStats, userManager, executor, bgExecutor, falsingManager, lockPatternUtils, screenLifecycle, keyguardBypassController, accessibilityManager, faceHelpMessageDeferral);
         mBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context2, Intent intent) {
