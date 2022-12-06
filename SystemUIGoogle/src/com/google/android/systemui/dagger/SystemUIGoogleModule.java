@@ -39,6 +39,7 @@ import com.android.systemui.dock.DockManager;
 import com.android.systemui.dock.DockManagerImpl;
 import com.android.systemui.doze.DozeHost;
 import com.android.systemui.media.dagger.MediaModule;
+import com.android.systemui.navigationbar.gestural.GestureModule;
 import com.android.systemui.plugins.qs.QSFactory;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
 import com.android.systemui.power.EnhancedEstimates;
@@ -46,6 +47,7 @@ import com.android.systemui.qs.dagger.QSModule;
 import com.android.systemui.qs.tileimpl.QSFactoryImpl;
 import com.android.systemui.recents.Recents;
 import com.android.systemui.recents.RecentsImplementation;
+import com.android.systemui.screenshot.ReferenceScreenshotModule;
 import com.android.systemui.shade.NotificationShadeWindowControllerImpl;
 import com.android.systemui.shade.ShadeController;
 import com.android.systemui.shade.ShadeControllerImpl;
@@ -101,9 +103,11 @@ import dagger.Provides;
 import dagger.Lazy;
 
 @Module(includes = {
+        GestureModule.class,
         MediaModule.class,
         PowerModuleGoogle.class,
         QSModuleGoogle.class,
+        ReferenceScreenshotModule.class,
         StartCentralSurfacesGoogleModule.class,
         VolumeModule.class,
         SmartspaceModule.class,
