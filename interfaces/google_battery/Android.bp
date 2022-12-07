@@ -1,0 +1,30 @@
+aidl_interface {
+    name: "vendor.google.google_battery",
+
+    srcs: [
+        "vendor/google/google_battery/*.aidl",
+    ],
+
+    stability: "vintf",
+    owner: "google",
+
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            enabled: true,
+            platform_apis: true,
+        },
+        ndk: {
+            enabled: false,
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+    ],
+
+}
