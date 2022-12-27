@@ -266,7 +266,7 @@
     <string name="security_dismiss_dialog_dismiss_button">ഡിസ്‌മിസ് ചെയ്യുക</string>
     <string name="security_dismiss_dialog_title">ഈ മുന്നറിയിപ്പ് ഡിസ്‌മിസ് ചെയ്യണോ?</string>
     <string name="security_settings_face_enroll_education_message">അടുത്ത സ്‌ക്രീനിൽ, നിങ്ങളുടെ മുഖത്തിന്റെ എല്ലാ ആംഗിളുകളും പകർത്താൻ തല റൊട്ടേറ്റ് ചെയ്യുക</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">അടുത്ത സ്ക്രീനിൽ നിങ്ങളുടെ ഫോൺ കണ്ണിന് നേരെ പിടിക്കുക</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">അടുത്ത സ്ക്രീനിൽ നിങ്ങളുടെ ഫോൺ കണ്ണിന് നേരെ പിടിക്കുക</string>
     <string name="security_settings_face_enroll_error_dialog_title">എൻറോൾ ചെയ്യൽ പൂർത്തിയായിട്ടില്ല</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">മുഖം എൻറോൾ ചെയ്യലിന്‍റെ സമയ പരിധി എത്തി. വീണ്ടും ശ്രമിക്കൂ.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ഫെയ്‌സ് അൺലോക്ക് സജ്ജീകരണം ടൈംഔട്ടായി</string>
@@ -276,33 +276,33 @@
 ആവശ്യത്തിന് വെളിച്ചമുള്ളപ്പോഴും നിങ്ങൾ മാസ്‌ക്കോ ഇരുണ്ട നിറത്തിലുള്ള കണ്ണടയോ ധരിക്കാത്ത സമയത്തുമാണ് ഫെയ്‌സ് അൺലോക്ക് മികച്ച രീതിയിൽ പ്രവർത്തിക്കുന്നത്."</string>
     <string name="security_settings_face_enroll_finish_title">നന്നായിരിക്കുന്നു!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">കാഴ്‌ചയ്‌ക്കും തല തിരിക്കുന്നതിനും പരിമിതിയുള്ളവർക്കുള്ള സജ്ജീകരണം</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ഫെയ്‌സ് അൺലോക്ക് ഉപയോഗിക്കുമ്പോൾ നിങ്ങളുടെ മുഖം ക്യാമറയ്ക്ക് നേരെയായിരിക്കണം.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">ഫെയ്‌സ് അൺലോക്ക് ഉപയോഗിക്കുമ്പോൾ നിങ്ങളുടെ മുഖം ക്യാമറയ്ക്ക് നേരെയായിരിക്കണം.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">ശ്രദ്ധിക്കേണ്ടത് ആവശ്യമാണ്</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"നിങ്ങൾക്കും കുട്ടിക്കും ക്രമീകരണത്തിൽ ഏതുസമയത്തും മുഖ മോഡൽ ഇല്ലാതാക്കാനോ ഫെയ്‌സ് അൺലോക്ക് ഓഫാക്കാനോ കഴിയും. അവ ഇല്ലാതാക്കുന്നത് വരെ മുഖ മോഡലുകൾ ഫോണിൽ സംഭരിക്കുന്നു.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"നിങ്ങൾക്കും കുട്ടിക്കും ക്രമീകരണത്തിൽ ഏതുസമയത്തും മുഖ മോഡൽ ഇല്ലാതാക്കാനോ ഫെയ്‌സ് അൺലോക്ക് ഓഫാക്കാനോ കഴിയും. അവ ഇല്ലാതാക്കുന്നത് വരെ മുഖ മോഡലുകൾ ഫോണിൽ സംഭരിക്കുന്നു.
 
 g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">നിങ്ങൾക്കും നിങ്ങളുടെ കുട്ടിക്കും നിയന്ത്രിക്കാനാകും</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"നിങ്ങൾക്ക് ക്രമീകരണത്തിൽ ഏതുസമയത്തും മുഖ മോഡൽ ഇല്ലാതാക്കാനോ ഫെയ്‌സ് അൺലോക്ക് ഓഫാക്കാനോ കഴിയും. നിങ്ങൾ മുഖ മോഡലുകൾ ഇല്ലാതാക്കുന്നത് വരെ അവ ഫോണിൽ സംഭരിക്കുന്നു.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"നിങ്ങൾക്ക് ക്രമീകരണത്തിൽ ഏതുസമയത്തും മുഖ മോഡൽ ഇല്ലാതാക്കാനോ ഫെയ്‌സ് അൺലോക്ക് ഓഫാക്കാനോ കഴിയും. നിങ്ങൾ മുഖ മോഡലുകൾ ഇല്ലാതാക്കുന്നത് വരെ അവ ഫോണിൽ സംഭരിക്കുന്നു.
 
 g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="security_settings_face_enroll_introduction_control_title">നിയന്ത്രണം നിങ്ങൾക്കാണ്</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"ഇത് നിങ്ങളുടെ കുട്ടി തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാൻ ഫെയ്‌സ് അൺലോക്ക് അവരുടെ മുഖത്തിന്റെ തനത് മോഡൽ സൃഷ്‌ടിക്കുന്നു. ഈ മുഖ മോഡൽ സൃഷ്ടിക്കാൻ, സജ്ജീകരണ സമയത്ത് നിങ്ങളുടെ കുട്ടിയുടെ മുഖത്തിന്റെ വ്യത്യസ്‌ത ആംഗിളുകളിൽ നിന്നുള്ള ചിത്രങ്ങളെടുക്കണം.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"ഇത് നിങ്ങളുടെ കുട്ടി തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാൻ ഫെയ്‌സ് അൺലോക്ക് അവരുടെ മുഖത്തിന്റെ തനത് മോഡൽ സൃഷ്‌ടിക്കുന്നു. ഈ മുഖ മോഡൽ സൃഷ്ടിക്കാൻ, സജ്ജീകരണ സമയത്ത് നിങ്ങളുടെ കുട്ടിയുടെ മുഖത്തിന്റെ വ്യത്യസ്‌ത ആംഗിളുകളിൽ നിന്നുള്ള ചിത്രങ്ങളെടുക്കണം.
 
 അവർ ഫെയ്‌സ് അൺലോക്ക് ഉപയോഗിക്കുമ്പോൾ, അവരുടെ മുഖ മോഡൽ അപ്ഡേറ്റ് ചെയ്യാൻ ചിത്രങ്ങൾ ഉപയോഗിക്കുന്നു. അവരുടെ മുഖ മോഡൽ സൃഷ്‌ടിക്കാൻ ഉപയോഗിക്കുന്ന ചിത്രങ്ങൾ സംഭരിക്കില്ലെങ്കിലും മുഖ മോഡൽ സുരക്ഷിതമായി ഫോണിൽ സംഭരിക്കുന്നു, അത് ഒരിക്കലും ഫോണിൽ നിന്ന് പുറത്ത് പോകില്ല. എല്ലാ പ്രോസസിംഗും ഫോണിൽ സുരക്ഷിതമായി നടക്കുന്നു."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കുന്നതിന് ഫെയ്‌സ് അൺലോക്ക് നിങ്ങളുടെ മുഖത്തിന്റെ ഒരു തനത് മോഡൽ സൃഷ്ടിക്കുന്നു. ഈ മുഖ മോഡൽ സൃഷ്ടിക്കാൻ, സജ്ജീകരണ സമയത്ത് നിങ്ങളുടെ മുഖത്തിന്റെ വ്യത്യസ്‌ത ആംഗിളുകളിൽ നിന്നുള്ള ചിത്രങ്ങളെടുക്കണം.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കുന്നതിന് ഫെയ്‌സ് അൺലോക്ക് നിങ്ങളുടെ മുഖത്തിന്റെ ഒരു തനത് മോഡൽ സൃഷ്ടിക്കുന്നു. ഈ മുഖ മോഡൽ സൃഷ്ടിക്കാൻ, സജ്ജീകരണ സമയത്ത് നിങ്ങളുടെ മുഖത്തിന്റെ വ്യത്യസ്‌ത ആംഗിളുകളിൽ നിന്നുള്ള ചിത്രങ്ങളെടുക്കണം.
 
 നിങ്ങൾ ഫെയ്‌സ് അൺലോക്ക് ഉപയോഗിക്കുമ്പോൾ നിങ്ങളുടെ മുഖ മോഡൽ അപ്ഡേറ്റ് ചെയ്യാൻ ചിത്രങ്ങൾ ഉപയോഗിക്കുന്നു. മുഖ മോഡൽ സൃഷ്‌ടിക്കാൻ ഉപയോഗിക്കുന്ന ചിത്രങ്ങൾ സംഭരിക്കില്ലെങ്കിലും മുഖ മോഡൽ സുരക്ഷിതമായി നിങ്ങളുടെ ഫോണിൽ സംഭരിക്കുന്നു, അത് ഒരിക്കലും ഫോണിൽ നിന്ന് പുറത്ത് പോകില്ല. എല്ലാ പ്രോസസിംഗും നിങ്ങളുടെ ഫോണിൽ സുരക്ഷിതമായി നടക്കുന്നു."</string>
     <string name="security_settings_face_enroll_introduction_how_title">ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങളുടെ കുട്ടി തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ അവരുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്കും നിങ്ങളുടെ കുട്ടിക്കും ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങളുടെ കുട്ടി തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ അവരുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്കും നിങ്ങളുടെ കുട്ടിക്കും ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">നിങ്ങളുടെ കുട്ടി സാധാരണ കണ്ണട ധരിക്കാറുണ്ടെങ്കിൽ, സജ്ജീകരിക്കുമ്പോൾ അവ ധരിക്കാം.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">നിങ്ങളുടെ കുട്ടിയുടെ മുഖം ഉപയോഗിച്ച് അവരുടെ ഫോൺ അൺലോക്ക് ചെയ്യുന്നത്, ശക്തമായ പാറ്റേൺ, പിൻ അല്ലെങ്കിൽ പാസ്‌വേഡ് ഉപയോഗിച്ച് അൺലോക്ക് ചെയ്യുന്നത് പോലുള്ള സുരക്ഷ നൽകുന്നില്ല</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">തുറക്കാൻ ഉദ്ദേശിക്കാത്ത സന്ദർഭത്തിൽ പോലും അവർ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, അവരുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, അല്ലെങ്കിൽ ഫോൺ അവരുടെ മുഖത്തിന് നേരെ പിടിച്ചാൽ മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്ക് ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">നിങ്ങളുടെ കുട്ടിയുടെ മുഖം ഉപയോഗിച്ച് അവരുടെ ഫോൺ അൺലോക്ക് ചെയ്യുന്നത്, ശക്തമായ പാറ്റേൺ, പിൻ അല്ലെങ്കിൽ പാസ്‌വേഡ് ഉപയോഗിച്ച് അൺലോക്ക് ചെയ്യുന്നത് പോലുള്ള സുരക്ഷ നൽകുന്നില്ല</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">തുറക്കാൻ ഉദ്ദേശിക്കാത്ത സന്ദർഭത്തിൽ പോലും അവർ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, അവരുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, അല്ലെങ്കിൽ ഫോൺ അവരുടെ മുഖത്തിന് നേരെ പിടിച്ചാൽ മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ കണ്ണ് തുറന്നിരിക്കാൻ ഫെയ്‌സ് അൺലോക്കിന് ആവശ്യപ്പെടാം. നിങ്ങൾക്ക് ക്രമീകരണത്തിൽ ഏതുസമയത്തും ഈ ഓപ്ഷൻ ഓണാക്കാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">ഗ്ലാസുകളോ ഇളം നിറമുള്ള സൺ ഗ്ലാസുകളോ കുഴപ്പമില്ല.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ഫോൺ അൺലോക്ക് ചെയ്യാൻ മുഖം ഉപയോഗിക്കുന്നത് ശക്തമായ പാറ്റേണോ പിൻ നമ്പറോ പാസ്‌വേഡോ ഉപയോഗിക്കുന്നത്ര സുരക്ഷിതമായിരിക്കണമെന്നില്ല</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">തുറക്കാൻ ഉദ്ദേശിക്കാതെ നിങ്ങൾ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, നിങ്ങളുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, മാത്രമല്ല ഫോൺ നിങ്ങളുടെ മുഖത്തിനു നേരെ നീട്ടിയും മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">ഫോൺ അൺലോക്ക് ചെയ്യാൻ മുഖം ഉപയോഗിക്കുന്നത് ശക്തമായ പാറ്റേണോ പിൻ നമ്പറോ പാസ്‌വേഡോ ഉപയോഗിക്കുന്നത്ര സുരക്ഷിതമായിരിക്കണമെന്നില്ല</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">തുറക്കാൻ ഉദ്ദേശിക്കാതെ നിങ്ങൾ വെറുതെ ഫോണിലേക്ക് നോക്കിയാലും അത് അൺലോക്കാകും. ഒരേ മുഖച്ഛായയുള്ള സഹോദരങ്ങളെ പോലെ, നിങ്ങളുമായി വളരെയധികം സാമ്യമുള്ള ആർക്കും ഫോൺ അൺലോക്ക് ചെയ്യാനാകും, മാത്രമല്ല ഫോൺ നിങ്ങളുടെ മുഖത്തിനു നേരെ നീട്ടിയും മറ്റൊരാൾക്ക് അൺലോക്ക് ചെയ്യാനാകും.</string>
     <string name="security_settings_face_enroll_introduction_info_title">ശ്രദ്ധിക്കുക</string>
-    <string name="security_settings_face_enroll_introduction_message">ആപ്പുകളിലേക്ക് സൈൻ ഇൻ ചെയ്യുക, വാങ്ങൽ അംഗീകരിക്കുക പോലുള്ള സന്ദർഭങ്ങളിൽ ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കുക.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">ആപ്പുകളിലേക്ക് സൈൻ ഇൻ ചെയ്യുക, വാങ്ങൽ അംഗീകരിക്കുക പോലുള്ള സന്ദർഭങ്ങളിൽ ഫോൺ അൺലോക്ക് ചെയ്യാനോ ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കാനോ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കുക.</string>
     <string name="security_settings_face_enroll_introduction_title">ഫെയ്‌സ് അൺലോക്ക് സജ്ജീകരിക്കൂ</string>
     <string name="security_settings_face_enroll_next">അടുത്തത്</string>
     <string name="security_settings_face_enroll_partial_message">പ്രകടനം മെച്ചപ്പെടുത്താൻ, ക്രമീകരണത്തിൽ ഫെയ്‌സ് അൺലോക്ക് നിങ്ങൾക്ക് വീണ്ടും സജ്ജീകരിക്കാം</string>

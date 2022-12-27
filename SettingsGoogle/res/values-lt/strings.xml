@@ -267,7 +267,7 @@ Norėdami pabandyti, apverskite telefoną."</string>
     <string name="security_dismiss_dialog_dismiss_button">Atsisakyti</string>
     <string name="security_dismiss_dialog_title">Atsisakyti šio perspėjimo?</string>
     <string name="security_settings_face_enroll_education_message">Kitame ekrane sukinėkite galvą, kad užfiksuotumėte veidą visais kampais</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Kitame ekrane laikykite telefoną akių lygyje</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Kitame ekrane laikykite telefoną akių lygyje</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Baigėsi atrakinimo pagal veidą nustatymo skirtasis laikas</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Dabar galite naudoti veidą, kad atrakintumėte telefoną ar patvirtintumėte savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Dabar paėmę telefoną ar palietę ekraną galite jį atrakinti pagal veidą.
@@ -275,33 +275,33 @@ Norėdami pabandyti, apverskite telefoną."</string>
 Atrakinimas pagal veidą geriausiai veikia, kai yra tinkamas apšvietimas ir nedėvite kaukės ar tamsių akinių."</string>
     <string name="security_settings_face_enroll_finish_title">Viskas gerai!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nust. esant ribotam regėj. ar galvos judes.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Naudojant atrakinimą pagal veidą, galva turi būti laikoma tiesiai priešais telefoną.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Naudojant atrakinimą pagal veidą, galva turi būti laikoma tiesiai priešais telefoną.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Akys turi būti atmerktos</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Jūs ir jūsų vaikas galite bet kada ištrinti veido modelį arba išjungti atrakinimą pagal veidą „Nustatymų“ skiltyje. Veido modeliai saugomi telefone, kol ištrinami.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Jūs ir jūsų vaikas galite bet kada ištrinti veido modelį arba išjungti atrakinimą pagal veidą „Nustatymų“ skiltyje. Veido modeliai saugomi telefone, kol ištrinami.
 
 Sužinokite daugiau adresu g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Viską valdote jūs ir jūsų vaikas</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Galite bet kada ištrinti veido modelį ar išjungti atrakinimą pagal veidą skiltyje „Nustatymai“. Veido modeliai saugomi telefone, kol juos ištrinate.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Galite bet kada ištrinti veido modelį ar išjungti atrakinimą pagal veidą skiltyje „Nustatymai“. Veido modeliai saugomi telefone, kol juos ištrinate.
 
 Sužinokite daugiau adresu g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Jūs viską valdote</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Naudojant atrakinimą pagal veidą kuriamas unikalus jūsų vaiko veido modelis, kad būtų galima patvirtinti vaiko tapatybę. Norint sukurti šį veido modelį nustatant, reikia sukurti vaiko veido vaizdų iš skirtingų kampų.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Naudojant atrakinimą pagal veidą kuriamas unikalus jūsų vaiko veido modelis, kad būtų galima patvirtinti vaiko tapatybę. Norint sukurti šį veido modelį nustatant, reikia sukurti vaiko veido vaizdų iš skirtingų kampų.
 
 Naudojant atrakinimą pagal veidą vaizdai naudojami veido modeliui atnaujinti. Vaizdai, kurie naudojami veido modeliui kurti, nesaugomi, bet veido modelis saugiai saugomas telefone ir visada lieka jame. Visas apdorojimo procesas saugiai vykdomas telefone."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Naudojant atrakinimą pagal veidą kuriamas unikalus jūsų veido modelis, kad būtų galima patvirtinti jūsų tapatybę. Kad sukurtumėte šį veido modelį nustatydami, turite sukurti veido vaizdų iš skirtingų kampų.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Naudojant atrakinimą pagal veidą kuriamas unikalus jūsų veido modelis, kad būtų galima patvirtinti jūsų tapatybę. Kad sukurtumėte šį veido modelį nustatydami, turite sukurti veido vaizdų iš skirtingų kampų.
 
 Naudojant atrakinimą pagal veidą vaizdai naudojami jūsų veido modeliui atnaujinti. Vaizdai, kurie naudojami jūsų veido modeliui kurti, nesaugomi, bet veido modelis saugiai saugomas telefone ir visada lieka jame. Visas apdorojimo procesas saugiai vykdomas telefone."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Kaip tai veikia</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Atrakinimo pagal veidą funkcijai gali reikėti, jog vaikas būtų atsimerkęs, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai vaikas nori naudotis telefonu. Jūs ir jūsų vaikas bet kada galite ištrinti šią parinktį skiltyje „Nustatymai“.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Atrakinimo pagal veidą funkcijai gali reikėti, jog vaikas būtų atsimerkęs, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai vaikas nori naudotis telefonu. Jūs ir jūsų vaikas bet kada galite ištrinti šią parinktį skiltyje „Nustatymai“.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jei vaikas įprastai nešioja akinius, nustatydamas jis gali juos užsidėti.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Atrakinant telefoną vaiko veidu gali būti ne taip saugu kaip naudojant sudėtingą atrakinimo piešinį, PIN kodą ar slaptažodį</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Žiūrint į telefoną galima jį atrakinti net neketinant to daryti. Be to, telefoną gali atrakinti į vaiką labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną vaikui prie veido.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Atrakinimo pagal veidą funkcijai gali reikėti, jog būtumėte atsimerkę, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai jūs. Bet kada galite įjungti šią parinktį skiltyje „Nustatymai“.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Atrakinant telefoną vaiko veidu gali būti ne taip saugu kaip naudojant sudėtingą atrakinimo piešinį, PIN kodą ar slaptažodį</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Žiūrint į telefoną galima jį atrakinti net neketinant to daryti. Be to, telefoną gali atrakinti į vaiką labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną vaikui prie veido.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Atrakinimo pagal veidą funkcijai gali reikėti, jog būtumėte atsimerkę, kad ji galėtų atrakinti telefoną ar patvirtinti, kad tai jūs. Bet kada galite įjungti šią parinktį skiltyje „Nustatymai“.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Akiniai arba neryškaus atspalvio akiniai nuo saulės netrukdys.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefono atrakinimo pagal veidą metodas gali būti ne toks saugus kaip sudėtingas atrakinimo piešinys, PIN kodas ar slaptažodis</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Žiūrėdami į telefoną galite jį atrakinti net neketindami to daryti. Be to, telefoną gali atrakinti į jus labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną jums prie veido.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Telefono atrakinimo pagal veidą metodas gali būti ne toks saugus kaip sudėtingas atrakinimo piešinys, PIN kodas ar slaptažodis</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Žiūrėdami į telefoną galite jį atrakinti net neketindami to daryti. Be to, telefoną gali atrakinti į jus labai panašus asmuo, pvz., identiškas dvynys, arba galima atrakinti, kai kas nors laiko telefoną jums prie veido.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Atminkite</string>
-    <string name="security_settings_face_enroll_introduction_message">Naudodami atrakinimą pagal veidą atrakinkite telefoną ar patvirtinkite savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Naudodami atrakinimą pagal veidą atrakinkite telefoną ar patvirtinkite savo tapatybę, pvz., kai prisijungiate prie programų ar patvirtinate pirkinį.</string>
     <string name="security_settings_face_enroll_introduction_title">Nustatyti atrakinimą pagal veidą</string>
     <string name="security_settings_face_enroll_next">Kitas</string>
     <string name="security_settings_face_enroll_partial_message">Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti apsilankę skiltyje „Nustatymai“</string>

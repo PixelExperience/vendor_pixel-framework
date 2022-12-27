@@ -268,7 +268,7 @@ Odwróć telefon, aby wypróbować."</string>
     <string name="security_dismiss_dialog_title">Zamknąć to ostrzeżenie?</string>
     <string name="security_settings_face_enroll_done">OK</string>
     <string name="security_settings_face_enroll_education_message">Na następnym ekranie obracaj głowę tak, by zarejestrować obraz twarzy pod wszystkimi kątami</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Na następnym ekranie przytrzymaj telefon na wysokości oczu</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Na następnym ekranie przytrzymaj telefon na wysokości oczu</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Przekroczono limit czasu konfiguracji rozpoznawania twarzy</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Możesz teraz używać rozpoznawania twarzy do odblokowywania telefonu oraz weryfikacji tożsamości, na przykład podczas logowania się w aplikacjach i zatwierdzania zakupów</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Możesz teraz odblokować telefon przy użyciu modelu twarzy, gdy go podniesiesz lub klikniesz jego ekran.
@@ -276,33 +276,33 @@ Odwróć telefon, aby wypróbować."</string>
 Rozpoznawanie twarzy działa najlepiej w dobrze oświetlonych miejscach i gdy nie masz na sobie maseczki ani ciemnych okularów."</string>
     <string name="security_settings_face_enroll_finish_title">W porządku</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfiguracja przy ograniczeniach widzenia lub ruchomości głowy</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Podczas używania funkcji rozpoznawania twarzy może być konieczne ustawienie głowy bardziej na wprost telefonu.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Podczas używania funkcji rozpoznawania twarzy może być konieczne ustawienie głowy bardziej na wprost telefonu.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Wymaga otwartych oczu</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Ty i Twoje dziecko w dowolnej chwili możecie usunąć model twarzy i wyłączyć rozpoznawanie twarzy w Ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki nie zostaną usunięte.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Ty i Twoje dziecko w dowolnej chwili możecie usunąć model twarzy i wyłączyć rozpoznawanie twarzy w Ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki nie zostaną usunięte.
 
 Więcej informacji znajdziesz na stronie g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">To Ty i Twoje dziecko macie nad wszystkim kontrolę</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"W dowolnej chwili możesz usunąć model twarzy i wyłączyć rozpoznawanie twarzy w ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki ich nie usuniesz.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"W dowolnej chwili możesz usunąć model twarzy i wyłączyć rozpoznawanie twarzy w ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki ich nie usuniesz.
 
 Więcej informacji znajdziesz na stronie g.co/pixel/faceunlock"</string>
     <string name="security_settings_face_enroll_introduction_control_title">Masz wszystko pod kontrolą</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Rozpoznawanie twarzy tworzy unikalny model twarzy Twojego dziecka, na podstawie którego rozpoznaje je podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, Twoje dziecko musi zrobić zdjęcia twarzy pod różnymi kątami.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Rozpoznawanie twarzy tworzy unikalny model twarzy Twojego dziecka, na podstawie którego rozpoznaje je podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, Twoje dziecko musi zrobić zdjęcia twarzy pod różnymi kątami.
 
 Telefon będzie też wykorzystywać obrazy z jego interakcji z rozpoznawaniem twarzy do aktualizowania modelu. Obrazy użyte do utworzenia modelu twarzy nie są zapisywane, a sam model jest bezpiecznie przechowywany na telefonie i nigdy go nie opuszcza. Przetwarzanie danych odbywa się w całości na telefonie w bezpieczny sposób."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Rozpoznawanie twarzy tworzy unikalny model Twojej twarzy, na podstawie którego rozpoznaje Cię podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, musisz zrobić zdjęcia twarzy pod różnymi kątami.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Rozpoznawanie twarzy tworzy unikalny model Twojej twarzy, na podstawie którego rozpoznaje Cię podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, musisz zrobić zdjęcia twarzy pod różnymi kątami.
 
 Telefon będzie też wykorzystywać obrazy z Twoich interakcji z rozpoznawaniem twarzy do aktualizowania modelu. Obrazy użyte do utworzenia modelu twarzy nie są zapisywane, a sam model jest bezpiecznie przechowywany na telefonie i nigdy go nie opuszcza. Przetwarzanie danych odbywa się w całości na telefonie w bezpieczny sposób."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Jak to działa</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odblokowywanie telefonu dziecka oraz potwierdzanie jego tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. Ty i Twoje dziecko w dowolnej chwili możecie włączyć tę opcję w Ustawieniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Odblokowywanie telefonu dziecka oraz potwierdzanie jego tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. Ty i Twoje dziecko w dowolnej chwili możecie włączyć tę opcję w Ustawieniach.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jeśli Twoje dziecko zwykle nosi okulary, może mieć je na sobie podczas konfiguracji.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odblokowywanie telefonu dziecka skanem jego twarzy może być mniej bezpieczne niż trudny wzór, kod PIN czy hasło</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Patrząc na telefon, dziecko może go niechcący odblokować. Telefon mogą również odblokować osoby podobne do dziecka, np. jego rodzeństwo, a także ktoś, kto zbliży telefon do twarzy dziecka.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Odblokowywanie telefonu oraz potwierdzanie tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. W dowolnej chwili możesz włączyć tę opcję w Ustawieniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Odblokowywanie telefonu dziecka skanem jego twarzy może być mniej bezpieczne niż trudny wzór, kod PIN czy hasło</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Patrząc na telefon, dziecko może go niechcący odblokować. Telefon mogą również odblokować osoby podobne do dziecka, np. jego rodzeństwo, a także ktoś, kto zbliży telefon do twarzy dziecka.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Odblokowywanie telefonu oraz potwierdzanie tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. W dowolnej chwili możesz włączyć tę opcję w Ustawieniach.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Możesz mieć okulary, nawet niezbyt ciemne okulary przeciwsłoneczne.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Korzystanie z rozpoznawania twarzy do odblokowywania telefonu może być mniej bezpieczne niż skomplikowany wzór, mocne hasło lub kod PIN.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Patrząc na telefon, możesz go niechcący odblokować. Telefon mogą również odblokować osoby podobne do Ciebie, np. Twoje rodzeństwo, jeśli zbliżą go do twarzy.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Korzystanie z rozpoznawania twarzy do odblokowywania telefonu może być mniej bezpieczne niż skomplikowany wzór, mocne hasło lub kod PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Patrząc na telefon, możesz go niechcący odblokować. Telefon mogą również odblokować osoby podobne do Ciebie, np. Twoje rodzeństwo, jeśli zbliżą go do twarzy.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Pamiętaj</string>
-    <string name="security_settings_face_enroll_introduction_message">Używaj rozpoznawania twarzy do odblokowywania telefonu i potwierdzania tożsamości, na przykład podczas logowania się w aplikacjach lub zatwierdzania zakupów.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Używaj rozpoznawania twarzy do odblokowywania telefonu i potwierdzania tożsamości, na przykład podczas logowania się w aplikacjach lub zatwierdzania zakupów.</string>
     <string name="security_settings_face_enroll_introduction_title">Skonfiguruj rozpoznawanie twarzy</string>
     <string name="security_settings_face_enroll_next">Dalej</string>
     <string name="security_settings_face_enroll_partial_message">Aby rozpoznawanie twarzy działało lepiej, możesz skonfigurować je jeszcze raz w Ustawieniach</string>

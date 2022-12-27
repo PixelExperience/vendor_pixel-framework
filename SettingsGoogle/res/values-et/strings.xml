@@ -267,7 +267,7 @@ Proovimiseks pöörake telefon ümber."</string>
     <string name="security_dismiss_dialog_dismiss_button">Loobu</string>
     <string name="security_dismiss_dialog_title">Kas loobuda hoiatusest?</string>
     <string name="security_settings_face_enroll_education_message">Pöörake järgmisel ekraanikuval oma pead, et nägu jäädvustada iga nurga alt.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Hoidke järgmisel kuval telefoni silmade kõrgusel</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Hoidke järgmisel kuval telefoni silmade kõrgusel</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Näo registreerimise ajalimiit on täis. Proovige uuesti.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Näoga avamise seadistamine aegus</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Nüüd saate telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostu kinnitamisel) oma nägu kasutada.</string>
@@ -276,33 +276,33 @@ Proovimiseks pöörake telefon ümber."</string>
 Näoga avamine toimib kõige paremini, kui valgust on piisavalt ja te ei kanna maski ega tumedaid prille."</string>
     <string name="security_settings_face_enroll_finish_title">Paistab korras!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Seadistus piiratud nägemise või pealiikumise jaoks</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kui kasutate funktsiooni Näoga avamine, peate võib-olla oma pead täpsemalt telefoni ees hoidma.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Kui kasutate funktsiooni Näoga avamine, peate võib-olla oma pead täpsemalt telefoni ees hoidma.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Silmad peavad avatud olema</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Seadetes saate (või saab laps) näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutatakse.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Seadetes saate (või saab laps) näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutatakse.
 
 Lisateave: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Kontroll on teie ja teie lapse käes</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Seadetes saate oma näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutate.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Seadetes saate oma näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutate.
 
 Lisateave: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Teie juhite toimuvat</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Näoga avamise funktsioon loob teie lapse näost kordumatu mudeli, mille abil tema isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised tema näost eri nurkade all.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Näoga avamise funktsioon loob teie lapse näost kordumatu mudeli, mille abil tema isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised tema näost eri nurkade all.
 
 Kui ta kasutab näoga avamist, kasutatakse kujutisi tema näomudeli värskendamiseks. Näomudeli loomiseks kasutatavaid kujutisi ei salvestata, kuid näomudel salvestatakse turvaliselt telefoni, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt telefonis."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Näoga avamise funktsioon loob teie näost kordumatu mudeli, mille abil teie isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised teie näost eri nurkade all.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Näoga avamise funktsioon loob teie näost kordumatu mudeli, mille abil teie isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised teie näost eri nurkade all.
 
 Kui kasutate näoga avamist, kasutatakse kujutisi teie näomudeli värskendamiseks. Näomudeli loomiseks kasutatavaid kujutisi ei salvestata, kuid näomudel salvestatakse turvaliselt teie telefoni, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt teie telefonis."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Tööpõhimõtted</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie lapse silmad oleksid lahti. Selle valiku saate (või saab laps) seadetes alati sisse lülitada.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie lapse silmad oleksid lahti. Selle valiku saate (või saab laps) seadetes alati sisse lülitada.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kui laps kannab tavaliselt prille, võib ta neid kanda ka seadistamise ajal.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Lapse telefoni avamiseks tema näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefoni vaatamisel võib see avaneda ka siis, kui ta seda ei soovi. Temaga sarnane inimene, näiteks tema identne vend või õde, saab samuti tema telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni tema näo ees.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie silmad oleksid lahti. Selle valiku saate seadetes alati sisse lülitada.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Lapse telefoni avamiseks tema näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Telefoni vaatamisel võib see avaneda ka siis, kui ta seda ei soovi. Temaga sarnane inimene, näiteks tema identne vend või õde, saab samuti tema telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni tema näo ees.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie silmad oleksid lahti. Selle valiku saate seadetes alati sisse lülitada.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Prille ja heledama klaasiga päikeseprille tohib kasutada.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefoni avamiseks näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Telefoni vaatamisel võib see avaneda ka siis, kui te seda ei soovi. Teiega sarnane inimene, näiteks teie identne vend või õde, saab samuti teie telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni teie näo ees.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Telefoni avamiseks näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Telefoni vaatamisel võib see avaneda ka siis, kui te seda ei soovi. Teiega sarnane inimene, näiteks teie identne vend või õde, saab samuti teie telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni teie näo ees.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Pidage meeles</string>
-    <string name="security_settings_face_enroll_introduction_message">Kasutage oma telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostude kinnitamisel) oma nägu.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Kasutage oma telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostude kinnitamisel) oma nägu.</string>
     <string name="security_settings_face_enroll_introduction_title">Funktsiooni Näoga avamine seadistamine</string>
     <string name="security_settings_face_enroll_next">Järgmine</string>
     <string name="security_settings_face_enroll_partial_message">Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada</string>

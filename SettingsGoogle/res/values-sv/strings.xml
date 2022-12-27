@@ -266,7 +266,7 @@ Vänd på telefonen om du vill testa."</string>
     <string name="security_dismiss_dialog_dismiss_button">Ignorera</string>
     <string name="security_dismiss_dialog_title">Vill du ignorera varningen?</string>
     <string name="security_settings_face_enroll_education_message">Vrid på huvudet på nästa skärm så att ditt ansikte kan registreras ur olika vinklar</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Håll telefonen i ögonhöjd när du kommer till nästa skärm</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Håll telefonen i ögonhöjd när du kommer till nästa skärm</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tidsgränsen för ansiktsregistrering har uppnåtts. Försök igen.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigureringen av ansiktslås har nått tidsgränsen</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Nu kan du låsa upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp</string>
@@ -275,33 +275,33 @@ Vänd på telefonen om du vill testa."</string>
 Ansiktslås fungerar bäst när det finns tillräckligt med ljus och du inte har munskydd eller mörka glasögon på dig."</string>
     <string name="security_settings_face_enroll_finish_title">Det ser bra ut!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfigurering vid nedsatt syn eller rörelseförmåga</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">När du använder ansiktslås kan du behöva ha huvudet mer rakt framför telefonen.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">När du använder ansiktslås kan du behöva ha huvudet mer rakt framför telefonen.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Du måste ha ögonen öppna</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Du och ditt barn kan radera ansiktsmodellen eller inaktivera ansiktslås när som helst i inställningarna Ansiktsmodeller lagras på telefonen tills du raderar dem.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Du och ditt barn kan radera ansiktsmodellen eller inaktivera ansiktslås när som helst i inställningarna Ansiktsmodeller lagras på telefonen tills du raderar dem.
 
 Läs mer på g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Det är du och ditt barn som har kontrollen</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Du kan radera ansiktsmodellen eller inaktivera ansiktslås när du vill i inställningarna. Ansiktsmodeller lagras på telefonen tills du raderar dem.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Du kan radera ansiktsmodellen eller inaktivera ansiktslås när du vill i inställningarna. Ansiktsmodeller lagras på telefonen tills du raderar dem.
 
 Läs mer på g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Du bestämmer själv</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Med ansiktslås skapas en unik modell av ditt barns ansikte så att barnet kan verifiera sin identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Med ansiktslås skapas en unik modell av ditt barns ansikte så att barnet kan verifiera sin identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
 
 När barnet använder ansiktslås uppdateras ansiktsmodellen med hjälp av bilder. De bilder som används för att skapa ansiktsmodellen lagras inte, men ansiktsmodellen lagras säkert på telefonen och lämnar den aldrig. All behandling görs säkert på telefonen."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Med ansiktslås skapas en unik modell av ditt ansikte så att du kan verifiera din identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Med ansiktslås skapas en unik modell av ditt ansikte så att du kan verifiera din identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
 
 När du använder ansiktslås uppdateras ansiktsmodellen med hjälp av bilder. De bilder som används för att skapa ansiktsmodellen lagras inte, men ansiktsmodellen lagras säkert på telefonen och lämnar den aldrig. All behandling görs säkert på telefonen."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Så fungerar det</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ditt barns ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera sin identitet. Du och ditt barn kan när som helst aktivera inställningen i Inställningar.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Ditt barns ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera sin identitet. Du och ditt barn kan när som helst aktivera inställningen i Inställningar.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Om ditt barn vanligen använder glasögon kan barnet ha dem på sig under konfigureringen.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Det kan vara mindre säkert att använda ditt barns ansikte för att låsa upp hans eller hennes telefon än att ha ett starkt mönster, en stark pinkod eller ett starkt lösenord</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Om ditt barn tittar på telefonen kan barnet oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik ditt barn, till exempel ett syskon, eller om någon håller upp den framför barnets ansikte.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Dina ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera din identitet. Du kan när som helst aktivera inställningen i Inställningar.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Det kan vara mindre säkert att använda ditt barns ansikte för att låsa upp hans eller hennes telefon än att ha ett starkt mönster, en stark pinkod eller ett starkt lösenord</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Om ditt barn tittar på telefonen kan barnet oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik ditt barn, till exempel ett syskon, eller om någon håller upp den framför barnets ansikte.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Dina ögon kan behöva vara öppna för att låsa upp telefonen med ansiktslåset eller verifiera din identitet. Du kan när som helst aktivera inställningen i Inställningar.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Glasögon eller solglasögon i en ljus ton är okej.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Att låsa upp telefonen med ansiktet kan vara mindre säkert än ett starkt mönster, en bra pinkod eller ett starkt lösenord.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Om du tittar på telefonen kan du oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik dig, till exempel ett syskon, eller om någon håller upp den framför ditt ansikte.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Att låsa upp telefonen med ansiktet kan vara mindre säkert än ett starkt mönster, en bra pinkod eller ett starkt lösenord.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Om du tittar på telefonen kan du oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik dig, till exempel ett syskon, eller om någon håller upp den framför ditt ansikte.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Kom ihåg</string>
-    <string name="security_settings_face_enroll_introduction_message">Lås upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Lås upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp.</string>
     <string name="security_settings_face_enroll_introduction_title">Konfigurera ansiktslås</string>
     <string name="security_settings_face_enroll_next">Nästa</string>
     <string name="security_settings_face_enroll_partial_message">Du kan göra om konfigureringen av ansiktslås i inställningarna och få bättre prestanda</string>

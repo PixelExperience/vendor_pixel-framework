@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">አሰናብት</string>
     <string name="security_dismiss_dialog_title">ይህ ማስጠንቀቂያ ይሰናበት?</string>
     <string name="security_settings_face_enroll_education_message">በሚቀጥለው ማያ ገጽ ላይ ሁሉንም የመልክዎ ማዕዘኖች ለማግኘት ጭንቅላትዎን ያሽከርክሩት</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">በሚቀጥለው ማያ ገጽ ላይ ስልክዎን በዓይንዎ ልክ ይያዙት</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">በሚቀጥለው ማያ ገጽ ላይ ስልክዎን በዓይንዎ ልክ ይያዙት</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">የፊት ማስመዘገቢያ ጊዜ ገደብ ላይ ተደርሷል። እንደገና ይሞክሩ።</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">የበመልክ መክፈት ውቅረት ጊዜ አብቅቷል</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">ስልክዎን ለመክፈት ወይም ለምሳሌ ወደ መተግበሪያዎች በመለያ ሲገቡ ወይም አንድን ግዢ ሲያጸድቁ እርስዎ መሆንዎን ለማረጋገጥ ከአሁን በኋላ መልክዎን መጠቀም ይችላሉ።</string>
@@ -276,33 +276,33 @@
 በቂ ብርሃን በሚኖር እንዲሁም የፊት ጭምብል ወይም ጠቆር ያሉ መነጽሮችን በማያደርጉ ጊዜ በመልክ መክፈት በተሻለ ሁኔታ ይሰራል።"</string>
     <string name="security_settings_face_enroll_finish_title">ጥሩ ይመስላል!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ለተገደበ እይታ ወይም የጭንቅላት እንቅስቃሴ ያቀናብሩ</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">በመልክ መክፈትን ሲጠቀሙ የእርስዎ ጭንቅላት ይበልጥ ከስልክዎ ፊት ለፊት መሆን ሊያስፈልገው ይችላል።</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">በመልክ መክፈትን ሲጠቀሙ የእርስዎ ጭንቅላት ይበልጥ ከስልክዎ ፊት ለፊት መሆን ሊያስፈልገው ይችላል።</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">በዓይኖች መክፈትን ጠይቅ</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ የመልክ ሞዴላቸውን መሰረዝ ወይም በመልክ መክፈትን ማጥፋት ትችላላችሁ። የመልክ ሞዴሎች እስኪሰረዙ ድረስ በስልኩ ላይ ይከማቻሉ።
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ የመልክ ሞዴላቸውን መሰረዝ ወይም በመልክ መክፈትን ማጥፋት ትችላላችሁ። የመልክ ሞዴሎች እስኪሰረዙ ድረስ በስልኩ ላይ ይከማቻሉ።
 
 g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">እርስዎ እና ልጅዎ ተቆጣጣሪ ናችሁ</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"በማንኛውም ጊዜ በቅንብሮች ውስጥ የእርስዎን የመልክ ሞዴልን መሰረዝ ወይም በመልክ መክፈትን ማጥፋት ይችላሉ። የመልክ ሞዴሎች እርስዎ እስኪሰርዟቸው ድረስ በስልኩ ላይ ይከማቻሉ።የመልክ ሞዴሎች እርስዎ እስኪሰርዟቸው ድረስ በስልኩ ላይ ይከማቻሉ።
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"በማንኛውም ጊዜ በቅንብሮች ውስጥ የእርስዎን የመልክ ሞዴልን መሰረዝ ወይም በመልክ መክፈትን ማጥፋት ይችላሉ። የመልክ ሞዴሎች እርስዎ እስኪሰርዟቸው ድረስ በስልኩ ላይ ይከማቻሉ።የመልክ ሞዴሎች እርስዎ እስኪሰርዟቸው ድረስ በስልኩ ላይ ይከማቻሉ።
 
 g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="security_settings_face_enroll_introduction_control_title">እርስዎ የሚቆጣጠሩት ነው</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"በመልክ መክፈት እነሱ መሆናቸውን ለማረጋገጥ ልዩ የልጅዎን መልክ ሞዴል ይፈጥራል። በማዋቀር ወቅት ይህን የመልክ ሞዴል ለመፍጠር ልጅዎ የመልካቸውን ምስሎች ከተለያዩ ማዕዘናት ያነሳሉ።
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"በመልክ መክፈት እነሱ መሆናቸውን ለማረጋገጥ ልዩ የልጅዎን መልክ ሞዴል ይፈጥራል። በማዋቀር ወቅት ይህን የመልክ ሞዴል ለመፍጠር ልጅዎ የመልካቸውን ምስሎች ከተለያዩ ማዕዘናት ያነሳሉ።
 
 በመልክ መክፈትን ሲጠቀሙ ምስሎች የመልክ ሞዴላቸውን ለማዘመን ስራ ላይ ይውላሉ። የመልክ ሞዴላቸውን ለመፍጠር ስራ ላይ የዋሉ ምስሎች በጭራሽ አይከማቹም፣ ነገር ግን የመልክ ሞዴሉ በስልኩ ላይ ደህንነቱ በተጠበቀ ሁኔታ የሚከማች ሲሆን በጭራሽ ከስልኩ አይወጣም። ሁሉም ሂደት በስልኩ ላይ ደህንነቱ በተጠበቀ ሁኔታ ይከናወናል።"</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"እርስዎ መሆንዎን ለማረጋገጥ በመልክ መክፈት የመልክዎን ልዩ ሞዴልን ይፈጥራል። በሚያቀናብሩበት ጊዜ ይህን የመልክ ሞዴል ለመፍጠር እርስዎ የመልክዎን ምስሎች ከተለያዩ ማዕዘናት ያነሳሉ።
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"እርስዎ መሆንዎን ለማረጋገጥ በመልክ መክፈት የመልክዎን ልዩ ሞዴልን ይፈጥራል። በሚያቀናብሩበት ጊዜ ይህን የመልክ ሞዴል ለመፍጠር እርስዎ የመልክዎን ምስሎች ከተለያዩ ማዕዘናት ያነሳሉ።
 
 በመልክ መክፈትን ሲጠቀሙ ምስሎች የመልክዎን ሞዴል ለማዘመን ስራ ላይ ይውላሉ። የመልክዎን ሞዴል ለመፍጠር ጥቅም ላይ የዋሉ ምስሎች በጭራሽ አይከማቹም፣ ነገር ግን የመልክ ሞዴሉ በስልክዎ ላይ ደህንነቱ በተጠበቀ ሁኔታ የሚከማች ሲሆን በጭራሽ ከስልኩ አይወጣም። ሁሉም ሂደት በስልክዎ ላይ ደህንነቱ በተጠበቀ ሁኔታ ይከናወናል።"</string>
     <string name="security_settings_face_enroll_introduction_how_title">እንዴት እንደሚሠራ</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">በመልክ መክፈት ስልኩን ለመክፈት ወይም እነሱ መሆናቸውን ለማረጋገጥ የልጅዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">በመልክ መክፈት ስልኩን ለመክፈት ወይም እነሱ መሆናቸውን ለማረጋገጥ የልጅዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ልጅዎ በመደበኛነት የዓይን መነፅር የሚያደርግ ከሆነ በሚያቀናብሩበት ጊዜ ሊያደርጓቸው ይችላሉ።</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">የልጅዎን ስልክ ለመክፈት መልካቸውን መጠቀም ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነት ሊኖረው ይችላል።</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">እነሱ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልካቸው እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እነሱን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊታቸው ላይ ከያዘው ሊከፈት ይችላል።</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">በመልክ መክፈት ስልኩን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ የእርስዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">የልጅዎን ስልክ ለመክፈት መልካቸውን መጠቀም ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነት ሊኖረው ይችላል።</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">እነሱ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልካቸው እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እነሱን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊታቸው ላይ ከያዘው ሊከፈት ይችላል።</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">በመልክ መክፈት ስልኩን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ የእርስዎ ዓይኖች ክፍት እንዲሆኑ ሊጠይቅ ይችላል። እርስዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ ይህንን አማራጭ ማብራት ይችላሉ።</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">መነጽር ወይም ትንሽ ቅልም ያላቸው የፀሐይ መነጽሮች ችግር የላቸውም።</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ስልክዎን ለመክፈት መልክዎን መጠቀሙ ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነቱ የተጠበቀ ሊሆን ይችላል</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">እርስዎ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልክዎ እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እርስዎን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊትዎ ላይ ከያዘው ሊከፈት ይችላል።</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">ስልክዎን ለመክፈት መልክዎን መጠቀሙ ከጠንካራ ሥርዓተ ጥለት፣ ፒን ወይም የይለፍ ቃል ያነሰ ደህንነቱ የተጠበቀ ሊሆን ይችላል</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">እርስዎ ሳይፈልጉም እንኳ ስልኩን መመልከት ስልኩን ሊከፍተው ይችላል። ስልክዎ እንዲሁም እንደ ተመሳሳይ ወንድም/እህት ያለ እርስዎን በጣም በሚመስል ሰው ወይም አንድ ሰው ፊትዎ ላይ ከያዘው ሊከፈት ይችላል።</string>
     <string name="security_settings_face_enroll_introduction_info_title">ከግምት ውስጥ ያስገቡ</string>
-    <string name="security_settings_face_enroll_introduction_message">እንደ ወደ መተግበሪያዎች ሲገቡ ወይም ግዢን ሲያጸድቁ ስልክዎን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ መልክዎን ይጠቀሙ።</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">እንደ ወደ መተግበሪያዎች ሲገቡ ወይም ግዢን ሲያጸድቁ ስልክዎን ለመክፈት ወይም እርስዎ መሆንዎን ለማረጋገጥ መልክዎን ይጠቀሙ።</string>
     <string name="security_settings_face_enroll_introduction_title">በመልክ መክፈትን አቀናብር</string>
     <string name="security_settings_face_enroll_next">ቀጣይ</string>
     <string name="security_settings_face_enroll_partial_message">አፈጻጸምን ለማሻሻል በቅንብሮች ውስጥ በመልክ መክፈትን እንደገና ማዋቀር ይችላሉ</string>

@@ -267,7 +267,7 @@ Otočte telefón a vyskúšajte to."</string>
     <string name="security_dismiss_dialog_dismiss_button">Zavrieť</string>
     <string name="security_dismiss_dialog_title">Chcete toto upozornenie zavrieť?</string>
     <string name="security_settings_face_enroll_education_message">Na ďalšej obrazovke otáčajte hlavou, aby sa vaša tvár nasnímala z rôznych uhlov.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Na ďalšej obrazovke držte telefón na úrovni očí</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Na ďalšej obrazovke držte telefón na úrovni očí</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Čas nastavenia odomknutia tvárou vypršal</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Teraz môžete odomykať telefón alebo overovať svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií alebo schvaľovaní nákupov</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Teraz keď zdvihnete telefón alebo klepnete na obrazovku, môžete ho odomknúť tvárou.
@@ -275,33 +275,33 @@ Otočte telefón a vyskúšajte to."</string>
 Odomknutie tvárou najlepšie funguje pri dobrom osvetlení a keď na sebe nemáte rúško ani tmavé okuliare."</string>
     <string name="security_settings_face_enroll_finish_title">Vyzerá to dobre!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Nastavenie pre obmedzené videnie alebo pohyb hlavou</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Pri používaní odomknutia tvárou môže byť potrebné, aby bola vaša hlava priamejšie pred telefónom.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Pri používaní odomknutia tvárou môže byť potrebné, aby bola vaša hlava priamejšie pred telefónom.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Vyžadovať otvorené oči</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Vy a vaše dieťa môžete kedykoľvek v Nastaveniach model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Vy a vaše dieťa môžete kedykoľvek v Nastaveniach model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
 
 Viac sa dozviete na g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Vy a vaše dieťa máte všetko pod kontrolou</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"V Nastaveniach môžete kedykoľvek model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"V Nastaveniach môžete kedykoľvek model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
 
 Viac sa dozviete na g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Všetko máte pod kontrolou</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Odomknutie tvárou vytvorí jedinečný model tváre vášho dieťaťa, ktorým overí svoju totožnosť. Počas nastavovania musí vaše dieťa nasnímať svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Odomknutie tvárou vytvorí jedinečný model tváre vášho dieťaťa, ktorým overí svoju totožnosť. Počas nastavovania musí vaše dieťa nasnímať svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
 
 Keď použije odomknutie tvárou, model tváre sa aktualizuje pomocou príslušných fotiek. Fotky, pomocou ktorých bol vytvorený model jeho tváre, sa neukladajú, ale model jeho tváre sa bezpečne uloží v telefóne a nikdy ho neopustí. Všetko sa bezpečne spracúva v telefóne."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Odomknutie tvárou vytvorí jedinečný model vašej tváre, ktorým overíte svoju totožnosť. Počas nastavovania nasnímajte svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Odomknutie tvárou vytvorí jedinečný model vašej tváre, ktorým overíte svoju totožnosť. Počas nastavovania nasnímajte svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
 
 Keď použijete odomknutie tvárou, model tváre sa aktualizuje pomocou príslušných fotiek. Fotky, pomocou ktorých bol vytvorený model vašej tváre, sa neukladajú, ale model vašej tváre sa bezpečne uloží v telefóne a nikdy ho neopustí. Všetko sa bezpečne spracúva v telefóne."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Ako to funguje</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odomknutie tvárou môže vyžadovať, aby malo vaše dieťa pri odomykaní telefónu alebo overovaní jeho totožnosti oči otvorené. Vy a vaše dieťa môžete túto možnosť kedykoľvek vypnúť v Nastaveniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Odomknutie tvárou môže vyžadovať, aby malo vaše dieťa pri odomykaní telefónu alebo overovaní jeho totožnosti oči otvorené. Vy a vaše dieťa môžete túto možnosť kedykoľvek vypnúť v Nastaveniach.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ak vaše dieťa nosí okuliare, môže ich mať aj počas nastavovania.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odomykanie telefónu dieťaťa pomocou jeho tváre môže byť menej bezpečné ako odomykanie pomocou silného vzoru, kódu PIN alebo hesla</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefón je možné pohľadom odomknúť aj náhodne. Jeho telefón môže odomknúť aj osoba, ktorá sa na neho podobá (napríklad dvojča) alebo niekto, kto si ho pridrží pred tvárou.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Odomknutie tvárou môže vyžadovať, aby ste mali pri odomykaní telefónu alebo overovaní svojej totožnosti oči otvorené. Túto možnosť môžete kedykoľvek vypnúť v Nastaveniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Odomykanie telefónu dieťaťa pomocou jeho tváre môže byť menej bezpečné ako odomykanie pomocou silného vzoru, kódu PIN alebo hesla</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Telefón je možné pohľadom odomknúť aj náhodne. Jeho telefón môže odomknúť aj osoba, ktorá sa na neho podobá (napríklad dvojča) alebo niekto, kto si ho pridrží pred tvárou.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Odomknutie tvárou môže vyžadovať, aby ste mali pri odomykaní telefónu alebo overovaní svojej totožnosti oči otvorené. Túto možnosť môžete kedykoľvek vypnúť v Nastaveniach.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Okuliare alebo slabo tónované okuliare sú v poriadku.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Odomykanie telefónu tvárou môže byť menej bezpečné než silným vzorom, kódom PIN alebo heslom</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Telefón môžete pohľadom odomknúť aj náhodne. Váš telefón môže odomknúť aj iná osoba tým, že vám ho podrží pred tvárou, alebo niekto, kto sa na vás podobá, napríklad dvojča.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Odomykanie telefónu tvárou môže byť menej bezpečné než silným vzorom, kódom PIN alebo heslom</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Telefón môžete pohľadom odomknúť aj náhodne. Váš telefón môže odomknúť aj iná osoba tým, že vám ho podrží pred tvárou, alebo niekto, kto sa na vás podobá, napríklad dvojča.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Upozornenie</string>
-    <string name="security_settings_face_enroll_introduction_message">Odomykajte telefón a overujte svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií a schvaľovaní nákupov.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Odomykajte telefón a overujte svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií a schvaľovaní nákupov.</string>
     <string name="security_settings_face_enroll_introduction_title">Nastavenie odomknutia tvárou</string>
     <string name="security_settings_face_enroll_next">Ďalej</string>
     <string name="security_settings_face_enroll_partial_message">Ak chcete zlepšiť výkonnosť, môžete znova nastaviť odomknutie tvárou v Nastaveniach</string>

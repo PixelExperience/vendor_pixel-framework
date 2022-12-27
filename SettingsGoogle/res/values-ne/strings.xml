@@ -268,7 +268,7 @@
     <string name="security_dismiss_dialog_dismiss_button">हटाउनुहोस्</string>
     <string name="security_dismiss_dialog_title">यो चेतावनी हटाउने हो?</string>
     <string name="security_settings_face_enroll_education_message">अब आउने स्क्रिनमा, सबै कोणहरूबाट आफ्नो अनुहार खिच्न टाउको घुमाउनुहोस्</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">यसपछि देखाइने स्क्रिनमा आफ्नो फोन आँखाअघि राखी समात्नुहोस्</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">यसपछि देखाइने स्क्रिनमा आफ्नो फोन आँखाअघि राखी समात्नुहोस्</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाले काम गरेन।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाको समय सीमा सकियो। फेरि प्रयास गर्नुहोस्।</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">फेस अनलक सेटअप गर्ने समय सकियो</string>
@@ -278,33 +278,33 @@
 Face Unlock ले पर्याप्त प्रकाश उपलब्ध भएका बेलामा र तपाईंले मास्क वा कालो चस्मा नलगाएका बेलामा सबैभन्दा राम्रोसँग काम गर्छ।"</string>
     <string name="security_settings_face_enroll_finish_title">ठिकै देखिन्छ!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">दृष्टि क्षमता वा टाउको हलचल गर्ने क्षमता कम भएका व्यक्तिका निम्ति सेटअप गर्नुहोस्</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">फेस अनलक प्रयोग गर्दा तपाईंले आफ्नो टाउको ठ्याक्कै फोनको अगाडि राख्नु पर्ने हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">फेस अनलक प्रयोग गर्दा तपाईंले आफ्नो टाउको ठ्याक्कै फोनको अगाडि राख्नु पर्ने हुन सक्छ।</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">आँखा खुला राख्नु पर्छ</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"तपाईं र तपाईंका बच्चा सेटिङमा गई जुनसुकै बेला उनको फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। फेस मोडेल नमेटाइन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"तपाईं र तपाईंका बच्चा सेटिङमा गई जुनसुकै बेला उनको फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। फेस मोडेल नमेटाइन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
 
 g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">यी सेटिङ तपाईं र तपाईंका बच्चाको नियन्त्रणमा हुन्छन्</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"तपाईं सेटिङमा गई जुनसुकै बेला आफ्नो फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। तपाईंले फेस मोडेल नमेटाउन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"तपाईं सेटिङमा गई जुनसुकै बेला आफ्नो फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। तपाईंले फेस मोडेल नमेटाउन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
 
 g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</string>
     <string name="security_settings_face_enroll_introduction_control_title">यो सुविधा कसरी नियन्त्रण गर्ने भन्ने कुरा तपाईंको हातमा हुन्छ</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"फेस अनलक सुविधाले तपाईंका बच्चालाई चिन्ने प्रयोजनका लागि उनको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंका बच्चाले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"फेस अनलक सुविधाले तपाईंका बच्चालाई चिन्ने प्रयोजनका लागि उनको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंका बच्चाले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
 
 तपाईंका बच्चाले फेस अनलक प्रयोग गर्दा उनको फेस मोडेल अपडेट गर्न ती फोटोहरू प्रयोग गरिन्छन्। तपाईंका बच्चाको फेस मोडेल बनाउन प्रयोग गरिने फोटोहरू भण्डारण गरिँदैनन् तर यो फेस मोडेल यो फोनमा सुरक्षित तरिकाले भण्डारण गरिन्छ र कहिल्यै पनि यो फोनबाहेक अन्यत्र पठाइँदैन। यी सबै कारबाही यो फोनमा सुरक्षित तरिकाले गरिन्छ।"</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"फेस अनलक सुविधाले तपाईंलाई चिन्ने प्रयोजनका लागि तपाईंको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"फेस अनलक सुविधाले तपाईंलाई चिन्ने प्रयोजनका लागि तपाईंको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
 
 तपाईंले फेस अनलक प्रयोग गर्दा तपाईंको फेस मोडेल अपडेट गर्न ती फोटोहरू प्रयोग गरिन्छन्। तपाईंको फेस मोडेल बनाउन प्रयोग गरिने फोटोहरू भण्डारण गरिँदैनन् तर यो फेस मोडेल तपाईंको फोनमा सुरक्षित तरिकाले भण्डारण गरिन्छ र कहिल्यै पनि यो फोनबाहेक अन्यत्र पठाइँदैन। यी सबै कारबाही तपाईंको फोनमा सुरक्षित तरिकाले गरिन्छ।"</string>
     <string name="security_settings_face_enroll_introduction_how_title">यसले कसरी काम गर्छ</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"फेस अनलक\" प्रयोग गरी तपाईंका बच्चाको फोन अनलक गर्न वा उनले नै फोन अनलक गर्न खोजेका हुन् भन्ने पुष्टि गर्न उनले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं र तपाईंका बच्चा जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">\"फेस अनलक\" प्रयोग गरी तपाईंका बच्चाको फोन अनलक गर्न वा उनले नै फोन अनलक गर्न खोजेका हुन् भन्ने पुष्टि गर्न उनले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं र तपाईंका बच्चा जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">तपाईंका बच्चाले प्रायः चस्मा लगाउने गर्छ भने उनी चस्मा लगाएरै सेटअप गर्न सक्छन्।</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">तपाईंका बच्चाको अनुहार प्रयोग गरी उनको फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">तपाईंका बच्चाले फोनमा हेर्‍यो भने उनले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। उनको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि उनको फोन अनलक गर्न सक्छन्। साथै कसैले उनको अनुहारका अगाडि फोन लगे भने पनि उनको फोन अनलक हुन सक्छ।</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">\"फेस अनलक\" सुविधा प्रयोग गरी तपाईंको फोन अनलक गर्न वा तपाईंले नै फोन अनलक गर्न खोज्नुभएको हो भन्ने पुष्टि गर्न तपाईंले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">तपाईंका बच्चाको अनुहार प्रयोग गरी उनको फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">तपाईंका बच्चाले फोनमा हेर्‍यो भने उनले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। उनको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि उनको फोन अनलक गर्न सक्छन्। साथै कसैले उनको अनुहारका अगाडि फोन लगे भने पनि उनको फोन अनलक हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">\"फेस अनलक\" सुविधा प्रयोग गरी तपाईंको फोन अनलक गर्न वा तपाईंले नै फोन अनलक गर्न खोज्नुभएको हो भन्ने पुष्टि गर्न तपाईंले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">चस्मा वा हल्का रङ भएको सनग्लास प्रयोग गर्दा हुन्छ।</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">अनुहार प्रयोग गरी फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">तपाईंले फोनमा हेर्नुभयो भने तपाईंले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। तपाईंको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि तपाईंको फोन अनलक गर्न सक्छन्। साथै तपाईंका आँखा खुला भएका बेला कसैले तपाईंको अनुहारका अगाडि फोन लगे भने पनि तपाईंको फोन अनलक हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">अनुहार प्रयोग गरी फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">तपाईंले फोनमा हेर्नुभयो भने तपाईंले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। तपाईंको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि तपाईंको फोन अनलक गर्न सक्छन्। साथै तपाईंका आँखा खुला भएका बेला कसैले तपाईंको अनुहारका अगाडि फोन लगे भने पनि तपाईंको फोन अनलक हुन सक्छ।</string>
     <string name="security_settings_face_enroll_introduction_info_title">ख्याल गर्नुहोस्</string>
-    <string name="security_settings_face_enroll_introduction_message">आफ्नो फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्नुहोस्।</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">आफ्नो फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्नुहोस्।</string>
     <string name="security_settings_face_enroll_introduction_title">"'फेस अनलक' सेटअप गर्नुहोस्"</string>
     <string name="security_settings_face_enroll_next">अर्को</string>
     <string name="security_settings_face_enroll_partial_message">कार्यसम्पादनको गुणस्तर सुधार्न तपाईं सेटिङमा गई फेरि फेस अनलक सेटअप गर्न सक्नुहुन्छ</string>

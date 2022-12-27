@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">Отхвърляне</string>
     <string name="security_dismiss_dialog_title">Да се отхвърли ли това предупреждение?</string>
     <string name="security_settings_face_enroll_education_message">На следващия екран завъртете главата си, за да уловите всички ъгли на лицето си</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">На следващия екран дръжте телефона на нивото на очите си</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">На следващия екран дръжте телефона на нивото на очите си</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнато е времевото ограничение за регистриране на лице. Опитайте отново.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Настройването на откл. с лице не завърши навреме</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Вече можете да използвате лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки</string>
@@ -276,33 +276,33 @@
 Функцията „Отключване с лице“ работи най-добре, когато има достатъчно светлина и не носите маска или тъмни очила."</string>
     <string name="security_settings_face_enroll_finish_title">Всичко изглежда наред!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Настройка при ограничено зрение или движение на главата</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Когато използвате функцията за отключване с лице, може да се наложи да поставите телефона точно пред главата си.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Когато използвате функцията за отключване с лице, може да се наложи да поставите телефона точно пред главата си.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Изискване очите да са отворени</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Вие и детето ви можете по всяко време да изтриете модела на лицето му или да изключите функцията за отключване с лице от настройките. Моделите на лицата се съхраняват на телефона, докато не бъдат изтрити.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Вие и детето ви можете по всяко време да изтриете модела на лицето му или да изключите функцията за отключване с лице от настройките. Моделите на лицата се съхраняват на телефона, докато не бъдат изтрити.
 
 Научете повече на адрес g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Контролът е във ваши ръце и в ръцете на детето ви</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"По всяко време можете да изтриете модела на лицето си или да изключите функцията за отключване с лице от настройките. Моделите на лицата се съхраняват на телефона, докато не ги изтриете.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"По всяко време можете да изтриете модела на лицето си или да изключите функцията за отключване с лице от настройките. Моделите на лицата се съхраняват на телефона, докато не ги изтриете.
 
 Научете повече на адрес g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Контролът е във ваши ръце</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Функцията за отключване с лице изгражда уникален модел на лицето на детето ви с цел потвърждаване на самоличността му. За да създаде такъв модел по време на настройването, то ще трябва да заснеме лицето си под различни ъгли.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Функцията за отключване с лице изгражда уникален модел на лицето на детето ви с цел потвърждаване на самоличността му. За да създаде такъв модел по време на настройването, то ще трябва да заснеме лицето си под различни ъгли.
 
 Изображенията от взаимодействията на детето ви с функцията за отключване с лице се използват за актуализиране на съответния модел. Изображенията, ползвани за създаването му, не се запазват, но моделът на лицето се съхранява надеждно на телефона и никога не го напуска. Цялото обработване се извършва надеждно на телефона."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Функцията за отключване с лице изгражда уникален модел на лицето ви с цел потвърждаване на самоличността ви. За да създадете такъв модел по време на настройването, ще трябва да заснемете лицето си под различни ъгли.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Функцията за отключване с лице изгражда уникален модел на лицето ви с цел потвърждаване на самоличността ви. За да създадете такъв модел по време на настройването, ще трябва да заснемете лицето си под различни ъгли.
 
 Изображенията от взаимодействията ви с функцията за отключване с лице се използват за актуализиране на съответния модел. Изображенията, ползвани за създаването му, не се запазват, но моделът на лицето ви се съхранява надеждно на телефона ви и никога не го напуска. Цялото обработване се извършва надеждно на телефона ви."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Начин на работа</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Функцията за отключване с лице може да изисква очите на детето ви да са отворени за отключване на телефона или потвърждаване на самоличността му. По всяко време вие и детето ви можете да включите тази опция от настройките.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Функцията за отключване с лице може да изисква очите на детето ви да са отворени за отключване на телефона или потвърждаване на самоличността му. По всяко време вие и детето ви можете да включите тази опция от настройките.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако обикновено детето ви е с очила, може да ги носи и при настройването.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Отключването на телефона на детето ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, PIN код или парола.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Дори и да не възнамерява да отключи телефона, това може да стане, когато детето ви гледа в него. Той може да бъде отключен и от някого, който много прилича на детето ви, например от негов брат или сестра близнак, или ако бъде задържан пред лицето му.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Функцията за отключване с лице може да изисква очите ви да са отворени за отключване на телефона или потвърждаване на самоличността ви. По всяко време можете да включите тази опция от настройките.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Отключването на телефона на детето ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, PIN код или парола.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Дори и да не възнамерява да отключи телефона, това може да стане, когато детето ви гледа в него. Той може да бъде отключен и от някого, който много прилича на детето ви, например от негов брат или сестра близнак, или ако бъде задържан пред лицето му.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Функцията за отключване с лице може да изисква очите ви да са отворени за отключване на телефона или потвърждаване на самоличността ви. По всяко време можете да включите тази опция от настройките.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Може да носите очила или леко затъмнени слънчеви очила.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Отключването на телефона ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, ПИН код или парола</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Дори и да не възнамерявате да отключите телефона, това може да стане, когато гледате в него. Той може да бъде отключен и от някого, който много прилича на вас, например от ваш брат или сестра близнак, или ако бъде задържан пред лицето ви.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Отключването на телефона ви с лице може да е по-малко сигурно в сравнение с надеждни фигура, ПИН код или парола</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Дори и да не възнамерявате да отключите телефона, това може да стане, когато гледате в него. Той може да бъде отключен и от някого, който много прилича на вас, например от ваш брат или сестра близнак, или ако бъде задържан пред лицето ви.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Имайте предвид следното</string>
-    <string name="security_settings_face_enroll_introduction_message">Използвайте лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Използвайте лицето си, за да отключвате телефона или да потвърждавате самоличността си, например при влизане в приложения или одобряване на покупки.</string>
     <string name="security_settings_face_enroll_introduction_title">Настройване на отключването с лице</string>
     <string name="security_settings_face_enroll_next">Напред</string>
     <string name="security_settings_face_enroll_partial_message">С цел подобряване на ефективността можете да настроите отново функцията „Отключване с лице“ от настройките</string>

@@ -267,7 +267,7 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="security_dismiss_dialog_dismiss_button">Sluiten</string>
     <string name="security_dismiss_dialog_title">Deze waarschuwing sluiten?</string>
     <string name="security_settings_face_enroll_education_message">Draai je hoofd op het volgende scherm om je gezicht onder alle hoeken vast te leggen</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Op het volgende scherm houd je je telefoon op ooghoogte</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Op het volgende scherm houd je je telefoon op ooghoogte</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tijdslimiet voor gezichtsregistratie bereikt. Probeer het opnieuw.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Time-out bij instellen Ontgrendelen via gezicht</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
@@ -276,33 +276,33 @@ Draai je telefoon om en probeer het uit."</string>
 Ontgrendelen via gezichtsherkenning werkt het best als er genoeg licht is en je geen mondkapje of donkere bril draagt."</string>
     <string name="security_settings_face_enroll_finish_title">Dat ziet er goed uit</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Instellen voor visuele beperking of beperkte hoofdbeweging</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Als je Ontgrendelen via gezichtsherkenning gebruikt, moet je je hoofd misschien dichter bij je telefoon houden</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Als je Ontgrendelen via gezichtsherkenning gebruikt, moet je je hoofd misschien dichter bij je telefoon houden</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Vereisen dat ogen open zijn</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Jij en je kind kunnen op elk moment het gezichtsmodel van het kind verwijderen of ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat ze worden verwijderd.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Jij en je kind kunnen op elk moment het gezichtsmodel van het kind verwijderen of ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat ze worden verwijderd.
 
 Bekijk meer informatie op g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Jij en je kind hebben de controle</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Je kunt op elk moment je gezichtsmodel verwijderen of ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat je ze verwijdert.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Je kunt op elk moment je gezichtsmodel verwijderen of ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat je ze verwijdert.
 
 Bekijk meer informatie op g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Jij hebt het voor het zeggen</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Ontgrendelen via gezichtsherkenning maakt een uniek model van het gezicht van je kind voor verificatie. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van het gezicht van je kind te maken.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Ontgrendelen via gezichtsherkenning maakt een uniek model van het gezicht van je kind voor verificatie. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van het gezicht van je kind te maken.
 
 Als je kind ontgrendelen via gezichtsherkenning gebruikt, worden foto's gebruikt om het gezichtsmodel van je kind te updaten. De foto's die worden gebruikt om je gezichtsmodel te maken, worden niet opgeslagen, maar het gezichtsmodel zelf wordt beveiligd opgeslagen op je telefoon en verlaat deze nooit. Alle verwerking vindt beveiligd plaats op de telefoon."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Ontgrendelen via gezichtsherkenning maakt een uniek model van je gezicht om je te herkennen. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van je gezicht te maken.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Ontgrendelen via gezichtsherkenning maakt een uniek model van je gezicht om je te herkennen. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van je gezicht te maken.
 
 Als je ontgrendelen via gezichtsherkenning gebruikt, worden foto's gebruikt om je gezichtsmodel te updaten. De foto's die worden gebruikt om je gezichtsmodel te maken, worden niet opgeslagen, maar het gezichtsmodel zelf wordt beveiligd opgeslagen op je telefoon en verlaat deze nooit. Alle verwerking vindt beveiligd plaats op je telefoon."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Hoe het werkt</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ontgrendelen via gezichtsherkenning kan vereisen dat de ogen van je kind open zijn om de telefoon te ontgrendelen of voor verificatie. Jij en je kind kunnen deze optie op elk moment aanzetten via Instellingen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Ontgrendelen via gezichtsherkenning kan vereisen dat de ogen van je kind open zijn om de telefoon te ontgrendelen of voor verificatie. Jij en je kind kunnen deze optie op elk moment aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Draagt je kind normaal een bril, dan kan het deze dragen tijdens het instellen.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Het gezicht van je kind gebruiken om de telefoon te ontgrendelen zorgt misschien voor minder goede beveiliging dan een sterk patroon, een sterke pincode of een sterk wachtwoord</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Als je kind naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet de bedoeling was. De telefoon van je kind kan ook worden ontgrendeld door iemand anders die veel op je kind lijkt, zoals een tweelingbroer of -zus, of als iemand de telefoon voor het gezicht van je kind houdt.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Ontgrendelen via gezichtsherkenning kan vereisen dat je ogen open zijn om de telefoon te ontgrendelen of om te bevestigen dat jij het bent. Je kunt deze optie altijd aanzetten via Instellingen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Het gezicht van je kind gebruiken om de telefoon te ontgrendelen zorgt misschien voor minder goede beveiliging dan een sterk patroon, een sterke pincode of een sterk wachtwoord</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Als je kind naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet de bedoeling was. De telefoon van je kind kan ook worden ontgrendeld door iemand anders die veel op je kind lijkt, zoals een tweelingbroer of -zus, of als iemand de telefoon voor het gezicht van je kind houdt.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Ontgrendelen via gezichtsherkenning kan vereisen dat je ogen open zijn om de telefoon te ontgrendelen of om te bevestigen dat jij het bent. Je kunt deze optie altijd aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brillen of lichte zonnebrillen zijn geen probleem.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Je gezicht gebruiken om je telefoon te ontgrendelen is misschien minder veilig dan een sterk patroon of wachtwoord, of een sterke pincode.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Als je naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet je bedoeling was. Je telefoon kan ook worden ontgrendeld door iemand anders die veel op je lijkt, zoals een tweelingbroer of -zus, of als iemand je telefoon voor je gezicht houdt.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Je gezicht gebruiken om je telefoon te ontgrendelen is misschien minder veilig dan een sterk patroon of wachtwoord, of een sterke pincode.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Als je naar de telefoon kijkt, kan deze worden ontgrendeld, ook als dat niet je bedoeling was. Je telefoon kan ook worden ontgrendeld door iemand anders die veel op je lijkt, zoals een tweelingbroer of -zus, of als iemand je telefoon voor je gezicht houdt.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Houd rekening met het volgende</string>
-    <string name="security_settings_face_enroll_introduction_message">Gebruik je gezicht om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Gebruik je gezicht om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
     <string name="security_settings_face_enroll_introduction_title">Ontgrendelen via gezicht instellen</string>
     <string name="security_settings_face_enroll_next">Volgende</string>
     <string name="security_settings_face_enroll_partial_message">Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning instellen via Instellingen</string>

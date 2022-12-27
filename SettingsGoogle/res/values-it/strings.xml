@@ -268,7 +268,7 @@ Capovolgi il telefono per provare."</string>
     <string name="security_dismiss_dialog_title">Vuoi ignorare questo avviso?</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Consenti sblocco con il volto</string>
     <string name="security_settings_face_enroll_education_message">Nella prossima schermata, ruota la testa per acquisire tutte le angolazioni del tuo volto</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">"Nella prossima schermata, tieni il telefono all'altezza degli occhi"</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">"Nella prossima schermata, tieni il telefono all'altezza degli occhi"</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Registrazione volto non riuscita.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Timeout configurazione dello sblocco con il volto</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Ora puoi usare il volto per sbloccare il tuo telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto</string>
@@ -277,33 +277,33 @@ Capovolgi il telefono per provare."</string>
 Lo sblocco con il volto funziona meglio quando c'è abbastanza luce e non indossi una mascherina o occhiali scuri."</string>
     <string name="security_settings_face_enroll_finish_title">Molto bene.</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configurazione in caso di vista o mobilità della testa limitate</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Quando usi lo sblocco con il volto, è possibile che tu debba tenere la testa in posizione più frontale rispetto al telefono.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Quando usi lo sblocco con il volto, è possibile che tu debba tenere la testa in posizione più frontale rispetto al telefono.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Gli occhi devono essere aperti</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Tu e tuo figlio potete eliminare il modello del volto o disattivare lo sblocco con il volto in qualsiasi momento nelle Impostazioni. I modelli del volto rimangono memorizzati sul telefono finché non vengono eliminati.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Tu e tuo figlio potete eliminare il modello del volto o disattivare lo sblocco con il volto in qualsiasi momento nelle Impostazioni. I modelli del volto rimangono memorizzati sul telefono finché non vengono eliminati.
 
 Scopri di più all'indirizzo g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Tu e tuo figlio avete il controllo</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Puoi eliminare il modello del volto o disattivare lo sblocco con il volto in qualsiasi momento nelle Impostazioni. I modelli del volto rimangono memorizzati sul telefono finché non li elimini.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Puoi eliminare il modello del volto o disattivare lo sblocco con il volto in qualsiasi momento nelle Impostazioni. I modelli del volto rimangono memorizzati sul telefono finché non li elimini.
 
 Scopri di più all'indirizzo g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Sei tu ad avere il controllo</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Sblocco con il volto crea un modello univoco del volto di tuo figlio per verificare la sua identità. Per creare il modello del volto durante la configurazione, tuo figlio dovrà acquisire immagini del suo volto da diverse angolazioni.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Sblocco con il volto crea un modello univoco del volto di tuo figlio per verificare la sua identità. Per creare il modello del volto durante la configurazione, tuo figlio dovrà acquisire immagini del suo volto da diverse angolazioni.
 
 Quando utilizza lo sblocco con il volto, le immagini vengono usate per aggiornare il modello del volto. Le immagini usate per creare il suo modello del volto non vengono archiviate, ma il modello del volto viene memorizzato in modo sicuro sul telefono e non viene mai trasferito dal dispositivo. L'intera elaborazione avviene in modo sicuro sul telefono."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Sblocco con il volto crea un modello univoco del tuo volto per verificare la tua identità. Per creare il modello del volto durante la configurazione, dovrai acquisire immagini del tuo volto da diverse angolazioni.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Sblocco con il volto crea un modello univoco del tuo volto per verificare la tua identità. Per creare il modello del volto durante la configurazione, dovrai acquisire immagini del tuo volto da diverse angolazioni.
 
 Quando utilizzi lo sblocco con il volto, le immagini vengono usate per aggiornare il modello del volto. Le immagini usate per creare il modello del volto non vengono archiviate, ma il modello del volto viene memorizzato in modo sicuro sul tuo telefono e non viene mai trasferito dal dispositivo. L'intera elaborazione avviene in modo sicuro sul tuo telefono."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Come funziona</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">La funzionalità di sblocco con il volto può richiedere che gli occhi di tuo figlio siano aperti per sbloccare il telefono e verificare la sua identità. Tu e tuo figlio potete attivare questa opzione in qualsiasi momento in Impostazioni.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">La funzionalità di sblocco con il volto può richiedere che gli occhi di tuo figlio siano aperti per sbloccare il telefono e verificare la sua identità. Tu e tuo figlio potete attivare questa opzione in qualsiasi momento in Impostazioni.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se normalmente tuo figlio porta gli occhiali, potrà indossarli anche durante la configurazione.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">"L'uso del volto di tuo figlio per sbloccare il suo telefono potrebbe essere meno sicuro di una sequenza, un PIN o una password efficaci"</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Se guarda direttamente il telefono, potrebbe sbloccarlo anche senza volerlo. Il suo telefono può essere sbloccato anche da qualcuno che assomiglia molto a tuo figlio, ad esempio un gemello, o se viene rivolto verso il suo volto.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">La funzionalità di sblocco con il volto può richiedere che i tuoi occhi siano aperti per sbloccare il telefono e verificare la tua identità. Puoi attivare questa opzione in qualsiasi momento in Impostazioni.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">"L'uso del volto di tuo figlio per sbloccare il suo telefono potrebbe essere meno sicuro di una sequenza, un PIN o una password efficaci"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Se guarda direttamente il telefono, potrebbe sbloccarlo anche senza volerlo. Il suo telefono può essere sbloccato anche da qualcuno che assomiglia molto a tuo figlio, ad esempio un gemello, o se viene rivolto verso il suo volto.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">La funzionalità di sblocco con il volto può richiedere che i tuoi occhi siano aperti per sbloccare il telefono e verificare la tua identità. Puoi attivare questa opzione in qualsiasi momento in Impostazioni.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Sono consentiti occhiali da vista e occhiali da sole chiari.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">"L'uso del tuo volto per sbloccare il telefono potrebbe essere meno sicuro dell'uso di una sequenza, un PIN o una password efficaci."</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Se guardi direttamente il telefono, potresti sbloccarlo anche senza volerlo. Il tuo telefono può essere sbloccato anche da qualcuno che ti assomiglia molto, ad esempio un gemello, o se viene rivolto verso il tuo viso.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">"L'uso del tuo volto per sbloccare il telefono potrebbe essere meno sicuro dell'uso di una sequenza, un PIN o una password efficaci."</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Se guardi direttamente il telefono, potresti sbloccarlo anche senza volerlo. Il tuo telefono può essere sbloccato anche da qualcuno che ti assomiglia molto, ad esempio un gemello, o se viene rivolto verso il tuo viso.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Ricorda</string>
-    <string name="security_settings_face_enroll_introduction_message">Usa il volto per sbloccare il telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Usa il volto per sbloccare il telefono o per verificare la tua identità, ad esempio per accedere alle app o approvare un acquisto.</string>
     <string name="security_settings_face_enroll_introduction_title">Configura lo sblocco con il volto</string>
     <string name="security_settings_face_enroll_next">Avanti</string>
     <string name="security_settings_face_enroll_partial_message">Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle Impostazioni</string>

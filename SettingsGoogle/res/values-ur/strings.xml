@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">برخاست کریں</string>
     <string name="security_dismiss_dialog_title">اس وارننگ کو برخاست کریں؟</string>
     <string name="security_settings_face_enroll_education_message">اگلی اسکرین پر، اپنے چہرے کے تمام زاویے کیپچر کرنے کے ليے اپنے سر کو گھمائیں</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">اگلی اسکرین پر، اپنے فون کو آنکھ کی سطح پر پکڑیں</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">اگلی اسکرین پر، اپنے فون کو آنکھ کی سطح پر پکڑیں</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">چہرے کے اندراج کے وقت کی حد پوری ہو گئی۔ دوبارہ کوشش کریں۔</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">فیس اَنلاک کے سیٹ اپ کا وقت ختم ہو گیا</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">اب آپ اپنا فون غیر مقفل کرنے یا اس بات کی توثیق کرنے کیلئے اپنے چہرے کا استعمال کر سکتے ہیں کہ یہ آپ ہی ہیں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی منظوری دیتے ہیں</string>
@@ -276,33 +276,33 @@
 فیس اَنلاک اس وقت بہترین کام کرتا ہے جب کافی روشنی ہو اور آپ نے ماسک یا سیاہ چشمہ نہیں پہن رکھا ہو۔"</string>
     <string name="security_settings_face_enroll_finish_title">ٹھیک لگ رہا ہے!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">محدود بصارت یا سر کی حرکت کے لیے سیٹ اپ کریں</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">فیس اَنلاک کی خصوصیت کا استعمال کرتے وقت، آپ کے سر کو فون کے براہ راست سامنے ہونے کی ضرورت ہو سکتی ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">فیس اَنلاک کی خصوصیت کا استعمال کرتے وقت، آپ کے سر کو فون کے براہ راست سامنے ہونے کی ضرورت ہو سکتی ہے۔</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">آنکھوں کو کھولنا ہوگا</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"‏آپ اور آپ کا بچہ اپنے چہرے کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز کو فون پر تب تک اسٹور کیا جاتا ہے جب تک کہ انہیں حذف نہیں کیا جاتا ہے۔
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"‏آپ اور آپ کا بچہ اپنے چہرے کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز کو فون پر تب تک اسٹور کیا جاتا ہے جب تک کہ انہیں حذف نہیں کیا جاتا ہے۔
 
 مزید جاننے کیلئے g.co/pixel/faceunlock ملاحظہ کریں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">آپ اور آپ کے بچے کا کنٹرول ہے</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"‏آپ ترتیبات میں کسی بھی وقت اپنے چہرے کا ماڈل حذف کر سکتے ہیں یا فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز فون پر تب تک اسٹور ہوتے ہیں جب تک آپ انہیں حذف نہیں کرتے ہیں۔
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"‏آپ ترتیبات میں کسی بھی وقت اپنے چہرے کا ماڈل حذف کر سکتے ہیں یا فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز فون پر تب تک اسٹور ہوتے ہیں جب تک آپ انہیں حذف نہیں کرتے ہیں۔
 
 مزید جاننے کیلئے g.co/pixel/faceunlock ملاحظہ کریں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_title">سب کچھ آپ کے اختیار میں ہے</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"فیس اَنلاک کی خصوصیت آپ کے بچے کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ کا بچہ اپنے چہرے کی تصاویر مختلف زاویوں سے لے گا۔
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"فیس اَنلاک کی خصوصیت آپ کے بچے کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ کا بچہ اپنے چہرے کی تصاویر مختلف زاویوں سے لے گا۔
 
 جب وہ فیس اَنلاک کی خصوصیت کا استعمال کرتا ہے تو تصاویر اس کے چہرے کا ماڈل اپ ڈیٹ کرنے کے لیے استعمال کی جاتی ہیں۔ اس کے چہرے کا ماڈل تخلیق کرنے کے لیے استعمال کی جانے والی تصاویر کو اسٹور نہیں کیا جاتا ہے لیکن چہرے کا ماڈل فون پر محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی فون سے باہر نہیں جاتا ہے۔ فون پر سبھی کارروائیاں محفوظ طریقے سے ہوتی ہیں۔"</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"فیس اَنلاک کی خصوصیت آپ کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ آپ ہی ہیں۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ اپنے چہرے کی تصاویر مختلف زاویوں سے لیں گے۔
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"فیس اَنلاک کی خصوصیت آپ کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ آپ ہی ہیں۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ اپنے چہرے کی تصاویر مختلف زاویوں سے لیں گے۔
 
 جب آپ فیس اَنلاک کی خصوصیت استعمال کرتے ہیں تو تصاویر آپ کے چہرے کا ماڈل اپ ڈیٹ کرنے کے لیے استعمال کی جاتی ہیں۔ آپ کے چہرے کا ماڈل تخلیق کرنے کے لیے استعمال کی جانے والی تصاویر کو اسٹور نہیں کیا جاتا ہے لیکن چہرے کا ماڈل آپ کے فون پر محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی فون سے باہر نہیں جاتا ہے۔ آپ کے فون پر سبھی کاروائیاں محفوظ طریقے سے ہوتی ہیں۔"</string>
     <string name="security_settings_face_enroll_introduction_how_title">یہ کیسے کام کرتا ہے</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">فون کو غیر مقفل کرنے یا اس کی توثیق کرنے کے لیے کہ یہ وہی بچہ ہے، فیس اَنلاک کا آپ کے بچے کی آنکھیں کھلی رکھنے کا تقاضہ ہو سکتا ہے۔ آپ اور آپ کا بچہ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">فون کو غیر مقفل کرنے یا اس کی توثیق کرنے کے لیے کہ یہ وہی بچہ ہے، فیس اَنلاک کا آپ کے بچے کی آنکھیں کھلی رکھنے کا تقاضہ ہو سکتا ہے۔ آپ اور آپ کا بچہ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">اگر آپ کا بچہ عام طور پر عینک پہنتا ہے تو وہ سیٹ اپ کے دوران انہیں پہن سکتا ہے۔</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">‏اپنے بچے کے فون کو غیر مقفل کرنے کے لیے اس کا چہرہ استعمال کرنا ایک مضبوط پیٹرن، PIN یا پاس ورڈ کی بنسبت کم محفوظ ہو سکتا ہے</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">غیر ارادتاً طور پر بھی فون کو دیکھنا اس کو غیر فعال کر سکتا ہے۔ اس کے فون کو اس سے بہت زیادہ مشابہ کسی شخص کے ذریعے بھی غیر مقفل کیا جا سکتا ہے جیسے کوئی ہم شکل بھائی بہن یا اگر کوئی اسے اس کے چہرے کے سامنے رکھ دے تو بھی غیر مقفل ہو سکتا ہے۔</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">فون کو غیر مقفل کرنے یا یہ توثیق کرنے کی خاطر کہ یہ آپ ہی ہیں فیس اَنلاک کیلئے یہ ضروری ہو سکتا ہے کہ آپ کی آنکھیں کھلی ہوں۔ آپ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">‏اپنے بچے کے فون کو غیر مقفل کرنے کے لیے اس کا چہرہ استعمال کرنا ایک مضبوط پیٹرن، PIN یا پاس ورڈ کی بنسبت کم محفوظ ہو سکتا ہے</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">غیر ارادتاً طور پر بھی فون کو دیکھنا اس کو غیر فعال کر سکتا ہے۔ اس کے فون کو اس سے بہت زیادہ مشابہ کسی شخص کے ذریعے بھی غیر مقفل کیا جا سکتا ہے جیسے کوئی ہم شکل بھائی بہن یا اگر کوئی اسے اس کے چہرے کے سامنے رکھ دے تو بھی غیر مقفل ہو سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">فون کو غیر مقفل کرنے یا یہ توثیق کرنے کی خاطر کہ یہ آپ ہی ہیں فیس اَنلاک کیلئے یہ ضروری ہو سکتا ہے کہ آپ کی آنکھیں کھلی ہوں۔ آپ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">چشمے یا ہلکے ٹِنٹ کردہ دھوپ چشمے ٹھیک ہیں۔</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">‏اپنے فون کو غیر مقفل کرنے کے لیے اپنے چہرے کا استعمال مضبوط پیٹرن، PIN یا پاس ورڈ سے کم محفوظ ہو سکتا ہے</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">فون کو غیر ارادتاً دیکھنے سے بھی یہ غیر مقفل ہو سکتا ہے۔ آپ سے بہت زیادہ مشابہ کوئی بھی شخص، جیسے کوئی ہم شکل بھائی بہن، آپ کے فون کو غیر مقفل کر سکتا ہے، یا اگر کوئی اسے آپ کے چہرے کے سامنے رکھ دے تو بھی یہ غیر مقفل ہو سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">‏اپنے فون کو غیر مقفل کرنے کے لیے اپنے چہرے کا استعمال مضبوط پیٹرن، PIN یا پاس ورڈ سے کم محفوظ ہو سکتا ہے</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">فون کو غیر ارادتاً دیکھنے سے بھی یہ غیر مقفل ہو سکتا ہے۔ آپ سے بہت زیادہ مشابہ کوئی بھی شخص، جیسے کوئی ہم شکل بھائی بہن، آپ کے فون کو غیر مقفل کر سکتا ہے، یا اگر کوئی اسے آپ کے چہرے کے سامنے رکھ دے تو بھی یہ غیر مقفل ہو سکتا ہے۔</string>
     <string name="security_settings_face_enroll_introduction_info_title">یاد رکھیں</string>
-    <string name="security_settings_face_enroll_introduction_message">اپنا فون غیر مقفل کرنے یا یہ توثیق کرنے کیلئے کہ یہ آپ ہی ہیں اپنا چہرہ استعمال کریں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی اجازت دیتے ہیں۔</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">اپنا فون غیر مقفل کرنے یا یہ توثیق کرنے کیلئے کہ یہ آپ ہی ہیں اپنا چہرہ استعمال کریں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی اجازت دیتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_title">فیس اَنلاک سیٹ اپ کریں</string>
     <string name="security_settings_face_enroll_next">آگے</string>
     <string name="security_settings_face_enroll_partial_message">کارکردگی کو بہتر بنانے کے لیے، آپ ترتیبات میں فیس اَنلاک کو دوبارہ سے سیٹ اپ کر سکتے ہیں</string>
