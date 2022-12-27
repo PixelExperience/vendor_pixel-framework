@@ -268,7 +268,7 @@ Phenya ifoni yakho ukuzama."</string>
     <string name="security_dismiss_dialog_title">Cashisa lesi sexwayiso?</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Vumela i-Face Unlock</string>
     <string name="security_settings_face_enroll_education_message">Esikrinini esilandelayo, phendukisa ikhanda lakho ukuze uthwebule onke ama-engeli ebusweni bakho</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Esikrinini esilandelayo, bamba ifoni yakho iqondane namehlo</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Esikrinini esilandelayo, bamba ifoni yakho iqondane namehlo</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Ukusethwa Kokuvula ngobuso kuphelelwe isikhathi</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Manje ungasebenzisa ubuso bakho ukuvula ifoni yakho noma ukuqinisekisa ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ugunyaza ukuthenga</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Manje uma uthatha ifoni yakho noma uthepha isikrini, ungasebenzisa ubuso bakho ukuze uvule.
@@ -276,33 +276,33 @@ Phenya ifoni yakho ukuzama."</string>
 Ukuvula Ngobuso kusebenza kahle kakhulu uma kunokukhanya okwanele futhi ungafakanga imaski noma izibuko ezimnyama."</string>
     <string name="security_settings_face_enroll_finish_title">Kubukeka kukuhle!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ukusetha kokubuka okukhawulelwe noma ukunyakaza kwekhanda</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Uma usebenzisa Ukuvula ngobuso, ikhanda lakho kungenzeka kumele liqonde kakhulu phambi kwefoni yakho.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Uma usebenzisa Ukuvula ngobuso, ikhanda lakho kungenzeka kumele liqonde kakhulu phambi kwefoni yakho.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Idinga ukuvuleka kwamehlo</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Wena nengane yakho ningasusa imodeli yobuso bayo noma nivale Ukuvula Ngobuso noma kunini Kumasethingi. Amamodeli wobuso agcinwa efonini aze asulwe.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Wena nengane yakho ningasusa imodeli yobuso bayo noma nivale Ukuvula Ngobuso noma kunini Kumasethingi. Amamodeli wobuso agcinwa efonini aze asulwe.
 
 Funda kabanzi ku-g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Wena nengane yakho niyalawula</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Ungasusa imodeli yobuso bakho noma uvale Ukuvula ngobuso noma nini Kumasethingi. Amamodeli wobuso agcinwa efonini uze uwasuse.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Ungasusa imodeli yobuso bakho noma uvale Ukuvula ngobuso noma nini Kumasethingi. Amamodeli wobuso agcinwa efonini uze uwasuse.
 
 Funda kabanzi ku- g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Uwena olawulayo</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Ukuvula ngobuso kudala imodeli ehlukile yobuso bengane yakho ukuqinisekisa ukuthi yiyona. Ukuze yenze le modeli yobuso ngesikhathi sokusetha, ingane yakho izothatha izithombe zobuso bayo ngezindlela ezihlukile.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Ukuvula ngobuso kudala imodeli ehlukile yobuso bengane yakho ukuqinisekisa ukuthi yiyona. Ukuze yenze le modeli yobuso ngesikhathi sokusetha, ingane yakho izothatha izithombe zobuso bayo ngezindlela ezihlukile.
 
 Lapho isebenzisa Ukuvula ngobuso, izithombe zisetshenziselwa ukuvuselela imodeli yayo yobuso. Imifanekiso esetshenziselwe ukudala imodeli yobuso bayo azigcinwa, kodwa imodeli yobuso igcinwa ngokuphephile kwifoni yayo futhi ayilokothi ishiye ifoni. Konke ukucubungula kwenzeka ngokuphepha kwifoni."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Ukuvula ngobuso kudala imodeli ehlukile yobuso bakho ukuqinisekisa ukuthi nguwe. Ukuze udale le modeli yobuso phakathi nokusetha, uzothatha izithombe zobuso bakho kuma engeli ahlukile.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Ukuvula ngobuso kudala imodeli ehlukile yobuso bakho ukuqinisekisa ukuthi nguwe. Ukuze udale le modeli yobuso phakathi nokusetha, uzothatha izithombe zobuso bakho kuma engeli ahlukile.
 
 Uma usebenzisa Ukuvula ngobuso, izithombe zisetshenziselwa ukuvuselela imodeli yakho yobuso. Imifanekiso esetshenziselwe ukwenza imodeli yobuso bakho azigcinwa, kodwa imodeli yobuso igcinwa ngokuphephile kwifoni yakho futhi ayilokothi ishiye ifoni. Konke ukucubungula kwenzeka ngokuphepha kwifoni yakho."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Isebenza kanjani</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ukuvula Ngobuso kungadinga ukuthi amehlo engane yakho avuleke ukuze ivule ifoni noma iqinisekise ukuthi yiyo. Wena nengane yakho ningavula le nketho noma kunini Kumasethingi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Ukuvula Ngobuso kungadinga ukuthi amehlo engane yakho avuleke ukuze ivule ifoni noma iqinisekise ukuthi yiyo. Wena nengane yakho ningavula le nketho noma kunini Kumasethingi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Uma ingane yakho ifaka izibuko zamehlo ngokuvamile, ingazigqoka ngesikhathi sokusetha.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Ukusebenzisa ubuso bengane yakho ukuze uvule ifoni yayo kungase kuvikeleke kancane kunephethini eqinile noma iphasiwedi.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ukubheka efonini kungayivula ngisho noma ingahlosile. Ifoni yayo ingaphinda ivulwe ngomunye umuntu ofana ncamashi nayo, njengowakubo onjengayo, noma uma othile eyibambela ebusweni bayo.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Ukuvula Ngobuso kungadinga ukuthi amehlo akho avuleke ukuze uvule ifoni noma uqinisekise ukuthi nguwe. Ungavula le nketho nganoma yisiphi isikhathi Kumasethingi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Ukusebenzisa ubuso bengane yakho ukuze uvule ifoni yayo kungase kuvikeleke kancane kunephethini eqinile noma iphasiwedi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Ukubheka efonini kungayivula ngisho noma ingahlosile. Ifoni yayo ingaphinda ivulwe ngomunye umuntu ofana ncamashi nayo, njengowakubo onjengayo, noma uma othile eyibambela ebusweni bayo.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Ukuvula Ngobuso kungadinga ukuthi amehlo akho avuleke ukuze uvule ifoni noma uqinisekise ukuthi nguwe. Ungavula le nketho nganoma yisiphi isikhathi Kumasethingi.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Izibuko noma izibuko zelanga ezenziwe mnyama kancane ZILUNGILE.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Ukusebenzisa ubuso bakho ukuze uvule ifoni yakho kungase kungavikeleki kakhulu kunephetheni eqinile, Iphinikhodi, noma iphasiwedi.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Ukubheka efonini kungayivula ngisho noma ungahlosile. Ifoni yakho ingaphinda ivulwe ngomunye umuntu ofana ncamashi nawe, njengowakini oyiwele, noma uma othile eyibambela ebusweni bakho.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Ukusebenzisa ubuso bakho ukuze uvule ifoni yakho kungase kungavikeleki kakhulu kunephetheni eqinile, Iphinikhodi, noma iphasiwedi.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Ukubheka efonini kungayivula ngisho noma ungahlosile. Ifoni yakho ingaphinda ivulwe ngomunye umuntu ofana ncamashi nawe, njengowakini oyiwele, noma uma othile eyibambela ebusweni bakho.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Khumbula</string>
-    <string name="security_settings_face_enroll_introduction_message">Sebenzisa ubuso bakho ukuze uvule ifoni yakho noma uqinisekise ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ukugunyaza ukuthenga.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Sebenzisa ubuso bakho ukuze uvule ifoni yakho noma uqinisekise ukuthi nguwe, njengalapho ungena ngemvume kuma-app noma ukugunyaza ukuthenga.</string>
     <string name="security_settings_face_enroll_introduction_title">Setha Ukuvula ngobuso</string>
     <string name="security_settings_face_enroll_next">Okulandelayo</string>
     <string name="security_settings_face_enroll_partial_message">Ukuze uthuthukise ukusebenza, ungasetha Ukuvula ngobuso futhi kokuthi Amasethingi</string>

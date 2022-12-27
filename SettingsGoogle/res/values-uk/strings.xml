@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">Закрити</string>
     <string name="security_dismiss_dialog_title">Закрити це попередження?</string>
     <string name="security_settings_face_enroll_education_message">На наступному екрані повертайте голову, щоб зняти обличчя з усіх боків</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Коли відкриється наступний екран, утримуйте телефон на рівні очей</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Коли відкриється наступний екран, утримуйте телефон на рівні очей</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Час на сканування обличчя вичерпано. Повторіть спробу.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Час очікування налаштування фейсконтролю минув</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Тепер за допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу (наприклад, щоб входити в додатки чи схвалювати покупки)</string>
@@ -276,33 +276,33 @@
 Фейсконтроль найкраще працює за належного освітлення та за відсутності на обличчі маски чи темних окулярів."</string>
     <string name="security_settings_face_enroll_finish_title">Непогано!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Налаштувати без повороту голови</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Під час використання фейсконтролю телефон потрібно тримати просто перед обличчям.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Під час використання фейсконтролю телефон потрібно тримати просто перед обличчям.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Відкриті очі</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Ви та дитина будь-коли можете видалити модель обличчя або вимкнути фейсконтроль у налаштуваннях. Моделі облич зберігаються на телефоні, доки ви їх не видалите.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Ви та дитина будь-коли можете видалити модель обличчя або вимкнути фейсконтроль у налаштуваннях. Моделі облич зберігаються на телефоні, доки ви їх не видалите.
 
 Докладніше читайте на сторінці g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Ви та дитина керуєте налаштуваннями</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Ви будь-коли можете видалити свою модель обличчя або вимкнути фейсконтроль у налаштуваннях. Моделі облич зберігаються на телефоні, доки ви їх не видалите.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Ви будь-коли можете видалити свою модель обличчя або вимкнути фейсконтроль у налаштуваннях. Моделі облич зберігаються на телефоні, доки ви їх не видалите.
 
 Докладніше читайте на сторінці g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Усе під вашим контролем</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Фейсконтроль створює унікальну модель обличчя вашої дитини, щоб підтверджувати її особу. Для цього дитині потрібно сфотографувати своє обличчя під різними кутами.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Фейсконтроль створює унікальну модель обличчя вашої дитини, щоб підтверджувати її особу. Для цього дитині потрібно сфотографувати своє обличчя під різними кутами.
 
 Коли дитина користується фейсконтролем, отримані зображення використовуються для оновлення моделі обличчя. Ці зображення не залишаються на телефоні, але сама модель надійно зберігається та нікуди не передається. Усі процедури обробки безпечно відбуваються на телефоні."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Фейсконтроль створює унікальну модель вашого обличчя, щоб підтверджувати вашу особу. Для цього вам потрібно сфотографувати своє обличчя під різними кутами.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Фейсконтроль створює унікальну модель вашого обличчя, щоб підтверджувати вашу особу. Для цього вам потрібно сфотографувати своє обличчя під різними кутами.
 
 Коли ви користуєтеся фейсконтролем, отримані зображення використовуються для оновлення моделі обличчя. Ці зображення не залишаються на телефоні, але сама модель надійно зберігається та нікуди не передається. Усі процедури обробки безпечно відбуваються на телефоні."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Як це працює</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Можливо, для розблокування телефона за допомогою фейсконтролю або підтвердження особи дитині потрібно буде розплющити очі. Ви та дитина будь-коли можете вимкнути цю опцію в налаштуваннях.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Можливо, для розблокування телефона за допомогою фейсконтролю або підтвердження особи дитині потрібно буде розплющити очі. Ви та дитина будь-коли можете вимкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Якщо дитина зазвичай носить окуляри, вона може не знімати їх під час налаштування.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Розблокування телефона через фейсконтроль дитини може поступатися за надійністю ключу, PIN-коду або паролю</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Дитина може випадково розблокувати телефон, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на неї (наприклад, близнюк) або інша особа, яка піднесе пристрій до її обличчя.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Фейсконтроль може вимагати, щоб ви розплющили очі, перш ніж розблокувати телефон або підтверити особу. Ви будь-коли можете ввімкнути цю опцію в налаштуваннях.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Розблокування телефона через фейсконтроль дитини може поступатися за надійністю ключу, PIN-коду або паролю</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Дитина може випадково розблокувати телефон, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на неї (наприклад, близнюк) або інша особа, яка піднесе пристрій до її обличчя.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Фейсконтроль може вимагати, щоб ви розплющили очі, перш ніж розблокувати телефон або підтверити особу. Ви будь-коли можете ввімкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Можна не знімати звичайні або слабозатінені сонцезахисні окуляри.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Розблокування телефона через фейсконтроль може поступатися за надійністю ключу, PIN-коду або паролю</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Ви можете випадково розблокувати телефон у недоречний момент, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на вас (наприклад, ваш близнюк) або інша особа, яка піднесе пристрій до вашого обличчя.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Розблокування телефона через фейсконтроль може поступатися за надійністю ключу, PIN-коду або паролю</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Ви можете випадково розблокувати телефон у недоречний момент, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на вас (наприклад, ваш близнюк) або інша особа, яка піднесе пристрій до вашого обличчя.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Зверніть увагу</string>
-    <string name="security_settings_face_enroll_introduction_message">За допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу, наприклад, щоб входити в додатки або схвалювати покупки.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">За допомогою фейсконтролю можна розблоковувати телефон або підтверджувати свою особу, наприклад, щоб входити в додатки або схвалювати покупки.</string>
     <string name="security_settings_face_enroll_introduction_title">Налаштування функції \"Фейсконтроль\"</string>
     <string name="security_settings_face_enroll_next">Далі</string>
     <string name="security_settings_face_enroll_partial_message">Щоб покращити роботу фейсконтролю, налаштуйте його знову</string>

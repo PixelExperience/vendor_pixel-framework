@@ -268,7 +268,7 @@ Kokeile kääntämällä puhelin ympäri."</string>
     <string name="security_dismiss_dialog_title">Ohitetaanko varoitus?</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Salli Face Unlock</string>
     <string name="security_settings_face_enroll_education_message">Seuraavassa kohdassa käännä päätäsi, jotta kasvosi tallentuvat kaikista kuvakulmista.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Seuraavassa näytössä pidä puhelinta silmien korkeudella</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Seuraavassa näytössä pidä puhelinta silmien korkeudella</string>
     <string name="security_settings_face_enroll_error_dialog_title">Käyttöönotto ei ole valmis</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Kasvojentunnistusavauksen käyttöönotto katkaistiin</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Voit nyt käyttää kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen</string>
@@ -277,33 +277,33 @@ Kokeile kääntämällä puhelin ympäri."</string>
 Kasvojentunnistusavaus toimii parhaiten, kun ympäristö on sopivan valoisa eikä kasvoillasi ole maskia tai tummia laseja."</string>
     <string name="security_settings_face_enroll_finish_title">Hyvältä näyttää!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Näkö- tai päänliikerajoitukset</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kasvojentunnistusavauksen käyttö voi edellyttää, että pää on suoremmin puhelimen edessä.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Kasvojentunnistusavauksen käyttö voi edellyttää, että pää on suoremmin puhelimen edessä.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Silmien on oltava auki</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Sinä ja lapsesi voitte poistaa kasvomallin tai laittaa Face Unlockin pois päältä milloin tahansa asetuksista. Kasvomalleja säilytetään puhelimella, kunnes ne poistetaan.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Sinä ja lapsesi voitte poistaa kasvomallin tai laittaa Face Unlockin pois päältä milloin tahansa asetuksista. Kasvomalleja säilytetään puhelimella, kunnes ne poistetaan.
 
 Lue lisää: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Sinä ja lapsesi päätätte</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Voit poistaa kasvomallisi tai laittaa kasvojentunnistusavauksen pois päältä milloin tahansa asetuksista. Kasvomallit säilytetään puhelimella, kunnes poistat ne.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Voit poistaa kasvomallisi tai laittaa kasvojentunnistusavauksen pois päältä milloin tahansa asetuksista. Kasvomallit säilytetään puhelimella, kunnes poistat ne.
 
 Lue lisää: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Sinä päätät</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Face Unlock luo lapsesi kasvoista yksilöllisen mallin, jonka avulla hänen henkilöllisyytensä voidaan todentaa. Lapsesi voi luoda kasvomallin käyttöönoton aikana ottamalla kasvoistaan kuvia eri kuvakulmista.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Face Unlock luo lapsesi kasvoista yksilöllisen mallin, jonka avulla hänen henkilöllisyytensä voidaan todentaa. Lapsesi voi luoda kasvomallin käyttöönoton aikana ottamalla kasvoistaan kuvia eri kuvakulmista.
 
 Kun lapsi käyttää Face Unlockia, kuvia käytetään kasvomallin päivittämiseen. Kasvomallin luontiin käytettäviä kuvia ei säilytetä, mutta itse kasvomalli säilytetään suojatusti puhelimella, eikä se poistu puhelimelta. Kaikki käsittely tapahtuu turvallisesti puhelimella."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Kasvojentunnistusavaus luo kasvoistasi yksilöllisen mallin, jonka avulla henkilöllisyytesi voidaan todentaa. Voit luoda kasvomallin käyttöönoton aikana ottamalla kasvoistasi kuvia eri kuvakulmista.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Kasvojentunnistusavaus luo kasvoistasi yksilöllisen mallin, jonka avulla henkilöllisyytesi voidaan todentaa. Voit luoda kasvomallin käyttöönoton aikana ottamalla kasvoistasi kuvia eri kuvakulmista.
 
 Kun käytät kasvojentunnistusavausta, kuvia käytetään kasvomallin päivittämiseen. Kasvomallin luontiin käytettäviä kuvia ei säilytetä, mutta itse kasvomalli säilytetään suojatusti puhelimellasi, eikä se poistu puhelimelta. Kaikki käsittely tapahtuu turvallisesti puhelimellasi."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Näin se toimii</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Kasvojentunnistusavaus saattaa edellyttää, että lapsesi silmät ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Sinä ja lapsesi voitte laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Kasvojentunnistusavaus saattaa edellyttää, että lapsesi silmät ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Sinä ja lapsesi voitte laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jos lapsi käyttää yleensä silmälaseja, hän voi käyttää niitä myös käyttöönoton aikana.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Puhelimen lukituksen avaaminen lapsen kasvojen avulla ei ehkä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttö</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Puhelimen katsominen voi avata sen lukituksen lapsen haluamatta. Joku muu voi myös avata lapsesi puhelimen lukituksen, jos hän näyttää lapselta (esim. identtinen kaksonen) tai pitää laitetta tämän kasvojen edessä.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Kasvojentunnistusavaus saattaa edellyttää, että silmäsi ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Voit laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Puhelimen lukituksen avaaminen lapsen kasvojen avulla ei ehkä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttö</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Puhelimen katsominen voi avata sen lukituksen lapsen haluamatta. Joku muu voi myös avata lapsesi puhelimen lukituksen, jos hän näyttää lapselta (esim. identtinen kaksonen) tai pitää laitetta tämän kasvojen edessä.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Kasvojentunnistusavaus saattaa edellyttää, että silmäsi ovat auki puhelimen avaamiseksi tai henkilöllisyyden vahvistamiseksi. Voit laittaa ominaisuuden päälle asetuksista milloin tahansa.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Silmälasit tai kevyesti sävytetyt aurinkolasit eivät haittaa.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Puhelimen lukituksen avaaminen kasvoilla ei välttämättä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttäminen</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Puhelimen katsominen voi avata sen lukituksen haluamattasi. Joku muu voi myös avata puhelimesi lukituksen, jos hän näyttää sinulta (esim. identtinen kaksonen) ta pitää laitetta kasvojesi edessä.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Puhelimen lukituksen avaaminen kasvoilla ei välttämättä ole yhtä turvallista kuin vahvan kuvion, PIN-koodin tai salasanan käyttäminen</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Puhelimen katsominen voi avata sen lukituksen haluamattasi. Joku muu voi myös avata puhelimesi lukituksen, jos hän näyttää sinulta (esim. identtinen kaksonen) ta pitää laitetta kasvojesi edessä.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Hyvä muistaa</string>
-    <string name="security_settings_face_enroll_introduction_message">Käytä kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Käytä kasvojasi puhelimen lukituksen avaamiseen tai henkilöllisyyden todentamiseen esim. kirjautuessasi sovelluksiin tai hyväksyessäsi ostoksen.</string>
     <string name="security_settings_face_enroll_introduction_title">Lisää kasvojentun\\nnistusavaus</string>
     <string name="security_settings_face_enroll_next">Seuraava</string>
     <string name="security_settings_face_enroll_partial_message">Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uudelleen asetuksissa</string>

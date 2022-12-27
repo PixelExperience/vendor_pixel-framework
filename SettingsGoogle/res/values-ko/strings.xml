@@ -266,7 +266,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="security_dismiss_dialog_dismiss_button">닫기</string>
     <string name="security_dismiss_dialog_title">경고를 닫으시겠습니까?</string>
     <string name="security_settings_face_enroll_education_message">다음 화면이 표시되면 모든 각도에서 얼굴을 촬영할 수 있도록 고개를 돌리세요.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">다음 화면에서 눈높이에 맞춰 휴대전화를 들어 주세요.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">다음 화면에서 눈높이에 맞춰 휴대전화를 들어 주세요.</string>
     <string name="security_settings_face_enroll_error_dialog_title">등록이 완료되지 않음</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">얼굴 등록 시간제한이 초과되었습니다. 다시 시도해 보세요.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">얼굴 인식 잠금 해제 설정 시간 초과</string>
@@ -276,33 +276,33 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
 얼굴 인식 잠금 해제 기능은 주변이 밝고 마스크 또는 렌즈에 색이 들어간 안경을 쓰고 있지 않아야 잘 작동합니다."</string>
     <string name="security_settings_face_enroll_finish_title">좋아요!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">시력이 약하거나 고개 움직임이 제한된 경우의 설정</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">얼굴 인식 잠금 해제를 사용할 때 휴대전화가 더욱 확실하게 얼굴 정면을 향하도록 두어야 할 수도 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">얼굴 인식 잠금 해제를 사용할 때 휴대전화가 더욱 확실하게 얼굴 정면을 향하도록 두어야 할 수도 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">눈을 뜨고 있어야 설정 가능</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"부모와 자녀가 언제든지 설정에서 자녀의 얼굴 모델을 삭제하거나 얼굴 인식 잠금 해제를 사용 중지할 수 있습니다. 얼굴 모델은 삭제하기 전까지 휴대전화에 저장됩니다.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"부모와 자녀가 언제든지 설정에서 자녀의 얼굴 모델을 삭제하거나 얼굴 인식 잠금 해제를 사용 중지할 수 있습니다. 얼굴 모델은 삭제하기 전까지 휴대전화에 저장됩니다.
 
 g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">부모와 자녀가 함께 설정</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"언제든지 설정에서 얼굴 모델을 삭제하거나 얼굴 인식 잠금 해제를 사용 중지할 수 있습니다. 얼굴 모델은 삭제하기 전까지 휴대전화에 저장됩니다.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"언제든지 설정에서 얼굴 모델을 삭제하거나 얼굴 인식 잠금 해제를 사용 중지할 수 있습니다. 얼굴 모델은 삭제하기 전까지 휴대전화에 저장됩니다.
 
 g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="security_settings_face_enroll_introduction_control_title">사용자가 직접 관리 가능</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"얼굴 인식 잠금 해제를 사용하면 자녀의 본인 인증을 위한 고유한 얼굴 모델이 생성됩니다. 설정 중 얼굴 모델을 만들기 위해 다양한 각도에서 얼굴을 촬영하게 됩니다.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"얼굴 인식 잠금 해제를 사용하면 자녀의 본인 인증을 위한 고유한 얼굴 모델이 생성됩니다. 설정 중 얼굴 모델을 만들기 위해 다양한 각도에서 얼굴을 촬영하게 됩니다.
 
 얼굴 인식 잠금 해제를 사용하면 자녀의 얼굴 모델을 업데이트하는 데 이미지가 활용됩니다. 자녀의 얼굴 모델을 만드는 데 사용된 이미지는 저장되지 않으나 얼굴 모델은 휴대전화에 안전하게 저장되며 휴대전화 외부로 전송되지 않습니다. 모든 처리는 휴대전화 내에서 안전하게 이뤄집니다."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"얼굴 인식 잠금 해제를 사용하면 본인 인증을 위한 고유한 얼굴 모델이 생성됩니다. 설정 중 얼굴 모델을 만들기 위해 다양한 각도에서 얼굴을 촬영하게 됩니다.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"얼굴 인식 잠금 해제를 사용하면 본인 인증을 위한 고유한 얼굴 모델이 생성됩니다. 설정 중 얼굴 모델을 만들기 위해 다양한 각도에서 얼굴을 촬영하게 됩니다.
 
 얼굴 인식 잠금 해제를 사용하면 얼굴 모델을 업데이트하는 데 이미지가 활용됩니다. 얼굴 모델을 만드는 데 사용된 이미지는 저장되지 않으나 얼굴 모델은 휴대전화에 안전하게 저장되며 휴대전화 외부로 전송되지 않습니다. 모든 처리는 휴대전화 내에서 안전하게 이뤄집니다."</string>
     <string name="security_settings_face_enroll_introduction_how_title">작동 방식</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 자녀에게 눈을 뜨도록 요구할 수 있습니다. 부모와 자녀가 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 자녀에게 눈을 뜨도록 요구할 수 있습니다. 부모와 자녀가 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">평소 자녀가 안경을 쓰는 경우 설정 중 안경을 착용할 수 있습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">자녀의 얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안 취약할 수 있습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">자녀가 휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 자녀와 닮은 사람이 자녀의 휴대전화 잠금을 해제하거나 다른 사람이 자녀의 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 눈을 뜨도록 요구할 수 있습니다. 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">자녀의 얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안 취약할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">자녀가 휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 자녀와 닮은 사람이 자녀의 휴대전화 잠금을 해제하거나 다른 사람이 자녀의 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">휴대전화를 잠금 해제하거나 본인 인증을 위해 얼굴 인식 잠금 해제를 사용할 때 눈을 뜨도록 요구할 수 있습니다. 언제든지 설정에서 이 옵션을 사용 설정할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">안경이나 옅은 색의 선글라스는 괜찮습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안이 취약할 수 있습니다.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 나와 닮은 사람이 휴대전화의 잠금을 해제하거나 다른 사람이 내 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">얼굴 인식을 통한 휴대전화 잠금 해제는 강력한 패턴, PIN 또는 비밀번호보다 보안이 취약할 수 있습니다.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">휴대전화를 바라보면 의도치 않게 잠금이 해제될 수 있습니다. 일란성 쌍둥이와 같이 나와 닮은 사람이 휴대전화의 잠금을 해제하거나 다른 사람이 내 얼굴에 휴대전화를 가져다 대어 잠금을 해제할 수 있습니다.</string>
     <string name="security_settings_face_enroll_introduction_info_title">주의사항</string>
-    <string name="security_settings_face_enroll_introduction_message">얼굴 인식을 사용하여 휴대전화를 잠금 해제하거나 앱 로그인, 구매 승인 등을 위해 본인을 인증하세요.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">얼굴 인식을 사용하여 휴대전화를 잠금 해제하거나 앱 로그인, 구매 승인 등을 위해 본인을 인증하세요.</string>
     <string name="security_settings_face_enroll_introduction_title">얼굴 인식 잠금 해제 설정</string>
     <string name="security_settings_face_enroll_next">다음</string>
     <string name="security_settings_face_enroll_partial_message">인식 성능을 높이려면 설정에서 얼굴 인식 잠금 해제를 다시 설정하세요.</string>

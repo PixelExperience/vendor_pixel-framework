@@ -268,7 +268,7 @@ Vire o telemóvel para experimentar."</string>
     <string name="security_dismiss_dialog_title">Pretende ignorar este aviso?</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Permita o Desbloqueio facial</string>
     <string name="security_settings_face_enroll_education_message">No ecrã seguinte, rode a cabeça para capturar todos os ângulos do seu rosto.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">No ecrã seguinte, mantenha o telemóvel ao nível dos olhos</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">No ecrã seguinte, mantenha o telemóvel ao nível dos olhos</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">A configuração do Desbloqueio facial expirou</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Já pode usar o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Agora, quando pegar no seu telemóvel ou tocar no ecrã, pode usar o rosto para desbloquear.
@@ -276,33 +276,33 @@ Vire o telemóvel para experimentar."</string>
 O Desbloqueio facial funciona melhor quando existe luz suficiente e quando não está a usar uma máscara ou óculos escuros."</string>
     <string name="security_settings_face_enroll_finish_title">Tudo OK!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Definir para visão/mobilidade limitada</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Ao utilizar o Desbloqueio facial, a sua cabeça pode ter de estar mais diretamente em frente ao telemóvel.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Ao utilizar o Desbloqueio facial, a sua cabeça pode ter de estar mais diretamente em frente ao telemóvel.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Exigir olhos abertos</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"O utilizador e a criança podem eliminar o modelo de rosto ou desativar o Desbloqueio facial em qualquer altura nas Definições. Os modelos de rosto são armazenados no telemóvel até serem eliminados.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"O utilizador e a criança podem eliminar o modelo de rosto ou desativar o Desbloqueio facial em qualquer altura nas Definições. Os modelos de rosto são armazenados no telemóvel até serem eliminados.
 
 Saiba mais em g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">O controlo é seu e da criança</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Pode eliminar o seu modelo de rosto ou desativar o Desbloqueio facial em qualquer altura nas Definições. Os modelos de rosto são armazenados no telemóvel até os eliminar.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Pode eliminar o seu modelo de rosto ou desativar o Desbloqueio facial em qualquer altura nas Definições. Os modelos de rosto são armazenados no telemóvel até os eliminar.
 
 Saiba mais em g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">O controlo é seu</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"O Desbloqueio facial cria um modelo único do rosto da criança para validar a respetiva identidade. Para criar este modelo de rosto durante a configuração, é necessário tirar fotos de vários ângulos do rosto da criança.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"O Desbloqueio facial cria um modelo único do rosto da criança para validar a respetiva identidade. Para criar este modelo de rosto durante a configuração, é necessário tirar fotos de vários ângulos do rosto da criança.
 
 Quando a criança utiliza o Desbloqueio facial, são utilizadas imagens para atualizar o respetivo modelo de rosto. As imagens utilizadas para criar o modelo de rosto da criança não são armazenadas, mas o modelo de rosto é guardado em segurança no telemóvel e nunca sai do mesmo. Todo o processamento ocorre de forma segura no telemóvel."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"O Desbloqueio facial cria um modelo único do seu rosto para validar a sua identidade. Para criar este modelo de rosto durante a configuração, é necessário tirar fotos de vários ângulos do seu rosto.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"O Desbloqueio facial cria um modelo único do seu rosto para validar a sua identidade. Para criar este modelo de rosto durante a configuração, é necessário tirar fotos de vários ângulos do seu rosto.
 
 Quando utiliza o Desbloqueio facial, são utilizadas imagens para atualizar o seu modelo de rosto. As imagens utilizadas para criar o seu modelo de rosto não são armazenadas, mas o modelo de rosto é guardado em segurança no seu telemóvel e nunca sai do mesmo. Todo o processamento ocorre de forma segura no seu telemóvel."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Como funciona</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">O Desbloqueio facial pode requerer que os olhos da criança estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Você e a criança podem ativar esta opção em qualquer altura nas Definições.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">O Desbloqueio facial pode requerer que os olhos da criança estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Você e a criança podem ativar esta opção em qualquer altura nas Definições.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Se a criança costuma utilizar óculos, pode utilizá-los durante a configuração.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Usar o rosto da criança para desbloquear o respetivo telemóvel pode ser menos seguro do que um padrão, um PIN ou uma palavra-passe fortes</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">A criança pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O telemóvel também pode ser desbloqueado por alguém muito parecido com a criança, como um irmão com traços semelhantes, ou se for segurado junto ao rosto da criança.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">O Desbloqueio facial pode requerer que os seus olhos estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Pode ativar esta opção em qualquer altura nas Definições.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Usar o rosto da criança para desbloquear o respetivo telemóvel pode ser menos seguro do que um padrão, um PIN ou uma palavra-passe fortes</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">A criança pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O telemóvel também pode ser desbloqueado por alguém muito parecido com a criança, como um irmão com traços semelhantes, ou se for segurado junto ao rosto da criança.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">O Desbloqueio facial pode requerer que os seus olhos estejam abertos para desbloquear o telemóvel ou validar a respetiva identidade. Pode ativar esta opção em qualquer altura nas Definições.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">É possível usar óculos ou óculos de sol ligeiramente matizados.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">A utilização do seu rosto para desbloquear o telemóvel pode ser menos segura do que um padrão, um PIN ou uma palavra-passe forte</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O seu telemóvel também pode ser desbloqueado por alguém muito parecido consigo, como um irmão com traços semelhantes, ou se for segurado junto ao seu rosto.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">A utilização do seu rosto para desbloquear o telemóvel pode ser menos segura do que um padrão, um PIN ou uma palavra-passe forte</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Pode desbloquear o telemóvel ao olhar para ele, até inadvertidamente. O seu telemóvel também pode ser desbloqueado por alguém muito parecido consigo, como um irmão com traços semelhantes, ou se for segurado junto ao seu rosto.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Atenção</string>
-    <string name="security_settings_face_enroll_introduction_message">Utilize o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Utilize o seu rosto para desbloquear o telemóvel ou validar a sua identidade, como quando inicia sessão em apps ou aprova uma compra.</string>
     <string name="security_settings_face_enroll_introduction_title">Configure o Desbloqueio facial</string>
     <string name="security_settings_face_enroll_next">Seguinte</string>
     <string name="security_settings_face_enroll_partial_message">Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas Definições</string>

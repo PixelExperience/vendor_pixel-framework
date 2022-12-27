@@ -268,7 +268,7 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="security_dismiss_dialog_title">Vai nerādīt šo brīdinājumu?</string>
     <string name="security_settings_face_enroll_dialog_ok">Labi</string>
     <string name="security_settings_face_enroll_education_message">Pēc pāriešanas uz nākamo ekrānu groziet galvu, lai tvertu seju no visiem leņķiem.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Pēc pāriešanas uz nākamo ekrānu turiet tālruni acu līmenī</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Pēc pāriešanas uz nākamo ekrānu turiet tālruni acu līmenī</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Sasniegts sejas reģistrēšanas reižu skaits. Mēģiniet vēlreiz.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Iestatot autorizāciju pēc sejas, iestājās noildze</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Tagad varat izmantot seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
@@ -277,33 +277,33 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
 Autorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles."</string>
     <string name="security_settings_face_enroll_finish_title">Gatavs!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Redzes vai galvas kust. ierobež.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Izmantojot autorizāciju pēc sejas, jūsu galvai jābūt tieši pretī tālrunim.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Izmantojot autorizāciju pēc sejas, jūsu galvai jābūt tieši pretī tālrunim.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Jābūt atvērtām acīm</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Iestatījumos jūs un jūsu bērns varat jebkurā laikā dzēst sejas modeli vai izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Iestatījumos jūs un jūsu bērns varat jebkurā laikā dzēst sejas modeli vai izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.
 
 Uzziniet vairāk vietnē g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Visu nosakāt jūs un jūsu bērns</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Iestatījumos varat jebkurā laikā dzēst sejas modeli vai izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Iestatījumos varat jebkurā laikā dzēst sejas modeli vai izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.
 
 Uzziniet vairāk vietnē g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Viss ir jūsu pārziņā</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu bērna sejas modelis viņa identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūsu bērns uzņems savas sejas attēlus no dažādiem leņķiem.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu bērna sejas modelis viņa identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūsu bērns uzņems savas sejas attēlus no dažādiem leņķiem.
 
 Izmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmantoti attēli. Sejas modeļa izveidei izmantotie attēli netiek saglabāti, savukārt sejas modelis tiek droši glabāts jūsu bērna tālrunī un vienmēr atrodas tikai tālrunī. Apstrāde tiek veikta drošā veidā un tikai bērna tālrunī."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu sejas modelis jūsu identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūs uzņemsiet savas sejas attēlus no dažādiem leņķiem.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu sejas modelis jūsu identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūs uzņemsiet savas sejas attēlus no dažādiem leņķiem.
 
 Izmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmantoti attēli. Sejas modeļa izveidei izmantotie attēli netiek saglabāti, savukārt sejas modelis tiek droši glabāts jūsu tālrunī un vienmēr atrodas tikai tālrunī. Apstrāde tiek veikta drošā veidā un tikai jūsu tālrunī."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Darbības principi</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja bērna acis ir atvērtas. Jebkurā laikā jūs vai jūsu bērns varat šo opciju ieslēgt sadaļā Iestatījumi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja bērna acis ir atvērtas. Jebkurā laikā jūs vai jūsu bērns varat šo opciju ieslēgt sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ja jūsu bērns parasti valkā brilles, viņš var tās valkāt iestatīšanas laikā.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Autorizācijas pēc sejas izmantošana, lai atbloķētu bērna tālruni, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jūsu bērnam līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret bērna seju.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja jūsu acis ir atvērtas. Jebkurā laikā šo opciju varat ieslēgt sadaļā Iestatījumi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Autorizācijas pēc sejas izmantošana, lai atbloķētu bērna tālruni, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jūsu bērnam līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret bērna seju.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Autorizācijai pēc sejas varat iestatīt, lai funkcija tālruņa atbloķēšanai vai identitātes apstiprināšanai darbotos tikai tad, ja jūsu acis ir atvērtas. Jebkurā laikā šo opciju varat ieslēgt sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brilles vai viegli tonētas saulesbrilles netraucēs.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Tālruņa atbloķēšana, izmantojot sejas atpazīšanu, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jums līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret jūsu seju.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Tālruņa atbloķēšana, izmantojot sejas atpazīšanu, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jums līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, vēršot tālruni pret jūsu seju.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Svarīga informācija</string>
-    <string name="security_settings_face_enroll_introduction_message">Izmantojiet seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Izmantojiet seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
     <string name="security_settings_face_enroll_introduction_title">Autorizācijas pēc sejas iestatīšana</string>
     <string name="security_settings_face_enroll_next">Tālāk</string>
     <string name="security_settings_face_enroll_partial_message">Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc sejas.</string>

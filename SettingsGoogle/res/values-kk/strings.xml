@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">Бас тарту</string>
     <string name="security_dismiss_dialog_title">Ескерту жабылсын ба?</string>
     <string name="security_settings_face_enroll_education_message">Келесі экранда бетіңізді барлық бұрыштан түсіру керек болады. Басыңызды ары-бері бұрасыз.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">Келесі экранда телефонды көз деңгейінде ұстаңыз.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Келесі экранда телефонды көз деңгейінде ұстаңыз.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Бет тану функциясын реттеу уақыты өтіп кетті</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Енді телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде немесе бірдеңе сатып алғанда) бет тану функциясын пайдалана аласыз.</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Енді телефонды қолыңызға алғанда немесе экранды түрткенде, оның құлпын ашу үшін бет тану функциясын пайдалана аласыз.
@@ -275,33 +275,33 @@
 Бет тану функциясы жеткілікті жарық болған кезде және бетперде не қою түсті көзілдірік кимеген кезде жақсы жұмыс істейді."</string>
     <string name="security_settings_face_enroll_finish_title">Жақсы!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Көру қабілеті не басты қозғалту мүмкіндігі шектеулі болған жағдайдағы реттеу</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Бет тану функциясын пайдалану кезінде басты телефонның алдында тік ұстау қажет.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Бет тану функциясын пайдалану кезінде басты телефонның алдында тік ұстау қажет.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Көзді ашып тұру керек.</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"Балаңыз екеуіңіз кез келген уақытта \"Параметрлер\" бөлімінен оның бет үлгісін жоя аласыздар. Бет тану функциясын өшіріп қоюға да болады. Үлгілер өзіңіз жойғанша сақталып тұрады.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Балаңыз екеуіңіз кез келген уақытта \"Параметрлер\" бөлімінен оның бет үлгісін жоя аласыздар. Бет тану функциясын өшіріп қоюға да болады. Үлгілер өзіңіз жойғанша сақталып тұрады.
 
 Толығырақ: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Бәрін балаңыз екеуіңіз басқарасыздар</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"Кез келген уақытта \"Параметрлер\" бөлімінен бет үлгісін жоюға немесе Бет тану функциясын өшіруге болады. Бет үлгілері жойылғанша телефонда сақталып тұра береді.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Кез келген уақытта \"Параметрлер\" бөлімінен бет үлгісін жоюға немесе Бет тану функциясын өшіруге болады. Бет үлгілері жойылғанша телефонда сақталып тұра береді.
 
 Толығырақ: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Барлығы өз қолыңызда</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Балаңыздың жеке басын растау үшін Бет тану функциясы оның бетінің қайталанбас үлгісін жасайды. Реттеу кезінде бет үлгісін жасау үшін, балаңыз бетін жан-жағынан суретке түсіреді.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Балаңыздың жеке басын растау үшін Бет тану функциясы оның бетінің қайталанбас үлгісін жасайды. Реттеу кезінде бет үлгісін жасау үшін, балаңыз бетін жан-жағынан суретке түсіреді.
 
 Балаңыз Бет тану функциясын пайдаланған кездегі суреттер оның бет үлгісін жаңарту үшін пайдаланылады. Бет үлгісін жасау үшін қолданылған суреттер сақталмайды, бірақ үлгінің өзі телефонда қауіпсіз түрде сақталады және басқа ешқайда жіберілмейді. Барлық өңдеу жұмыстары телефонда ғана орындалады."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Жеке басыңызды растау үшін Бет тану функциясы бетіңіздің қайталанбас үлгісін жасайды. Ол үшін реттеу кезінде бетіңізді жан-жағынан суретке түсіресіз.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Жеке басыңызды растау үшін Бет тану функциясы бетіңіздің қайталанбас үлгісін жасайды. Ол үшін реттеу кезінде бетіңізді жан-жағынан суретке түсіресіз.
 
 Бет тану функциясын қолданған кездегі суреттер бет үлгісін жаңарту үшін пайдаланылады. Ол суреттер сақталмайды, бірақ үлгінің өзі телефонда сақталады және басқа ешқайда жіберілмейді. Барлық өңдеу жұмыстары телефонда ғана орындалады."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Бұл қалай жұмыс істейді?</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Бет тану функциясы телефонның құлпын ашу үшін немесе балаңыздың жеке басын растау үшін одан көзін ашуын талап етуі мүмкін. Балаңыз екеуіңіз бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыздар.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Бет тану функциясы телефонның құлпын ашу үшін немесе балаңыздың жеке басын растау үшін одан көзін ашуын талап етуі мүмкін. Балаңыз екеуіңіз бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыздар.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Балаңыз әдетте көзілдірік тағатын болса, реттеу кезінде оны шешпесе де болады.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Телефон құлпын баланың бетін пайдаланып ашу қауіпсіздік тұрғысынан PIN кодына, құпия сөзге немесе күрделі өрнекке қарағанда әлсіздеу болуы мүмкін.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ашқысы келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты оған ұқсайтын біреу (мысалы, оның сыңары) ашып алуы мүмкін. Телефонды бетіне тақаған кезде де ашылып кетуі ықтимал.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Бет тану функциясы телефонның құлпын ашу үшін немесе жеке басыңызды растау үшін көзіңізді ашуды талап етуі мүмкін. Бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыз.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Телефон құлпын баланың бетін пайдаланып ашу қауіпсіздік тұрғысынан PIN кодына, құпия сөзге немесе күрделі өрнекке қарағанда әлсіздеу болуы мүмкін.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Ашқысы келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты оған ұқсайтын біреу (мысалы, оның сыңары) ашып алуы мүмкін. Телефонды бетіне тақаған кезде де ашылып кетуі ықтимал.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Бет тану функциясы телефонның құлпын ашу үшін немесе жеке басыңызды растау үшін көзіңізді ашуды талап етуі мүмкін. Бұл функцияны \"Параметрлер\" бөлімінен кез келген уақытта қоса аласыз.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Түссіз немесе сәл күңгірттелген көзілдірікті шешпеуге болады.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Телефон құлпын ашу үшін беттен гөрі күрделі өрнек, PIN кодын немесе құпия сөз пайдаланған әлдеқайда қауіпсіз.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">Ашқыңыз келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты өзіңізге ұқсайтын біреу, мысалы, егіз бауырыңыз ашып алуы мүмкін. Телефонды бетіңізге тақаған кезде де ашылып кетуі ықтимал.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Телефон құлпын ашу үшін беттен гөрі күрделі өрнек, PIN кодын немесе құпия сөз пайдаланған әлдеқайда қауіпсіз.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Ашқыңыз келмесе де, телефонға қараған кезде, оның құлпы ашылып кетуі мүмкін. Құлыпты өзіңізге ұқсайтын біреу, мысалы, егіз бауырыңыз ашып алуы мүмкін. Телефонды бетіңізге тақаған кезде де ашылып кетуі ықтимал.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Есте сақтаңыз</string>
-    <string name="security_settings_face_enroll_introduction_message">Телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде не бірдеңе сатып алғанда) бет тану функциясын пайдаланыңыз.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Телефон құлпын ашу немесе жеке басыңызды растау үшін (мысалы, қолданбаларға кіргенде не бірдеңе сатып алғанда) бет тану функциясын пайдаланыңыз.</string>
     <string name="security_settings_face_enroll_introduction_title">Бет тану функциясын реттеу</string>
     <string name="security_settings_face_enroll_next">Келесі</string>
     <string name="security_settings_face_enroll_partial_message">Бет тану функциясы жақсырақ жұмыс істеуі үшін, оны \"Параметрлер\" бөлімінен қайта реттей аласыз.</string>

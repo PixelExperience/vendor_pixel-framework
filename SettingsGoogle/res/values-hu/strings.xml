@@ -267,7 +267,7 @@ A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="security_dismiss_dialog_dismiss_button">Elvetés</string>
     <string name="security_dismiss_dialog_title">Elveti a figyelmeztetést?</string>
     <string name="security_settings_face_enroll_education_message">A következő képernyőnél forgassa körbe a fejét, hogy arcát minden szögből rögzítse az eszköz</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">A következő képernyőnél tartsa szemmagasságban a telefonját</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">A következő képernyőnél tartsa szemmagasságban a telefonját</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Időtúllépés az Arcalapú feloldás beállításakor</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Mostantól használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például amikor valamilyen alkalmazásba jelentkezik be, vagy vásárlást hagy jóvá).</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Mostantól használhatja az Arcalapú feloldás funkciót, amikor kézbe veszi a telefont, vagy rákoppint a képernyőre.
@@ -275,33 +275,33 @@ A kipróbálásához fordítsa meg a telefonját."</string>
 A funkció akkor működik a leghatékonyabban, ha megfelelően megvilágított térben tartózkodik, és nem visel maszkot vagy sötét szemüveget."</string>
     <string name="security_settings_face_enroll_finish_title">Sikerült!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Beállítás kisegítő használatra</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Az Arcalapú feloldás használatához szükséges lehet, hogy a telefon közvetlenül az arca előtt legyen.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Az Arcalapú feloldás használatához szükséges lehet, hogy a telefon közvetlenül az arca előtt legyen.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Használatához nyitva kell lennie a szemeinek</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"A Beállításokban Ön és gyermeke bármikor törölheti gyermeke arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon addig tárolja az arcmodelleket, amíg Ön vagy gyermeke nem törli őket.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"A Beállításokban Ön és gyermeke bármikor törölheti gyermeke arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon addig tárolja az arcmodelleket, amíg Ön vagy gyermeke nem törli őket.
 
 További információ: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Az irányítás az Ön és gyermeke kezében van</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"A Beállításokban bármikor törölheti az arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon addig tárolja az arcmodelleket, amíg Ön nem törli őket.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"A Beállításokban bármikor törölheti az arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon addig tárolja az arcmodelleket, amíg Ön nem törli őket.
 
 További információ: g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Az irányítás az Ön kezében van</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön gyermekének arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához gyermekének képeket kell készítenie az arcáról különböző szögekből.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön gyermekének arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához gyermekének képeket kell készítenie az arcáról különböző szögekből.
 
 Amikor gyermeke az Arcalapú feloldást használja, a rendszer felhasználja a képeket az arcmodellje frissítésére. Az arcmodell elkészítéséhez használt képeket nem, de magát az arcmodellt biztonságosan tárolja a telefon, és az arcmodell sosem kerül ki róla. A feldolgozás teljes mértékben és biztonságos módon a telefonon történik."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához képeket kell készítenie az arcáról különböző szögekből.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához képeket kell készítenie az arcáról különböző szögekből.
 
 Az Arcalapú feloldás használatakor a rendszer felhasználja a képeket az arcmodell frissítésére. Az arcmodell elkészítéséhez használt képeket nem, de magát az arcmodellt biztonságosan tárolja a telefon, és az arcmodell sosem kerül ki a róla. A feldolgozás teljes mértékben és biztonságos módon a telefonon történik."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Hogyan működik?</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Az Arcalapú feloldás funkció megkövetelheti, hogy gyermeke szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Ön és gyermeke bármikor kikapcsolhatják ezt a Beállítások menüben.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Az Arcalapú feloldás funkció megkövetelheti, hogy gyermeke szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Ön és gyermeke bármikor kikapcsolhatják ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ha gyermeke általában szemüveget hord, a beállítás során is viselheti.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Ha gyermeke az arcát használja a telefonja feloldásához, az kevésbé biztonságos lehet, mint egy erős minta, PIN-kód vagy jelszó.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">A telefonjára nézve gyermeke akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít gyermekére, például az egypetéjű ikertestvére; vagy aki az Ön gyermekének arca elé tartja a telefont.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">Az Arcalapú feloldás funkció megkövetelheti, hogy az Ön szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Bármikor kikapcsolhatja ezt a Beállítások menüben.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Ha gyermeke az arcát használja a telefonja feloldásához, az kevésbé biztonságos lehet, mint egy erős minta, PIN-kód vagy jelszó.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">A telefonjára nézve gyermeke akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít gyermekére, például az egypetéjű ikertestvére; vagy aki az Ön gyermekének arca elé tartja a telefont.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Az Arcalapú feloldás funkció megkövetelheti, hogy az Ön szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Bármikor kikapcsolhatja ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">A szemüvegek és az enyhén színezett napszemüvegek nem jelentenek problémát.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">Előfordulhat, hogy a telefon arcalapú feloldása kevésbé biztonságos, mint egy bonyolult minta, PIN-kód vagy jelszó.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">A telefonjára nézve akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít Önre, például az egypetéjű ikertestvére; vagy aki az Ön arca elé tartja a telefont.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Előfordulhat, hogy a telefon arcalapú feloldása kevésbé biztonságos, mint egy bonyolult minta, PIN-kód vagy jelszó.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">A telefonjára nézve akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít Önre, például az egypetéjű ikertestvére; vagy aki az Ön arca elé tartja a telefont.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Fontos tudnivalók</string>
-    <string name="security_settings_face_enroll_introduction_message">Használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például alkalmazásokba való bejelentkezés vagy vásárlás jóváhagyása során).</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például alkalmazásokba való bejelentkezés vagy vásárlás jóváhagyása során).</string>
     <string name="security_settings_face_enroll_introduction_title">Az arcalapú feloldás beállítása</string>
     <string name="security_settings_face_enroll_next">Tovább</string>
     <string name="security_settings_face_enroll_partial_message">A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a Beállításokban.</string>

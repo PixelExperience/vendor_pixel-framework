@@ -267,7 +267,7 @@
     <string name="security_dismiss_dialog_dismiss_button">閉じる</string>
     <string name="security_dismiss_dialog_title">このメッセージを閉じますか？</string>
     <string name="security_settings_face_enroll_education_message">次の画面で、首を振ってさまざまな角度から顔を撮影してください</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">次の画面で、スマートフォンを目の高さに合わせて持ってください</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">次の画面で、スマートフォンを目の高さに合わせて持ってください</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">顔認証設定のタイムアウト</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行えるようになりました</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"スマートフォンを持ち上げるか画面をタップしたときに、顔認証を使用してロック解除できるようになりました。
@@ -275,33 +275,33 @@
 顔が十分に照らされていて、マスクやサングラスを着けていない場合は、顔認証が特に便利です。"</string>
     <string name="security_settings_face_enroll_finish_title">完了です</string>
     <string name="security_settings_face_enroll_introduction_accessibility">視覚や頭の動きに制限がある場合の設定</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">顔認証を使用する場合は、顔をスマートフォンの真正面に向けてください。</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">顔認証を使用する場合は、顔をスマートフォンの真正面に向けてください。</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">目を開けてください</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"あなたとお子様はいつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"あなたとお子様はいつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
 
 詳しくは、g.co/pixel/faceunlock をご覧ください。"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">あなたとお子様が管理できます</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"いつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"いつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
 
 詳しくは、g.co/pixel/faceunlock をご覧ください。"</string>
     <string name="security_settings_face_enroll_introduction_control_title">データはデバイス内だけに保存</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"顔認証を設定する際に、本人確認に使うお子様の顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度からお子様の顔の画像を撮影します。
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"顔認証を設定する際に、本人確認に使うお子様の顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度からお子様の顔の画像を撮影します。
 
 顔認証を使用すると、画像を基に顔モデルが更新されます。顔モデルの作成に使用された画像が保存されることはありませんが、顔モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。"</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"顔認証を設定する際に、本人確認に使う顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度から顔の画像を撮影します。
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"顔認証を設定する際に、本人確認に使う顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度から顔の画像を撮影します。
 
 顔認証を使用すると、画像を基に顔モデルが更新されます。顔モデルの作成に使用された画像が保存されることはありませんが、顔モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。"</string>
     <string name="security_settings_face_enroll_introduction_how_title">仕組み</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">顔認証を使用するには、スマートフォンのロック解除または本人確認の際にお子様に目を開いていただくことが必要になる場合があります。あなたとお子様はいつでも [設定] でこのオプションを ON にできます。 顔認証の設定により、スマートフォンのロック解除または本人確認の際にお子様が目を開いていることを必須にできます。保護者やお子様はいつでも [設定] でこのオプションを ON にできます。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">顔認証を使用するには、スマートフォンのロック解除または本人確認の際にお子様に目を開いていただくことが必要になる場合があります。あなたとお子様はいつでも [設定] でこのオプションを ON にできます。 顔認証の設定により、スマートフォンのロック解除または本人確認の際にお子様が目を開いていることを必須にできます。保護者やお子様はいつでも [設定] でこのオプションを ON にできます。</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">お子様が眼鏡を普段かけている場合は、設定の際にかけていても構いません。</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">お子様の顔認証によるスマートフォンのロック解除は、複雑なパターンや PIN、安全なパスワードよりも安全面で劣る可能性があります</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、お子様の顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">顔認証の設定により、スマートフォンのロック解除または本人確認の際に目を開いていることを必須にできます。このオプションは [設定] でいつでも ON にできます。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">お子様の顔認証によるスマートフォンのロック解除は、複雑なパターンや PIN、安全なパスワードよりも安全面で劣る可能性があります</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、お子様の顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">顔認証の設定により、スマートフォンのロック解除または本人確認の際に目を開いていることを必須にできます。このオプションは [設定] でいつでも ON にできます。</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">メガネやサングラス（薄い色）をかけていても大丈夫です。</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">顔認証によるスマートフォンのロック解除は、複雑なパターン、PIN、パスワードよりも安全面で劣る可能性があります</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、あなたの顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">顔認証によるスマートフォンのロック解除は、複雑なパターン、PIN、パスワードよりも安全面で劣る可能性があります</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、あなたの顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
     <string name="security_settings_face_enroll_introduction_info_title">注意事項</string>
-    <string name="security_settings_face_enroll_introduction_message">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行います。</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行います。</string>
     <string name="security_settings_face_enroll_introduction_title">顔認証の設定</string>
     <string name="security_settings_face_enroll_next">次へ</string>
     <string name="security_settings_face_enroll_partial_message">パフォーマンスを改善するには、[設定] で顔認証を設定し直します。</string>

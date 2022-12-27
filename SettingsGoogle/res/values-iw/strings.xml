@@ -266,7 +266,7 @@
     <string name="security_dismiss_dialog_dismiss_button">סגירה</string>
     <string name="security_dismiss_dialog_title">לסגור את האזהרה הזו?</string>
     <string name="security_settings_face_enroll_education_message">במסך הבא, עליך לסובב את הראש כדי לצלם את הפנים מכל הזוויות</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">במסך הבא יש להחזיק את הטלפון בגובה העיניים</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">במסך הבא יש להחזיק את הטלפון בגובה העיניים</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">הסריקה לצורך זיהוי פנים לא פעלה.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">הגעת למגבלת הזמן של סריקה לצורך זיהוי פנים. יש לנסות שוב.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">פג הזמן הקצוב לפתיחה ע\"י זיהוי הפנים</string>
@@ -276,33 +276,33 @@
 פתיחה ע\"י זיהוי הפנים פועלת בצורה הטובה ביותר כשיש מספיק אור, ללא מסכה וללא משקפיים כהים."</string>
     <string name="security_settings_face_enroll_finish_title">נראה טוב!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">מגבלה בראייה או בתנועת הראש</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">"לצורך השימוש בתכונה 'פתיחה ע\"י זיהוי הפנים', ייתכן שיהיה עליך לייצב את ראשך ישירות מול הטלפון."</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">"לצורך השימוש בתכונה 'פתיחה ע\"י זיהוי הפנים', ייתכן שיהיה עליך לייצב את ראשך ישירות מול הטלפון."</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">העיניים צריכות להיות פתוחות</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"‏האפשרות למחוק את התבנית לזיהוי הפנים, או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים', זמינה לך ולילד או לילדה שלך בכל שלב בהגדרות. התבניות לזיהוי פנים נשמרות בטלפון עד שהן נמחקות.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"‏האפשרות למחוק את התבנית לזיהוי הפנים, או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים', זמינה לך ולילד או לילדה שלך בכל שלב בהגדרות. התבניות לזיהוי פנים נשמרות בטלפון עד שהן נמחקות.
 
 מידע נוסף זמין בכתובת g.co/pixel/faceunlock."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">השליטה נמצאת בידיים שלך ושל הילד או הילדה</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"‏בכל שלב אפשר למחוק את התבנית לזיהוי הפנים או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' בהגדרות. התבניות לזיהוי הפנים נשמרות בטלפון עד שהן נמחקות.
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"‏בכל שלב אפשר למחוק את התבנית לזיהוי הפנים או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' בהגדרות. התבניות לזיהוי הפנים נשמרות בטלפון עד שהן נמחקות.
 
 מידע נוסף זמין בכתובת g.co/pixel/faceunlock"</string>
     <string name="security_settings_face_enroll_introduction_control_title">השליטה בידיים שלך</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים של הילד או הילדה כדי לאמת את זהותם. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה על הילד או הילדה לצלם את פניהם מזוויות שונות.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים של הילד או הילדה כדי לאמת את זהותם. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה על הילד או הילדה לצלם את פניהם מזוויות שונות.
 
 כשהם משתמשים בפיצ'ר 'פתיחה ע\"י זיהוי הפנים', נעשה שימוש בתמונות כדי לעדכן את התבנית שלהם לזיהוי הפנים. התמונות המשמשות ליצירת התבנית לזיהוי הפנים שלהם לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים שלך כדי לאמת את זהותך. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה עליך לצלם את פניך מזוויות שונות.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים שלך כדי לאמת את זהותך. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה עליך לצלם את פניך מזוויות שונות.
 
 כשמשתמשים בפיצ'ר 'פתיחה ע\"י זיהוי הפנים', נעשה שימוש בתמונות כדי לעדכן את התבנית לזיהוי הפנים. התמונות המשמשות ליצירת התבנית לזיהוי הפנים שלך לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון שלך ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
     <string name="security_settings_face_enroll_introduction_how_title">איך זה עובד</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים של הילד או הילדה יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותם. גם ההורה וגם הילד או הילדה יכולים להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים של הילד או הילדה יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותם. גם ההורה וגם הילד או הילדה יכולים להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">אם הילד או הילדה שלך מרכיבים בדרך כלל משקפיים, הם יכולים להרכיב אותם במהלך ההגדרה.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים של הילדים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">מבט לטלפון עשוי לבטל נעילה גם כשהם לא מתכוונים לכך. כמו כן, נעילת הטלפון שלהם עשויה להתבטל על ידי מישהו שדומה להם מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלהם.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים שלך יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותך. ניתן להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים של הילדים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">מבט לטלפון עשוי לבטל נעילה גם כשהם לא מתכוונים לכך. כמו כן, נעילת הטלפון שלהם עשויה להתבטל על ידי מישהו שדומה להם מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלהם.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים שלך יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותך. ניתן להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">אפשר להרכיב משקפיים או משקפי שמש בגוון בהיר.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">מבט לטלפון עשוי לבטל נעילה בלי כוונה. כמו כן, נעילת הטלפון עשויה להתבטל על ידי מישהו שדומה לך מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלך.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">מבט לטלפון עשוי לבטל נעילה בלי כוונה. כמו כן, נעילת הטלפון עשויה להתבטל על ידי מישהו שדומה לך מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלך.</string>
     <string name="security_settings_face_enroll_introduction_info_title">חשוב לזכור</string>
-    <string name="security_settings_face_enroll_introduction_message">בעזרת הפנים שלך אפשר לבטל את הנעילה של הטלפון או לאמת את זהותך, למשל בכניסה לאפליקציות או באישור רכישה.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">בעזרת הפנים שלך אפשר לבטל את הנעילה של הטלפון או לאמת את זהותך, למשל בכניסה לאפליקציות או באישור רכישה.</string>
     <string name="security_settings_face_enroll_introduction_title">"הגדרת 'פתיחה ע\"י זיהוי הפנים'"</string>
     <string name="security_settings_face_enroll_next">הבא</string>
     <string name="security_settings_face_enroll_partial_message">"כדי לשפר את הביצועים, ניתן להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים' ב'הגדרות'"</string>

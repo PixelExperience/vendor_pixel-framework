@@ -268,7 +268,7 @@
     <string name="security_dismiss_dialog_dismiss_button">విస్మరించండి</string>
     <string name="security_dismiss_dialog_title">ఈ హెచ్చరికను విస్మరించాలా?</string>
     <string name="security_settings_face_enroll_education_message">తర్వాతి స్క్రీన్‌లో, మీ ముఖం యొక్క అన్ని కోణాలను క్యాప్చర్ చేయడానికి మీ తలను తిప్పండి</string>
-    <string name="security_settings_face_enroll_education_message_accessibility">తర్వాతి స్క్రీన్‌లో, మీ ఫోన్‌ను కంటి స్థాయిలో పట్టుకోండి</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="device">తర్వాతి స్క్రీన్‌లో, మీ ఫోన్‌ను కంటి స్థాయిలో పట్టుకోండి</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ఫేస్ అన్‌లాక్ సెటప్ సమయం ముగిసింది</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">ఇప్పుడు మీరు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించవచ్చు లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేసినప్పుడు లేదా కొనుగోలును ఆమోదించినప్పుడు ఇది మీరేనని వెరిఫై చేయడానికి కూడా మీ ముఖాన్ని ఉపయోగించవచ్చు</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"ఇప్పుడు మీరు మీ ఫోన్‌ను చేతిలోకి తీసుకున్నప్పుడు లేదా స్క్రీన్‌ను ట్యాప్ చేసినప్పుడు, అన్‌లాక్ చేయడానికి మీరు మీ ముఖాన్ని ఉపయోగించవచ్చు.
@@ -276,33 +276,33 @@
 తగినంత కాంతి ఉన్నప్పుడు, మీరు మాస్క్ లేదా ముదురు రంగు కళ్లద్దాలను ధరించనప్పుడు ఫేస్ అన్‌లాక్ ఫీచర్ అనేది ఉత్తమంగా పని చేస్తుంది."</string>
     <string name="security_settings_face_enroll_finish_title">బాగుంది!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">పరిమిత చూపు, తల కదలిక కోసం సెటప్</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ఫేస్ అన్‌లాక్‌ను ఉపయోగిస్తున్నప్పుడు, మీ తల భాగం చాలా వరకు మీ ఫోన్‌కు ఎదురుగా ఉండాలి.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">ఫేస్ అన్‌లాక్‌ను ఉపయోగిస్తున్నప్పుడు, మీ తల భాగం చాలా వరకు మీ ఫోన్‌కు ఎదురుగా ఉండాలి.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">కళ్లు తెరిచి ఉంచాలి</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message">"మీరు, మీ చిన్నారి వారి పేస్ మోడల్‌ను తొలగించవచ్చు లేదా సెట్టింగ్‌లలో ఎప్పుడైనా ఫేస్ అన్‌లాక్ ఆఫ్ చేయవచ్చు. ఫేస్ మోడల్స్ తొలగించబడే వరకు ఫోన్‌లో స్టోర్ చేయబడతాయి.
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"మీరు, మీ చిన్నారి వారి పేస్ మోడల్‌ను తొలగించవచ్చు లేదా సెట్టింగ్‌లలో ఎప్పుడైనా ఫేస్ అన్‌లాక్ ఆఫ్ చేయవచ్చు. ఫేస్ మోడల్స్ తొలగించబడే వరకు ఫోన్‌లో స్టోర్ చేయబడతాయి.
 
 g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">మీరు అలాగే మీ చిన్నారి కంట్రోల్‌లో ఉన్నారు</string>
-    <string name="security_settings_face_enroll_introduction_control_message">"మీరు సెట్టింగ్‌ల్లో ఎప్పుడైనా మీ ఫేస్ మోడల్‌ను తొలగించవచ్చు లేదా ఫేస్ అన్‌లాక్‌ను ఆఫ్ చేయవచ్చు. మీరు తొలగించే వరకు ఫేస్ మోడల్స్ ఫోన్‌లో స్టోర్ చేయబడతాయి
+    <string name="security_settings_face_enroll_introduction_control_message" product="device">"మీరు సెట్టింగ్‌ల్లో ఎప్పుడైనా మీ ఫేస్ మోడల్‌ను తొలగించవచ్చు లేదా ఫేస్ అన్‌లాక్‌ను ఆఫ్ చేయవచ్చు. మీరు తొలగించే వరకు ఫేస్ మోడల్స్ ఫోన్‌లో స్టోర్ చేయబడతాయి
 
 g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."</string>
     <string name="security_settings_face_enroll_introduction_control_title">మీరు కంట్రోల్ చేయవచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message">"ఫేస్ అన్‌లాక్, మీ చిన్నారి ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ చిన్నారి ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీ చిన్నారి వేర్వేరు కోణాలలో వారి ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"ఫేస్ అన్‌లాక్, మీ చిన్నారి ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ చిన్నారి ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీ చిన్నారి వేర్వేరు కోణాలలో వారి ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
 
 వారు ఫేస్ అన్‌లాక్‌ను ఉపయోగించినప్పుడు, వారి ఫేస్ మోడల్‌ను అప్‌డేట్ చేయడానికి ఇమేజ్‌లు ఉపయోగించబడతాయి. వారి ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి ఉపయోగించిన ఇమేజ్‌లు స్టోర్ చేయబడవు, కానీ ఫేస్ మోడల్ ఫోన్‌లో సురక్షితంగా స్టోర్ చేయబడుతుంది, ఫోన్ నుండి బయటకు పంపబడదు. మొత్తం ప్రాసెస్ విధానం ఫోన్‌లో సురక్షితంగా జరుగుతుంది."</string>
-    <string name="security_settings_face_enroll_introduction_how_message">"ఫేస్ అన్‌లాక్, మీ ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీరు వేర్వేరు కోణాలలో మీ ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
+    <string name="security_settings_face_enroll_introduction_how_message" product="device">"ఫేస్ అన్‌లాక్, మీ ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీరు వేర్వేరు కోణాలలో మీ ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
 
 మీరు ఫేస్ అన్‌లాక్‌ను ఉపయోగించినప్పుడు, మీ ఫేస్ మోడల్‌ను అప్‌డేట్ చేయడానికి ఇమేజ్‌లు ఉపయోగించబడతాయి. మీ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి ఉపయోగించే ఇమేజ్‌లు స్టోర్ చేయబడవు, కానీ ఫేస్ మోడల్ మీ ఫోన్‌లో సురక్షితంగా స్టోర్ చేయబడుతుంది, ఫోన్ నుండి బయటకు పంపబడదు. మొత్తం ప్రాసెస్ విధానం మీ ఫోన్‌లో సురక్షితంగా జరుగుతుంది."</string>
     <string name="security_settings_face_enroll_introduction_how_title">ఇది ఎలా పని చేస్తుంది</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది వారేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీ చిన్నారి కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు, మీ చిన్నారి ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది వారేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీ చిన్నారి కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు, మీ చిన్నారి ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">మీ చిన్నారి సాధారణంగా కళ్లద్దాలు ధరిస్తే, వారు వాటిని సెటప్ చేసే సమయంలో కూడా ధరించవచ్చు.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">మీ పిల్లల ఫోన్‌ను అన్‌లాక్ చేయడానికి వారి ముఖాన్ని ఉపయోగించడం అనేది బలమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్ కంటే తక్కువ సురక్షితమైనదిగా ఉండవచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">వారికి అన్‌లాక్ చేసే ఉద్దేశ్యం లేనప్పటికీ, కేవలం ఫోన్ వైపు చూసినా కూడా అది అన్‌లాక్ అవుతుంది. దాదాపుగా వారిలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా వారి ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా వారి ముఖం వద్ద మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది మీరేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీరు కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">మీ పిల్లల ఫోన్‌ను అన్‌లాక్ చేయడానికి వారి ముఖాన్ని ఉపయోగించడం అనేది బలమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్ కంటే తక్కువ సురక్షితమైనదిగా ఉండవచ్చు</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">వారికి అన్‌లాక్ చేసే ఉద్దేశ్యం లేనప్పటికీ, కేవలం ఫోన్ వైపు చూసినా కూడా అది అన్‌లాక్ అవుతుంది. దాదాపుగా వారిలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా వారి ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా వారి ముఖం వద్ద మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది మీరేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీరు కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">కళ్లద్దాలు గానీ, కొద్దిగా లేత రంగులోని చలువ కళ్లద్దాలు గానీ ఫర్వాలేదు.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడం అనేది శక్తివంతమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్‌తో పోలిస్తే తక్కువ సురక్షితమైనది కావచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_info_looking">మీకు అన్‌లాక్ చేసే ఉద్దేశం లేకపోయినా, కేవలం ఫోన్ వైపు చూస్తే చాలు అది అన్‌లాక్ అవుతుంది. దాదాపుగా మీలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా మీ ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా మీ ముఖం ఎదురుగా మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడం అనేది శక్తివంతమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్‌తో పోలిస్తే తక్కువ సురక్షితమైనది కావచ్చు</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="device">మీకు అన్‌లాక్ చేసే ఉద్దేశం లేకపోయినా, కేవలం ఫోన్ వైపు చూస్తే చాలు అది అన్‌లాక్ అవుతుంది. దాదాపుగా మీలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా మీ ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా మీ ముఖం ఎదురుగా మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
     <string name="security_settings_face_enroll_introduction_info_title">గుర్తుంచుకోండి</string>
-    <string name="security_settings_face_enroll_introduction_message">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి గానీ లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేసినప్పుడు లేదా కొనుగోలును ఆమోదించినప్పుడు ఇది మీరేనని వెరిఫై చేయడానికి మీ ముఖాన్ని ఉపయోగించండి.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి గానీ లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేసినప్పుడు లేదా కొనుగోలును ఆమోదించినప్పుడు ఇది మీరేనని వెరిఫై చేయడానికి మీ ముఖాన్ని ఉపయోగించండి.</string>
     <string name="security_settings_face_enroll_introduction_title">ఫేస్ అన్‌లాక్‌ను సెటప్ చేయండి</string>
     <string name="security_settings_face_enroll_next">తర్వాత</string>
     <string name="security_settings_face_enroll_partial_message">పనితీరును మెరుగుపరచడానికి, మళ్ళీ సెట్టింగ్‌లలో మీరు ఫేస్ అన్‌లాక్‌ను సెటప్ చేయవచ్చు</string>
