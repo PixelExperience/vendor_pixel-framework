@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Carregamento adaptável</string>
     <string name="adaptive_charging_description">Prolongue o tempo de vida útil da bateria ao carregar de forma regular durante períodos de carregamento mais longos. Ativado com base no seu ciclo de utilização.</string>
     <string name="adaptive_charging_time_estimate"><b>Carregamento adaptável</b> • Completo até à(s) %1$s</string>
+    <string name="add_bypassed_application_hint">Nenhuma app adicionada</string>
+    <string name="advanced_vpn_preference_group_title">Integrada</string>
+    <string name="all_apps_category_title">Todas as apps</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferências</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistente, apps recentes, apps predefinidas</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Iniciar Assistente</string>
@@ -93,8 +96,13 @@ Após a reposição, execute o processo de configuração e selecione a transfer
     <string name="battery_manager_summary_unsupported">Prolongue a autonomia da bateria</string>
     <string name="battery_missing_link_message">Saiba mais</string>
     <string name="battery_suggestion_summary">Ative a funcionalidade Bateria adaptável.</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Para proteger a bateria, o carregamento é pausado a %1$s enquanto o tablet estiver na estação de ancoragem</string>
     <string name="battery_tip_smart_battery_summary">Ative a funcionalidade Bateria adaptável.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">O dispositivo %1$s deixará de estar sincronizado com qualquer dispositivo associado a esta Conta Google.</string>
+    <string name="clear_calling_footer">As chamadas nítidas está disponíveis dependendo da sua ligação de rede móvel e Wi‑Fi. O conteúdo da chamada não é enviado para a Google.</string>
+    <string name="clear_calling_title">Chamadas nítidas</string>
+    <string name="clear_calling_toggle">Usar as chamadas nítidas</string>
+    <string name="clear_calling_topintro">Reduz os ruídos de fundo durante as chamadas</string>
     <string name="columbus_gesture_detected">Quick Tap detetado!</string>
     <string name="columbus_gesture_enrollment_complete">Concluir</string>
     <string name="columbus_gesture_enrollment_do_it_later">Agora não</string>
@@ -151,7 +159,6 @@ Após a reposição, execute o processo de configuração e selecione a transfer
     <string name="dock_summary_charging_phone">Carregar o telemóvel</string>
     <string name="double_twist_for_camera_mode_summary">Para entrar e sair do modo selfie na Câmara Google, rode duas vezes quando estiver na aplicação.</string>
     <string name="downloads_backup_text">É feita uma cópia de segurança dos ficheiros transferidos para o Google Drive</string>
-    <string name="dream_secondary_button_title">Não utilizar proteção de ecrã</string>
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <string name="face_enrolling_center_head">Coloque o rosto na moldura interior.</string>
     <string name="face_enrolling_description">Capture todos os ângulos do seu rosto ao remover todos os mosaicos.</string>
@@ -220,6 +227,9 @@ Os dados das cópias de segurança não contam para a quota de armazenamento do 
     <string name="me_card_title">O meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel do João.</string>
+    <string name="remove">Remover</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">É ativado automaticamente por um curto período quando o telemóvel estiver ligado a um carregador</string>
+    <string name="reverse_charging_auto_turn_on_title">Ativar automaticamente</string>
     <string name="reverse_charging_charging_wirelessly_message">Indisponível porque o telemóvel está a carregar sem fios.</string>
     <string name="reverse_charging_detail_charging_overheat_message">A Partilha de bateria não está disponível porque o Pixel está demasiado quente. Espere que o dispositivo arrefeça e tente novamente.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">A Partilha de bateria está indisponível porque o telemóvel está a carregar sem fios.</string>
@@ -235,7 +245,7 @@ Vire o telemóvel para experimentar."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Partilhar e carregar a bateria</string>
     <string name="reverse_charging_is_on_and_discharging_summary">A partilhar a bateria</string>
     <string name="reverse_charging_is_on_summary">Ativada/Carregar outros dispositivos</string>
-    <string name="reverse_charging_main_switch">Permitir Partilha de bateria</string>
+    <string name="reverse_charging_main_switch">Usar a Partilha de bateria</string>
     <string name="reverse_charging_off_low_battery_summary">Desativada/A bateria do telemóvel é inferior a %1$s.</string>
     <string name="reverse_charging_off_sharing_level_summary">Desativada/A bateria está abaixo do nível de partilha.</string>
     <string name="reverse_charging_overheat_summary">Indisponível porque o Pixel está demasiado quente. Espere que o dispositivo arrefeça e tente novamente.</string>
@@ -309,7 +319,7 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ignorar Desbloqueio facial</string>
     <string name="security_settings_face_enroll_too_hot_title">Telemóvel demasiado quente</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tocar para configurar a impressão digital</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Saiba mais em g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saiba mais sobre o Desbloqueio por impressão digital do Pixel em &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint para o trabalho</string>
     <string name="setup_suggestion_summary">Copie dados, pague com o telemóvel, etc.</string>
     <string name="setup_suggestion_title">Conclua a configuração</string>
@@ -318,7 +328,12 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="smart_battery_title">Bateria adaptável</string>
     <string name="sound_dashboard_summary">Volume, funcionalidade tátil, Não incomodar</string>
     <string name="storage_manager_indicator">Armazenamento inteligente: ^1</string>
-    <string name="suw_warranty_description">Toque no país de compra para ver a garantia deste dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Anterior</string>
+    <string name="suw_limited_warranty_title">Garantia limitada</string>
+    <string name="suw_more_button_label">Mais</string>
+    <string name="suw_next_button_label">Seguinte</string>
+    <string name="suw_warranty_description">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo. A garantia também está disponível em Definições, depois, %s e, em seguida, Garantia limitada, bem como em g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">A garantia limitada aplicada ao seu dispositivo também está disponível nas Definições do dispositivo em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Seguinte</string>
     <string name="suw_warranty_positive_button_text">Fechar</string>
@@ -328,6 +343,10 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="tips_suggestion_title">Conheça o seu Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Mantenha o telemóvel à frente do seu rosto</string>
     <string name="usb_use_file_transfers">Transf. ficheiros/Android Auto</string>
+    <string name="vpn_app_bypass">Não use a VPN para as apps selecionadas</string>
+    <string name="vpn_bypass_category_title">Não use a VPN para estas apps</string>
+    <string name="vpn_bypass_description">Pode permitir que algumas apps ignorem a VPN e usem a ligação de rede normal do seu telemóvel</string>
+    <string name="vpn_preference_group_title">Outra</string>
     <string name="wallpaper_dashboard_summary">Cores, ícones temáticos, grelha de apps</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Veja ou altere a subscrição OpenRoaming.</string>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/clear_calling_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/clear_calling_topintro"
+        settings:searchable="false" />
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="clear_calling_illustration"
+        settings:lottie_rawRes="@drawable/clear_calling"
+        settings:searchable="false" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="clear_calling"
+        android:title="@string/clear_calling_toggle"
+        settings:controller="com.google.android.settings.notification.ClearCallingTogglePreferenceController" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="clear_calling_footer"
+        android:selectable="false"
+        android:title="@string/clear_calling_footer"
+        settings:controller="com.google.android.settings.notification.ClearCallingFooterPreferenceController"
+        settings:searchable="false" />
+
+</PreferenceScreen>

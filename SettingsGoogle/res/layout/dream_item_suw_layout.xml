@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:clickable="true"
     android:layout_margin="@dimen/suw_dream_item_margin"
-    style="@style/DreamCardStyle">
+    style="@style/DreamSudCardStyle">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="fill_parent"

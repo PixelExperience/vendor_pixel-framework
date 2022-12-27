@@ -13,6 +13,9 @@
     <string name="adaptive_charging">טעינה דינמית</string>
     <string name="adaptive_charging_description">חיי הסוללה יוארכו על ידי טעינה בזמנים קבועים למשך זמן רב יותר. האפשרות הופעלה על סמך מחזור השימוש שלך בסוללה.</string>
     <string name="adaptive_charging_time_estimate"><b>טעינה דינמית</b> • טעינה מלאה בשעה %1$s</string>
+    <string name="add_bypassed_application_hint">לא נוספו אפליקציות</string>
+    <string name="advanced_vpn_preference_group_title">מובנה</string>
+    <string name="all_apps_category_title">כל האפליקציות</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">העדפות</annotation></string>
     <string name="app_and_notification_dashboard_summary">‏Assistant, אפליקציות אחרונות, אפליקציות ברירת מחדל</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">‏המשך אל Assistant</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">הארכת חיי הסוללה</string>
     <string name="battery_missing_link_message">מידע נוסף</string>
     <string name="battery_suggestion_summary">"הפעלה של 'סוללה שניתנת להתאמה'"</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">כדי להגן על הסוללה, הטעינה מושהית במצב של %1$s כשהטאבלט נמצא באביזר העגינה</string>
     <string name="battery_tip_smart_battery_summary">הפעלת סוללה שניתנת להתאמה</string>
     <string name="bluetooth_untethered_unpair_dialog_body">‏תבוטל ההתאמה בין %1$s לבין כל מכשיר שמקושר לחשבון Google הזה</string>
+    <string name="clear_calling_footer">"‏התכונה 'שיחה ללא רעשי רקע' זמינה בהתאם לחיבור ה-‎Wi-Fi והחיבור לרשת הסלולרית. תוכן השיחה לא נשלח אל Google."</string>
+    <string name="clear_calling_title">שיחה ללא רעשי רקע</string>
+    <string name="clear_calling_toggle">"שימוש בתכונה 'שיחה ללא רעשי רקע'"</string>
+    <string name="clear_calling_topintro">הפחתת רעשי רקע במהלך שיחות</string>
     <string name="columbus_gesture_detected">זוהתה הקשה מהירה!</string>
     <string name="columbus_gesture_enrollment_complete">סיום</string>
     <string name="columbus_gesture_enrollment_do_it_later">לא עכשיו</string>
@@ -150,7 +158,6 @@
     <string name="dock_summary_charging_phone">טעינת הטלפון</string>
     <string name="double_twist_for_camera_mode_summary">‏כדי להיכנס למצב סלפי ולצאת ממנו במצלמת Google, צריך לאחוז במכשיר ולסובב אותו פעמיים מצד לצד כאשר משתמשים באפליקציה.</string>
     <string name="downloads_backup_text">‏קבצים שהורדת יגובו ב-Google Drive</string>
-    <string name="dream_secondary_button_title">אני לא רוצה לשמור את שומר המסך</string>
     <string name="duration_less_than_one_minute">פחות מדקה</string>
     <string name="face_enrolling_center_head">צריך למקם את הפנים בתוך המסגרת הפנימית</string>
     <string name="face_enrolling_description">יש לצלם את הפנים שלך מכל הזוויות על ידי הסרת כל האריחים.</string>
@@ -219,6 +226,9 @@
     <string name="me_card_title">‏ה-Pixel שלי</string>
     <string name="my_device_info_account_preference_title">‏חשבון Google</string>
     <string name="owner_info_settings_edit_text_hint">‏לדוגמה, ה-Pixel של יוסי.</string>
+    <string name="remove">הסרה</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">יופעל אוטומטית לפרק זמן קצר כשהטלפון יחובר למטען</string>
+    <string name="reverse_charging_auto_turn_on_title">הפעלה אוטומטית</string>
     <string name="reverse_charging_charging_wirelessly_message">לא זמין מפני שהטלפון נטען באופן אלחוטי</string>
     <string name="reverse_charging_detail_charging_overheat_message">‏שיתוף הסוללה אינו זמין מכיוון שה-Pixel חם מדי. יש להמתין עד שהטלפון יתקרר ולנסות שוב.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">שיתוף הסוללה אינו זמין מפני שהטלפון נטען באופן אלחוטי</string>
@@ -234,7 +244,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">הסוללה משותפת ומוטענת</string>
     <string name="reverse_charging_is_on_and_discharging_summary">הסוללה משותפת</string>
     <string name="reverse_charging_is_on_summary">מופעל/טעינה של מכשירים אחרים</string>
-    <string name="reverse_charging_main_switch">אישור לשיתוף הסוללה</string>
+    <string name="reverse_charging_main_switch">שימוש בשיתוף סוללה</string>
     <string name="reverse_charging_off_low_battery_summary">כבוי/רמת הטעינה של סוללת הטלפון נמוכה מ-%1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">כבוי/טעינת הסוללה נמוכה מרמה שמאפשרת שיתוף</string>
     <string name="reverse_charging_overheat_summary">‏התכונה לא זמינה מכיוון שה-Pixel חם מדי. יש להמתין עד שהטלפון יתקרר ולנסות שוב.</string>
@@ -309,7 +319,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">דילוג על פתיחה ע\"י זיהוי הפנים</string>
     <string name="security_settings_face_enroll_too_hot_title">הטלפון חם מדי</string>
     <string name="security_settings_fingerprint_preference_summary_none">יש להקיש כדי להגדיר טביעת אצבע</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">‏מידע נוסף זמין בכתובת g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏מידע נוסף על ביטול הנעילה של Pixel בטביעת אצבע זמין בכתובת &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">‏Pixel Imprint לעבודה</string>
     <string name="setup_suggestion_summary">העתקת נתונים, תשלום באמצעות הטלפון ועוד</string>
     <string name="setup_suggestion_title">סיום תהליך ההגדרה</string>
@@ -318,7 +328,12 @@
     <string name="smart_battery_title">סוללה שניתנת להתאמה</string>
     <string name="sound_dashboard_summary">עוצמת קול, משוב פיזי, נא לא להפריע</string>
     <string name="storage_manager_indicator">ניהול אחסון חכם: ^1</string>
-    <string name="suw_warranty_description">‏לצפייה בתנאי האחריות של המכשיר הזה, יש להקיש על המדינה שבה בוצעה הרכישה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם בקטע &lt;b&gt;הגדרות &gt;‏ %s &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">חזרה</string>
+    <string name="suw_limited_warranty_title">אחריות מוגבלת</string>
+    <string name="suw_more_button_label">עוד</string>
+    <string name="suw_next_button_label">הבא</string>
+    <string name="suw_warranty_description">‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם ב&lt;b&gt;הגדרות &gt; %s &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">"‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה. תנאי האחריות זמינים גם ב'הגדרות' &gt; %s &gt; 'אחריות מוגבלת', ובכתובת g.co/devicewarranty."</string>
     <string name="suw_warranty_language_consistent_description">‏האחריות המוגבלת שחלה על המכשיר שלך זמינה גם בהגדרות של המכשיר בקטע &lt;b&gt;הגדרות &gt;‏ %s &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">הבא</string>
     <string name="suw_warranty_positive_button_text">סגירה</string>
@@ -328,6 +343,10 @@
     <string name="tips_suggestion_title">‏טיפים ל-Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">מחזיקים את הטלפון מול הפנים</string>
     <string name="usb_use_file_transfers">‏העברת קבצים / Android Auto</string>
+    <string name="vpn_app_bypass">‏אין להשתמש ב-VPN עבור האפליקציות שנבחרו</string>
+    <string name="vpn_bypass_category_title">‏אין להשתמש ב-VPN עבור האפליקציות האלה</string>
+    <string name="vpn_bypass_description">‏אפשר להעניק לחלק מהאפליקציות האלה הרשאה להתעלם מה-VPN ולהשתמש בחיבור לרשת הרגילה של הטלפון</string>
+    <string name="vpn_preference_group_title">אחרים</string>
     <string name="wallpaper_dashboard_summary">צבעים, סמלים מעוצבים, תצוגת אפליקציות</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏הצגה או שינוי של מינוי OpenRoaming</string>

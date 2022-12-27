@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Հարմարվող լիցքավորում</string>
     <string name="adaptive_charging_description">Երկարացրեք մարտկոցի ծառայության ժամկետը դանդաղ լիցքավորման շնորհիվ։ Ակտիվանում է սարքի օգտագործման ցիկլի հիման վրա։</string>
     <string name="adaptive_charging_time_estimate"><b>Հարմարվող լիցքավորում</b> • Կավարտվի %1$s</string>
+    <string name="add_bypassed_application_hint">Հավելվածներ չեն ավելացվել</string>
+    <string name="advanced_vpn_preference_group_title">Ներկառուցված</string>
+    <string name="all_apps_category_title">Բոլոր հավելվածները</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Կարգավորումներ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Օգնական, վերջին հավելվածները, կանխադրված հավելվածներ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Գործարկել Օգնականը</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">Մարտկոցի աշխատաժամանակի երկարացում</string>
     <string name="battery_missing_link_message">Իմանալ ավելին</string>
     <string name="battery_suggestion_summary">Միացրեք «Հարմարվող մարտկոց» գործառույթը</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Մարտկոցը պաշտպանելու համար լիցքավորումը դադարեցվում է %1$s-ի մակարդակում, երբ պլանշետը տեղադրված է դոկ-կայանում</string>
     <string name="battery_tip_smart_battery_summary">Միացրեք «Հարմարվող մարտկոց» գործառույթը</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Այս Google հաշվին կապված բոլոր սարքերը կանջատվեն «%1$s» սարքից</string>
+    <string name="clear_calling_footer">«Մաքուր ձայնով զանգեր» գործառույթը հասանելի է՝ կախված ձեր Wi-Fi-ի և բջջային կապի արագությունից: Ձեր զանգի բովանդակությունը չի ուղարկվում Google-ին:</string>
+    <string name="clear_calling_title">Մաքուր ձայնով զանգեր</string>
+    <string name="clear_calling_toggle">Օգտագործել «Մաքուր ձայնով զանգեր» գործառույթը</string>
+    <string name="clear_calling_topintro">Նվազեցնում է ֆոնային աղմուկը զանգերի ժամանակ</string>
     <string name="columbus_gesture_detected">Հայտնաբերվել է արագ հպում</string>
     <string name="columbus_gesture_enrollment_complete">Պատրաստ է</string>
     <string name="columbus_gesture_enrollment_do_it_later">Ոչ հիմա</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">Հեռախոսի լիցքավորում</string>
     <string name="double_twist_for_camera_mode_summary">Google Տեսախցիկում սելֆիի ռեժիմը միացնելու և անջատելու համար բացեք հավելվածը և կրկնակի շրջեք դաստակը:</string>
     <string name="downloads_backup_text">Ներբեռնված ֆայլերը կպահուստավորվեն Google Drive-ում</string>
-    <string name="dream_secondary_button_title">Չօգտագործել էկրանապահը</string>
     <string name="duration_less_than_one_minute">1 րոպեից պակաս</string>
     <string name="face_enrolling_center_head">Դեմքը պետք է լինի ներսի շրջանակում</string>
     <string name="face_enrolling_description">Լուսանկարեք ձեր դեմքը բոլոր անկյուններից՝ հեռացնելով բոլոր սալիկները:</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">Իմ Pixel սարքը</string>
     <string name="my_device_info_account_preference_title">Google հաշիվ</string>
     <string name="owner_info_settings_edit_text_hint">Օրինակ՝ Վարդանի Pixel-ը</string>
+    <string name="remove">Հեռացնել</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Ավտոմատ կերպով կմիանա կարճ ժամանակով, երբ ձեր հեռախոսը միացված լինի լիցքավորիչին</string>
+    <string name="reverse_charging_auto_turn_on_title">Ավտոմատ միացնել</string>
     <string name="reverse_charging_charging_wirelessly_message">Անհասանելի է, քանի որ հեռախոսն անլար լիցքավորման ռեժիմում է</string>
     <string name="reverse_charging_detail_charging_overheat_message">Հնարավոր չէ կիսվել մարտկոցի լիցքով, քանի որ Pixel հեռախոսը շատ է տաքացել։ Սպասեք, մինչև հեռախոսը հովանա, ապա նորից փորձեք։</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Հնարավոր չէ կիսվել մարտկոցի լիցքով, քանի որ հեռախոսն անլար լիցքավորման ռեժիմում է։</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">Մարտկոցի լիցքավորում այլ սարքից</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Մարտկոցի լիցքի փոխանցում</string>
     <string name="reverse_charging_is_on_summary">Միացված է / Լիցքավորել այլ սարքեր</string>
-    <string name="reverse_charging_main_switch">Թույլատրել մարտկոցի լիցքի փոխանցումը</string>
+    <string name="reverse_charging_main_switch">Օգտագործել մարտկոցի լիցքի փոխանցումը</string>
     <string name="reverse_charging_off_low_battery_summary">Անջատված է / Մարտկոցի լիցքի մակարդակը %1$s-ից ցածր է</string>
     <string name="reverse_charging_off_sharing_level_summary">Անջատված է / Մարտկոցի լիցքի մակարդակը ցածր է համատեղ օգտագործման համար</string>
     <string name="reverse_charging_overheat_summary">Հասանելի չէ, քանի որ Pixel հեռախոսը շատ է տաքացել։ Սպասեք, մինչև հեռախոսը հովանա, ապա նորից փորձեք։</string>
@@ -308,7 +318,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Բաց թողնել դեմքով ապակողպումը</string>
     <string name="security_settings_face_enroll_too_hot_title">Հեռախոսը շատ է տաքացել</string>
     <string name="security_settings_fingerprint_preference_summary_none">Հպեք` մատնահետքը կարգավորելու համար</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Իմացեք ավելին g.co/pixel/fingerprintunlock էջում։</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Իմացեք ավելին Pixel-ի մատնահետքով ապակողպման մասին &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; էջում։"</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint աշխատանքի համար</string>
     <string name="setup_suggestion_summary">Պատճենեք տվյալներ, վճարեք հեռախոսով և այլն</string>
     <string name="setup_suggestion_title">Ավարտեք կարգավորումը</string>
@@ -317,7 +327,12 @@
     <string name="smart_battery_title">Հարմարվող մարտկոց</string>
     <string name="sound_dashboard_summary">Ձայնի ուժգնություն, հապտիկ արձագանք, Չանհանգստացնել</string>
     <string name="storage_manager_indicator">Խելացի պահեստ՝ ^1</string>
-    <string name="suw_warranty_description">Սարքին վերաբերող երաշխիքային տեղեկությունները դիտելու համար ընտրեք երկիրը, որտեղ այն գնել եք։&lt;br /&gt;&lt;br /&gt;Այդ տեղեկությունները նաև կարող եք գտնել՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; %s &gt; Սահմանափակ երաշխիք&lt;/b&gt;, կամ g.co/devicewarranty էջում։</string>
+    <string name="suw_back_button_label">Հետ</string>
+    <string name="suw_limited_warranty_title">Սահմանափակ երաշխիք</string>
+    <string name="suw_more_button_label">Ավելին</string>
+    <string name="suw_next_button_label">Առաջ</string>
+    <string name="suw_warranty_description">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։&lt;br /&gt;&lt;br /&gt;Երաշխիքը կարող եք նաև դիտել՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; %s &gt; Սահմանափակ երաշխիք&lt;/b&gt; և g.co/devicewarranty;</string>
+    <string name="suw_warranty_description_content">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։ Երաշխիքը կարող եք նաև դիտել՝ անցնելով Կարգավորումներ, ապա՝ %s, այնուհետև՝ Սահմանափակ երաշխիք և g.co/devicewarranty։</string>
     <string name="suw_warranty_language_consistent_description">Ձեր սարքի համար կիրառելի սահմանափակ երաշխիքի մասին տեղեկությունները կարող եք նաև գտնել սարքի Կարգավորումներում՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; %s &gt; Սահմանափակ երաշխիք&lt;/b&gt;, կամ g.co/devicewarranty էջում։</string>
     <string name="suw_warranty_next_button_text">Առաջ</string>
     <string name="suw_warranty_positive_button_text">Փակել</string>
@@ -327,6 +342,10 @@
     <string name="tips_suggestion_title">Ուսումնասիրեք ձեր Pixel-ը</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Հեռախոսը պահեք ձեր դեմքի առջև</string>
     <string name="usb_use_file_transfers">Ֆայլերի փոխանցում / Android Auto</string>
+    <string name="vpn_app_bypass">Չօգտագործել VPN-ը նշված հավելվածների համար</string>
+    <string name="vpn_bypass_category_title">Չօգտագործել VPN-ը այս հավելվածների համար</string>
+    <string name="vpn_bypass_description">Դուք կարող եք թույլատրել որոշ հավելվածների անտեսել VPN-ը և օգտագործել ձեր հեռախոսի սովորական կապը</string>
+    <string name="vpn_preference_group_title">Այլ</string>
     <string name="wallpaper_dashboard_summary">Գույներ, թեմատիկ պատկերակներ, հավելվածների ցանց</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Դիտել և փոխել OpenRoaming-ի բաժանորդագրությունը</string>

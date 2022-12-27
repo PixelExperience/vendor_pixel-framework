@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Tilpasset lading</string>
     <string name="adaptive_charging_description">Forleng batteriets levetid ved å lade gravis under lengre ladeperioder. Aktiveres basert på brukssyklusen din.</string>
     <string name="adaptive_charging_time_estimate"><b>Tilpasset lading</b> • Fullt etter %1$s</string>
+    <string name="add_bypassed_application_hint">Ingen apper er lagt til</string>
+    <string name="advanced_vpn_preference_group_title">Innebygd</string>
+    <string name="all_apps_category_title">Alle apper</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferanser</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, nylige apper, standardapper</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Fortsett til Assistent</string>
@@ -92,8 +95,13 @@ Når den er tilbakestilt, går du gjennom konfigureringsprosessen og velger å k
     <string name="battery_manager_summary_unsupported">Forleng batterilevetiden</string>
     <string name="battery_missing_link_message">Finn ut mer</string>
     <string name="battery_suggestion_summary">Slå på Tilpasset batteri</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">For å beskytte batteriet settes lading på pause ved %1$s når nettbrettet er i dokken</string>
     <string name="battery_tip_smart_battery_summary">Slå på Tilpasset batteri</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s blir ikke lenger koblet til enheter som er knyttet til denne Google-kontoen</string>
+    <string name="clear_calling_footer">Klare samtaler er tilgjengelige avhengig av wifi- og mobilnettverkstilkoblingen din. Innholdet fra samtalene sendes ikke til Google.</string>
+    <string name="clear_calling_title">Klare samtaler</string>
+    <string name="clear_calling_toggle">Bruk klare samtaler</string>
+    <string name="clear_calling_topintro">Reduserer bakgrunnsstøy under anrop</string>
     <string name="columbus_gesture_detected">Hurtigtrykk er registrert</string>
     <string name="columbus_gesture_enrollment_complete">Ferdig</string>
     <string name="columbus_gesture_enrollment_do_it_later">Ikke nå</string>
@@ -150,7 +158,6 @@ Når den er tilbakestilt, går du gjennom konfigureringsprosessen og velger å k
     <string name="dock_summary_charging_phone">Lader telefonen</string>
     <string name="double_twist_for_camera_mode_summary">Start eller avslutt selfie-modus i Google Kamera ved å vri to ganger når du er i appen.</string>
     <string name="downloads_backup_text">Nedlastede filer blir sikkerhetskopiert til Google Disk</string>
-    <string name="dream_secondary_button_title">Ikke bruk skjermsparer</string>
     <string name="duration_less_than_one_minute">Under ett minutt</string>
     <string name="face_enrolling_center_head">Plasser ansiktet i den indre rammen</string>
     <string name="face_enrolling_description">Registrer ansiktet ditt fra alle vinkler ved å fjerne alle rutene.</string>
@@ -219,6 +226,9 @@ Sikkerhetskopierte data teller ikke mot lagringsgrensen i Disk. Store filer elle
     <string name="me_card_title">Pixel-telefonen min</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
     <string name="owner_info_settings_edit_text_hint">F.eks. Petters Pixel.</string>
+    <string name="remove">Fjern</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Slås på automatisk i en kort periode når telefonen kobles til en lader</string>
+    <string name="reverse_charging_auto_turn_on_title">Slå på automatisk</string>
     <string name="reverse_charging_charging_wirelessly_message">Utilgjengelig fordi telefonen lades trådløst</string>
     <string name="reverse_charging_detail_charging_overheat_message">Batterideling er utilgjengelig fordi Pixel-telefonen er for varm. Vent til den kjøles ned, og prøv på nytt.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Batterideling er utilgjengelig fordi telefonen lades trådløst</string>
@@ -234,7 +244,7 @@ Vend telefonen for å prøve."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Deler og lader batteri</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Deler batteri</string>
     <string name="reverse_charging_is_on_summary">På / lad andre enheter</string>
-    <string name="reverse_charging_main_switch">Tillat batterideling</string>
+    <string name="reverse_charging_main_switch">Bruk batterideling</string>
     <string name="reverse_charging_off_low_battery_summary">Av / telefonens batterinivå er under %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Av / batteriet er under delingsnivået</string>
     <string name="reverse_charging_overheat_summary">Utilgjengelig fordi Pixel-telefonen er for varm. Vent til den kjøles ned, og prøv på nytt.</string>
@@ -309,7 +319,7 @@ For å forbedre ytelsen kan du konfigurere ansiktslås på nytt i innstillingene
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Hopp over ansiktslås</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonen er for varm</string>
     <string name="security_settings_fingerprint_preference_summary_none">Trykk for å legge til fingeravtrykk</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Finn ut mer på g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Finn ut mer om opplåsing med fingeravtrykk på Pixel på &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for jobb</string>
     <string name="setup_suggestion_summary">Kopiér data, betal med telefonen med mer</string>
     <string name="setup_suggestion_title">Fullfør konfigureringen</string>
@@ -318,7 +328,12 @@ For å forbedre ytelsen kan du konfigurere ansiktslås på nytt i innstillingene
     <string name="smart_battery_title">Tilpasset batteri</string>
     <string name="sound_dashboard_summary">Volum, fysisk tilbakemelding, Ikke forstyrr</string>
     <string name="storage_manager_indicator">Smart lagring: ^1</string>
-    <string name="suw_warranty_description">Trykk på kjøpslandet for å se garantien for denne enheten.&lt;br /&gt;&lt;br /&gt;Du kan også se garantien på &lt;b&gt;Innstillinger &gt; %s &gt; Begrenset garanti&lt;/b&gt; og g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Tilbake</string>
+    <string name="suw_limited_warranty_title">Begrenset garanti</string>
+    <string name="suw_more_button_label">Mer</string>
+    <string name="suw_next_button_label">Neste</string>
+    <string name="suw_warranty_description">For å se den begrensede garantien din, velg landet du kjøpte denne enheten i.&lt;br /&gt;&lt;br /&gt;Garantien er også tilgjengelig på &lt;b&gt;Innstillinger &gt; %s &gt; Begrenset garanti&lt;/b&gt; og g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">For å se den begrensede garantien din, velg landet du kjøpte denne enheten i. Garantien er også tilgjengelig på Innstillinger, så %s og deretter Begrenset garanti og g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">Du kan også se den begrensede garantien for enheten fra enhetsinnstillingene på &lt;b&gt;Innstillinger &gt; %s &gt; Begrenset garanti&lt;/b&gt; og på g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Neste</string>
     <string name="suw_warranty_positive_button_text">Lukk</string>
@@ -328,6 +343,10 @@ For å forbedre ytelsen kan du konfigurere ansiktslås på nytt i innstillingene
     <string name="tips_suggestion_title">Bli kjent med Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hold telefonen foran ansiktet</string>
     <string name="usb_use_file_transfers">Filoverføring / Android Auto</string>
+    <string name="vpn_app_bypass">Ikke bruk VPN for de valgte appene</string>
+    <string name="vpn_bypass_category_title">Ikke bruk VPN for disse appene</string>
+    <string name="vpn_bypass_description">Du kan gi noen apper tillatelse til å ignorere VPN-et og bruke telefonens vanlige nettverkstilkobling</string>
+    <string name="vpn_preference_group_title">Andre</string>
     <string name="wallpaper_dashboard_summary">Farger, temaikoner, apprutenett</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Se eller endre OpenRoaming-abonnement</string>

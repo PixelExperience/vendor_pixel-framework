@@ -24,6 +24,9 @@
     <string name="adaptive_charging">Adaptive Charging</string>
     <string name="adaptive_charging_description">Extend battery lifespan by charging steadily during longer charging periods. Activated based on your usage cycle.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptive charging</b> • Full by %1$s</string>
+    <string name="add_bypassed_application_hint">No apps added</string>
+    <string name="advanced_vpn_preference_group_title">Built-in</string>
+    <string name="all_apps_category_title">All apps</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferences</annotation></string>
     <string name="ambient_display_wake_screen_summary"/>
     <string name="ambient_display_wake_screen_summary_on"/>
@@ -118,8 +121,14 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="battery_manager_summary_unsupported">Extend battery life</string>
     <string name="battery_missing_link_message">Learn more</string>
     <string name="battery_suggestion_summary">Turn on Adaptive Battery</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">To protect your battery, charging is paused at %1$s while your tablet is docked</string>
     <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this Google Account</string>
+    <string name="clear_calling_footer">Clear calling is available depending on your Wi‑Fi and mobile network connection. Content from your call is not sent to Google.</string>
+    <string name="clear_calling_footer_learn_more_link">https://support.google.com/pixelphone?p=clear_calling</string>
+    <string name="clear_calling_title">Clear calling</string>
+    <string name="clear_calling_toggle">Use clear calling</string>
+    <string name="clear_calling_topintro">Reduces background noises during calls</string>
     <string name="columbus_gesture_detected">Quick Tap detected!</string>
     <string name="columbus_gesture_enrollment_complete">Done</string>
     <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
@@ -179,6 +188,7 @@ Once it resets, go through the setup process and choose to bring your data from 
     <!--string name="config_cell_broadcast_receiver_package">com.google.android.cellbroadcastreceiver</string-->
     <string name="config_contextual_card_feedback_email">contextual-settings-homepage-feedback@google.com</string>
     <string name="config_deletion_helper_package">com.google.android.storagemanager</string>
+    <string name="config_dock_wizard_script_uri">@null</string>
     <string name="config_emergency_intent_action">com.google.android.safetyhub.SAFETY_HUB</string>
     <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollTrampoline</string>
@@ -207,10 +217,21 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="dialog_aware_settings_message"/>
     <string name="dialog_aware_settings_ok"/>
     <string name="dialog_aware_settings_title"/>
+    <string name="dock_setup_notification_text"/>
+    <string name="dock_setup_outro_button"/>
+    <string name="dock_setup_outro_description"/>
+    <string name="dock_setup_outro_title"/>
+    <string name="dock_setup_primary_button"/>
+    <string name="dock_setup_secondary_button"/>
+    <string name="dock_setup_welcome_description"/>
+    <string name="dock_setup_welcome_title"/>
     <string name="dock_summary_charging_phone">Charging phone</string>
     <string name="double_twist_for_camera_mode_summary">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app.</string>
     <string name="downloads_backup_text">Downloaded files will be backed up to Google Drive</string>
-    <string name="dream_secondary_button_title">Don’t use screen saver</string>
+    <string name="dream_no_screen_saver_caption"/>
+    <string name="dream_no_screen_saver_description"/>
+    <string name="dream_no_screen_saver_preview_caption"/>
+    <string name="dream_secondary_button_title"/>
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
     <string name="emergency_gesture_settings_package">com.google.android.apps.safetyhub</string>
     <string name="face_consent">I agree</string>
@@ -416,6 +437,9 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
     <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Pixel.</string>
+    <string name="remove">Remove</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Will turn on automatically for a short period when your phone is plugged into a charger</string>
+    <string name="reverse_charging_auto_turn_on_title">Turn on automatically</string>
     <string name="reverse_charging_charging_wirelessly_message">Unavailable because phone charging wirelessly</string>
     <string name="reverse_charging_detail_charging_overheat_message">Battery Share is unavailable because Pixel is too hot. Wait for phone to cool down and try again.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Battery Share is unavailable because phone is charging wirelessly</string>
@@ -431,7 +455,7 @@ Flip your phone over to try."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Sharing and charging battery</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Sharing battery</string>
     <string name="reverse_charging_is_on_summary">On / Charge other devices</string>
-    <string name="reverse_charging_main_switch">Allow Battery Share</string>
+    <string name="reverse_charging_main_switch">Use Battery Share</string>
     <string name="reverse_charging_off_low_battery_summary">Off / Phone battery under %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Off / Battery below sharing level</string>
     <string name="reverse_charging_overheat_summary">Unavailable because Pixel is too hot. Wait for phone to cool down and try again.</string>
@@ -505,7 +529,7 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
     <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tap to set up fingerprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Learn more at g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Learn more about Pixel fingerprint unlock at &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for work</string>
     <string name="settingslib_config_headlineFontFamily">google-sans</string>
     <string name="setup_suggestion_summary">Copy data, pay with your phone, and more</string>
@@ -515,7 +539,14 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="sound_dashboard_summary">Volume, haptics, Do Not Disturb</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suw_warranty_description">Tap the country of purchase to view the warranty for this device.&lt;br /&gt;&lt;br /&gt;The warranty is also available at &lt;b&gt;Settings &gt; %s &gt; Limited warranty&lt;/b&gt; and g.co/devicewarranty.</string>
+    <string name="suwFontSecondary">google-sans</string>
+    <string name="suwFontSecondaryMedium">google-sans-medium</string>
+    <string name="suw_back_button_label">Back</string>
+    <string name="suw_limited_warranty_title">Limited warranty</string>
+    <string name="suw_more_button_label">More</string>
+    <string name="suw_next_button_label">Next</string>
+    <string name="suw_warranty_description">To view your limited warranty, select the country where you bought this device.&lt;br /&gt;&lt;br /&gt;The warranty is also available at &lt;b&gt;Settings &gt; %s &gt; Limited warranty&lt;/b&gt; and g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">To view your limited warranty, select the country where you bought this device. The warranty is also available at Settings then %s then Limited warranty and g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">The limited warranty applicable to your device is also available in device Settings at &lt;b&gt;Settings &gt; %s &gt; Limited warranty&lt;/b&gt; and at g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Next</string>
     <string name="suw_warranty_positive_button_text">Close</string>
@@ -526,6 +557,10 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="tips_suggestion_title">Get to know your Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hold phone in front of your face</string>
     <string name="usb_use_file_transfers">File transfer / Android Auto</string>
+    <string name="vpn_app_bypass">"Don't use VPN for selected apps"</string>
+    <string name="vpn_bypass_category_title">"Don't use VPN for these apps"</string>
+    <string name="vpn_bypass_description">"You can allow some apps to ignore the VPN and use your phone's regular network connection"</string>
+    <string name="vpn_preference_group_title">Others</string>
     <string name="wake_screen_aware_disabled_info_dialog_content"/>
     <string name="wake_screen_aware_off_dialog_content"/>
     <string name="wake_screen_aware_off_dialog_title"/>

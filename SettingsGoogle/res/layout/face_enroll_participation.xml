@@ -22,7 +22,7 @@
             android:gravity="left"
             android:lineSpacingExtra="5.0dip"
             android:text="@string/face_enrolling_participation_description"
-            style="@*android:style/TextAppearance.DeviceDefault.Body2" />
+            style="@*android:style/PreferenceFragmentList" />
 
         <Space
             android:layout_width="0.0dip"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/face_consent"
-                style="@*android:style/TextAppearance.DeviceDefault.Body2" />
+                style="@*android:style/PreferenceFragmentList" />
 
         </LinearLayout>
 

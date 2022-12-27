@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <integer name="config_battery_extra_tip_value">90</integer>
+    <integer name="config_dock_setup_notification_snooze_ms">3600000</integer>
     <integer name="gesture_assist_sensitivity_default">4</integer>
     <integer name="gesture_assist_sensitivity_max">8</integer>
+    <integer name="suwTransitionDuration">300</integer>
 </resources>

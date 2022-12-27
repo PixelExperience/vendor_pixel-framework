@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="12.0dip"
                 android:singleLine="true"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
+                android:textAppearance="@*android:style/PrimaryAllowLogAccess"
                 android:textColor="?android:textColorPrimary" />
 
             <LinearLayout

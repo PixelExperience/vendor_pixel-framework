@@ -13,6 +13,9 @@
     <string name="adaptive_charging">自動調節充電</string>
     <string name="adaptive_charging_description">如果裝置必須長時間充電，系統會以穩定充電的方式延長電池壽命。這項功能會依據你的使用週期啟動。</string>
     <string name="adaptive_charging_time_estimate"><b>自動調節充電中</b> • 將於%1$s 充飽</string>
+    <string name="add_bypassed_application_hint">未新增任何應用程式</string>
+    <string name="advanced_vpn_preference_group_title">內建</string>
+    <string name="all_apps_category_title">所有應用程式</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">偏好設定</annotation></string>
     <string name="app_and_notification_dashboard_summary">Google 助理、最近使用的應用程式、預設應用程式</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">繼續使用 Google 助理</string>
@@ -92,8 +95,13 @@
     <string name="battery_manager_summary_unsupported">延長電池續航力</string>
     <string name="battery_missing_link_message">瞭解詳情</string>
     <string name="battery_suggestion_summary">開啟自動調節電池用量功能</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">平板電腦插在座架上時，系統會在電量達 %1$s 後暫停充電，以保護電池</string>
     <string name="battery_tip_smart_battery_summary">開啟自動調節電池用量功能</string>
     <string name="bluetooth_untethered_unpair_dialog_body">「%1$s」將與任何已連結到這個 Google 帳戶的裝置解除配對</string>
+    <string name="clear_calling_footer">清晰通話功能可用與否取決於 Wi-Fi 及行動網路連線狀態，通話內容並不會傳送給 Google。</string>
+    <string name="clear_calling_title">清晰通話</string>
+    <string name="clear_calling_toggle">使用清晰通話</string>
+    <string name="clear_calling_topintro">降低通話時的背景噪音</string>
     <string name="columbus_gesture_detected">系統偵測到「快速輕觸」！</string>
     <string name="columbus_gesture_enrollment_complete">完成</string>
     <string name="columbus_gesture_enrollment_do_it_later">暫時不要</string>
@@ -150,7 +158,6 @@
     <string name="dock_summary_charging_phone">手機充電時</string>
     <string name="double_twist_for_camera_mode_summary">使用 Google 相機時，只要轉動裝置兩次，就能開啟或關閉自拍模式。</string>
     <string name="downloads_backup_text">下載的檔案會備份到 Google 雲端硬碟</string>
-    <string name="dream_secondary_button_title">不使用螢幕保護程式</string>
     <string name="duration_less_than_one_minute">不到 1 分鐘</string>
     <string name="face_enrolling_center_head">確認你的臉孔位於內框中</string>
     <string name="face_enrolling_description">系統會從各個角度拍攝你的臉孔，待所有圖塊都消失後，即表示拍攝完成。</string>
@@ -219,6 +226,9 @@
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帳戶</string>
     <string name="owner_info_settings_edit_text_hint">例如：小明的 Pixel。</string>
+    <string name="remove">移除</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">手機充電時會自動開啟一小段時間</string>
+    <string name="reverse_charging_auto_turn_on_title">自動開啟</string>
     <string name="reverse_charging_charging_wirelessly_message">手機正在無線充電，因此無法使用這項功能</string>
     <string name="reverse_charging_detail_charging_overheat_message">Pixel 的溫度過高，因此無法使用電力分享功能。請等待手機降溫，然後再試一次。</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">手機正在無線充電，因此無法使用電力分享功能</string>
@@ -234,7 +244,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">正在充電並分享電力</string>
     <string name="reverse_charging_is_on_and_discharging_summary">正在分享電力</string>
     <string name="reverse_charging_is_on_summary">開啟/為其他裝置充電</string>
-    <string name="reverse_charging_main_switch">允許分享電力</string>
+    <string name="reverse_charging_main_switch">使用「電力分享」功能</string>
     <string name="reverse_charging_off_low_battery_summary">關閉/手機電量低於 %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">關閉/電量低於電力分享門檻</string>
     <string name="reverse_charging_overheat_summary">Pixel 的溫度過高，因此無法使用這項功能。請等待手機降溫，然後再試一次。</string>
@@ -309,7 +319,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">略過人臉解鎖設定</string>
     <string name="security_settings_face_enroll_too_hot_title">手機過熱</string>
     <string name="security_settings_fingerprint_preference_summary_none">輕觸即可設定指紋</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">詳情請參閱 g.co/pixel/fingerprintunlock。</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如要進一步瞭解 Pixel 指紋解鎖功能，請前往 &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
     <string name="security_settings_work_fingerprint_preference_title">使用 Pixel Imprint 解鎖工作資料夾</string>
     <string name="setup_suggestion_summary">複製資料、使用手機付款等等</string>
     <string name="setup_suggestion_title">完成設定程序</string>
@@ -318,7 +328,12 @@
     <string name="smart_battery_title">自動調節電池用量</string>
     <string name="sound_dashboard_summary">音量、觸動回饋、零打擾模式</string>
     <string name="storage_manager_indicator">智慧儲存空間：^1</string>
-    <string name="suw_warranty_description">點選購買國家/地區，即可查看此設備的保固。&lt;br /&gt;&lt;br /&gt;你也可以前往&lt;b&gt;設定 &gt; %s &gt; 有限保固&lt;/b&gt; 及 g.co/devicewarranty 查看保固。</string>
+    <string name="suw_back_button_label">返回</string>
+    <string name="suw_limited_warranty_title">有限保固</string>
+    <string name="suw_more_button_label">更多</string>
+    <string name="suw_next_button_label">繼續</string>
+    <string name="suw_warranty_description">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。&lt;br /&gt;&lt;br /&gt;在裝置上依序點選「設定」&gt;「%s」&gt;「有限保固」&lt;b&gt;&lt;/b&gt;及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
+    <string name="suw_warranty_description_content">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。在裝置上依序點選「設定」、「%s」、「有限保固」及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
     <string name="suw_warranty_language_consistent_description">適用於您設備的有限保固也可見於 &lt;b&gt;設定 &gt; %s &gt; 有限保固 &lt;/b&gt; 及 g.co/devicewarranty 中的設備設定。</string>
     <string name="suw_warranty_next_button_text">繼續</string>
     <string name="suw_warranty_positive_button_text">關閉</string>
@@ -328,6 +343,10 @@
     <string name="tips_suggestion_title">瞭解你的 Pixel 手機</string>
     <string name="traffic_light_face_enrolling_title_accessibility">將手機放在面前</string>
     <string name="usb_use_file_transfers">檔案轉移 / Android Auto</string>
+    <string name="vpn_app_bypass">執行特定應用程式時不要使用 VPN</string>
+    <string name="vpn_bypass_category_title">執行這些應用程式時不要使用 VPN</string>
+    <string name="vpn_bypass_description">你可以讓某些應用程式在執行時不使用 VPN，而是使用手機的一般網路連線</string>
+    <string name="vpn_preference_group_title">其他</string>
     <string name="wallpaper_dashboard_summary">顏色、主題圖示、應用程式排列顯示</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">查看或變更 OpenRoaming 訂閱</string>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <com.android.setupwizardlib.view.Illustration
+            android:id="@id/suw_layout_decor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/suw_layout_background"
+            android:elevation="@dimen/suw_title_area_elevation"
+            android:tag="stickyContainer">
+
+            <TextView
+                android:id="@id/suw_layout_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="sticky"
+                style="@style/SuwHeaderTitle" />
+
+        </com.android.setupwizardlib.view.Illustration>
+
+        <include
+            layout="@layout/suw_progress_bar_stub" />
+
+        <FrameLayout
+            android:id="@id/suw_layout_content"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+    </LinearLayout>
+
+    <com.android.setupwizardlib.view.NavigationBar
+        android:id="@id/suw_layout_navigation_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/suw_navbar_height"
+        style="@style/SuwNavBarTheme" />
+
+</LinearLayout>

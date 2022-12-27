@@ -13,6 +13,10 @@
     <string name="adaptive_charging">Adaptive na Pag-charge</string>
     <string name="adaptive_charging_description">Pahabain ang tagal ng baterya sa pamamagitan ng pag-charge nang mabagal sa loob ng mas matatagal na panahon ng pag-charge. Na-activate batay sa iyong cycle ng paggamit.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptive na pag-charge</b> • Mapupuno bago ang %1$s</string>
+    <string name="add">Idagdag</string>
+    <string name="add_bypassed_application_hint">Walang idinagdag na app</string>
+    <string name="advanced_vpn_preference_group_title">Built-in</string>
+    <string name="all_apps_category_title">Lahat ng app</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Mga Kagustuhan</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, mga kamakailang app, mga default na app</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Tumuloy sa Assistant</string>
@@ -92,8 +96,13 @@ Kapag na-reset na ito, sundan ang proseso ng pag-setup at pumili upang mailipat 
     <string name="battery_manager_summary_unsupported">Patagalin ang baterya</string>
     <string name="battery_missing_link_message">Matuto pa</string>
     <string name="battery_suggestion_summary">I-on ang Adaptive Battery</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Para protektahan ang iyong baterya, mapo-pause ang pag-charge sa %1$s habang naka-dock ang tablet mo</string>
     <string name="battery_tip_smart_battery_summary">I-on ang Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Hindi na ipapares ang %1$s sa anumang device na naka-link sa Google Account na ito</string>
+    <string name="clear_calling_footer">Available ang malinaw na pagtawag depende sa iyong Wi-Fi at koneksyon ng mobile network Hindi ipinapadala sa Google ang content mula sa iyong tawag.</string>
+    <string name="clear_calling_title">Malinaw na tawag</string>
+    <string name="clear_calling_toggle">Gamitin ang malinaw na tawag</string>
+    <string name="clear_calling_topintro">Binabawasan ang mga ingay sa background kapag may mga tawag</string>
     <string name="columbus_gesture_detected">May na-detect na Quick Tap!</string>
     <string name="columbus_gesture_enrollment_complete">Tapos na</string>
     <string name="columbus_gesture_enrollment_do_it_later">Huwag muna</string>
@@ -150,7 +159,6 @@ Kapag na-reset na ito, sundan ang proseso ng pag-setup at pumili upang mailipat 
     <string name="dock_summary_charging_phone">Nagcha-charge ng telepono</string>
     <string name="double_twist_for_camera_mode_summary">Para pumunta at lumabas sa selfie mode sa Google Camera, mag-double twist kapag nasa app ka.</string>
     <string name="downloads_backup_text">Iba-back up sa Google Drive ang mga na-download na file</string>
-    <string name="dream_secondary_button_title">Huwag gamitin ang screen saver</string>
     <string name="duration_less_than_one_minute">Wala pang 1 minuto</string>
     <string name="face_enrolling_center_head">Pagkasyahin ang iyong mukha sa panloob na frame</string>
     <string name="face_enrolling_description">I-capture ang lahat ng angle ng iyong mukha sa pamamagitan ng pag-alis sa lahat ng tile.</string>
@@ -219,6 +227,9 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="me_card_title">Aking Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Hal., Pixel ni Joe.</string>
+    <string name="remove">Alisin</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Awtomatikong mag-o-on nang saglit kapag nakasaksak sa charger ang iyong telepono</string>
+    <string name="reverse_charging_auto_turn_on_title">Awtomatikong i-on</string>
     <string name="reverse_charging_charging_wirelessly_message">Hindi available dahil wireless na nagcha-charge ang telepono</string>
     <string name="reverse_charging_detail_charging_overheat_message">Hindi available ang Battery Share dahil masyadong mainit ang Pixel. Hintaying lumamig ang telepono at subukan ulit.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Hindi available ang Battery Share dahil wireless na nagcha-charge ang telepono</string>
@@ -234,7 +245,7 @@ Itaob ang iyong telepono para subukan."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Nagbabahagi at nagcha-charge ng baterya</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Nagbabahagi ng baterya</string>
     <string name="reverse_charging_is_on_summary">Naka-on / Mag-charge ng ibang device</string>
-    <string name="reverse_charging_main_switch">Payagan ang Battery Share</string>
+    <string name="reverse_charging_main_switch">Gamitin ang Battery Share</string>
     <string name="reverse_charging_off_low_battery_summary">Naka-off / Mas mababa sa %1$s ang baterya ng telepono</string>
     <string name="reverse_charging_off_sharing_level_summary">Naka-off / Mas mababa sa antas ng pagbabahagi ang baterya</string>
     <string name="reverse_charging_overheat_summary">Hindi available dahil masyadong mainit ang Pixel. Hintaying lumamig ang telepono at subukan ulit.</string>
@@ -309,7 +320,7 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Laktawan ang Pag-unlock Gamit ang Mukha</string>
     <string name="security_settings_face_enroll_too_hot_title">Masyadong mainit ang telepono</string>
     <string name="security_settings_fingerprint_preference_summary_none">I-tap upang mag-set up ng fingerprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Matuto pa sa g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Matuto pa tungkol sa pag-unlock gamit ang fingerprint sa Pixel sa &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint para sa trabaho</string>
     <string name="setup_suggestion_summary">Kumopya ng data, magbayad gamit ang telepono, at higit pa</string>
     <string name="setup_suggestion_title">Tapusin ang pag-set up</string>
@@ -318,7 +329,12 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="sound_dashboard_summary">Volume, haptics, Huwag Istorbohin</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suw_warranty_description">I-tap ang bansang pinagbilhan para tingnan ang warranty para sa device na ito.&lt;br /&gt;&lt;br /&gt;Available din ang warranty sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Bumalik</string>
+    <string name="suw_limited_warranty_title">Limitadong warranty</string>
+    <string name="suw_more_button_label">Higit pa</string>
+    <string name="suw_next_button_label">Susunod</string>
+    <string name="suw_warranty_description">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito.&lt;br /&gt;&lt;br /&gt;Available din ang warranty sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito. Available din ang warranty sa Mga Setting, pagkatapos ay %s, pagkatapos ay Limitadong warranty at g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">Available din ang limitadong warranty na nalalapat sa iyong device sa Mga Setting ng device sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Susunod</string>
     <string name="suw_warranty_positive_button_text">Isara</string>
@@ -328,6 +344,10 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="tips_suggestion_title">Kilalanin ang iyong Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hawakan ang telepono sa harap ng iyong mukha</string>
     <string name="usb_use_file_transfers">Paglilipat ng file / Android Auto</string>
+    <string name="vpn_app_bypass">Huwag gamitin ang VPN para sa mga piniling app</string>
+    <string name="vpn_bypass_category_title">Huwag gamitin ang VPN para sa mga app na ito</string>
+    <string name="vpn_bypass_description">Puwede mong payagan ang ilang app na balewalain ang VPN at gamitin ang regular na koneksyon ng network ng iyong telepono</string>
+    <string name="vpn_preference_group_title">Iba pa</string>
     <string name="wallpaper_dashboard_summary">Mga kulay, mga may temang icon, grid ng app</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Tingnan o baguhin ang subscription sa OpenRoaming</string>

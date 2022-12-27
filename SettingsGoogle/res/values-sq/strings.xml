@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Karikimi me përshtatje</string>
     <string name="adaptive_charging_description">Rrit kohëzgjatjen e baterisë duke karikuar atë në mënyrë të qëndrueshme për periudha më të gjata karikimi. Aktivizohet në bazë të ciklit tënd të përdorimit.</string>
     <string name="adaptive_charging_time_estimate"><b>Karikimi me përshtatje</b> • Plot deri në %1$s</string>
+    <string name="add_bypassed_application_hint">Nuk u shtua asnjë aplikacion</string>
+    <string name="advanced_vpn_preference_group_title">Integruar</string>
+    <string name="all_apps_category_title">Të gjitha aplikacionet</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferencat</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistenti, aplikacionet së fundi, aplikacionet e parazgjedhura</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Vazhdo tek \"Asistenti\"</string>
@@ -92,8 +95,13 @@ Pasi të rivendoset, kryej procesin e konfigurimit dhe zgjidh t'i kopjosh të dh
     <string name="battery_manager_summary_unsupported">Zgjat kohëzgjatjen e baterisë</string>
     <string name="battery_missing_link_message">Mëso më shumë</string>
     <string name="battery_suggestion_summary">Aktivizo \"Baterinë me përshtatje\"</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Për të mbrojtur baterinë tënde, karikimi vendoset në pauzë në %1$s kur tableti yt është i lidhur me stacionin</string>
     <string name="battery_tip_smart_battery_summary">Aktivizo \"Baterinë me përshtatje\"</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Pajisja %1$s nuk do të jetë më e çiftuar me asnjë pajisje të lidhur me këtë \"Llogari të Google\"</string>
+    <string name="clear_calling_footer">Telefonatat e qarta ofrohen në varësi të lidhjes Wi-Fi dhe të lidhjes së rrjetit celular. Përmbajtja nga telefonata jote nuk dërgohet te Google.</string>
+    <string name="clear_calling_title">Telefonatat e qarta</string>
+    <string name="clear_calling_toggle">Përdor telefonatat e qarta</string>
+    <string name="clear_calling_topintro">Redukton zhurmat në sfond gjatë telefonatave</string>
     <string name="columbus_gesture_detected">U zbulua \"Trokitja e shpejtë\"!</string>
     <string name="columbus_gesture_enrollment_complete">U krye</string>
     <string name="columbus_gesture_enrollment_do_it_later">Jo tani</string>
@@ -149,7 +157,6 @@ Pasi të rivendoset, kryej procesin e konfigurimit dhe zgjidh t'i kopjosh të dh
     <string name="dock_summary_charging_phone">Telefoni po karikohet</string>
     <string name="double_twist_for_camera_mode_summary">Për të hyrë dhe dalë nga modaliteti për \"selfie\" në \"Kamerën e Google\", përdridhe dy herë kur je në aplikacion.</string>
     <string name="downloads_backup_text">Skedarët e shkarkuar do të rezervohen në \"Diskun e Google\"</string>
-    <string name="dream_secondary_button_title">Mos përdor mbrojtës ekrani</string>
     <string name="duration_less_than_one_minute">Më pak se 1 minutë</string>
     <string name="face_enrolling_center_head">Vendose fytyrën brenda kornizës së brendshme</string>
     <string name="face_enrolling_description">Regjistro të gjitha këndet e fytyrës duke hequr të gjitha pllakëzat.</string>
@@ -218,6 +225,9 @@ Të dhënat e rezervimit nuk do të ndikojnë në kuotat e hapësirës ruajtëse
     <string name="me_card_title">Pixel-i im</string>
     <string name="my_device_info_account_preference_title">Llogaria e Google</string>
     <string name="owner_info_settings_edit_text_hint">P.sh. pajisja Pixel e Admirit</string>
+    <string name="remove">Hiq</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Do të aktivizohet automatikisht për një periudhë të shkurtër kur telefoni yt është i lidhur me një karikues</string>
+    <string name="reverse_charging_auto_turn_on_title">Aktivizo automatikisht</string>
     <string name="reverse_charging_charging_wirelessly_message">Nuk ofrohet sepse telefoni po karikohet me valë</string>
     <string name="reverse_charging_detail_charging_overheat_message">\"Ndarja e baterisë\" nuk ofrohet sepse telefoni Pixel është shumë i nxehtë. Prit që telefoni të ftohet dhe provo përsëri.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">\"Ndarja e baterisë\" nuk ofrohet sepse telefoni po karikohet me valë</string>
@@ -233,7 +243,7 @@ Ktheje telefonin nga ana tjetër dhe provo."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Bateria po karikohet dhe po ndahet</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Bateria po ndahet</string>
     <string name="reverse_charging_is_on_summary">Aktive / Kariko pajisjet e tjera</string>
-    <string name="reverse_charging_main_switch">Lejo \"Ndarjen e baterisë\"</string>
+    <string name="reverse_charging_main_switch">Përdor \"Ndarjen e baterisë\"</string>
     <string name="reverse_charging_off_low_battery_summary">Joaktive / Bateria e telefonit është nën %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Joaktive / Bateria është nën nivelin e ndarjes</string>
     <string name="reverse_charging_overheat_summary">Nuk ofrohet sepse telefoni Pixel është shumë i nxehtë. Prit që telefoni të ftohet dhe provo përsëri.</string>
@@ -287,7 +297,7 @@ Kur të përdorësh \"Shkyçjen me fytyrë\", imazhet përdoren për të përdit
     <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e fëmijës tënd të jenë të hapur për të shkyçur telefonin ose për të verifikuar që është ai fëmijë. Ti dhe fëmija yt mund ta aktivizoni këtë opsion në çdo kohë te \"Cilësimet\".</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">"Nëse fëmija yt normalisht mban syze, mund t'i mbajë dhe gjatë konfigurimit."</string>
     <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Përdorimi i fytyrës së fëmijës për të shkyçur telefonin e tij mund të jetë më pak i sigurt sesa një motiv, kod PIN apo fjalëkalim i fortë.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking">Shikimi drejt telefonit mund ta shkyçë këtë edhe nëse nuk kishte për qëllim ta bënte. Telefoni i tij mund të shkyçet dhe nga dikush që i ngjan shumë, si p.sh. një binjak identik, ose nëse dikush ia mban telefonin në nivelin e fytyrës.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Shikimi drejt telefonit mund ta shkyçë këtë edhe nëse fëmija nuk ka për qëllim ta bëjë. Telefoni i tij mund të shkyçet dhe nga dikush që i ngjan shumë, si p.sh. një binjak identik, ose nëse dikush ia mban telefonin në nivelin e fytyrës.</string>
     <string name="security_settings_face_enroll_introduction_info_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e tu të jenë të hapur për të shkyçur telefonin ose për të verifikuar që je ti. Mund ta aktivizosh këtë opsion në çdo kohë te \"Cilësimet\".</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Syzet optike dhe syzet e diellit me nuancë të lehtë janë të pranueshme.</string>
     <string name="security_settings_face_enroll_introduction_info_less_secure">Përdorimi i fytyrës për të shkyçur telefonin mund të jetë më pak i sigurt se një motiv i fortë, kod PIN ose fjalëkalim</string>
@@ -310,7 +320,7 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Kapërce \"Shkyçjen me fytyrë\"</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefoni është tepër i nxehtë</string>
     <string name="security_settings_fingerprint_preference_summary_none">Trokit për të konfiguruar gjurmën e gishtit</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Mëso më shumë te g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Mëso më shumë për shkyçjen me gjurmën e gishtit në telefonin Pixel në &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint për punën</string>
     <string name="setup_suggestion_summary">Kopjo të dhënat, paguaj me telefonin tënd etj.</string>
     <string name="setup_suggestion_title">Përfundo konfigurimin</string>
@@ -320,7 +330,12 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="sound_dashboard_summary">Volumi, prekja, \"Mos shqetëso\"</string>
     <string name="sound_settings">Tingulli dhe dridhja</string>
     <string name="storage_manager_indicator">Hapësira ruajtëse inteligjente: ^1</string>
-    <string name="suw_warranty_description">Trokit shtetin e blerjes për të shikuar garancinë për këtë pajisje.&lt;br /&gt;&lt;br /&gt;Garancia ofrohet gjithashtu te &lt;b&gt;Cilësimet &gt; %s &gt; Garancia e kufizuar&lt;/b&gt; dhe në g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Prapa</string>
+    <string name="suw_limited_warranty_title">Garanci e kufizuar</string>
+    <string name="suw_more_button_label">Më shumë</string>
+    <string name="suw_next_button_label">Përpara</string>
+    <string name="suw_warranty_description">Për të parë garancinë e kufizuar, zgjidh shtetin ku e ke blerë këtë pajisje.&lt;br /&gt;&lt;br /&gt;Gjithashtu, garancia ofrohet te &lt;b&gt;Cilësimet &gt; %s &gt; Garancia e kufizuar&lt;/b&gt; dhe g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Për të parë garancinë e kufizuar, zgjidh shtetin ku e ke blerë këtë pajisje. Gjithashtu, garancia ofrohet te \"Cilësimet\", më pas %s dhe më pas \"Garancia e kufizuar\" dhe g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">Garancia e kufizuar e zbatueshme për pajisjen tënde ofrohet gjithashtu te \"Cilësimet\" e pajisjes te &lt;b&gt;Cilësimet &gt; %s &gt; Garancia e kufizuar&lt;/b&gt; dhe në g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Para</string>
     <string name="suw_warranty_positive_button_text">Mbyll</string>
@@ -330,6 +345,10 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="tips_suggestion_title">Njihu me telefonin tënd Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Mbaje telefonin përpara fytyrës sate</string>
     <string name="usb_use_file_transfers">Transferimi i skedarëve / Android Auto</string>
+    <string name="vpn_app_bypass">Mos e përdor VPN-në për aplikacionet e zgjedhura</string>
+    <string name="vpn_bypass_category_title">Mos e përdor VPN-në për këto aplikacione</string>
+    <string name="vpn_bypass_description">Mund të lejosh disa aplikacione që ta shpërfillin VPN-në dhe të përdorin lidhjen e zakonshme të rrjetit të telefonit tënd</string>
+    <string name="vpn_preference_group_title">Të tjera</string>
     <string name="wallpaper_dashboard_summary">Ngjyrat, ikonat tematike, rrjeta e aplikacioneve</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Shiko ose ndrysho abonimin e OpenRoaming</string>

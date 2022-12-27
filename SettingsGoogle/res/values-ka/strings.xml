@@ -13,6 +13,9 @@
     <string name="adaptive_charging">ადაპტირებადი დატენვა</string>
     <string name="adaptive_charging_description">ხშირი და ხანგრძლივი დატენვა ხელს უწყობს ბატარეის მუშაობის უნარიანობის გახანგრძლივებას. ის აქტიურდება გამოყენების ციკლის შესაბამისად.</string>
     <string name="adaptive_charging_time_estimate"><b>ადაპტირებადი დატენვა</b> • სრულად დატენვამდე დარჩა %1$s</string>
+    <string name="add_bypassed_application_hint">აპები არ არის დამატებული</string>
+    <string name="advanced_vpn_preference_group_title">ჩაშენებული</string>
+    <string name="all_apps_category_title">ყველა აპი</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">პარამეტრები</annotation></string>
     <string name="app_and_notification_dashboard_summary">ასისტენტი, ბოლოდროინდელი აპები, ნაგულისხმევი აპები</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">ასისტენტზე გადასვლა</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">ზრდის ბატარეის მუშაობის ხანგრძლივობას</string>
     <string name="battery_missing_link_message">შეიტყვეთ მეტი</string>
     <string name="battery_suggestion_summary">ადაპტაციური ბატარეის ჩართვა</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">თქვენი ბატარეის დასაცავად დატენვა დაპაუზებულია %1$s-ზე, სანამ თქვენი ტაბლეტი ჩამაგრებულია</string>
     <string name="battery_tip_smart_battery_summary">ადაპტაციური ბატარეის ჩართვა</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s აღარ იქნება დაწყვილებული ამ Google ანგარიშთან მიბმულ რომელიმე მოწყობილობასთან</string>
+    <string name="clear_calling_footer">ზარის გასუფთავება ხელმისაწვდომია თქვენი Wi‑Fi და მობილური ქსელის კავშირის მიხედვით. თქვენი ზარის კონტენტი არ იგზავნება Google-ში.</string>
+    <string name="clear_calling_title">სუფთა აუდიო</string>
+    <string name="clear_calling_toggle">„სუფთა აუდიოს“ გამოყენება</string>
+    <string name="clear_calling_topintro">ამცირებს ფონურ ხმაურს ზარების დროს</string>
     <string name="columbus_gesture_detected">გამოვლინდა „სწრაფი შეხება“!</string>
     <string name="columbus_gesture_enrollment_complete">მზადაა</string>
     <string name="columbus_gesture_enrollment_do_it_later">ახლა არა</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">ტელეფონი იტენება</string>
     <string name="double_twist_for_camera_mode_summary">Google კამერაში სელფის რეჟიმის ჩასართავად/გამოსართავად, აპში ყოფნისას შეასრულეთ ორმაგი მოტრიალება.</string>
     <string name="downloads_backup_text">Google Drive-ზე ჩამოტვირთული ფაილების სარეზერვო ასლები შეიქმნება</string>
-    <string name="dream_secondary_button_title">არ გამოიყენო ეკრანმზოგი</string>
     <string name="duration_less_than_one_minute">1 წუთზე ნაკლები</string>
     <string name="face_enrolling_center_head">მოაქციეთ თქვენი სახე შიდა ჩარჩოში</string>
     <string name="face_enrolling_description">აღბეჭდეთ თქვენი სახის ყველა კუთხე ყველა მოზაიკის მოცილებით.</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">ჩემი Pixel</string>
     <string name="my_device_info_account_preference_title">Google ანგარიში</string>
     <string name="owner_info_settings_edit_text_hint">მაგ., ნიკას Pixel.</string>
+    <string name="remove">წაშლა</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">ავტომატურად ჩაირთვება ცოტა ხნით, როდესაც თქვენი ტელეფონი დამტენზე იქნება შეერთებული</string>
+    <string name="reverse_charging_auto_turn_on_title">ავტომატურად ჩართვა</string>
     <string name="reverse_charging_charging_wirelessly_message">მიუწვდომელია, რადგან ტელეფონი უსადენოდ იტენება</string>
     <string name="reverse_charging_detail_charging_overheat_message">ბატარეის გაზიარება მიუწვდომელია, რადგან Pixel გადახურებულია. დააცადეთ ტელეფონს გაგრილება და ცადეთ ხელახლა.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">ბატარეის გაზიარება მიუწვდომელია, რადგან ტელეფონი უსადენოდ იტენება</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">ბატარეის გაზიარება და დამუხტვა</string>
     <string name="reverse_charging_is_on_and_discharging_summary">ბატარეა ზიარდება</string>
     <string name="reverse_charging_is_on_summary">ჩართულია / დატენეთ სხვა მოწყობილობები</string>
-    <string name="reverse_charging_main_switch">ბატარეის გაზიარების დაშვება</string>
+    <string name="reverse_charging_main_switch">ბატარეის გაზიარების გამოყენება</string>
     <string name="reverse_charging_off_low_battery_summary">გამორთულია / ტელეფონის ბატარეის მუხტი %1$s-ზე ნაკლებია</string>
     <string name="reverse_charging_off_sharing_level_summary">გამორთულია / ბატარეის მუხტი გაზიარებისთვის საჭიროზე ნაკლებია</string>
     <string name="reverse_charging_overheat_summary">მიუწვდომელია, რადგან Pixel გადახურებულია. დააცადეთ ტელეფონს გაგრილება და ცადეთ ხელახლა.</string>
@@ -308,7 +318,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">სახით განბლოკვის გამოტოვება</string>
     <string name="security_settings_face_enroll_too_hot_title">ტელეფონი გადახურებულია</string>
     <string name="security_settings_fingerprint_preference_summary_none">შეეხეთ თითის ანაბეჭდის დასაყენებლად</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">შეიტყვეთ მეტი ბმულზე g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"შეიტყვეთ მეტი Pixel თითის ანაბეჭდის განბლოკვის შესახებ აქ: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint სამსახურისთვის</string>
     <string name="setup_suggestion_summary">მონაცემთა კოპირება, ტელეფონით გადახდა და სხვა</string>
     <string name="setup_suggestion_title">დაასრულეთ დაყენება</string>
@@ -317,7 +327,12 @@
     <string name="smart_battery_title">ადაპტაციური ბატარეა</string>
     <string name="sound_dashboard_summary">ხმის სიმძლავრე, შეხებისადმი მგრძნობელობა, არ შემაწუხოთ</string>
     <string name="storage_manager_indicator">გონიერი მეხსიერება: ^1</string>
-    <string name="suw_warranty_description">შეეხეთ შესყიდვის ქვეყანას ამ მოწყობილობის გარანტიის სანახავად.&lt;br /&gt;&lt;br /&gt;გარანტია ხელმისაწვდომია აქ: &lt;b&gt;პარამეტრები &gt; %s &gt; შეზღუდული გარანტია&lt;/b&gt; და მისამართზე g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">უკან</string>
+    <string name="suw_limited_warranty_title">შეზღუდული გარანტია</string>
+    <string name="suw_more_button_label">დამატებით</string>
+    <string name="suw_next_button_label">შემდეგი</string>
+    <string name="suw_warranty_description">თქვენი შეზღუდული გარანტიის სანახავად აირჩიეთ ქვეყანა, რომელშიც იყიდეთ ეს მოწყობილობა.&lt;br /&gt;&lt;br /&gt;გარანტია, ასევე, ხელმისაწვდომია აქ: &lt;b&gt;პარამეტრები &gt; %s &gt; შეზღუდული გარანტია&lt;/b&gt;, ან მისამართზე: g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">თქვენი შეზღუდული გარანტიის სანახავად აირჩიეთ ქვეყანა, რომელშიც იყიდეთ ეს მოწყობილობა. გარანტია, ასევე, ხელმისაწვდომია აქ: პარამეტრები &gt; %s &gt; შეზღუდული გარანტია, ან მისამართზე: g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">თქვენს მოწყობილობაზე მოქმედი შეზღუდული გარანტია ხელმისაწვდომია მოწყობილობის პარამეტრებში აქ: &lt;b&gt;პარამეტრები &gt; %s &gt; შეზღუდული გარანტია&lt;/b&gt; და მისამართზე g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">შემდეგ</string>
     <string name="suw_warranty_positive_button_text">დახურვა</string>
@@ -327,6 +342,10 @@
     <string name="tips_suggestion_title">გაეცანით Pixel-ს</string>
     <string name="traffic_light_face_enrolling_title_accessibility">დაიჭირეთ ტელეფონი სახის პირისპირ</string>
     <string name="usb_use_file_transfers">ფაილის გადატანა / Android Auto</string>
+    <string name="vpn_app_bypass">არ გამოიყენოთ VPN არჩეული აპებისთვის</string>
+    <string name="vpn_bypass_category_title">არ გამოიყენოთ VPN ამ აპებისთვის</string>
+    <string name="vpn_bypass_description">შეგიძლიათ, ზოგიერთი აპისთვის აირჩიოთ VPN-ის იგნორირება და ტელეფონის ქსელის გამოყენება</string>
+    <string name="vpn_preference_group_title">სხვა</string>
     <string name="wallpaper_dashboard_summary">ფერები, თემატური ხატულები, აპების ბადე</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming გამოწერის ნახვა ან შეცვლა</string>

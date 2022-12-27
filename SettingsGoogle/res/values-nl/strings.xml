@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Aangepast opladen</string>
     <string name="adaptive_charging_description">Verleng de levensduur van de batterij door geleidelijk op te laden tijdens langere oplaadperioden. Geactiveerd op basis van je gebruikscyclus</string>
     <string name="adaptive_charging_time_estimate"><b>Aangepast opladen</b> • Vol om %1$s</string>
+    <string name="add_bypassed_application_hint">Geen apps toegevoegd</string>
+    <string name="advanced_vpn_preference_group_title">Ingebouwd</string>
+    <string name="all_apps_category_title">Alle apps</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Voorkeuren</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, recente apps, standaard-apps</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Naar de Assistent</string>
@@ -93,8 +96,13 @@ Zodra de Pixel is gereset, doorloop je het instelproces en kies je de optie om g
     <string name="battery_manager_summary_unsupported">Batterijduur verlengen</string>
     <string name="battery_missing_link_message">Meer informatie</string>
     <string name="battery_suggestion_summary">Aangepast batterijgebruik aanzetten</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Ter bescherming van de batterij wordt het opladen bij %1$s onderbroken als je tablet is gedockt</string>
     <string name="battery_tip_smart_battery_summary">Aangepast batterijgebruik aanzetten</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s is niet meer gekoppeld aan een apparaat dat aan dit Google-account is gekoppeld</string>
+    <string name="clear_calling_footer">Helder gespreksgeluid is beschikbaar afhankelijk van je wifi en mobiele netwerkverbinding. De inhoud van je gesprek wordt niet naar Google gestuurd.</string>
+    <string name="clear_calling_title">Helder gespreksgeluid</string>
+    <string name="clear_calling_toggle">Helder gespreksgeluid gebruiken</string>
+    <string name="clear_calling_topintro">Vermindert achtergrondruis tijdens gesprekken</string>
     <string name="columbus_gesture_detected">Snel tikken waargenomen</string>
     <string name="columbus_gesture_enrollment_complete">Klaar</string>
     <string name="columbus_gesture_enrollment_do_it_later">Niet nu</string>
@@ -151,7 +159,6 @@ Zodra de Pixel is gereset, doorloop je het instelproces en kies je de optie om g
     <string name="dock_summary_charging_phone">Telefoon opladen</string>
     <string name="double_twist_for_camera_mode_summary">Als je de selfiemodus wilt aan- of uitzetten in Google Camera, draai je 2 keer vanuit je pols terwijl de app is geopend</string>
     <string name="downloads_backup_text">Van gedownloade bestanden worden back-ups gemaakt op Google Drive</string>
-    <string name="dream_secondary_button_title">Screensaver niet gebruiken</string>
     <string name="duration_less_than_one_minute">Minder dan een minuut</string>
     <string name="face_enrolling_center_head">Zorg dat je gezicht in het binnenste kader past</string>
     <string name="face_enrolling_description">Leg je gezicht onder alle hoeken vast door alle tegels te verwijderen.</string>
@@ -220,6 +227,9 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="me_card_title">Mijn Pixel</string>
     <string name="my_device_info_account_preference_title">Google-account</string>
     <string name="owner_info_settings_edit_text_hint">Bijvoorbeeld Pixel van Jan.</string>
+    <string name="remove">Verwijderen</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Gaat korte tijd automatisch aan als je telefoon wordt aangesloten op een oplader</string>
+    <string name="reverse_charging_auto_turn_on_title">Automatisch aanzetten</string>
     <string name="reverse_charging_charging_wirelessly_message">Niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
     <string name="reverse_charging_detail_charging_overheat_message">Batterij delen is niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Batterij delen is niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
@@ -235,7 +245,7 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Batterij delen en opladen</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Batterij delen</string>
     <string name="reverse_charging_is_on_summary">Aan: andere apparaten opladen</string>
-    <string name="reverse_charging_main_switch">Batterij delen toestaan</string>
+    <string name="reverse_charging_main_switch">Batterij delen gebruiken</string>
     <string name="reverse_charging_off_low_battery_summary">Uit: Telefoonbatterij minder dan %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Uit: Batterijlading lager dan niveau voor delen</string>
     <string name="reverse_charging_overheat_summary">Niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw.</string>
@@ -309,7 +319,7 @@ Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ontgrendelen via gezicht overslaan</string>
     <string name="security_settings_face_enroll_too_hot_title">De telefoon is te heet</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tik om vingerafdruk in te stellen</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Ga naar g.co/pixel/fingerprintunlock voor meer informatie.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Ga voor meer informatie over ontgrendelen met vingerafdruk op de Pixel naar &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint voor werk</string>
     <string name="setup_suggestion_summary">Kopieer gegevens, betaal met je telefoon en meer</string>
     <string name="setup_suggestion_title">Instellen afronden</string>
@@ -318,7 +328,12 @@ Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning
     <string name="smart_battery_title">Aangepast batterijgebruik</string>
     <string name="sound_dashboard_summary">Volume, haptische feedback, Niet storen</string>
     <string name="storage_manager_indicator">Slimme opslag: ^1</string>
-    <string name="suw_warranty_description">Tik op het land van aankoop om de garantie voor dit apparaat te bekijken.&lt;br /&gt;&lt;br /&gt;De garantie is ook beschikbaar via &lt;b&gt;Instellingen &gt; %s &gt; Beperkte garantie&lt;/b&gt; en op g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Terug</string>
+    <string name="suw_limited_warranty_title">Beperkte garantie</string>
+    <string name="suw_more_button_label">Meer</string>
+    <string name="suw_next_button_label">Volgende</string>
+    <string name="suw_warranty_description">Als je je beperkte garantie wilt bekijken, selecteer je het land waar je dit apparaat hebt gekocht.&lt;br /&gt;&lt;br /&gt;De garantie is ook beschikbaar via &lt;b&gt;Instellingen &gt; %s &gt; Beperkte garantie&lt;/b&gt; en op g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Als je je beperkte garantie wilt bekijken, selecteer je het land waar je dit apparaat hebt gekocht. De garantie is ook beschikbaar via Instellingen, dan %s en dan Beperkte garantie en op g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">De beperkte garantie die van toepassing is op je apparaat, is ook op beschikbaar in de apparaatinstellingen via &lt;b&gt;Instellingen &gt; %s &gt; Beperkte garantie&lt;/b&gt; en op g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Volgende</string>
     <string name="suw_warranty_positive_button_text">Sluiten</string>
@@ -328,6 +343,10 @@ Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning
     <string name="tips_suggestion_title">Maak kennis met je Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Houd de telefoon voor je gezicht</string>
     <string name="usb_use_file_transfers">Bestandsoverdracht/Android Auto</string>
+    <string name="vpn_app_bypass">VPN niet gebruiken voor geselecteerde apps</string>
+    <string name="vpn_bypass_category_title">VPN niet gebruiken voor deze apps</string>
+    <string name="vpn_bypass_description">Je kunt bepaalde apps toestemming geven om de VPN te negeren en de gebruikelijke netwerkverbinding van je telefoon te gebruiken</string>
+    <string name="vpn_preference_group_title">Overig</string>
     <string name="wallpaper_dashboard_summary">Kleuren, thema-iconen, app-raster</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming-abonnement bekijken of wijzigen</string>

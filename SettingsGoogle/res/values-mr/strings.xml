@@ -13,6 +13,9 @@
     <string name="adaptive_charging">अडॅप्टिव्ह चार्जिंग</string>
     <string name="adaptive_charging_description">दीर्घ चार्जिंग कालावधीत सतत चार्ज करून बॅटरी लाइफ वाढवा. तुमच्या वापर चक्राच्या आधारे ॲक्टिव्हेट केले.</string>
     <string name="adaptive_charging_time_estimate"><b>अडॅप्टिव्ह चार्जिंग</b> • %1$s वाजता पूर्ण होईल</string>
+    <string name="add_bypassed_application_hint">कोणतीही अ‍ॅप्स जोडलेली नाहीत</string>
+    <string name="advanced_vpn_preference_group_title">बिल्ट-इन</string>
+    <string name="all_apps_category_title">सर्व अ‍ॅप्स</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">प्राधान्ये</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, अलीकडील अ‍ॅप्स, डीफॉल्ट अ‍ॅप्स</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">साहाय्यक सुरू ठेवा</string>
@@ -84,16 +87,21 @@
     <string name="backup_suggestion_reset_title">तुमचा Pixel रीसेट करा</string>
     <string name="backup_suggestion_what_is_needed_summary">"तुमचा फोन तुम्ही रीसेट केल्यानंतर, तुम्हाला पुढील गोष्‍टींची आवश्‍यकता असेल:
 
-• तुमचा पूर्वीचा फोन (LINK_BEGINबहुतांशी फोनLINK_END Android 5.0+ किंवा iOS® 8.0+ वर समर्थित आहेत)
-• आपल्‍या पूर्वीच्या फोनसाठी चार्जिंग किंवा डेटा केबल
-• आपल्या Pixel सोबत आलेले Quick Switch Adapter"</string>
+• तुमचा पूर्वीचा फोन (LINK_BEGINबहुतांशी फोनLINK_END Android 5.0+ किंवा iOS® 8.0+ चा सपोर्ट असलेले आहेत)
+• तुमच्या पूर्वीच्या फोनसाठी चार्जिंग किंवा डेटा केबल
+• तुमच्या Pixel सोबत आलेले Quick Switch Adapter"</string>
     <string name="backup_suggestion_what_is_needed_title">तुम्हाला काय आवश्यक असेल</string>
     <string name="battery_manager_summary">बॅटरी लाइफ वाढवते आणि चार्जिंग ऑप्टिमाइझ करते</string>
     <string name="battery_manager_summary_unsupported">बॅटरी लाइफ वाढवा</string>
     <string name="battery_missing_link_message">अधिक जाणून घ्या</string>
     <string name="battery_suggestion_summary">ॲडॅप्टिव्ह बॅटरी सुरू करा</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">तुमच्या बॅटरीचे संरक्षण करण्यासाठी, तुमचा टॅबलेट डॉक केलेला असताना चार्ज करणे %1$s वर थांबवले आहे</string>
     <string name="battery_tip_smart_battery_summary">ॲडॅप्टिव्ह बॅटरी सुरू करा</string>
     <string name="bluetooth_untethered_unpair_dialog_body">या Google खात्याशी लिंक केलेल्या कोणत्याही डिव्हाइसशी यापुढे %1$s पेअर केले जाणार नाही</string>
+    <string name="clear_calling_footer">तुमच्या वाय-फाय आणि मोबाइल नेटवर्क कनेक्शनवर अवलंबून सुस्पष्ट कॉलिंग उपलब्ध आहे. तुमच्या कॉलमधील आशय Google ला पाठवला जात नाही.</string>
+    <string name="clear_calling_title">सुस्पष्ट कॉलिंग</string>
+    <string name="clear_calling_toggle">सुस्पष्ट कॉलिंग वापरा</string>
+    <string name="clear_calling_topintro">कॉलदरम्यान बॅकग्राउंडमधील आवाज कमी करते</string>
     <string name="columbus_gesture_detected">क्विक टॅप डिटेक्ट केले!</string>
     <string name="columbus_gesture_enrollment_complete">पूर्ण झाले</string>
     <string name="columbus_gesture_enrollment_do_it_later">आता नको</string>
@@ -150,7 +158,6 @@
     <string name="dock_summary_charging_phone">फोन चार्ज होत आहे</string>
     <string name="double_twist_for_camera_mode_summary">Google कॅमेरा मध्ये सेल्फी मोडमध्ये जाण्यासाठी आणि त्यातून बाहेर येण्यासाठी, तुम्ही अ‍ॅपमध्ये असताना दोनदा फिरवा.</string>
     <string name="downloads_backup_text">डाउनलोड केलेल्या फायलींचा Google ड्राइव्हवर बॅक अप घेतला जाईल</string>
-    <string name="dream_secondary_button_title">स्क्रीन सेव्हर वापरू नका</string>
     <string name="duration_less_than_one_minute">एका मिनिटापेक्षा कमी</string>
     <string name="face_enrolling_center_head">आतील फ्रेममध्ये तुमचा चेहरा ठेवा</string>
     <string name="face_enrolling_description">सर्व टाइल काढून तुमच्या चेहेऱ्याचे सर्व कोन कॅप्चर करा.</string>
@@ -219,6 +226,9 @@
     <string name="me_card_title">माझे Pixel</string>
     <string name="my_device_info_account_preference_title">Google खाते</string>
     <string name="owner_info_settings_edit_text_hint">उदा. जो चा Pixel</string>
+    <string name="remove">काढून टाका</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">तुमचा फोन हा चार्जरमध्ये प्लग इन केलेला असेल, तेव्हा तो थोड्या कालावधीसाठी आपोआप सुरू होईल</string>
+    <string name="reverse_charging_auto_turn_on_title">आपोआप सुरू करा</string>
     <string name="reverse_charging_charging_wirelessly_message">फोन वायरलेस पद्धतीने चार्ज होत असल्यामुळे उपलब्ध नाही</string>
     <string name="reverse_charging_detail_charging_overheat_message">Pixel खूप गरम असल्याने, बॅटरी शेअर उपलब्ध नाही. फोन थंड होण्याची प्रतीक्षा करा आणि पुन्हा प्रयत्न करा.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">फोन वायरलेस पद्धतीने चार्ज होत असल्यामुळे बॅटरी शेअर उपलब्ध नाही</string>
@@ -234,7 +244,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">बॅटरी शेअर आणि चार्ज करत आहे</string>
     <string name="reverse_charging_is_on_and_discharging_summary">बॅटरी शेअर करत आहे</string>
     <string name="reverse_charging_is_on_summary">सुरू आहे / इतर डिव्हाइस चार्ज करा</string>
-    <string name="reverse_charging_main_switch">बॅटरी शेअर ला अनुमती द्या</string>
+    <string name="reverse_charging_main_switch">बॅटरी शेअर वापरा</string>
     <string name="reverse_charging_off_low_battery_summary">बंद आहे / फोनची बॅटरी %1$s पेक्षा कमी आहे</string>
     <string name="reverse_charging_off_sharing_level_summary">बंद आहे / बॅटरी शेअरिंग पातळीपेक्षा कमी आहे</string>
     <string name="reverse_charging_overheat_summary">Pixel फोन खूप गरम झाल्यामुळे उपलब्ध नाही. फोन थंड होण्याची प्रतीक्षा करा आणि पुन्हा प्रयत्न करा.</string>
@@ -311,7 +321,7 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="security_settings_face_enroll_too_hot_title">फोन खूपच गरम झाला आहे</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">तो तुमच्या फोनच्या मागील भागावर आहे. तुमची तर्जनी वापरा.</string>
     <string name="security_settings_fingerprint_preference_summary_none">फिंगरप्रिंट सेट करण्यासाठी टॅप करा</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock येथे अधिक जाणून घ्या.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel फिंगरप्रिंट अनलॉकबद्दल &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; येथे अधिक जाणून घ्या."</string>
     <string name="security_settings_work_fingerprint_preference_title">ऑफिससाठी Pixel Imprint</string>
     <string name="setup_suggestion_summary">डेटा कॉपी, फोनने पेमेंट व इतर गोष्टी करा</string>
     <string name="setup_suggestion_title">सेट अप करणे पूर्ण करा</string>
@@ -321,7 +331,12 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="sound_dashboard_summary">व्हॉल्यूम, हॅप्टिक, व्यत्यय आणू नका</string>
     <string name="sound_settings">आवाज आणि व्हायब्रेशन</string>
     <string name="storage_manager_indicator">स्मार्ट स्टोरेज: ^1</string>
-    <string name="suw_warranty_description">या डिव्हाइससाठी हमी पाहण्याकरिता, जेथे खरेदी केली त्या देशावर टॅप करा.&lt;br /&gt;&lt;br /&gt;हमी &lt;b&gt;सेटिंग्ज &gt; %s &gt; मर्यादित हमी&lt;/b&gt; आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
+    <string name="suw_back_button_label">मागे</string>
+    <string name="suw_limited_warranty_title">मर्यादित हमी</string>
+    <string name="suw_more_button_label">अधिक</string>
+    <string name="suw_next_button_label">पुढे जा</string>
+    <string name="suw_warranty_description">तुमची मर्यादित हमी पाहण्यासाठी, तुम्ही हे डिव्हाइस जेथून खरेदी केले आहे तो देश निवडा.&lt;br /&gt;&lt;br /&gt;वॉरंटी ही &lt;b&gt;सेटिंग्ज &gt; %s &gt; मर्यादित हमी&lt;/b&gt; आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
+    <string name="suw_warranty_description_content">तुमची मर्यादित हमी पाहण्यासाठी, तुम्ही हे डिव्हाइस जेथून खरेदी केले आहे तो देश निवडा. वॉरंटी ही सेटिंग्ज त्यानंतर %s वर जाऊन मर्यादित हमी आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
     <string name="suw_warranty_language_consistent_description">तुमच्या डिव्हाइसला लागू होणारी मर्यादित हमी &lt;b&gt;सेटिंग्ज &gt; %s &gt; मर्यादित हमी&lt;/b&gt; येथे डिव्हाइस सेटिंग्ज मध्ये आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
     <string name="suw_warranty_next_button_text">पुढील</string>
     <string name="suw_warranty_positive_button_text">बंद करा</string>
@@ -331,6 +346,10 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="tips_suggestion_title">Pixel बाबत जाणून घ्या</string>
     <string name="traffic_light_face_enrolling_title_accessibility">तुमच्या चेहऱ्यासमोर फोन धरा</string>
     <string name="usb_use_file_transfers">फाइल ट्रान्सफर / Android Auto</string>
+    <string name="vpn_app_bypass">निवडलेल्या ॲप्ससाठी VPN वापरू नका</string>
+    <string name="vpn_bypass_category_title">या ॲप्स साठी VPN वापरू नका</string>
+    <string name="vpn_bypass_description">तुम्ही काही ॲप्ससाठी VPN बंद करू शकता आणि तुमच्या फोनचे नियमित नेटवर्क कनेक्शन वापरू शकता</string>
+    <string name="vpn_preference_group_title">इतर</string>
     <string name="wallpaper_dashboard_summary">रंग, थीम असलेले आयकन, अ‍ॅप ग्रिड</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming सदस्यत्व पहा किंवा बदला</string>
