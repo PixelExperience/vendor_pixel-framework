@@ -53,7 +53,7 @@ import com.android.systemui.util.DeviceConfigProxy;
 import com.android.systemui.util.concurrency.DelayableExecutor;
 import com.android.systemui.util.time.DateFormatUtil;
 import com.android.systemui.util.wakelock.WakeLock;
-import com.google.android.systemui.adaptivecharging.AdaptiveChargingManager;
+import com.google.android.systemui.googlebattery.AdaptiveChargingManager;
 
 import java.text.NumberFormat;
 import java.util.concurrent.TimeUnit;

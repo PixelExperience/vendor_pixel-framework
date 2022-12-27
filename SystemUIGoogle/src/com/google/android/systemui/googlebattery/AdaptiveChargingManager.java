@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.systemui.adaptivecharging;
+package com.google.android.systemui.googlebattery;
 
 import android.content.Context;
 import android.os.IHwBinder;
