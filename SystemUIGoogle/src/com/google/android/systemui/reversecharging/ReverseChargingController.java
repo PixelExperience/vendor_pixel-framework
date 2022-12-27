@@ -158,7 +158,7 @@ public class ReverseChargingController extends BroadcastReceiver implements Call
     private final AlarmManager.OnAlarmListener mRtxFinishRxFullAlarmAction = new AlarmManager.OnAlarmListener() {
         @Override
         public void onAlarm() {
-            onAlarmRtxFinish(R.styleable.Constraint_layout_goneMarginTop);
+            onAlarmRtxFinish(6);
         }
     };
 
@@ -292,7 +292,7 @@ public class ReverseChargingController extends BroadcastReceiver implements Call
                 if (DEBUG) {
                     Log.d("ReverseChargingControl", "handleIntentForReverseCharging(): wireless charging, stop");
                 }
-                setReverseStateInternal(false, R.styleable.Constraint_layout_goneMarginStart);
+                setReverseStateInternal(false, 102);
             } else if (z3 && z2 && !mPluggedAc && mStopReverseAtAcUnplug) {
                 if (DEBUG) {
                     Log.d("ReverseChargingControl", "handleIntentForReverseCharging(): wired charging, stop");
@@ -300,15 +300,18 @@ public class ReverseChargingController extends BroadcastReceiver implements Call
                 mStopReverseAtAcUnplug = false;
                 setReverseStateInternal(false, 106);
             } else if (!z3 && !z2 && mPluggedAc) {
-                if (!mBootCompleted) {
+                boolean autoTurnOnEnabled = Settings.Global.getInt(this.mContext.getContentResolver(), "settings_key_reverse_charging_auto_turn_on", 0) == 1;
+                if (!autoTurnOnEnabled) {
+                    Log.d("ReverseChargingControl", "auto turn on is disabled");
+                } else if (!mBootCompleted) {
                     Log.i("ReverseChargingControl", "skip auto turn on");
-                    return;
+                } else {
+                    if (DEBUG) {
+                        Log.d("ReverseChargingControl", "handleIntentForReverseCharging(): wired charging, start");
+                    }
+                    mStopReverseAtAcUnplug = true;
+                    setReverseStateInternal(true, 3);
                 }
-                if (DEBUG) {
-                    Log.d("ReverseChargingControl", "handleIntentForReverseCharging(): wired charging, start");
-                }
-                mStopReverseAtAcUnplug = true;
-                setReverseStateInternal(true, 3);
             } else if (!z3 || !isLowBattery()) {
             } else {
                 if (DEBUG) {
@@ -321,7 +324,7 @@ public class ReverseChargingController extends BroadcastReceiver implements Call
                 return;
             }
             Log.i("ReverseChargingControl", "handleIntentForReverseCharging(): power save, stop");
-            setReverseStateInternal(false, R.styleable.Constraint_pathMotionArc);
+            setReverseStateInternal(false, 105);
         } else if (TextUtils.equals(action, "android.hardware.usb.action.USB_DEVICE_ATTACHED")) {
             UsbDevice usbDevice2 = (UsbDevice) intent.getParcelableExtra("device");
             if (usbDevice2 == null) {
@@ -363,7 +366,7 @@ public class ReverseChargingController extends BroadcastReceiver implements Call
             if (!mReverse || !z) {
                 return;
             }
-            setReverseStateInternal(false, R.styleable.Constraint_transitionEasing);
+            setReverseStateInternal(false, 108);
             Log.d("ReverseChargingControl", "handleIntentForReverseCharging(): stop reverse charging because USB-C plugin!");
         } else if (!TextUtils.equals(action, "android.hardware.usb.action.USB_DEVICE_DETACHED")) {
         } else {
