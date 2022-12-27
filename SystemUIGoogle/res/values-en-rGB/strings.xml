@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">"Don't allow"</string>
     <string name="columbus_target_request_dialog_summary">Tap the back of your phone twice to open %1$s. You can change this anytime in Settings.</string>
     <string name="columbus_target_request_dialog_title">Allow Quick Tap to open %1$s?</string>
-    <string name="copied_text_label">Copied text</string>
-    <string name="copy_url_description">Text copied</string>
-    <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
+    <string name="defender_notify_des">Protecting battery to extend battery lifespan</string>
     <string name="defender_notify_resume_charge">Resume charging</string>
-    <string name="defender_notify_title">Charging temporarily limited</string>
-    <string name="defender_post_notify_des">Charging was limited to %1$s from %2$s to %3$s to preserve battery health</string>
-    <string name="defender_post_notify_title">Charging normally</string>
+    <string name="defender_notify_title">Charging is paused</string>
+    <string name="defender_post_notify_des">Charging was paused from %1$s–%2$s to extend battery lifespan</string>
+    <string name="defender_post_notify_title">Charging resumed</string>
     <string name="dock_a11y_action_show_photo_text">Show photo frame</string>
+    <string name="dock_defender_notify_des">To protect your battery, charging is paused at %1$s while your tablet is docked</string>
     <string name="dock_photo_preview_text">Photo Frame starting…</string>
     <string name="dock_promo_text">Swipe left for Photo Frame</string>
     <string name="dream_settings_notification_text">Customise your screen saver</string>
@@ -44,10 +43,8 @@ The face data used by Face Unlock will be permanently and securely deleted. Afte
     <string name="generic_smartspace_concatenated_desc">%1$s %2$s</string>
     <string name="handle_invocation_prompt">Swipe to talk</string>
     <string name="home_controls_tile_title">Home</string>
-    <string name="image_content_description">Selectable image</string>
     <string name="keyguard_indication_trust_unlocked">Kept unlocked by Smart Lock</string>
     <string name="low_battery_label">Low battery</string>
-    <string name="no_content_in_select_mode">No text or image to be selected</string>
     <string name="quick_settings_rotation_posture_folded">folded</string>
     <string name="quick_settings_rotation_posture_unfolded">unfolded</string>
     <string name="reverse_charging_device_name_text">Other Pixel</string>
@@ -55,7 +52,6 @@ The face data used by Face Unlock will be permanently and securely deleted. Afte
     <string name="reverse_charging_on_notification_title">Battery Share is on</string>
     <string name="reverse_charging_title">Battery Share</string>
     <string name="saver_confirmation_dialog_text">Extreme Battery Saver will pause most apps and notifications.</string>
-    <string name="selectable_url_description">Selectable URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">"Don't ask again"</string>
     <string name="severe_low_battery_dialog_text">You have %s battery left. Extreme Battery Saver will pause most apps and notifications.</string>
     <string name="severe_low_battery_dialog_title">Turn on Extreme Battery Saver?</string>
@@ -67,8 +63,6 @@ The face data used by Face Unlock will be permanently and securely deleted. Afte
     <string name="smartspace_shopping_list_overflow">+ %1$d more</string>
     <string name="squeeze_invocation_prompt">Squeeze to talk</string>
     <string name="too_hot_label">Pixel too hot</string>
-    <string name="url_menu_copy">Copy</string>
-    <string name="url_menu_share">Share</string>
     <string name="voice_reply_cta_text">"'Hey Google, reply'"</string>
     <string name="voice_reply_quick_phrase_cta_text">Say ‘Reply’</string>
     <string name="wireless_charging_label">Charging wirelessly</string>

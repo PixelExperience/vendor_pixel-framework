@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Huwag payagan</string>
     <string name="columbus_target_request_dialog_summary">I-tap ang likod ng iyong telepono nang dalawang beses para buksan ang %1$s. Puwede mo itong baguhin anumang oras sa Mga Setting.</string>
     <string name="columbus_target_request_dialog_title">Payagan ang Quick Tap na buksan ang %1$s?</string>
-    <string name="copied_text_label">Nakopya ang text</string>
-    <string name="copy_url_description">Kinopya ang text</string>
-    <string name="defender_notify_des">Nililimitahan ng iyong telepono ang pag-charge para makatulong na mapanatili ang tagal ng baterya</string>
+    <string name="defender_notify_des">Pinoprotektahan ang baterya para mapatagal ang baterya</string>
     <string name="defender_notify_resume_charge">Ituloy ang pag-charge</string>
-    <string name="defender_notify_title">Pansamantalang limitado ang pag-charge</string>
-    <string name="defender_post_notify_des">Nilimitahan sa %1$s ang pag-charge mula %2$s hanggang %3$s para mapanatili ang tagal ng baterya</string>
-    <string name="defender_post_notify_title">Nagcha-charge nang normal</string>
+    <string name="defender_notify_title">Naka-pause ang pag-charge</string>
+    <string name="defender_post_notify_des">Na-pause ang pag-charge mula %1$s‐%2$s para mapatagal ang baterya</string>
+    <string name="defender_post_notify_title">Itinuloy ang pag-charge</string>
     <string name="dock_a11y_action_show_photo_text">Ipakita ang frame ng larawan</string>
+    <string name="dock_defender_notify_des">Para protektahan ang iyong baterya, mapo-pause ang pag-charge sa %1$s habang naka-dock ang tablet mo</string>
     <string name="dock_photo_preview_text">Nagsisimula ang photo frame...</string>
     <string name="dock_promo_text">Mag-swipe pakaliwa para sa photo frame</string>
     <string name="dream_settings_notification_text">I-customize ang iyong screen saver</string>
@@ -44,10 +43,8 @@ Permanente at secure na made-delete ang face data na ginagamit ng Pag-unlock Gam
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">I-swipe para makapagsalita</string>
     <string name="home_controls_tile_title">Home</string>
-    <string name="image_content_description">Napipiling larawan</string>
     <string name="keyguard_indication_trust_unlocked">Pinapanatiling naka-unlock ng Smart Lock</string>
     <string name="low_battery_label">Mahinang baterya</string>
-    <string name="no_content_in_select_mode">Walang text o larawang pipiliin</string>
     <string name="quick_settings_rotation_posture_folded">nakatupi</string>
     <string name="quick_settings_rotation_posture_unfolded">hindi nakatupi</string>
     <string name="reverse_charging_device_name_text">Kabilang Pixel</string>
@@ -55,7 +52,6 @@ Permanente at secure na made-delete ang face data na ginagamit ng Pag-unlock Gam
     <string name="reverse_charging_on_notification_title">Naka-on ang Battery Share</string>
     <string name="reverse_charging_title">Battery Share</string>
     <string name="saver_confirmation_dialog_text">Ipo-pause ng Max na Pantipid ng Baterya ang karamihan sa mga app at notification.</string>
-    <string name="selectable_url_description">Napipiling URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Huwag nang itanong ulit</string>
     <string name="severe_low_battery_dialog_text">%s na lang ang natitira sa iyong baterya. Ipo-pause ng Max na Pantipid ng Baterya ang karamihan sa mga app at notification.</string>
     <string name="severe_low_battery_dialog_title">I-on ang Max na Pantipid ng Baterya?</string>
@@ -67,8 +63,6 @@ Permanente at secure na made-delete ang face data na ginagamit ng Pag-unlock Gam
     <string name="smartspace_shopping_list_overflow">+ %1$d pa</string>
     <string name="squeeze_invocation_prompt">I-squeeze para magsalita</string>
     <string name="too_hot_label">Masyadong mainit ang pixel</string>
-    <string name="url_menu_copy">Kopyahin</string>
-    <string name="url_menu_share">Ibahagi</string>
     <string name="voice_reply_cta_text">“Hey Google, reply (Hey Google, sumagot)”</string>
     <string name="voice_reply_quick_phrase_cta_text">Sabihin ang “Sumagot”</string>
     <string name="wireless_charging_label">Wireless na nagcha-charge</string>

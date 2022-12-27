@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">No permetis</string>
     <string name="columbus_target_request_dialog_summary">Fes doble toc a la part posterior del telèfon per obrir %1$s. Pots canviar aquesta opció en qualsevol moment a Configuració.</string>
     <string name="columbus_target_request_dialog_title">Vols permetre que Toc ràpid obri %1$s?</string>
-    <string name="copied_text_label">Text copiat</string>
-    <string name="copy_url_description">"El text s'ha copiat"</string>
-    <string name="defender_notify_des">El telèfon ha limitat la càrrega per ajudar a mantenir el bon estat de la bateria</string>
+    <string name="defender_notify_des">"S'està protegint la bateria per allargar-ne la durada"</string>
     <string name="defender_notify_resume_charge">Reprèn la càrrega</string>
-    <string name="defender_notify_title">Càrrega limitada temporalment</string>
-    <string name="defender_post_notify_des">"Per mantenir el bon estat de la bateria, la càrrega s'ha limitat al %1$s durant aquest interval: %2$s-%3$s"</string>
-    <string name="defender_post_notify_title">Càrrega normal</string>
+    <string name="defender_notify_title">"La càrrega s'ha posat en pausa"</string>
+    <string name="defender_post_notify_des">"La càrrega s'ha posat en pausa de %1$s a %2$s per allargar la durada de la bateria"</string>
+    <string name="defender_post_notify_title">"S'ha reprès la càrrega"</string>
     <string name="dock_a11y_action_show_photo_text">Mostra el marc de fotos</string>
+    <string name="dock_defender_notify_des">"Per protegir la bateria, la càrrega s'atura al %1$s mentre la tauleta està connectada a la base"</string>
     <string name="dock_photo_preview_text">"S'està iniciant el marc de fotos..."</string>
     <string name="dock_promo_text">"Llisca cap a l'esquerra per configurar un marc de fotos"</string>
     <string name="dream_settings_notification_text">"Personalitza l'estalvi de pantalla"</string>
@@ -44,10 +43,8 @@ Les dades utilitzades pel desbloqueig facial se suprimiran permanentment i de ma
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Llisca per parlar</string>
     <string name="home_controls_tile_title">Inici</string>
-    <string name="image_content_description">La imatge es pot seleccionar</string>
     <string name="keyguard_indication_trust_unlocked">Mantén-lo desbloquejat amb Smart Lock</string>
     <string name="low_battery_label">Bateria baixa</string>
-    <string name="no_content_in_select_mode">No hi ha text ni imatges que es puguin seleccionar</string>
     <string name="quick_settings_rotation_posture_folded">plegat</string>
     <string name="quick_settings_rotation_posture_unfolded">desplegat</string>
     <string name="reverse_charging_device_name_text">Un altre dispositiu Pixel</string>
@@ -55,7 +52,6 @@ Les dades utilitzades pel desbloqueig facial se suprimiran permanentment i de ma
     <string name="reverse_charging_on_notification_title">La funció Compartició de bateria està activada</string>
     <string name="reverse_charging_title">Compartició de bateria</string>
     <string name="saver_confirmation_dialog_text">"Estalvi de bateria extrem posarà en pausa la majoria d'aplicacions i notificacions."</string>
-    <string name="selectable_url_description">URL seleccionable</string>
     <string name="severe_low_battery_dialog_checkbox_title">"No m'ho tornis a preguntar"</string>
     <string name="severe_low_battery_dialog_text">"Et queda un %s de bateria. Estalvi de bateria extrem posarà en pausa la majoria d'aplicacions i notificacions."</string>
     <string name="severe_low_battery_dialog_title">Vols activar Estalvi de bateria extrem?</string>
@@ -67,8 +63,6 @@ Les dades utilitzades pel desbloqueig facial se suprimiran permanentment i de ma
     <string name="smartspace_shopping_list_overflow">i %1$d més</string>
     <string name="squeeze_invocation_prompt">Estreny per parlar</string>
     <string name="too_hot_label">El Pixel està massa calent</string>
-    <string name="url_menu_copy">Copia</string>
-    <string name="url_menu_share">Comparteix</string>
     <string name="voice_reply_cta_text">\"Hey Google, respon\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Digues \"Respon\"</string>
     <string name="wireless_charging_label">"S'està carregant sense fil"</string>

@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Tillad ikke</string>
     <string name="columbus_target_request_dialog_summary">Tryk to gange på bagsiden af din telefon for at åbne %1$s. Du kan altid ændre dette under Indstillinger.</string>
     <string name="columbus_target_request_dialog_title">Vil du tillade, at %1$s åbnes med Kviktryk?</string>
-    <string name="copied_text_label">Kopieret tekst</string>
-    <string name="copy_url_description">Teksten blev kopieret</string>
-    <string name="defender_notify_des">Din telefon begrænser opladningen for at passe på batteriet</string>
+    <string name="defender_notify_des">Beskytter batteriet for at forlænge dets levetid</string>
     <string name="defender_notify_resume_charge">Genoptag opladning</string>
-    <string name="defender_notify_title">Opladningen er midlertidigt begrænset</string>
-    <string name="defender_post_notify_des">Opladningen blev begrænset til %1$s fra kl. %2$s til %3$s for at passe på batteriet</string>
-    <string name="defender_post_notify_title">Normal opladning</string>
+    <string name="defender_notify_title">Opladning er sat på pause</string>
+    <string name="defender_post_notify_des">Opladningen blev sat på pause fra %1$s-%2$s for at forlænge batteritiden</string>
+    <string name="defender_post_notify_title">Opladningen er genoptaget</string>
     <string name="dock_a11y_action_show_photo_text">Vis billedramme</string>
+    <string name="dock_defender_notify_des">Opladning er sat på pause på %1$s, mens enheden sidder i dockingstationen, for at spare på batteriet</string>
     <string name="dock_photo_preview_text">Billedramme starter…</string>
     <string name="dock_promo_text">Stryg til venstre for at se billedrammen</string>
     <string name="dream_settings_notification_text">Tilpas din pauseskærm</string>
@@ -44,10 +43,8 @@ De ansigtsdata, der anvendes af ansigtslåsen, slettes permanent og forsvarligt.
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Stryg for at tale</string>
     <string name="home_controls_tile_title">Hjem</string>
-    <string name="image_content_description">Billede, der kan vælges</string>
     <string name="keyguard_indication_trust_unlocked">Holdes oplåst af Smart Lock</string>
     <string name="low_battery_label">Lavt batteriniveau</string>
-    <string name="no_content_in_select_mode">Der er ingen tekst eller billeder, der kan vælges</string>
     <string name="quick_settings_rotation_posture_folded">sammenfoldet</string>
     <string name="quick_settings_rotation_posture_unfolded">foldet ud</string>
     <string name="reverse_charging_device_name_text">Anden Pixel</string>
@@ -55,7 +52,6 @@ De ansigtsdata, der anvendes af ansigtslåsen, slettes permanent og forsvarligt.
     <string name="reverse_charging_on_notification_title">Batterideling er aktiveret</string>
     <string name="reverse_charging_title">Batterideling</string>
     <string name="saver_confirmation_dialog_text">Ekstrem batterisparefunktion sætter de fleste apps og notifikationer på pause.</string>
-    <string name="selectable_url_description">Webadresse, som kan vælges</string>
     <string name="severe_low_battery_dialog_checkbox_title">Spørg ikke igen</string>
     <string name="severe_low_battery_dialog_text">Du har %s batteri tilbage. Ekstrem batterisparefunktion sætter de fleste apps og notifikationer på pause.</string>
     <string name="severe_low_battery_dialog_title">Vil du aktivere Ekstrem batterisparefunktion?</string>
@@ -67,8 +63,6 @@ De ansigtsdata, der anvendes af ansigtslåsen, slettes permanent og forsvarligt.
     <string name="smartspace_shopping_list_overflow">+ %1$d mere</string>
     <string name="squeeze_invocation_prompt">Klem for at tale</string>
     <string name="too_hot_label">Din Pixel er for varm</string>
-    <string name="url_menu_copy">Kopiér</string>
-    <string name="url_menu_share">Del</string>
     <string name="voice_reply_cta_text">\"Hey Google, svar\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Sig \"Svar\".</string>
     <string name="wireless_charging_label">Trådløs opladning</string>

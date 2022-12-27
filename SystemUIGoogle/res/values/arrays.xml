@@ -17,6 +17,20 @@
         <item>com.google.columbustest</item>
     </string-array>
     <array name="config_dock_bound_components"/>
+    <integer-array name="config_face_acquire_device_entry_ignorelist">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>19</item>
+    </integer-array>
+    <integer-array name="config_face_help_msgs_defer_until_timeout">
+        <item>3</item>
+    </integer-array>
     <array name="config_nfc_conflict_with_usb_audio_productid"/>
     <array name="config_nfc_conflict_with_usb_audio_vendorid"/>
     <string-array name="config_quickSettingsAutoAdd">

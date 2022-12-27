@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Ne dovoli</string>
     <string name="columbus_target_request_dialog_summary">Dvakrat se dotaknite hrbtne strani telefona, če želite odpreti aplikacijo %1$s. To lahko kadar koli spremenite v nastavitvah.</string>
     <string name="columbus_target_request_dialog_title">Ali želite omogočiti odpiranje aplikacije %1$s s hitrim dotikom?</string>
-    <string name="copied_text_label">Besedilo je kopirano.</string>
-    <string name="copy_url_description">Besedilo je kopirano</string>
-    <string name="defender_notify_des">Telefon omejuje polnjenje za ohranjanje ustreznega stanja baterije.</string>
+    <string name="defender_notify_des">Zaščita baterije za podaljšanje življenjske dobe baterije</string>
     <string name="defender_notify_resume_charge">Nadaljuj polnjenje</string>
-    <string name="defender_notify_title">Polnjenje začasno omejeno</string>
-    <string name="defender_post_notify_des">Polnjenje je bilo od %2$s do %3$s omejeno na %1$s zaradi ohranjanja baterije.</string>
-    <string name="defender_post_notify_title">Polnjenje poteka kot običajno</string>
+    <string name="defender_notify_title">Polnjenje je začasno zaustavljeno</string>
+    <string name="defender_post_notify_des">Polnjenje je bilo začasno zaustavljeno od %1$s do %2$s zaradi podaljšanja življenjske dobe baterije.</string>
+    <string name="defender_post_notify_title">Polnjenje se nadaljuje</string>
     <string name="dock_a11y_action_show_photo_text">Pokaži okvir za fotografije</string>
+    <string name="dock_defender_notify_des">Zaradi zaščite baterije je polnjenje začasno zaustavljeno pri %1$s, ko je tablični računalnik priklopljen na nosilec.</string>
     <string name="dock_photo_preview_text">Zaganjanje okvira za fotografije …</string>
     <string name="dock_promo_text">Povlecite v levo za okvir za fotografije</string>
     <string name="dream_settings_notification_text">Prilagodite ohranjevalnik zaslona</string>
@@ -44,10 +43,8 @@ Podatki o obrazu, ki jih uporablja odklepanje z obrazom, bodo trajno in varno iz
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Povlecite za govor</string>
     <string name="home_controls_tile_title">Dom</string>
-    <string name="image_content_description">Izberljiva slika</string>
     <string name="keyguard_indication_trust_unlocked">Odklenjeno ohranja funkcija Smart Lock</string>
     <string name="low_battery_label">Nizka raven energije v bateriji</string>
-    <string name="no_content_in_select_mode">Ni besedila ali slike za izbiranje.</string>
     <string name="quick_settings_rotation_posture_folded">zaprto</string>
     <string name="quick_settings_rotation_posture_unfolded">razprto</string>
     <string name="reverse_charging_device_name_text">Drugi Pixel</string>
@@ -55,7 +52,6 @@ Podatki o obrazu, ki jih uporablja odklepanje z obrazom, bodo trajno in varno iz
     <string name="reverse_charging_on_notification_title">Deljenje energije baterije je vklopljeno</string>
     <string name="reverse_charging_title">Deljenje energije baterije</string>
     <string name="saver_confirmation_dialog_text">Strogo varčevanje z energijo baterije bo začasno zaustavilo večino aplikacij in obvestil.</string>
-    <string name="selectable_url_description">Izberljiv URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Ne vprašaj me več</string>
     <string name="severe_low_battery_dialog_text">Preostala napolnjenost baterije: %s. Strogo varčevanje z energijo baterije bo začasno zaustavilo večino aplikacij in obvestil.</string>
     <string name="severe_low_battery_dialog_title">Želite vklopiti strogo varčevanje z energijo baterije?</string>
@@ -67,8 +63,6 @@ Podatki o obrazu, ki jih uporablja odklepanje z obrazom, bodo trajno in varno iz
     <string name="smartspace_shopping_list_overflow">+ še %1$d</string>
     <string name="squeeze_invocation_prompt">Stisnite za govor</string>
     <string name="too_hot_label">Telefon Pixel je prevroč</string>
-    <string name="url_menu_copy">Kopiraj</string>
-    <string name="url_menu_share">Deli</string>
     <string name="voice_reply_cta_text">»Hey Google, reply«</string>
     <string name="voice_reply_quick_phrase_cta_text">Izgovorite »Reply«.</string>
     <string name="wireless_charging_label">Brezžično polnjenje</string>

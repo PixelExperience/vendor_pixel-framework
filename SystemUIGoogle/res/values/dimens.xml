@@ -50,9 +50,11 @@
     <dimen name="dock_promo_padding">48.0dip</dimen>
     <dimen name="dock_top_logo_margin">12.0dip</dimen>
     <dimen name="dock_top_logo_padding">8.0dip</dimen>
-    <dimen name="dream_cast_complication_drawable_padding">4.0dip</dimen>
-    <dimen name="dream_cast_icon_dimen">18.0dip</dimen>
-    <dimen name="dream_overlay_complication_cast_text_size">18.0sp</dimen>
+    <dimen name="dream_cast_icon_dimen">16.0dip</dimen>
+    <dimen name="dream_cast_icon_inset_dimen">2.0dip</dimen>
+    <dimen name="dream_cast_icon_padding">4.0dip</dimen>
+    <dimen name="dream_cast_name_text_size">16.0sp</dimen>
+    <dimen name="dream_overlay_complication_cast_text_size">24.0sp</dimen>
     <item type="dimen" name="elmyra_progress_alpha">0.35</item>
     <item type="dimen" name="elmyra_progress_detect_threshold">0.5</item>
     <item type="dimen" name="elmyra_progress_report_threshold">0.55</item>
@@ -63,6 +65,7 @@
     <dimen name="enhanced_smartspace_combination_sub_card_corner_radius">20.0dip</dimen>
     <dimen name="enhanced_smartspace_dismiss_margin">16.0dip</dimen>
     <dimen name="enhanced_smartspace_height">104.0dip</dimen>
+    <dimen name="enhanced_smartspace_icon_inset">2.0dip</dimen>
     <dimen name="enhanced_smartspace_icon_margin">4.0dip</dimen>
     <dimen name="enhanced_smartspace_icon_size">20.0dip</dimen>
     <dimen name="enhanced_smartspace_margin_start_launcher">16.0dip</dimen>
@@ -124,8 +127,8 @@
     <dimen name="page_indicator_dot_margin">3.0dip</dimen>
     <dimen name="page_indicator_dot_size">6.0dip</dimen>
     <dimen name="page_indicator_padding_top">10.0dip</dimen>
-    <dimen name="page_indicator_padding_start">2dp</dimen>
     <dimen name="page_indicator_width">16.0dip</dimen>
+    <dimen name="page_indicator_padding_start">2dp</dimen>
     <dimen name="page_indicator_padding_top_bottom">8dp</dimen>
     <dimen name="scaled_image_corner_radius">28.0dip</dimen>
     <dimen name="scrim_touchable_height">132.0dip</dimen>

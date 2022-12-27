@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">اجازه ندادن</string>
     <string name="columbus_target_request_dialog_summary">دوضربه به پشت تلفنتان بزنید تا %1$s باز شود. هرزمان خواستید می‌توانید آن را در «تنظیمات» تغییر دهید.</string>
     <string name="columbus_target_request_dialog_title">«ضربه سریع» اجازه دارد %1$s را باز کند؟</string>
-    <string name="copied_text_label">نوشتار کپی‌شده</string>
-    <string name="copy_url_description">نوشتار کپی شد</string>
-    <string name="defender_notify_des">تلفنتان شارژ کردن را محدود می‌کند تا به حفظ سلامت باتری کمک شود</string>
+    <string name="defender_notify_des">درحال محافظت از باتری برای افزایش عمر باتری</string>
     <string name="defender_notify_resume_charge">ازسرگیری شارژ شدن</string>
-    <string name="defender_notify_title">شارژ موقتاً محدود شده است</string>
-    <string name="defender_post_notify_des">برای حفظ سلامت باتری، از %2$s تا %3$s باتری تا سطح %1$s شارژ شد</string>
-    <string name="defender_post_notify_title">شارژ شدن عادی</string>
+    <string name="defender_notify_title">شارژ موقتاً متوقف شده است</string>
+    <string name="defender_post_notify_des">شارژ از %1$s تا %2$s موقتاً متوقف شده است تا عمر باتری افزایش یابد</string>
+    <string name="defender_post_notify_title">شارژ ازسر گرفته شد</string>
     <string name="dock_a11y_action_show_photo_text">نمایش قاب عکس</string>
+    <string name="dock_defender_notify_des">برای محافظت از باتری، وقتی رایانه لوحی‌تان روی پایه باشد شارژ به‌طور موقت در %1$s متوقف می‌شود</string>
     <string name="dock_photo_preview_text">قاب عکس درحال شروع...</string>
     <string name="dock_promo_text">برای قاب عکس، تند به‌راست بکشید</string>
     <string name="dream_settings_notification_text">سفارشی کردن محافظ صفحه</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s،%2$s</string>
     <string name="handle_invocation_prompt">برای صحبت کردن، تند بکشید</string>
     <string name="home_controls_tile_title">صفحه اصلی</string>
-    <string name="image_content_description">تصویر قابل‌انتخاب</string>
     <string name="keyguard_indication_trust_unlocked">با «قفل هوشمند»، قفل را باز نگه‌دارید</string>
     <string name="low_battery_label">باتری ضعیف</string>
-    <string name="no_content_in_select_mode">هیچ نوشتار یا تصویری برای انتخاب وجود ندارد</string>
     <string name="quick_settings_rotation_posture_folded">تاشده</string>
     <string name="quick_settings_rotation_posture_unfolded">تانشده</string>
     <string name="reverse_charging_device_name_text">‏Pixel دیگر</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">«اشتراک باتری» روشن است</string>
     <string name="reverse_charging_title">اشتراک باتری</string>
     <string name="saver_confirmation_dialog_text">«نهایت بهینه‌سازی باتری» اکثر برنامه‌ها و اعلان‌ها را موقتاً متوقف می‌کند.</string>
-    <string name="selectable_url_description">نشانی وب قابل‌انتخاب</string>
     <string name="severe_low_battery_dialog_checkbox_title">دوباره سؤال نشود</string>
     <string name="severe_low_battery_dialog_text">%s از شارژ باتری باقی مانده است. «نهایت بهینه‌سازی باتری» اکثر برنامه‌ها و اعلان‌ها را موقتاً متوقف می‌کند.</string>
     <string name="severe_low_battery_dialog_title">«نهایت بهینه‌سازی باتری» روشن شود؟</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d مورد دیگر</string>
     <string name="squeeze_invocation_prompt">برای صحبت کردن فشار دهید</string>
     <string name="too_hot_label">‏Pixel بیش‌ازحد داغ شده است</string>
-    <string name="url_menu_copy">کپی</string>
-    <string name="url_menu_share">هم‌رسانی</string>
     <string name="voice_reply_cta_text">‏«Ok Google, reply» ‏(Ok Google، پاسخ بده)</string>
     <string name="voice_reply_quick_phrase_cta_text">‏بگویید «Reply» (پاسخ دادن)</string>
     <string name="wireless_charging_label">درحال شارژ شدن به‌صورت بی‌سیم</string>

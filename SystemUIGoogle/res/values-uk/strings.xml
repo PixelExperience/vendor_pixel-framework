@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Не дозволяти</string>
     <string name="columbus_target_request_dialog_summary">Двічі торкніться задньої панелі телефона, щоб відкрити %1$s. Це можна будь-коли змінити в Налаштуваннях.</string>
     <string name="columbus_target_request_dialog_title">Дозволити відкривати додаток %1$s подвійним дотиком?</string>
-    <string name="copied_text_label">Скопійований текст</string>
-    <string name="copy_url_description">Текст скопійовано</string>
-    <string name="defender_notify_des">Щоб допомогти подовжити термін роботи акумулятора, телефон обмежує заряджання</string>
+    <string name="defender_notify_des">Увімкнено захист акумулятора, щоб подовжити його час роботи</string>
     <string name="defender_notify_resume_charge">Відновити заряджання</string>
-    <string name="defender_notify_title">Заряджання тимчасово обмежено</string>
-    <string name="defender_post_notify_des">Щоб подовжити термін роботи акумулятора, з %2$s до %3$s заряджання обмежено до %1$s.</string>
-    <string name="defender_post_notify_title">Звичайне заряджання</string>
+    <string name="defender_notify_title">Заряджання призупинено</string>
+    <string name="defender_post_notify_des">Заряджання призупинено з %1$s до %2$s, щоб подовжити час роботи акумулятора</string>
+    <string name="defender_post_notify_title">Заряджання відновлено</string>
     <string name="dock_a11y_action_show_photo_text">Показати фоторамку</string>
+    <string name="dock_defender_notify_des">Щоб захистити акумулятор, заряджання призупиняється на рівні %1$s, поки планшет у док-станції</string>
     <string name="dock_photo_preview_text">Запуск фоторамки…</string>
     <string name="dock_promo_text">Щоб відкрити фоторамку, проведіть пальцем ліворуч</string>
     <string name="dream_settings_notification_text">Налаштуйте заставку</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Проведіть пальцем, щоб говорити</string>
     <string name="home_controls_tile_title">Дім</string>
-    <string name="image_content_description">Зображення, яке можна вибрати</string>
     <string name="keyguard_indication_trust_unlocked">Розблоковує Smart Lock</string>
     <string name="low_battery_label">Низький заряд акумулятора</string>
-    <string name="no_content_in_select_mode">Немає тексту чи зображення, які можна вибрати</string>
     <string name="quick_settings_rotation_posture_folded">складений</string>
     <string name="quick_settings_rotation_posture_unfolded">розкладений</string>
     <string name="reverse_charging_device_name_text">Інший пристрій Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Увімкнено спільний акумулятор</string>
     <string name="reverse_charging_title">Спільний акумулятор</string>
     <string name="saver_confirmation_dialog_text">Режим екстремального енергозбереження призупинить більшість додатків і сповіщень.</string>
-    <string name="selectable_url_description">URL-адреса, яку можна вибрати</string>
     <string name="severe_low_battery_dialog_checkbox_title">Не запитувати знову</string>
     <string name="severe_low_battery_dialog_text">У вас залишилося %s заряду акумулятора. Режим екстремального енергозбереження призупинить більшість додатків і сповіщень.</string>
     <string name="severe_low_battery_dialog_title">Увімкнути режим екстремального енергозбереження?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">і ще %1$d</string>
     <string name="squeeze_invocation_prompt">Стисніть, щоб говорити</string>
     <string name="too_hot_label">Телефон Pixel загарячий</string>
-    <string name="url_menu_copy">Копіювати</string>
-    <string name="url_menu_share">Поділитися</string>
     <string name="voice_reply_cta_text">\"Ok, Google, повтори\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Скажіть \"Дай відповідь\"</string>
     <string name="wireless_charging_label">Бездротове заряджання</string>

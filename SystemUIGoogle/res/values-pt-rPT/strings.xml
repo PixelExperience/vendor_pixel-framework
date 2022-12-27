@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Não permitir</string>
     <string name="columbus_target_request_dialog_summary">Toque duas vezes na parte posterior do telemóvel para abrir a app %1$s. Poderá alterar esta definição em qualquer altura nas Definições.</string>
     <string name="columbus_target_request_dialog_title">Permitir que o Quick Tap abra a app %1$s?</string>
-    <string name="copied_text_label">Texto copiado</string>
-    <string name="copy_url_description">Texto copiado</string>
-    <string name="defender_notify_des">O telemóvel está a limitar o carregamento para ajudar a preservar o estado da bateria</string>
+    <string name="defender_notify_des">A proteger a bateria para prolongar a vida útil da mesma</string>
     <string name="defender_notify_resume_charge">Retomar carregamento</string>
-    <string name="defender_notify_title">Carregamento limitado temporariamente</string>
-    <string name="defender_post_notify_des">O carregamento esteve limitado a %1$s da(s) %2$s à(s) %3$s para preservar o estado da bateria</string>
-    <string name="defender_post_notify_title">Carregamento normal</string>
+    <string name="defender_notify_title">O carregamento está pausado</string>
+    <string name="defender_post_notify_des">O carregamento foi pausado da(s) %1$s à(s) %2$s para prolongar a vida útil da bateria</string>
+    <string name="defender_post_notify_title">Carregamento retomado</string>
     <string name="dock_a11y_action_show_photo_text">Mostrar Moldura de foto</string>
+    <string name="dock_defender_notify_des">Para proteger a bateria, o carregamento é pausado a %1$s enquanto o tablet estiver na estação de ancoragem</string>
     <string name="dock_photo_preview_text">A iniciar a Moldura de foto…</string>
     <string name="dock_promo_text">Deslize rapidamente para a esquerda para aceder à Moldura de foto.</string>
     <string name="dream_settings_notification_text">Personalize a proteção de ecrã</string>
@@ -44,10 +43,8 @@ Os dados do rosto utilizados pelo Desbloqueio facial serão eliminados permanent
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Deslize rapidamente para falar</string>
     <string name="home_controls_tile_title">Início</string>
-    <string name="image_content_description">Imagem selecionável</string>
     <string name="keyguard_indication_trust_unlocked">Mantido desbloqueado pelo Smart Lock</string>
     <string name="low_battery_label">Bateria fraca</string>
-    <string name="no_content_in_select_mode">Nenhum texto ou imagem para selecionar</string>
     <string name="quick_settings_rotation_posture_folded">fechado</string>
     <string name="quick_settings_rotation_posture_unfolded">aberto</string>
     <string name="reverse_charging_device_name_text">Outro Pixel</string>
@@ -55,7 +52,6 @@ Os dados do rosto utilizados pelo Desbloqueio facial serão eliminados permanent
     <string name="reverse_charging_on_notification_title">A Partilha de bateria está ativada</string>
     <string name="reverse_charging_title">Partilhar bateria</string>
     <string name="saver_confirmation_dialog_text">A Poupança de bateria extrema vai pausar a maioria das apps e notificações.</string>
-    <string name="selectable_url_description">URL selecionável</string>
     <string name="severe_low_battery_dialog_checkbox_title">Não perguntar novamente</string>
     <string name="severe_low_battery_dialog_text">Tem %s de bateria. A Poupança de bateria extrema vai pausar a maioria das apps e notificações.</string>
     <string name="severe_low_battery_dialog_title">Ativar a Poupança de bateria extrema?</string>
@@ -67,8 +63,6 @@ Os dados do rosto utilizados pelo Desbloqueio facial serão eliminados permanent
     <string name="smartspace_shopping_list_overflow">mais %1$d</string>
     <string name="squeeze_invocation_prompt">Aperte para falar.</string>
     <string name="too_hot_label">Pixel demasiado quente</string>
-    <string name="url_menu_copy">Copiar</string>
-    <string name="url_menu_share">Partilhar</string>
     <string name="voice_reply_cta_text">\"OK Google, responde\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Diga \"Responde\"</string>
     <string name="wireless_charging_label">A carregar por ligação sem fios…</string>

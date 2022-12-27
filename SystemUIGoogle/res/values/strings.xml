@@ -21,6 +21,8 @@
     <string name="columbus_target_request_dialog_title">Allow Quick Tap to open %1$s?</string>
     <string name="config_communal_settings_action">com.google.android.settings.communal.COMMUNAL_MODE_SETTINGS</string>
     <string name="config_dockComponent"/>
+    <string name="config_dock_setup_account_type">com.google</string>
+    <string name="config_dock_setup_component">@null</string>
     <string name="config_media_shell_service_component"/>
     <string name="config_nest_dock_manager_service_component"/>
     <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
@@ -28,15 +30,18 @@
     <string name="copied_text_label">Copied text</string>
     <string name="copy_url_description">Text copied</string>
     <string name="def_qr_code_component">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
-    <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
+    <string name="defender_notify_des">Protecting battery to extend battery lifespan</string>
     <string name="defender_notify_help_url">https://support.google.com/pixelphone?p=android_batterydefender</string>
     <string name="defender_notify_resume_charge">Resume charging</string>
-    <string name="defender_notify_title">Charging temporarily limited</string>
-    <string name="defender_post_notify_des">Charging was limited to %1$s from %2$s to %3$s to preserve battery health</string>
-    <string name="defender_post_notify_title">Charging normally</string>
+    <string name="defender_notify_title">Charging is paused</string>
+    <string name="defender_post_notify_des">Charging was paused from %1$s‐%2$s to extend battery lifespan</string>
+    <string name="defender_post_notify_title">Charging resumed</string>
     <string name="dock_a11y_action_show_photo_text">Show photo frame</string>
+    <string name="dock_defender_notify_des">To protect your battery, charging is paused at %1$s while your tablet is docked</string>
     <string name="dock_photo_preview_text">Photo frame starting...</string>
     <string name="dock_promo_text">Swipe left for photo frame</string>
+    <string name="dock_setup_notification_text"/>
+    <string name="dock_setup_notification_title"/>
     <string name="dream_settings_notification_text">Customize your screen saver</string>
     <string name="dream_settings_notification_title">Settings</string>
     <string name="elmyra_raw_sensor_string_type">com.google.sensor.elmyra.raw</string>

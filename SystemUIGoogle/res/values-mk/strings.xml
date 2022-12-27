@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Не дозволувај</string>
     <string name="columbus_target_request_dialog_summary">Допрете ја задната страна на телефонот двапати за да ја отворите %1$s. Ова може да го промените во секое време во „Поставки“.</string>
     <string name="columbus_target_request_dialog_title">Да се дозволи „Брз допир“ да ја отвора %1$s?</string>
-    <string name="copied_text_label">Текстот е копиран</string>
-    <string name="copy_url_description">Текстот е копиран</string>
-    <string name="defender_notify_des">Вашиот телефон го ограничува полнењето за да ја заштеди батеријата</string>
+    <string name="defender_notify_des">Се заштитува батеријата за да се продолжи животниот век на батеријата</string>
     <string name="defender_notify_resume_charge">Продолжи со полнење</string>
-    <string name="defender_notify_title">Полнењето е привремено ограничено</string>
-    <string name="defender_post_notify_des">Полнењето беше ограничено на %1$s од %2$s до %3$s за да се зачува батеријата</string>
-    <string name="defender_post_notify_title">Нормално полнење</string>
+    <string name="defender_notify_title">Полнењето е паузирано</string>
+    <string name="defender_post_notify_des">Полнењето беше паузирано од %1$s до %2$s за да се продолжи животниот век на батеријата</string>
+    <string name="defender_post_notify_title">Полнењето продолжи</string>
     <string name="dock_a11y_action_show_photo_text">Прикажи рамка за фотографии</string>
+    <string name="dock_defender_notify_des">За да се заштити вашата батерија, полнењето е паузирано на %1$s додека таблетот е приклучен на док</string>
     <string name="dock_photo_preview_text">„Рамката за фотографии“ стартува…</string>
     <string name="dock_promo_text">Повлечете налево за рамка за фотографија</string>
     <string name="dream_settings_notification_text">Приспособете го заштитникот на екран</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Повлечете за да зборувате</string>
     <string name="home_controls_tile_title">Почетен екран</string>
-    <string name="image_content_description">Слика што може да се избере</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock го држи отклучен</string>
     <string name="low_battery_label">Слаба батерија</string>
-    <string name="no_content_in_select_mode">Нема текст или слика за избирање</string>
     <string name="quick_settings_rotation_posture_folded">преклопен</string>
     <string name="quick_settings_rotation_posture_unfolded">непреклопен</string>
     <string name="reverse_charging_device_name_text">Друг Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">„Споделувањето батерија“ е вклучено</string>
     <string name="reverse_charging_title">Споделување батерија</string>
     <string name="saver_confirmation_dialog_text">„Екстремниот штедач на батерија“ ќе ги паузира повеќето апликации и известувања.</string>
-    <string name="selectable_url_description">URL-адреса што може да се избере</string>
     <string name="severe_low_battery_dialog_checkbox_title">Не прашувај повторно</string>
     <string name="severe_low_battery_dialog_text">Имате уште %s батерија. „Екстремниот штедач на батерија“ ќе ги паузира повеќето апликации и известувања.</string>
     <string name="severe_low_battery_dialog_title">Да се вклучи „Екстремниот штедач на батерија“?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">и уште %1$d</string>
     <string name="squeeze_invocation_prompt">Стуткајте за да зборувате</string>
     <string name="too_hot_label">Pixel е премногу загреан</string>
-    <string name="url_menu_copy">Копирај</string>
-    <string name="url_menu_share">Сподели</string>
     <string name="voice_reply_cta_text">„Hey Google, reply“ (Ok Google, одговори)</string>
     <string name="voice_reply_quick_phrase_cta_text">Кажете „Одговори“</string>
     <string name="wireless_charging_label">Безжично полнење</string>

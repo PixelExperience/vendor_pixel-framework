@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Tillåt inte</string>
     <string name="columbus_target_request_dialog_summary">Öppna %1$s genom att trycka snabbt två gånger på baksidan av telefonen. Du kan när som helst ändra detta i inställningarna.</string>
     <string name="columbus_target_request_dialog_title">Vill du tillåta att %1$s öppnas med snabbtryck?</string>
-    <string name="copied_text_label">Texten har kopierats</string>
-    <string name="copy_url_description">Texten har kopierats</string>
-    <string name="defender_notify_des">Telefonen begränsar laddningen för att bevara batteriets livslängd</string>
+    <string name="defender_notify_des">Skyddar batteriet så att det ska räcka längre</string>
     <string name="defender_notify_resume_charge">Återuppta laddning</string>
-    <string name="defender_notify_title">Laddning har begränsats tillfälligt</string>
-    <string name="defender_post_notify_des">Laddning begränsades till %1$s mellan %2$s och %3$s för att bevara batteriets livslängd</string>
-    <string name="defender_post_notify_title">Laddas normalt</string>
+    <string name="defender_notify_title">Laddningen har pausats</string>
+    <string name="defender_post_notify_des">Laddningen har pausats från %1$s–%2$s för att batteriet ska räcka längre</string>
+    <string name="defender_post_notify_title">Laddningen har återupptagits</string>
     <string name="dock_a11y_action_show_photo_text">Visa fotoram</string>
+    <string name="dock_defender_notify_des">För att skydda batteriet pausas laddningen vid %1$s medan surfplattan är dockad</string>
     <string name="dock_photo_preview_text">Fotoram startas …</string>
     <string name="dock_promo_text">Svep åt vänster för fotoram</string>
     <string name="dream_settings_notification_text">Anpassa skärmsläckaren</string>
@@ -44,10 +43,8 @@ Ansiktsdatan som används för ansiktslåset tas bort permanent på ett säkert 
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Svep och prata</string>
     <string name="home_controls_tile_title">Hem</string>
-    <string name="image_content_description">Bild som kan markeras</string>
     <string name="keyguard_indication_trust_unlocked">Hålls olåst med Smart Lock</string>
     <string name="low_battery_label">Låg batterinivå</string>
-    <string name="no_content_in_select_mode">Ingen text eller bild som kan markeras</string>
     <string name="quick_settings_rotation_posture_folded">hopvikt</string>
     <string name="quick_settings_rotation_posture_unfolded">utvikt</string>
     <string name="reverse_charging_device_name_text">En annan Pixel</string>
@@ -55,7 +52,6 @@ Ansiktsdatan som används för ansiktslåset tas bort permanent på ett säkert 
     <string name="reverse_charging_on_notification_title">Batteridelning är på</string>
     <string name="reverse_charging_title">Batteridelning</string>
     <string name="saver_confirmation_dialog_text">Med effektivare batterisparläge pausas de flesta appar och aviseringar.</string>
-    <string name="selectable_url_description">Webbadress som kan markeras</string>
     <string name="severe_low_battery_dialog_checkbox_title">Fråga inte igen</string>
     <string name="severe_low_battery_dialog_text">%s av batteriet återstår. Med effektivare batterisparläge pausas de flesta appar och aviseringar.</string>
     <string name="severe_low_battery_dialog_title">Vill du aktivera det effektivare batterisparläget?</string>
@@ -67,8 +63,6 @@ Ansiktsdatan som används för ansiktslåset tas bort permanent på ett säkert 
     <string name="smartspace_shopping_list_overflow">+ %1$d till</string>
     <string name="squeeze_invocation_prompt">Kläm och prata</string>
     <string name="too_hot_label">Pixel är för varm</string>
-    <string name="url_menu_copy">Kopiera</string>
-    <string name="url_menu_share">Dela</string>
     <string name="voice_reply_cta_text">”Hey Google, svara”</string>
     <string name="voice_reply_quick_phrase_cta_text">Säg ”Svara”.</string>
     <string name="wireless_charging_label">Laddas trådlöst</string>

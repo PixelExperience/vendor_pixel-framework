@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Ekki leyfa</string>
     <string name="columbus_target_request_dialog_summary">Ýttu tvisvar á bakhlið símans til að opna %1$s. Þú getur breytt þessu hvenær sem er í stillingunum.</string>
     <string name="columbus_target_request_dialog_title">Leyfa pikki að opna %1$s?</string>
-    <string name="copied_text_label">Afritaður texti</string>
-    <string name="copy_url_description">Texti afritaður</string>
-    <string name="defender_notify_des">Síminn þinn takmarkar hleðslu til að auka endingu rafhlöðunnar</string>
+    <string name="defender_notify_des">Verndar rafhlöðuna til að auka endingu rafhlöðunnar</string>
     <string name="defender_notify_resume_charge">Halda hleðslu áfram</string>
-    <string name="defender_notify_title">Hleðsla takmörkuð tímabundið</string>
-    <string name="defender_post_notify_des">Hleðsla var takmörkuð við %1$s frá %2$s til %3$s til að lengja rafhlöðuendingu</string>
-    <string name="defender_post_notify_title">Hleður eins og venjulega</string>
+    <string name="defender_notify_title">Hlé gert á hleðslu</string>
+    <string name="defender_post_notify_des">Hlé var gert á hleðslu frá %1$s‐%2$s til að auka endingu rafhlöðunnar</string>
+    <string name="defender_post_notify_title">Hleðslu haldið áfram</string>
     <string name="dock_a11y_action_show_photo_text">Sýna myndaramma</string>
+    <string name="dock_defender_notify_des">Til að vernda rafhlöðuna verður gert hlé á hleðslu við %1$s þegar spjaldtölvan er tengd við dokku</string>
     <string name="dock_photo_preview_text">Myndarammi ræsist...</string>
     <string name="dock_promo_text">Strjúktu til vinstri til að fá myndaramma</string>
     <string name="dream_settings_notification_text">Sérsníddu skjávarann</string>
@@ -44,10 +43,8 @@ Andlitsgögnum sem andlitskenni notar verður eytt varanlega og á öruggan hát
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Strjúktu til að tala</string>
     <string name="home_controls_tile_title">Heim</string>
-    <string name="image_content_description">Mynd sem hægt er að velja</string>
     <string name="keyguard_indication_trust_unlocked">Haldið opnu af Smart Lock</string>
     <string name="low_battery_label">Rafhlaða að tæmast</string>
-    <string name="no_content_in_select_mode">Enginn texti eða mynd til að velja</string>
     <string name="quick_settings_rotation_posture_folded">samanbrotið</string>
     <string name="quick_settings_rotation_posture_unfolded">opið</string>
     <string name="reverse_charging_device_name_text">Hitt Pixel tækið</string>
@@ -55,7 +52,6 @@ Andlitsgögnum sem andlitskenni notar verður eytt varanlega og á öruggan hát
     <string name="reverse_charging_on_notification_title">Kveikt er á „Deiling rafhlöðu“</string>
     <string name="reverse_charging_title">Deiling rafhlöðu</string>
     <string name="saver_confirmation_dialog_text">Með ofurrafhlöðusparnaði er gert hlé á flestum forritum og tilkynningum.</string>
-    <string name="selectable_url_description">Vefslóð sem er hægt að velja</string>
     <string name="severe_low_battery_dialog_checkbox_title">Ekki spyrja aftur</string>
     <string name="severe_low_battery_dialog_text">%s rafhlöðuhleðsla eftir. Með ofurrafhlöðusparnaði er gert hlé á flestum forritum og tilkynningum.</string>
     <string name="severe_low_battery_dialog_title">Viltu kveikja á ofurrafhlöðusparnaði?</string>
@@ -67,8 +63,6 @@ Andlitsgögnum sem andlitskenni notar verður eytt varanlega og á öruggan hát
     <string name="smartspace_shopping_list_overflow">+ %1$d í viðbót</string>
     <string name="squeeze_invocation_prompt">Kreistu til að tala</string>
     <string name="too_hot_label">Pixel er of heitur</string>
-    <string name="url_menu_copy">Afrita</string>
-    <string name="url_menu_share">Deila</string>
     <string name="voice_reply_cta_text">„Ok Google, reply“</string>
     <string name="voice_reply_quick_phrase_cta_text">Segðu: „Reply“</string>
     <string name="wireless_charging_label">Hleður þráðlaust</string>

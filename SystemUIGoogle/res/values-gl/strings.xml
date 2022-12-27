@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Non permitir</string>
     <string name="columbus_target_request_dialog_summary">Toca dúas veces a parte traseira do teléfono para abrir %1$s. Podes cambiar esta opción en calquera momento en Configuración.</string>
     <string name="columbus_target_request_dialog_title">Queres permitir o uso de Toque rápido para abrir a aplicación %1$s?</string>
-    <string name="copied_text_label">Copiouse o texto</string>
-    <string name="copy_url_description">Copiouse o texto</string>
-    <string name="defender_notify_des">O teléfono está limitando a carga para axudar a manter a batería en bo estado</string>
+    <string name="defender_notify_des">Estase protexendo a batería para aumentar a súa vida útil</string>
     <string name="defender_notify_resume_charge">Retomar carga</string>
-    <string name="defender_notify_title">Carga limitada temporalmente</string>
-    <string name="defender_post_notify_des">Para manter a batería en bo estado, a carga limitouse ao %1$s neste horario: %2$s-%3$s</string>
-    <string name="defender_post_notify_title">Cargando con normalidade</string>
+    <string name="defender_notify_title">A carga está en pausa</string>
+    <string name="defender_post_notify_des">A carga púxose en pausa neste período para aumentar a vida útil da batería: %1$s-%2$s</string>
+    <string name="defender_post_notify_title">Retomouse a carga</string>
     <string name="dock_a11y_action_show_photo_text">Mostrar marco de fotos</string>
+    <string name="dock_defender_notify_des">Para protexer a batería, a carga ponse en pausa ao chegar ao %1$s cando a tableta está colocada na base</string>
     <string name="dock_photo_preview_text">Iniciando marco de fotos...</string>
     <string name="dock_promo_text">Pasa o dedo cara á esquerda para conseguir un marco de fotos</string>
     <string name="dream_settings_notification_text">Personaliza o protector de pantalla</string>
@@ -44,10 +43,8 @@ Os datos das caras usados por esta función eliminaranse de modo permanente e se
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Pasa o dedo para falar</string>
     <string name="home_controls_tile_title">Casa</string>
-    <string name="image_content_description">Imaxe seleccionable</string>
     <string name="keyguard_indication_trust_unlocked">Desbloqueado debido a Smart Lock</string>
     <string name="low_battery_label">Pouca batería</string>
-    <string name="no_content_in_select_mode">Non hai texto nin imaxes que seleccionar</string>
     <string name="quick_settings_rotation_posture_folded">pregado</string>
     <string name="quick_settings_rotation_posture_unfolded">despregado</string>
     <string name="reverse_charging_device_name_text">Outro Pixel</string>
@@ -55,7 +52,6 @@ Os datos das caras usados por esta función eliminaranse de modo permanente e se
     <string name="reverse_charging_on_notification_title">A función de compartir batería está activada</string>
     <string name="reverse_charging_title">Compartir batería</string>
     <string name="saver_confirmation_dialog_text">A función Aforro de batería extremo porá en pausa a maioría de aplicacións e notificacións.</string>
-    <string name="selectable_url_description">URL seleccionable</string>
     <string name="severe_low_battery_dialog_checkbox_title">Non preguntar de novo</string>
     <string name="severe_low_battery_dialog_text">Quédache un %s de batería. A función Aforro de batería extremo porá en pausa a maioría de aplicacións e notificacións.</string>
     <string name="severe_low_battery_dialog_title">Queres activar a función Aforro de batería extremo?</string>
@@ -67,8 +63,6 @@ Os datos das caras usados por esta función eliminaranse de modo permanente e se
     <string name="smartspace_shopping_list_overflow">e %1$d máis</string>
     <string name="squeeze_invocation_prompt">Aperta para falar</string>
     <string name="too_hot_label">O Pixel queceu demasiado</string>
-    <string name="url_menu_copy">Copiar</string>
-    <string name="url_menu_share">Compartir</string>
     <string name="voice_reply_cta_text">“Hey Google, responde”</string>
     <string name="voice_reply_quick_phrase_cta_text">Di \"responder\"</string>
     <string name="wireless_charging_label">Cargando sen fíos</string>

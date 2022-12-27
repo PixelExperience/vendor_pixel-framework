@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">許可しない</string>
     <string name="columbus_target_request_dialog_summary">スマートフォンの背面を 2 回タップすると、%1$s が開きます。これは [設定] でいつでも変更できます。</string>
     <string name="columbus_target_request_dialog_title">クイックタップで %1$s を開くことを許可しますか？</string>
-    <string name="copied_text_label">コピーされたテキスト</string>
-    <string name="copy_url_description">テキストをコピーしました</string>
-    <string name="defender_notify_des">バッテリーの状態を正常に保つために、スマートフォンの充電を制限しています</string>
+    <string name="defender_notify_des">バッテリーの消耗を抑えて長持ちさせます</string>
     <string name="defender_notify_resume_charge">充電を再開</string>
-    <string name="defender_notify_title">充電を一時的に制限しています</string>
-    <string name="defender_post_notify_des">バッテリーの状態を正常に保つため、%2$sから%3$sまでは充電が %1$s に制限されました</string>
-    <string name="defender_post_notify_title">通常の充電</string>
+    <string name="defender_notify_title">充電は一時停止中です</string>
+    <string name="defender_post_notify_des">バッテリーを長持ちさせるために、%1$s から %2$s まで充電を一時停止しました</string>
+    <string name="defender_post_notify_title">充電を再開しました</string>
     <string name="dock_a11y_action_show_photo_text">フォトフレームを表示する</string>
+    <string name="dock_defender_notify_des">バッテリーを保護するため、タブレットをホルダーに置いている間は充電が %1$s で一時停止します</string>
     <string name="dock_photo_preview_text">フォトフレームを開始しています...</string>
     <string name="dock_promo_text">左にスワイプしてフォトフレームを表示</string>
     <string name="dream_settings_notification_text">スクリーン セーバーのカスタマイズ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s、%2$s</string>
     <string name="handle_invocation_prompt">スワイプして話しかけてください</string>
     <string name="home_controls_tile_title">ホーム</string>
-    <string name="image_content_description">選択可能な画像</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock がロック解除を管理</string>
     <string name="low_battery_label">バッテリー残量: 少ない</string>
-    <string name="no_content_in_select_mode">テキストや画像が選択されていません</string>
     <string name="quick_settings_rotation_posture_folded">折りたたんだ状態</string>
     <string name="quick_settings_rotation_posture_unfolded">広げた状態</string>
     <string name="reverse_charging_device_name_text">もう一方の Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">バッテリー シェアはオンです</string>
     <string name="reverse_charging_title">バッテリー シェア</string>
     <string name="saver_confirmation_dialog_text">スーパー バッテリー セーバーを ON にすると、ほとんどのアプリと通知が一時停止します。</string>
-    <string name="selectable_url_description">選択可能な URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">次回から表示しない</string>
     <string name="severe_low_battery_dialog_text">バッテリー残量は %s です。スーパー バッテリー セーバーを ON にすると、ほとんどのアプリと通知が一時停止します。</string>
     <string name="severe_low_battery_dialog_title">スーパー バッテリー セーバーを ON にしますか？</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">他 %1$d 件</string>
     <string name="squeeze_invocation_prompt">スクイーズして話しかけてください</string>
     <string name="too_hot_label">Pixel が過熱しています</string>
-    <string name="url_menu_copy">コピー</string>
-    <string name="url_menu_share">共有</string>
     <string name="voice_reply_cta_text">「OK Google, 応答して」</string>
     <string name="voice_reply_quick_phrase_cta_text">「返信」と言います</string>
     <string name="wireless_charging_label">ワイヤレスで充電しています</string>

@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Neatļaut</string>
     <string name="columbus_target_request_dialog_summary">Divreiz pieskarieties tālruņa aizmugurei, lai atvērtu lietotni %1$s. Iestatījumos varat jebkurā laikā mainīt šo iespēju.</string>
     <string name="columbus_target_request_dialog_title">Vai atļaut atvērt lietotni %1$s, izmantojot ātro pieskārienu?</string>
-    <string name="copied_text_label">Nokopētais teksts</string>
-    <string name="copy_url_description">Teksts ir nokopēts</string>
-    <string name="defender_notify_des">Jūsu tālrunis ierobežo uzlādes līmeni, lai palīdzētu uzturēt akumulatoru darba kārtībā.</string>
+    <string name="defender_notify_des">Tiek aizsargāts akumulators, lai paildzinātu tā darbmūžu.</string>
     <string name="defender_notify_resume_charge">Atsākt uzlādi</string>
-    <string name="defender_notify_title">Uzlāde īslaicīgi ierobežota</string>
-    <string name="defender_post_notify_des">Lai uzturētu akumulatoru darba kārtībā, uzlādes līmenis no plkst. %2$s līdz plkst. %3$s tika ierobežots līdz %1$s.</string>
-    <string name="defender_post_notify_title">Netraucēta uzlāde</string>
+    <string name="defender_notify_title">Uzlāde ir pārtraukta</string>
+    <string name="defender_post_notify_des">Uzlāde tika pārtraukta (%1$s–%2$s), lai paildzinātu akumulatora darbmūžu.</string>
+    <string name="defender_post_notify_title">Uzlāde ir atsākta</string>
     <string name="dock_a11y_action_show_photo_text">Rādīt fotoattēlu rāmi</string>
+    <string name="dock_defender_notify_des">Lai taupītu akumulatora enerģiju, kad planšetdators ir dokots, uzlāde tiek pārtraukta, sasniedzot %1$s uzlādes līmeni.</string>
     <string name="dock_photo_preview_text">Notiek fotoattēlu rāmja palaišana...</string>
     <string name="dock_promo_text">Velciet pa kreisi, lai izmantotu fotoattēlu rāmi.</string>
     <string name="dream_settings_notification_text">Pielāgojiet savu ekrānsaudzētāju.</string>
@@ -44,10 +43,8 @@ Sejas dati, ar kuriem tiek veikta autorizācija pēc sejas, tiks neatgriezeniski
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Velciet, lai runātu</string>
     <string name="home_controls_tile_title">Sākums</string>
-    <string name="image_content_description">Atlasāms attēls</string>
     <string name="keyguard_indication_trust_unlocked">Bloķēšanu liedza sistēma Smart Lock</string>
     <string name="low_battery_label">Zems akumulatora uzlādes līmenis</string>
-    <string name="no_content_in_select_mode">Nav teksta vai attēla, ko atlasīt</string>
     <string name="quick_settings_rotation_posture_folded">salocīta</string>
     <string name="quick_settings_rotation_posture_unfolded">nesalocīta</string>
     <string name="reverse_charging_device_name_text">Cita Pixel ierīce</string>
@@ -55,7 +52,6 @@ Sejas dati, ar kuriem tiek veikta autorizācija pēc sejas, tiks neatgriezeniski
     <string name="reverse_charging_on_notification_title">Akumulatora dalīšana ieslēgta</string>
     <string name="reverse_charging_title">Akumulatora dalīšana</string>
     <string name="saver_confirmation_dialog_text">Akumulatora enerģijas maksimālas taupīšanas režīmā tiks apturēta lielākā daļa lietotņu un paziņojumu.</string>
-    <string name="selectable_url_description">Atlasāmais URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Vairs nejautāt</string>
     <string name="severe_low_battery_dialog_text">Atlikušais akumulatora uzlādes līmenis: %s. Akumulatora enerģijas maksimālas taupīšanas režīmā tiks apturēta lielākā daļa lietotņu un paziņojumu.</string>
     <string name="severe_low_battery_dialog_title">Vai ieslēgt akumulatora enerģijas maksimālas taupīšanas režīmu?</string>
@@ -67,8 +63,6 @@ Sejas dati, ar kuriem tiek veikta autorizācija pēc sejas, tiks neatgriezeniski
     <string name="smartspace_shopping_list_overflow">un vēl %1$d</string>
     <string name="squeeze_invocation_prompt">Lai runātu, saspiediet ierīci</string>
     <string name="too_hot_label">Pixel tālrunis ir pārāk karsts</string>
-    <string name="url_menu_copy">Kopēt</string>
-    <string name="url_menu_share">Kopīgot</string>
     <string name="voice_reply_cta_text">“Hey Google, reply” (Ok Google, atbildēt)</string>
     <string name="voice_reply_quick_phrase_cta_text">Sakiet: “Reply” (Atbildēt)</string>
     <string name="wireless_charging_label">Bezvadu uzlāde</string>

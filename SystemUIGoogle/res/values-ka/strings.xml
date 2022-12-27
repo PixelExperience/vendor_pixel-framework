@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">არ დაიშვას</string>
     <string name="columbus_target_request_dialog_summary">ორჯერ შეეხეთ თქვენი ტელეფონის უკანა მხარეს, რომ გახსნათ %1$s. ამის შეცვლა ნებისმიერ დროს შეგიძლიათ პარამეტრებში</string>
     <string name="columbus_target_request_dialog_title">დართავთ ნებას სწრაფ შეხებას, გახსნას %1$s?</string>
-    <string name="copied_text_label">ტექსტი დაკოპირებულია</string>
-    <string name="copy_url_description">კოპირებული ტექსტი</string>
-    <string name="defender_notify_des">თქვენი ტელეფონი ზღუდავს დატენვას ბატარეის გამართული მუშაობის შესანარჩუნებლად</string>
+    <string name="defender_notify_des">ბატარეის დაცვა ბატარეის სიცოცხლის გახანგრძლივების მიზნით</string>
     <string name="defender_notify_resume_charge">დატენვის გაგრძელება</string>
-    <string name="defender_notify_title">დატენვა დროებით შეზღუდულია</string>
-    <string name="defender_post_notify_des">ბატარეის გამართულად მუშაობის შესანარჩუნებლად %2$s-დან %3$s-მდე დატენვა შეიზღუდა %1$s-მდე</string>
-    <string name="defender_post_notify_title">იტენება ჩვეულებრივ</string>
+    <string name="defender_notify_title">დატენვა შეჩერებულია</string>
+    <string name="defender_post_notify_des">დატენვა შეჩერებული იყო %1$s-დან%2$s-მდე ბატარეის სიცოცხლის გახანგრძლივებისთვის</string>
+    <string name="defender_post_notify_title">დატენვა განახლდა</string>
     <string name="dock_a11y_action_show_photo_text">ფოტოჩარჩოს ჩვენება</string>
+    <string name="dock_defender_notify_des">თქვენი ბატარეის დასაცავად დატენვა დაპაუზებულია %1$s-ზე, სანამ თქვენი ტაბლეტი ჩამაგრებულია</string>
     <string name="dock_photo_preview_text">ფოტოჩარჩო იწყება...</string>
     <string name="dock_promo_text">ფოტოჩარჩოსთვის გადაფურცლეთ მარცხნივ</string>
     <string name="dream_settings_notification_text">ფონის მორგება</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">გადაფურცლეთ სასაუბროდ</string>
     <string name="home_controls_tile_title">მთავარი გვერდი</string>
-    <string name="image_content_description">არჩევადი სურათი</string>
     <string name="keyguard_indication_trust_unlocked">განბლოკილია Smart Lock-ის მიერ</string>
     <string name="low_battery_label">ბატარეის მუხტი დაბალია</string>
-    <string name="no_content_in_select_mode">ასარჩევი ტექსტი ან სურათი არ არის</string>
     <string name="quick_settings_rotation_posture_folded">დაკეცილი</string>
     <string name="quick_settings_rotation_posture_unfolded">გახსნილი</string>
     <string name="reverse_charging_device_name_text">სხვა Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ბატარეის გაზიარება ჩართულია</string>
     <string name="reverse_charging_title">ბატარეის გაზიარება</string>
     <string name="saver_confirmation_dialog_text">ექსტრემალური ბატარეის დამზოგი შეაჩერებს აპებისა და შეტყობინებების უმეტესობას.</string>
-    <string name="selectable_url_description">არჩევადი URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">აღარ მკითხო</string>
     <string name="severe_low_battery_dialog_text">თქვენი ბატარეა დატენილია %s-ზე. ექსტრემალური ბატარეის დამზოგი შეაჩერებს აპებისა და შეტყობინებების უმეტესობას.</string>
     <string name="severe_low_battery_dialog_title">ჩაირთოს ბატარეის უკიდურესი დამზოგი?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d სხვა</string>
     <string name="squeeze_invocation_prompt">მოუჭირეთ სალაპარაკოდ</string>
     <string name="too_hot_label">Pixel ზედმეტად ცხელია</string>
-    <string name="url_menu_copy">კოპირება</string>
-    <string name="url_menu_share">გაზიარება</string>
     <string name="voice_reply_cta_text">„Hey Google, reply“</string>
     <string name="voice_reply_quick_phrase_cta_text">თქვით „პასუხის გაცემა“</string>
     <string name="wireless_charging_label">დატენვა უსადენოდ</string>

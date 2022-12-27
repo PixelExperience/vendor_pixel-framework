@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Бүү зөвшөөр</string>
     <string name="columbus_target_request_dialog_summary">%1$s-г нээхийн тулд утасныхаа ард талд хоёр товшино уу. Та үүнийг Тохиргоо хэсэгт хүссэн үедээ өөрчлөх боломжтой.</string>
     <string name="columbus_target_request_dialog_title">Шуурхай товшилтод %1$s-г нээхийг зөвшөөрөх үү?</string>
-    <string name="copied_text_label">Текстийг хуулсан</string>
-    <string name="copy_url_description">Текстийг хуулсан</string>
-    <string name="defender_notify_des">Таны утас батарейн барилтыг хадгалахад туслахын тулд цэнэглэхийг хязгаарлаж байна</string>
+    <string name="defender_notify_des">Батарейн эдэлгээг уртасгахын тулд батарейг хамгаалж байна</string>
     <string name="defender_notify_resume_charge">Цэнэглэхийг үргэлжлүүлэх</string>
-    <string name="defender_notify_title">Цэнэглэхийг түр хязгаарласан</string>
-    <string name="defender_post_notify_des">Батарейн барилтыг хадгалахын тулд цэнэглэхийг %2$s-с %3$s хүртэл %1$s хязгаарласан</string>
-    <string name="defender_post_notify_title">Ердийн цэнэглэж байна</string>
+    <string name="defender_notify_title">Цэнэглэхийг түр зогсоосон</string>
+    <string name="defender_post_notify_des">Батарейн эдэлгээг уртасгахын тулд %1$s‐%2$s-н хооронд цэнэглэхийг түр зогсоосон</string>
+    <string name="defender_post_notify_title">Цэнэглэхийг үргэлжлүүлсэн</string>
     <string name="dock_a11y_action_show_photo_text">Зургийн жаазыг харуулах</string>
+    <string name="dock_defender_notify_des">Таны таблетын батарейг хамгаалахын тулд үүнийг холбосон үед цэнэг нь %1$s-тай болсон үед цэнэглэхийг түр зогсооно</string>
     <string name="dock_photo_preview_text">Зургийн жаазыг эхлүүлж байна...</string>
     <string name="dock_promo_text">Зургийн жаазыг харах бол зүүн тийш шударна уу</string>
     <string name="dream_settings_notification_text">Дэлгэц амраагчаа өөрчилнө үү</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Ярихын тулд шударна уу</string>
     <string name="home_controls_tile_title">Гэр</string>
-    <string name="image_content_description">Сонгох боломжтой зураг</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock-р түгжээгүй байлгасан</string>
     <string name="low_battery_label">Батарейн цэнэг бага байна</string>
-    <string name="no_content_in_select_mode">Сонгох текст эсвэл зураг байхгүй</string>
     <string name="quick_settings_rotation_posture_folded">эвхсэн</string>
     <string name="quick_settings_rotation_posture_unfolded">дэлгэсэн</string>
     <string name="reverse_charging_device_name_text">Бусад Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Батарей хуваалцах онцлог асаалттай байна</string>
     <string name="reverse_charging_title">Батарей хуваалцах</string>
     <string name="saver_confirmation_dialog_text">Дээд зэргээр батарей хэмнэгч нь ихэнх апп болон мэдэгдлийг түр зогсоох болно.</string>
-    <string name="selectable_url_description">Сонгох боломжтой URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Дахиж бүү асуу</string>
     <string name="severe_low_battery_dialog_text">Танд %s батарей үлдсэн байна. Дээд зэргээр батарей хэмнэгч нь ихэнх апп болон мэдэгдлийг түр зогсоох болно.</string>
     <string name="severe_low_battery_dialog_title">Дээд зэргээр батарей хэмнэгчийг асаах уу?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ бусад %1$d</string>
     <string name="squeeze_invocation_prompt">Ярихын тулд атгана уу</string>
     <string name="too_hot_label">Pixel хэт халуун байна</string>
-    <string name="url_menu_copy">Хуулах</string>
-    <string name="url_menu_share">Хуваалцах</string>
     <string name="voice_reply_cta_text">“Ok Google, хариулна уу”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Хариу бичих” гэж хэлээрэй</string>
     <string name="wireless_charging_label">Утасгүй цэнэглэж байна</string>

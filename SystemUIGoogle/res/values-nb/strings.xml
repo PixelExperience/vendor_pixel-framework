@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Ikke tillat</string>
     <string name="columbus_target_request_dialog_summary">Trykk to ganger på baksiden av telefonen for å åpne %1$s. Du kan endre dette når som helst i innstillingene.</string>
     <string name="columbus_target_request_dialog_title">Vil du tillate at hurtigtrykk åpner %1$s?</string>
-    <string name="copied_text_label">Kopiert tekst</string>
-    <string name="copy_url_description">Teksten er kopiert</string>
-    <string name="defender_notify_des">Telefonen begrenser lading for å bevare batteriet</string>
+    <string name="defender_notify_des">Batteriet beskyttes for å forlenge batterilevetiden</string>
     <string name="defender_notify_resume_charge">Gjenoppta ladingen</string>
-    <string name="defender_notify_title">Lading er midlertidig begrenset</string>
-    <string name="defender_post_notify_des">Ladingen ble begrenset til %1$s fra %2$s til %3$s for å bevare batteriet</string>
-    <string name="defender_post_notify_title">Lader normalt</string>
+    <string name="defender_notify_title">Ladingen er satt på pause</string>
+    <string name="defender_post_notify_des">Ladingen ble satt på pause %1$s–%2$s for å forlenge batterilevetiden</string>
+    <string name="defender_post_notify_title">Ladingen er gjenopptatt</string>
     <string name="dock_a11y_action_show_photo_text">Vis bilderamme</string>
+    <string name="dock_defender_notify_des">For å beskytte batteriet settes lading på pause ved %1$s når nettbrettet er i dokken</string>
     <string name="dock_photo_preview_text">Bilderamme starter …</string>
     <string name="dock_promo_text">Sveip til venstre for å vise bilderammen</string>
     <string name="dream_settings_notification_text">Tilpass skjermspareren</string>
@@ -44,10 +43,8 @@ Ansiktsdataene som brukes av Ansiktslås, blir permanent slettet på en sikker m
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Sveip for å snakke</string>
     <string name="home_controls_tile_title">Hjem</string>
-    <string name="image_content_description">Bilde som kan velges</string>
     <string name="keyguard_indication_trust_unlocked">Holdes opplåst med Smart Lock</string>
     <string name="low_battery_label">Lavt batteri</string>
-    <string name="no_content_in_select_mode">Ingen tekst eller bilder som skal velges</string>
     <string name="quick_settings_rotation_posture_folded">lagt sammen</string>
     <string name="quick_settings_rotation_posture_unfolded">brettet ut</string>
     <string name="reverse_charging_device_name_text">Annen Pixel-enhet</string>
@@ -55,7 +52,6 @@ Ansiktsdataene som brukes av Ansiktslås, blir permanent slettet på en sikker m
     <string name="reverse_charging_on_notification_title">Batterideling er på</string>
     <string name="reverse_charging_title">Batterideling</string>
     <string name="saver_confirmation_dialog_text">Ekstrem batterisparing setter de fleste apper og varsler på pause.</string>
-    <string name="selectable_url_description">Nettadresse som kan velges</string>
     <string name="severe_low_battery_dialog_checkbox_title">Ikke spør igjen</string>
     <string name="severe_low_battery_dialog_text">Du har %s batteri igjen. Ekstrem batterisparing setter de fleste apper og varsler på pause.</string>
     <string name="severe_low_battery_dialog_title">Vil du slå på ekstrem batterisparing?</string>
@@ -67,8 +63,6 @@ Ansiktsdataene som brukes av Ansiktslås, blir permanent slettet på en sikker m
     <string name="smartspace_shopping_list_overflow">+ %1$d til</string>
     <string name="squeeze_invocation_prompt">Klem sammen for å snakke</string>
     <string name="too_hot_label">Pixel er for varm</string>
-    <string name="url_menu_copy">Kopiér</string>
-    <string name="url_menu_share">Del</string>
     <string name="voice_reply_cta_text">«Hey Google, svar»</string>
     <string name="voice_reply_quick_phrase_cta_text">Si «Svar»</string>
     <string name="wireless_charging_label">Lader trådløst</string>

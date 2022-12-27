@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Weier</string>
     <string name="columbus_target_request_dialog_summary">Tik twee keer op jou foon se agterkant om %1$s oop te maak. Jy kan dit enige tyd in Instellings verander.</string>
     <string name="columbus_target_request_dialog_title">Laat toe dat Dubbeltik %1$s oopmaak?</string>
-    <string name="copied_text_label">Gekopieerde teks</string>
-    <string name="copy_url_description">Teks gekopieer</string>
-    <string name="defender_notify_des">Jou foon beperk tans die laaiproses om die battery gesond te hou</string>
+    <string name="defender_notify_des">Beskerm tans battery om batterylewensduur te verleng</string>
     <string name="defender_notify_resume_charge">Hervat laaiproses</string>
-    <string name="defender_notify_title">Laaiproses word tydelik beperk</string>
-    <string name="defender_post_notify_des">Laaiproses is beperk tot %1$s van %2$s tot %3$s om die battery gesond te hou</string>
-    <string name="defender_post_notify_title">Laai tans normaal</string>
+    <string name="defender_notify_title">Laaiproses is onderbreek</string>
+    <string name="defender_post_notify_des">Laaiproses is van %1$s‐%2$s onderbreek om batterylewensduur te verleng</string>
+    <string name="defender_post_notify_title">Laaiproses is hervat</string>
     <string name="dock_a11y_action_show_photo_text">Wys fotoraam</string>
+    <string name="dock_defender_notify_des">Om jou battery te beskerm, word die laai daarvan op %1$s onderbreek terwyl jou tablet gedok is</string>
     <string name="dock_photo_preview_text">Fotoraam begin …</string>
     <string name="dock_promo_text">Swiep links of regs vir fotoraam</string>
     <string name="dream_settings_notification_text">Pasmaak jou sluimerskerm</string>
@@ -44,10 +43,8 @@ Die gesigdata wat Gesigslot gebruik, sal permanent en veilig uitgevee word. Nada
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Swiep om te praat</string>
     <string name="home_controls_tile_title">Tuis</string>
-    <string name="image_content_description">Kiesbare prent</string>
     <string name="keyguard_indication_trust_unlocked">Ontsluit gehou deur Smart Lock</string>
     <string name="low_battery_label">Lae battery</string>
-    <string name="no_content_in_select_mode">Geen teks of prent om te kies nie</string>
     <string name="quick_settings_rotation_posture_folded">gevou</string>
     <string name="quick_settings_rotation_posture_unfolded">oopgevou</string>
     <string name="reverse_charging_device_name_text">Ander Pixel</string>
@@ -55,7 +52,6 @@ Die gesigdata wat Gesigslot gebruik, sal permanent en veilig uitgevee word. Nada
     <string name="reverse_charging_on_notification_title">Batterydeling is aan</string>
     <string name="reverse_charging_title">Batterydeling</string>
     <string name="saver_confirmation_dialog_text">Superbatterybespaarder sal die meeste programme en kennisgewings onderbreek.</string>
-    <string name="selectable_url_description">Kiesbare URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Moenie weer vra nie</string>
     <string name="severe_low_battery_dialog_text">Jy het %s batterykrag oor. Superbatterybespaarder sal die meeste programme en kennisgewings onderbreek.</string>
     <string name="severe_low_battery_dialog_title">Skakel Superbatterybespaarder aan?</string>
@@ -67,8 +63,6 @@ Die gesigdata wat Gesigslot gebruik, sal permanent en veilig uitgevee word. Nada
     <string name="smartspace_shopping_list_overflow">+ nog %1$d</string>
     <string name="squeeze_invocation_prompt">Druk om te praat</string>
     <string name="too_hot_label">Pixel is te warm</string>
-    <string name="url_menu_copy">Kopieer</string>
-    <string name="url_menu_share">Deel</string>
     <string name="voice_reply_cta_text">“Ok Google, reply” (Ok Google, antwoord)</string>
     <string name="voice_reply_quick_phrase_cta_text">Sê “Reply”</string>
     <string name="wireless_charging_label">Laai tans draadloos</string>

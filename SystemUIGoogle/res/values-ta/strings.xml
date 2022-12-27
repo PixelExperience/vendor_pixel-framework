@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">அனுமதிக்காதே</string>
     <string name="columbus_target_request_dialog_summary">%1$s ஆப்ஸைத் திறக்க மொபைலின் பின்புறத்தில் இருமுறை தட்டுங்கள். அமைப்புகளில் இதை எப்போது வேண்டுமானாலும் மாற்றிக்கொள்ளலாம்.</string>
     <string name="columbus_target_request_dialog_title">%1$s ஆப்ஸைத் திறக்க, விரைவுத் தட்டல் சைகையை அனுமதிக்கவா?</string>
-    <string name="copied_text_label">நகலெடுக்கப்பட்ட உரை</string>
-    <string name="copy_url_description">உரை நகலெடுக்கப்பட்டது</string>
-    <string name="defender_notify_des">பேட்டரி ஆயுளைப் பாதுகாக்க உதவுவதற்காகச் சார்ஜாவதை உங்கள் மொபைல் கட்டுப்படுத்துகிறது</string>
+    <string name="defender_notify_des">பேட்டரி ஆயுளை நீட்டிக்க, பேட்டரி பாதுகாக்கப்படுகிறது</string>
     <string name="defender_notify_resume_charge">சார்ஜ் செய்வதை மீண்டும் தொடங்கு</string>
-    <string name="defender_notify_title">சார்ஜிங் தற்காலிகமாக வரம்பிடப்பட்டுள்ளது</string>
-    <string name="defender_post_notify_des">பேட்டரி ஆயுளைப் பாதுகாக்க, %2$s முதல் %3$s வரை %1$s அளவுக்கு மட்டுமே சார்ஜாகும்</string>
-    <string name="defender_post_notify_title">எப்போதும் போல் சார்ஜ் ஆகிறது</string>
+    <string name="defender_notify_title">சார்ஜிங் இடைநிறுத்தப்பட்டது</string>
+    <string name="defender_post_notify_des">பேட்டரி ஆயுளை நீட்டிக்க %1$s முதல் %2$s வரை சார்ஜிங் இடைநிறுத்தப்பட்டது</string>
+    <string name="defender_post_notify_title">மீண்டும் சார்ஜாகிறது</string>
     <string name="dock_a11y_action_show_photo_text">ஃபோட்டோ ஃபிரேமைக் காட்டு</string>
+    <string name="dock_defender_notify_des">டேப்லெட் டாக் செய்யப்பட்டிருக்கும்போது பேட்டரியைப் பாதுகாக்க, சார்ஜிங் %1$s இல் இடைநிறுத்தப்பட்டது</string>
     <string name="dock_photo_preview_text">ஃபோட்டோ ஃபிரேம் தொடங்குகிறது...</string>
     <string name="dock_promo_text">ஃபோட்டோ ஃபிரேமுக்கு இடதுபுறம் ஸ்வைப் செய்யவும்</string>
     <string name="dream_settings_notification_text">ஸ்கிரீன் சேவரைப் பிரத்தியேகப்படுத்துங்கள்</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">பேச ஸ்வைப் செய்யவும்</string>
     <string name="home_controls_tile_title">முகப்பு</string>
-    <string name="image_content_description">தேர்ந்தெடுக்கக்கூடிய படம்</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock இதைத் திறந்தே வைத்துள்ளது</string>
     <string name="low_battery_label">பேட்டரி குறைவாக உள்ளது</string>
-    <string name="no_content_in_select_mode">தேர்ந்தெடுக்க உரையோ படமோ எதுவுமில்லை</string>
     <string name="quick_settings_rotation_posture_folded">மடக்கப்பட்டது</string>
     <string name="quick_settings_rotation_posture_unfolded">விரிக்கப்பட்டது</string>
     <string name="reverse_charging_device_name_text">பிற Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">பேட்டரி பகிர்வு இயக்கத்தில் உள்ளது</string>
     <string name="reverse_charging_title">பேட்டரி பகிர்வு</string>
     <string name="saver_confirmation_dialog_text">பெரும்பாலான ஆப்ஸையும் அறிவிப்புகளையும் மேம்பட்ட பேட்டரி சேமிப்பான் இடைநிறுத்திவிடும்.</string>
-    <string name="selectable_url_description">தேர்ந்தெடுக்கக்கூடிய URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">மீண்டும் கேட்காதே</string>
     <string name="severe_low_battery_dialog_text">%s பேட்டரி மீதமுள்ளது. பெரும்பாலான ஆப்ஸையும் அறிவிப்புகளையும் மேம்பட்ட பேட்டரி சேமிப்பான் இடைநிறுத்திவிடும்.</string>
     <string name="severe_low_battery_dialog_title">மேம்பட்ட பேட்டரி சேமிப்பானை இயக்கவா?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">மேலும் %1$d</string>
     <string name="squeeze_invocation_prompt">பேசுவதற்கு அழுத்தவும்</string>
     <string name="too_hot_label">Pixel அதிகச் சூடாக உள்ளது</string>
-    <string name="url_menu_copy">நகலெடு</string>
-    <string name="url_menu_share">பகிர்</string>
     <string name="voice_reply_cta_text">“Ok Google, பதிலளி”</string>
     <string name="voice_reply_quick_phrase_cta_text">“பதிலளி” எனச் சொல்லுங்கள்</string>
     <string name="wireless_charging_label">வயர்லெஸ் முறையில் சார்ஜ் ஆகிறது</string>

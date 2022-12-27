@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.shared.shadow.DoubleShadowTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/dream_status_bar_item_cast_name"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:drawablePadding="@dimen/dream_cast_icon_padding"
+    android:drawableStart="@drawable/drawable_dream_cast_icon"
+    android:textColor="@color/dream_cast_name_color"
+    android:textSize="@dimen/dream_cast_name_text_size"
+    app:ambientShadowAlpha="0.35"
+    app:ambientShadowBlur="@dimen/dream_overlay_status_bar_ambient_text_shadow_radius"
+    app:ambientShadowOffsetX="@dimen/dream_overlay_status_bar_ambient_text_shadow_dx"
+    app:ambientShadowOffsetY="@dimen/dream_overlay_status_bar_ambient_text_shadow_dy"
+    app:drawableIconInsetSize="@dimen/dream_cast_icon_inset_dimen"
+    app:drawableIconSize="@dimen/dream_cast_icon_dimen"
+    app:keyShadowAlpha="0.4"
+    app:keyShadowBlur="@dimen/dream_overlay_status_bar_key_text_shadow_radius"
+    app:keyShadowOffsetX="@dimen/dream_overlay_status_bar_key_text_shadow_dx"
+    app:keyShadowOffsetY="@dimen/dream_overlay_status_bar_key_text_shadow_dy" />

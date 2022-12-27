@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Niet toestaan</string>
     <string name="columbus_target_request_dialog_summary">Tik 2 keer op de achterkant van je telefoon om %1$s te openen. Je kunt dit op elk moment wijzigen in Instellingen.</string>
     <string name="columbus_target_request_dialog_title">%1$s openen via Snel tikken?</string>
-    <string name="copied_text_label">Tekst gekopieerd</string>
-    <string name="copy_url_description">Tekst gekopieerd</string>
-    <string name="defender_notify_des">Je telefoon beperkt het opladen omdat dit beter is voor de batterij.</string>
+    <string name="defender_notify_des">De batterij wordt beschermd om de levensduur ervan te verlengen</string>
     <string name="defender_notify_resume_charge">Opladen hervatten</string>
-    <string name="defender_notify_title">Opladen tijdelijk beperkt</string>
-    <string name="defender_post_notify_des">Opladen is beperkt tot %1$s van %2$s tot %3$s omdat dit beter is voor de batterij</string>
-    <string name="defender_post_notify_title">Normaal opladen</string>
+    <string name="defender_notify_title">Opladen is onderbroken</string>
+    <string name="defender_post_notify_des">Opladen is onderbroken van %1$s tot %2$s om de levensduur van de batterij te verlengen</string>
+    <string name="defender_post_notify_title">Opladen hervat</string>
     <string name="dock_a11y_action_show_photo_text">Fotolijstje tonen</string>
+    <string name="dock_defender_notify_des">Ter bescherming van de batterij wordt het opladen bij %1$s onderbroken als je tablet is gedockt</string>
     <string name="dock_photo_preview_text">Fotolijstje starten…</string>
     <string name="dock_promo_text">Swipe naar links voor het fotolijstje</string>
     <string name="dream_settings_notification_text">Je screensaver aanpassen</string>
@@ -44,10 +43,8 @@ De gezichtsinformatie die wordt gebruikt voor ontgrendelen via gezichtsherkennin
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Swipe om te praten</string>
     <string name="home_controls_tile_title">Home</string>
-    <string name="image_content_description">Afbeelding die kan worden geselecteerd</string>
     <string name="keyguard_indication_trust_unlocked">Ontgrendeld gehouden door Smart Lock</string>
     <string name="low_battery_label">De batterij is bijna leeg</string>
-    <string name="no_content_in_select_mode">Geen tekst of afbeelding om te selecteren</string>
     <string name="quick_settings_rotation_posture_folded">gevouwen</string>
     <string name="quick_settings_rotation_posture_unfolded">niet gevouwen</string>
     <string name="reverse_charging_device_name_text">Andere Pixel</string>
@@ -55,7 +52,6 @@ De gezichtsinformatie die wordt gebruikt voor ontgrendelen via gezichtsherkennin
     <string name="reverse_charging_on_notification_title">Batterij delen staat aan</string>
     <string name="reverse_charging_title">Batterij delen</string>
     <string name="saver_confirmation_dialog_text">Extreme batterijbesparing onderbreekt de meeste apps en meldingen.</string>
-    <string name="selectable_url_description">Selecteerbare URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Niet meer vragen</string>
     <string name="severe_low_battery_dialog_text">Je hebt nog %s batterijcapaciteit. Extreme batterijbesparing onderbreekt de meeste apps en meldingen.</string>
     <string name="severe_low_battery_dialog_title">Extreme batterijbesparing aanzetten?</string>
@@ -67,8 +63,6 @@ De gezichtsinformatie die wordt gebruikt voor ontgrendelen via gezichtsherkennin
     <string name="smartspace_shopping_list_overflow">+ nog %1$d</string>
     <string name="squeeze_invocation_prompt">Knijpen om te praten</string>
     <string name="too_hot_label">Pixel te heet</string>
-    <string name="url_menu_copy">Kopiëren</string>
-    <string name="url_menu_share">Delen</string>
     <string name="voice_reply_cta_text">"'Hey Google, geef antwoord'"</string>
     <string name="voice_reply_quick_phrase_cta_text">"Zeg 'Beantwoorden'"</string>
     <string name="wireless_charging_label">Draadloos opladen</string>

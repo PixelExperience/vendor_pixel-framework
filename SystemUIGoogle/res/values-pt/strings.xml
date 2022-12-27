@@ -18,12 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Não permitir</string>
     <string name="columbus_target_request_dialog_summary">Toque duas vezes na parte de trás do smartphone para abrir o app %1$s. É possível mudar isso a qualquer momento nas Configurações.</string>
     <string name="columbus_target_request_dialog_title">Permitir que o Toque rápido abra o app %1$s?</string>
-    <string name="defender_notify_des">O smartphone está limitando o carregamento para preservar a integridade da bateria</string>
+    <string name="defender_notify_des">Protegendo a bateria para prolongar a vida útil dela</string>
     <string name="defender_notify_resume_charge">Retomar o carregamento</string>
-    <string name="defender_notify_title">Carregamento temporariamente limitado</string>
-    <string name="defender_post_notify_des">O carregamento foi limitado a %1$s no período de %2$s a %3$s para preservar a integridade da bateria.</string>
-    <string name="defender_post_notify_title">Carregando normalmente</string>
+    <string name="defender_notify_title">O carregamento está pausado</string>
+    <string name="defender_post_notify_des">O carregamento foi pausado das %1$s às %2$s para prolongar a vida útil da bateria</string>
+    <string name="defender_post_notify_title">Carregamento retomado</string>
     <string name="dock_a11y_action_show_photo_text">Mostrar Porta-retratos</string>
+    <string name="dock_defender_notify_des">Para proteger a bateria, o carregamento é pausado em %1$s enquanto o tablet está na base</string>
     <string name="dock_photo_preview_text">Iniciando \"Porta-retratos\"…</string>
     <string name="dock_promo_text">Deslize para a esquerda para ver o porta-retratos</string>
     <string name="dream_settings_notification_text">Personalizar o protetor de tela</string>

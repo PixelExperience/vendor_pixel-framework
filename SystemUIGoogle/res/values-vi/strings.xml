@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Không cho phép</string>
     <string name="columbus_target_request_dialog_summary">Nhấn hai lần vào mặt sau của điện thoại để mở %1$s. Bạn có thể thay đổi tùy chọn này bất kỳ lúc nào trong phần Cài đặt.</string>
     <string name="columbus_target_request_dialog_title">Cho phép cử chỉ Chạm nhanh mở %1$s?</string>
-    <string name="copied_text_label">Văn bản đã sao chép</string>
-    <string name="copy_url_description">Đã sao chép văn bản</string>
-    <string name="defender_notify_des">Điện thoại của bạn đang hạn chế sạc để duy trì độ bền của pin</string>
+    <string name="defender_notify_des">Bảo vệ pin để kéo dài tuổi thọ pin</string>
     <string name="defender_notify_resume_charge">Tiếp tục sạc</string>
-    <string name="defender_notify_title">Chức năng sạc tạm thời bị hạn chế</string>
-    <string name="defender_post_notify_des">Mức sạc bị hạn chế ở %1$s từ %2$s đến %3$s để duy trì độ bền của pin</string>
-    <string name="defender_post_notify_title">Sạc bình thường</string>
+    <string name="defender_notify_title">Tạm dừng sạc pin</string>
+    <string name="defender_post_notify_des">Tạm dừng sạc từ %1$s‐%2$s để kéo dài tuổi thọ pin</string>
+    <string name="defender_post_notify_title">Đã tiếp tục sạc</string>
     <string name="dock_a11y_action_show_photo_text">Hiển thị khung ảnh</string>
+    <string name="dock_defender_notify_des">Để bảo vệ pin, quá trình sạc sẽ được tạm dừng %1$s khi máy tính bảng của bạn được gắn vào đế</string>
     <string name="dock_photo_preview_text">Đang mở tính năng Khung ảnh...</string>
     <string name="dock_promo_text">Vuốt sang trái để mở khung ảnh</string>
     <string name="dream_settings_notification_text">Tuỳ chỉnh trình bảo vệ màn hình</string>
@@ -44,10 +43,8 @@ Dữ liệu khuôn mặt mà tính năng này sử dụng sẽ bị xóa vĩnh v
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Vuốt để trò chuyện</string>
     <string name="home_controls_tile_title">Màn hình chính</string>
-    <string name="image_content_description">Hình ảnh có thể chọn</string>
     <string name="keyguard_indication_trust_unlocked">Luôn mở khóa bằng Smart Lock</string>
     <string name="low_battery_label">Pin yếu</string>
-    <string name="no_content_in_select_mode">Không có văn bản hoặc hình ảnh nào sẽ được chọn</string>
     <string name="quick_settings_rotation_posture_folded">đã gập</string>
     <string name="quick_settings_rotation_posture_unfolded">chưa gập</string>
     <string name="reverse_charging_device_name_text">Thiết bị Pixel phía bên kia</string>
@@ -55,7 +52,6 @@ Dữ liệu khuôn mặt mà tính năng này sử dụng sẽ bị xóa vĩnh v
     <string name="reverse_charging_on_notification_title">Tính năng Chia sẻ pin đang bật</string>
     <string name="reverse_charging_title">Chia sẻ pin</string>
     <string name="saver_confirmation_dialog_text">Trình siêu tiết kiệm pin sẽ tạm dừng hầu hết các ứng dụng và thông báo.</string>
-    <string name="selectable_url_description">URL có thể chọn</string>
     <string name="severe_low_battery_dialog_checkbox_title">Đừng hỏi lại</string>
     <string name="severe_low_battery_dialog_text">Bạn còn %s pin. Trình siêu tiết kiệm pin sẽ tạm dừng hầu hết các ứng dụng và thông báo.</string>
     <string name="severe_low_battery_dialog_title">Bật Trình siêu tiết kiệm pin?</string>
@@ -67,8 +63,6 @@ Dữ liệu khuôn mặt mà tính năng này sử dụng sẽ bị xóa vĩnh v
     <string name="smartspace_shopping_list_overflow">+ %1$d thẻ khác</string>
     <string name="squeeze_invocation_prompt">Bóp vào hai cạnh để trò chuyện</string>
     <string name="too_hot_label">Điện thoại Pixel quá nóng</string>
-    <string name="url_menu_copy">Sao chép</string>
-    <string name="url_menu_share">Chia sẻ</string>
     <string name="voice_reply_cta_text">“Ok Google, trả lời”</string>
     <string name="voice_reply_quick_phrase_cta_text">Nói “Trả lời”</string>
     <string name="wireless_charging_label">Sạc không dây</string>

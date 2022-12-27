@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">មិនអនុញ្ញាត</string>
     <string name="columbus_target_request_dialog_summary">ប៉ះផ្នែក​ខាងក្រោយទូរសព្ទ​របស់អ្នក​ពីរដង ដើម្បីបើក %1$s។ អ្នកអាច​ប្ដូរវា​បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។</string>
     <string name="columbus_target_request_dialog_title">អនុញ្ញាតឱ្យ \"ការប៉ះរហ័ស\" បើក %1$s ឬ?</string>
-    <string name="copied_text_label">បានចម្លង​អត្ថបទ</string>
-    <string name="copy_url_description">បានចម្លង​អត្ថបទ</string>
-    <string name="defender_notify_des">ទូរសព្ទរបស់អ្នក​កំពុងដាក់កំហិតលើ​ការសាកថ្ម ដើម្បីជួយរក្សា​គុណភាពថ្ម</string>
+    <string name="defender_notify_des">កំពុងការពារថ្មដើម្បីពន្យារអាយុកាលថ្ម</string>
     <string name="defender_notify_resume_charge">បន្តសាកថ្ម</string>
-    <string name="defender_notify_title">បានដាក់កំហិតលើ​ការសាកថ្មជា​បណ្ដោះអាសន្ន</string>
-    <string name="defender_post_notify_des">ការសាកថ្ម​ត្រូវបាន​កំណត់ត្រឹម %1$s ពីម៉ោង %2$s ដល់ម៉ោង %3$s ដើម្បីរក្សា​គុណភាពថ្ម</string>
-    <string name="defender_post_notify_title">កំពុង​សាកថ្ម​ធម្មតា</string>
+    <string name="defender_notify_title">ការសាកថ្មត្រូវបានផ្អាក</string>
+    <string name="defender_post_notify_des">ការសាកថ្មត្រូវបានផ្អាកពីម៉ោង %1$s‐%2$s ដើម្បីពន្យារអាយុកាលថ្ម</string>
+    <string name="defender_post_notify_title">ការសាកថ្មបានបន្ត</string>
     <string name="dock_a11y_action_show_photo_text">បង្ហាញ​ស៊ុមរូបថត</string>
+    <string name="dock_defender_notify_des">ដើម្បីការពារថ្មរបស់អ្នក ការសាកថ្មត្រូវបានផ្អាកនៅកម្រិត %1$s ខណៈពេលដែលថេប្លេតរបស់អ្នកត្រូវបានភ្ជាប់</string>
     <string name="dock_photo_preview_text">ស៊ុម​រូបថត​កំពុងចាប់ផ្ដើម...</string>
     <string name="dock_promo_text">អូសទៅឆ្វេង​សម្រាប់ស៊ុមរូបថត</string>
     <string name="dream_settings_notification_text">ប្ដូរធាតុ​រក្សាអេក្រង់​របស់អ្នក​តាមបំណង</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">អូស​ដើម្បី​និយាយ</string>
     <string name="home_controls_tile_title">ផ្ទះ</string>
-    <string name="image_content_description">រូបភាពដែល​អាចជ្រើសរើសបាន</string>
     <string name="keyguard_indication_trust_unlocked">បាន​ដោះសោ​ដោយ Smart Lock</string>
     <string name="low_battery_label">ជិតអស់​ថ្មហើយ</string>
-    <string name="no_content_in_select_mode">គ្មានអត្ថបទ ឬរូបភាព​ដែលត្រូវជ្រើសរើសទេ</string>
     <string name="quick_settings_rotation_posture_folded">បត់</string>
     <string name="quick_settings_rotation_posture_unfolded">លា</string>
     <string name="reverse_charging_device_name_text">Pixel ផ្សេងទៀត</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ការចែករំលែកថ្ម​ត្រូវបានបើក</string>
     <string name="reverse_charging_title">ការចែករំលែក​ថ្ម</string>
     <string name="saver_confirmation_dialog_text">មុខងារសន្សំថ្មខ្លាំង​នឹងផ្អាកកម្មវិធី និងការជូនដំណឹង​ភាគច្រើន។</string>
-    <string name="selectable_url_description">URL ដែលអាច​ជ្រើសរើស​បាន</string>
     <string name="severe_low_battery_dialog_checkbox_title">កុំ​សួរ​ម្ដងទៀត</string>
     <string name="severe_low_battery_dialog_text">អ្នក​នៅសល់ថ្ម %s ភាគរយ។ មុខងារសន្សំថ្មខ្លាំង​នឹងផ្អាកកម្មវិធី និងការជូនដំណឹង​ភាគច្រើន។</string>
     <string name="severe_low_battery_dialog_title">បើក​មុខងារសន្សំថ្ម​ខ្លាំងឬ?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d ទៀត</string>
     <string name="squeeze_invocation_prompt">ច្របាច់ដើម្បីនិយាយ</string>
     <string name="too_hot_label">Pixel ក្ដៅពេក</string>
-    <string name="url_menu_copy">ចម្លង</string>
-    <string name="url_menu_share">ចែករំលែក</string>
     <string name="voice_reply_cta_text">“Ok Google ឆ្លើយតប”</string>
     <string name="voice_reply_quick_phrase_cta_text">និយាយថា “ឆ្លើយតប”</string>
     <string name="wireless_charging_label">កំពុង​សាកថ្ម​ឥតខ្សែ</string>

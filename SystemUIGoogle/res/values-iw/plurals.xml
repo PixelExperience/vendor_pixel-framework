@@ -9,7 +9,7 @@
     <plurals name="smartspace_minutes">
         <item quantity="other">‏%d דקות</item>
         <item quantity="one">‏דקה אחת (%d)</item>
-        <item quantity="two">%d min</item>
+        <item quantity="two">‏%d דקות</item>
         <item quantity="many">‏%d דקות</item>
     </plurals>
 </resources>

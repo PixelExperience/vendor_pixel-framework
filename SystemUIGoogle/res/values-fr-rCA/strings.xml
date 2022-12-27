@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Ne pas autoriser</string>
     <string name="columbus_target_request_dialog_summary">"Touchez deux fois l'arrière de votre téléphone pour ouvrir %1$s. Vous pouvez changer cette option en tout temps dans les paramètres."</string>
     <string name="columbus_target_request_dialog_title">Autoriser le double toucher à accéder à %1$s?</string>
-    <string name="copied_text_label">Texte copié</string>
-    <string name="copy_url_description">Texte copié</string>
-    <string name="defender_notify_des">Votre téléphone limite la recharge pour aider à préserver la santé de la pile</string>
+    <string name="defender_notify_des">Protection de la pile pour prolonger sa durée de vie</string>
     <string name="defender_notify_resume_charge">Reprendre la recharge</string>
-    <string name="defender_notify_title">Recharge temporairement limitée</string>
-    <string name="defender_post_notify_des">De %2$s à %3$s, la recharge était limitée à %1$s pour préserver la santé de la pile</string>
-    <string name="defender_post_notify_title">Recharge normale</string>
+    <string name="defender_notify_title">La recharge est interrompue</string>
+    <string name="defender_post_notify_des">"La recharge a été mise en pause de %1$s jusqu'à %2$s pour prolonger la durée de vie de la pile"</string>
+    <string name="defender_post_notify_title">Reprise de la recharge</string>
     <string name="dock_a11y_action_show_photo_text">Afficher le cadre photo</string>
+    <string name="dock_defender_notify_des">"Pour protéger la pile de votre tablette placée dans une station d'accueil, la charge est interrompue quand elle atteint %1$s."</string>
     <string name="dock_photo_preview_text">Démarrage du cadre photo en cours…</string>
     <string name="dock_promo_text">Balayez vers la gauche pour afficher un cadre photo</string>
     <string name="dream_settings_notification_text">Personnalisez votre écran de veille</string>
@@ -44,10 +43,8 @@ Les données utilisées pour le déverrouillage par reconnaissance faciale seron
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">"Balayez l'écran pour parler"</string>
     <string name="home_controls_tile_title">Accueil</string>
-    <string name="image_content_description">Image sélectionnable</string>
     <string name="keyguard_indication_trust_unlocked">Maintenu déverrouillé par Smart Lock</string>
     <string name="low_battery_label">Pile faible</string>
-    <string name="no_content_in_select_mode">Aucun texte ni aucune image à sélectionner</string>
     <string name="quick_settings_rotation_posture_folded">plié</string>
     <string name="quick_settings_rotation_posture_unfolded">déplié</string>
     <string name="reverse_charging_device_name_text">Autre Pixel</string>
@@ -55,7 +52,6 @@ Les données utilisées pour le déverrouillage par reconnaissance faciale seron
     <string name="reverse_charging_on_notification_title">Le partage de la pile est activé</string>
     <string name="reverse_charging_title">Partage de la pile</string>
     <string name="saver_confirmation_dialog_text">"L'économiseur de pile extrême suspendra la plupart des applications et des notifications."</string>
-    <string name="selectable_url_description">URL sélectionnable</string>
     <string name="severe_low_battery_dialog_checkbox_title">Ne plus me demander</string>
     <string name="severe_low_battery_dialog_text">"Il vous reste %s d'autonomie. L'économiseur de pile extrême suspendra la plupart des applications et des notifications."</string>
     <string name="severe_low_battery_dialog_title">"Activer l'économiseur de pile extrême?"</string>
@@ -67,8 +63,6 @@ Les données utilisées pour le déverrouillage par reconnaissance faciale seron
     <string name="smartspace_shopping_list_overflow">+ %1$d autres</string>
     <string name="squeeze_invocation_prompt">Serrer pour parler</string>
     <string name="too_hot_label">Le Pixel surchauffe</string>
-    <string name="url_menu_copy">Copier</string>
-    <string name="url_menu_share">Partager</string>
     <string name="voice_reply_cta_text">« Ok Google, réponds »</string>
     <string name="voice_reply_quick_phrase_cta_text">Dites « Répondre »</string>
     <string name="wireless_charging_label">En recharge sans fil</string>

@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Ne pas autoriser</string>
     <string name="columbus_target_request_dialog_summary">Appuyez deux fois sur le dos de votre téléphone pour ouvrir %1$s. Vous pouvez modifier cela à tout moment dans les paramètres.</string>
     <string name="columbus_target_request_dialog_title">Autoriser le Double appui pour ouvrir %1$s ?</string>
-    <string name="copied_text_label">Texte copié</string>
-    <string name="copy_url_description">Texte copié</string>
-    <string name="defender_notify_des">Votre téléphone limite la recharge pour contribuer à préserver la batterie</string>
+    <string name="defender_notify_des">Protection de la batterie pour prolonger sa durée de vie</string>
     <string name="defender_notify_resume_charge">Reprendre la recharge</string>
-    <string name="defender_notify_title">Recharge momentanément limitée</string>
-    <string name="defender_post_notify_des">La recharge a été limitée à %1$s de %2$s à %3$s pour préserver la batterie</string>
-    <string name="defender_post_notify_title">Recharge normale</string>
+    <string name="defender_notify_title">La recharge est en pause</string>
+    <string name="defender_post_notify_des">La recharge a été interrompue de %1$s à %2$s pour prolonger la durée de la batterie</string>
+    <string name="defender_post_notify_title">La charge a repris</string>
     <string name="dock_a11y_action_show_photo_text">Afficher le cadre de la photo</string>
+    <string name="dock_defender_notify_des">"Pour protéger votre batterie, le chargement est mis en pause à %1$s quand votre tablette est sur sa station d'accueil"</string>
     <string name="dock_photo_preview_text">Lancement du Cadre photo…</string>
     <string name="dock_promo_text">Balayez vers la gauche pour accéder au Cadre photo</string>
     <string name="dream_settings_notification_text">"Personnalisez votre économiseur d'écran"</string>
@@ -44,10 +43,8 @@ Les données utilisées par le déverrouillage par reconnaissance faciale seront
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">"Balayez l'écran pour parler"</string>
     <string name="home_controls_tile_title">Accueil</string>
-    <string name="image_content_description">Image sélectionnable</string>
     <string name="keyguard_indication_trust_unlocked">Maintenu déverrouillé par Smart Lock</string>
     <string name="low_battery_label">Batterie faible</string>
-    <string name="no_content_in_select_mode">"Pas de texte ni d'image à sélectionner"</string>
     <string name="quick_settings_rotation_posture_folded">plié</string>
     <string name="quick_settings_rotation_posture_unfolded">déplié</string>
     <string name="reverse_charging_device_name_text">Autre Pixel</string>
@@ -55,7 +52,6 @@ Les données utilisées par le déverrouillage par reconnaissance faciale seront
     <string name="reverse_charging_on_notification_title">Le partage de batterie est activé</string>
     <string name="reverse_charging_title">Partage de batterie</string>
     <string name="saver_confirmation_dialog_text">"L'ultra économiseur de batterie suspendra la plupart des applis et notifications."</string>
-    <string name="selectable_url_description">URL sélectionnable</string>
     <string name="severe_low_battery_dialog_checkbox_title">Ne plus me demander</string>
     <string name="severe_low_battery_dialog_text">"Il vous reste %s de batterie. L'ultra économiseur de batterie suspendra la plupart des applis et notifications."</string>
     <string name="severe_low_battery_dialog_title">"Activer l'ultra économiseur de batterie ?"</string>
@@ -67,8 +63,6 @@ Les données utilisées par le déverrouillage par reconnaissance faciale seront
     <string name="smartspace_shopping_list_overflow">+ %1$d autre(s)</string>
     <string name="squeeze_invocation_prompt">Pressez pour parler</string>
     <string name="too_hot_label">Pixel trop chaud</string>
-    <string name="url_menu_copy">Copier</string>
-    <string name="url_menu_share">Partager</string>
     <string name="voice_reply_cta_text">\"Hey Google, réponds\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Dites \"Répondre\"</string>
     <string name="wireless_charging_label">En charge sans fil</string>

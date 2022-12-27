@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">İcazə verməyin</string>
     <string name="columbus_target_request_dialog_summary">Telefonun arxasına iki dəfə toxunaraq %1$s tətbiqini açın. Bunu istənilən zaman Ayarlarda dəyişə bilərsiniz.</string>
     <string name="columbus_target_request_dialog_title">%1$s tətbiqini açmaq üçün Qısa Toxunuşa icazə verilsin?</string>
-    <string name="copied_text_label">Kopyalanmış mətn</string>
-    <string name="copy_url_description">Mətn kopyalandı</string>
-    <string name="defender_notify_des">Batareyanı qorumaq üçün telefonunuz şarjı məhdudlaşdırır</string>
+    <string name="defender_notify_des">Batareyanın ömrünü uzatmaq üçün batareya qorunur</string>
     <string name="defender_notify_resume_charge">Şarja davam edin</string>
-    <string name="defender_notify_title">Şarj müvəqqəti məhdudlaşdırılıb</string>
-    <string name="defender_post_notify_des">Batareyanı qorumaq üçün şarj %2$s-%3$s arasında %1$s ilə məhdudlaşdırılıb</string>
-    <string name="defender_post_notify_title">Normal şarj edilir</string>
+    <string name="defender_notify_title">Şarj durdurulub</string>
+    <string name="defender_post_notify_des">Batareyanın ömrünü uzatmaq üçün şarj %1$s‐%2$s arasında durdurulub</string>
+    <string name="defender_post_notify_title">Şarj davam etdirilir</string>
     <string name="dock_a11y_action_show_photo_text">Foto çərçivəni göstərin</string>
+    <string name="dock_defender_notify_des">Batareyanı qorumaq üçün planşet doka yerləşdirilən zaman şarj %1$s səviyyəsində durdurulur</string>
     <string name="dock_photo_preview_text">Foto çərçivə başlayır...</string>
     <string name="dock_promo_text">Foto çərçivəsi üçün sola sürüşdürün</string>
     <string name="dream_settings_notification_text">Ekran qoruyucunuzu fərdiləşdirin</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Danışmaq üçün sürüşdürün</string>
     <string name="home_controls_tile_title">Ev</string>
-    <string name="image_content_description">Seçilə bilən şəkil</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock ilə kilidli saxlayın</string>
     <string name="low_battery_label">Batareyanın gücü azdır</string>
-    <string name="no_content_in_select_mode">Seçiləcək mətn və ya şəkil yoxdur</string>
     <string name="quick_settings_rotation_posture_folded">qatlanmış</string>
     <string name="quick_settings_rotation_posture_unfolded">açıq</string>
     <string name="reverse_charging_device_name_text">Başqa Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Enerji Paylaşımı aktivdir</string>
     <string name="reverse_charging_title">Enerji paylaşımı</string>
     <string name="saver_confirmation_dialog_text">Yüksək Enerji Qənaəti əksər tətbiqlər və bildirişləri durduracaq.</string>
-    <string name="selectable_url_description">Seçilə bilən URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Bir daha soruşmayın</string>
     <string name="severe_low_battery_dialog_text">%s enerji qalıb. Yüksək Enerji Qənaəti əksər tətbiqlər və bildirişləri durduracaq.</string>
     <string name="severe_low_battery_dialog_title">Yüksək Enerji Qənaəti aktiv edilsin?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ daha %1$d ədəd</string>
     <string name="squeeze_invocation_prompt">Danışmaq üçün sıxın</string>
     <string name="too_hot_label">Piksel çox istidir</string>
-    <string name="url_menu_copy">Kopyalayın</string>
-    <string name="url_menu_share">Paylaşın</string>
     <string name="voice_reply_cta_text">“Hey Google, cavab yazın”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Cavablandır” deyin</string>
     <string name="wireless_charging_label">Naqilsiz qidalanır</string>

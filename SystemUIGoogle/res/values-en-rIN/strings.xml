@@ -18,12 +18,13 @@
     <string name="columbus_target_request_dialog_deny">"Don't allow"</string>
     <string name="columbus_target_request_dialog_summary">Tap the back of your phone twice to open %1$s. You can change this anytime in Settings.</string>
     <string name="columbus_target_request_dialog_title">Allow Quick Tap to open %1$s?</string>
-    <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
+    <string name="defender_notify_des">Protecting battery to extend battery lifespan</string>
     <string name="defender_notify_resume_charge">Resume charging</string>
-    <string name="defender_notify_title">Charging temporarily limited</string>
-    <string name="defender_post_notify_des">Charging was limited to %1$s from %2$s to %3$s to preserve battery health</string>
-    <string name="defender_post_notify_title">Charging normally</string>
+    <string name="defender_notify_title">Charging is paused</string>
+    <string name="defender_post_notify_des">Charging was paused from %1$s–%2$s to extend battery lifespan</string>
+    <string name="defender_post_notify_title">Charging resumed</string>
     <string name="dock_a11y_action_show_photo_text">Show photo frame</string>
+    <string name="dock_defender_notify_des">To protect your battery, charging is paused at %1$s while your tablet is docked</string>
     <string name="dock_photo_preview_text">Photo Frame starting…</string>
     <string name="dock_promo_text">Swipe left for Photo Frame</string>
     <string name="dream_settings_notification_text">Customise your screen saver</string>
