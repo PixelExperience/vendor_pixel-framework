@@ -27,12 +27,14 @@
                     android:id="@id/face_enrolled_anim"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:background="@drawable/face_enroll_icon_large" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/face_enroll_icon_large" />
 
                 <ImageView
                     android:id="@id/face_check"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/face_enroll_check" />
 
             </FrameLayout>

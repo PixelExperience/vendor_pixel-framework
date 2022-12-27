@@ -11,14 +11,19 @@
     <item type="id" name="browser_actions_menu_item_text"/>
     <item type="id" name="browser_actions_menu_items"/>
     <item type="id" name="browser_actions_menu_view"/>
+    <item type="id" name="candidate_apps_header_text"/>
+    <item type="id" name="candidate_apps_list"/>
     <item type="id" name="card"/>
     <item type="id" name="columbus_gesture_illustration"/>
     <item type="id" name="content_container"/>
     <item type="id" name="current_score"/>
-    <item type="id" name="display_language"/>
     <item type="id" name="distance_indicator_view"/>
     <item type="id" name="dream_container"/>
     <item type="id" name="dream_setup_list"/>
+    <item type="id" name="enabled_apps_header_text"/>
+    <item type="id" name="enabled_apps_hint_text"/>
+    <item type="id" name="enabled_apps_list"/>
+    <item type="id" name="end_icon"/>
     <item type="id" name="face_check"/>
     <item type="id" name="face_enroll_confirmation"/>
     <item type="id" name="face_enroll_participation"/>
@@ -61,11 +66,41 @@
     <item type="id" name="ok_btn"/>
     <item type="id" name="percentage_number"/>
     <item type="id" name="play_view"/>
+    <item type="id" name="preview_caption"/>
+    <item type="id" name="preview_image"/>
     <item type="id" name="show_more_title"/>
     <item type="id" name="square_frame_layout"/>
     <item type="id" name="status_image"/>
     <item type="id" name="status_summary"/>
     <item type="id" name="status_title"/>
+    <item type="id" name="suw_bottom_scroll_view"/>
+    <item type="id" name="suw_footer_button_bar"/>
+    <item type="id" name="suw_items_expandable_switch_content"/>
+    <item type="id" name="suw_items_icon"/>
+    <item type="id" name="suw_items_icon_container"/>
+    <item type="id" name="suw_items_summary"/>
+    <item type="id" name="suw_items_switch"/>
+    <item type="id" name="suw_items_switch_divider"/>
+    <item type="id" name="suw_items_title"/>
+    <item type="id" name="suw_large_progress_bar"/>
+    <item type="id" name="suw_layout_content"/>
+    <item type="id" name="suw_layout_decor"/>
+    <item type="id" name="suw_layout_footer"/>
+    <item type="id" name="suw_layout_header"/>
+    <item type="id" name="suw_layout_icon"/>
+    <item type="id" name="suw_layout_navigation_bar"/>
+    <item type="id" name="suw_layout_progress"/>
+    <item type="id" name="suw_layout_progress_stub"/>
+    <item type="id" name="suw_layout_sticky_header"/>
+    <item type="id" name="suw_layout_title"/>
+    <item type="id" name="suw_navbar_back"/>
+    <item type="id" name="suw_navbar_more"/>
+    <item type="id" name="suw_navbar_next"/>
+    <item type="id" name="suw_original_weight"/>
+    <item type="id" name="suw_pattern_bg"/>
+    <item type="id" name="suw_recycler_view"/>
+    <item type="id" name="suw_scroll_view"/>
+    <item type="id" name="suw_warranty_dialog"/>
     <item type="id" name="text_container"/>
     <item type="id" name="toolbar_title"/>
     <item type="id" name="toolbar_wrapper"/>

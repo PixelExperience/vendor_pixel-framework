@@ -13,6 +13,9 @@
     <string name="adaptive_charging">ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</string>
     <string name="adaptive_charging_description">បង្កើន​អាយុកាលថ្ម​ដោយសាកថ្ម​បន្តិចម្ដងៗ អំឡុងពេល​សាកថ្ម​យូរជាងមុន។ បានបើក​ដំណើរការ​ដោយផ្អែកលើ​វដ្តនៃការប្រើប្រាស់​របស់អ្នក។</string>
     <string name="adaptive_charging_time_estimate"><b>ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</b> • ពេញ​នៅត្រឹមម៉ោង %1$s</string>
+    <string name="add_bypassed_application_hint">មិនបានបញ្ចូលកម្មវិធីណាទេ</string>
+    <string name="advanced_vpn_preference_group_title">ភ្ជាប់មក​ជាមួយ​ស្រាប់</string>
+    <string name="all_apps_category_title">កម្មវិធី​ទាំងអស់</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">ចំណូលចិត្ត</annotation></string>
     <string name="app_and_notification_dashboard_summary">ជំនួយការ កម្មវិធី​ថ្មីៗ កម្មវិធី​លំនាំដើម</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">បន្តទៅជំនួយការ</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">បង្កើនកម្រិត​ថាមពល​ថ្ម</string>
     <string name="battery_missing_link_message">ស្វែងយល់បន្ថែម</string>
     <string name="battery_suggestion_summary">បើក​កម្មវិធី​ថ្ម​មានភាពបត់បែន</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">ដើម្បីការពារថ្មរបស់អ្នក ការសាកថ្មត្រូវបានផ្អាកនៅកម្រិត %1$s ខណៈពេលដែលថេប្លេតរបស់អ្នកត្រូវបានភ្ជាប់</string>
     <string name="battery_tip_smart_battery_summary">បើក​កម្មវិធី​ថ្ម​មានភាពបត់បែន</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s នឹង​លែង​ត្រូវបានផ្គូផ្គង​ជាមួយ​ឧបករណ៍ដែលភ្ជាប់​ទៅ​គណនី Google នេះ​ទៀតហើយ</string>
+    <string name="clear_calling_footer">អាច​ប្រើ​មុខងារ​សំឡេង​ឮ​ច្បាស់​បាន អាស្រ័យ​លើ​ការតភ្ជាប់ Wi‑Fi និង​បណ្ដាញ​ទូរសព្ទ​ចល័ត​របស់​អ្នក។ ខ្លឹមសារ​ពី​ការហៅ​របស់​អ្នក​មិន​ត្រូវ​បាន​ផ្ញើ​ឱ្យ Google ទេ។</string>
+    <string name="clear_calling_title">សំឡេងឮច្បាស់</string>
+    <string name="clear_calling_toggle">ប្រើ​មុខងារ​សំឡេងឮច្បាស់</string>
+    <string name="clear_calling_topintro">កាត់បន្ថយ​សំឡេងរំខាន​នៅផ្ទៃខាងក្រោយ ក្នុងអំឡុងពេល​ហៅទូរសព្ទ</string>
     <string name="columbus_gesture_detected">ចាប់​បានការប៉ះរហ័ស!</string>
     <string name="columbus_gesture_enrollment_complete">រួចរាល់</string>
     <string name="columbus_gesture_enrollment_do_it_later">កុំទាន់</string>
@@ -147,11 +155,10 @@
     <string name="connectivity_helper_footnote">អ្នកអាច​ចែករំលែក​ព័ត៌មានអំពី​ការតភ្ជាប់បាន នៅពេលអ្នកហៅទូរសព្ទ​ម្ខាងទៀត​កំពុងប្រើប្រាស់​បណ្ដាញ និង​ឧបករណ៍​ដែលស្គាល់</string>
     <string name="content_capture">កំណត់ផ្ទាល់ខ្លួន​ដោយប្រើ​ទិន្នន័យកម្មវិធី</string>
     <string name="copy_toast_msg">បាន​ចម្លង​តំណ​ទៅឃ្លីបបត</string>
-    <string name="dark_ui_text">រចនាប័ទ្ម​ងងឹត​ប្រើផ្ទៃខាងក្រោយ​ពណ៌ខ្មៅ ដើម្បីជួយរក្សា​ថាមពលថ្ម​របស់អ្នក​ឱ្យនៅ​បានយូរ​ជាងមុន។ កាលវិភាគ​រចនាប័ទ្មងងឹត​រង់ចាំបើក រហូតទាល់តែ​អេក្រង់​របស់អ្នក​ត្រូវបានបិទ។</string>
+    <string name="dark_ui_text">ទម្រង់រចនាងងឹតប្រើផ្ទៃខាងក្រោយ​ពណ៌ខ្មៅ ដើម្បីជួយរក្សា​ថាមពលថ្ម​របស់អ្នក​ឱ្យនៅ​បានកាន់តែយូរ។ កាលវិភាគទម្រង់រចនាងងឹតរង់ចាំបើក រហូតទាល់តែ​អេក្រង់​របស់អ្នក​ត្រូវបានបិទ។</string>
     <string name="dock_summary_charging_phone">កំពុងសាកថ្ម​ទូរសព្ទ</string>
     <string name="double_twist_for_camera_mode_summary">ដើម្បីចូលទៅ និងចេញពីមុខងារសែលហ្វីនៅក្នុង​កាមេរ៉ា Google សូមបង្វិលពីរដង នៅពេលអ្នកនៅក្នុងកម្មវិធីនោះ។</string>
     <string name="downloads_backup_text">ឯកសារដែលបានទាញយកនឹងត្រូវបានបម្រុងទុកក្នុង Google ថាស</string>
-    <string name="dream_secondary_button_title">កុំប្រើ​ធាតុរក្សាអេក្រង់</string>
     <string name="duration_less_than_one_minute">តិចជាង 1 នាទី</string>
     <string name="face_enrolling_center_head">តម្រូវមុខរបស់អ្នក​នៅក្នុងស៊ុមខាងក្នុង</string>
     <string name="face_enrolling_description">ថត​មុខ​របស់អ្នក​ឱ្យ​បាន​គ្រប់​ជ្រុង ដោយ​លុប​ប្រអប់​ទាំងអស់​ចេញ។</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">Pixel របស់ខ្ញុំ</string>
     <string name="my_device_info_account_preference_title">គណនី Google</string>
     <string name="owner_info_settings_edit_text_hint">ឧ. ទូរសព្ទ Pixel របស់សុភាព។</string>
+    <string name="remove">លុប</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">នឹងបើក​ក្នុងរយៈពេលខ្លី​ដោយស្វ័យប្រវត្តិ នៅពេល​ទូរសព្ទរបស់អ្នក​ត្រូវបានដោតជាមួយ​ឆ្នាំងសាក</string>
+    <string name="reverse_charging_auto_turn_on_title">បើកដោយស្វ័យប្រវត្តិ</string>
     <string name="reverse_charging_charging_wirelessly_message">មិនអាចប្រើ​បានទេ ដោយសារទូរសព្ទ​កំពុងសាកថ្ម​ឥតខ្សែ</string>
     <string name="reverse_charging_detail_charging_overheat_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារ Pixel ក្ដៅពេក។ សូមរង់ចាំឱ្យទូរសព្ទចុះត្រជាក់ រួចព្យាយាមម្ដងទៀត។</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារទូរសព្ទ​កំពុងសាកថ្មឥតខ្សែ</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">កំពុងចែករំលែក និងសាកថ្ម</string>
     <string name="reverse_charging_is_on_and_discharging_summary">កំពុង​ចែករំលែក​ថ្ម</string>
     <string name="reverse_charging_is_on_summary">បើក / សាកឧបករណ៍ផ្សេងទៀត</string>
-    <string name="reverse_charging_main_switch">អនុញ្ញាត​ការចែករំលែកថ្ម</string>
+    <string name="reverse_charging_main_switch">ប្រើ​ការចែករំលែកថ្ម</string>
     <string name="reverse_charging_off_low_battery_summary">បិទ / ថ្មទូរសព្ទនៅសល់តិចជាង %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">បិទ / ថ្មតិចជាង​កម្រិតសម្រាប់​ចែករំលែក</string>
     <string name="reverse_charging_overheat_summary">មិនអាចប្រើបានទេ ដោយសារ Pixel ក្ដៅពេក។ សូមរង់ចាំឱ្យទូរសព្ទចុះត្រជាក់ រួចព្យាយាមម្ដងទៀត។</string>
@@ -309,8 +319,8 @@
     <string name="security_settings_face_enroll_too_hot_message">មិនអាច​បញ្ចប់​ការរៀបចំ​ការដោះសោ​តាមទម្រង់មុខ​បានទេ ដោយសារ​ទូរសព្ទ​ក្ដៅពេក។ សូមព្យាយាម​ម្ដងទៀត នៅពេល​ទូរសព្ទ​ត្រជាក់វិញ។</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">រំលង​ការដោះសោ​តាមទម្រង់មុខ</string>
     <string name="security_settings_face_enroll_too_hot_title">ទូរសព្ទ​ក្ដៅ​ពេក</string>
-    <string name="security_settings_fingerprint_preference_summary_none">ចុចដើម្បីកំណត់ស្នាមម្រាមដៃ</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ស្វែងយល់បន្ថែម​តាមរយៈ g.co/pixel/fingerprintunlock។</string>
+    <string name="security_settings_fingerprint_preference_summary_none">ចុចដើម្បីរៀបចំស្នាមម្រាមដៃ</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"ស្វែងយល់បន្ថែមអំពីការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃនៅលើ Pixel តាមរយៈ &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;។"</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint សម្រាប់ការងារ</string>
     <string name="setup_suggestion_summary">ចម្លងទិន្នន័យ បង់ប្រាក់តាមទូរសព្ទរបស់អ្នក និងច្រើនទៀត</string>
     <string name="setup_suggestion_title">បញ្ចប់​ការរៀបចំ</string>
@@ -319,7 +329,12 @@
     <string name="smart_battery_title">​កម្មវិធីថ្ម​មាន​ភាព​បត់បែន</string>
     <string name="sound_dashboard_summary">កម្រិតសំឡេង អារម្មណ៍ប៉ះ កុំ​រំខាន</string>
     <string name="storage_manager_indicator">ទំហំផ្ទុក​ឆ្លាតវៃ៖ ^1</string>
-    <string name="suw_warranty_description">ចុចប្រទេសដែលទិញ ដើម្បីមើលការធានាសម្រាប់ឧបករណ៍នេះ។&lt;br /&gt;&lt;br /&gt;ការធានាក៏មាននៅ&lt;b&gt;ការកំណត់ &gt; %s &gt; ការធានាមានកំណត់&lt;/b&gt; និង g.co/devicewarranty ផងដែរ។</string>
+    <string name="suw_back_button_label">ថយក្រោយ</string>
+    <string name="suw_limited_warranty_title">ការធានាមានកំណត់</string>
+    <string name="suw_more_button_label">ច្រើនទៀត</string>
+    <string name="suw_next_button_label">បន្ទាប់</string>
+    <string name="suw_warranty_description">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។&lt;br /&gt;&lt;br /&gt;ការធានានេះក៏មាននៅក្នុង &lt;b&gt;ការកំណត់ &gt; %s &gt; ការធានាមានកំណត់&lt;/b&gt; និង g.co/devicewarranty ផងដែរ។</string>
+    <string name="suw_warranty_description_content">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។ ការធានានេះក៏មាននៅក្នុងការកំណត់ និង %s រួចការធានាមានកំណត់ និង g.co/devicewarranty ផងដែរ។</string>
     <string name="suw_warranty_language_consistent_description">ការធានាមានកំណត់ដែលអនុវត្តចំពោះឧបករណ៍របស់អ្នក ក៏មាននៅក្នុងការកំណត់ឧបករណ៍នៅ&lt;b&gt;ការកំណត់ &gt; %s &gt; ការធានាមានកំណត់&lt;/b&gt; និងនៅ g.co/devicewarranty ផងដែរ។</string>
     <string name="suw_warranty_next_button_text">បន្ទាប់</string>
     <string name="suw_warranty_positive_button_text">បិទ</string>
@@ -329,7 +344,11 @@
     <string name="tips_suggestion_title">ស្វែងយល់​អំពី Pixel របស់អ្នក</string>
     <string name="traffic_light_face_enrolling_title_accessibility">កាន់ទូរសព្ទ​ដាក់ចំ​ពីមុខ​អ្នក</string>
     <string name="usb_use_file_transfers">ការផ្ទេរឯកសារ / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">ពណ៌ រូបតំណាងប្ដូររចនាប័ទ្ម ក្រឡាកម្មវិធី</string>
+    <string name="vpn_app_bypass">កុំ​ប្រើ VPN សម្រាប់​កម្មវិធី​ដែល​បាន​ជ្រើសរើស</string>
+    <string name="vpn_bypass_category_title">កុំ​ប្រើ VPN សម្រាប់​កម្មវិធី​ទាំង​នេះ</string>
+    <string name="vpn_bypass_description">អ្នក​អាច​អនុញ្ញាត​ឱ្យ​កម្មវិធី​មួយ​ចំនួន​មិន​អើពើនឹង VPN និង​ប្រើ​ការតភ្ជាប់បណ្ដាញ​ធម្មតា​នៃ​ទូរសព្ទ​របស់​អ្នក</string>
+    <string name="vpn_preference_group_title">ផ្សេងៗ</string>
+    <string name="wallpaper_dashboard_summary">ពណ៌ រូបតំណាងប្ដូរតាមទម្រង់រចនា ក្រឡាកម្មវិធី</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">មើល ឬប្ដូរ​ការជាវ OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">បានភ្ជាប់​ជាមួយ %1$s</string>

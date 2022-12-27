@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Адаптивно полнење</string>
     <string name="adaptive_charging_description">Продолжете го животниот век на батеријата со постепено полнење за време на подолги периоди на полнење. Се активира според вашиот циклус на користење.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптивно полнење</b> • Целосно наполнето за %1$s</string>
+    <string name="add_bypassed_application_hint">Не се додадени апликации</string>
+    <string name="advanced_vpn_preference_group_title">Вградена</string>
+    <string name="all_apps_category_title">Сите апликации</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Поставки</annotation></string>
     <string name="app_and_notification_dashboard_summary">Помошник, неодамнешни апликации, стандардни апликации</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Продолжи на „Помошникот“</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">Продолжете го траењето на батеријата</string>
     <string name="battery_missing_link_message">Дознајте повеќе</string>
     <string name="battery_suggestion_summary">Вклучете „Адаптивна батерија“</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">За да се заштити вашата батерија, полнењето е паузирано на %1$s додека таблетот е приклучен на док</string>
     <string name="battery_tip_smart_battery_summary">Вклучете „Адаптивна батерија“</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s веќе нема да биде спарен со ниту еден уред поврзан со сметкава на Google</string>
+    <string name="clear_calling_footer">Функцијата „Јасни повици“ е достапна во зависност од врската со Wi‑Fi и мобилната мрежа. Содржините од вашите повици не се испраќаат до Google.</string>
+    <string name="clear_calling_title">Јасни повици</string>
+    <string name="clear_calling_toggle">Користи „Јасни повици“</string>
+    <string name="clear_calling_topintro">Ги намалува заднинските шумови за време на повиците</string>
     <string name="columbus_gesture_detected">Откриен е „Брз допир“!</string>
     <string name="columbus_gesture_enrollment_complete">Готово</string>
     <string name="columbus_gesture_enrollment_do_it_later">Не сега</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">Полнење на телефонот</string>
     <string name="double_twist_for_camera_mode_summary">За да го вклучите или исклучите режимот за селфи во „Камерата на Google“, завртете го уредот двапати додека сте во апликацијата.</string>
     <string name="downloads_backup_text">Ќе се направат резервни копии од преземените датотеки на Google Drive</string>
-    <string name="dream_secondary_button_title">Не користи заштитник на екран</string>
     <string name="duration_less_than_one_minute">Помалку од 1 минута</string>
     <string name="face_enrolling_center_head">Ликот поставете го во внатрешната рамка</string>
     <string name="face_enrolling_description">Снимете ги сите агли на лицето, така што ќе ги отстраните сите плочки.</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">Мојот Pixel</string>
     <string name="my_device_info_account_preference_title">Сметка на Google</string>
     <string name="owner_info_settings_edit_text_hint">На пр. Pixel-от на Миле.</string>
+    <string name="remove">Отстрани</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Ќе се вклучи автоматски краток период кога телефонот е поврзан со полнач</string>
+    <string name="reverse_charging_auto_turn_on_title">Вклучи автоматски</string>
     <string name="reverse_charging_charging_wirelessly_message">Не е достапно бидејќи батеријата се полни безжично</string>
     <string name="reverse_charging_detail_charging_overheat_message">„Споделувањето батерија“ е недостапно бидејќи вашиот Pixel е премногу загреан. Почекајте додека да се олади телефонот и обидете се повторно.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">„Споделувањето батерија“ не е достапно бидејќи телефонот се полни безжично</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">Споделување и полнење на батеријата</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Батеријата се споделува</string>
     <string name="reverse_charging_is_on_summary">Вклучено/Полнете ги другите уреди</string>
-    <string name="reverse_charging_main_switch">Дозволете „Споделување батерија“</string>
+    <string name="reverse_charging_main_switch">Користете „Споделување батерија“</string>
     <string name="reverse_charging_off_low_battery_summary">Исклучено/Батеријата на телефонот е под %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">Исклучено/Батеријата е под нивото за споделување</string>
     <string name="reverse_charging_overheat_summary">Недостапно бидејќи Pixel е премногу жежок. Почекајте додека да се олади телефонот и обидете се повторно.</string>
@@ -311,7 +321,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Прескокни „Отклучување со лик“</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефонот е премногу топол</string>
     <string name="security_settings_fingerprint_preference_summary_none">Допрете за да поставите отпечаток</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Дознајте повеќе на g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Дознајте повеќе за „Отклучување со отпечаток на прст“ на Pixel на &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint за работа</string>
     <string name="setup_suggestion_summary">Копирајте податоци, плаќајте со телефон…</string>
     <string name="setup_suggestion_title">Завршете го поставувањето</string>
@@ -320,7 +330,12 @@
     <string name="smart_battery_title">Адаптивна батерија</string>
     <string name="sound_dashboard_summary">Јачина на звук, допир, „Не вознемирувај“</string>
     <string name="storage_manager_indicator">„Паметен капацитет“: ^1</string>
-    <string name="suw_warranty_description">Допрете ја земјата на купување за да ја прегледате гаранцијата за уредов.&lt;br /&gt;&lt;br /&gt;Гаранцијата е исто така достапна на &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и g.co/devicewarranty.</string>
+    <string name="suw_back_button_label">Назад</string>
+    <string name="suw_limited_warranty_title">Ограничена гаранција</string>
+    <string name="suw_more_button_label">Повеќе</string>
+    <string name="suw_next_button_label">Следно</string>
+    <string name="suw_warranty_description">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот.&lt;br /&gt;&lt;br /&gt;Гаранцијата е исто така достапна во &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот. Гаранцијата е исто така достапна во „Поставки“, потоа %s, потоа „Ограничена гаранција“ и g.co/devicewarranty.</string>
     <string name="suw_warranty_language_consistent_description">Ограничената гаранција што важи за вашиот уред е исто така достапна во „Поставки“ на уредот во &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и на g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Следно</string>
     <string name="suw_warranty_positive_button_text">Затвори</string>
@@ -330,6 +345,10 @@
     <string name="tips_suggestion_title">Запознајте го вашиот Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Држете го телефонот пред лицето</string>
     <string name="usb_use_file_transfers">Пренос на датотеки/Android Auto</string>
+    <string name="vpn_app_bypass">Не користете VPN за избрани апликации</string>
+    <string name="vpn_bypass_category_title">Не користете VPN за апликацииве</string>
+    <string name="vpn_bypass_description">Можете да дозволите некои апликации да игнорираат VPN и да ја користат вообичаената мрежна врска на телефонот</string>
+    <string name="vpn_preference_group_title">Други</string>
     <string name="wallpaper_dashboard_summary">Бои, икони со тема, мрежа со апликации</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Прегледајте ја или изменете ја претплатата за OpenRoaming</string>

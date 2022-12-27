@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Karga egokitua</string>
     <string name="adaptive_charging_description">Kargatze-saio luzeetan, kargatu bateria apurka-apurka haren balio-bizitza luzatzeko. Erabilera-zikloaren arabera aktibatzen da eginbide hau.</string>
     <string name="adaptive_charging_time_estimate"><b>Karga egokitua</b> • Ordu honetan egongo da guztiz kargatuta: %1$s</string>
+    <string name="add_bypassed_application_hint">Ez da gehitu aplikaziorik</string>
+    <string name="advanced_vpn_preference_group_title">Integratuak</string>
+    <string name="all_apps_category_title">Aplikazio guztiak</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Hobespenak</annotation></string>
     <string name="app_and_notification_dashboard_summary">Laguntzailea, azken aplikazioak, aplikazio lehenetsiak</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Atzitu Laguntzailea</string>
@@ -56,16 +59,16 @@ Biltegi adimenduna eginbideak ez du tokirik egingo memoria agortzear dagoenean."
     <string name="automatic_storage_manager_text">Biltegia betetzeko gutxi falta denean, kendu babeskopiak dituzten argazkiak eta bideoak. Google Argazkiak zerbitzuan izango dituzu gordeta halere.</string>
     <string name="aware_disabled_preference_action">Aktibatu</string>
     <string name="aware_disabled_preference_neutral">Orain ez</string>
-    <string name="aware_footer_when_airplane_batterysaver_on">Ez dago erabilgarri Motion Sense, hegaldi modua eta bateria-aurrezlea aktibatuta daudelako</string>
+    <string name="aware_footer_when_airplane_batterysaver_on">Ez dago erabilgarri Motion Sense, hegaldi modua eta bateria-aurreztailea aktibatuta daudelako</string>
     <string name="aware_footer_when_airplane_on">Ez dago erabilgarri Motion Sense, hegaldi modua aktibatuta dagoelako</string>
-    <string name="aware_footer_when_batterysaver_on">Ez dago erabilgarri Motion Sense, bateria-aurrezlea aktibatuta dagoelako</string>
+    <string name="aware_footer_when_batterysaver_on">Ez dago erabilgarri Motion Sense, bateria-aurreztailea aktibatuta dagoelako</string>
     <string name="aware_gesture_summary_off">Keinu bizkorrak aktibatuta, Active Edge desaktibatuta</string>
     <string name="aware_gesture_summary_on_non_assist">Keinu bizkorrak eta Active Edge aktibatuta</string>
     <string name="aware_gesture_summary_on_with_assist">Keinu bizkorrak eta Active Edge aktibatuta; estutu gailua Laguntzailea erabiltzeko</string>
     <string name="aware_info_button_description">Ezarpen gehiago</string>
-    <string name="aware_summary_when_airplane_batterysaver_on">Ez dago erabilgarri, hegaldi modua eta bateria-aurrezlea aktibatuta daudelako</string>
+    <string name="aware_summary_when_airplane_batterysaver_on">Ez dago erabilgarri, hegaldi modua eta bateria-aurreztailea aktibatuta daudelako</string>
     <string name="aware_summary_when_airplane_on">Ez dago erabilgarri, hegaldi modua aktibatuta dagoelako</string>
-    <string name="aware_summary_when_batterysaver_on">Ez dago erabilgarri, bateria-aurrezlea aktibatuta dagoelako</string>
+    <string name="aware_summary_when_batterysaver_on">Ez dago erabilgarri, bateria-aurreztailea aktibatuta dagoelako</string>
     <string name="backup_data_summary">Egin aplikazioetako datuen, wifi-sareetako pasahitzen eta gainerako ezarpenen babeskopiak eta gorde itzazu Google-ren zerbitzarietan</string>
     <string name="backup_suggestion_cancel">Utzi</string>
     <string name="backup_suggestion_dialog_description">Telefonoaren barneko memoriako datu guztiak ezabatuko dira.</string>
@@ -93,8 +96,13 @@ Berrezarri ondoren, gauzatu konfiguratze-prozesua eta adierazi telefono zaharrek
     <string name="battery_manager_summary_unsupported">Luzatu bateriaren iraupena</string>
     <string name="battery_missing_link_message">Lortu informazio gehiago</string>
     <string name="battery_suggestion_summary">Aktibatu Bateria egokitua</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Bateria babesteko, tabletaren %1$s kargatuta dagoenean pausatuko da kargatze-prozesua, baldin eta tableta oinarrian jarrita badago</string>
     <string name="battery_tip_smart_battery_summary">Aktibatu Bateria egokitua</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Aurrerantzean, %1$s ez da parekatuko Google-ko kontu hau lotuta duen inongo gailurekin</string>
+    <string name="clear_calling_footer">Wifi-konexioaren eta sare mugikorraren konexioaren arabera dago erabilgarri Dei garbiak eginbidea. Deian esandakoa ez zaio bidaliko Google-ri.</string>
+    <string name="clear_calling_title">Dei garbiak</string>
+    <string name="clear_calling_toggle">Erabili Dei garbiak</string>
+    <string name="clear_calling_topintro">Atzeko planoko zarata murrizten du deietan</string>
     <string name="columbus_gesture_detected">Sakatze bizkorra hauteman da.</string>
     <string name="columbus_gesture_enrollment_complete">Eginda</string>
     <string name="columbus_gesture_enrollment_do_it_later">Orain ez</string>
@@ -151,7 +159,6 @@ Berrezarri ondoren, gauzatu konfiguratze-prozesua eta adierazi telefono zaharrek
     <string name="dock_summary_charging_phone">Telefonoa kargatzea</string>
     <string name="double_twist_for_camera_mode_summary">Google-ren Kamera aplikazioaren autoargazki modua aktibatu eta desaktibatzeko, biratu birritan eskumuturra.</string>
     <string name="downloads_backup_text">Deskargatutako fitxategien babeskopiak Google Drive-n gordeko dira</string>
-    <string name="dream_secondary_button_title">Ez erabili pantaila-babeslerik</string>
     <string name="duration_less_than_one_minute">1 minutu baino gutxiago</string>
     <string name="face_enrolling_center_head">Sartu aurpegia barneko markoan</string>
     <string name="face_enrolling_description">Grabatu aurpegiaren angelu guztiak lauza guztiak kenduta.</string>
@@ -220,6 +227,9 @@ Babeskopiek ez dute eraginik Drive-ko biltegiratze-kuotan. Fitxategiak handiak b
     <string name="me_card_title">Nire Pixel gailua</string>
     <string name="my_device_info_account_preference_title">Google-ko kontua</string>
     <string name="owner_info_settings_edit_text_hint">Adibidez, Jonen Pixel gailua.</string>
+    <string name="remove">Kendu</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Telefonoa kargagailu batera konektatuta dagoenean, automatikoki aktibatuko da tarte labur batez</string>
+    <string name="reverse_charging_auto_turn_on_title">Aktibatu automatikoki</string>
     <string name="reverse_charging_charging_wirelessly_message">Ez dago erabilgarri telefonoa haririk gabe ari delako kargatzen</string>
     <string name="reverse_charging_detail_charging_overheat_message">Ezin da partekatu bateria Pixel gailua gehiegi berotu delako. Itxaron telefonoa hoztu arte eta saiatu berriro.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Ezin da partekatu bateria, telefonoa haririk gabe ari delako kargatzen</string>
@@ -227,7 +237,7 @@ Babeskopiek ez dute eraginik Drive-ko biltegiratze-kuotan. Fitxategiak handiak b
     <string name="reverse_charging_detail_footer_title_advanced">"Aurikular, telefono eta bestelako gailu bateragarriekin parteka daiteke bateria.
 
 Eginbide hori erabiliz gero, bizkorrago agortuko da telefonoaren bateria. Minutu batzuk igaro ondoren beste gailurik hauteman ez bada, automatikoki desaktibatuko da bateria partekatzeko eginbidea. Hobeto kargatzeko, kendu karkasa eta agian oztopo egiten duten bestelako elementuak (adibidez, metalezko objektuak) telefonoari."</string>
-    <string name="reverse_charging_detail_power_save_mode_is_on_message">Ezin da partekatu bateria, bateria-aurrezlea aktibatuta dagoelako</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">Ezin da partekatu bateria, bateria-aurreztailea aktibatuta dagoelako</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Ezin da partekatu bateria, USB-C gailu bat entxufatuta dagoelako</string>
     <string name="reverse_charging_instructions_title">"Kargatu beste gailu batzuk Pixel-arekin.
 Probatzeko, irauli telefonoa."</string>
@@ -235,11 +245,11 @@ Probatzeko, irauli telefonoa."</string>
     <string name="reverse_charging_is_on_and_charging_summary">Bateria partekatzen eta kargatzen</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Bateria partekatzen</string>
     <string name="reverse_charging_is_on_summary">Aktibatuta / Kargatu beste gailu batzuk</string>
-    <string name="reverse_charging_main_switch">Eman bateria partekatzeko baimena</string>
+    <string name="reverse_charging_main_switch">Erabili Bateria partekatzea</string>
     <string name="reverse_charging_off_low_battery_summary">Desaktibatuta / Bateriaren %1$s baino gutxiago geratzen zaio telefonoari</string>
     <string name="reverse_charging_off_sharing_level_summary">Desaktibatuta / Partekatzeko behar dena baino bateria gutxiago geratzen zaio telefonoari</string>
     <string name="reverse_charging_overheat_summary">Ez dago erabilgarri Pixel gailua beroegi dagoelako. Itxaron telefonoa hoztu arte eta saiatu berriro.</string>
-    <string name="reverse_charging_power_save_mode_is_on_message">Ez dago erabilgarri, bateria-aurrezlea aktibatuta dagoelako</string>
+    <string name="reverse_charging_power_save_mode_is_on_message">Ez dago erabilgarri, bateria-aurreztailea aktibatuta dagoelako</string>
     <string name="reverse_charging_sharing_level_message">Ez dago erabilgarri, partekatzeko behar dena baino bateria gutxiago geratzen zaiolako telefonoari</string>
     <string name="reverse_charging_switch_summary">Ipini gailuak Pixel-aren bizkar gainean</string>
     <string name="reverse_charging_switch_title">Kargatu beste gailu batzuk haiek Pixel gailuaren atzealdean jarrita</string>
@@ -308,7 +318,7 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Saltatu konfigurazio-prozesua</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonoa gehiegi berotu da</string>
     <string name="security_settings_fingerprint_preference_summary_none">Hatz-marka konfiguratzeko, sakatu hau</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Lortu informazio gehiago g.co/pixel/fingerprintunlock helbidean.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Lortu informazio gehiago hatz-marka bidez desblokeatzeko Pixel-en eginbideari buruz hemen: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Laneko profilerako Pixel Imprint</string>
     <string name="setup_suggestion_summary">Kopiatu datuak, ordaindu telefonoarekin, eta abar</string>
     <string name="setup_suggestion_title">Amaitu konfiguratzen</string>
@@ -318,7 +328,12 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="sound_dashboard_summary">Bolumena, haptika, Ez molestatu</string>
     <string name="sound_settings">Soinua eta dardara</string>
     <string name="storage_manager_indicator">Biltegi adimenduna: ^1</string>
-    <string name="suw_warranty_description">Sakatu gailua erosi zenuen herrialdearen izena gailuaren bermea ikusteko.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Ezarpenak &gt; %s &gt; Berme mugatua&lt;/b&gt; atalean eta g.co/devicewarranty helbidean ere ikus dezakezu.</string>
+    <string name="suw_back_button_label">Atzera</string>
+    <string name="suw_limited_warranty_title">Berme mugatua</string>
+    <string name="suw_more_button_label">Gehiago</string>
+    <string name="suw_next_button_label">Hurrengoa</string>
+    <string name="suw_warranty_description">Berme mugatua ikusteko, hautatu gailua erosi zenuen herrialdearen izena.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Ezarpenak &gt; %s &gt; Berme mugatua&lt;/b&gt; atalean edo g.co/devicewarranty helbidean ere ikus dezakezu bermea.</string>
+    <string name="suw_warranty_description_content">Berme mugatua ikusteko, hautatu gailua erosi zenuen herrialdearen izena. Ezarpenetan, \"%s\" atalaren barnean dagoen \"Berme mugatua\" atalean, edo g.co/devicewarranty helbidean ere ikus dezakezu bermea.</string>
     <string name="suw_warranty_language_consistent_description">Gailuaren berme mugatua gailuko &lt;b&gt;Ezarpenak &gt; %s &gt; Berme mugatua&lt;/b&gt; atalean eta g.co/devicewarranty helbidean ere ikus dezakezu.</string>
     <string name="suw_warranty_next_button_text">Hurrengoa</string>
     <string name="suw_warranty_positive_button_text">Itxi</string>
@@ -328,6 +343,10 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="tips_suggestion_title">Ezagutu Pixel-a</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Eutsi telefonoari aurpegiaren aurrean</string>
     <string name="usb_use_file_transfers">Fitxategi-transferentzia / Android Auto</string>
+    <string name="vpn_app_bypass">Ez erabili VPNa hautatutako aplikazioetan</string>
+    <string name="vpn_bypass_category_title">Ez erabili VPNa aplikazio hauetan</string>
+    <string name="vpn_bypass_description">VPNari ez ikusi egiteko baimena eman diezaiekezu aplikazio batzuei, telefonoaren sareko konexio arrunta erabil dezaten</string>
+    <string name="vpn_preference_group_title">Bestelakoak</string>
     <string name="wallpaper_dashboard_summary">Koloreak, ikono gaidunak, aplikazioen sareta</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Ikusi edo aldatu OpenRoaming-eko harpidetza</string>

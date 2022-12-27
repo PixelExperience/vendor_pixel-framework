@@ -13,6 +13,10 @@
     <string name="adaptive_charging">অভিযোজিত চাৰ্জিং</string>
     <string name="adaptive_charging_description">দীঘলীয়া চাৰ্জিঙৰ সময়ত স্থিৰভাৱে চাৰ্জ কৰি বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰক। আপোনাৰ ব্যৱহাৰৰ চক্ৰৰ ভিত্তিত সক্ৰিয় কৰা হৈছে।</string>
     <string name="adaptive_charging_time_estimate"><b>অভিযোজিত চাৰ্জিং</b> • %1$sৰ ভিতৰত সম্পূৰ্ণ হ’ব</string>
+    <string name="add">যোগ দিয়ক</string>
+    <string name="add_bypassed_application_hint">কোনো এপ্‌ যোগ দিয়া হোৱা নাই</string>
+    <string name="advanced_vpn_preference_group_title">বিল্ট-ইন</string>
+    <string name="all_apps_category_title">আটাইবোৰ এপ্‌</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">অগ্ৰাধিকাৰসমূহ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, শেহতীয়া এপ্‌সমূহ, ডিফ’ল্ট এপ্‌সমূহ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistantৰ ব্যৱহাৰ অব্যাহত ৰাখক</string>
@@ -73,9 +77,9 @@
     <string name="backup_suggestion_get_started">অধিক জানক</string>
     <string name="backup_suggestion_item_summary">Android বা iPhone® ডিভাইচৰ পৰা প্ৰতিলিপি কৰক</string>
     <string name="backup_suggestion_item_title">"পুৰণি ফ'নৰ পৰা ডেটা নাইকিয়া হৈছে নেকি?"</string>
-    <string name="backup_suggestion_missing_description">"আপুনি এছএমএছ বাৰ্তা আৰু ফট'সমূহৰ দৰে আপোনাৰ কিছুমান ডেটা দেখা পোৱা নাই, এডাল কেবুল ব্যৱহাৰ কৰি আপুনি এইবোৰক আপোনাৰ Pixelলৈ স্থানান্তৰ কৰিব পাৰে৷
+    <string name="backup_suggestion_missing_description">"আপুনি এছএমএছ বাৰ্তা আৰু ফট'সমূহৰ দৰে আপোনাৰ কিছুমান ডেটা দেখা পোৱা নাই, এডাল কে’বল ব্যৱহাৰ কৰি আপুনি এইবোৰক আপোনাৰ Pixelলৈ স্থানান্তৰ কৰিব পাৰে।
 
-আৰম্ভ কৰিবলৈ আপোনাৰ Pixel ৰিছেট কৰিব লাগিব৷ নিজৰ উপযোগিতা অনুসৰি ৰখা ছেটিংসমূহ আৰু ক্লাউডৰ লগত ছিংক নকৰা সমলক অন্তৰ্ভুক্ত কৰি এই ফ'নৰ আটাইবোৰ ডেটা মচি পেলোৱা হ'ব৷"</string>
+আৰম্ভ কৰিবলৈ আপোনাৰ Pixel ৰিছেট কৰিব লাগিব। নিজৰ উপযোগিতা অনুসৰি ৰখা ছেটিংসমূহ আৰু ক্লাউডৰ লগত ছিংক নকৰা সমলক অন্তৰ্ভুক্ত কৰি এই ফ'নৰ আটাইবোৰ ডেটা মচি পেলোৱা হ'ব।"</string>
     <string name="backup_suggestion_missing_title">আপোনাৰ ডেটা নাইকিয়া হৈছে নেকি?</string>
     <string name="backup_suggestion_next">পৰৱৰ্তী</string>
     <string name="backup_suggestion_other_ways_to_copy">ডেটা প্ৰতিলিপি কৰাৰ অন্য উপায়</string>
@@ -83,18 +87,23 @@
 
 এবাৰ এয়া ৰিছেট হ’লে, ছেট আপৰ প্ৰক্ৰিয়াটোৰে আগবাঢ়ক আৰু আপোনাৰ আগৰ ফ’নৰ পৰা ডেটা আনিবলৈ বাছনি কৰক৷"</string>
     <string name="backup_suggestion_reset_title">আপোনাৰ Pixel ৰিছেট কৰক</string>
-    <string name="backup_suggestion_what_is_needed_summary">"আপুনি আপোনাৰ ফ'ন ৰিছেট কৰাৰ পাছত, আপোনাক এইসমূহ প্ৰয়োজন হ'ব:
+    <string name="backup_suggestion_what_is_needed_summary">"আপুনি আপোনাৰ ফ’ন ৰিছেট কৰাৰ পাছত, আপোনাক এইসমূহ প্ৰয়োজন হ'ব:
 
-• আপোনাৰ আগৰ ফ'ন (LINK_BEGINবেছিভাগ ফ'নLINK_END Android 5.0+ বা iOS® 8.0+ সমৰ্থন কৰা)
-• আপোনাৰ আগৰ ফ'নৰ চ্চাৰ্জিং বা ডেটা কেবুল
+• আপোনাৰ আগৰ ফ’ন (LINK_BEGINবেছিভাগ ফ’নLINK_END Android 5.0+ বা iOS® 8.0+ সমৰ্থন কৰা)
+• আপোনাৰ আগৰ ফ’নৰ চাৰ্জিং বা ডেটা কে’বল
 • আপোনাৰ Pixelৰ সৈতে পোৱা ক্ষিপ্ৰ ছুইচ এডাপ্টৰ"</string>
     <string name="backup_suggestion_what_is_needed_title">আপুনি কি কৰিব লাগিব</string>
     <string name="battery_manager_summary">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰক আৰু চাৰ্জিং অপ্টিমাইজ কৰক</string>
     <string name="battery_manager_summary_unsupported">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰক</string>
     <string name="battery_missing_link_message">অধিক জানক</string>
     <string name="battery_suggestion_summary">অভিযোজিত বেটাৰী অন কৰক</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">আপোনাৰ টেবলেটটো ড’ক কৰি থোৱাৰ সময়ত আপোনাৰ বেটাৰী সুৰক্ষিত কৰিবলৈ, চাৰ্জিং %1$sত পজ কৰা হৈছে</string>
     <string name="battery_tip_smart_battery_summary">অভিযোজিত বেটাৰী অন কৰক</string>
     <string name="bluetooth_untethered_unpair_dialog_body">এই Google একাউণ্টটোৰ সৈতে লিংক হৈ থকা কোনো ডিভাইচৰ লগত %1$sক আৰু যোৰা লগাব পৰা নাযাব।</string>
+    <string name="clear_calling_footer">আপোনাৰ ৱাই-ফাই আৰু ম’বাইল নেটৱৰ্ক সংযোগৰ ভিত্তিত স্পষ্ট কলিঙৰ সুবিধাটো উপলব্ধ। আপোনাৰ কলৰ সমল Googleলৈ পঠিওৱা নহয়।</string>
+    <string name="clear_calling_title">স্পষ্ট কলিং</string>
+    <string name="clear_calling_toggle">স্পষ্ট কলিং ব্যৱহাৰ কৰক</string>
+    <string name="clear_calling_topintro">কল চলি থকাৰ সময়ত নেপথ্যৰ কোলাহল হ্ৰাস কৰে</string>
     <string name="columbus_gesture_detected">কুইক টেপ চিনাক্ত কৰা হৈছে!</string>
     <string name="columbus_gesture_enrollment_complete">হ’ল</string>
     <string name="columbus_gesture_enrollment_do_it_later">এতিয়া নহয়</string>
@@ -151,7 +160,6 @@
     <string name="dock_summary_charging_phone">"ফ'ন চ্চাৰ্জ কৰি থকা হৈছে"</string>
     <string name="double_twist_for_camera_mode_summary">"Google Cameraত ছেল্ফী ম'ড খুলিবলৈ বা বন্ধ কৰিবলৈ আপুনি এপ্‌ ব্যৱহাৰ কৰাৰ সময়ত কেমেৰাটো দুবাৰ ঘূৰাওক।"</string>
     <string name="downloads_backup_text">"ডাউনল’ড কৰা ফাইলসমূহৰ Google ড্ৰাইভত বেক আপ লোৱা হ'ব"</string>
-    <string name="dream_secondary_button_title">স্ক্ৰীন ছেভাৰ ব্যৱহাৰ নকৰিব</string>
     <string name="duration_less_than_one_minute">১ মিনিটতকৈ কম</string>
     <string name="face_enrolling_center_head">আপোনাৰ মুখাৱয়ব ভিতৰৰ ফ্ৰে’মটোত খাপ খুৱাওক</string>
     <string name="face_enrolling_description">আটাইবোৰ টাইল আঁতৰাই আপোনাৰ মুখমণ্ডল সকলো কোণৰ পৰা কেপচ্চাৰ কৰক।</string>
@@ -220,6 +228,9 @@
     <string name="me_card_title">মোৰ Pixel</string>
     <string name="my_device_info_account_preference_title">Google একাউণ্ট</string>
     <string name="owner_info_settings_edit_text_hint">যেনে, মনোজৰ Pixel ফ’ন</string>
+    <string name="remove">আঁতৰাওক</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">আপোনাৰ ফ’নটো এটা চাৰ্জাৰৰ সৈতে প্লেগ ইন কৰি থোৱাৰ সময়ত কম সময়ৰ বাবে স্বয়ংক্ৰিয়ভাৱে অন হ’ব</string>
+    <string name="reverse_charging_auto_turn_on_title">স্বয়ংক্ৰিয়ভাৱে অন কৰক</string>
     <string name="reverse_charging_charging_wirelessly_message">ফ’নটো তাঁৰৰ অবিহনে চাৰ্জ হৈ থকাৰ কাৰণে উপলব্ধ নহয়</string>
     <string name="reverse_charging_detail_charging_overheat_message">Pixel বেছি গৰম হৈ থকাৰ কাৰণে বেটাৰী সঞ্চয়কাৰী সুবিধাটো উপলব্ধ নহয়। ফ’নটো ঠাণ্ডা হোৱালৈ অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">ফ’নটো তাঁৰৰ অবিহনে চাৰ্জ হৈ থকাৰ কাৰণে বেটাৰী শ্বেয়াৰ কৰা সুবিধাটো উপলব্ধ নহয়</string>
@@ -235,7 +246,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">বেটাৰী শ্বেয়াৰ কৰাৰ লগতে চাৰ্জ কৰি থকা হৈছে</string>
     <string name="reverse_charging_is_on_and_discharging_summary">বেটাৰী শ্বেয়াৰ কৰি থকা হৈছে</string>
     <string name="reverse_charging_is_on_summary">অন্য ডিভাইচসমূহ অন / চাৰ্জ কৰক</string>
-    <string name="reverse_charging_main_switch">বেটাৰী শ্বেয়াৰ কৰাৰ অনুমতি দিয়ক</string>
+    <string name="reverse_charging_main_switch">বেটাৰী শ্বেয়াৰ কৰাৰ সুবিধাটো ব্যৱহাৰ কৰক</string>
     <string name="reverse_charging_off_low_battery_summary">অফ হৈ আছে / ফ’নৰ বেটাৰী %1$sতকৈ নিম্নস্তৰত আছে</string>
     <string name="reverse_charging_off_sharing_level_summary">অফ হৈ আছে / বেটাৰী শ্বেয়াৰিঙৰ স্তৰতকৈ তলত আছে</string>
     <string name="reverse_charging_overheat_summary">Pixel অতি বেছি গৰম হৈ থকাৰ কাৰণে উপলব্ধ নহয়। ফ’নটো ঠাণ্ডা হোৱালৈ অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।</string>
@@ -312,7 +323,7 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="security_settings_face_enroll_too_hot_title">ফ’নটো বহুত গৰম</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো আপোনাৰ ফ’নটোৰ পিছফালে আছে। আপোনাৰ তৰ্জনী আঙুলি ব্যৱহাৰ কৰক।</string>
     <string name="security_settings_fingerprint_preference_summary_none">ফিংগাৰপ্ৰিণ্ট ছেট আপ কৰিবলৈ টিপক</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlockত অধিক জানক।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Pixelৰ ফিংগাৰপ্ৰিন্ট আনলকৰ বিষয়ে &lt;a href=’http://g.co/pixel/fingerprintunlock’&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;ত অধিক জানক।</string>
     <string name="security_settings_work_fingerprint_preference_title">কৰ্মস্থানৰ বাবে Pixel সাঁচ</string>
     <string name="setup_suggestion_summary">ডেটাৰ প্ৰতিলিপি, ফ’নেৰে পৰিশোধ আৰু অন্য বহুতো</string>
     <string name="setup_suggestion_title">ছেট আপ সমাপ্ত কৰক</string>
@@ -321,7 +332,12 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="smart_battery_title">অভিযোজিত বেটাৰী</string>
     <string name="sound_dashboard_summary">ভলিউম, হেপ্‌টিকসমূহ, অসুবিধা নিদিব</string>
     <string name="storage_manager_indicator">স্মাৰ্ট ষ্ট’ৰেজ: ^1</string>
-    <string name="suw_warranty_description">এই ডিভাইচটোৰ বাবে ৱাৰেণ্টী চাবলৈ ক্ৰয় কৰা দেশখনত টিপক।&lt;br /&gt;&lt;br /&gt;ৱাৰেণ্টীৰ বিষয়ে তথ্য &lt;b&gt;ছেটিং &gt; %s &gt; সীমিত ৱাৰেণ্টী&lt;/b&gt; আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
+    <string name="suw_back_button_label">উভতি যাওক</string>
+    <string name="suw_limited_warranty_title">সীমিত ৱাৰেণ্টী</string>
+    <string name="suw_more_button_label">অধিক</string>
+    <string name="suw_next_button_label">পৰৱৰ্তী</string>
+    <string name="suw_warranty_description">আপোনাৰ সীমিত ৱাৰেণ্টী চাবলৈ, আপুনি এই ডিভাইচটো যিখন দেশত কিনিছিল সেই দেশখন বাছনি কৰক।&lt;br /&gt;&lt;br /&gt;ৱাৰেণ্টী &lt;b&gt;ছেটিং &gt; %s &gt; সীমিত ৱাৰেণ্টী&lt;/b&gt; আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
+    <string name="suw_warranty_description_content">আপোনাৰ সীমিত ৱাৰেণ্টী চাবলৈ, আপুনি এই ডিভাইচটো যিখন দেশত কিনিছিল সেই দেশখন বাছনি কৰক। ৱাৰেণ্টী ছেটিং, তাৰ পাছত %s, তাৰ পাছত সীমিত ৱাৰেণ্টী আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
     <string name="suw_warranty_language_consistent_description">অপোনাৰ ডিভাইচৰ বাবে প্ৰযোজ্য ৱাৰেণ্টীৰ তথ্য ডিভাইচৰ ছেটিঙত &lt;b&gt;ছেটিং &gt; %s &gt; সীমিত ৱাৰেণ্টী&lt;/b&gt; আৰু g.co/devicewarrantyতো উপলব্ধ।</string>
     <string name="suw_warranty_next_button_text">পৰৱৰ্তী</string>
     <string name="suw_warranty_positive_button_text">বন্ধ কৰক</string>
@@ -331,6 +347,10 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="tips_suggestion_title">আপোনাৰ Pixelৰ বিষয়ে জানক</string>
     <string name="traffic_light_face_enrolling_title_accessibility">আপোনাৰ ফ’নটো নিজৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখক</string>
     <string name="usb_use_file_transfers">ফাইল স্থানান্তৰণ / Android Auto</string>
+    <string name="vpn_app_bypass">বাছনি কৰা এপ্‌সমূহৰ বাবে ভিপিএন ব্যৱহাৰ নকৰিব</string>
+    <string name="vpn_bypass_category_title">এই এপ্‌সমূহৰ বাবে ভিপিএন ব্যৱহাৰ নকৰিব</string>
+    <string name="vpn_bypass_description">আপুনি কিছুমান এপক ভিপিএন উপেক্ষা কৰাৰ আৰু আপোনাৰ ফ’নৰ নিয়মীয়া নেটৱৰ্ক ব্যৱহাৰ কৰাৰ অনুমতি দিব পাৰে</string>
+    <string name="vpn_preference_group_title">অন্য</string>
     <string name="wallpaper_dashboard_summary">ৰং, থীমযুক্ত চিহ্ন, এপৰ গ্ৰিড</string>
     <string name="warranty_country_information">%1$s (%2$s</string>
     <string name="wifi_subscription_summary">OpenRoaming ছাবস্ক্ৰিপশ্বন চাওক অথবা সলনি কৰক</string>

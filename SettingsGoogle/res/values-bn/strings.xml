@@ -13,6 +13,9 @@
     <string name="adaptive_charging">অ্যাডাপ্টিভ চার্জিং</string>
     <string name="adaptive_charging_description">দীর্ঘক্ষণ ধরে চার্জ করতে হলে ধীরে ধীরে চার্জ করা হয় যাতে ব্যাটারি ভাল থাকে। এই সুবিধা, আপনার ব্যবহার করার আপনার সাইকেলের হিসেবে কাজ করে।</string>
     <string name="adaptive_charging_time_estimate"><b>অ্যাডাপ্টিভ চার্জিং</b> • %1$s-এ ফুল চার্জ হবে</string>
+    <string name="add_bypassed_application_hint">কোনও অ্যাপ যোগ করা হয়নি</string>
+    <string name="advanced_vpn_preference_group_title">বিল্ট-ইন</string>
+    <string name="all_apps_category_title">সবকটি অ্যাপ</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">অভিরুচি</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, সাম্প্রতিক অ্যাপ, ডিফল্ট অ্যাপ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">সহায়ক ব্যবহার করা চালিয়ে যান</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">ব্যাটারির আয়ু বাড়ান</string>
     <string name="battery_missing_link_message">আরও জানুন</string>
     <string name="battery_suggestion_summary">অ্যাডাপটিভ ব্যাটারি চালু করুন</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">আপনার ব্যাটারির চার্জ সাশ্রয় করতে ট্যাবলেট ডক করা কালীন চার্জ দেওয়া %1$s-এ পজ করা হয়েছে</string>
     <string name="battery_tip_smart_battery_summary">অ্যাডাপটিভ ব্যাটারি চালু করুন</string>
     <string name="bluetooth_untethered_unpair_dialog_body">এই Google অ্যাকাউন্টের সাথে লিঙ্ক করা আছে এমন যেকোনও ডিভাইসের সাথে %1$s আর পেয়ার করা যাবে না</string>
+    <string name="clear_calling_footer">"'ক্লিয়ার কলিং' ফিচার উপলভ্য হবে কিনা তা আপনার ওয়াই-ফাই ও মোবাইল নেটওয়ার্ক কানেকশনের উপরে নির্ভর করে। আপনার কলের কন্টেন্ট Google-এ পাঠানো হয় না।"</string>
+    <string name="clear_calling_title">ক্লিয়ার কলিং</string>
+    <string name="clear_calling_toggle">"'ক্লিয়ার কলিং' ব্যবহার করুন"</string>
+    <string name="clear_calling_topintro">কল চলাকালীন ব্যাকগ্রাউন্ডের আওয়াজ কম করে</string>
     <string name="columbus_gesture_detected">"'কুইক ট্যাপ' জেশচার শনাক্ত করা হয়েছে!"</string>
     <string name="columbus_gesture_enrollment_complete">হয়ে গেছে</string>
     <string name="columbus_gesture_enrollment_do_it_later">এখন নয়</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">ফোনে চার্জ দেওয়া হচ্ছে</string>
     <string name="double_twist_for_camera_mode_summary">Google Camera-তে শেলফি মোডে পাল্টাতে ও এর থেকে বেরিয়ে যেতে, আপনি যখন অ্যাপে থাকবেন তখন দুবার ঘোরান৷</string>
     <string name="downloads_backup_text">ডাউনলোড করা ফাইলগুলিকে Google ড্রাইভে ব্যাক-আপ নেওয়া হবে</string>
-    <string name="dream_secondary_button_title">স্ক্রিন সেভার ব্যবহার করবেন না</string>
     <string name="duration_less_than_one_minute">১ মিনিটেরও কম</string>
     <string name="face_enrolling_center_head">ভিতরের ফ্রেমে আপনার মুখ ফিট করুন</string>
     <string name="face_enrolling_description">সমস্ত টাইল সরিয়ে দিয়ে বিভিন্ন দিক থেকে আপনার ফেস ক্যাপচার করুন।</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">আমার Pixel</string>
     <string name="my_device_info_account_preference_title">Google অ্যাকাউন্ট</string>
     <string name="owner_info_settings_edit_text_hint">উদাহরণ, সুমনের Pixel</string>
+    <string name="remove">সরিয়ে দিন</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">আপনার ফোন চার্জারে প্লাগ করা হলে অল্প সময়ের জন্য এই সুবিধা অটোমেটিক চালু হয়ে যাবে</string>
+    <string name="reverse_charging_auto_turn_on_title">অটোমেটিক চালু করুন</string>
     <string name="reverse_charging_charging_wirelessly_message">কেবল ব্যবহার না করে চার্জ করে হচ্ছে বলে ব্যাটারি শেয়ার করার সুবিধা উপলভ্য নেই</string>
     <string name="reverse_charging_detail_charging_overheat_message">Pixel খুব গরম হয়ে গেছে, তাই ব্যাটারি শেয়ার করার ফিচার ব্যবহার করা যাবে না। ফোন ঠান্ডা না হওয়া পর্যন্ত অপেক্ষা করুন এবং আবার চেষ্টা করুন।</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">কেবল ছাড়া চার্জ দেওয়া হচ্ছে বলে ব্যাটারি শেয়ার ফিচার ব্যবহার করার সুবিধা উপলভ্য নেই</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">ব্যাটারি শেয়ার এবং চার্জ করা হচ্ছে</string>
     <string name="reverse_charging_is_on_and_discharging_summary">ব্যাটারি শেয়ার করা হচ্ছে</string>
     <string name="reverse_charging_is_on_summary">চালু করুন / অন্যান্য ডিভাইস চার্জ করুন</string>
-    <string name="reverse_charging_main_switch">ব্যাটারি শেয়ার করতে অনুমতি দিন</string>
+    <string name="reverse_charging_main_switch">"'ব্যাটারি শেয়ার' ফিচার ব্যবহার করুন"</string>
     <string name="reverse_charging_off_low_battery_summary">বন্ধ / ফোনের ব্যাটারিতে %1$s-এর কম চার্জ আছে</string>
     <string name="reverse_charging_off_sharing_level_summary">বন্ধ / ব্যাটারিতে শেয়ার করার লেভেলের চেয়ে কম চার্জ আছে</string>
     <string name="reverse_charging_overheat_summary">Pixel খুব গরম হয়ে গেছে তাই ব্যবহার করা যাবে না। ফোন ঠান্ডা না হওয়া পর্যন্ত অপেক্ষা করুন এবং আবার চেষ্টা করুন।</string>
@@ -310,7 +320,7 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">"'ফেস আনলক' এড়িয়ে যান"</string>
     <string name="security_settings_face_enroll_too_hot_title">ফোনটি খুব গরম</string>
     <string name="security_settings_fingerprint_preference_summary_none">আঙ্গুলের ছাপ সেট-আপ করার জন্য আলতো চাপুন</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock লিঙ্ক থেকে আরও জানুন।</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"এই লিঙ্ক থেকে ফিঙ্গারপ্রিন্টের সাহায্যে Pixel আনলক করা সম্পর্কে আরও জানুন&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">"অফিসের জন্য 'Pixel Imprint'"</string>
     <string name="setup_suggestion_summary">ডেটা কপি, ফোনের সাহায্য পেমেন্ট এবং আরও অনেক কিছু করুন</string>
     <string name="setup_suggestion_title">সেট আপ সম্পূর্ণ করুন</string>
@@ -319,7 +329,12 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="smart_battery_title">অ্যাডাপটিভ ব্যাটারি</string>
     <string name="sound_dashboard_summary">ভলিউম, হ্যাপটিক, বিরক্ত করবে না</string>
     <string name="storage_manager_indicator">স্মার্ট স্টোরেজ: ^1</string>
-    <string name="suw_warranty_description">এই ডিভাইসের ওয়ারেন্টি দেখতে, যে দেশে ডিভাইসটি কেনা হয়েছে সেটির উপর ট্যাপ করুন।&lt;br /&gt;&lt;br /&gt;এই ওয়ারেন্টির তথ্য আপনি &lt;b&gt;সেটিংস &gt; %s &gt; সীমিত ওয়ারেন্টি&lt;/b&gt; এবং g.co/devicewarranty-তেও পেয়ে যাবেন।</string>
+    <string name="suw_back_button_label">ফিরুন</string>
+    <string name="suw_limited_warranty_title">সীমিত ওয়ারেন্টি</string>
+    <string name="suw_more_button_label">আরও</string>
+    <string name="suw_next_button_label">পরবর্তী</string>
+    <string name="suw_warranty_description">সীমিত ওয়ারেন্টি সংক্রান্ত তথ্য দেখতে, যে দেশ থেকে এই ডিভাইস কিনেছেন সেটি বেছে নিন।&lt;br /&gt;&lt;br /&gt; &lt;b&gt;সেটিংস &gt; %s &gt; সীমিত ওয়ারেন্টি&lt;/b&gt; এবং g.co/devicewarranty থেকেও আপনি ওয়ারেন্টি সংক্রান্ত তথ্য দেখতে পাবেন।</string>
+    <string name="suw_warranty_description_content">"সীমিত ওয়ারেন্টি সংক্রান্ত তথ্য দেখতে আপনি যে দেশ থেকে ডিভাইস কিনেছেন সেটি বেছে নিন। 'সেটিংস', %s, 'সীমিত ওয়ারেন্টি' এবং g.co/devicewarranty থেকেও আপনি ওয়ারেন্টি সংক্রান্ত তথ্য দেখতে পাবেন।"</string>
     <string name="suw_warranty_language_consistent_description">আপনার ডিভাইসের জন্য প্রযোজ্য সীমিত ওয়ারেন্টি ডিভাইসের সেটিংসে &lt;b&gt;সেটিংস &gt; %s &gt; সীমিত ওয়ারেন্টি&lt;/b&gt; এবং at g.co/devicewarranty-তেও উপলভ্য।</string>
     <string name="suw_warranty_next_button_text">পরবর্তী</string>
     <string name="suw_warranty_positive_button_text">বন্ধ করুন</string>
@@ -329,6 +344,10 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="tips_suggestion_title">আপনার Pixel-এর বিষয়ে জানুন</string>
     <string name="traffic_light_face_enrolling_title_accessibility">আপনার মুখের সামনে ফোন ধরুন</string>
     <string name="usb_use_file_transfers">ফাইল ট্রান্সফার / Android Auto</string>
+    <string name="vpn_app_bypass">বেছে নেওয়া অ্যাপের জন্য ভিপিএন ব্যবহার করবেন না</string>
+    <string name="vpn_bypass_category_title">এইসব অ্যাপের জন্য ভিপিএন ব্যবহার করবেন না</string>
+    <string name="vpn_bypass_description">কিছু অ্যাপকে আপনি ভিপিএন এড়িয়ে যেতে এবং আপনার ফোনের নিয়মিত নেটওয়ার্ক কানেকশন ব্যবহার করতে অনুমতি দিতে পারবেন</string>
+    <string name="vpn_preference_group_title">অন্যান্য</string>
     <string name="wallpaper_dashboard_summary">রঙ, থিমযুক্ত আইকন, অ্যাপ গ্রিড</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming সাবস্ক্রিপশন দেখুন বা পরিবর্তন করুন</string>

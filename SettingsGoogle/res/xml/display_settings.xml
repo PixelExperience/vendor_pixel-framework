@@ -60,7 +60,8 @@
         <Preference
             android:fragment="com.android.settings.dream.DreamSettings"
             android:key="screensaver"
-            android:title="@string/screensaver_settings_title" />
+            android:title="@string/screensaver_settings_title"
+            settings:keywords="@string/keywords_screensaver" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"

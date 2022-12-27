@@ -14,10 +14,10 @@
         android:gravity="center_vertical">
 
         <TextView
-            android:id="@id/display_language"
+            android:id="@id/sud_items_title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="google-sans-regular"
+            android:fontFamily="google-sans"
             android:gravity="start"
             android:layout_marginLeft="16.0dip"
             android:layout_marginRight="16.0dip"

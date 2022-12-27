@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
+    <bool name="config_clear_calling_enabled">false</bool>
     <bool name="config_connectivity_helper_call_quality_default_value">true</bool>
     <bool name="config_connectivity_helper_d2d_default_value">false</bool>
     <bool name="config_face_enroll_use_traffic_light">false</bool>
@@ -27,4 +29,5 @@
     <bool name="hats_lib_survey_is_full_bleed">true</bool>
     <bool name="hats_lib_survey_should_display_close_button">true</bool>
     <bool name="hats_lib_survey_should_display_scrim">true</bool>
+    <bool name="suwUseTabletLayout">false</bool>
 </resources>

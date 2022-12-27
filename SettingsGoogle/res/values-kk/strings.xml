@@ -13,6 +13,9 @@
     <string name="adaptive_charging">Бейімдеп зарядтау</string>
     <string name="adaptive_charging_description">Ұзақ зарядтау кезінде тұрақтылықты сақтап, батареяның қызмет мерзімін ұзартыңыз. Пайдалану цикліне қарай іске қосылады.</string>
     <string name="adaptive_charging_time_estimate"><b>Бейімдеп зарядтау</b> • Толық зарядталу уақыты: %1$s</string>
+    <string name="add_bypassed_application_hint">Қосылған қолданбалар жоқ</string>
+    <string name="advanced_vpn_preference_group_title">Ендірілген</string>
+    <string name="all_apps_category_title">Барлық қолданба</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Параметрлер</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, соңғы қолданбалар, әдепкі қолданбалар</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Көмекшіге өту</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">Батарея жұмысының ұзақтығын арттырады.</string>
     <string name="battery_missing_link_message">Толығырақ</string>
     <string name="battery_suggestion_summary">Батарея шығынын бейімдеу функциясын қосу</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">Планшет қондыру станциясына қойылған кезде, батареяны қорғау мақсатында батарея заряды %1$s болғанда, зарядтау кідіртілді.</string>
     <string name="battery_tip_smart_battery_summary">Батарея шығынын бейімдеу функциясын қосыңыз</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s құрылғысы енді осы Google аккаунтына байланыстырылған ешбір құрылғымен жұптаспайды.</string>
+    <string name="clear_calling_footer">Таза дауыс функциясын Wi‑Fi желісі мен мобильдік желі байланысының жұмысына қарай пайдалануға болады. Қоңыраудағы мазмұн Google-ға жіберілмейді.</string>
+    <string name="clear_calling_title">Таза дауыс</string>
+    <string name="clear_calling_toggle">Таза дауыс функциясын пайдалану</string>
+    <string name="clear_calling_topintro">Қоңырау кезінде болатын фондағы шуды азайтады.</string>
     <string name="columbus_gesture_detected">Жылдам түрту қимылы анықталды.</string>
     <string name="columbus_gesture_enrollment_complete">Дайын</string>
     <string name="columbus_gesture_enrollment_do_it_later">Қазір емес</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">Телефонды зарядтау</string>
     <string name="double_twist_for_camera_mode_summary">Google Camera қолданбасында селфи режимін қосу/өшіру үшін білегіңізді екі рет айналдырыңыз.</string>
     <string name="downloads_backup_text">Жүктеп алынған файлдардың сақтық көшірмелері Google Drive дискіне салынады</string>
-    <string name="dream_secondary_button_title">Скринсейверді пайдаланбау</string>
     <string name="duration_less_than_one_minute">1 минутқа жетпейді.</string>
     <string name="face_enrolling_center_head">Бетіңізді ішкі жақтауға дәлдеңіз.</string>
     <string name="face_enrolling_description">Барлық бөлшекті алып тастап, бетіңізді жан-жағынан түсіріңіз.</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">Pixel құрылғым</string>
     <string name="my_device_info_account_preference_title">Google аккаунты</string>
     <string name="owner_info_settings_edit_text_hint">Мысалы, Жандостың Pixel құрылғысы</string>
+    <string name="remove">Өшіру</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">Құрылғыңыз зарядтағышқа қосылған кезде, телефонды қысқа уақытқа автоматты түрде қосады.</string>
+    <string name="reverse_charging_auto_turn_on_title">Автоматты түрде қосу</string>
     <string name="reverse_charging_charging_wirelessly_message">Телефон сымсыз зарядталатындықтан, ол мүмкін емес.</string>
     <string name="reverse_charging_detail_charging_overheat_message">Батареяны бөлісу функциясы қолжетімді емес, себебі Pixel құрылғысы қызып кетті. Оны суытып, әрекетті қайталап көріңіз.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Телефон сымсыз зарядталып жатқандықтан, Батареяны бөлісу функциясы істемейді.</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">Батареяны бөлісу және зарядтау</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Батареяны бөлісу</string>
     <string name="reverse_charging_is_on_summary">Қосулы/Басқа құрылғыларды зарядтау</string>
-    <string name="reverse_charging_main_switch">Батареяны бөлісуге рұқсат беру</string>
+    <string name="reverse_charging_main_switch">\"Батареяны бөлісу\" функциясын пайдалану</string>
     <string name="reverse_charging_off_low_battery_summary">Өшірулі/Телефон заряды %1$s деңгейінен төмен.</string>
     <string name="reverse_charging_off_sharing_level_summary">Өшірулі/Батарея заряды аз</string>
     <string name="reverse_charging_overheat_summary">Функция қолжетімді емес, себебі Pixel құрылғысы қызып кетті. Оны суытып, әрекетті қайталап көріңіз.</string>
@@ -308,7 +318,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Бет тану функциясын өткізіп жіберу</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон тым ыстық.</string>
     <string name="security_settings_fingerprint_preference_summary_none">Саусақ ізін орнату үшін түртіңіз.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Толығырақ: g.co/pixel/fingerprintunlock.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel-дің Саусақ ізімен ашу функциясы туралы толық ақпарат: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Жұмысқа арналған Pixel Imprint</string>
     <string name="setup_suggestion_summary">Деректі көшіру, телефонмен төлеу, т.б.</string>
     <string name="setup_suggestion_title">Реттеуді аяқтау</string>
@@ -317,7 +327,12 @@
     <string name="smart_battery_title">Батарея шығынын бейімдеу</string>
     <string name="sound_dashboard_summary">Дыбыс деңгейі, хептика, Мазаламау режимі</string>
     <string name="storage_manager_indicator">Ақылды жад: ^1</string>
-    <string name="suw_warranty_description">Бұл құрылғыға қатысты кепілдікті көру үшін тауарды сатып алу елін түртіңіз.&lt;br /&gt;&lt;br /&gt;Кепілдікті &lt;b&gt;Параметрлер &gt; %s &gt; Шектелген кепілдік&lt;/b&gt; тармағы және g.co/devicewarranty сілтемесі бойынша да көре аласыз.</string>
+    <string name="suw_back_button_label">Артқа</string>
+    <string name="suw_limited_warranty_title">Шектелген кепілдік</string>
+    <string name="suw_more_button_label">Тағы</string>
+    <string name="suw_next_button_label">Келесі</string>
+    <string name="suw_warranty_description">Шектелген кепілдігіңізді көру үшін құрылғыны қай елде сатып алғаныңызды төменде көрсетіңіз.&lt;br /&gt;&lt;br /&gt;Кепілдікті сондай-ақ &lt;b&gt;Параметрлер &gt; %s &gt; Шектелген кепілдік&lt;/b&gt; тармағынан және g.co/devicewarranty бетінен көре аласыз.</string>
+    <string name="suw_warranty_description_content">Шектелген кепілдігіңізді көру үшін құрылғыны қай елде сатып алғаныңызды төменде көрсетіңіз. Кепілдікті сондай-ақ \"Параметрлер &lt; %s &lt; Шектелген кепілдік\" тармағынан және g.co/devicewarranty бетінен көре аласыз.</string>
     <string name="suw_warranty_language_consistent_description">Құрылғыңызға қолданылатын шектелген кепілдікті &lt;b&gt;Параметрлер &gt; %s &gt; Шектелген кепілдік&lt;/b&gt; тармағы бойынша құрылғы параметрлерінен және g.co/devicewarranty сілтемесі бойынша да көре аласыз.</string>
     <string name="suw_warranty_next_button_text">Келесі</string>
     <string name="suw_warranty_positive_button_text">Жабу</string>
@@ -327,6 +342,10 @@
     <string name="tips_suggestion_title">Pixel телефонымен танысу</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Телефонды бетіңізге қарама-қарсы ұстаңыз</string>
     <string name="usb_use_file_transfers">Файл жіберу/Android Auto</string>
+    <string name="vpn_app_bypass">Таңдалған қолданбаларда VPN пайдаланбау</string>
+    <string name="vpn_bypass_category_title">Мына қолданбаларда VPN функциясын қолданбау</string>
+    <string name="vpn_bypass_description">Кейбір қолданбаларға VPN функциясын елемей, телефоныңыздың қарапайым желі байланысын қолдануға рұқсат ете аласыз.</string>
+    <string name="vpn_preference_group_title">Басқалары</string>
     <string name="wallpaper_dashboard_summary">Түстер, тақырыпқа сай белгішелер, қолданбалар торы</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming жазылымын көру не өзгерту</string>

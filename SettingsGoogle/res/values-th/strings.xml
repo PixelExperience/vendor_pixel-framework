@@ -13,6 +13,9 @@
     <string name="adaptive_charging">การชาร์จแบบปรับอัตโนมัติ</string>
     <string name="adaptive_charging_description">ยืดอายุการใช้งานแบตเตอรี่โดยการชาร์จอย่างต่อเนื่องในระยะเวลาการชาร์จที่นานขึ้น เปิดใช้งานตามรอบการใช้งาน</string>
     <string name="adaptive_charging_time_estimate"><b>กำลังชาร์จแบบปรับอัตโนมัติ</b> • จะเต็มภายใน %1$s</string>
+    <string name="add_bypassed_application_hint">ไม่มีแอปที่เพิ่ม</string>
+    <string name="advanced_vpn_preference_group_title">ในตัว</string>
+    <string name="all_apps_category_title">แอปทั้งหมด</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">ค่ากำหนด</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant แอปล่าสุด แอปเริ่มต้น</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">เรียกใช้ Assistant</string>
@@ -93,8 +96,13 @@
     <string name="battery_manager_summary_unsupported">ยืดอายุการใช้งานแบตเตอรี่</string>
     <string name="battery_missing_link_message">ดูข้อมูลเพิ่มเติม</string>
     <string name="battery_suggestion_summary">เปิดแบตเตอรี่แบบปรับอัตโนมัติ</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">การชาร์จหยุดชั่วคราวที่ %1$s ขณะวางแท็บเล็ตบนแท่นชาร์จเพื่อปกป้องแบตเตอรี่ของคุณ</string>
     <string name="battery_tip_smart_battery_summary">เปิดแบตเตอรี่แบบปรับอัตโนมัติ</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s จะไม่จับคู่กับอุปกรณ์ที่ลิงก์กับบัญชี Google นี้อีกต่อไป</string>
+    <string name="clear_calling_footer">การโทรเสียงคมชัดพร้อมให้ใช้งานแล้ว ทั้งนี้ขึ้นอยู่กับการเชื่อมต่อ Wi-Fi และเครือข่ายมือถือของคุณ ระบบจะไม่ส่งเนื้อหาจากการโทรไปให้ Google</string>
+    <string name="clear_calling_title">การโทรเสียงคมชัด</string>
+    <string name="clear_calling_toggle">ใช้การโทรเสียงคมชัด</string>
+    <string name="clear_calling_topintro">ลดเสียงรบกวนรอบข้างระหว่างการโทร</string>
     <string name="columbus_gesture_detected">ตรวจพบการแตะด่วน</string>
     <string name="columbus_gesture_enrollment_complete">เสร็จ</string>
     <string name="columbus_gesture_enrollment_do_it_later">ไว้ทีหลัง</string>
@@ -151,7 +159,6 @@
     <string name="dock_summary_charging_phone">กำลังชาร์จโทรศัพท์</string>
     <string name="double_twist_for_camera_mode_summary">หากต้องการเข้าและออกจากโหมดเซลฟีใน Google กล้องถ่ายรูป โปรดบิด 2 ครั้งเมื่อคุณอยู่ในแอป</string>
     <string name="downloads_backup_text">ไฟล์ที่ดาวน์โหลดจะได้รับการสำรองข้อมูลไว้ใน Google ไดรฟ์</string>
-    <string name="dream_secondary_button_title">ไม่ใช้โปรแกรมรักษาหน้าจอ</string>
     <string name="duration_less_than_one_minute">น้อยกว่า 1 นาที</string>
     <string name="face_enrolling_center_head">จัดใบหน้าของคุณให้อยู่ในกรอบด้านใน</string>
     <string name="face_enrolling_description">จับภาพใบหน้าให้ครบทุกมุมโดยเติมชิ้นส่วนภาพทั้งหมดจนเต็ม</string>
@@ -220,6 +227,9 @@
     <string name="me_card_title">Pixel ของฉัน</string>
     <string name="my_device_info_account_preference_title">บัญชี Google</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Pixel ของสมชาย</string>
+    <string name="remove">นำออก</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">จะเปิดโดยอัตโนมัติเป็นระยะเวลาสั้นๆ เมื่อเสียบโทรศัพท์กับที่ชาร์จ</string>
+    <string name="reverse_charging_auto_turn_on_title">เปิดอัตโนมัติ</string>
     <string name="reverse_charging_charging_wirelessly_message">ใช้ไม่ได้เนื่องจากโทรศัพท์กำลังชาร์จแบบไร้สาย</string>
     <string name="reverse_charging_detail_charging_overheat_message">การแชร์แบตเตอรี่ใช้งานไม่ได้เนื่องจาก Pixel มีอุณหภูมิสูงเกินไป โปรดรอให้โทรศัพท์เย็นลงแล้วลองอีกครั้ง</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">การแชร์แบตเตอรี่ใช้งานไม่ได้เนื่องจากโทรศัพท์กำลังชาร์จแบบไร้สาย</string>
@@ -235,7 +245,7 @@
     <string name="reverse_charging_is_on_and_charging_summary">กำลังแชร์และชาร์จแบตเตอรี่</string>
     <string name="reverse_charging_is_on_and_discharging_summary">กำลังแชร์แบตเตอรี่</string>
     <string name="reverse_charging_is_on_summary">เปิดอยู่/ชาร์จอุปกรณ์อื่นๆ</string>
-    <string name="reverse_charging_main_switch">อนุญาตการแชร์แบตเตอรี่</string>
+    <string name="reverse_charging_main_switch">ใช้การแชร์แบตเตอรี่</string>
     <string name="reverse_charging_off_low_battery_summary">ปิดอยู่/แบตเตอรี่โทรศัพท์เหลือไม่ถึง %1$s</string>
     <string name="reverse_charging_off_sharing_level_summary">ปิดอยู่/แบตเตอรี่เหลือต่ำกว่าระดับการแชร์</string>
     <string name="reverse_charging_overheat_summary">ใช้งานไม่ได้เนื่องจาก Pixel มีอุณหภูมิสูงเกินไป โปรดรอให้โทรศัพท์เย็นลงแล้วลองอีกครั้ง</string>
@@ -309,7 +319,7 @@
     <string name="security_settings_face_enroll_too_hot_title">โทรศัพท์ร้อนเกินไป</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">เซ็นเซอร์อยู่ที่ด้านหลังโทรศัพท์ โปรดใช้นิ้วชี้</string>
     <string name="security_settings_fingerprint_preference_summary_none">แตะเพื่อตั้งค่าลายนิ้วมือ</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ดูข้อมูลเพิ่มเติมที่ g.co/pixel/fingerprintunlock</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"ดูข้อมูลเพิ่มเติมเกี่ยวกับการปลดล็อก Pixel ด้วยลายนิ้วมือที่ &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;"</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint สำหรับการทำงาน</string>
     <string name="setup_suggestion_summary">คัดลอกข้อมูล ชำระเงินด้วยโทรศัพท์ และอื่นๆ</string>
     <string name="setup_suggestion_title">ตั้งค่าให้เสร็จ</string>
@@ -318,7 +328,12 @@
     <string name="smart_battery_title">แบตเตอรี่แบบปรับอัตโนมัติ</string>
     <string name="sound_dashboard_summary">ระดับเสียง การโต้ตอบแบบรู้สึกได้ ห้ามรบกวน</string>
     <string name="storage_manager_indicator">พื้นที่เก็บข้อมูลอัจฉริยะ: ^1</string>
-    <string name="suw_warranty_description">แตะประเทศที่ซื้อเพื่อดูการรับประกันของอุปกรณ์เครื่องนี้&lt;br /&gt;&lt;br /&gt;คุณยังสามารถดูการรับประกันได้ที่ &lt;b&gt;การตั้งค่า &gt; %s &gt; การรับประกันแบบจำกัด&lt;/b&gt; และ g.co/devicewarranty</string>
+    <string name="suw_back_button_label">กลับ</string>
+    <string name="suw_limited_warranty_title">การรับประกันแบบจำกัด</string>
+    <string name="suw_more_button_label">เพิ่มเติม</string>
+    <string name="suw_next_button_label">ถัดไป</string>
+    <string name="suw_warranty_description">หากต้องการดูการรับประกันแบบจำกัด ให้เลือกประเทศที่คุณซื้ออุปกรณ์เครื่องนี้มา&lt;br /&gt;&lt;br /&gt;หรือดูการรับประกันได้ที่&lt;b&gt;การตั้งค่า &gt; %s &gt; การรับประกันแบบจำกัด&lt;/b&gt; และ g.co/devicewarranty</string>
+    <string name="suw_warranty_description_content">หากต้องการดูการรับประกันแบบจำกัด ให้เลือกประเทศที่คุณซื้ออุปกรณ์เครื่องนี้มา หรือดูการรับประกันได้ที่การตั้งค่า จากนั้นไปที่ %s ตามด้วยการรับประกันแบบจำกัด และ g.co/devicewarranty</string>
     <string name="suw_warranty_language_consistent_description">คุณยังสามารถดูการรับประกันแบบจำกัดที่ใช้กับอุปกรณ์ของคุณได้ในการตั้งค่าอุปกรณ์ที่ &lt;b&gt;การตั้งค่า &gt; %s &gt; การรับประกันแบบจำกัด&lt;/b&gt; และที่ g.co/devicewarranty</string>
     <string name="suw_warranty_next_button_text">ถัดไป</string>
     <string name="suw_warranty_positive_button_text">ปิด</string>
@@ -328,6 +343,10 @@
     <string name="tips_suggestion_title">ทำความรู้จัก Pixel ของคุณ</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ถือโทรศัพท์ไว้ตรงหน้าคุณ</string>
     <string name="usb_use_file_transfers">การโอนไฟล์/Android Auto</string>
+    <string name="vpn_app_bypass">อย่าใช้ VPN กับแอปที่เลือก</string>
+    <string name="vpn_bypass_category_title">อย่าใช้ VPN กับแอปเหล่านี้</string>
+    <string name="vpn_bypass_description">คุณอนุญาตให้บางแอปละเว้น VPN และใช้การเชื่อมต่อเครือข่ายปกติของโทรศัพท์ได้</string>
+    <string name="vpn_preference_group_title">อื่นๆ</string>
     <string name="wallpaper_dashboard_summary">สี, ไอคอนตามธีม, ตารางกริดสำหรับแอป</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">ดูหรือเปลี่ยนการสมัครใช้บริการ OpenRoaming</string>

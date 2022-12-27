@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:elevation="@dimen/suw_header_elevation_hack"
+    android:orientation="vertical"
+    android:tag="stickyContainer">
+
+    <com.android.setupwizardlib.view.Illustration
+        android:id="@id/suw_layout_decor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/suw_layout_background"
+        android:elevation="@dimen/suw_title_area_elevation">
+
+        <TextView
+            android:id="@id/suw_layout_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:tag="sticky"
+            style="@style/SuwHeaderTitle" />
+
+    </com.android.setupwizardlib.view.Illustration>
+
+    <include
+        layout="@layout/suw_progress_bar_stub" />
+
+</LinearLayout>

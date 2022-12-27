@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    style="@style/SuwItemContainer">
+
+    <FrameLayout
+        android:id="@id/suw_items_icon_container"
+        android:layout_width="@dimen/suw_items_icon_container_width"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@id/suw_items_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/suw_items_padding_bottom_extra"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <com.android.setupwizardlib.view.RichTextView
+            android:id="@id/suw_items_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:labelFor="@id/suw_items_switch"
+            android:textAlignment="viewStart"
+            style="@style/SuwItemTitle" />
+
+        <com.android.setupwizardlib.view.RichTextView
+            android:id="@id/suw_items_summary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:visibility="gone"
+            style="@style/SuwItemSummary" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@id/suw_items_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        style="@style/SuwSwitchStyle" />
+
+</LinearLayout>

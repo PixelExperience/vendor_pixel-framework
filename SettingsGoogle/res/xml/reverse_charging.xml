@@ -26,8 +26,13 @@
         android:icon="@drawable/ic_reverse_charging"
         android:key="reverse_charging_seek_bar"
         android:title="@string/keywords_reverse_charging_stop_threshold"
-        settings:allowDividerAbove="true"
         settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingSeekBarController" />
+
+    <SwitchPreference
+        android:key="reverse_charging_auto_turn_on"
+        android:summary="@string/reverse_charging_auto_turn_on_subtitle"
+        android:title="@string/reverse_charging_auto_turn_on_title"
+        settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingAutoTurnOnSwitchPreferenceController" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="reverse_charging_detail_footer"

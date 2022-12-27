@@ -176,6 +176,14 @@
         android:defaultValue="false"
         android:order="-5"/>
 
+    <Preference
+        android:fragment="com.google.android.settings.notification.ClearCallingSettings"
+        android:key="clear_calling"
+        android:order="-55"
+        android:summary="@string/clear_calling_topintro"
+        android:title="@string/clear_calling_title"
+        settings:controller="com.google.android.settings.notification.ClearCallingPreferenceController" />
+
     <SwitchPreference
         android:key="dial_pad_tones"
         android:order="-50"

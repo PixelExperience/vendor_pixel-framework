@@ -7,5 +7,5 @@
     android:layout_height="fill_parent"
     android:entries="@xml/items_suw_warranty_languages"
     android:icon="@drawable/ic_logo_google"
-    app:sucHeaderText="@string/limited_warranty_title"
+    app:sucHeaderText="@string/suw_limited_warranty_title"
     app:sucUsePartnerResource="true" />

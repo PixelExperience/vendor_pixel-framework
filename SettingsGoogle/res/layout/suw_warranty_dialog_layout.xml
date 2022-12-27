@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/suw_warranty_dialog_layout_margin_top">
+
+        <LinearLayout
+            android:id="@id/suw_warranty_dialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/suw_warranty_dialog_layout_padding_end"
+            android:paddingStart="@dimen/suw_warranty_dialog_layout_padding_start"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>

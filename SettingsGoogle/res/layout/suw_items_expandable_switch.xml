@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:colorBackground"
+    android:orientation="horizontal"
+    android:tag="noBackground">
+
+    <com.android.setupwizardlib.view.CheckableLinearLayout
+        android:id="@id/suw_items_expandable_switch_content"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:baselineAligned="false"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/suw_switch_content_padding_end"
+        android:paddingLeft="?listPreferredItemPaddingLeft"
+        android:paddingRight="@dimen/suw_switch_content_padding_end"
+        android:paddingStart="?listPreferredItemPaddingLeft"
+        style="@style/SuwItemContainer">
+
+        <FrameLayout
+            android:id="@id/suw_items_icon_container"
+            android:layout_width="@dimen/suw_items_icon_container_width"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_gravity="top">
+
+            <ImageView
+                android:id="@id/suw_items_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:layout_marginBottom="@dimen/suw_items_padding_bottom_extra"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <com.android.setupwizardlib.view.RichTextView
+                android:id="@id/suw_items_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/suw_ic_expand"
+                android:drawablePadding="@dimen/suw_expand_arrow_drawable_padding"
+                android:drawableRight="@drawable/suw_ic_expand"
+                android:duplicateParentState="true"
+                android:gravity="start"
+                android:labelFor="@id/suw_items_switch"
+                android:textAlignment="viewStart"
+                style="@style/SuwItemTitle" />
+
+            <com.android.setupwizardlib.view.RichTextView
+                android:id="@id/suw_items_summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:visibility="gone"
+                style="@style/SuwItemSummary" />
+
+        </LinearLayout>
+
+    </com.android.setupwizardlib.view.CheckableLinearLayout>
+
+    <View
+        android:id="@id/suw_items_switch_divider"
+        android:layout_width="1.0dip"
+        android:layout_height="@dimen/suw_switch_divider_height"
+        android:background="?android:listDivider"
+        android:layout_gravity="top"
+        android:layout_marginTop="@dimen/suw_switch_divider_padding_top" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@id/suw_items_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:paddingTop="@dimen/suw_switch_padding_top"
+        style="@style/SuwSwitchStyle.Divided" />
+
+</LinearLayout>
