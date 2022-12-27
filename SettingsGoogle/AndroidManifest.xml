@@ -2,10 +2,16 @@
 <manifest xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.settings">
     <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="privileged|signature"/>
     <permission android:name="com.google.android.settings.future.logging.RESTRICTED_SEND_FUTURE_LOGS" android:protectionLevel="privileged|signature"/>
+    <permission android:name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP" android:protectionLevel="privileged|signature"/>
     <uses-permission android:name="android.permission.MANAGE_GAME_MODE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
     <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
+    <uses-permission android:name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH"/>
+    <uses-permission android:name="com.google.android.wildlife.permission.ADVANCED_VPN_CONFIG"/>
     <application>
         <activity android:enabled="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.google.android.settings.gestures.assist.bubble.AssistGestureBubbleActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@android:style/Theme.Material"/>
         <activity android:enabled="true" android:exported="true" android:icon="@drawable/ic_assist_gesture_suggestion" android:label="@string/assist_gesture_training_intro_title" android:name="com.google.android.settings.gestures.assist.AssistGestureTrainingIntroActivity" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light">
@@ -118,15 +124,72 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.security.SecurityAdvancedSettings"/>
         </activity>
-        <activity android:exported="true" android:icon="@drawable/ic_screen_saver" android:immersive="true" android:name="com.google.android.settings.dream.DreamSetupActivity" android:theme="@style/SudThemeGlif.DayNight">
+        <activity android:directBootAware="true" android:enabled="true" android:excludeFromRecents="true" android:exported="false" android:immersive="true" android:name="com.google.android.settings.setup.dock.WizardManagerActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="com.android.settings.setup.dock.NEXT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:directBootAware="true" android:excludeFromRecents="true" android:exported="true" android:immersive="true" android:label="@string/dock_setup_welcome_title" android:name="com.google.android.settings.setup.dock.DockWelcomeActivity" android:permission="com.google.android.settings.setup.dock.RUN_DOCK_SETUP" android:taskAffinity="com.android.settings.docksetup" android:theme="@style/SudThemeGlif.DayNight" android:turnScreenOn="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.DOCK_WELCOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.icon_tintable" android:value="true"/>
+        </activity>
+        <activity android:exported="true" android:icon="@drawable/ic_screen_saver" android:immersive="true" android:label="@string/dream_setup_title" android:name="com.google.android.settings.dream.DreamSetupActivity" android:theme="@style/SudThemeGlif.DayNight">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="com.android.settings.suggested.category.SCREEN_SAVER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.settings.action.SCREEN_SAVER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.is_supported" android:resource="@bool/dream_setup_supported"/>
             <meta-data android:name="com.android.settings.title" android:resource="@string/dream_setup_title"/>
             <meta-data android:name="com.android.settings.summary" android:resource="@string/dream_setup_description"/>
             <meta-data android:name="com.android.settings.icon_tintable" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:immersive="true" android:label="@string/dock_setup_outro_title" android:name="com.google.android.settings.setup.dock.DockOutroActivity" android:theme="@style/SudThemeGlif.DayNight">
+            <intent-filter>
+                <action android:name="com.android.settings.action.DOCK_OUTRO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.icon_tintable" android:value="true"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/limited_warranty_title" android:name="com.google.android.settings.warranty.WarrantyActivity">
+            <intent-filter>
+                <action android:name="android.settings.WARRANTY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.warranty.WarrantyFragment"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/limited_warranty_title" android:name="com.google.android.settings.warranty.WarrantyDetailsActivity">
+            <intent-filter>
+                <action android:name="android.settings.WARRANTY_DETAILS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.warranty.WarrantyDetailsFragment"/>
+        </activity>
+        <activity android:exported="true" android:name="com.google.android.settings.warranty.SuwWarrantyActivity" android:theme="@style/SudThemeGlif.DayNight">
+            <intent-filter>
+                <action android:name="com.google.android.settings.warranty.SUW_DIGITAL_WARRANTY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/vpn_app_bypass" android:launchMode="singleTask" android:name="com.google.android.settings.vpn2.AppBypassActivity" android:permission="com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH" android:screenOrientation="behind" android:theme="@style/VpnSettingsTheme">
+            <intent-filter>
+                <action android:name="com.google.android.settings.action.LAUNCH_VPN_APP_EXCLUSION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.google.android.settings.notification.ClearCallingSettingsActivity">
+            <intent-filter>
+                <action android:name="com.google.android.settings.notification.CLEAR_CALLING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.notification.ClearCallingSettings"/>
         </activity>
         <provider android:authorities="com.google.android.settings.external" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.settings.external.ExternalSettingsProvider"/>
         <receiver android:exported="true" android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver" android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS">
@@ -142,7 +205,15 @@
                 <action android:name="settings.intelligence.battery.action.CLEAR_BATTERY_CACHE_DATA"/>
             </intent-filter>
         </receiver>
+        <receiver android:exported="true" android:name="com.google.android.settings.vpn2.AppBypassBroadcastReceiver" android:permission="com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH">
+            <intent-filter>
+                <action android:name="com.google.android.settings.action.REMOVE_UNINSTALLED_APP"/>
+                <action android:name="com.google.android.settings.action.UPDATE_PREDEFINED_APP_EXCLUSION_LIST"/>
+            </intent-filter>
+        </receiver>
         <service android:exported="false" android:name="com.google.android.settings.fuelgauge.BatteryUsageLoaderService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":usage_data_loader"/>
+        <service android:exported="false" android:name="com.google.android.settings.setup.dock.DockSetupSnoozeService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.google.android.settings.AdvancedVpnContentProvider" android:exported="true" android:multiprocess="false" android:name="com.google.android.settings.vpn2.AdvancedVpnContentProvider" android:permission="com.google.android.wildlife.permission.ADVANCED_VPN_CONFIG"/>
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.libraries.hats20.SurveyPromptActivity" android:theme="@style/HatsLibPromptTheme" android:windowSoftInputMode="adjustPan"/>
         <receiver android:enabled="true" android:exported="true" android:name="com.google.android.wifitrackerlib.WsuPostProvisioningReceiver" android:permission="android.permission.NETWORK_CARRIER_PROVISIONING">
             <intent-filter>
