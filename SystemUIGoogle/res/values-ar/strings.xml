@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">عدم السماح</string>
     <string name="columbus_target_request_dialog_summary">انقر مرتين على ظهر الهاتف لفتح %1$s. يمكنك تغيير هذا في أي وقت من خلال الإعدادات.</string>
     <string name="columbus_target_request_dialog_title">هل تريد السماح لإيماءة \"النقرة السريعة\" بفتح %1$s؟</string>
-    <string name="copied_text_label">النص المنسوخ</string>
-    <string name="copy_url_description">تم نسخ النص.</string>
-    <string name="defender_notify_des">سيتم شحن هاتفك حتّى نسبة معيّنة للمساعدة في الحفاظ على سلامة البطارية.</string>
+    <string name="defender_notify_des">حماية البطارية لإطالة عمرها</string>
     <string name="defender_notify_resume_charge">استئناف الشحن</string>
-    <string name="defender_notify_title">الشحن محدود مؤقتًا</string>
-    <string name="defender_post_notify_des">تم ضبط نسبة الشحن على %1$s من %2$s إلى %3$s للحفاظ على سلامة البطارية.</string>
-    <string name="defender_post_notify_title">الشحن بطريقة عادية</string>
+    <string name="defender_notify_title">تم إيقاف الشحن مؤقتًا</string>
+    <string name="defender_post_notify_des">تم إيقاف الشحن مؤقتًا من الساعة %1$s إلى الساعة %2$s لإطالة عمر البطارية.</string>
+    <string name="defender_post_notify_title">تم استئناف الشحن</string>
     <string name="dock_a11y_action_show_photo_text">عرض إطار الصور</string>
+    <string name="dock_defender_notify_des">للحفاظ على البطارية، يتم إيقاف شحنها مؤقتًا عند وصول نسبة الشحن إلى %1$s بينما يكون الجهاز اللوحي في وضع الإرساء.</string>
     <string name="dock_photo_preview_text">جارٍ بدء إطار الصور...</string>
     <string name="dock_promo_text">مرّر سريعًا لليمين للوصول إلى إطار الصور.</string>
     <string name="dream_settings_notification_text">تخصيص شاشة الاستراحة</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s، %2$s</string>
     <string name="handle_invocation_prompt">مرّر سريعًا للتحدّث.</string>
     <string name="home_controls_tile_title">الرئيسية</string>
-    <string name="image_content_description">صورة يمكن اختيارها.</string>
     <string name="keyguard_indication_trust_unlocked">‏فتح القفل باستمرار بواسطة Smart Lock</string>
     <string name="low_battery_label">طاقة البطارية منخفضة</string>
-    <string name="no_content_in_select_mode">ما مِن نص لتحديده أو صورة لاختيارها.</string>
     <string name="quick_settings_rotation_posture_folded">مطوي</string>
     <string name="quick_settings_rotation_posture_unfolded">غير مطوي</string>
     <string name="reverse_charging_device_name_text">‏هاتف Pixel الآخر</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ميزة \"مشاركة البطارية\" مفعَّلة</string>
     <string name="reverse_charging_title">مشاركة البطارية</string>
     <string name="saver_confirmation_dialog_text">سيؤدي استخدام ميزة \"توفير البطارية العالي\" إلى إيقاف معظم التطبيقات والإشعارات مؤقَّتًا.</string>
-    <string name="selectable_url_description">عنوان URL قابل للاختيار</string>
     <string name="severe_low_battery_dialog_checkbox_title">لا تسألني مرة أخرى</string>
     <string name="severe_low_battery_dialog_text">يتبقى لديك %s من شحن البطارية. سيؤدي استخدام ميزة \"توفير البطارية العالي\" إلى إيقاف معظم التطبيقات والإشعارات مؤقَّتًا.</string>
     <string name="severe_low_battery_dialog_title">هل تريد تفعيل ميزة \"توفير البطارية العالي\"؟</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d أيضًا</string>
     <string name="squeeze_invocation_prompt">يمكنك الضغط للتحدث</string>
     <string name="too_hot_label">‏درجة حرارة هاتف Pixel مرتفعة جدًا.</string>
-    <string name="url_menu_copy">نسخ</string>
-    <string name="url_menu_share">مشاركة</string>
     <string name="voice_reply_cta_text">‏\"Ok Google، أريد الردّ\"</string>
     <string name="voice_reply_quick_phrase_cta_text">قل \"الردّ\".</string>
     <string name="wireless_charging_label">جارٍ الشحن لاسلكيًا</string>

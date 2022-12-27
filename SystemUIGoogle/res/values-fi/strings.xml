@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Älä salli</string>
     <string name="columbus_target_request_dialog_summary">Avaa %1$s napauttamalla puhelimen takaosaa kaksi kertaa. Voit vaihtaa valintasi milloin tahansa asetuksista.</string>
     <string name="columbus_target_request_dialog_title">Voidaanko %1$s avata pikanäpäytyksellä?</string>
-    <string name="copied_text_label">Kopioitu teksti</string>
-    <string name="copy_url_description">Teksti kopioitu</string>
-    <string name="defender_notify_des">Puhelimesi rajoittaa latausta, jotta akku pysyy hyvässä kunnossa</string>
+    <string name="defender_notify_des">Akkua suojataan, jotta se kestäisi pidempään</string>
     <string name="defender_notify_resume_charge">Jatka lataamista</string>
-    <string name="defender_notify_title">Lataamista rajoitettu väliaikaisesti</string>
-    <string name="defender_post_notify_des">Lataus on rajoitettu %1$s:iin klo %2$s–%3$s, jotta akku pysyy hyvässä kunnossa</string>
-    <string name="defender_post_notify_title">Normaali lataus</string>
+    <string name="defender_notify_title">Lataus on keskeytetty</string>
+    <string name="defender_post_notify_des">Lataus oli keskeytettynä %1$s–%2$s, jotta akku kestäisi pidempään</string>
+    <string name="defender_post_notify_title">Lataus aloitettu uudelleen</string>
     <string name="dock_a11y_action_show_photo_text">Näytä kehykset</string>
+    <string name="dock_defender_notify_des">Akun suojaamiseksi lataaminen keskeytetään, kun virtaa on %1$s ja tablettisi on telakoitu</string>
     <string name="dock_photo_preview_text">Valokuvakehys käynnistyy…</string>
     <string name="dock_promo_text">Ota kehykset käyttöön pyyhkäisemällä vasemmalle</string>
     <string name="dream_settings_notification_text">Personoi näytönsäästäjä</string>
@@ -44,10 +43,8 @@ Kasvojentunnistusavauksen käyttämä kasvodata poistetaan pysyvästi ja turvall
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Pyyhkäise, niin voit puhua</string>
     <string name="home_controls_tile_title">Aloitusnäyttö</string>
-    <string name="image_content_description">Valittava kuva</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock pitää lukitusta avattuna</string>
     <string name="low_battery_label">Akku vähissä</string>
-    <string name="no_content_in_select_mode">Ei valittavaa tekstiä tai kuvaa</string>
     <string name="quick_settings_rotation_posture_folded">Taitettu</string>
     <string name="quick_settings_rotation_posture_unfolded">Taittamaton</string>
     <string name="reverse_charging_device_name_text">Muu Pixel</string>
@@ -55,7 +52,6 @@ Kasvojentunnistusavauksen käyttämä kasvodata poistetaan pysyvästi ja turvall
     <string name="reverse_charging_on_notification_title">Akunjako on päällä</string>
     <string name="reverse_charging_title">Akunjako</string>
     <string name="saver_confirmation_dialog_text">Akun tehosäästö keskeyttää useampia sovelluksia ja ilmoituksia.</string>
-    <string name="selectable_url_description">Valittavissa oleva URL-osoite</string>
     <string name="severe_low_battery_dialog_checkbox_title">Älä kysy uudestaan</string>
     <string name="severe_low_battery_dialog_text">Akkua jäljellä %s. Akun tehosäästö keskeyttää useimmat sovellukset ja ilmoitukset.</string>
     <string name="severe_low_battery_dialog_title">Laitetaanko akun tehosäästö päälle?</string>
@@ -67,8 +63,6 @@ Kasvojentunnistusavauksen käyttämä kasvodata poistetaan pysyvästi ja turvall
     <string name="smartspace_shopping_list_overflow">+ %1$d muuta</string>
     <string name="squeeze_invocation_prompt">Purista, niin voit puhua</string>
     <string name="too_hot_label">Pixel liian kuuma</string>
-    <string name="url_menu_copy">Kopioi</string>
-    <string name="url_menu_share">Jaa</string>
     <string name="voice_reply_cta_text">\"Hey Google, vastaa\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Sano \"Reply\"</string>
     <string name="wireless_charging_label">Ladataan langattomasti</string>

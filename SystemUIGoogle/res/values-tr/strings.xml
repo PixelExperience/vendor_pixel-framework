@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">İzin verme</string>
     <string name="columbus_target_request_dialog_summary">"%1$s uygulamasını açmak için telefonunuzun arkasına iki kez dokunun. İstediğiniz zaman bunu Ayarlar'dan değiştirebilirsiniz."</string>
     <string name="columbus_target_request_dialog_title">Hızlı Dokun özelliğinin %1$s uygulamasını açmasına izin verilsin mi?</string>
-    <string name="copied_text_label">Metin kopyalandı</string>
-    <string name="copy_url_description">Metin kopyalandı</string>
-    <string name="defender_notify_des">Telefonunuz pil sağlığını korumaya yardımcı olmak için şarjı sınırlandırmaktadır</string>
+    <string name="defender_notify_des">Pili koruyarak pil ömrünü uzatır</string>
     <string name="defender_notify_resume_charge">Şarja devam et</string>
-    <string name="defender_notify_title">Şarj etme geçici olarak sınırlı</string>
-    <string name="defender_post_notify_des">Pilinizi korumak için %2$s-%3$s saatleri arasında şarj kapasitesi %1$s ile sınırlandırılacaktır</string>
-    <string name="defender_post_notify_title">Normal olarak şarj oluyor</string>
+    <string name="defender_notify_title">Şarj işlemi duraklatıldı</string>
+    <string name="defender_post_notify_des">Şarj işlemi, pil ömrünü uzatmak için %1$s - %2$s arasında duraklatıldı</string>
+    <string name="defender_post_notify_title">Şarj işlemi devam ettirildi</string>
     <string name="dock_a11y_action_show_photo_text">Fotoğraf çerçevesi göster</string>
+    <string name="dock_defender_notify_des">Pilinizi korumak için, tabletiniz yuvadayken şarj işlemi %1$s seviyesinde duraklatıldı</string>
     <string name="dock_photo_preview_text">Fotoğraf çerçevesi başlıyor...</string>
     <string name="dock_promo_text">Fotoğraf çerçevesi için sola kaydırın</string>
     <string name="dream_settings_notification_text">Ekran koruyucunuzu özelleştirin</string>
@@ -44,10 +43,8 @@ Yüz tanıma kilidinin kullandığı yüz verileri güvenli bir şekilde kalıc�
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Konuşmak için kaydırın</string>
     <string name="home_controls_tile_title">Ana ekran</string>
-    <string name="image_content_description">Seçilebilir resim</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock ile kilitli tutun</string>
     <string name="low_battery_label">Pil seviyesi düşük</string>
-    <string name="no_content_in_select_mode">Seçilecek metin veya resim yok</string>
     <string name="quick_settings_rotation_posture_folded">katlanmış</string>
     <string name="quick_settings_rotation_posture_unfolded">katlanmamış</string>
     <string name="reverse_charging_device_name_text">Diğer Pixel</string>
@@ -55,7 +52,6 @@ Yüz tanıma kilidinin kullandığı yüz verileri güvenli bir şekilde kalıc�
     <string name="reverse_charging_on_notification_title">Pil Paylaşımı açık</string>
     <string name="reverse_charging_title">Pil Paylaşımı</string>
     <string name="saver_confirmation_dialog_text">Ekstra Pil Tasarrufu çoğu uygulamayı ve bildirimi duraklatır.</string>
-    <string name="selectable_url_description">Seçilebilir URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Tekrar sorma</string>
     <string name="severe_low_battery_dialog_text">%s piliniz kaldı. Ekstra Pil Tasarrufu çoğu uygulamayı ve bildirimi duraklatır.</string>
     <string name="severe_low_battery_dialog_title">Ekstra Pil Tasarrufu açılsın mı?</string>
@@ -67,8 +63,6 @@ Yüz tanıma kilidinin kullandığı yüz verileri güvenli bir şekilde kalıc�
     <string name="smartspace_shopping_list_overflow">+ %1$d tane daha</string>
     <string name="squeeze_invocation_prompt">Konuşmak için sıkın</string>
     <string name="too_hot_label">Pixel çok sıcak</string>
-    <string name="url_menu_copy">Kopyala</string>
-    <string name="url_menu_share">Paylaş</string>
     <string name="voice_reply_cta_text">“Ok Google, yanıtla”</string>
     <string name="voice_reply_quick_phrase_cta_text">\"Yanıtla\" deyin</string>
     <string name="wireless_charging_label">Kablosuz şarj oluyor</string>

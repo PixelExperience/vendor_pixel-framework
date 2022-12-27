@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Nie zezwalaj</string>
     <string name="columbus_target_request_dialog_summary">Kliknij dwukrotnie tylną część telefonu, aby otworzyć aplikację %1$s. Możesz to zmienić w dowolnym momencie w Ustawieniach.</string>
     <string name="columbus_target_request_dialog_title">Zezwolić na otwieranie aplikacji %1$s dwukrotnym dotknięciem?</string>
-    <string name="copied_text_label">Skopiowany tekst</string>
-    <string name="copy_url_description">Skopiowano tekst</string>
-    <string name="defender_notify_des">Telefon ogranicza ładowanie, aby pomóc wydłużyć żywotność baterii</string>
+    <string name="defender_notify_des">Oszczędzam baterię, aby przedłużyć jej żywotność</string>
     <string name="defender_notify_resume_charge">Wznów ładowanie</string>
-    <string name="defender_notify_title">Ładowanie tymczasowo ograniczone</string>
-    <string name="defender_post_notify_des">Ładowanie było ograniczone do %1$s od %2$s do %3$s, aby wydłużyć żywotność baterii</string>
-    <string name="defender_post_notify_title">Normalne ładowanie</string>
+    <string name="defender_notify_title">Ładowanie zostało wstrzymane</string>
+    <string name="defender_post_notify_des">Wstrzymano ładowanie w okresie %1$s – %2$s, aby przedłużyć żywotność baterii</string>
+    <string name="defender_post_notify_title">Wznowiono ładowanie</string>
     <string name="dock_a11y_action_show_photo_text">Pokaż ramkę na zdjęcia</string>
+    <string name="dock_defender_notify_des">Ze względu na ochronę baterii ładowanie jest wstrzymywane na poziomie %1$s, gdy postawisz tablet na stacji dokującej</string>
     <string name="dock_photo_preview_text">Uruchamiam Ramkę na zdjęcia...</string>
     <string name="dock_promo_text">Przesuń w lewo, by wyświetlić ramkę na zdjęcia</string>
     <string name="dream_settings_notification_text">Dostosuj wygaszacz ekranu</string>
@@ -44,10 +43,8 @@ Dane używane przez rozpoznawanie zostaną trwale i bezpiecznie skasowane. Po us
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Przesuń, by porozmawiać</string>
     <string name="home_controls_tile_title">Ekran główny</string>
-    <string name="image_content_description">Obraz do wyboru</string>
     <string name="keyguard_indication_trust_unlocked">Blokada anulowana przez Smart Lock</string>
     <string name="low_battery_label">Słaba bateria</string>
-    <string name="no_content_in_select_mode">Brak tekstu lub obrazu do wyboru</string>
     <string name="quick_settings_rotation_posture_folded">złożone</string>
     <string name="quick_settings_rotation_posture_unfolded">rozłożone</string>
     <string name="reverse_charging_device_name_text">Inny telefon Pixel</string>
@@ -55,7 +52,6 @@ Dane używane przez rozpoznawanie zostaną trwale i bezpiecznie skasowane. Po us
     <string name="reverse_charging_on_notification_title">Włączono współdzielenie baterii</string>
     <string name="reverse_charging_title">Współdzielenie baterii</string>
     <string name="saver_confirmation_dialog_text">Maksymalne oszczędzanie baterii wstrzyma większość aplikacji i powiadomień.</string>
-    <string name="selectable_url_description">Adres URL dostępny do wybrania</string>
     <string name="severe_low_battery_dialog_checkbox_title">Nie pytaj ponownie</string>
     <string name="severe_low_battery_dialog_text">Masz już tylko %s baterii. Maksymalne oszczędzanie baterii wstrzyma większość aplikacji i powiadomień.</string>
     <string name="severe_low_battery_dialog_title">Włączyć Maksymalne oszczędzanie baterii?</string>
@@ -67,8 +63,6 @@ Dane używane przez rozpoznawanie zostaną trwale i bezpiecznie skasowane. Po us
     <string name="smartspace_shopping_list_overflow">i jeszcze %1$d</string>
     <string name="squeeze_invocation_prompt">Ściśnij, by porozmawiać</string>
     <string name="too_hot_label">Pixel za bardzo się nagrzał</string>
-    <string name="url_menu_copy">Kopiuj</string>
-    <string name="url_menu_share">Udostępnij</string>
     <string name="voice_reply_cta_text">„OK Google, odpowiedz”</string>
     <string name="voice_reply_quick_phrase_cta_text">Powiedz „Odpowiedz”</string>
     <string name="wireless_charging_label">Ładowanie bezprzewodowe</string>

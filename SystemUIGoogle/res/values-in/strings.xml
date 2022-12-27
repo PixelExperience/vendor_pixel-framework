@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Jangan izinkan</string>
     <string name="columbus_target_request_dialog_summary">Ketuk bagian belakang ponsel dua kali untuk membuka %1$s. Anda dapat mengubahnya kapan saja di Setelan.</string>
     <string name="columbus_target_request_dialog_title">Izinkan Ketuk Cepat untuk membuka %1$s?</string>
-    <string name="copied_text_label">Teks disalin</string>
-    <string name="copy_url_description">Teks disalin</string>
-    <string name="defender_notify_des">Ponsel Anda membatasi pengisian daya untuk membantu menjaga kesehatan baterai</string>
+    <string name="defender_notify_des">Melindungi baterai untuk memperpanjang masa pakai baterai</string>
     <string name="defender_notify_resume_charge">Lanjutkan pengisian daya</string>
-    <string name="defender_notify_title">Pengisian daya dibatasi sementara</string>
-    <string name="defender_post_notify_des">Pengisian daya dibatasi hingga %1$s mulai %2$s sampai %3$s untuk menjaga kesehatan baterai</string>
-    <string name="defender_post_notify_title">Mengisi daya secara normal</string>
+    <string name="defender_notify_title">Pengisian daya dijeda</string>
+    <string name="defender_post_notify_des">Pengisian daya dijeda dari %1$s‐%2$s untuk memperpanjang masa pakai baterai</string>
+    <string name="defender_post_notify_title">Pengisian daya dilanjutkan</string>
     <string name="dock_a11y_action_show_photo_text">Tampilkan bingkai foto</string>
+    <string name="dock_defender_notify_des">Untuk melindungi baterai, pengisian daya dijeda pada %1$s saat tablet dipasang ke dok</string>
     <string name="dock_photo_preview_text">Bingkai foto dimulai...</string>
     <string name="dock_promo_text">Geser ke kiri untuk bingkai foto</string>
     <string name="dream_settings_notification_text">Sesuaikan screensaver Anda</string>
@@ -44,10 +43,8 @@ Data wajah yang digunakan oleh face unlock akan dihapus secara permanen dan aman
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Geser untuk bicara</string>
     <string name="home_controls_tile_title">Beranda</string>
-    <string name="image_content_description">Gambar yang dapat dipilih</string>
     <string name="keyguard_indication_trust_unlocked">Tetap tidak dikunci oleh Smart Lock</string>
     <string name="low_battery_label">Daya baterai lemah</string>
-    <string name="no_content_in_select_mode">Tidak ada teks atau gambar untuk dipilih</string>
     <string name="quick_settings_rotation_posture_folded">dilipat</string>
     <string name="quick_settings_rotation_posture_unfolded">dibentangkan</string>
     <string name="reverse_charging_device_name_text">Pixel Lain</string>
@@ -55,7 +52,6 @@ Data wajah yang digunakan oleh face unlock akan dihapus secara permanen dan aman
     <string name="reverse_charging_on_notification_title">Berbagi Baterai aktif</string>
     <string name="reverse_charging_title">Berbagi Baterai</string>
     <string name="saver_confirmation_dialog_text">Penghemat Baterai Super akan menjeda sebagian besar aplikasi dan notifikasi.</string>
-    <string name="selectable_url_description">URL yang dapat dipilih</string>
     <string name="severe_low_battery_dialog_checkbox_title">Jangan tanya lagi</string>
     <string name="severe_low_battery_dialog_text">Daya baterai tersisa %s. Penghemat Baterai Super akan menjeda sebagian besar aplikasi dan notifikasi.</string>
     <string name="severe_low_battery_dialog_title">Aktifkan Penghemat Baterai Super?</string>
@@ -67,8 +63,6 @@ Data wajah yang digunakan oleh face unlock akan dihapus secara permanen dan aman
     <string name="smartspace_shopping_list_overflow">+%1$d lainnya</string>
     <string name="squeeze_invocation_prompt">Tekan kedua sisi secara bersamaan untuk berbicara</string>
     <string name="too_hot_label">Pixel terlalu panas</string>
-    <string name="url_menu_copy">Salin</string>
-    <string name="url_menu_share">Bagikan</string>
     <string name="voice_reply_cta_text">“Ok Google, balas”</string>
     <string name="voice_reply_quick_phrase_cta_text">Ucapkan “Balas”</string>
     <string name="wireless_charging_label">Mengisi daya secara nirkabel</string>

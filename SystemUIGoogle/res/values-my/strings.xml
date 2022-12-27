@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">ခွင့်မပြုပါ</string>
     <string name="columbus_target_request_dialog_summary">%1$s ဖွင့်ရန် သင့်ဖုန်း၏နောက်ဘက်ကို နှစ်ချက်တို့ပါ။ ၎င်းကို ဆက်တင်များတွင် အချိန်မရွေး ပြောင်းနိုင်သည်။</string>
     <string name="columbus_target_request_dialog_title">%1$s ဖွင့်ရန် ‘အမြန်တို့’ ကို ခွင့်ပြုမလား။</string>
-    <string name="copied_text_label">မိတ္တူကူးထားသော စာသား</string>
-    <string name="copy_url_description">စာသားကို မိတ္တူကူးပြီးပါပြီ</string>
-    <string name="defender_notify_des">ဘက်ထရီသက်တမ်း ကြာရှည်ခံနိုင်စေရန် သင့်ဖုန်းက အားသွင်းခြင်းကို ကန့်သတ်ထားသည်</string>
+    <string name="defender_notify_des">သက်တမ်းကြာရှည်စေရန် ဘက်ထရီကို ကာကွယ်ပေးခြင်း</string>
     <string name="defender_notify_resume_charge">ဆက်အားသွင်းရန်</string>
-    <string name="defender_notify_title">အားသွင်းခြင်းကို လောလောဆယ် ကန့်သတ်ထားသည်</string>
-    <string name="defender_post_notify_des">ဘက်ထရီသက်တမ်း ပိုကြာစေရန် %2$s မှ %3$s အတွင်း %1$s အထိသာ အားသွင်းပါမည်</string>
-    <string name="defender_post_notify_title">ပုံမှန်အားသွင်းနေသည်</string>
+    <string name="defender_notify_title">အားသွင်းခြင်းကို ခဏရပ်ထားသည်</string>
+    <string name="defender_post_notify_des">ဘက်ထရီသက်တမ်း ကြာရှည်စေရန် %1$s မှ %2$s အထိ အားသွင်းခြင်းကို ခဏရပ်ထားသည်</string>
+    <string name="defender_post_notify_title">အားသွင်းခြင်းကို ဆက်လုပ်သည်</string>
     <string name="dock_a11y_action_show_photo_text">ဓာတ်ပုံဖရိမ် ပြရန်</string>
+    <string name="dock_defender_notify_des">သင့်တက်ဘလက်ကို တပ်ဆင်ထားချိန်တွင် ဘက်ထရီအား ကာကွယ်ရန် အားသွင်းခြင်းကို %1$s ၌ ခဏရပ်ထားသည်</string>
     <string name="dock_photo_preview_text">ဓာတ်ပုံဖရိမ် စတင်နေသည်...</string>
     <string name="dock_promo_text">ဓာတ်ပုံဖရိမ်အတွက် ဘယ်သို့ပွတ်ဆွဲပါ</string>
     <string name="dream_settings_notification_text">သင့်ဖန်သားပြင်ချွေတာစနစ်ကို စိတ်ကြိုက်လုပ်ပါ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s၊ %2$s</string>
     <string name="handle_invocation_prompt">စကားပြောရန် ပွတ်ဆွဲပါ</string>
     <string name="home_controls_tile_title">ပင်မစာမျက်နှာ</string>
-    <string name="image_content_description">ရွေးချယ်နိုင်သည့် ပုံ</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock က ဆက်ဖွင့်ပေးထားသည်</string>
     <string name="low_battery_label">ဘက်ထရီ အားနည်းနေသည်</string>
-    <string name="no_content_in_select_mode">ရွေးချယ်ရန် စာသား သို့မဟုတ် ပုံ မရှိပါ</string>
     <string name="quick_settings_rotation_posture_folded">ခေါက်ထားသည်</string>
     <string name="quick_settings_rotation_posture_unfolded">ခေါက်မထားပါ</string>
     <string name="reverse_charging_device_name_text">အခြား Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">"'ဘက်ထရီမျှဝေခြင်း' ကို ဖွင့်ထားသည်"</string>
     <string name="reverse_charging_title">ဘက်ထရီ မျှဝေခြင်း</string>
     <string name="saver_confirmation_dialog_text">‘လွန်ကဲ ဘက်ထရီအားထိန်း’ က အက်ပ်နှင့် အကြောင်းကြားချက်အများစုကို ခဏရပ်ပါမည်။</string>
-    <string name="selectable_url_description">ရွေးချယ်နိုင်သော URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">ထပ်မမေးပါနှင့်</string>
     <string name="severe_low_battery_dialog_text">သင့်တွင် ဘက်ထရီ %s ကျန်သည်။ ‘လွန်ကဲ ဘက်ထရီအားထိန်း’ က အက်ပ်နှင့် အကြောင်းကြားချက်အများစုကို ခဏရပ်ပါမည်။</string>
     <string name="severe_low_battery_dialog_title">‘လွန်ကဲ ဘက်ထရီအားထိန်း’ ဖွင့်မလား။</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">နောက်ထပ် + %1$d ခု</string>
     <string name="squeeze_invocation_prompt">စကားပြောရန် ဖျစ်ညှစ်ပါ</string>
     <string name="too_hot_label">Pixel အလွန်ပူနေသည်</string>
-    <string name="url_menu_copy">မိတ္တူကူးရန်</string>
-    <string name="url_menu_share">မျှဝေရန်</string>
     <string name="voice_reply_cta_text">“OK Google၊ စာပြန်ပါ”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Reply” ဟု ပြောပါ</string>
     <string name="wireless_charging_label">ကြိုးမဲ့ အားသွင်းနေသည်</string>

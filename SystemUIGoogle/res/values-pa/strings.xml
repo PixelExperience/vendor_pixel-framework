@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">ਆਗਿਆ ਨਾ ਦਿਓ</string>
     <string name="columbus_target_request_dialog_summary">%1$s ਐਪ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਆਪਣੇ ਫ਼ੋਨ ਦੇ ਪਿਛਲੇ ਪਾਸੇ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ। ਤੁਸੀਂ ਕਿਸੇ ਵੇਲੇ ਵੀ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਇਸਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ।</string>
     <string name="columbus_target_request_dialog_title">ਕੀ ਕਵਿੱਕ ਟੈਪ ਨੂੰ %1$s ਖੋਲ੍ਹਣ ਦੀ ਆਗਿਆ ਦੇਣੀ ਹੈ?</string>
-    <string name="copied_text_label">ਕਾਪੀ ਕੀਤੀ ਗਈ ਲਿਖਤ</string>
-    <string name="copy_url_description">ਲਿਖਤ ਕਾਪੀ ਕੀਤੀ ਗਈ</string>
-    <string name="defender_notify_des">ਬੈਟਰੀ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੂੰ ਕੁਝ ਸਮੇਂ ਲਈ ਚਾਰਜ ਨਹੀਂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
+    <string name="defender_notify_des">ਬੈਟਰੀ ਦੀ ਜੀਵਨ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਲਈ ਬੈਟਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ</string>
     <string name="defender_notify_resume_charge">ਚਾਰਜਿੰਗ ਮੁੜ-ਚਾਲੂ ਕਰੋ</string>
-    <string name="defender_notify_title">ਚਾਰਜਿੰਗ ਕੁਝ ਸਮੇਂ ਲਈ ਰੋਕੀ ਗਈ</string>
-    <string name="defender_post_notify_des">"ਬੈਟਰੀ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ, %2$s ਤੋਂ %3$s ਤੱਕ ਚਾਰਜਿੰਗ ਨੂੰ %1$s 'ਤੇ ਸੀਮਤ ਕੀਤਾ ਗਿਆ"</string>
-    <string name="defender_post_notify_title">ਆਮ ਵਾਂਗ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ</string>
+    <string name="defender_notify_title">ਚਾਰਜਿੰਗ ਨੂੰ ਰੋਕਿਆ ਗਿਆ ਹੈ</string>
+    <string name="defender_post_notify_des">ਬੈਟਰੀ ਦੀ ਜੀਵਨ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਲਈ ਚਾਰਜਿੰਗ ਨੂੰ %1$s‐%2$s ਤੱਕ ਰੋਕਿਆ ਗਿਆ</string>
+    <string name="defender_post_notify_title">ਚਾਰਜਿੰਗ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਗਿਆ</string>
     <string name="dock_a11y_action_show_photo_text">ਫ਼ੋਟੋ ਫਰੇਮ ਦਿਖਾਓ</string>
+    <string name="dock_defender_notify_des">"ਤੁਹਾਡੀ ਬੈਟਰੀ ਦੀ ਸੁਰੱਖਿਆ ਕਰਨ ਲਈ, ਤੁਹਾਡੇ ਟੈਬਲੈੱਟ ਦੇ ਡੌਕ ਹੋਣ ਦੌਰਾਨ ਚਾਰਜਿੰਗ ਨੂੰ %1$s 'ਤੇ ਰੋਕਿਆ ਗਿਆ ਹੈ"</string>
     <string name="dock_photo_preview_text">ਫ਼ੋਟੋ ਫਰੇਮ ਨੂੰ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</string>
     <string name="dock_promo_text">ਫ਼ੋਟੋ ਫਰੇਮ ਲਈ ਖੱਬੇ ਪਾਸੇ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="dream_settings_notification_text">ਆਪਣੇ ਸਕ੍ਰੀਨ ਸੇਵਰ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">ਗੱਲ ਕਰਨ ਲਈ ਸਵਾਈਪ ਕਰੋ</string>
     <string name="home_controls_tile_title">ਘਰ</string>
-    <string name="image_content_description">ਚੁਣਨਯੋਗ ਚਿੱਤਰ</string>
     <string name="keyguard_indication_trust_unlocked">ਸਮਾਰਟ ਲਾਕ ਨੇ ਅਣਲਾਕ ਕਰਕੇ ਰੱਖਿਆ</string>
     <string name="low_battery_label">ਬੈਟਰੀ ਘੱਟ ਹੈ</string>
-    <string name="no_content_in_select_mode">ਚੁਣਨ ਲਈ ਕੋਈ ਲਿਖਤ ਜਾਂ ਚਿੱਤਰ ਨਹੀਂ ਹੈ</string>
     <string name="quick_settings_rotation_posture_folded">ਮੋੜਨਯੋਗ ਡੀਵਾਈਸ</string>
     <string name="quick_settings_rotation_posture_unfolded">ਨਾ-ਮੋੜਨਯੋਗ ਡੀਵਾਈਸ</string>
     <string name="reverse_charging_device_name_text">ਹੋਰ Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ਬੈਟਰੀ ਸ਼ੇਅਰ ਚਾਲੂ ਹੈ</string>
     <string name="reverse_charging_title">ਬੈਟਰੀ ਸ਼ੇਅਰ</string>
     <string name="saver_confirmation_dialog_text">ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ ਜ਼ਿਆਦਾਤਰ ਐਪਾਂ ਅਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਰੋਕ ਦੇਵੇਗਾ।</string>
-    <string name="selectable_url_description">ਚੁਣਨਯੋਗ URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">ਦੁਬਾਰਾ ਨਾ ਪੁੱਛੋ</string>
     <string name="severe_low_battery_dialog_text">ਤੁਹਾਡੇ ਕੋਲ %s ਬੈਟਰੀ ਬਾਕੀ ਬਚੀ ਹੈ। ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ ਜ਼ਿਆਦਾਤਰ ਐਪਾਂ ਅਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਰੋਕ ਦੇਵੇਗਾ।</string>
     <string name="severe_low_battery_dialog_title">ਕੀ ਐਕਸਟ੍ਰੀਮ ਬੈਟਰੀ ਸੇਵਰ ਨੂੰ ਚਾਲੂ ਕਰਨਾ ਹੈ?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d ਹੋਰ</string>
     <string name="squeeze_invocation_prompt">ਗੱਲ ਕਰਨ ਲਈ ਘੁੱਟੋ</string>
     <string name="too_hot_label">Pixel ਬਹੁਤ ਗਰਮ ਹੈ</string>
-    <string name="url_menu_copy">ਕਾਪੀ ਕਰੋ</string>
-    <string name="url_menu_share">ਸਾਂਝਾ ਕਰੋ</string>
     <string name="voice_reply_cta_text">“Ok Google, ਜਵਾਬ ਦਿਓ”</string>
     <string name="voice_reply_quick_phrase_cta_text">“ਜਵਾਬ ਦਿਓ” ਕਹੋ</string>
     <string name="wireless_charging_label">ਬਿਨਾਂ ਤਾਰ ਤੋਂ ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ</string>

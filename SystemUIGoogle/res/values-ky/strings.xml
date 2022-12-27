@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Тыюу салуу</string>
     <string name="columbus_target_request_dialog_summary">%1$s ачуу үчүн телефонуңуздун аркасын эки жолу басыңыз. Бул функциянын параметрлерин \"Жөндөөлөр\" бөлүмүнөн өзгөртө аласыз.</string>
     <string name="columbus_target_request_dialog_title">%1$s колдонмосун ачуу үчүн тез баскылоо функциясын иштетесизби?</string>
-    <string name="copied_text_label">Текст көчүрүлдү</string>
-    <string name="copy_url_description">Текст көчүрүлдү</string>
-    <string name="defender_notify_des">Батареяны көбүрөөк убакытка жеткирүү үчүн телефонуңуз кубатты чектеп жатат</string>
+    <string name="defender_notify_des">Кубат үнөмдөлсө, батарея көбүрөөк убакытка жетет</string>
     <string name="defender_notify_resume_charge">Кубаттоону улантуу</string>
-    <string name="defender_notify_title">Кубаттоо убактылуу чектелген</string>
-    <string name="defender_post_notify_des">Батареяны көбүрөөк убакытка жеткирүү үчүн саат %2$s баштап, %3$s чейин кубаттоо %1$s менен чектелди</string>
-    <string name="defender_post_notify_title">Кадимкидей кубатталууда</string>
+    <string name="defender_notify_title">Кубаттоо тындырылды</string>
+    <string name="defender_post_notify_des">Батарея көбүрөөк убакытка жетиши үчүн кубаттоо процесси саат %1$s—%2$s чейин тындырылды</string>
+    <string name="defender_post_notify_title">Кубаттоо улантылды</string>
     <string name="dock_a11y_action_show_photo_text">Фото алкакты көрүү</string>
+    <string name="dock_defender_notify_des">Планшет туташып турганда, батареяны коргоо үчүн кубаттоо %1$s жеткенде тындырылат</string>
     <string name="dock_photo_preview_text">Фото алкак ишке киргизилүүдө...</string>
     <string name="dock_promo_text">Фото алкакты көрүү үчүн экранды солго сүрүңүз</string>
     <string name="dream_settings_notification_text">Көшөгөнү ыңгайлаштыруу</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Жардамчыны иштетүү үчүн экранды сүрүңүз</string>
     <string name="home_controls_tile_title">Башкы бет</string>
-    <string name="image_content_description">Тандала турган сүрөт</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock кулпусун ачты</string>
     <string name="low_battery_label">Батареянын кубаты төмөн</string>
-    <string name="no_content_in_select_mode">Тандоо үчүн текст же сүрөт жок</string>
     <string name="quick_settings_rotation_posture_folded">бүктөлгөн</string>
     <string name="quick_settings_rotation_posture_unfolded">бүктөлгөн эмес</string>
     <string name="reverse_charging_device_name_text">Башка Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Батареяны бөлүшүү күйүк</string>
     <string name="reverse_charging_title">Батареяны бөлүшүү</string>
     <string name="saver_confirmation_dialog_text">Батареяны кескин үнөмдөө режими көбүнчө колдонмолор менен билдирмелерди тындырат.</string>
-    <string name="selectable_url_description">Тандала турган URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Экинчи суралбасын</string>
     <string name="severe_low_battery_dialog_text">Батареянын деңгээли: %s. Батареяны кескин үнөмдөө режими көбүнчө колдонмолор менен билдирмелерди тындырат.</string>
     <string name="severe_low_battery_dialog_title">Батареяны кескин үнөмдөө режими күйгүзүлсүнбү?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">дагы %1$d</string>
     <string name="squeeze_invocation_prompt">Сүйлөшүү үчүн кысыңыз</string>
     <string name="too_hot_label">Pixel өтө ысып кетти</string>
-    <string name="url_menu_copy">Көчүрүү</string>
-    <string name="url_menu_share">Бөлүшүү</string>
     <string name="voice_reply_cta_text">“Окей, Google, жооп бер”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Жооп бер” деп айтыңыз</string>
     <string name="wireless_charging_label">Зымсыз кубатталууда</string>

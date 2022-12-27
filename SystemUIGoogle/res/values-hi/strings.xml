@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">अनुमति न दें</string>
     <string name="columbus_target_request_dialog_summary">%1$s खोलने के लिए, अपने फ़ोन के पीछे वाले हिस्से पर दो बार टैप करें. सेटिंग में जाकर, इस विकल्प को कभी भी बदला जा सकता है.</string>
     <string name="columbus_target_request_dialog_title">क्या आप क्विक टैप को %1$s खोलने की अनुमति देना चाहते हैं?</string>
-    <string name="copied_text_label">कॉपी किया गया टेक्स्ट</string>
-    <string name="copy_url_description">टेक्स्ट को कॉपी किया गया</string>
-    <string name="defender_notify_des">बैटरी की परफ़ॉर्मेंस को बेहतर बनाने के लिए, आपका फ़ोन कुछ समय के लिए चार्ज नहीं हो रहा है</string>
+    <string name="defender_notify_des">बैटरी लाइफ़ को बढ़ाने के लिए, बैटरी बचाई जा रही है</string>
     <string name="defender_notify_resume_charge">चार्जिंग फिर से शुरू करें</string>
-    <string name="defender_notify_title">कुछ समय के लिए चार्जिंग रोक दी गई</string>
-    <string name="defender_post_notify_des">बैटरी की परफ़ॉर्मेंस को बेहतर बनाने के लिए %2$s से %3$s तक, चार्जिंग को %1$s पर रोका गया था</string>
-    <string name="defender_post_notify_title">सामान्य तरीके से चार्जिंग हो रही</string>
+    <string name="defender_notify_title">चार्जिंग को रोका गया है</string>
+    <string name="defender_post_notify_des">बैटरी लाइफ़ को बढ़ाने के लिए, चार्जिंग को %1$s-%2$s के बीच रोका गया था</string>
+    <string name="defender_post_notify_title">चार्जिंग दोबारा चालू की गई</string>
     <string name="dock_a11y_action_show_photo_text">फ़ोटो फ़्रेम दिखाएं</string>
+    <string name="dock_defender_notify_des">डॉक से जुड़े होने के दौरान, टैबलेट की बैटरी को सुरक्षित रखने के लिए, चार्जिंग को %1$s पर रोक दिया गया है</string>
     <string name="dock_photo_preview_text">फ़ोटो फ़्रेम शुरू हो रहा है...</string>
     <string name="dock_promo_text">फ़ोटो फ़्रेम के लिए बाईं ओर स्वाइप करें</string>
     <string name="dream_settings_notification_text">पसंद के मुताबिक अपना स्क्रीन सेवर बनाएं</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">बात करने के लिए स्वाइप करें</string>
     <string name="home_controls_tile_title">होम</string>
-    <string name="image_content_description">ऐसी इमेज जिसे चुना जा सकता है</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock की वजह से अनलॉक रखा गया है</string>
     <string name="low_battery_label">बैटरी कम है</string>
-    <string name="no_content_in_select_mode">चुनने के लिए कोई टेक्स्ट या इमेज मौजूद नहीं है</string>
     <string name="quick_settings_rotation_posture_folded">फ़ोल्ड किया जा सकने वाला डिवाइस</string>
     <string name="quick_settings_rotation_posture_unfolded">फ़ोल्ड नहीं किया जा सकने वाला डिवाइस</string>
     <string name="reverse_charging_device_name_text">दूसरा Pixel डिवाइस</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">बैटरी शेयर करने की सुविधा चालू है</string>
     <string name="reverse_charging_title">बैटरी शेयर करने की सुविधा</string>
     <string name="saver_confirmation_dialog_text">एक्स्ट्रीम बैटरी सेवर की सुविधा चालू होने पर, ज़्यादातर ऐप्लिकेशन और सूचनाएं रोक दी जाएंगी.</string>
-    <string name="selectable_url_description">ऐसा यूआरएल जिसे शेयर या कॉपी किया जा सकता है</string>
     <string name="severe_low_battery_dialog_checkbox_title">फिर से न पूछें</string>
     <string name="severe_low_battery_dialog_text">आपकी बैटरी %s बची है. एक्स्ट्रीम बैटरी सेवर की सुविधा चालू होने पर, ज़्यादातर ऐप्लिकेशन और सूचनाएं रोक दी जाएंगी.</string>
     <string name="severe_low_battery_dialog_title">क्या एक्स्ट्रीम बैटरी सेवर की सुविधा चालू करनी है?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d और</string>
     <string name="squeeze_invocation_prompt">बात करने के लिए किनारे दबाएं</string>
     <string name="too_hot_label">Pixel फ़ोन बहुत गर्म हो गया है</string>
-    <string name="url_menu_copy">कॉपी करें</string>
-    <string name="url_menu_share">शेयर करें</string>
     <string name="voice_reply_cta_text">“Ok Google” बोलें</string>
     <string name="voice_reply_quick_phrase_cta_text">\"जवाब दो\" बोलें</string>
     <string name="wireless_charging_label">वायरलेस तरीके से चार्ज किया जा रहा है</string>

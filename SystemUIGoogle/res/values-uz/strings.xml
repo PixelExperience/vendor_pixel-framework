@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Rad etish</string>
     <string name="columbus_target_request_dialog_summary">%1$s ilovasini ochish uchun telefonning orqa tomoniga ikki marta tegining. Buni istalgan vaqtda sozlamalardan oʻzgartirish mumkin.</string>
     <string name="columbus_target_request_dialog_title">%1$s ilovasini qisqa teginish yordamida ochishga ruxsat berilsinmi?</string>
-    <string name="copied_text_label">Matn nusxalandi</string>
-    <string name="copy_url_description">Matn nusxalandi</string>
-    <string name="defender_notify_des">Batareyaga ziyon yetkazmaslik uchun telefon quvvatlanishi cheklandi</string>
+    <string name="defender_notify_des">Batareyaning ishlash muddatini uzaytirish uchun batareyani himoya qilish</string>
     <string name="defender_notify_resume_charge">Davom ettirish</string>
-    <string name="defender_notify_title">Quvvatlash vaqtincha cheklangan</string>
-    <string name="defender_post_notify_des">Quvvatlash %2$s va %3$s orasida batareya yaroqliligini uzaytirish uchun %1$s ga cheklandi</string>
-    <string name="defender_post_notify_title">Odatiy quvvatlash</string>
+    <string name="defender_notify_title">Quvvatlash pauza qilindi</string>
+    <string name="defender_post_notify_des">Batareya ishlash muddatini oshirish uchun quvvatlash toʻxtatildi: %1$s – %2$s</string>
+    <string name="defender_post_notify_title">Quvvatlash davom ettirildi</string>
     <string name="dock_a11y_action_show_photo_text">Fotoramkani koʻrsatish</string>
+    <string name="dock_defender_notify_des">Planshet dokka joylanganda batareyani himoyalash maqsadida quvvatlanish %1$s holatida pauza qilindi</string>
     <string name="dock_photo_preview_text">Fotoramka yasalmoqda...</string>
     <string name="dock_promo_text">Fotoramkadan foydalanish uchun chapga suring</string>
     <string name="dream_settings_notification_text">Ekran lavhasini moslang</string>
@@ -44,10 +43,8 @@ Yuz bilan ochish funksiyasi tomonidan yozib olingan axborot butunlay va xavfsiz 
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Assistentni ochish uchun suring</string>
     <string name="home_controls_tile_title">Uy</string>
-    <string name="image_content_description">Tanlash mumkin boʻlgan rasm</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock tomonidan ochilgan</string>
     <string name="low_battery_label">Batareya quvvati kam</string>
-    <string name="no_content_in_select_mode">Tanlash uchun matn yoki rasm mavjud emas</string>
     <string name="quick_settings_rotation_posture_folded">buklangan</string>
     <string name="quick_settings_rotation_posture_unfolded">buklanmagan</string>
     <string name="reverse_charging_device_name_text">Boshqa Pixel</string>
@@ -55,7 +52,6 @@ Yuz bilan ochish funksiyasi tomonidan yozib olingan axborot butunlay va xavfsiz 
     <string name="reverse_charging_on_notification_title">Quvvat ulashish yoniq</string>
     <string name="reverse_charging_title">Quvvat ulashish</string>
     <string name="saver_confirmation_dialog_text">Batareyani qattiq tejash rejimi aksariyat ilova va bildirishnomalarni pauza qiladi.</string>
-    <string name="selectable_url_description">Belgilanadigan URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Boshqa soʻralmasin</string>
     <string name="severe_low_battery_dialog_text">%s quvvat qoldi. Batareyani qattiq tejash rejimi aksariyat ilova va bildirishnomalarni pauza qiladi.</string>
     <string name="severe_low_battery_dialog_title">Batareyani qattiq tejash rejimi yoqilsinmi?</string>
@@ -67,8 +63,6 @@ Yuz bilan ochish funksiyasi tomonidan yozib olingan axborot butunlay va xavfsiz 
     <string name="smartspace_shopping_list_overflow">+ %1$d ta</string>
     <string name="squeeze_invocation_prompt">Assistentni ishga tushirish uchun telefonni siqing</string>
     <string name="too_hot_label">Pixel juda qizib ketdi</string>
-    <string name="url_menu_copy">Nusxa olish</string>
-    <string name="url_menu_share">Ulashish</string>
     <string name="voice_reply_cta_text">“Ok Google, javob ber”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Javob” deb ayting</string>
     <string name="wireless_charging_label">Simsiz quvvat olmoqda</string>

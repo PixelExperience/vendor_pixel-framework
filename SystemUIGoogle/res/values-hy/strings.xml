@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Չթույլատրել</string>
     <string name="columbus_target_request_dialog_summary">Կրկնակի հպեք հեռախոսի հետևի կողմին՝ %1$s հավելվածը բացելու համար։ Այս գործառույթը ցանկացած ժամանակ կարող եք փոփոխել Կարգավորումներում։</string>
     <string name="columbus_target_request_dialog_title">Թույլատրե՞լ, որ %1$s հավելվածը բացվի կարճ հպումով</string>
-    <string name="copied_text_label">ՏԵքստը պատճենված է</string>
-    <string name="copy_url_description">Տեքստը պատճենվեց</string>
-    <string name="defender_notify_des">Հեռախոսը սահմանափակում է լիցքավորումը՝ մարտկոցի ծառայության ժամկետը երկարացնելու համար։</string>
+    <string name="defender_notify_des">Մարտկոցի պաշտպանություն՝ դրա ծառայության ժամկետը երկարացնելու համար</string>
     <string name="defender_notify_resume_charge">Վերսկսել լիցքավորումը</string>
-    <string name="defender_notify_title">Լիցքավորումը ժամանակավորապես սահմանափակված է</string>
-    <string name="defender_post_notify_des">Լիցքավորման մակարդակը %2$s - %3$s ժամանակահատվածի համար սահմանափակված է մինչև %1$s՝ մարտկոցի երկարակեցությունը ապահովելու նպատակով</string>
-    <string name="defender_post_notify_title">Սովորական լիցքավորում</string>
+    <string name="defender_notify_title">Լիցքավորումը դադարեցված է</string>
+    <string name="defender_post_notify_des">Լիցքավորումը ժամանակավորապես դադարեցվել է (%1$s – %2$s)՝ մարտկոցի ծառայության ժամկետը երկարացնելու համար</string>
+    <string name="defender_post_notify_title">Լիցքավորումը վերսկսվել է</string>
     <string name="dock_a11y_action_show_photo_text">Ցուցադրել ֆոտոշրջանակը</string>
+    <string name="dock_defender_notify_des">Մարտկոցը պաշտպանելու համար լիցքավորումը դադարեցվում է %1$s-ի մակարդակում, երբ պլանշետը տեղադրված է դոկ-կայանում</string>
     <string name="dock_photo_preview_text">Ֆոտոշրջանակը գործարկվում է…</string>
     <string name="dock_promo_text">Էկրանի վրա մատը սահեցրեք ձախ՝ ֆոտոշրջանակը կիրառելու համար</string>
     <string name="dream_settings_notification_text">Անհատականացրեք ձեր էկրանապահը</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Մատը սահեցրեք և խոսեք</string>
     <string name="home_controls_tile_title">Գլխավոր</string>
-    <string name="image_content_description">Պատկեր, որը հնարավոր է ընտրել</string>
     <string name="keyguard_indication_trust_unlocked">Ապակողպվում է Smart Lock-ի միջոցով</string>
     <string name="low_battery_label">Մարտկոցի լիցքը քիչ է</string>
-    <string name="no_content_in_select_mode">Ոչ մի տեքստ կամ պատկեր չի ընտրվի</string>
     <string name="quick_settings_rotation_posture_folded">ծալված</string>
     <string name="quick_settings_rotation_posture_unfolded">բացված</string>
     <string name="reverse_charging_device_name_text">Այլ Pixel սարք</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Մարտկոցի լիցքի փոխանցումը միացված է</string>
     <string name="reverse_charging_title">Մարտկոցի լիցքի փոխանցում</string>
     <string name="saver_confirmation_dialog_text">Հավելվածների և ծանուցումների մեծ մասը կդադարեցվի «Մարտկոցի առավելագույն տնտեսում» գործառույթի կողմից։</string>
-    <string name="selectable_url_description">URL, որը կարելի է պատճենել կամ ուղարկել</string>
     <string name="severe_low_battery_dialog_checkbox_title">Նորից չհարցնել</string>
     <string name="severe_low_battery_dialog_text">Մարտկոցի լիցքը՝ %s։ Հավելվածների և ծանուցումների մեծ մասը կդադարեցվի «Մարտկոցի առավելագույն տնտեսում» գործառույթի կողմից։</string>
     <string name="severe_low_battery_dialog_title">Միացնե՞լ մարտկոցի առավելագույն տնտեսումը</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">ու ևս %1$d</string>
     <string name="squeeze_invocation_prompt">Սեղմեք և խոսեք</string>
     <string name="too_hot_label">Pixel-ը գերտաքացած է</string>
-    <string name="url_menu_copy">Պատճենել</string>
-    <string name="url_menu_share">Կիսվել</string>
     <string name="voice_reply_cta_text">«Hey Google, reply» (Ok Google, պատասխանել)</string>
     <string name="voice_reply_quick_phrase_cta_text">Ասեք «Reply» (պատասխանիր)</string>
     <string name="wireless_charging_label">Անլար լիցքավորում</string>

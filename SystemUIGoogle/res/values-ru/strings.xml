@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Не разрешать</string>
     <string name="columbus_target_request_dialog_summary">Чтобы открыть приложение \"%1$s\", дважды коснитесь задней панели телефона. Этот параметр можно в любой момент изменить в настройках.</string>
     <string name="columbus_target_request_dialog_title">Разрешить использовать короткое касание для запуска приложения \"%1$s\"?</string>
-    <string name="copied_text_label">Скопированный текст</string>
-    <string name="copy_url_description">Текст скопирован</string>
-    <string name="defender_notify_des">Чтобы увеличить срок службы батареи, телефон ограничивает зарядку.</string>
+    <string name="defender_notify_des">Это поможет продлить срок службы батареи.</string>
     <string name="defender_notify_resume_charge">Продолжить зарядку</string>
-    <string name="defender_notify_title">Зарядка временно ограничена</string>
-    <string name="defender_post_notify_des">С %2$s до %3$s зарядка была ограничена до %1$s, чтобы продлить срок службы батареи.</string>
-    <string name="defender_post_notify_title">Зарядка в обычном режиме</string>
+    <string name="defender_notify_title">Зарядка приостановлена</string>
+    <string name="defender_post_notify_des">Она была приостановлена с %1$s до%2$s, чтобы продлить срок службы батареи.</string>
+    <string name="defender_post_notify_title">Зарядка возобновлена</string>
     <string name="dock_a11y_action_show_photo_text">Показать фоторамку</string>
+    <string name="dock_defender_notify_des">Если ваш планшет подключен к док-станции, его зарядка будет приостановлена, когда уровень заряда достигнет %1$s. Это нужно, чтобы увеличить срок службы аккумулятора.</string>
     <string name="dock_photo_preview_text">Запуск фоторамки…</string>
     <string name="dock_promo_text">Проведите по экрану влево, чтобы применить фоторамку.</string>
     <string name="dream_settings_notification_text">Измените вид заставки</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Проведите, чтобы запустить Ассистента</string>
     <string name="home_controls_tile_title">Главная</string>
-    <string name="image_content_description">Изображение, которое можно выбрать</string>
     <string name="keyguard_indication_trust_unlocked">Разблокировано с помощью Smart Lock</string>
     <string name="low_battery_label">Низкий заряд батареи.</string>
-    <string name="no_content_in_select_mode">Нет текста или изображения для выбора</string>
     <string name="quick_settings_rotation_posture_folded">устройство сложено</string>
     <string name="quick_settings_rotation_posture_unfolded">устройство разложено</string>
     <string name="reverse_charging_device_name_text">Другое устройство Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Передача заряда батареи включена</string>
     <string name="reverse_charging_title">Передача заряда батареи</string>
     <string name="saver_confirmation_dialog_text">В режиме экстренного энергосбережения большинство приложений и уведомлений приостанавливаются.</string>
-    <string name="selectable_url_description">Ссылка, которую можно скопировать или отправить</string>
     <string name="severe_low_battery_dialog_checkbox_title">Больше не спрашивать</string>
     <string name="severe_low_battery_dialog_text">Уровень заряда батареи: %s. В режиме экстренного энергосбережения большинство приложений и уведомлений приостанавливаются.</string>
     <string name="severe_low_battery_dialog_title">Включить режим экстренного энергосбережения?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">и ещё %1$d</string>
     <string name="squeeze_invocation_prompt">Сожмите телефон, чтобы запустить Ассистента</string>
     <string name="too_hot_label">Перегрев Pixel</string>
-    <string name="url_menu_copy">Скопировать</string>
-    <string name="url_menu_share">Отправить</string>
     <string name="voice_reply_cta_text">\"Окей, Google, ответь\"</string>
     <string name="voice_reply_quick_phrase_cta_text">Скажите \"Ответить\".</string>
     <string name="wireless_charging_label">Беспроводная зарядка…</string>

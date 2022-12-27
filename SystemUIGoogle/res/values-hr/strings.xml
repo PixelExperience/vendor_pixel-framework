@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Nemoj dopustiti</string>
     <string name="columbus_target_request_dialog_summary">Dvaput dodirnite stražnju stranu telefona da biste otvorili aplikaciju %1$s. To uvijek možete promijeniti u postavkama.</string>
     <string name="columbus_target_request_dialog_title">Želite li dopustiti da se brzim dodirom otvara %1$s?</string>
-    <string name="copied_text_label">Kopirani tekst</string>
-    <string name="copy_url_description">Tekst kopiran</string>
-    <string name="defender_notify_des">Vaš telefon ograničava punjenje radi očuvanja baterije</string>
+    <string name="defender_notify_des">Zaštita baterije radi produljenja njenog trajanja</string>
     <string name="defender_notify_resume_charge">Nastavi s punjenjem</string>
-    <string name="defender_notify_title">Punjenje je privremeno ograničeno</string>
-    <string name="defender_post_notify_des">Punjenje je bilo ograničeno na %1$s od %2$s do %3$s radi očuvanja baterije</string>
-    <string name="defender_post_notify_title">Uobičajeno punjenje</string>
+    <string name="defender_notify_title">Punjenje je pauzirano</string>
+    <string name="defender_post_notify_des">Punjenje je pauzirano od %1$s do %2$s radi produljenja trajanja baterije</string>
+    <string name="defender_post_notify_title">Punjenje je nastavljeno</string>
     <string name="dock_a11y_action_show_photo_text">Prikaži fotookvir</string>
+    <string name="dock_defender_notify_des">Radi zaštite baterije, punjenje se pauzira na %1$s dok je tablet na priključnoj stanici</string>
     <string name="dock_photo_preview_text">Pokretanje fotookvira...</string>
     <string name="dock_promo_text">Prijeđite prstom ulijevo za Fotookvir</string>
     <string name="dream_settings_notification_text">Prilagodite čuvar zaslona</string>
@@ -44,10 +43,8 @@ Podaci o licu koje upotrebljava otključavanje licem trajno će se i sigurno izb
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Prijeđite prstom da biste govorili</string>
     <string name="home_controls_tile_title">Početna</string>
-    <string name="image_content_description">Slika koja se može odabrati</string>
     <string name="keyguard_indication_trust_unlocked">Uz Smart Lock uređaj ostaje otključan</string>
     <string name="low_battery_label">Slaba baterija</string>
-    <string name="no_content_in_select_mode">Nema teksta ni slike za odabir</string>
     <string name="quick_settings_rotation_posture_folded">sklopljeno</string>
     <string name="quick_settings_rotation_posture_unfolded">rasklopljeno</string>
     <string name="reverse_charging_device_name_text">Drugi Pixel</string>
@@ -55,7 +52,6 @@ Podaci o licu koje upotrebljava otključavanje licem trajno će se i sigurno izb
     <string name="reverse_charging_on_notification_title">Dijeljenje baterije uključeno</string>
     <string name="reverse_charging_title">Dijeljenje baterije</string>
     <string name="saver_confirmation_dialog_text">Ekstremna štednja baterije pauzirat će većinu aplikacija i obavijesti.</string>
-    <string name="selectable_url_description">URL koji se može odabrati</string>
     <string name="severe_low_battery_dialog_checkbox_title">Više me ne pitaj</string>
     <string name="severe_low_battery_dialog_text">Imate još %s baterije. Ekstremna štednja baterije pauzirat će većinu aplikacija i obavijesti.</string>
     <string name="severe_low_battery_dialog_title">Želite li uključiti ekstremnu štednju baterije?</string>
@@ -67,8 +63,6 @@ Podaci o licu koje upotrebljava otključavanje licem trajno će se i sigurno izb
     <string name="smartspace_shopping_list_overflow">i još %1$d</string>
     <string name="squeeze_invocation_prompt">Stisnite za govor</string>
     <string name="too_hot_label">Pixel se previše zagrijao</string>
-    <string name="url_menu_copy">Kopiraj</string>
-    <string name="url_menu_share">Dijeli</string>
     <string name="voice_reply_cta_text">\"Hey Google, reply\" (Hey Google, odgovori)</string>
     <string name="voice_reply_quick_phrase_cta_text">Recite: \"Reply\" (Odgovori)</string>
     <string name="wireless_charging_label">Bežično punjenje</string>

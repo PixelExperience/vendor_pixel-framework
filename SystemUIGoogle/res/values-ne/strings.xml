@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">अनुमति नदिनुहोस्</string>
     <string name="columbus_target_request_dialog_summary">%1$s खोल्न आफ्नो फोनको पछाडिपट्टि दुई पटक ट्याप गर्नुहोस्। तपाईं जुनसुकै बेला सेटिङमा गई यो कुरा परिवर्तन गर्न सक्नुहुन्छ।</string>
     <string name="columbus_target_request_dialog_title">%1$s क्विक ट्याप गरेर खोल्न दिने हो?</string>
-    <string name="copied_text_label">पाठ कपी गरियो।</string>
-    <string name="copy_url_description">टेक्स्ट म्यासेज कपी गरियो</string>
-    <string name="defender_notify_des">ब्याट्री टिक्ने समय घट्न नदिन तपाईंको फोन सीमित रूपमा चार्ज गरिँदै छ</string>
+    <string name="defender_notify_des">ब्याट्रीको आयु बढाउन यसको सुरक्षा गरिँदै छ</string>
     <string name="defender_notify_resume_charge">चार्जिङ सुचारु गर्नुहोस्</string>
-    <string name="defender_notify_title">चार्जिङ केही समयका लागि सीमित पारिएको छ</string>
-    <string name="defender_post_notify_des">ब्याट्री टिक्ने समय घट्न नदिन %2$s देखि %3$s सम्म तपाईंको डिभाइसको ब्याट्री %1$s भन्दा बढी चार्ज नहुने सेटिङ लागू गरिएको थियो</string>
-    <string name="defender_post_notify_title">सामान्य तरिकाले चार्ज गरिँदै छ</string>
+    <string name="defender_notify_title">चार्जिङ पज गरिएको छ</string>
+    <string name="defender_post_notify_des">ब्याट्रीको आयु बढाउन %1$s देखि %2$s सम्म चार्जिङ पज गरिएको थियो</string>
+    <string name="defender_post_notify_title">चार्जिङ सुचारु गरियो</string>
     <string name="dock_a11y_action_show_photo_text">फोटो फ्रेम देखाउनुहोस्</string>
+    <string name="dock_defender_notify_des">तपाईंको ब्याट्री जोगाउन ट्याब्लेट डक गरिएका बेला %1$s चार्ज भएपछि चार्ज गर्ने प्रक्रिया अस्थायी रूपमा रोकिन्छ</string>
     <string name="dock_photo_preview_text">फोटो फ्रेम सुरु हुँदै छ...</string>
     <string name="dock_promo_text">तस्बिरको फ्रेम प्राप्त गर्न बायाँतिर स्वाइप गर्नुहोस्</string>
     <string name="dream_settings_notification_text">आफ्नो स्क्रिन सेभर कस्टमाइज गर्नुहोस्</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">कुराकानी गर्न स्वाइप गर्नुहोस्</string>
     <string name="home_controls_tile_title">होम</string>
-    <string name="image_content_description">चयन गर्न सकिने फोटो</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock ले अनलक राखेको</string>
     <string name="low_battery_label">ब्याट्री कम छ</string>
-    <string name="no_content_in_select_mode">चयन गर्न सकिने कुनै पनि टेक्स्ट म्यासेज र फोटो उपलब्ध छैन</string>
     <string name="quick_settings_rotation_posture_folded">फोल्ड गरिएको</string>
     <string name="quick_settings_rotation_posture_unfolded">अनफोल्ड गरिएको</string>
     <string name="reverse_charging_device_name_text">अर्को Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ब्याट्री सेयर नामक सुविधा सक्रिय छ</string>
     <string name="reverse_charging_title">ब्याट्री सेयर</string>
     <string name="saver_confirmation_dialog_text">एक्स्ट्रिम ब्याट्री सेभर अन गर्नुभयो भने अधिकांश एप र सूचनाहरू पज हुने छन्।</string>
-    <string name="selectable_url_description">चयन गर्न मिल्ने URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">फेरि नसोध्नुहोस्</string>
     <string name="severe_low_battery_dialog_text">तपाईंको डिभाइसको ब्याट्रीको चार्ज %s बाँकी छ। एक्स्ट्रिम ब्याट्री सेभर अन गर्नुभयो भने अधिकांश एप र सूचनाहरू पज हुने छन्।</string>
     <string name="severe_low_battery_dialog_title">एक्स्ट्रिम ब्याट्री सेभर अन गर्ने हो?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d थप</string>
     <string name="squeeze_invocation_prompt">कुराकानी गर्न डिभाइसका किनाराहरूमा थिच्नुहोस्</string>
     <string name="too_hot_label">पिक्सेल ज्यादै तातेको छ</string>
-    <string name="url_menu_copy">कपी गर्नुहोस्</string>
-    <string name="url_menu_share">सेयर गर्नुहोस्</string>
     <string name="voice_reply_cta_text">“Ok Google, जवाफ देऊ”</string>
     <string name="voice_reply_quick_phrase_cta_text">“जवाफ पठाऊ” भन्नुहोस्</string>
     <string name="wireless_charging_label">ताररहित रूपमा चार्ज गरिँदै</string>

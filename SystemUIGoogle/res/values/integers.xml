@@ -4,6 +4,8 @@
     <integer name="columbus_default_sensitivity_percent">77</integer>
     <integer name="columbus_low_sensitivity_percent">0</integer>
     <integer name="config_dock_animation_delay_ms">0</integer>
+    <integer name="config_dock_setup_notification_timeout_ms">259200000</integer>
+    <integer name="config_light_sensor_level_tickle_frequency_ms">1000</integer>
     <integer name="elmyra_charging_gate_duration">500</integer>
     <integer name="elmyra_false_prime_window">50</integer>
     <integer name="elmyra_gesture_cooldown_time">450</integer>

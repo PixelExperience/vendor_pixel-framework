@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">ไม่อนุญาต</string>
     <string name="columbus_target_request_dialog_summary">แตะด้านหลังโทรศัพท์ 2 ครั้งเพื่อเปิด %1$s คุณเปลี่ยนการตั้งค่านี้ได้ทุกเมื่อในการตั้งค่า</string>
     <string name="columbus_target_request_dialog_title">อนุญาตให้การแตะด่วนเปิด %1$s ใช่ไหม</string>
-    <string name="copied_text_label">คัดลอกข้อความแล้ว</string>
-    <string name="copy_url_description">คัดลอกข้อความแล้ว</string>
-    <string name="defender_notify_des">โทรศัพท์จำกัดการชาร์จเพื่อช่วยรักษาประสิทธิภาพของแบตเตอรี่</string>
+    <string name="defender_notify_des">ปกป้องแบตเตอรี่เพื่อยืดอายุการใช้งานแบตเตอรี่</string>
     <string name="defender_notify_resume_charge">ชาร์จต่อ</string>
-    <string name="defender_notify_title">จำกัดการชาร์จชั่วคราว</string>
-    <string name="defender_post_notify_des">จำกัดการชาร์จไว้ที่ %1$s ตั้งแต่ %2$s ถึง %3$s เพื่อรักษาประสิทธิภาพของแบตเตอรี่</string>
-    <string name="defender_post_notify_title">ชาร์จตามปกติ</string>
+    <string name="defender_notify_title">การชาร์จหยุดชั่วคราว</string>
+    <string name="defender_post_notify_des">การชาร์จหยุดชั่วคราวตั้งแต่ %1$s‐%2$s เพื่อยืดอายุการใช้งานแบตเตอรี่</string>
+    <string name="defender_post_notify_title">ชาร์จต่อแล้ว</string>
     <string name="dock_a11y_action_show_photo_text">แสดงกรอบรูป</string>
+    <string name="dock_defender_notify_des">การชาร์จหยุดชั่วคราวที่ %1$s ขณะวางแท็บเล็ตบนแท่นชาร์จเพื่อปกป้องแบตเตอรี่ของคุณ</string>
     <string name="dock_photo_preview_text">กรอบรูปกำลังเริ่ม...</string>
     <string name="dock_promo_text">เลื่อนไปทางซ้ายเพื่อดูกรอบรูป</string>
     <string name="dream_settings_notification_text">ปรับแต่งโปรแกรมรักษาหน้าจอ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s %2$s</string>
     <string name="handle_invocation_prompt">เลื่อนเพื่อพูด</string>
     <string name="home_controls_tile_title">หน้าแรก</string>
-    <string name="image_content_description">รูปภาพที่เลือกได้</string>
     <string name="keyguard_indication_trust_unlocked">ปลดล็อกไว้โดย Smart Lock</string>
     <string name="low_battery_label">แบตเตอรี่อ่อน</string>
-    <string name="no_content_in_select_mode">ไม่มีข้อความหรือรูปภาพให้เลือก</string>
     <string name="quick_settings_rotation_posture_folded">พับ</string>
     <string name="quick_settings_rotation_posture_unfolded">กางออก</string>
     <string name="reverse_charging_device_name_text">Pixel เครื่องอื่น</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">การแชร์แบตเตอรี่เปิดอยู่</string>
     <string name="reverse_charging_title">การแชร์แบตเตอรี่</string>
     <string name="saver_confirmation_dialog_text">โหมดประหยัดแบตเตอรี่สูงสุดจะหยุดแอปและการแจ้งเตือนส่วนใหญ่ไว้ชั่วคราว</string>
-    <string name="selectable_url_description">URL ที่เลือกได้</string>
     <string name="severe_low_battery_dialog_checkbox_title">ไม่ต้องถามอีก</string>
     <string name="severe_low_battery_dialog_text">คุณมีแบตเตอรี่เหลืออยู่ %s โหมดประหยัดแบตเตอรี่สูงสุดจะหยุดแอปและการแจ้งเตือนส่วนใหญ่ไว้ชั่วคราว</string>
     <string name="severe_low_battery_dialog_title">เปิดโหมดประหยัดแบตเตอรี่สูงสุดไหม</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">อีก %1$d รายการ</string>
     <string name="squeeze_invocation_prompt">บีบเพื่อพูด</string>
     <string name="too_hot_label">Pixel ร้อนเกินไป</string>
-    <string name="url_menu_copy">คัดลอก</string>
-    <string name="url_menu_share">แชร์</string>
     <string name="voice_reply_cta_text">\"Ok Google ตอบกลับ\"</string>
     <string name="voice_reply_quick_phrase_cta_text">พูดว่า “ตอบกลับ”</string>
     <string name="wireless_charging_label">กำลังชาร์จแบบไร้สาย</string>

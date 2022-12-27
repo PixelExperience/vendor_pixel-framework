@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Nepovolovat</string>
     <string name="columbus_target_request_dialog_summary">Dvojitým klepnutím na zadní část telefonu otevřete aplikaci %1$s. Tuto možnost můžete kdykoli změnit v Nastavení.</string>
     <string name="columbus_target_request_dialog_title">Povolit otevírání aplikace %1$s rychlým poklepáním?</string>
-    <string name="copied_text_label">Text byl zkopírován</string>
-    <string name="copy_url_description">Text zkopírován</string>
-    <string name="defender_notify_des">Telefon omezuje nabíjení, aby byla zachována životnost baterie</string>
+    <string name="defender_notify_des">Ochrana baterie k prodloužení její životnosti</string>
     <string name="defender_notify_resume_charge">Obnovit nabíjení</string>
-    <string name="defender_notify_title">Nabíjení je dočasně omezeno</string>
-    <string name="defender_post_notify_des">Nabíjení bylo od %2$s do %3$s omezeno na %1$s, aby byla zachována životnost baterie</string>
-    <string name="defender_post_notify_title">Normální nabíjení</string>
+    <string name="defender_notify_title">Nabíjení je pozastaveno</string>
+    <string name="defender_post_notify_des">Aby se prodloužila životnost baterie, bylo nabíjení v době %1$s–%2$s pozastaveno</string>
+    <string name="defender_post_notify_title">Nabíjení bylo obnoveno</string>
     <string name="dock_a11y_action_show_photo_text">Zobrazit fotorámeček</string>
+    <string name="dock_defender_notify_des">Když je tablet v doku, za účelem ochrany baterie se nabíjení při %1$s pozastaví</string>
     <string name="dock_photo_preview_text">Spouštění fotorámečku...</string>
     <string name="dock_promo_text">Přejetím doleva zobrazíte fotorámeček</string>
     <string name="dream_settings_notification_text">Přizpůsobení spořiče obrazovky</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Přejeďte prstem a mluvte</string>
     <string name="home_controls_tile_title">Plocha</string>
-    <string name="image_content_description">Obrázek, lze vybrat</string>
     <string name="keyguard_indication_trust_unlocked">Trvale odemknuto funkcí Smart Lock</string>
     <string name="low_battery_label">Slabá baterie</string>
-    <string name="no_content_in_select_mode">Žádný text ani obrázek k vybrání</string>
     <string name="quick_settings_rotation_posture_folded">uzavřeno</string>
     <string name="quick_settings_rotation_posture_unfolded">otevřeno</string>
     <string name="reverse_charging_device_name_text">Jiný telefon Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">Sdílení baterie je zapnuté</string>
     <string name="reverse_charging_title">Sdílení baterie</string>
     <string name="saver_confirmation_dialog_text">Super spořič baterie pozastaví většinu aplikací a oznámení.</string>
-    <string name="selectable_url_description">Adresa URL, kterou lze vybrat</string>
     <string name="severe_low_battery_dialog_checkbox_title">Příště se neptat</string>
     <string name="severe_low_battery_dialog_text">Zbývá %s baterie. Super spořič baterie pozastaví většinu aplikací a oznámení.</string>
     <string name="severe_low_battery_dialog_title">Zapnout Super spořič baterie?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">a ještě %1$d</string>
     <string name="squeeze_invocation_prompt">Zmáčkněte a mluvte</string>
     <string name="too_hot_label">Telefon Pixel je příliš horký</string>
-    <string name="url_menu_copy">Kopírovat</string>
-    <string name="url_menu_share">Sdílet</string>
     <string name="voice_reply_cta_text">„Ok Google, odpověz“</string>
     <string name="voice_reply_quick_phrase_cta_text">Řekněte „odpovědět“</string>
     <string name="wireless_charging_label">Bezdrátové nabíjení</string>

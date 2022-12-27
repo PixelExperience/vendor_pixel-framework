@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">Neleisti</string>
     <string name="columbus_target_request_dialog_summary">Dukart palieskite telefono nugarėlę, kad atidarytumėte „%1$s“. Tai galite bet kada pakeisti skiltyje „Nustatymai“.</string>
     <string name="columbus_target_request_dialog_title">Leisti naudoti „Quick Tap“, kad būtų galima atidaryti „%1$s“?</string>
-    <string name="copied_text_label">Nukopijuotas tekstas</string>
-    <string name="copy_url_description">Tekstas nukopijuotas</string>
-    <string name="defender_notify_des">Telefonas riboja įkrovimą, kad apsaugotų akumuliatorių</string>
+    <string name="defender_notify_des">Apsaugomas akumuliatorius, siekiant pailginti akumuliatoriaus veikimo laiką</string>
     <string name="defender_notify_resume_charge">Tęsti įkrovimą</string>
-    <string name="defender_notify_title">Įkrovimas laikinai apribotas</string>
-    <string name="defender_post_notify_des">Įkrovimas buvo apribotas iki %1$s %2$s–%3$s, siekiant apsaugoti akumuliatorių</string>
-    <string name="defender_post_notify_title">Įprastas įkrovimas</string>
+    <string name="defender_notify_title">Įkrovimas pristabdytas</string>
+    <string name="defender_post_notify_des">Įkrovimas pristabdytas nuo %1$s iki %2$s, siekiant pailginti akumuliatoriaus veikimo laiką</string>
+    <string name="defender_post_notify_title">Įkrovimas atnaujintas</string>
     <string name="dock_a11y_action_show_photo_text">Rodyti nuotraukų rėmelį</string>
+    <string name="dock_defender_notify_des">Siekiant apsaugoti akumuliatorių, įkrovimas sustabdytas pasiekus %1$s, kol planšetinis kompiuteris prijungtas prie doko</string>
     <string name="dock_photo_preview_text">Pradedamas nuotraukų rėminimas…</string>
     <string name="dock_promo_text">Perbraukite kairėn, kad būtų parodytas nuotraukos rėmelis</string>
     <string name="dream_settings_notification_text">Tinkinkite ekrano užsklandą</string>
@@ -44,10 +43,8 @@ Atrakinimo pagal veidą naudojami veido duomenys bus visam laikui saugiai ištri
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">Perbraukite, jei norite kalbėti</string>
     <string name="home_controls_tile_title">Pagrindinis</string>
-    <string name="image_content_description">Pasirenkamas vaizdas</string>
     <string name="keyguard_indication_trust_unlocked">Atrakinta naudojant „Smart Lock“</string>
     <string name="low_battery_label">Senka akumuliatorius</string>
-    <string name="no_content_in_select_mode">Nėra jokio teksto arba vaizdo, kurį būtų galima pasirinkti</string>
     <string name="quick_settings_rotation_posture_folded">sulenkta</string>
     <string name="quick_settings_rotation_posture_unfolded">nesulenkta</string>
     <string name="reverse_charging_device_name_text">Kitas „Pixel“</string>
@@ -55,7 +52,6 @@ Atrakinimo pagal veidą naudojami veido duomenys bus visam laikui saugiai ištri
     <string name="reverse_charging_on_notification_title">Akumuliatoriaus bendrinimo funkcija įjungta</string>
     <string name="reverse_charging_title">Akumuliatoriaus bendrinimas</string>
     <string name="saver_confirmation_dialog_text">Naudojant akumuliatoriaus energijos taupymą didžiausiu režimu bus pristabdyta dauguma programų ir pranešimų.</string>
-    <string name="selectable_url_description">Pasirenkamas URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">Daugiau neklausti</string>
     <string name="severe_low_battery_dialog_text">Liko %s akumuliatoriaus energijos. Naudojant akumuliatoriaus energijos taupymą didžiausiu režimu bus pristabdyta dauguma programų ir pranešimų.</string>
     <string name="severe_low_battery_dialog_title">Įjungti akumuliatoriaus energijos taupymą didžiausiu režimu?</string>
@@ -67,8 +63,6 @@ Atrakinimo pagal veidą naudojami veido duomenys bus visam laikui saugiai ištri
     <string name="smartspace_shopping_list_overflow">Dar %1$d</string>
     <string name="squeeze_invocation_prompt">Suspauskite, jei norite kalbėti</string>
     <string name="too_hot_label">„Pixel“ per daug įkaito</string>
-    <string name="url_menu_copy">Kopijuoti</string>
-    <string name="url_menu_share">Bendrinti</string>
     <string name="voice_reply_cta_text">„Ok Google, atsakyk“</string>
     <string name="voice_reply_quick_phrase_cta_text">Pasakykite „Reply“ (atsakyk)</string>
     <string name="wireless_charging_label">Įkraunama be laidų</string>

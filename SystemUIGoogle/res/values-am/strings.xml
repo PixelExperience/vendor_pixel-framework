@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">አትፍቀድ</string>
     <string name="columbus_target_request_dialog_summary">%1$sን ለመክፈት የስልክዎን ጀርባ ሁለት ጊዜ መታ ያድርጉ። ይህን በማንኛውም ጊዜ በቅንብሮች ውስጥ መቀየር ይችላሉ።</string>
     <string name="columbus_target_request_dialog_title">ፈጣን መታ ማድረግ %1$sን እንዲከፍት ይፈቀድለት?</string>
-    <string name="copied_text_label">የተቀዳ ጽሑፍ</string>
-    <string name="copy_url_description">ጽሑፍ ተቀድቷል</string>
-    <string name="defender_notify_des">የባትሪ ጤናን ጠብቆ ለማቆየት እንዲረዳ ስልክዎ የኃይል መሙላትን እየገደበ ነው</string>
+    <string name="defender_notify_des">የባትሪ ዕድሜን ለማራዘም ባትሪን በመጠበቅ ላይ</string>
     <string name="defender_notify_resume_charge">ኃይል መሙላትን ከቆመበት ቀጥል</string>
-    <string name="defender_notify_title">ኃይል መሙላት ለጊዜው ተገድቧል</string>
-    <string name="defender_post_notify_des">የባትሪ ዕድሜን ለማራዘም ኃይል መሙላት ከ%2$s እስከ %3$s ድረስ በ%1$s ተገድቧል</string>
-    <string name="defender_post_notify_title">በመደበኛ ኃይልን በመሙላት ላይ</string>
+    <string name="defender_notify_title">ኃይል መሙላት ባለበት ቆሟል</string>
+    <string name="defender_post_notify_des">የባትሪ ዕድሜን ለማራዘም ኃይል መሙላት ከ%1$s-%2$s ድረስ ባለበት ቆሟል</string>
+    <string name="defender_post_notify_title">ኃይል መሙላት ከቆመበት ቀጥሏል</string>
     <string name="dock_a11y_action_show_photo_text">የፎቶ ክፈፍ አሳይ</string>
+    <string name="dock_defender_notify_des">ባትሪዎን ለመጠበቅ የእርስዎ ጡባዊ ተተክሎ ሳለ ኃይል መሙላት %1$s ላይ ባለበት ቆሟል</string>
     <string name="dock_photo_preview_text">የፎቶ ክፈፍ በመጀመር ላይ...</string>
     <string name="dock_promo_text">ለፎቶ ክፈፍ በጣት ወደ ግራ ይጥረጉ</string>
     <string name="dream_settings_notification_text">የማያ ገጽ ቆጣቢዎን ያብጁ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s፣ %2$s</string>
     <string name="handle_invocation_prompt">ለመናገር በጣት ጠረግ ያድርጉ</string>
     <string name="home_controls_tile_title">ቤት</string>
-    <string name="image_content_description">ሊመረጥ የሚችል ምስል</string>
     <string name="keyguard_indication_trust_unlocked">በSmart Lock እንደተከፈተ እንዲቆይ ተደርጓል</string>
     <string name="low_battery_label">ዝቅተኛ ባትሪ</string>
-    <string name="no_content_in_select_mode">የሚመረጥ ጽሑፍ ወይም ምስል የለም</string>
     <string name="quick_settings_rotation_posture_folded">የታጠፈ</string>
     <string name="quick_settings_rotation_posture_unfolded">ያልታጠፈ</string>
     <string name="reverse_charging_device_name_text">ሌላ Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ባትሪን ማጋራት በርቷል</string>
     <string name="reverse_charging_title">ባትሪ አጋራ</string>
     <string name="saver_confirmation_dialog_text">ከፍተኛ ባትሪ ቆጣቢ አብዛኛዎቹን መተግበሪያዎች እና ማሳወቂያዎች ባሉበት ያቆማል።</string>
-    <string name="selectable_url_description">ሊመረጥ የሚችል ዩአርኤል</string>
     <string name="severe_low_battery_dialog_checkbox_title">ዳግም አትጠይቅ</string>
     <string name="severe_low_battery_dialog_text">%s ቀሪ ባትሪ አለዎት። ከፍተኛ ባትሪ ቆጣቢ አብዛኛዎቹን መተግበሪያዎች እና ማሳወቂያዎች ባሉበት ያቆማል።</string>
     <string name="severe_low_battery_dialog_title">ከፍተኛ ባትሪ ቆጣቢ ይብራ?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ %1$d ተጨማሪ</string>
     <string name="squeeze_invocation_prompt">ለመናገር ጨመቅ ያድርጉ</string>
     <string name="too_hot_label">Pixel በጣም ግሏል</string>
-    <string name="url_menu_copy">ቅዳ</string>
-    <string name="url_menu_share">አጋራ</string>
     <string name="voice_reply_cta_text">«Hey Google, reply»</string>
     <string name="voice_reply_quick_phrase_cta_text">“Reply” ይበሉ</string>
     <string name="wireless_charging_label">በገመድ አልባ ሃይል በመሙላት ላይ</string>

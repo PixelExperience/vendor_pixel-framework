@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/qs_battery_share_icon_on__8__0" android:duration="450" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 3.75,0C 4.219,0 6.093,0 6.562,0" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

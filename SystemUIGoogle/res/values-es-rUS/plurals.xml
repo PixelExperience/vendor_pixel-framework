@@ -3,9 +3,11 @@
     <plurals name="smartspace_hours">
         <item quantity="other">%d h</item>
         <item quantity="one">%d h</item>
+        <item quantity="many">%d hr</item>
     </plurals>
     <plurals name="smartspace_minutes">
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
+        <item quantity="many">%d min</item>
     </plurals>
 </resources>

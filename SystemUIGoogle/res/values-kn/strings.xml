@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">ಅನುಮತಿಸಬೇಡಿ</string>
     <string name="columbus_target_request_dialog_summary">%1$s ಅನ್ನು ತೆರೆಯಲು ನಿಮ್ಮ ಫೋನ್‌ನ ಹಿಂಭಾಗವನ್ನು ನೀವು ಡಬಲ್-ಟ್ಯಾಪ್ ಮಾಡಿ. ನೀವು ಇದನ್ನು ಯಾವುದೇ ಸಮಯದಲ್ಲಿಯೂ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಬದಲಿಸಬಹುದು.</string>
     <string name="columbus_target_request_dialog_title">ಕ್ವಿಕ್ ಟ್ಯಾಪ್‌ಗೆ %1$s ಅನ್ನು ತೆರೆಯಲು ಅನುಮತಿಸಬೇಕೇ?</string>
-    <string name="copied_text_label">ಪಠ್ಯವನ್ನು ನಕಲಿಸಲಾಗಿದೆ</string>
-    <string name="copy_url_description">ಪಠ್ಯವನ್ನು ನಕಲಿಸಲಾಗಿದೆ</string>
-    <string name="defender_notify_des">ಬ್ಯಾಟರಿಯ ಆರೋಗ್ಯವನ್ನು ಸಂರಕ್ಷಿಸಲು ನೆರವಾಗಲು ನಿಮ್ಮ ಫೋನ್ ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ಮಿತಿಗೊಳಿಸುತ್ತಿದೆ</string>
+    <string name="defender_notify_des">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="defender_notify_resume_charge">ಚಾರ್ಜಿಂಗ್ ಪುನರಾರಂಭಿಸಿ</string>
-    <string name="defender_notify_title">ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೀಮಿತಗೊಳಿಸಲಾಗಿದೆ</string>
-    <string name="defender_post_notify_des">ಬ್ಯಾಟರಿ ಆರೋಗ್ಯವನ್ನು ಸಂರಕ್ಷಿಸಲು ಚಾರ್ಜಿಂಗ್ ಅನ್ನು %2$s ಇಂದ %3$s ವರೆಗೆ %1$s ಗೆ ಸೀಮಿತಗೊಳಿಸಲಾಗಿದೆ</string>
-    <string name="defender_post_notify_title">ಸಾಮಾನ್ಯವಾಗಿ ಚಾರ್ಜಿಂಗ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="defender_notify_title">ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="defender_post_notify_des">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಚಾರ್ಜಿಂಗ್ ಅನ್ನು %1$s ನಿಂದ %2$s ವರೆಗೆ ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="defender_post_notify_title">ಚಾರ್ಜಿಂಗ್ ಪುನರಾರಂಭಿಸಲಾಗಿದೆ</string>
     <string name="dock_a11y_action_show_photo_text">ಫೋಟೋ ಫ್ರೇಮ್ ಅನ್ನು ತೋರಿಸಿ</string>
+    <string name="dock_defender_notify_des">ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಡಾಕ್ ಮಾಡಿರುವಾಗ %1$s ನಲ್ಲಿ ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಲಾಗುತ್ತದೆ</string>
     <string name="dock_photo_preview_text">ಫೋಟೋ ಫ್ರೇಮ್ ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...</string>
     <string name="dock_promo_text">ಫೋಟೋ ಫ್ರೇಮ್‌ಗಾಗಿ ಎಡಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="dream_settings_notification_text">ನಿಮ ಸ್ಕ್ರೀನ್ ಸೇವರ್ ಅನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">ಮಾತನಾಡಲು ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="home_controls_tile_title">ಮನೆ</string>
-    <string name="image_content_description">ಆಯ್ಕೆಮಾಡಬಹುದಾದ ಚಿತ್ರ</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock ನಿಂದ ಅನ್‌ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</string>
     <string name="low_battery_label">ಕಡಿಮೆ ಬ್ಯಾಟರಿ</string>
-    <string name="no_content_in_select_mode">ಆಯ್ಕೆಮಾಡಲು ಯಾವುದೇ ಪಠ್ಯ ಅಥವಾ ಚಿತ್ರವಿಲ್ಲ</string>
     <string name="quick_settings_rotation_posture_folded">ಫೋಲ್ಡ್ ಮಾಡಿರುವುದು</string>
     <string name="quick_settings_rotation_posture_unfolded">ಫೋಲ್ಡ್ ಮಾಡದಿರುವುದು</string>
     <string name="reverse_charging_device_name_text">ಇತರ Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">ಬ್ಯಾಟರಿ ಹಂಚಿಕೆ ಆನ್ ಆಗಿದೆ</string>
     <string name="reverse_charging_title">ಬ್ಯಾಟರಿ ಹಂಚಿಕೆ</string>
     <string name="saver_confirmation_dialog_text">ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್ ಬಹುತೇಕ ಆ್ಯಪ್‌ಗಳು ಮತು ಅಧಿಸೂಚನೆಗಳನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ.</string>
-    <string name="selectable_url_description">ಆಯ್ಕೆಮಾಡಬಹುದಾದ URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">ಮತ್ತೆ ಕೇಳಬೇಡಿ</string>
     <string name="severe_low_battery_dialog_text">ನಿಮ್ಮ ಬಳಿ %s ಬ್ಯಾಟರಿ ಉಳಿದಿದೆ. ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್ ಬಹುತೇಕ ಆ್ಯಪ್‌ಗಳು ಮತು ಅಧಿಸೂಚನೆಗಳನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ.</string>
     <string name="severe_low_battery_dialog_title">ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್ ಅನ್ನು ಆನ್ ಮಾಡಬೇಕೆ?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">+ ಇನ್ನೂ %1$d</string>
     <string name="squeeze_invocation_prompt">ಮಾತನಾಡಲು ಸ್ಕ್ವೀಜ್‌‌ ಮಾಡಿ</string>
     <string name="too_hot_label">Pixel ತುಂಬಾ ಬಿಸಿಯಾಗಿದೆ</string>
-    <string name="url_menu_copy">ನಕಲಿಸಿ</string>
-    <string name="url_menu_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="voice_reply_cta_text">“Ok Google, ಪ್ರತ್ಯುತ್ತರಿಸು”</string>
     <string name="voice_reply_quick_phrase_cta_text">\"ಪ್ರತ್ಯುತ್ತರಿಸಿ\" ಎಂದು ಹೇಳಿ</string>
     <string name="wireless_charging_label">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್</string>

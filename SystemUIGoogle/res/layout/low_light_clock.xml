@@ -6,12 +6,12 @@
     android:layout_height="fill_parent"
     android:background="@android:color/black">
 
-    <com.android.keyguard.AnimatableClockView
+    <com.android.systemui.shared.clocks.AnimatableClockView
         android:id="@id/clock_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elegantTextHeight="false"
-        android:fontFamily="@font/clock"
+        android:fontFamily="google-sans-clock"
         android:gravity="center_horizontal"
         android:layout_gravity="center"
         android:textSize="@dimen/low_light_clock_text_size" />

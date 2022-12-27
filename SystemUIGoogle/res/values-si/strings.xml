@@ -18,14 +18,13 @@
     <string name="columbus_target_request_dialog_deny">ඉඩ නොදෙන්න</string>
     <string name="columbus_target_request_dialog_summary">%1$s විවෘත කිරීමට ඔබගේ දුරකථනයෙහි පසුපසට තට්ටු කරන්න. ඔබට සැකසීම් තුළ මෙය ඕනෑම වේලාවක වෙනස් කළ හැකිය.</string>
     <string name="columbus_target_request_dialog_title">%1$s විවෘත කිරීමට ඉක්මන් තට්ටු කිරීමට ඉඩ දෙන්නද?</string>
-    <string name="copied_text_label">පෙළ පිටපත් කරන ලදි</string>
-    <string name="copy_url_description">පෙළ පිටපත් කරන ලදී</string>
-    <string name="defender_notify_des">ඔබගේ දුරකථනය බැටරි සෞඛ්‍යය ආරක්ෂා කර ගැනීම සඳහා ආරෝපණය සීමා කරයි</string>
+    <string name="defender_notify_des">බැටරි ආයු කාලය දීර්ඝ කිරීම සඳහා බැටරිය ආරක්ෂා කිරීම</string>
     <string name="defender_notify_resume_charge">ආරෝපණය යළි ආරම්භ කරන්න</string>
-    <string name="defender_notify_title">ආරෝපණය කිරීම තාවකාලිකව සීමා කර ඇත</string>
-    <string name="defender_post_notify_des">බැටරි සෞඛ්‍යය රැක ගැනීමට %2$s සිට %3$s දක්වා ආරෝපණය කිරීම %1$sට සීමා කරන ලදි</string>
-    <string name="defender_post_notify_title">සාමාන්‍ය ලෙස ආරෝපණය වේ</string>
+    <string name="defender_notify_title">ආරෝපණය විරාම කර ඇත</string>
+    <string name="defender_post_notify_des">බැටරි ආයු කාලය දීර්ඝ කිරීම සඳහා ආරෝපණය %1$s‐%2$s වෙතින් විරාම කරන ලදි</string>
+    <string name="defender_post_notify_title">ආරෝපණය නැවත ආරම්භ විය</string>
     <string name="dock_a11y_action_show_photo_text">ඡායාරූප රාමුව පෙන්වන්න</string>
+    <string name="dock_defender_notify_des">ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, ඔබේ ටැබ්ලටය ඈඳා ඇති විට ආරෝපණය කිරීම %1$sහි දී නතර කෙරේ</string>
     <string name="dock_photo_preview_text">පින්තූර රාමුව ආරම්භ වෙමින්...</string>
     <string name="dock_promo_text">ඡායාරූප රාමුව සඳහා වමට ස්වයිප් කරන්න</string>
     <string name="dream_settings_notification_text">ඔබගේ තිර සුරැකුම අභිරුචිකරණය කරන්න</string>
@@ -44,10 +43,8 @@
     <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
     <string name="handle_invocation_prompt">කතා කිරීමට ස්වයිප් කරන්න</string>
     <string name="home_controls_tile_title">මුල් පිටුව</string>
-    <string name="image_content_description">තෝරා ගත හැකි රූපය</string>
     <string name="keyguard_indication_trust_unlocked">Smart Lock මඟින් අඟුලු ඇර තබා ගන්න</string>
     <string name="low_battery_label">බැටරි බලය අඩුයි</string>
-    <string name="no_content_in_select_mode">තෝරා ගැනීමට පෙළක් හෝ රූපයක් නැත</string>
     <string name="quick_settings_rotation_posture_folded">නැවූ</string>
     <string name="quick_settings_rotation_posture_unfolded">නොනැවූ</string>
     <string name="reverse_charging_device_name_text">වෙනත් Pixel</string>
@@ -55,7 +52,6 @@
     <string name="reverse_charging_on_notification_title">බැටරිය බෙදා ගැනීම ක්‍රියාත්මකයි</string>
     <string name="reverse_charging_title">බැටරි බලය බෙදා ගැනීම</string>
     <string name="saver_confirmation_dialog_text">අතිශය බැටරි සුරැකුම බොහෝ යෙදුම් සහ දැනුම්දීම් විරාම කරනු ඇත.</string>
-    <string name="selectable_url_description">තෝරා ගත හැකි URL</string>
     <string name="severe_low_battery_dialog_checkbox_title">නැවත නොඅසන්න</string>
     <string name="severe_low_battery_dialog_text">ඔබට බැටරිය %sක් ඉතිරිව ඇත. අතිශය බැටරි සුරැකුම බොහෝ යෙදුම් සහ දැනුම්දීම් විරාම කරනු ඇත.</string>
     <string name="severe_low_battery_dialog_title">අතිශය බැටරි සුරැකුම ක්‍රියාත්මක කරන්නද?</string>
@@ -67,8 +63,6 @@
     <string name="smartspace_shopping_list_overflow">තව + %1$d</string>
     <string name="squeeze_invocation_prompt">කථා කිරීමට මිරිකන්න</string>
     <string name="too_hot_label">Pixel උණුසුම් වැඩිය</string>
-    <string name="url_menu_copy">පිටපත් කරන්න</string>
-    <string name="url_menu_share">බෙදා ගන්න</string>
     <string name="voice_reply_cta_text">“Hey Google, පිළිතුරු දෙන්න”</string>
     <string name="voice_reply_quick_phrase_cta_text">“Reply” යැයි කියන්න</string>
     <string name="wireless_charging_label">රැහැන් රහිතව ආරෝපණය වෙමින්</string>
