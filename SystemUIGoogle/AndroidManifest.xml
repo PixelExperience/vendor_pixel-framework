@@ -78,7 +78,7 @@
                 <action android:name="com.google.android.systemui.QUICK_TAP_TARGET_REQUEST"/>
             </intent-filter>
         </service>
-        <service android:exported="true" android:name="com.google.android.systemui.power.batteryhealth.HealthService"/>
+        <!--service android:exported="true" android:name="com.google.android.systemui.power.batteryhealth.HealthService"/>
         <receiver android:exported="true" android:name="com.google.android.systemui.power.batteryhealth.HealthUpdateReceiver"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.systemui.lowlightclock.LowLightClockDreamService" android:permission="android.permission.BIND_DREAM_SERVICE">
             <intent-filter>
@@ -86,6 +86,6 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.google.android.systemui.communal.dock.setup.notification.DockSetupNotificationTimeoutService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.google.android.systemui.communal.dock.setup.notification.DockSetupNotificationTimeoutService" android:permission="android.permission.BIND_JOB_SERVICE"/-->
     </application>
 </manifest>
