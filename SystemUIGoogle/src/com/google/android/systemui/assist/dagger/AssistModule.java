@@ -29,9 +29,11 @@ import com.android.systemui.assist.AssistLogger;
 import com.android.systemui.assist.AssistManager;
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Main;
+import com.android.systemui.keyguard.domain.interactor.KeyguardBottomAreaInteractor;
 import com.android.systemui.navigationbar.NavigationBarController;
 import com.android.systemui.navigationbar.NavigationModeController;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
+import com.android.systemui.recents.OverviewProxyService;
 import com.android.systemui.statusbar.CommandQueue;
 import com.android.systemui.statusbar.phone.CentralSurfaces;
 import com.android.systemui.statusbar.policy.ConfigurationController;
@@ -99,8 +101,8 @@ public abstract class AssistModule {
 
     @Provides
     @SysUISingleton
-    static OverlappedElementController provideOverlappedElementController(Lazy<CentralSurfacesGoogle> lazy) {
-        return new OverlappedElementController(lazy);
+    static OverlappedElementController provideOverlappedElementController(OverviewProxyService overviewProxyService, KeyguardBottomAreaInteractor keyguardBottomAreaInteractor) {
+        return new OverlappedElementController(overviewProxyService, keyguardBottomAreaInteractor);
     }
 
     @Provides
