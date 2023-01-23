@@ -29,6 +29,7 @@ android_library {
         "nga-lib",
         "elmyra-lib",
         "columbus-lib",
+        "vendor.google.google_battery-V1-java",
     ],
     manifest: "AndroidManifest.xml",
 
