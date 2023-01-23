@@ -117,7 +117,7 @@ class AdaptiveChargingNotification {
         }
 
         @Override
-        public void onReceiveStatus(final String str, final int i) {
+        public void onReceiveStatus(final int i, final String str) {
             mHandler.post(() -> handleOnReceiveStatus(str, i, forceUpdate));
         }
     }
