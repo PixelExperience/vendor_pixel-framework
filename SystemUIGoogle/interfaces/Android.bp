@@ -1,5 +1,5 @@
 java_import  {
-    name: "vendor-google-interfaces-lib",
+    name: "googlebattery-lib",
     sdk_version: "current",
-    jars: ["libs/vendor-google-interfaces.jar"],
+    jars: ["libs/googlebattery.jar"],
 }
