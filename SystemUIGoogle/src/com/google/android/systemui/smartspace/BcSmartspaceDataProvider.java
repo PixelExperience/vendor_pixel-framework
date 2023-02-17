@@ -1,3 +1,19 @@
+/*
+ * Copyright (C) 2023 The PixelExperience Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.google.android.systemui.smartspace;
 
 import android.app.smartspace.SmartspaceTarget;
@@ -21,8 +37,8 @@ public final class BcSmartspaceDataProvider implements BcSmartspaceDataPlugin {
     public HashSet<View> mViews = new HashSet<>();
     public HashSet<View.OnAttachStateChangeListener> mAttachListeners = new HashSet<>();
     public BcSmartspaceDataPlugin.SmartspaceEventNotifier mEventNotifier = null;
-    public View.OnAttachStateChangeListener mStateChangeListener = new View.OnAttachStateChangeListener() { // from class: com.google.android.systemui.smartspace.BcSmartspaceDataProvider.1
-        @Override // android.view.View.OnAttachStateChangeListener
+    public View.OnAttachStateChangeListener mStateChangeListener = new View.OnAttachStateChangeListener() {
+        @Override
         public void onViewAttachedToWindow(View view) {
             BcSmartspaceDataProvider.this.mViews.add(view);
             BcSmartspaceDataProvider.this.mAttachListeners.forEach(listener -> {
@@ -30,7 +46,7 @@ public final class BcSmartspaceDataProvider implements BcSmartspaceDataPlugin {
             });
         }
 
-        @Override // android.view.View.OnAttachStateChangeListener
+        @Override
         public void onViewDetachedFromWindow(View view) {
             BcSmartspaceDataProvider.this.mViews.remove(view);
             view.removeOnAttachStateChangeListener(this);
