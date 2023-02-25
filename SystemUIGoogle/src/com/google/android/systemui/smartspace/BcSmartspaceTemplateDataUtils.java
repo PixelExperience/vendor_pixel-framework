@@ -1,6 +1,5 @@
 package com.google.android.systemui.smartspace;
 
-import android.annotation.UiThread;
 import android.app.smartspace.SmartspaceUtils;
 import android.app.smartspace.uitemplatedata.Icon;
 import android.app.smartspace.uitemplatedata.Text;
@@ -30,7 +29,6 @@ public final class BcSmartspaceTemplateDataUtils {
         }
     }
 
-    @UiThread
     public static void offsetImageViewForIcon(ImageView imageView, DoubleShadowIconDrawable doubleShadowIconDrawable) {
         if (doubleShadowIconDrawable == null) {
             imageView.setTranslationX(0.0f);
@@ -42,7 +40,6 @@ public final class BcSmartspaceTemplateDataUtils {
         imageView.setTranslationY(f);
     }
 
-    @UiThread
     public static void offsetTextViewForIcon(TextView textView, DoubleShadowIconDrawable doubleShadowIconDrawable, boolean z) {
         int i;
         if (doubleShadowIconDrawable == null) {
@@ -57,7 +54,6 @@ public final class BcSmartspaceTemplateDataUtils {
         textView.setTranslationX(i * doubleShadowIconDrawable.mIconInsetSize);
     }
 
-    @UiThread
     public static void setIcon(ImageView imageView, Icon icon) {
         if (imageView == null) {
             Log.w("BcSmartspaceTemplateDataUtils", "Cannot set. The image view is null");
@@ -73,7 +69,6 @@ public final class BcSmartspaceTemplateDataUtils {
         }
     }
 
-    @UiThread
     public static void setText(TextView textView, Text text) {
         if (textView == null) {
             Log.w("BcSmartspaceTemplateDataUtils", "Cannot set. The text view is null");
@@ -88,7 +83,6 @@ public final class BcSmartspaceTemplateDataUtils {
         textView.setMaxLines(text.getMaxLines());
     }
 
-    @UiThread
     public static void updateVisibility(View view, int i) {
         if (view != null && view.getVisibility() != i) {
             view.setVisibility(i);
