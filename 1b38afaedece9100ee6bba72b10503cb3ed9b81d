@@ -16,6 +16,24 @@
       "message": "Seems those annotations needed in CardPagerAdapter as well",
       "revId": "1b38afaedece9100ee6bba72b10503cb3ed9b81d",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d1d85fc_4adf2d21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-02-25T00:34:03Z",
+      "side": 1,
+      "message": "That change alone seems to fix the issue. I will continue to investigate if any fc happens, but so far seems fine",
+      "parentUuid": "fae8db87_d7e56966",
+      "revId": "1b38afaedece9100ee6bba72b10503cb3ed9b81d",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
