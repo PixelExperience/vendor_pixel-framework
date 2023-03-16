@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Constraint
+        android:id="@id/ambient_indication_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ambient_indication_container_margin_top"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Constraint
+        android:id="@id/ambient_indication_icon"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+    <Constraint
+        android:id="@id/ambient_indication_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:forceHasOverlappingRendering="false"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:letterSpacing="0.02"
+        android:paddingBottom="15.0sp"
+        android:paddingTop="15.0sp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.Keyguard.BottomArea"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+
+    <Constraint
+        android:id="@id/docked_top_icon"
+        android:layout_width="@dimen/dock_logo_min_size"
+        android:layout_height="@dimen/dock_logo_min_size"
+        android:clickable="true"
+        android:cropToPadding="true"
+        android:layout_gravity="center|top"
+        android:padding="@dimen/dock_top_logo_padding"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ambient_indication_info_container" />
+
+</ConstraintSet>

@@ -16,7 +16,14 @@
         <item>com.google.android.GoogleCamera</item>
         <item>com.google.columbustest</item>
     </string-array>
+    <string-array name="config_appsSupportMultiInstancesSplit">
+        <item>com.android.chrome</item>
+    </string-array>
     <array name="config_dock_bound_components"/>
+    <array name="config_dock_setup_completed_packages"/>
+    <string-array name="config_dock_setup_disallowed_components">
+        <item>com.google.android.apps.nexuslauncher/com.android.quickstep.interaction.AllSetActivity</item>
+    </string-array>
     <integer-array name="config_face_acquire_device_entry_ignorelist">
         <item>1</item>
         <item>2</item>

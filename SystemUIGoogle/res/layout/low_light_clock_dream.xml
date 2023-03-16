@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="google-sans-clock"
+        android:format12Hour="hh:mm"
+        android:format24Hour="HH:mm"
         android:gravity="center_horizontal"
         android:layout_gravity="center"
         android:textColor="@color/low_light_clock_text_color"
@@ -21,7 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:accessibilityLiveRegion="polite"
-        android:alpha="@dimen/low_light_clock_charging_text_alpha"
         android:ellipsize="end"
         android:gravity="center"
         android:layout_gravity="bottom|center"
@@ -31,6 +32,7 @@
         android:paddingEnd="@dimen/keyguard_indication_text_padding"
         android:paddingStart="@dimen/keyguard_indication_text_padding"
         android:textAppearance="@style/TextAppearance.Keyguard.BottomArea"
-        android:textSize="@dimen/low_light_status_text_size" />
+        android:textFontWeight="@integer/low_light_clock_charging_text_font_weight"
+        android:textSize="@dimen/low_light_clock_charging_text_size" />
 
 </FrameLayout>
