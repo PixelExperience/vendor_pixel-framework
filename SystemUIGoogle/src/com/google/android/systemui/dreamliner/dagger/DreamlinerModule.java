@@ -16,12 +16,14 @@
 
 package com.google.android.systemui.dreamliner.dagger;
 
+import androidx.annotation.NonNull;
 import android.content.Context;
+import android.os.Handler;
 
-import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
+import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.notification.interruption.NotificationInterruptStateProvider;
 import com.android.systemui.statusbar.policy.ConfigurationController;
 import com.android.systemui.util.concurrency.DelayableExecutor;
@@ -35,7 +37,10 @@ import dagger.Provides;
 public abstract class DreamlinerModule {
     @Provides
     @SysUISingleton
-    static DockObserver provideDockObserver(Context context, BroadcastDispatcher broadcastDispatcher, StatusBarStateController statusBarStateController, NotificationInterruptStateProvider notificationInterruptStateProvider, ConfigurationController configurationController, @Main DelayableExecutor delayableExecutor) {
-        return new DockObserver(context, DreamlinerUtils.getInstance(context), broadcastDispatcher, statusBarStateController, notificationInterruptStateProvider, configurationController, delayableExecutor);
+    static DockObserver provideDockObserver(Context context, StatusBarStateController statusBarStateController,
+        NotificationInterruptStateProvider notificationInterruptStateProvider, ConfigurationController configurationController,
+        @Main DelayableExecutor delayableExecutor, @NonNull UserTracker userTracker, @Main Handler mainHandler) {
+        return new DockObserver(context, DreamlinerUtils.getInstance(context), statusBarStateController,
+            notificationInterruptStateProvider, configurationController, delayableExecutor, userTracker, mainHandler);
     }
 }

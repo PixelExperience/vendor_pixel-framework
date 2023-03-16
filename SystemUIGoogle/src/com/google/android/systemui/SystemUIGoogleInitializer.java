@@ -16,14 +16,15 @@
 
 package com.google.android.systemui;
 
+import android.app.Application;
 import android.content.Context;
-
-import com.google.android.systemui.dagger.DaggerSystemUIGoogleGlobalRootComponent;
-
 import com.android.systemui.SystemUIInitializer;
 import com.android.systemui.dagger.GlobalRootComponent;
+import com.google.android.systemui.dagger.DaggerSystemUIGoogleGlobalRootComponent;
 
 public class SystemUIGoogleInitializer extends SystemUIInitializer {
+
+    private static final String SCREENSHOT_CROSS_PROFILE_PROCESS = "com.android.systemui:screenshot_cross_profile";
 
     public SystemUIGoogleInitializer(Context context) {
         super(context);
@@ -31,6 +32,9 @@ public class SystemUIGoogleInitializer extends SystemUIInitializer {
 
     @Override
     protected GlobalRootComponent.Builder getGlobalRootComponentBuilder() {
+        if (SCREENSHOT_CROSS_PROFILE_PROCESS.equals(Application.getProcessName())) {
+            return null;
+        }
         return DaggerSystemUIGoogleGlobalRootComponent.builder();
     }
 }

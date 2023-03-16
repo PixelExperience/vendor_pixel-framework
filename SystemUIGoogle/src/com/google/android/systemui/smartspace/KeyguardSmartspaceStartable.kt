@@ -35,7 +35,7 @@ constructor(
     private val zenController: KeyguardZenAlarmViewController,
     private val mediaController: KeyguardMediaViewController,
     private val initializationChecker: InitializationChecker
-) : CoreStartable(context) {
+) : CoreStartable {
     override fun start() {
         when {
             !initializationChecker.initializeComponents() -> {
