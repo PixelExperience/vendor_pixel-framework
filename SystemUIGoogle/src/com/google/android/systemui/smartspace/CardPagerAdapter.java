@@ -57,6 +57,7 @@ public class CardPagerAdapter extends PagerAdapter {
     public Drawable mDndImage = null;
     public boolean mKeyguardBypassEnabled = false;
     public boolean mHasDifferentTargets = false;
+    public String mUiSurface;
 
     List<SmartspaceTarget> getTargets() {
         return this.mSmartspaceTargets;
@@ -705,6 +706,10 @@ public class CardPagerAdapter extends PagerAdapter {
         this.mDndImage = drawable;
         this.mDndDescription = str;
         refreshCards();
+    }
+
+    public void setUiSurface(String uiSurface) {
+        this.mUiSurface = uiSurface;
     }
 
     public void setNextAlarm(Drawable drawable, String str) {
