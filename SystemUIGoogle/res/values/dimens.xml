@@ -48,7 +48,7 @@
     <dimen name="dock_logo_min_size">48.0dip</dimen>
     <dimen name="dock_photo_diff">48.0dip</dimen>
     <dimen name="dock_promo_padding">48.0dip</dimen>
-    <dimen name="dock_top_logo_margin">12.0dip</dimen>
+    <dimen name="dock_top_logo_margin">6.0dip</dimen>
     <dimen name="dock_top_logo_padding">8.0dip</dimen>
     <dimen name="dream_cast_icon_dimen">16.0dip</dimen>
     <dimen name="dream_cast_icon_inset_dimen">2.0dip</dimen>
@@ -69,7 +69,6 @@
     <dimen name="enhanced_smartspace_icon_margin">4.0dip</dimen>
     <dimen name="enhanced_smartspace_icon_size">20.0dip</dimen>
     <dimen name="enhanced_smartspace_margin_start_launcher">16.0dip</dimen>
-    <dimen name="enhanced_smartspace_padding_top">22.0dip</dimen>
     <dimen name="enhanced_smartspace_secondary_card_corner_radius">20.0dip</dimen>
     <dimen name="enhanced_smartspace_secondary_card_end_margin">1.0dip</dimen>
     <dimen name="enhanced_smartspace_secondary_card_padding_end">12.0dip</dimen>
@@ -104,12 +103,10 @@
     <dimen name="keyboard_icon_tap_padding">12.0dip</dimen>
     <dimen name="long_press_detection_size_x">20.0dip</dimen>
     <dimen name="long_press_detection_size_y">20.0dip</dimen>
-    <dimen name="low_light_clock_animation_in_start_offset">-60.0dip</dimen>
-    <dimen name="low_light_clock_animation_out_end_offset">-60.0dip</dimen>
-    <item type="dimen" name="low_light_clock_charging_text_alpha">0.8</item>
     <dimen name="low_light_clock_charging_text_min_height">48.0dip</dimen>
-    <dimen name="low_light_clock_text_size">240.0sp</dimen>
-    <dimen name="low_light_status_text_size">18.0sp</dimen>
+    <dimen name="low_light_clock_charging_text_size">14.0sp</dimen>
+    <dimen name="low_light_clock_text_size">260.0dip</dimen>
+    <dimen name="low_light_clock_translate_animation_offset">40.0dip</dimen>
     <dimen name="navigation_bar_gesture_height">20.0dip</dimen>
     <dimen name="opa_diamond_translation">16.0dip</dimen>
     <item type="dimen" name="opa_disabled_home_diameter">@dimen/navigation_icon_size</item>
@@ -128,8 +125,6 @@
     <dimen name="page_indicator_dot_size">6.0dip</dimen>
     <dimen name="page_indicator_padding_top">10.0dip</dimen>
     <dimen name="page_indicator_width">16.0dip</dimen>
-    <dimen name="page_indicator_padding_start">2dp</dimen>
-    <dimen name="page_indicator_padding_top_bottom">8dp</dimen>
     <dimen name="scaled_image_corner_radius">28.0dip</dimen>
     <dimen name="scrim_touchable_height">132.0dip</dimen>
     <dimen name="selection_padding">4.0dip</dimen>

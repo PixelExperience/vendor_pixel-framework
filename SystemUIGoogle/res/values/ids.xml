@@ -4,6 +4,7 @@
     <item type="id" name="alarm_text"/>
     <item type="id" name="ambient_indication"/>
     <item type="id" name="ambient_indication_icon"/>
+    <item type="id" name="ambient_indication_info_container"/>
     <item type="id" name="ambient_indication_text"/>
     <item type="id" name="assist_prompt"/>
     <item type="id" name="base_action_icon_subtitle"/>
@@ -20,7 +21,6 @@
     <item type="id" name="chip_label"/>
     <item type="id" name="chips"/>
     <item type="id" name="chips_inline_container"/>
-    <item type="id" name="clock_view"/>
     <item type="id" name="debug_container"/>
     <item type="id" name="dock_promo"/>
     <item type="id" name="docked_top_icon"/>
@@ -62,7 +62,6 @@
     <item type="id" name="loading_screen"/>
     <item type="id" name="loading_screen_icon"/>
     <item type="id" name="lockscreen_opa"/>
-    <item type="id" name="low_light_clock"/>
     <item type="id" name="low_light_clock_dream"/>
     <item type="id" name="low_light_text_clock"/>
     <item type="id" name="lower_text"/>
@@ -96,7 +95,6 @@
     <item type="id" name="temperature_value"/>
     <item type="id" name="text_group"/>
     <item type="id" name="timestamp"/>
-    <item type="id" name="top_padding"/>
     <item type="id" name="transcription"/>
     <item type="id" name="upper_text"/>
     <item type="id" name="url_container"/>
