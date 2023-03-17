@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Vergroot raaksensitiwiteit en verbeter aanraking wanneer ’n skermbeskermer gebruik word</string>
     <string name="touch_sensitivity_title">Skermbeskermermodus</string>
     <string name="columbus_title">Dubbeltik om handelinge te begin</string>
-    <string name="about_phone">Meer oor foon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge is opgestel. Gaan na die volgende skerm toe of hou aan om te verstel.</string>
     <string name="accessibility_keyboard_haptics_title">Fisiese sleutelbordterugvoer</string>
+    <string name="adaptive_alert_vibration_summary">Verminder vibrasiesterkte terwyl jou foon stil is en die skerm boontoe wys</string>
+    <string name="adaptive_alert_vibration_title">Aanpasbare kennisgewingvibrasie</string>
     <string name="adaptive_charging">Aanpasbare laaiproses</string>
     <string name="adaptive_charging_description">Verleng battery se lewensduur deur geleidelik te laai en oor langer tye te laai. Geaktiveer op grond van jou gebruiksiklus.</string>
     <string name="adaptive_charging_time_estimate"><b>Aanpasbare laaiproses</b> • Vol teen %1$s</string>
-    <string name="add_bypassed_application_hint">Geen programme bygevoeg nie</string>
-    <string name="advanced_vpn_preference_group_title">Ingebou</string>
-    <string name="all_apps_category_title">Alle programme</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Voorkeure</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, onlangse programme, verstekprogramme</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Gaan voort na Assistent</string>
@@ -99,9 +97,11 @@ Nadat dit teruggestel is, volg die opstelproses en kies om jou data van jou vori
     <string name="battery_tip_limited_temporarily_extra_summary">Om jou battery te beskerm, word die laaiproses op %1$s onderbreek terwyl jou tablet gedok is</string>
     <string name="battery_tip_smart_battery_summary">Skakel Aanpasbare Battery aan</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s sal nie meer saamgebind word met enige toestel wat aan hierdie Google-rekening gekoppel is nie</string>
-    <string name="clear_calling_footer">Die beskikbaarheid van belhelderheid hang van jou wi-fi- en selnetwerkverbinding af. Inhoud uit jou oproep word nie na Google toe gestuur nie.</string>
-    <string name="clear_calling_title">Belhelderheid</string>
-    <string name="clear_calling_toggle">Gebruik belhelderheid</string>
+    <string name="clear_calling_footer">"Belhelderheid stuur nooit oudio of gesprekke na Google toe nie om jou privaatheid te beskerm.
+
+Die beskikbaarheid van Belhelderheid hang van jou wi-fi- en selnetwerk af."</string>
+    <string name="clear_calling_title">Duidelike oproepe</string>
+    <string name="clear_calling_toggle">Gebruik Duidelike Oproepe</string>
     <string name="clear_calling_topintro">Verminder agtergrondgeraas tydens oproepe</string>
     <string name="columbus_gesture_detected">Dubbeltik bespeur!</string>
     <string name="columbus_gesture_enrollment_complete">Klaar</string>
@@ -147,6 +147,17 @@ Nadat dit teruggestel is, volg die opstelproses en kies om jou data van jou vori
     <string name="columbus_setting_app_shortcut_selection_help_text">Kies wat gebeur as jy hierdie program met Dubbeltik oopmaak.</string>
     <string name="columbus_setting_enable_switch_title">Gebruik Dubbeltik</string>
     <string name="columbus_setting_sensitivity_title">Vereis harder tikke</string>
+    <string name="communal_cast_summary">Saai na of van hierdie toestel af uit</string>
+    <string name="communal_lock_screen_summary">Privaatheid, kennisgewings en huiskontroles</string>
+    <string name="communal_settings_summary_1">Geslote en gedokte optrede</string>
+    <string name="communal_settings_summary_2">Opsies op dok</string>
+    <string name="communal_settings_summary_3">Opsies op dok en sluitskerm</string>
+    <string name="communal_settings_summary_4">Opsies op sluitskerm en dok</string>
+    <string name="communal_settings_title">Sentrummodus</string>
+    <string name="communal_smartspace_summary">Onthounotas, opletberigte en meer van Assistent af</string>
+    <string name="communal_smartspace_title">Met ’n oogopslag</string>
+    <string name="communal_what_to_show">Wat om te wys</string>
+    <string name="communal_what_to_use">Wat om te gebruik</string>
     <string name="connectivity_helper_call_quality_category">Oproepgehalte</string>
     <string name="connectivity_helper_call_quality_summary">Word in kennis gestel oor oorsake van verbindingkwessies tydens oproepe</string>
     <string name="connectivity_helper_call_quality_title">Kry kennisgewings</string>
@@ -201,6 +212,7 @@ Rugsteundata sal nie deel vorm van jou Drive-bergingkwota nie. Groot lêers, of 
     <string name="global_actions_panel_title">Wys kaarte en passe</string>
     <string name="install_unknown_applications">Laat die installering van programme vanaf ander bronne as die Play Winkel toe</string>
     <string name="keywords_accessibility_menu">motories, kitskieslys, bystandskieslys, raak, handvaardigheid</string>
+    <string name="keywords_adaptive_alert_vibration">tasbare terugvoer, vibreer, foon, oproep, lui, opletberig, kennisgewings, hard, stil, geraas, houer, aanpasbaar</string>
     <string name="keywords_adaptive_charging">laai, laaiproses, slimlaaiproses, aanpasbare laaiproses, battery, batterygesondheid</string>
     <string name="keywords_assist_gesture_launch">gebaar, rand, kant, active edge, druk, greep, help, assistent, druk, ok google, google assistent</string>
     <string name="keywords_assist_gesture_silence">gebaar, rand, kant, active edge, stilte, sluimer, wekker, inkomende oproep, stil, vertoonskerm, sluitskerm, druk, greep, stop</string>
@@ -227,7 +239,6 @@ Rugsteundata sal nie deel vorm van jou Drive-bergingkwota nie. Groot lêers, of 
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google-rekening</string>
     <string name="owner_info_settings_edit_text_hint">Byvoorbeeld, Jan se Pixel.</string>
-    <string name="remove">Verwyder</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Sal outomaties vir ’n kort tydperk aanskakel wanneer jou foon by ’n laaier ingeprop word</string>
     <string name="reverse_charging_auto_turn_on_title">Skakel outomaties aan</string>
     <string name="reverse_charging_charging_wirelessly_message">Nie beskikbaar nie omdat foon tans draadloos laai</string>
@@ -332,9 +343,8 @@ Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel."
     <string name="suw_limited_warranty_title">Beperkte waarborg</string>
     <string name="suw_more_button_label">Meer</string>
     <string name="suw_next_button_label">Volgende</string>
-    <string name="suw_warranty_description">Kies die land waar jy hierdie toestel gekoop het om jou beperkte waarborg te bekyk.&lt;br /&gt;&lt;br /&gt;Die waarborg is ook beskikbaar by &lt;b&gt;Instellings &gt; %s &gt; Beperkte waarborg&lt;/b&gt; en g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Kies die land waar jy hierdie toestel gekoop het om die beperkte waarborg te bekyk. Die waarborg is ook beskikbaar by Instellings, dan %s en dan Beperkte waarborg en g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Die beperkte waarborg wat vir jou toestel geld, is ook beskikbaar in toestelinstellings by &lt;b&gt;Settings &gt; %s &gt; Beperkte waarborg&lt;/b&gt; en by g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Kies die land waar jy hierdie toestel gekoop het om jou beperkte waarborg te bekyk.&lt;br /&gt;&lt;br /&gt;Die waarborg is ook beskikbaar by &lt;b&gt;Instellings &gt; Meer oor foon &gt; Beperkte waarborg&lt;/b&gt; en g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Kies die land waar jy hierdie toestel gekoop het om die beperkte waarborg te bekyk. Die waarborg is ook beskikbaar by Instellings, dan Meer oor Foon en dan Beperkte Waarborg en g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Volgende</string>
     <string name="suw_warranty_positive_button_text">Maak toe</string>
     <string name="time_remaining_warning_subtext">Ongeveer %1$s oor gegrond op vorige gebruik</string>
@@ -343,10 +353,6 @@ Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel."
     <string name="tips_suggestion_title">Leer jou Pixel ken</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hou foon voor jou gesig</string>
     <string name="usb_use_file_transfers">Lêeroordrag / Android Auto</string>
-    <string name="vpn_app_bypass">Moenie VPN vir uitgesoekte programme gebruik nie</string>
-    <string name="vpn_bypass_category_title">Moenie VPN vir hierdie programme gebruik nie</string>
-    <string name="vpn_bypass_description">Jy kan sommige programme toelaat om die VPN te ignoreer en jou foon se gewone netwerkverbinding te gebruik</string>
-    <string name="vpn_preference_group_title">Ander</string>
     <string name="wallpaper_dashboard_summary">Kleure, ikone met temas, programrooster</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Bekyk of verander OpenRoaming-intekening</string>

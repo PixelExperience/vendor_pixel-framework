@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Öka tryckkänsligheten och få ett bättre tryck när du använder ett skärmskydd</string>
     <string name="touch_sensitivity_title">Skärmskyddsläge</string>
     <string name="columbus_title">Använd snabbtryck för att starta åtgärderna</string>
-    <string name="about_phone">Om telefonen</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge har konfigurerats. Fortsätt till nästa skärm eller gör fler justeringar.</string>
     <string name="accessibility_keyboard_haptics_title">Tangentbordets haptik</string>
+    <string name="adaptive_alert_vibration_summary">Minskar vibrationens styrka när telefonen ligger still med skärmen uppåt</string>
+    <string name="adaptive_alert_vibration_title">Anpassad vibration vid aviseringar</string>
     <string name="adaptive_charging">Smart laddning</string>
     <string name="adaptive_charging_description">Få batteriet att räcka längre genom att låta det laddas kontinuerligt under längre tid. Aktiveras utifrån användningen.</string>
-    <string name="adaptive_charging_time_estimate"><b>Smart laddning</b> • Färdigt kl. %1$s</string>
-    <string name="add_bypassed_application_hint">Inga appar har lagts till</string>
-    <string name="advanced_vpn_preference_group_title">Inbyggd</string>
-    <string name="all_apps_category_title">Alla appar</string>
+    <string name="adaptive_charging_time_estimate"><b>Smart laddning</b> • Färdigt om %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Inställningar</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, senaste apparna, standardappar</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Öppna Assistent</string>
@@ -99,9 +97,11 @@ När mobilen har återställts konfigurerar du den och väljer att hämta data f
     <string name="battery_tip_limited_temporarily_extra_summary">För att skydda batteriet pausas laddningen vid %1$s medan surfplattan är dockad</string>
     <string name="battery_tip_smart_battery_summary">Aktivera Smart batteri</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s kopplas inte längre till någon enhet som har länkats till det här Google-kontot</string>
-    <string name="clear_calling_footer">Klart samtalsljud är tillgängligt beroende på din wifi- och nätverksanslutning. Innehåll från samtalet skickas inte till Google.</string>
-    <string name="clear_calling_title">Klart samtalsljud</string>
-    <string name="clear_calling_toggle">Använd klart samtalsljud</string>
+    <string name="clear_calling_footer">"Klart samtalsljud skickar aldrig ljud eller konversationer till Google i syfte att skydda din integritet.
+
+Klart samtalsljud är tillgängligt beroende på ditt wifi och mobilnätverk."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Använd Clear Calling</string>
     <string name="clear_calling_topintro">Minskar bakgrundsljud under samtal</string>
     <string name="columbus_gesture_detected">Snabbtryck har registrerats</string>
     <string name="columbus_gesture_enrollment_complete">Klar</string>
@@ -147,6 +147,17 @@ När mobilen har återställts konfigurerar du den och väljer att hämta data f
     <string name="columbus_setting_app_shortcut_selection_help_text">Välj vad som ska hända när du öppnar appen med Snabbtryck.</string>
     <string name="columbus_setting_enable_switch_title">Använd Snabbtryck</string>
     <string name="columbus_setting_sensitivity_title">Kräv kraftigare tryck</string>
+    <string name="communal_cast_summary">Casta till eller från den här enheten</string>
+    <string name="communal_lock_screen_summary">Integritet, aviseringar och hemstyrning</string>
+    <string name="communal_settings_summary_1">Beteende när enheten är låst och dockad</string>
+    <string name="communal_settings_summary_2">Alternativ för dockning</string>
+    <string name="communal_settings_summary_3">Alternativ för dockningsstation och låsskärm</string>
+    <string name="communal_settings_summary_4">Alternativ för låsskärm och dockning</string>
+    <string name="communal_settings_title">Hubbläge</string>
+    <string name="communal_smartspace_summary">Påminnelser, aviseringar med mera från Assistent</string>
+    <string name="communal_smartspace_title">Snabböversikt</string>
+    <string name="communal_what_to_show">Vad som ska visas</string>
+    <string name="communal_what_to_use">Vad som ska användas</string>
     <string name="connectivity_helper_call_quality_category">Samtalskvalitet</string>
     <string name="connectivity_helper_call_quality_summary">Få aviseringar om orsaker till anslutningsproblem under samtal</string>
     <string name="connectivity_helper_call_quality_title">Få aviseringar</string>
@@ -200,6 +211,7 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="global_actions_panel_title">Visa kort och värdekort</string>
     <string name="install_unknown_applications">Tillåt installation av appar från andra källor än Play Butik</string>
     <string name="keywords_accessibility_menu">motorik, snabbmeny, stödmeny, pekgester, behändighet</string>
+    <string name="keywords_adaptive_alert_vibration">haptik, vibration, telefon, samtal, ringa, avisering, aviseringar, högt, tyst, oljud, skal, anpassad</string>
     <string name="keywords_adaptive_charging">laddning, ladda, smart laddning, anpassad laddning, batteri, batterihälsa</string>
     <string name="keywords_assist_gesture_launch">rörelse, edge, sida, active edge, klämma, grepp, assistera, assistent, klämma, hey google, google assistent</string>
     <string name="keywords_assist_gesture_silence">rörelse, edge, sida, active edge, tysta, snooza, alarm, inkommande samtal, tyst, skärm, display, låsskärm, klämma, grepp, stopp</string>
@@ -226,7 +238,6 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="me_card_title">Min Pixel</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jonas Pixel.</string>
-    <string name="remove">Ta bort</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Aktiveras automatiskt under en kort tid när telefonen ansluts till en laddare</string>
     <string name="reverse_charging_auto_turn_on_title">Aktivera automatiskt</string>
     <string name="reverse_charging_charging_wirelessly_message">Inte tillgängligt eftersom telefonen laddas trådlöst</string>
@@ -331,9 +342,8 @@ Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda
     <string name="suw_limited_warranty_title">Begränsad garanti</string>
     <string name="suw_more_button_label">Mer</string>
     <string name="suw_next_button_label">Nästa</string>
-    <string name="suw_warranty_description">Välj landet där du köpte enheten om du vill se din begränsade garanti.&lt;br /&gt;&lt;br /&gt;Garantin finns även under &lt;b&gt;Inställningar &gt; %s &gt; Begränsad garanti&lt;/b&gt; och på g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Välj landet där du köpte enheten om du vill se din begränsade garanti. Garantin finns även under Inställningar, sedan %s, sedan Begränsad garanti, och på g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Den begränsade garantin för enheten finns även i enhetsinställningarna i &lt;b&gt;Inställningar&gt; %s &gt; den begränsade garantin&lt;/b&gt; och på g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Välj landet där du köpte enheten om du vill se din begränsade garanti.&lt;br /&gt;&lt;br /&gt;Garantin finns även under &lt;b&gt;Inställningar &gt; Om telefonen &gt; Begränsad garanti&lt;/b&gt; och på g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Välj landet där du köpte enheten om du vill se din begränsade garanti. Garantin finns även under Inställningar, sedan Om telefonen följt av Begränsad garanti och på g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Nästa</string>
     <string name="suw_warranty_positive_button_text">Stäng</string>
     <string name="time_remaining_warning_subtext">Omkring %1$s kvar, baserat på tidigare användning</string>
@@ -342,10 +352,6 @@ Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda
     <string name="tips_suggestion_title">Bekanta dig med Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Håll upp telefonen framför ansiktet</string>
     <string name="usb_use_file_transfers">Filöverföring/Android Auto</string>
-    <string name="vpn_app_bypass">Använd inte VPN för valda appar</string>
-    <string name="vpn_bypass_category_title">Använd inte VPN för dessa appar</string>
-    <string name="vpn_bypass_description">Du kan tillåta vissa appar att ignorera ditt VPN och använda telefonens vanliga nätverksanslutning</string>
-    <string name="vpn_preference_group_title">Andra</string>
     <string name="wallpaper_dashboard_summary">Färger, ikoner med tema, rutnät för appar</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Visa eller ändra prenumeration för OpenRoaming</string>

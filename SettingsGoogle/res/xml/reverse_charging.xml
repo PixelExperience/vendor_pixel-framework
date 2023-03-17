@@ -19,8 +19,7 @@
 
     <com.android.settingslib.widget.IllustrationPreference
         android:key="reverse_charging_illustration"
-        android:selectable="false"
-        settings:lottie_rawRes="@raw/lottie_reverse_charging" />
+        android:selectable="false" />
 
     <com.google.android.settings.fuelgauge.reversecharging.ReverseChargingSeekBarPreference
         android:icon="@drawable/ic_reverse_charging"

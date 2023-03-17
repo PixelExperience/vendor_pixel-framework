@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">បង្កើនកម្រិត​ឆ្លើយតប​នៃការ​ចុច និង​កែលម្អ​ការ​ចុច​នៅ​ពេល​ប្រើប្រាស់​កញ្ចក់​ការពារ​អេក្រង់</string>
     <string name="touch_sensitivity_title">មុខងារ​កញ្ចក់​ការពារ​អេក្រង់</string>
     <string name="columbus_title">ប៉ះរហ័ស ដើម្បីចាប់ផ្ដើម​សកម្មភាព</string>
-    <string name="about_phone">អំពី​ទូរសព្ទ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge បាន​រៀបចំ​រួច​ហើយ។ សូមចូលទៅ​អេក្រង់​បន្ទាប់ ឬបន្ត​ការ​កែតម្រូវ។</string>
     <string name="accessibility_keyboard_haptics_title">ការប៉ះក្ដារចុច</string>
+    <string name="adaptive_alert_vibration_summary">កាត់បន្ថយកម្លាំងរំញ័រ ពេលទូរសព្ទរបស់អ្នកនៅស្ងៀម ហើយអេក្រង់កំពុងផ្ងារឡើង</string>
+    <string name="adaptive_alert_vibration_title">ការ​ញ័រជូន​ដំណឹងដែលមានភាពបត់បែន</string>
     <string name="adaptive_charging">ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</string>
     <string name="adaptive_charging_description">បង្កើន​អាយុកាលថ្ម​ដោយសាកថ្ម​បន្តិចម្ដងៗ អំឡុងពេល​សាកថ្ម​យូរជាងមុន។ បានបើក​ដំណើរការ​ដោយផ្អែកលើ​វដ្តនៃការប្រើប្រាស់​របស់អ្នក។</string>
     <string name="adaptive_charging_time_estimate"><b>ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</b> • ពេញ​នៅត្រឹមម៉ោង %1$s</string>
-    <string name="add_bypassed_application_hint">មិនបានបញ្ចូលកម្មវិធីណាទេ</string>
-    <string name="advanced_vpn_preference_group_title">ភ្ជាប់មក​ជាមួយ​ស្រាប់</string>
-    <string name="all_apps_category_title">កម្មវិធី​ទាំងអស់</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">ចំណូលចិត្ត</annotation></string>
     <string name="app_and_notification_dashboard_summary">ជំនួយការ កម្មវិធី​ថ្មីៗ កម្មវិធី​លំនាំដើម</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">បន្តទៅជំនួយការ</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">ដើម្បីការពារថ្មរបស់អ្នក ការសាកថ្មត្រូវបានផ្អាកនៅកម្រិត %1$s ខណៈពេលដែលថេប្លេតរបស់អ្នកត្រូវបានភ្ជាប់</string>
     <string name="battery_tip_smart_battery_summary">បើក​កម្មវិធី​ថ្ម​មានភាពបត់បែន</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s នឹង​លែង​ត្រូវបានផ្គូផ្គង​ជាមួយ​ឧបករណ៍ដែលភ្ជាប់​ទៅ​គណនី Google នេះ​ទៀតហើយ</string>
-    <string name="clear_calling_footer">អាច​ប្រើ​មុខងារ​សំឡេង​ឮ​ច្បាស់​បាន អាស្រ័យ​លើ​ការតភ្ជាប់ Wi‑Fi និង​បណ្ដាញ​ទូរសព្ទ​ចល័ត​របស់​អ្នក។ ខ្លឹមសារ​ពី​ការហៅ​របស់​អ្នក​មិន​ត្រូវ​បាន​ផ្ញើ​ឱ្យ Google ទេ។</string>
-    <string name="clear_calling_title">សំឡេងឮច្បាស់</string>
-    <string name="clear_calling_toggle">ប្រើ​មុខងារ​សំឡេងឮច្បាស់</string>
+    <string name="clear_calling_footer">"ដើម្បីការពារឯកជនភាពរបស់អ្នក មុខងារសំឡេងឮច្បាស់មិនផ្ញើសំឡេង ឬការសន្ទនាទៅ Google ឡើយ។
+
+អ្នកអាចប្រើមុខងារសំឡេងឮច្បាស់បាន អាស្រ័យលើ Wi-Fi និងបណ្ដាញ​ទូរសព្ទ​ចល័តរបស់អ្នក។"</string>
+    <string name="clear_calling_title">ការហៅដែលមានសំឡេងច្បាស់</string>
+    <string name="clear_calling_toggle">ប្រើ​ការហៅដែលមានសំឡេងច្បាស់</string>
     <string name="clear_calling_topintro">កាត់បន្ថយ​សំឡេងរំខាន​នៅផ្ទៃខាងក្រោយ ក្នុងអំឡុងពេល​ហៅទូរសព្ទ</string>
     <string name="columbus_gesture_detected">ចាប់​បានការប៉ះរហ័ស!</string>
     <string name="columbus_gesture_enrollment_complete">រួចរាល់</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">ជ្រើសរើស​ថាមានអ្វី​កើតឡើង នៅពេល​អ្នកបើក​កម្មវិធីនេះ​ដោយប្រើការប៉ះរហ័ស។</string>
     <string name="columbus_setting_enable_switch_title">ប្រើការប៉ះរហ័ស</string>
     <string name="columbus_setting_sensitivity_title">តម្រូវឱ្យ​ប៉ះឱ្យខ្លាំងៗ</string>
+    <string name="communal_cast_summary">បញ្ជូនទៅ ឬពីឧបករណ៍នេះ</string>
+    <string name="communal_lock_screen_summary">ឯកជនភាព ការជូនដំណឹង និងការគ្រប់គ្រងផ្ទះ</string>
+    <string name="communal_settings_summary_1">សកម្មភាព​ភ្ជាប់ និងចាក់សោ</string>
+    <string name="communal_settings_summary_2">ជម្រើសភ្ជាប់</string>
+    <string name="communal_settings_summary_3">ជម្រើសអេក្រង់ចាក់សោ និងភ្ជាប់</string>
+    <string name="communal_settings_summary_4">ជម្រើសភ្ជាប់ និងអេក្រង់ចាក់សោ</string>
+    <string name="communal_settings_title">មុខងារមណ្ឌល</string>
+    <string name="communal_smartspace_summary">ការរំលឹក ការជូនដំណឹង និងអ្វីៗជាច្រើនទៀតពី Google Assistant</string>
+    <string name="communal_smartspace_title">មើលមួយភ្លែត</string>
+    <string name="communal_what_to_show">អ្វីដែលត្រូវបង្ហាញ</string>
+    <string name="communal_what_to_use">អ្វីដែលត្រូវប្រើ</string>
     <string name="connectivity_helper_call_quality_category">គុណភាព​ហៅទូរសព្ទ</string>
     <string name="connectivity_helper_call_quality_summary">ទទួលបាន​ការជូនដំណឹង​អំពីមូលហេតុដែល​បណ្ដាលឱ្យមាន​បញ្ហានៃការតភ្ជាប់ អំឡុងពេល​ហៅទូរសព្ទ</string>
     <string name="connectivity_helper_call_quality_title">ទទួលបាន​ការជូនដំណឹង</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">បង្ហាញ​កាត និង​សំបុត្រ</string>
     <string name="install_unknown_applications">អនុញ្ញាតឲ្យដំឡើងកម្មវិធីពីប្រភពផ្សេងក្រៅពីហាង Play</string>
     <string name="keywords_accessibility_menu">ម៉ូទ័រ ម៉ឺនុយរហ័ស ម៉ឺនុយជំនួយ ចុច ភាពស្ទាត់ជំនាញ</string>
+    <string name="keywords_adaptive_alert_vibration">ការប៉ះ, ញ័រ, ទូរសព្ទ, ហៅទូរសព្ទ, រោទ៍, ជូន​ដំណឹង, ការ​ជូនដំណឹង, ឮ, ស្ងាត់, សំឡេង, ស្រោមទូរសព្ទ, អាចបត់បែនបាន</string>
     <string name="keywords_adaptive_charging">សាកថ្ម ការសាកថ្ម ការសាកថ្មឆ្លាតវៃ ការសាកថ្មដែលមានភាពបត់បែន ថ្ម សុខភាពថ្ម</string>
     <string name="keywords_assist_gesture_launch">ចលនា, គែម, ខាង, active edge, ច្របាច់, ក្តាប់, ជួយ, ជំនួយការ, ច្របាច់, ok google, google ជំនួយការ</string>
     <string name="keywords_assist_gesture_silence">ចលនា, គែម, ខាង, active edge, ស្ងាត់, ផ្អាក, ម៉ោងរោទ៍, ការហៅចូល, ស្ងាត់, បង្ហាញ, អេក្រង់ចាក់សោ, ច្របាច់, ក្តាប់, បញ្ឈប់</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Pixel របស់ខ្ញុំ</string>
     <string name="my_device_info_account_preference_title">គណនី Google</string>
     <string name="owner_info_settings_edit_text_hint">ឧ. ទូរសព្ទ Pixel របស់សុភាព។</string>
-    <string name="remove">លុប</string>
     <string name="reverse_charging_auto_turn_on_subtitle">នឹងបើក​ក្នុងរយៈពេលខ្លី​ដោយស្វ័យប្រវត្តិ នៅពេល​ទូរសព្ទរបស់អ្នក​ត្រូវបានដោតជាមួយ​ឆ្នាំងសាក</string>
     <string name="reverse_charging_auto_turn_on_title">បើកដោយស្វ័យប្រវត្តិ</string>
     <string name="reverse_charging_charging_wirelessly_message">មិនអាចប្រើ​បានទេ ដោយសារទូរសព្ទ​កំពុងសាកថ្ម​ឥតខ្សែ</string>
@@ -333,9 +344,8 @@
     <string name="suw_limited_warranty_title">ការធានាមានកំណត់</string>
     <string name="suw_more_button_label">ច្រើនទៀត</string>
     <string name="suw_next_button_label">បន្ទាប់</string>
-    <string name="suw_warranty_description">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។&lt;br /&gt;&lt;br /&gt;ការធានានេះក៏មាននៅក្នុង &lt;b&gt;ការកំណត់ &gt; %s &gt; ការធានាមានកំណត់&lt;/b&gt; និង g.co/devicewarranty ផងដែរ។</string>
-    <string name="suw_warranty_description_content">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។ ការធានានេះក៏មាននៅក្នុងការកំណត់ និង %s រួចការធានាមានកំណត់ និង g.co/devicewarranty ផងដែរ។</string>
-    <string name="suw_warranty_language_consistent_description">ការធានាមានកំណត់ដែលអនុវត្តចំពោះឧបករណ៍របស់អ្នក ក៏មាននៅក្នុងការកំណត់ឧបករណ៍នៅ&lt;b&gt;ការកំណត់ &gt; %s &gt; ការធានាមានកំណត់&lt;/b&gt; និងនៅ g.co/devicewarranty ផងដែរ។</string>
+    <string name="suw_warranty_description">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។&lt;br /&gt;&lt;br /&gt;ការធានានេះក៏មាននៅ&lt;b&gt;ការកំណត់ &gt; អំពីទូរសព្ទ &gt; ការធានាមានកំណត់&lt;/b&gt; និង g.co/devicewarranty ផងដែរ។</string>
+    <string name="suw_warranty_description_content">ដើម្បីមើលការធានាមានកំណត់របស់អ្នក សូមជ្រើសរើសប្រទេសដែលអ្នកបានទិញឧបករណ៍នេះ។ ការធានានេះក៏មាននៅ \"ការកំណត់\" រួច \"អំពីទូរសព្ទ\" បន្ទាប់មក \"ការធានាមានកំណត់\" និង g.co/devicewarranty ផងដែរ។</string>
     <string name="suw_warranty_next_button_text">បន្ទាប់</string>
     <string name="suw_warranty_positive_button_text">បិទ</string>
     <string name="time_remaining_warning_subtext">សល់ប្រហែល %1$s ទៀតផ្អែកលើការប្រើប្រាស់ពីមុន</string>
@@ -344,10 +354,6 @@
     <string name="tips_suggestion_title">ស្វែងយល់​អំពី Pixel របស់អ្នក</string>
     <string name="traffic_light_face_enrolling_title_accessibility">កាន់ទូរសព្ទ​ដាក់ចំ​ពីមុខ​អ្នក</string>
     <string name="usb_use_file_transfers">ការផ្ទេរឯកសារ / Android Auto</string>
-    <string name="vpn_app_bypass">កុំ​ប្រើ VPN សម្រាប់​កម្មវិធី​ដែល​បាន​ជ្រើសរើស</string>
-    <string name="vpn_bypass_category_title">កុំ​ប្រើ VPN សម្រាប់​កម្មវិធី​ទាំង​នេះ</string>
-    <string name="vpn_bypass_description">អ្នក​អាច​អនុញ្ញាត​ឱ្យ​កម្មវិធី​មួយ​ចំនួន​មិន​អើពើនឹង VPN និង​ប្រើ​ការតភ្ជាប់បណ្ដាញ​ធម្មតា​នៃ​ទូរសព្ទ​របស់​អ្នក</string>
-    <string name="vpn_preference_group_title">ផ្សេងៗ</string>
     <string name="wallpaper_dashboard_summary">ពណ៌ រូបតំណាងប្ដូរតាមទម្រង់រចនា ក្រឡាកម្មវិធី</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">មើល ឬប្ដូរ​ការជាវ OpenRoaming</string>

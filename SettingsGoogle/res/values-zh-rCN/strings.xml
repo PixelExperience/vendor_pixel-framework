@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">在使用屏幕保护膜时提升轻触灵敏度和改进轻触效果</string>
     <string name="touch_sensitivity_title">屏幕保护膜模式</string>
     <string name="columbus_title">快速轻触即可执行相关操作</string>
-    <string name="about_phone">关于手机</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge 已设置。请转到下一个屏幕或继续调整。</string>
     <string name="accessibility_keyboard_haptics_title">键盘触感反馈</string>
+    <string name="adaptive_alert_vibration_summary">当手机平稳不动且屏幕朝上时，降低振动强度</string>
+    <string name="adaptive_alert_vibration_title">自动调整振动强度</string>
     <string name="adaptive_charging">自适应充电</string>
     <string name="adaptive_charging_description">如果需要长时间充电，系统会以稳定充电的方式延长电池寿命。此功能会根据您的使用周期启动。</string>
     <string name="adaptive_charging_time_estimate"><b>正在自适应充电</b> • %1$s前充满</string>
-    <string name="add_bypassed_application_hint">未添加任何应用</string>
-    <string name="advanced_vpn_preference_group_title">内置</string>
-    <string name="all_apps_category_title">所有应用</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">偏好设置</annotation></string>
     <string name="app_and_notification_dashboard_summary">Google 助理、最近使用的应用、默认应用</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">继续使用智能助理</string>
@@ -99,7 +97,9 @@
     <string name="battery_tip_limited_temporarily_extra_summary">为保护您的电池，在您的平板电脑已插入基座期间，电池充电进程会在电量达到 %1$s 后暂停</string>
     <string name="battery_tip_smart_battery_summary">开启自适应电池</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s不会再与关联到此 Google 帐号的任何设备配对</string>
-    <string name="clear_calling_footer">“清晰通话”功能是否可用取决于您的 WLAN 和移动网络连接情况。系统不会将您的通话内容发送给 Google。</string>
+    <string name="clear_calling_footer">"为保护您的隐私，“清晰通话”功能绝不会将音频或对话内容发送给 Google。
+
+“清晰通话”功能是否可用取决于您的 WLAN 和移动网络。"</string>
     <string name="clear_calling_title">清晰通话</string>
     <string name="clear_calling_toggle">使用“清晰通话”功能</string>
     <string name="clear_calling_topintro">在通话期间降低背景噪声</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">选择通过“快速轻触”打开该应用时要执行的操作。</string>
     <string name="columbus_setting_enable_switch_title">使用“快速轻触”</string>
     <string name="columbus_setting_sensitivity_title">需要更大的点按力度</string>
+    <string name="communal_cast_summary">投放到此设备或从此设备投放</string>
+    <string name="communal_lock_screen_summary">隐私设置、通知及主屏幕控制</string>
+    <string name="communal_settings_summary_1">锁定及插入基座的行为</string>
+    <string name="communal_settings_summary_2">基座上选项</string>
+    <string name="communal_settings_summary_3">插入基座及锁定屏幕选项</string>
+    <string name="communal_settings_summary_4">锁定屏幕及基座上选项</string>
+    <string name="communal_settings_title">充电模式</string>
+    <string name="communal_smartspace_summary">来自 Google 助理的提醒、警报等讯息</string>
+    <string name="communal_smartspace_title">速览</string>
+    <string name="communal_what_to_show">要显示的项目</string>
+    <string name="communal_what_to_use">要使用的项目</string>
     <string name="connectivity_helper_call_quality_category">通话质量</string>
     <string name="connectivity_helper_call_quality_summary">接收关于通话期间连接问题原因的通知</string>
     <string name="connectivity_helper_call_quality_title">接收通知</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">显示银行卡和卡券</string>
     <string name="install_unknown_applications">允许安装来自 Play 商店以外其他来源的应用</string>
     <string name="keywords_accessibility_menu">电机, 快捷菜单, 辅助菜单, 轻触, 灵活, motor, quick menu, assistive menu, touch, dexterity</string>
+    <string name="keywords_adaptive_alert_vibration">触感反馈, 振动, 手机, 通话, 铃声, 提醒, 通知, 大音量, 静音, 噪音, 保护壳, 自适应, haptics, vibrate, phone, call, ring, alert, notifications, loud, quiet, noise, case, adaptive</string>
     <string name="keywords_adaptive_charging">充电, 设备充电, 智能充电, 自适应充电, 电池, 电池状况</string>
     <string name="keywords_assist_gesture_launch">手势, 边缘, 侧边, Active Edge, 握压, 握紧, 辅助, 智能助理, Ok Google, Google 助理</string>
     <string name="keywords_assist_gesture_silence">手势, 边缘, 侧边, Active Edge, 静音, 延后, 闹钟, 来电, 勿扰, 显示屏, 锁定屏幕, 握压, 握紧, 停止</string>
@@ -226,7 +238,6 @@
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帐号</string>
     <string name="owner_info_settings_edit_text_hint">例如，小明的 Pixel。</string>
-    <string name="remove">移除</string>
     <string name="reverse_charging_auto_turn_on_subtitle">当手机连接到充电器时，此功能会自动开启并在短时间内保持开启状态</string>
     <string name="reverse_charging_auto_turn_on_title">自动开启</string>
     <string name="reverse_charging_charging_wirelessly_message">该功能无法使用，因为手机正在无线充电</string>
@@ -318,7 +329,7 @@
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">跳过人脸解锁</string>
     <string name="security_settings_face_enroll_too_hot_title">手机过热</string>
     <string name="security_settings_fingerprint_preference_summary_none">点按即可设置指纹</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如需详细了解 Pixel 指纹解锁，请访问&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如需详细了解 Pixel 指纹解锁，请访问 &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
     <string name="security_settings_work_fingerprint_preference_title">工作资料的 Pixel Imprint</string>
     <string name="setup_suggestion_summary">复制数据，使用手机付款等等</string>
     <string name="setup_suggestion_title">完成设置</string>
@@ -331,9 +342,8 @@
     <string name="suw_limited_warranty_title">有限保修</string>
     <string name="suw_more_button_label">更多</string>
     <string name="suw_next_button_label">下一步</string>
-    <string name="suw_warranty_description">如需查看您的有限保修，请选择您购买此设备时所在的国家/地区。&lt;br /&gt;&lt;br /&gt;您也可以依次前往&lt;b&gt;设置 &gt; %s &gt; 有限保修&lt;/b&gt;，或者在 g.co/devicewarranty 上查看保修信息。</string>
-    <string name="suw_warranty_description_content">如需查看您的有限保修，请选择您购买此设备时所在的国家/地区。您也可以依次前往“设置”&gt;“%s”&gt;“有限保修”，或者在 g.co/devicewarranty 上查看保修信息。</string>
-    <string name="suw_warranty_language_consistent_description">您也可以在设备“设置”（依次点按&lt;b&gt;设置 &gt; %s &gt; 有限保修&lt;/b&gt;）中和 g.co/devicewarranty 上查看适用于您设备的有限保修信息。</string>
+    <string name="suw_warranty_description">如需查看您的有限保修信息，请选择此设备的购买地所属的国家/地区。&lt;br /&gt;&lt;br /&gt;您也可以依次前往&lt;b&gt;设置 &gt; 关于手机 &gt; 有限保修&lt;/b&gt;，或者在 g.co/devicewarranty 上查看保修信息。</string>
+    <string name="suw_warranty_description_content">如需查看您的有限保修信息，请选择此设备的购买地所属的国家/地区。您也可以前往“设置”，选择“关于手机”，然后选择“有限保修”，或者在 g.co/devicewarranty 上查看保修信息。</string>
     <string name="suw_warranty_next_button_text">继续</string>
     <string name="suw_warranty_positive_button_text">关闭</string>
     <string name="time_remaining_warning_subtext">根据过往使用情况，大约还可使用%1$s</string>
@@ -342,10 +352,6 @@
     <string name="tips_suggestion_title">了解您的 Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">请将手机举到您脸部的正前方</string>
     <string name="usb_use_file_transfers">文件传输/Android Auto</string>
-    <string name="vpn_app_bypass">不对所选应用使用 VPN</string>
-    <string name="vpn_bypass_category_title">不对这些应用使用 VPN</string>
-    <string name="vpn_bypass_description">您可以允许某些应用忽略 VPN 并使用手机的常规网络连接</string>
-    <string name="vpn_preference_group_title">其他</string>
     <string name="wallpaper_dashboard_summary">颜色、带主题的图标、应用网格</string>
     <string name="warranty_country_information">%1$s（%2$s）</string>
     <string name="wifi_subscription_summary">查看或更改 OpenRoaming 订阅</string>

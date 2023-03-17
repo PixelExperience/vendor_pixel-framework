@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">സ്പർശന സെൻസിറ്റിവിറ്റി വർദ്ധിപ്പിക്കുക, സ്ക്രീൻ പ്രൊട്ടക്ടർ ഉപയോഗിക്കുമ്പോൾ സ്പർശനം മെച്ചപ്പെടുത്തുക</string>
     <string name="touch_sensitivity_title">സ്ക്രീൻ പ്രൊട്ടക്ടർ മോഡ്</string>
     <string name="columbus_title">പ്രവർത്തനങ്ങൾ ആരംഭിക്കാൻ വേഗത്തിലുള്ള ടാപ്പ്</string>
-    <string name="about_phone">ഫോണിനെക്കുറിച്ച്</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge സജ്ജീകരണം. അടുത്ത സ്‌ക്രീനിലേക്ക് പോവുക അല്ലെങ്കിൽ ക്രമീകരിക്കുക.</string>
     <string name="accessibility_keyboard_haptics_title">കീബോർഡ് സ്‌പർശനങ്ങൾ</string>
+    <string name="adaptive_alert_vibration_summary">നിങ്ങളുടെ ഫോൺ നിശ്ചലമായിരിക്കുമ്പോഴും അതിന്റെ സ്‌ക്രീൻ മുകളിലേക്ക് തിരിഞ്ഞിരിക്കുമ്പോഴും വൈബ്രേഷൻ ശക്തി കുറയ്‌ക്കുന്നു</string>
+    <string name="adaptive_alert_vibration_title">അനുയോജ്യമായ മുന്നറിയിപ്പ് വൈബ്രേഷൻ</string>
     <string name="adaptive_charging">അഡാപ്റ്റീവ് ചാർജിംഗ്</string>
     <string name="adaptive_charging_description">ദീർഘമായ ചാർജിംഗ് കാലയളവുകളിൽ ബാറ്ററിയുടെ ആയുസ്സ് വർദ്ധിപ്പിക്കാൻ സ്ഥിരമായി ചാർജ് ചെയ്യുക. നിങ്ങളുടെ ഉപയോഗ സൈക്കിളിന്റെ അടിസ്ഥാനത്തിൽ സജീവമാക്കി.</string>
     <string name="adaptive_charging_time_estimate"><b>അഡാപ്റ്റീവ് ചാർജിംഗ്</b> • %1$s-ന് പൂർത്തിയാകും</string>
-    <string name="add_bypassed_application_hint">ആപ്പുകളൊന്നും ചേർത്തിട്ടില്ല</string>
-    <string name="advanced_vpn_preference_group_title">ബിൽറ്റ് ഇൻ</string>
-    <string name="all_apps_category_title">എല്ലാ ആപ്പുകളും</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">മുൻഗണനകൾ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, സമീപകാലത്തുള്ള ആപ്പുകൾ, ഡിഫോൾട്ട് ആപ്പുകൾ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistant-ൽ തുടരാൻ</string>
@@ -98,7 +96,9 @@
     <string name="battery_tip_limited_temporarily_extra_summary">നിങ്ങളുടെ ബാറ്ററി പരിരക്ഷിക്കാൻ, ടാബ്‌ലെറ്റ് ഡോക്ക് ചെയ്തിരിക്കുമ്പോൾ %1$s ചാർജ് ആയപ്പോൾ ചാർജ് ചെയ്യൽ താൽക്കാലികമായി നിർത്തി</string>
     <string name="battery_tip_smart_battery_summary">അഡാപ്റ്റീവ് ബാറ്ററി ഓണാക്കുക</string>
     <string name="bluetooth_untethered_unpair_dialog_body">ഈ Google അക്കൗണ്ടുമായി ലിങ്ക് ചെയ്‌തിരിക്കുന്ന ഒരു ഉപകരണവുമായും%1$s എന്ന ഉപകരണം ഇനി ജോഡിയാകില്ല</string>
-    <string name="clear_calling_footer">നിങ്ങളുടെ വൈഫൈയും നെറ്റ്‌വർക്ക് കണക്ഷനും അനുസരിച്ച് ക്ലിയർകോളിംഗ് ലഭ്യമാകുന്നു. നിങ്ങളുടെ കോളിന്റെ ഉള്ളടക്കം Google-ലേക്ക് അയയ്‌ക്കില്ല.</string>
+    <string name="clear_calling_footer">"നിങ്ങളുടെ സ്വകാര്യത സംരക്ഷിക്കാൻ, ക്ലിയർ കോളിംഗ് ഒരിക്കലും Google-ലേക്ക് ഓഡിയോയോ സംഭാഷണങ്ങളോ അയയ്‌ക്കില്ല.
+
+നിങ്ങളുടെ വൈഫൈ, മൊബൈൽ നെറ്റ്‌വർക്ക് എന്നിവയെ ആശ്രയിച്ച് ക്ലിയർ കോളിംഗ് ലഭ്യമാണ്."</string>
     <string name="clear_calling_title">ക്ലിയർ കോളിംഗ്</string>
     <string name="clear_calling_toggle">ക്ലിയർ കോളിംഗ് ഉപയോഗിക്കുക</string>
     <string name="clear_calling_topintro">കോൾ ചെയ്യുന്നതിനിടെ കേൾക്കുന്ന പശ്ചാത്തല ശബ്ദങ്ങൾ കുറയ്ക്കുന്നു</string>
@@ -146,6 +146,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">വേഗത്തിലുള്ള ടാപ്പ് ഉപയോഗിച്ച് നിങ്ങൾ ഈ ആപ്പ് തുറക്കുമ്പോൾ എന്ത് സംഭവിക്കുന്നുവെന്ന് തിരഞ്ഞെടുക്കുക.</string>
     <string name="columbus_setting_enable_switch_title">വേഗത്തിലുള്ള ടാപ്പ് ഉപയോഗിക്കുക</string>
     <string name="columbus_setting_sensitivity_title">കൂടുതൽ ശക്തമായ ടാപ്പുകൾ ആവശ്യമാണ്</string>
+    <string name="communal_cast_summary">ഈ ഉപകരണത്തിലേക്കോ ഇതിൽ നിന്ന് തിരികെയോ കാസ്‌റ്റ് ചെയ്യുക</string>
+    <string name="communal_lock_screen_summary">സ്വകാര്യത, അറിയിപ്പുകൾ, ഹോം കൺട്രോളുകൾ</string>
+    <string name="communal_settings_summary_1">ലോക്ക്, ഡോക്ക് എന്നിവ ചെയ്യുമ്പോഴുള്ള സ്വഭാവം</string>
+    <string name="communal_settings_summary_2">ഓൺ-ഡോക്ക് ഓപ്‌ഷനുകൾ</string>
+    <string name="communal_settings_summary_3">ഡോക്ക്, ലോക്ക്‌ സ്ക്രീൻ ഓപ്‌ഷനുകൾ</string>
+    <string name="communal_settings_summary_4">ലോക്ക് സ്‌ക്രീൻ, ഓൺ-ഡോക്ക് ഓപ്‌ഷനുകൾ</string>
+    <string name="communal_settings_title">ഹബ് മോഡ്</string>
+    <string name="communal_smartspace_summary">Assistant-ൽ നിന്നുള്ള റിമൈൻഡറുകളും മുന്നറിയിപ്പുകളും മറ്റും</string>
+    <string name="communal_smartspace_title">ഒറ്റനോട്ടത്തിൽ</string>
+    <string name="communal_what_to_show">എന്തൊക്കെ കാണിക്കണം</string>
+    <string name="communal_what_to_use">എന്തൊക്കെ ഉപയോഗിക്കണം</string>
     <string name="connectivity_helper_call_quality_category">കോൾ നിലവാരം</string>
     <string name="connectivity_helper_call_quality_summary">കോളുകൾക്കിടയിൽ കണക്ഷൻ പ്രശ്‌നങ്ങളുടെ കാരണങ്ങളെ കുറിച്ച് അറിയിപ്പുകൾ നേടുക</string>
     <string name="connectivity_helper_call_quality_title">അറിയിപ്പുകൾ നേടുക</string>
@@ -200,6 +211,7 @@
     <string name="global_actions_panel_title">കാർഡുകളും പാസുകളും കാണിക്കുക</string>
     <string name="install_unknown_applications">Play സ്റ്റോറിന് പുറമെയുള്ള ഉറവിടങ്ങളിൽ നിന്നുള്ള ആപ്‌സ് ഇൻസ്റ്റാളുചെയ്യാൻ അനുവദിക്കുക</string>
     <string name="keywords_accessibility_menu">ചലനക്ഷമത, ദ്രുത മെനു, സഹായ മെനു, സ്‌പർശനം, കഴിവ്</string>
+    <string name="keywords_adaptive_alert_vibration">സ്‌പർശനങ്ങൾ, വൈബ്രേറ്റ് ചെയ്യൽ, ഫോൺ, കോൾ, റിംഗ് ചെയ്യൽ, അറിയിപ്പുകൾ, ഉച്ചത്തിൽ, നിശബ്‌ദം, ശബ്‌ദം, കെയ്‌സ്, അനുയോജ്യം</string>
     <string name="keywords_adaptive_charging">ചാർജ് ചെയ്യുക, ചാർജ് ചെയ്യുന്നു, സ്മാർട്ട് ചാർജ് ചെയ്യൽ, അഡാപ്റ്റീവ് ചാർജിംഗ്, ബാറ്ററി, ബാറ്ററി നില</string>
     <string name="keywords_assist_gesture_launch">വിരൽചലനം, അരിക്, വശം, സജീവ അരിക്, സ്ക്വീസ്, ഗ്രിപ്പ്, അസിസ്റ്റന്റ്, സ്ക്വീസ്, ok google, google assistant</string>
     <string name="keywords_assist_gesture_silence">വിരൽചലനം, അരിക്, വശം, സജീവ അരിക്, നിശബ്‌ദത, സ്‌നൂസ് ചെയ്യുക, അലാറം, ഇൻകമിംഗ് കോൾ, നിശബ്‌ദം, ഡിസ്‌പ്ലേ, ലോക്ക്‌ സ്‌ക്രീൻ, സ്‌ക്യൂസ് ചെയ്യുക, ഗ്രിപ്പ്, നിർത്തുക</string>
@@ -226,7 +238,6 @@
     <string name="me_card_title">എന്റെ Pixel</string>
     <string name="my_device_info_account_preference_title">Google അക്കൗണ്ട്</string>
     <string name="owner_info_settings_edit_text_hint">ഉദാ, ജോയുടെ Pixel.</string>
-    <string name="remove">നീക്കം ചെയ്യുക</string>
     <string name="reverse_charging_auto_turn_on_subtitle">നിങ്ങളുടെ ഫോൺ ചാർജറിൽ പ്ലഗ് ചെയ്തിരിക്കുമ്പോൾ കുറച്ച് സമയത്തേക്ക് സ്വയമേവ ഓണാകും</string>
     <string name="reverse_charging_auto_turn_on_title">സ്വയമേവ ഓണാക്കുക</string>
     <string name="reverse_charging_charging_wirelessly_message">ഫോൺ വയർലെസ് ആയി ചാർജ് ചെയ്യുന്നതിനാൽ ലഭ്യമല്ല</string>
@@ -334,9 +345,8 @@ g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="suw_limited_warranty_title">പരിമിത വാറന്റി</string>
     <string name="suw_more_button_label">കൂടുതൽ</string>
     <string name="suw_next_button_label">അടുത്തത്</string>
-    <string name="suw_warranty_description">നിങ്ങളുടെ പരിമിത വാറന്റി കാണാൻ, ഈ ഉപകരണം വാങ്ങിയ രാജ്യം തിരഞ്ഞെടുക്കുക.&lt;br /&gt;&lt;br /&gt; &lt;b&gt;ക്രമീകരണം &gt; %s &gt; പരിമിത വാറന്റി&lt;/b&gt; എന്നതിലും g.co/devicewarranty -യിലും വാറന്റി ലഭ്യമാണ്.</string>
-    <string name="suw_warranty_description_content">നിങ്ങളുടെ പരിമിത വാറന്റി കാണാൻ, ഈ ഉപകരണം വാങ്ങിയ രാജ്യം തിരഞ്ഞെടുക്കുക. ക്രമീകരണം, %s, പരിമിത വാറന്റി എന്നിവ യഥാക്രമം തിരഞ്ഞെടുത്തും g.co/devicewarranty -യിലേക്ക് പോയും വാറന്റി കാണാനാകും.</string>
-    <string name="suw_warranty_language_consistent_description">നിങ്ങളുടെ ഉപകരണത്തിന് ബാധകമായ പരിമിത വാറണ്ടി, &lt;b&gt;ക്രമീകരണം &gt; %s &gt; പരിമിത വാറണ്ടി&lt;/b&gt; എന്നതിലെ ഉപകരണ ക്രമീകരണത്തിലും g.co/devicewarranty എന്ന ലിങ്കിലും ലഭ്യമാണ്.</string>
+    <string name="suw_warranty_description">നിങ്ങളുടെ പരിമിത വാറന്റി കാണാൻ, ഈ ഉപകരണം വാങ്ങിയ രാജ്യം തിരഞ്ഞെടുക്കുക.&lt;b&gt;ക്രമീകരണം &gt; ഫോണിനെ കുറിച്ച് &gt; പരിമിത വാറന്റി&lt;/b&gt; എന്നതിലും g.co/devicewarranty -യിലും വാറന്റി ലഭ്യമാണ്.</string>
+    <string name="suw_warranty_description_content">നിങ്ങളുടെ പരിമിത വാറന്റി കാണാൻ, ഈ ഉപകരണം വാങ്ങിയ രാജ്യം തിരഞ്ഞെടുക്കുക. ക്രമീകരണം, ഫോണിനെ കുറിച്ച്, പരിമിത വാറന്റി എന്നിവ യഥാക്രമം തിരഞ്ഞെടുത്തും g.co/devicewarranty -യിലേക്ക് പോയും വാറന്റി കാണാനാകും.</string>
     <string name="suw_warranty_next_button_text">അടുത്തത്</string>
     <string name="suw_warranty_positive_button_text">അടയ്ക്കുക</string>
     <string name="time_remaining_warning_subtext">നിങ്ങളുടെ മുമ്പത്തെ ഉപയോഗത്തെ അടിസ്ഥാനമാക്കി ഏതാണ്ട് %1$s ശേഷിക്കുന്നു</string>
@@ -345,10 +355,6 @@ g.co/pixel/faceunlock -ൽ കൂടുതലറിയുക."</string>
     <string name="tips_suggestion_title">Pixel-നെ കുറിച്ച് അറിയുക</string>
     <string name="traffic_light_face_enrolling_title_accessibility">നിങ്ങളുടെ മുഖത്തിന് അഭിമുഖമായി ഫോൺ പിടിക്കുക</string>
     <string name="usb_use_file_transfers">ഫയൽ കൈമാറൽ / Android Auto</string>
-    <string name="vpn_app_bypass">തിരഞ്ഞെടുത്ത ആപ്പുകൾക്ക് VPN ഉപയോഗിക്കരുത്</string>
-    <string name="vpn_bypass_category_title">ഈ ആപ്പുകൾക്ക് VPN ഉപയോഗിക്കരുത്</string>
-    <string name="vpn_bypass_description">VPN അവഗണിക്കാനും ഫോണിന്റെ സാധാരണ നെറ്റ്‌വർക്ക് കണക്ഷൻ ഉപയോഗിക്കാനും ചില ആപ്പുകളെ നിങ്ങൾക്ക് അനുവദിക്കാം</string>
-    <string name="vpn_preference_group_title">മറ്റുള്ളവ</string>
     <string name="wallpaper_dashboard_summary">നിറങ്ങൾ, തീമുള്ള ഐക്കണുകൾ, ആപ്പ് ഗ്രിഡ്</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming സബ്‌സ്‌ക്രിപ്‌ഷൻ കാണുകയോ മാറ്റുകയോ ചെയ്യുക</string>

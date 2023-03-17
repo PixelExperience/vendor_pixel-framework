@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Tăng độ nhạy cảm ứng và cải thiện cảm ứng khi sử dụng miếng dán bảo vệ màn hình</string>
     <string name="touch_sensitivity_title">Chế độ miếng dán bảo vệ màn hình</string>
     <string name="columbus_title">Chạm nhanh để bắt đầu các thao tác</string>
-    <string name="about_phone">Giới thiệu về điện thoại</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Thiết lập Active Edge. Hãy chuyển sang màn hình tiếp theo hoặc tiếp tục điều chỉnh.</string>
     <string name="accessibility_keyboard_haptics_title">Công nghệ cảm ứng xúc giác qua bàn phím</string>
+    <string name="adaptive_alert_vibration_summary">Giảm độ rung khi điện thoại của bạn nằm yên và màn hình hướng lên trên</string>
+    <string name="adaptive_alert_vibration_title">Chế độ rung khi có cảnh báo thích ứng</string>
     <string name="adaptive_charging">Sạc thích ứng</string>
     <string name="adaptive_charging_description">Kéo dài thời lượng pin bằng cách sạc đều đặn trong thời gian dài hơn. Được kích hoạt dựa trên chu kỳ sử dụng của bạn.</string>
     <string name="adaptive_charging_time_estimate"><b>Đang sạc thích ứng</b> • Pin sẽ đầy vào %1$s</string>
-    <string name="add_bypassed_application_hint">Chưa thêm ứng dụng nào</string>
-    <string name="advanced_vpn_preference_group_title">Có sẵn</string>
-    <string name="all_apps_category_title">Tất cả ứng dụng</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Tùy chọn</annotation></string>
     <string name="app_and_notification_dashboard_summary">Trợ lý, ứng dụng gần đây, ứng dụng mặc định</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Khởi chạy Trợ lý</string>
@@ -98,9 +96,11 @@ Sau khi thiết bị đặt lại, hãy chuyển tới quy trình thiết lập 
     <string name="battery_tip_limited_temporarily_extra_summary">Trong trường hợp máy tính bảng được gắn vào đế, quá trình sạc sẽ tạm dừng khi pin đạt mức %1$s để bảo vệ pin</string>
     <string name="battery_tip_smart_battery_summary">Bật tùy chọn Pin thích ứng</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s sẽ không được ghép nối với bất kỳ thiết bị nào liên kết với Tài khoản Google này</string>
-    <string name="clear_calling_footer">Khả năng hoạt động của tính năng Khử tiếng ồn phụ thuộc vào kết nối mạng di động và kết nối Wi‑Fi của bạn. Nội dung của cuộc gọi sẽ không được gửi cho Google.</string>
-    <string name="clear_calling_title">Khử tiếng ồn</string>
-    <string name="clear_calling_toggle">Sử dụng tính năng Khử tiếng ồn</string>
+    <string name="clear_calling_footer">"Để bảo vệ quyền riêng tư của bạn, tính năng Khử tiếng ồn tuyệt đối không gửi âm thanh hay cuộc trò chuyện cho Google.
+
+Bạn có thể dùng tính năng Khử tiếng ồn khi có mạng Wi‑Fi và mạng di động."</string>
+    <string name="clear_calling_title">Âm thanh cuộc gọi rõ ràng</string>
+    <string name="clear_calling_toggle">Sử dụng tính năng khử tiếng ồn</string>
     <string name="clear_calling_topintro">Giảm tiếng ồn xung quanh trong lúc thực hiện cuộc gọi</string>
     <string name="columbus_gesture_detected">Phát hiện thấy chế độ Chạm nhanh!</string>
     <string name="columbus_gesture_enrollment_complete">Xong</string>
@@ -146,6 +146,17 @@ Sau khi thiết bị đặt lại, hãy chuyển tới quy trình thiết lập 
     <string name="columbus_setting_app_shortcut_selection_help_text">Chọn hành động sẽ diễn ra khi bạn mở ứng dụng này bằng chế độ Chạm nhanh.</string>
     <string name="columbus_setting_enable_switch_title">Dùng chế độ Chạm nhanh</string>
     <string name="columbus_setting_sensitivity_title">Yêu cầu chạm mạnh hơn</string>
+    <string name="communal_cast_summary">Truyền tới thiết bị này hoặc từ thiết bị này</string>
+    <string name="communal_lock_screen_summary">Quyền riêng tư, thông báo và điều khiển nhà</string>
+    <string name="communal_settings_summary_1">Hành vi khi khoá và gắn đế</string>
+    <string name="communal_settings_summary_2">Tuỳ chọn khi gắn đế</string>
+    <string name="communal_settings_summary_3">Tuỳ chọn khi gắn đế và khoá màn hình</string>
+    <string name="communal_settings_summary_4">Tuỳ chọn khi khoá màn hình và gắn đế</string>
+    <string name="communal_settings_title">Chế độ Thiết bị trung tâm</string>
+    <string name="communal_smartspace_summary">Lời nhắc, cảnh báo và tính năng khác của Trợ lý</string>
+    <string name="communal_smartspace_title">Xem nhanh</string>
+    <string name="communal_what_to_show">Nội dung nên hiện</string>
+    <string name="communal_what_to_use">Nội dung nên dùng</string>
     <string name="connectivity_helper_call_quality_category">Chất lượng cuộc gọi</string>
     <string name="connectivity_helper_call_quality_summary">Nhận thông báo về nguyên nhân gây ra các vấn đề về kết nối trong khi gọi điện</string>
     <string name="connectivity_helper_call_quality_title">Nhận thông báo</string>
@@ -199,6 +210,7 @@ Dữ liệu sao lưu sẽ không tính vào phần bộ nhớ trên Drive của 
     <string name="global_actions_panel_title">Hiển thị thẻ và vé</string>
     <string name="install_unknown_applications">Cho phép cài đặt ứng dụng từ những nguồn khác ngoài Cửa hàng Play</string>
     <string name="keywords_accessibility_menu">vận động, trình đơn nhanh, trình đơn hỗ trợ, chạm, cử động linh hoạt</string>
+    <string name="keywords_adaptive_alert_vibration">xúc giác, rung, điện thoại, cuộc gọi, chuông, cảnh báo, thông báo, tiếng to, yên lặng, tiếng ồn, ốp lưng, thích ứng</string>
     <string name="keywords_adaptive_charging">sạc, sạc pin, sạc thông minh, sạc thích ứng, pin, tình trạng pin</string>
     <string name="keywords_assist_gesture_launch">cử chỉ, cạnh, bên cạnh, active edge, bóp vào hai cạnh, cầm nắm, hỗ trợ, trợ lý, vuốt, ok google, trợ lý google</string>
     <string name="keywords_assist_gesture_silence">cử chỉ, cạnh, bên cạnh, active edge, im lặng, báo lại, báo thức, cuộc gọi đến, yên lặng, hiển thị, màn hình khóa, bóp vào hai cạnh, cầm nắm, dừng</string>
@@ -225,7 +237,6 @@ Dữ liệu sao lưu sẽ không tính vào phần bộ nhớ trên Drive của 
     <string name="me_card_title">Pixel của tôi</string>
     <string name="my_device_info_account_preference_title">Tài khoản Google</string>
     <string name="owner_info_settings_edit_text_hint">Ví dụ: Pixel của Tuấn</string>
-    <string name="remove">Xoá</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Sẽ tự động bật trong một khoảng thời gian ngắn khi bạn cắm điện thoại vào bộ sạc</string>
     <string name="reverse_charging_auto_turn_on_title">Tự động bật</string>
     <string name="reverse_charging_charging_wirelessly_message">Không dùng được vì điện thoại đang sạc không dây</string>
@@ -330,9 +341,8 @@ Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh s�
     <string name="suw_limited_warranty_title">Bảo hành có giới hạn</string>
     <string name="suw_more_button_label">Khác</string>
     <string name="suw_next_button_label">Tiếp theo</string>
-    <string name="suw_warranty_description">Để xem chế độ bảo hành có giới hạn của bạn, vui lòng chọn quốc gia nơi bạn đã mua thiết bị này.&lt;br /&gt;&lt;br /&gt;Chế độ bảo hành cũng có sẵn trong phần &lt;b&gt;Cài đặt &gt; %s &gt; Bảo hành có giới hạn&lt;/b&gt; và g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Để xem chế độ bảo hành có giới hạn của bạn, vui lòng chọn quốc gia nơi bạn đã mua thiết bị này. Chế độ bảo hành này cũng có sẵn trong phần Cài đặt, vui lòng chọn %s, sau đó chọn Bảo hành có giới hạn và g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Chính sách bảo hành có giới hạn áp dụng cho thiết bị của bạn cũng có sẵn ở mục Cài đặt thiết bị trong &lt;b&gt;Cài đặt &gt; %s &gt; Bảo hành có giới hạn&lt;/b&gt; và trong g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Để xem chế độ bảo hành có giới hạn của bạn, vui lòng chọn quốc gia nơi bạn đã mua thiết bị này.&lt;br /&gt;&lt;br /&gt;Bạn cũng có thể xem chế độ bảo hành trong phần &lt;b&gt;Cài đặt &gt; Giới thiệu về điện thoại &gt; Bảo hành có giới hạn&lt;/b&gt; và g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Để xem chế độ bảo hành có giới hạn của bạn, vui lòng chọn quốc gia nơi bạn đã mua thiết bị này. Bạn cũng có thể xem chế độ bảo hành bằng cách chuyển đến phần Cài đặt &gt; Giới thiệu về điện thoại &gt; Bảo hành có giới hạn và g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Tiếp</string>
     <string name="suw_warranty_positive_button_text">Đóng</string>
     <string name="time_remaining_warning_subtext">Còn khoảng %1$s dựa trên mức sử dụng trước đây</string>
@@ -341,10 +351,6 @@ Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh s�
     <string name="tips_suggestion_title">Tìm hiểu về chiếc Pixel của bạn</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Giơ điện thoại ra trước mặt</string>
     <string name="usb_use_file_transfers">Truyền tệp/Android Auto</string>
-    <string name="vpn_app_bypass">Không dùng VPN cho những ứng dụng đã chọn</string>
-    <string name="vpn_bypass_category_title">Không dùng VPN cho những ứng dụng này</string>
-    <string name="vpn_bypass_description">Bạn có thể cho phép một số ứng dụng bỏ qua VPN và dùng kết nối mạng thông thường của điện thoại</string>
-    <string name="vpn_preference_group_title">Khác</string>
     <string name="wallpaper_dashboard_summary">Màu sắc, biểu tượng theo chủ đề, lưới ứng dụng</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Xem hoặc thay đổi tùy chọn đăng ký OpenRoaming</string>

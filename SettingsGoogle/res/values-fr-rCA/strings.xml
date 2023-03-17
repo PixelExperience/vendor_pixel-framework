@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">"Augmentez la sensibilité du toucher et améliorez sa réactivité lorsque vous utilisez un protecteur d'écran"</string>
     <string name="touch_sensitivity_title">"Mode protecteur d'écran"</string>
     <string name="columbus_title">Double toucher pour démarrer les actions</string>
-    <string name="about_phone">À propos du téléphone</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">"Active Edge est configuré. Passez à l'écran suivant ou continuez à apporter des ajustements."</string>
     <string name="accessibility_keyboard_haptics_title">Rétroactions haptiques du clavier</string>
+    <string name="adaptive_alert_vibration_summary">"Réduit la force des vibrations pendant que votre téléphone est immobile et que l'écran est tourné vers le haut"</string>
+    <string name="adaptive_alert_vibration_title">"Vibration d'alerte adaptative"</string>
     <string name="adaptive_charging">Recharge adaptative</string>
     <string name="adaptive_charging_description">"Prolongez la durée de vie de la pile en la rechargeant progressivement durant les périodes de recharge longues. S'active en fonction de votre cycle d'utilisation."</string>
     <string name="adaptive_charging_time_estimate"><b>Recharge adaptative</b>" • Pile chargée d'ici %1$s"</string>
-    <string name="add_bypassed_application_hint">Aucune application ajoutée</string>
-    <string name="advanced_vpn_preference_group_title">Intégré</string>
-    <string name="all_apps_category_title">Toutes les applications</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Préférences</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, applications récentes, applications par défaut</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">"Cont. vers l'Assistant"</string>
@@ -99,9 +97,11 @@ Une fois qu'il est réinitialisé, suivez le processus de configuration et chois
     <string name="battery_tip_limited_temporarily_extra_summary">"Pour protéger votre pile, la recharge s'interrompt à %1$s tant que votre tablette est dans sa station"</string>
     <string name="battery_tip_smart_battery_summary">Activez le gestionnaire de pile adaptatif</string>
     <string name="bluetooth_untethered_unpair_dialog_body">"L'appareil %1$s ne sera plus associé avec les appareils liés à ce compte Google"</string>
-    <string name="clear_calling_footer">"L'accès à la fonctionnalité des appels clairs dépend de votre Wi-Fi et de votre connexion au réseau cellulaire. Le contenu de votre appel n'est pas envoyé à Google."</string>
+    <string name="clear_calling_footer">"Afin de protéger votre confidentialité, la fonctionnalité d'appels clairs n'envoie jamais d'extraits audio ni de conversations à Google.
+
+L'accessibilité de la fonctionnalité appels clairs dépend de vos réseaux Wi-Fi et cellulaire."</string>
     <string name="clear_calling_title">Appels clairs</string>
-    <string name="clear_calling_toggle">Utiliser la fonctionnalité des appels clairs</string>
+    <string name="clear_calling_toggle">Utiliser Appels clairs</string>
     <string name="clear_calling_topintro">Réduit les bruits de fond pendant les appels</string>
     <string name="columbus_gesture_detected">Double toucher détecté!</string>
     <string name="columbus_gesture_enrollment_complete">Terminé</string>
@@ -147,6 +147,17 @@ Une fois qu'il est réinitialisé, suivez le processus de configuration et chois
     <string name="columbus_setting_app_shortcut_selection_help_text">"Sélectionnez l'action à effectuer quand vous ouvrez cette application avec le double toucher."</string>
     <string name="columbus_setting_enable_switch_title">Utiliser le double toucher</string>
     <string name="columbus_setting_sensitivity_title">Touchez plus fort</string>
+    <string name="communal_cast_summary">Diffusez vers ou à partir de cet appareil</string>
+    <string name="communal_lock_screen_summary">"Commandes de confidentialité, de notifications et d'accueil"</string>
+    <string name="communal_settings_summary_1">Comportement relatif au verrouillage et à la station</string>
+    <string name="communal_settings_summary_2">Options sur la station</string>
+    <string name="communal_settings_summary_3">Options station et écran de verrouillage</string>
+    <string name="communal_settings_summary_4">Options écran de verrouillage et sur la station</string>
+    <string name="communal_settings_title">Mode Console</string>
+    <string name="communal_smartspace_summary">"Rappels, alertes, etc. de l'Assistant"</string>
+    <string name="communal_smartspace_title">Aperçu</string>
+    <string name="communal_what_to_show">Éléments à afficher</string>
+    <string name="communal_what_to_use">Éléments à utiliser</string>
     <string name="connectivity_helper_call_quality_category">"Qualité de l'appel"</string>
     <string name="connectivity_helper_call_quality_summary">Recevez des notifications relatives aux causes des problèmes de connexion pendant les appels</string>
     <string name="connectivity_helper_call_quality_title">Recevoir des notifications</string>
@@ -201,6 +212,7 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="global_actions_panel_title">Afficher les cartes et les laissez-passer</string>
     <string name="install_unknown_applications">"Autoriser l'installation d'applications à partir d'autres sources que la boutique Google Play Store"</string>
     <string name="keywords_accessibility_menu">"motricité, menu rapide, menu d'assistance, toucher, dextérité"</string>
+    <string name="keywords_adaptive_alert_vibration">haptique, vibration, téléphone, appel, sonnette, alerte, notifications, bruyant, silencieux, bruit, étui, adaptatif</string>
     <string name="keywords_adaptive_charging">recharge, recharger, recharge intelligente, recharge adaptative, pile, état de la pile</string>
     <string name="keywords_assist_gesture_launch">geste, bordure, côté, côté actif, serrer, prise en main, assistance, assistant, serrer, ok google, assistant google</string>
     <string name="keywords_assist_gesture_silence">geste, bordure, côté, côté actif, silence, répéter, alarme, appel entrant, tranquille, écran, écran de verrouillage, serrer, prise en main, arrêter</string>
@@ -211,7 +223,7 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="keywords_gesture">geste, mouvements</string>
     <string name="keywords_global_actions_panel">cartes, laissez-passer</string>
     <string name="keywords_limited_warranty">garantie, garantie limitée, promesse, réparation, arm, remplacement</string>
-    <string name="keywords_live_transcribe">Sous-titres, sous-titrage, CC, transcription instantanée, malentendant, perte auditive, transcription en temps réel assistée par ordinateur, synthèse textuelle, sous-titrer</string>
+    <string name="keywords_live_transcribe">Sous-titres, sous-titrage, CC, sous-titres instantanés, malentendant, perte auditive, transcription en temps réel assistée par ordinateur, synthèse textuelle, sous-titrer</string>
     <string name="keywords_reverse_charging_stop_threshold">Arrêter le partage de la pile lorsque son niveau atteint :</string>
     <string name="keywords_select_to_speak">"Écouter du texte, lire à voix haute, énoncer le contenu de l'écran, lecteur d'écran"</string>
     <string name="keywords_sound_amplifier">"appareil personnel d'amplification des sons, amplifier, amplification des sons, malentendant, perte auditive, amplification"</string>
@@ -227,7 +239,6 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="me_card_title">Mon Pixel</string>
     <string name="my_device_info_account_preference_title">Compte Google</string>
     <string name="owner_info_settings_edit_text_hint">Par exemple : Pixel de Jonathan.</string>
-    <string name="remove">Retirer</string>
     <string name="reverse_charging_auto_turn_on_subtitle">"S'active automatiquement pour une courte période lorsque votre téléphone est branché à un chargeur"</string>
     <string name="reverse_charging_auto_turn_on_title">Activer automatiquement</string>
     <string name="reverse_charging_charging_wirelessly_message">"Cette fonctionnalité n'est pas accessible parce que le téléphone est en train de se recharger sans fil"</string>
@@ -332,9 +343,8 @@ Pour améliorer la performance, vous pouvez configurer le déverrouillage par re
     <string name="suw_limited_warranty_title">Garantie limitée</string>
     <string name="suw_more_button_label">Plus</string>
     <string name="suw_next_button_label">Suivant</string>
-    <string name="suw_warranty_description">"Pour consulter votre garantie limitée, sélectionnez le pays où vous avez acheté cet appareil.&lt;br /&gt;&lt;br /&gt;La garantie est également accessible dans &lt;b&gt;Paramètres &gt; %s &gt; Garantie limitée&lt;/b&gt; et à l'adresse g.co/devicewarranty."</string>
-    <string name="suw_warranty_description_content">"Pour consulter votre garantie limitée, sélectionnez le pays où vous avez acheté cet appareil. La garantie est également accessible dans Paramètres, ensuite %s, puis Garantie limitée, ainsi qu'à l'adresse g.co/devicewarranty."</string>
-    <string name="suw_warranty_language_consistent_description">"La garantie limitée applicable à votre appareil est également accessible dans les paramètres de l'appareil dans &lt;b&gt;Paramètres &gt; %s &gt; Garantie limitée&lt;/b&gt; et à l'adresse g.co/devicewarranty."</string>
+    <string name="suw_warranty_description">"Pour consulter votre garantie limitée, sélectionnez le pays où vous avez acheté cet appareil.&lt;br /&gt;&lt;br /&gt;La garantie est également accessible dans &lt;b&gt;Paramètres &gt; À propos du téléphone &gt; Garantie limitée&lt;/b&gt; et à l'adresse g.co/devicewarranty."</string>
+    <string name="suw_warranty_description_content">"Pour consulter votre garantie limitée, sélectionnez le pays où vous avez acheté cet appareil. La garantie est également accessible dans Paramètres, ensuite À propos du téléphone, puis Garantie limitée, ainsi qu'à l'adresse g.co/devicewarranty."</string>
     <string name="suw_warranty_next_button_text">Suivant</string>
     <string name="suw_warranty_positive_button_text">Fermer</string>
     <string name="time_remaining_warning_subtext">"Il reste environ %1$s en fonction de l'usage"</string>
@@ -343,10 +353,6 @@ Pour améliorer la performance, vous pouvez configurer le déverrouillage par re
     <string name="tips_suggestion_title">Découvrir votre Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Tenez votre téléphone devant votre visage</string>
     <string name="usb_use_file_transfers">Transfert de fichiers/Android Auto</string>
-    <string name="vpn_app_bypass">Ne pas utiliser le RPV pour les applis sélectionnées</string>
-    <string name="vpn_bypass_category_title">Ne pas utiliser le RPV pour ces applis</string>
-    <string name="vpn_bypass_description">Vous pouvez autoriser certaines applications à ignorer le RPV et à utiliser la connexion réseau normale de votre téléphone</string>
-    <string name="vpn_preference_group_title">Autres</string>
     <string name="wallpaper_dashboard_summary">"Couleurs, icônes thématiques, grille d'applications"</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">"Affichez ou modifiez l'abonnement à OpenRoaming"</string>

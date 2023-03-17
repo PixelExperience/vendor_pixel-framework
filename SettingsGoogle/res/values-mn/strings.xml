@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Дэлгэц хамгаалагчийг ашиглаж байх үед хүрэлтийн мэдрэгшлийг нэмж, хүрэлтийг сайжруулна уу</string>
     <string name="touch_sensitivity_title">Дэлгэц хамгаалагч горим</string>
     <string name="columbus_title">Үйлдлийг эхлүүлэх Шуурхай товшилт</string>
-    <string name="about_phone">Утасны тухай</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge-г тохируулсан. Дараагийн дэлгэцэд очих эсвэл үргэлжлүүлэн тохируулна уу.</string>
     <string name="accessibility_keyboard_haptics_title">Гарын хүртэхүйн тохиргоо</string>
+    <string name="adaptive_alert_vibration_summary">Таны утас хөдөлгөөнгүй, дэлгэц нь дээшээ харсан үед чичиргээний хэмжээг бууруулдаг</string>
+    <string name="adaptive_alert_vibration_title">Дасан зохицох сэрэмжлүүлэг чичиргээ</string>
     <string name="adaptive_charging">Орчинтой тохируулан цэнэглэх</string>
     <string name="adaptive_charging_description">Удаан цэнэглэх үед илүү хурдан цэнэглэж, батарейн эдэлгээг уртасгадаг. Таны ашиглалтын мөчлөгт тулгуурлан идэвхжүүлсэн.</string>
-    <string name="adaptive_charging_time_estimate"><b>Орчинтой тохируулан цэнэглэх</b> • %1$s гэхэд дүүрнэ</string>
-    <string name="add_bypassed_application_hint">Апп нэмээгүй</string>
-    <string name="advanced_vpn_preference_group_title">Бүрэлдэхүүн</string>
-    <string name="all_apps_category_title">Бүх апп</string>
+    <string name="adaptive_charging_time_estimate"><b>Орчинтой тохируулан цэнэглэх</b> • %1$s дотор дүүрнэ</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Сонголт</annotation></string>
     <string name="app_and_notification_dashboard_summary">Туслах, саяхны аппууд, өгөгдмөл аппууд</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Туслахд үргэлжлүүлэх</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Таны таблетын батарейг хамгаалахын тулд үүнийг холбосон үед цэнэг нь %1$s-тай болсон үед цэнэглэхийг түр зогсооно</string>
     <string name="battery_tip_smart_battery_summary">Дасан зохицох батарейг асаах</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s-г цаашид энэ Google Бүртгэлтэй холбосон ямар ч төхөөрөмжтэй хослуулахгүй</string>
-    <string name="clear_calling_footer">Тод дуудлагыг таны Wi‑Fi болон мобайл сүлжээний холболтоос хамааран хийх боломжтой. Таны дуудлагаас үүссэн контентыг Google рүү илгээхгүй.</string>
-    <string name="clear_calling_title">Тод дуудлага</string>
-    <string name="clear_calling_toggle">Тод дуудлагыг ашиглах</string>
+    <string name="clear_calling_footer">"Тод дуудлага нь таны нууцлалыг хамгаалахын тулд аудио эсвэл харилцан яриаг Google рүү хэзээ ч илгээдэггүй.
+
+Тод дуудлагыг таны Wi‑Fi болон мобайл сүлжээнээс хамааран ашиглах боломжтой байна."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Clear Calling-г ашиглах</string>
     <string name="clear_calling_topintro">Дуудлагын үеэр арын дуу чимээг багасгадаг</string>
     <string name="columbus_gesture_detected">Шуурхай товшилт илэрлээ!</string>
     <string name="columbus_gesture_enrollment_complete">Дууссан</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Та Шуурхай товшилтыг ашиглан энэ аппыг нээх үед хийгдэх үйлдлийг сонгоно уу.</string>
     <string name="columbus_setting_enable_switch_title">Шуурхай товшилтыг ашиглах</string>
     <string name="columbus_setting_sensitivity_title">Илүү хүчтэй товшилт шаардлагатай</string>
+    <string name="communal_cast_summary">Энэ төхөөрөмж рүү эсвэл үүнээс дамжуулах</string>
+    <string name="communal_lock_screen_summary">Нууцлал, мэдэгдэл болон гэрийн удирдлага</string>
+    <string name="communal_settings_summary_1">Түгжээтэй, суурилуулсан төлөв</string>
+    <string name="communal_settings_summary_2">Холбогч дээрх сонголт</string>
+    <string name="communal_settings_summary_3">Холбогч болон түгжигдсэн дэлгэцийн сонголт</string>
+    <string name="communal_settings_summary_4">Түгжигдсэн дэлгэц болон холбогч дээрх сонголт</string>
+    <string name="communal_settings_title">Хяналтын төвийн горим</string>
+    <string name="communal_smartspace_summary">Туслахаас сануулагч, сэрэмжлүүлэг болон илүү ихийг</string>
+    <string name="communal_smartspace_title">Гялс харах</string>
+    <string name="communal_what_to_show">Юу харуулах вэ?</string>
+    <string name="communal_what_to_use">Юу ашиглах вэ?</string>
     <string name="connectivity_helper_call_quality_category">Дуудлагын чанар</string>
     <string name="connectivity_helper_call_quality_summary">Дуудлагын үеэрх холболтын асуудлын шалтгааны талаар мэдэгдэл авна уу</string>
     <string name="connectivity_helper_call_quality_title">Мэдэгдэл авах</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Карт, тасалбаруудыг харуулах</string>
     <string name="install_unknown_applications">Play Store-с өөр эх үүсвэрээс татсан апп-уудыг суулгахыг зөвшөөрөх</string>
     <string name="keywords_accessibility_menu">мотор, шуурхай цэс, туслах цэс, хүрэх, эв дүй</string>
+    <string name="keywords_adaptive_alert_vibration">хүртэхүй, чичиргээ, утас, дуудлага, хонх, сэрэмжлүүлэг,мэдэгдлүүд чанга, чимээгүй болгох. дуу чимээ, гэр, зохицох чанар</string>
     <string name="keywords_adaptive_charging">цэнэглэх, цэнэглэж байна, ухаалгаар цэнэглэх, цэнэглэхийг орчинтой тохируулан цэнэглэх, батарей, батарейн барилт</string>
     <string name="keywords_assist_gesture_launch">"зангаа, имрэг, тал, идэвхтэй  ирмэг, базах, атгах, туслах, туслагч, базах, ок google, google туслах"</string>
     <string name="keywords_assist_gesture_silence">зангаа, ирмэг, тал, идэвхтэй ирмэг, дуугүй болгох, түр хойшлуулах, сэрүүлэг, ирсэн дуудлага, чимээгүй, харуулах, түгжигдсэн дэлгэц, базах, атгах, зогсоох</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Миний Pixel</string>
     <string name="my_device_info_account_preference_title">Google Бүртгэл</string>
     <string name="owner_info_settings_edit_text_hint">Жишээ нь Joe-н Pixel.</string>
-    <string name="remove">Хасах</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Таныг утсаа цэнэглэгчид залгасан үед богино хугацааны турш автоматаар асна</string>
     <string name="reverse_charging_auto_turn_on_title">Автоматаар асаах</string>
     <string name="reverse_charging_charging_wirelessly_message">Утсыг утасгүйгээр цэнэглэж байгаа тул боломжгүй</string>
@@ -334,9 +345,8 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="suw_limited_warranty_title">Хязгаарлагдмал баталгаа</string>
     <string name="suw_more_button_label">Илүү</string>
     <string name="suw_next_button_label">Дараах</string>
-    <string name="suw_warranty_description">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу.&lt;br /&gt;&lt;br /&gt;Баталгаат хугацаа мөн &lt;b&gt;Тохиргоо &gt; %s &gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээр боломжтой.</string>
-    <string name="suw_warranty_description_content">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу. Баталгаат хугацаа мөн Тохиргоо, %s, Хязгаарлагдмал баталгаа болон g.co/devicewarranty дээр боломжтой.</string>
-    <string name="suw_warranty_language_consistent_description">Таны төхөөрөмжид хамаарах хязгаарлагдмал баталгаа нь мөн төхөөрөмжийн Тохиргоонд &lt;b&gt;Тохиргоо &gt; %s &gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээр боломжтой.</string>
+    <string name="suw_warranty_description">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу.&lt;br /&gt;&lt;br /&gt;Баталгааг мөн &lt;b&gt;Тохиргоо &gt; Утасны тухай&gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээрээс харах боломжтой.</string>
+    <string name="suw_warranty_description_content">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу. Баталгааг мөн Тохиргоо, дараа нь утасны тухай, дараа нь Хязгаарлагдмал баталгаа тэгээд g.co/devicewarranty дээрээс харах боломжтой.</string>
     <string name="suw_warranty_next_button_text">Дараах</string>
     <string name="suw_warranty_positive_button_text">Хаах</string>
     <string name="time_remaining_warning_subtext">Таны өнгөрсөн хэрэглээнд тулгуурлан %1$s орчмын хугацаа үлдсэн байна</string>
@@ -345,10 +355,6 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="tips_suggestion_title">Pixel-ээ мэдэж аваарай</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Утсаа нүүрнийхээ урд барина уу</string>
     <string name="usb_use_file_transfers">Файл шилжүүлэлт / Android Авто</string>
-    <string name="vpn_app_bypass">Сонгосон аппад VPN бүү ашиглаарай</string>
-    <string name="vpn_bypass_category_title">Эдгээр аппад VPN бүү ашиглаарай</string>
-    <string name="vpn_bypass_description">Та зарим аппад VPN-с татгалзаж, утасныхаа энгийн сүлжээний холболтыг ашиглахыг зөвшөөрч болно</string>
-    <string name="vpn_preference_group_title">Бусад</string>
     <string name="wallpaper_dashboard_summary">Өнгө, загварын дүрс тэмдэг, аппын хүснэгт</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming захиалгыг харах эсвэл өөрчлөх</string>

@@ -1,23 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <dimen name="app_bar_height">64.0dip</dimen>
-    <dimen name="app_bypass_candidate_app_title_margin_bottom">18.0dip</dimen>
-    <dimen name="app_bypass_candidate_app_title_margin_top">24.0dip</dimen>
-    <dimen name="app_bypass_default_margin_end">26.0dip</dimen>
-    <dimen name="app_bypass_default_margin_start">24.0dip</dimen>
-    <dimen name="app_bypass_description_text_font_size">14.0sp</dimen>
-    <dimen name="app_bypass_enabled_app_hint_margin_bottom">32.0dip</dimen>
-    <dimen name="app_bypass_enabled_app_list_margin_bottom">30.0dip</dimen>
-    <dimen name="app_bypass_enabled_app_title_margin_top">40.0dip</dimen>
-    <dimen name="app_bypass_end_button_icon_padding">14.0dip</dimen>
-    <dimen name="app_bypass_end_button_margin_end">12.0dip</dimen>
-    <dimen name="app_bypass_end_button_margin_start">10.0dip</dimen>
-    <dimen name="app_bypass_end_button_size">48.0dip</dimen>
-    <dimen name="app_bypass_end_icon_size">20.0dip</dimen>
-    <dimen name="app_bypass_header_icon_margin_end">20.0dip</dimen>
-    <dimen name="app_bypass_header_icon_size">32.0dip</dimen>
-    <dimen name="app_bypass_list_item_height">64.0dip</dimen>
-    <dimen name="app_bypass_second_text_font_size">16.0sp</dimen>
     <dimen name="assist_error_distance_top">24.0dip</dimen>
     <dimen name="assist_gesture_error_text_appear_distance">16.0dip</dimen>
     <dimen name="assist_gesture_error_text_disappear_distance">-8.0dip</dimen>
@@ -139,7 +122,12 @@
     <dimen name="suw_description_margin_bottom_lists">24.0dip</dimen>
     <dimen name="suw_description_margin_top">24.0dip</dimen>
     <dimen name="suw_description_text_size">16.0sp</dimen>
-    <dimen name="suw_dream_item_margin">8.0dip</dimen>
+    <dimen name="suw_dream_item_corner_radius">20.0dip</dimen>
+    <dimen name="suw_dream_item_icon_padding">10.0dip</dimen>
+    <dimen name="suw_dream_item_margin">4.0dip</dimen>
+    <dimen name="suw_dream_item_min_column_width">174.0dip</dimen>
+    <dimen name="suw_dream_preview_placeholder_margin_top">41.0dip</dimen>
+    <dimen name="suw_dream_preview_placeholder_width">24.0dip</dimen>
     <dimen name="suw_edit_text_min_height">56.0dip</dimen>
     <dimen name="suw_edit_text_padding_horizontal">12.0dip</dimen>
     <dimen name="suw_expand_arrow_drawable_padding">4.0dip</dimen>

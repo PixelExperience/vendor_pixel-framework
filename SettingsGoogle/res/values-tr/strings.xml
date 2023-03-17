@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Ekran koruyucu kullanırken dokunma hassasiyetini artırın ve dokunma işlevini iyileştirin</string>
     <string name="touch_sensitivity_title">Ekran koruyucu modu</string>
     <string name="columbus_title">"İşlemleri başlatmak için Hızlı Dokun'u kullan"</string>
-    <string name="about_phone">Telefon hakkında</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge kuruldu. Sonraki ekrana geçin veya ayarlamaya devam edin.</string>
     <string name="accessibility_keyboard_haptics_title">Klavye dokunma teknolojisi</string>
+    <string name="adaptive_alert_vibration_summary">Telefonunuz sabit ve ekranı yukarı bakarken titreşim kuvvetini azaltır</string>
+    <string name="adaptive_alert_vibration_title">Uyarlanabilir uyarı titreşimi</string>
     <string name="adaptive_charging">Uyarlanabilir Şarj</string>
     <string name="adaptive_charging_description">Uzun şarj sürelerinde sürekli şarj ederek pil ömrünü uzatın. Kullanım döngünüze göre etkinleştirilir.</string>
-    <string name="adaptive_charging_time_estimate"><b>Uyarlanabilir şarj</b> •Tamamen dolacağı zaman: %1$s</string>
-    <string name="add_bypassed_application_hint">Eklenmiş uygulama yok</string>
-    <string name="advanced_vpn_preference_group_title">Yerleşik</string>
-    <string name="all_apps_category_title">Tüm uygulamalar</string>
+    <string name="adaptive_charging_time_estimate"><b>Uyarlanabilir Şarj</b> •Tamamen dolacağı zaman: %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Tercihler</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistan, son uygulamalar, varsayılan uygulamalar</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">"Asistan'a devam et"</string>
@@ -98,9 +96,11 @@ Cihazınız sıfırlandıktan sonra kurulum işlemini gerçekleştirin ve verile
     <string name="battery_tip_limited_temporarily_extra_summary">Pilinizi korumak için, tabletiniz yuvadayken şarj işlemi %1$s seviyesinde duraklatıldı</string>
     <string name="battery_tip_smart_battery_summary">"Uyarlanabilir Pil'i aç"</string>
     <string name="bluetooth_untethered_unpair_dialog_body">"%1$s, artık bu Google Hesabı'na bağlı hiçbir cihazla eşlenmeyecek"</string>
-    <string name="clear_calling_footer">"Net görüşme sesi özelliğinin kullanılabilirliği, kablosuz bağlantınıza ve mobil ağ bağlantınıza bağlıdır. Görüşmenizin içeriği Google'a gönderilmez."</string>
-    <string name="clear_calling_title">Net görüşme sesi</string>
-    <string name="clear_calling_toggle">Net görüşme sesi özelliğini kullan</string>
+    <string name="clear_calling_footer">"Net görüşme sesi özelliği, gizliliğinizi korumak için sesleri veya görüşmeleri hiçbir zaman Google'a göndermez.
+
+Net görüşme sesi özelliğinin kullanılabilirliği, kablosuz ve mobil ağınıza bağlıdır."</string>
+    <string name="clear_calling_title">Görüşmede Net Ses</string>
+    <string name="clear_calling_toggle">Görüşmede Net Ses özelliğini kullanın</string>
     <string name="clear_calling_topintro">Arama sırasında arka plan gürültülerini azaltır</string>
     <string name="columbus_gesture_detected">Hızlı Dokun algılandı.</string>
     <string name="columbus_gesture_enrollment_complete">Bitti</string>
@@ -146,6 +146,17 @@ Cihazınız sıfırlandıktan sonra kurulum işlemini gerçekleştirin ve verile
     <string name="columbus_setting_app_shortcut_selection_help_text">Bu uygulamayı Hızlı Dokun özelliğini kullanarak açtığınızda ne olacağını seçin.</string>
     <string name="columbus_setting_enable_switch_title">Hızlı Dokun özelliğini kullan</string>
     <string name="columbus_setting_sensitivity_title">Daha kuvvetli dokunma gerektir</string>
+    <string name="communal_cast_summary">Bu cihazda veya bu cihazdan yayınlayın</string>
+    <string name="communal_lock_screen_summary">Gizlilik, bildirimler ve ev kontrolleri</string>
+    <string name="communal_settings_summary_1">Kilitli ve yuvada olma davranışı</string>
+    <string name="communal_settings_summary_2">Yuvada olma seçenekleri</string>
+    <string name="communal_settings_summary_3">Yuva ve kilit ekranı seçenekleri</string>
+    <string name="communal_settings_summary_4">Kilit ekranı ve yuvada olma seçenekleri</string>
+    <string name="communal_settings_title">Hub modu</string>
+    <string name="communal_smartspace_summary">"Asistan'ın gönderdiği hatırlatıcılar, uyarılar ve daha fazlası"</string>
+    <string name="communal_smartspace_title">Bir bakışta</string>
+    <string name="communal_what_to_show">Ne göstermeli?</string>
+    <string name="communal_what_to_use">Hangisini kullanmalısınız?</string>
     <string name="connectivity_helper_call_quality_category">Çağrı kalitesi</string>
     <string name="connectivity_helper_call_quality_summary">Aramalar sırasında oluşan bağlantı sorunlarının nedenleri hakkında bildirim alın</string>
     <string name="connectivity_helper_call_quality_title">Bildirim al</string>
@@ -200,6 +211,7 @@ Yedek veriler Drive depolama kotanıza dahil edilmez. Büyük dosyalar veya geli
     <string name="global_actions_panel_title">Kartları göster</string>
     <string name="install_unknown_applications">Google Play Store dışındaki kaynaklardan uygulama yüklemeye izin ver</string>
     <string name="keywords_accessibility_menu">motor, hızlı menü, yardımcı menü, dokunma, el becerisi</string>
+    <string name="keywords_adaptive_alert_vibration">dokunma teknolojisi, titreşim, telefon, çağrı, zili çaldırma, uyarı, bildirimler, yüksek ses, alçak ses, gürültü, kılıf, uyarlanabilir</string>
     <string name="keywords_adaptive_charging">şarj, şarj etme, akıllı şarj, uyarlanabilir şarj, pil, pil sağlığı</string>
     <string name="keywords_assist_gesture_launch">hareket, kenar, yan, aktif kenar, sıkma, tutma, asist, asistan, squeeze, squeezie, squeezey, squeezee, squizi, squzi, skuzi, skuizi, skuyzi, ok google, google asistan</string>
     <string name="keywords_assist_gesture_silence">hareket, sessizlik, uyku, alarm, gelen çağrı, sessiz, ekran, kilit ekranı, sıkma, tutma, kenar, durdurma</string>
@@ -226,7 +238,6 @@ Yedek veriler Drive depolama kotanıza dahil edilmez. Büyük dosyalar veya geli
     <string name="me_card_title">"Pixel'im"</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Ör. Can'ın Pixel'i"</string>
-    <string name="remove">Kaldır</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Telefonunuz şarj cihazına bağlıyken kısa bir süreliğine otomatik olarak açılır</string>
     <string name="reverse_charging_auto_turn_on_title">Otomatik olarak aç</string>
     <string name="reverse_charging_charging_wirelessly_message">Telefon kablosuz olarak şarj edildiğinden kullanılamıyor</string>
@@ -331,9 +342,8 @@ Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebili
     <string name="suw_limited_warranty_title">Sınırlı garanti</string>
     <string name="suw_more_button_label">Diğer</string>
     <string name="suw_next_button_label">İleri</string>
-    <string name="suw_warranty_description">Sınırlı garantinizi görüntülemek için bu cihazı satın aldığınız ülkeyi seçin.&lt;br /&gt;&lt;br /&gt;Garantiyi &lt;b&gt;Ayarlar &gt; %s &gt; Sınırlı garanti&lt;/b&gt; bölümünde ve g.co/devicewarranty sayfasında da bulabilirsiniz.</string>
-    <string name="suw_warranty_description_content">Sınırlı garantinizi görüntülemek için bu cihazı satın aldığınız ülkeyi seçin. Garantiyi Ayarlar, %s, Sınırlı garanti bölümünde ve g.co/devicewarranty sayfasında da bulabilirsiniz.</string>
-    <string name="suw_warranty_language_consistent_description">Cihazınız için geçerli olan sınırlı garantiyi cihazın Ayarlar bölümünde (&lt;b&gt;Ayarlar &gt; %s &gt; Sınırlı garanti&lt;/b&gt;) ve g.co/devicewarranty adresinde de bulabilirsiniz.</string>
+    <string name="suw_warranty_description">Sınırlı garantinizi görüntülemek için bu cihazı satın aldığınız ülkeyi seçin.&lt;br /&gt;&lt;br /&gt;Garantiyi &lt;b&gt;Ayarlar &gt; Telefon hakkında &gt; Sınırlı garanti&lt;/b&gt; bölümünde ve g.co/devicewarranty sayfasında da bulabilirsiniz.</string>
+    <string name="suw_warranty_description_content">Sınırlı garantinizi görüntülemek için bu cihazı satın aldığınız ülkeyi seçin. Garantiyi Ayarlar, telefon hakkında, sınırlı garanti bölümünde ve g.co/devicewarranty sayfasında da bulabilirsiniz.</string>
     <string name="suw_warranty_next_button_text">Sonraki</string>
     <string name="suw_warranty_positive_button_text">Kapat</string>
     <string name="time_remaining_warning_subtext">Geçmiş kullanıma göre yaklaşık %1$s kaldı</string>
@@ -342,10 +352,6 @@ Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebili
     <string name="tips_suggestion_title">"Pixel'inizi tanıyın"</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonunuzu yüzünüzün önünde tutun</string>
     <string name="usb_use_file_transfers">Dosya aktarımı / Android Auto</string>
-    <string name="vpn_app_bypass">Seçili uygulamalarda VPN kullanma</string>
-    <string name="vpn_bypass_category_title">Bu uygulamalarda VPN kullanma</string>
-    <string name="vpn_bypass_description">"Bazı uygulamaların, VPN'yi yoksayıp telefonunuzdaki normal ağ bağlantısını kullanmasına izin verebilirsiniz"</string>
-    <string name="vpn_preference_group_title">Diğer</string>
     <string name="wallpaper_dashboard_summary">Renkler, temalı simgeler, uygulama tablosu</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming aboneliğini görüntüleyin veya değiştirin</string>

@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Tingkatkan kepekaan sentuhan dan tingkatkan sentuhan semasa menggunakan pelindung skrin</string>
     <string name="touch_sensitivity_title">Mod pelindung skrin</string>
     <string name="columbus_title">Ketikan Segera untuk memulakan tindakan</string>
-    <string name="about_phone">Perihal telefon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Sisi Aktif disediakan. Pergi ke skrin seterusnya atau teruskan membuat pelarasan.</string>
     <string name="accessibility_keyboard_haptics_title">Haptik papan kekunci</string>
+    <string name="adaptive_alert_vibration_summary">Mengurangkan kekuatan getaran semasa telefon anda tidak bergerak dan skrin menghadap ke atas</string>
+    <string name="adaptive_alert_vibration_title">Getaran makluman boleh suai</string>
     <string name="adaptive_charging">Pengecasan Mudah Suai</string>
     <string name="adaptive_charging_description">Lanjutkan jangka hayat bateri dengan mengecas secara tetap semasa tempoh pengecasan yang lebih panjang. Diaktifkan berdasarkan kitaran penggunaan anda.</string>
-    <string name="adaptive_charging_time_estimate"><b>Pengecasan mudah suai</b> • Penuh sebelum %1$s</string>
-    <string name="add_bypassed_application_hint">Tiada apl ditambah</string>
-    <string name="advanced_vpn_preference_group_title">Terbina dalam</string>
-    <string name="all_apps_category_title">Semua apl</string>
+    <string name="adaptive_charging_time_estimate"><b>Pengecasan Boleh Suai</b> • Penuh pada %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Pilihan</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, apl terbaharu, apl lalai</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Teruskan ke Assistant</string>
@@ -98,9 +96,11 @@ Setelah peranti anda ditetapkan semula, jalankan proses persediaan dan pilih unt
     <string name="battery_tip_limited_temporarily_extra_summary">Untuk melindungi bateri anda, pengecasan dijeda pada %1$s semasa tablet anda didok</string>
     <string name="battery_tip_smart_battery_summary">Hidupkan Bateri Mudah Suai</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s tidak lagi digandingkan dengan sebarang peranti yang dipaut ke Google Account ini</string>
-    <string name="clear_calling_footer">Panggilan jelas tersedia bergantung pada Wi-Fi dan sambungan rangkaian mudah alih anda. Kandungan daripada panggilan anda tidak dihantar kepada Google.</string>
-    <string name="clear_calling_title">Panggilan jelas</string>
-    <string name="clear_calling_toggle">Gunakan panggilan jelas</string>
+    <string name="clear_calling_footer">"Untuk melindungi privasi anda, Panggilan Jelas tidak akan menghantar audio atau perbualan kepada Google.
+
+Panggilan Jelas tersedia bergantung pada rangkaian Wi-Fi dan mudah alih anda."</string>
+    <string name="clear_calling_title">Panggilan Jelas</string>
+    <string name="clear_calling_toggle">Gunakan Panggilan Jelas</string>
     <string name="clear_calling_topintro">Mengurangkan hingar latar semasa panggilan</string>
     <string name="columbus_gesture_detected">Ketikan Segera dikesan!</string>
     <string name="columbus_gesture_enrollment_complete">Selesai</string>
@@ -146,6 +146,17 @@ Setelah peranti anda ditetapkan semula, jalankan proses persediaan dan pilih unt
     <string name="columbus_setting_app_shortcut_selection_help_text">Pilih perkara yang berlaku apabila anda membuka apl ini menggunakan Ketikan Segera.</string>
     <string name="columbus_setting_enable_switch_title">Gunakan Ketikan Segera</string>
     <string name="columbus_setting_sensitivity_title">Perlukan ketikan yang lebih kuat</string>
+    <string name="communal_cast_summary">Hantar kepada atau daripada peranti ini</string>
+    <string name="communal_lock_screen_summary">Privasi, pemberitahuan dan Kawalan rumah</string>
+    <string name="communal_settings_summary_1">Tingkah laku ketika dikunci &amp; didok</string>
+    <string name="communal_settings_summary_2">Pilihan ketika didok</string>
+    <string name="communal_settings_summary_3">Pilihan dok dan skrin kunci</string>
+    <string name="communal_settings_summary_4">Pilihan skrin kunci dan ketika didok</string>
+    <string name="communal_settings_title">Mod hab</string>
+    <string name="communal_smartspace_summary">Peringatan, makluman dan banyak lagi daripada Pembantu</string>
+    <string name="communal_smartspace_title">Sekilas pandang</string>
+    <string name="communal_what_to_show">Item untuk ditunjukkan</string>
+    <string name="communal_what_to_use">Item untuk digunakan</string>
     <string name="connectivity_helper_call_quality_category">Kualiti panggilan</string>
     <string name="connectivity_helper_call_quality_summary">Dapatkan pemberitahuan tentang punca masalah sambungan semasa panggilan</string>
     <string name="connectivity_helper_call_quality_title">Dapatkan pemberitahuan</string>
@@ -200,6 +211,7 @@ Data sandaran tidak dikira dalam kuota storan Drive anda. Fail yang besar atau f
     <string name="global_actions_panel_title">Tunjukkan kad &amp; pas</string>
     <string name="install_unknown_applications">Benarkan pemasangan apl daripada sumber selain Gedung Play</string>
     <string name="keywords_accessibility_menu">motor, menu pantas, menu bantu, sentuh, kecekatan</string>
+    <string name="keywords_adaptive_alert_vibration">haptik, getaran, telefon, panggilan, deringan, makluman, pemberitahuan, kuat, senyap, bunyi bising, sarung, mudah suai</string>
     <string name="keywords_adaptive_charging">cas, mengecas, pengecasan pintar, pengecasan mudah suai, bateri, kesihatan bateri</string>
     <string name="keywords_assist_gesture_launch">gerak isyarat, sisi, tepi, sisi aktiif, picit, genggam, bantu, pembantu, picit, ok google, google assistant</string>
     <string name="keywords_assist_gesture_silence">gerak isyarat, tepi, sisi, sisi aktif, senyapkan, tunda, penggera, panggilan masuk, senyap, paparan, skrin kunci, picit, genggam, henti</string>
@@ -226,7 +238,6 @@ Data sandaran tidak dikira dalam kuota storan Drive anda. Fail yang besar atau f
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Mis., Pixel Johari.</string>
-    <string name="remove">Alih keluar</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Akan dihidupkan secara automatik untuk tempoh yang singkat apabila telefon anda dipalamkan pada pengecas</string>
     <string name="reverse_charging_auto_turn_on_title">Hidupkan secara automatik</string>
     <string name="reverse_charging_charging_wirelessly_message">Tidak tersedia kerana telefon dicas secara wayarles</string>
@@ -332,9 +343,8 @@ Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dala
     <string name="suw_limited_warranty_title">Jaminan terhad</string>
     <string name="suw_more_button_label">Lagi</string>
     <string name="suw_next_button_label">Seterusnya</string>
-    <string name="suw_warranty_description">Untuk melihat jaminan terhad anda, pilih negara tempat anda membeli peranti ini.&lt;br /&gt;&lt;br /&gt;Jaminan ini juga tersedia di &lt;b&gt;Tetapan &gt; %s &gt; Jaminan terhad&lt;/b&gt; dan g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Untuk melihat jaminan terhad anda, pilih negara tempat anda membeli peranti ini. Jaminan ini juga tersedia di Tetapan, kemudian %s, kemudian Jaminan terhad dan g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Jaminan terhad yang terpakai untuk peranti anda juga tersedia dalam Tetapan peranti di &lt;b&gt;Tetapan &gt; %s &gt; Jaminan terhad&lt;/b&gt; dan di g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Untuk melihat jaminan terhad anda, pilih negara tempat anda membeli peranti ini.&lt;br /&gt;&lt;br /&gt;Jaminan ini juga terdapat di &lt;b&gt;Tetapan &gt; Perihal telefon &gt; Jaminan terhad&lt;/b&gt; dan g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Untuk melihat jaminan terhad anda, pilih negara tempat anda membeli peranti ini. Jaminan ini juga terdapat di Tetapan kemudian perihal telefon kemudian Jaminan terhad dan g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Seterusnya</string>
     <string name="suw_warranty_positive_button_text">Tutup</string>
     <string name="time_remaining_warning_subtext">Tinggal kira-kira %1$s berdasarkan penggunaan lepas</string>
@@ -343,10 +353,6 @@ Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dala
     <string name="tips_suggestion_title">Kenali Pixel anda</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Pegang telefon anda di hadapan wajah anda</string>
     <string name="usb_use_file_transfers">Pindahan fail / Android Auto</string>
-    <string name="vpn_app_bypass">Jangan gunakan VPN untuk apl terpilih</string>
-    <string name="vpn_bypass_category_title">Jangan gunakan VPN untuk apl ini</string>
-    <string name="vpn_bypass_description">Anda boleh membenarkan sesetengah apl mengabaikan VPN dan menggunakan sambungan rangkaian biasa telefon anda</string>
-    <string name="vpn_preference_group_title">Lain-lain</string>
     <string name="wallpaper_dashboard_summary">Warna, ikon bertema, grid apl</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Lihat atau tukar langganan OpenRoaming</string>

@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Aumente a sensibilidade do toque e melhore o toque quando usar um protetor de ecrã</string>
     <string name="touch_sensitivity_title">Modo de protetor de ecrã</string>
     <string name="columbus_title">Use o Quick Tap para iniciar ações</string>
-    <string name="about_phone">Acerca do telemóvel</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge configurado. Aceda ao ecrã seguinte ou continue a ajustar.</string>
     <string name="accessibility_keyboard_haptics_title">Funcionalidade tátil do teclado</string>
+    <string name="adaptive_alert_vibration_summary">Reduz a intensidade da vibração enquanto o telemóvel está parado e o ecrã está voltado para cima</string>
+    <string name="adaptive_alert_vibration_title">Vibração de alerta adaptável</string>
     <string name="adaptive_charging">Carregamento adaptável</string>
     <string name="adaptive_charging_description">Prolongue o tempo de vida útil da bateria ao carregar de forma regular durante períodos de carregamento mais longos. Ativado com base no seu ciclo de utilização.</string>
     <string name="adaptive_charging_time_estimate"><b>Carregamento adaptável</b> • Completo até à(s) %1$s</string>
-    <string name="add_bypassed_application_hint">Nenhuma app adicionada</string>
-    <string name="advanced_vpn_preference_group_title">Integrada</string>
-    <string name="all_apps_category_title">Todas as apps</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferências</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistente, apps recentes, apps predefinidas</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Iniciar Assistente</string>
@@ -99,9 +97,11 @@ Após a reposição, execute o processo de configuração e selecione a transfer
     <string name="battery_tip_limited_temporarily_extra_summary">Para proteger a bateria, o carregamento é pausado a %1$s enquanto o tablet estiver na estação de ancoragem</string>
     <string name="battery_tip_smart_battery_summary">Ative a funcionalidade Bateria adaptável.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">O dispositivo %1$s deixará de estar sincronizado com qualquer dispositivo associado a esta Conta Google.</string>
-    <string name="clear_calling_footer">As chamadas nítidas está disponíveis dependendo da sua ligação de rede móvel e Wi‑Fi. O conteúdo da chamada não é enviado para a Google.</string>
+    <string name="clear_calling_footer">"Para proteger a sua privacidade, a funcionalidade de chamadas nítidas nunca envia áudio nem conversas para a Google.
+
+A funcionalidade de chamadas nítidas está disponível consoante a sua rede móvel e Wi-Fi."</string>
     <string name="clear_calling_title">Chamadas nítidas</string>
-    <string name="clear_calling_toggle">Usar as chamadas nítidas</string>
+    <string name="clear_calling_toggle">Usar as Chamadas nítidas</string>
     <string name="clear_calling_topintro">Reduz os ruídos de fundo durante as chamadas</string>
     <string name="columbus_gesture_detected">Quick Tap detetado!</string>
     <string name="columbus_gesture_enrollment_complete">Concluir</string>
@@ -147,13 +147,24 @@ Após a reposição, execute o processo de configuração e selecione a transfer
     <string name="columbus_setting_app_shortcut_selection_help_text">Selecione o que acontece quando abre esta app com o Quick Tap.</string>
     <string name="columbus_setting_enable_switch_title">Usar o Quick Tap</string>
     <string name="columbus_setting_sensitivity_title">Exija tocar com mais força</string>
+    <string name="communal_cast_summary">Transmita de ou para este dispositivo</string>
+    <string name="communal_lock_screen_summary">Privacidade, notificações e controlos domésticos</string>
+    <string name="communal_settings_summary_1">Comportamento quando bloqueado e ancorado</string>
+    <string name="communal_settings_summary_2">Opções quando ancorado</string>
+    <string name="communal_settings_summary_3">Opções do ecrã de bloqueio e estação de ancoragem</string>
+    <string name="communal_settings_summary_4">Opções do ecrã de bloqueio e quando ancorado</string>
+    <string name="communal_settings_title">Modo Hub</string>
+    <string name="communal_smartspace_summary">Lembretes, alertas e muito mais do Assistente</string>
+    <string name="communal_smartspace_title">Resumo</string>
+    <string name="communal_what_to_show">O que apresentar</string>
+    <string name="communal_what_to_use">O que usar</string>
     <string name="connectivity_helper_call_quality_category">Qualidade da chamada</string>
     <string name="connectivity_helper_call_quality_summary">Receba notificações sobre as causas dos problemas de ligação durante as chamadas</string>
     <string name="connectivity_helper_call_quality_title">Receba notificações</string>
     <string name="connectivity_helper_d2d_summary">Notifique a outra pessoa quando o seu telemóvel tiver problemas de ligação durante as chamadas</string>
     <string name="connectivity_helper_d2d_title">Partilhe informações de ligação</string>
     <string name="connectivity_helper_footnote">Pode partilhar informações de ligação quando o outro autor da chamada estiver a utilizar um dispositivo e uma rede suportados</string>
-    <string name="content_capture">Personalizar ao utilizar dados de apps</string>
+    <string name="content_capture">Personalizar ao usar dados de apps</string>
     <string name="copy_toast_msg">Link copiado para a área de transferência.</string>
     <string name="dark_ui_text">O tema escuro utiliza um fundo preto para ajudar a prolongar a duração da bateria. Os horários do tema escuro só são ativados quando o ecrã está desligado.</string>
     <string name="dock_summary_charging_phone">Carregar o telemóvel</string>
@@ -201,6 +212,7 @@ Os dados das cópias de segurança não contam para a quota de armazenamento do 
     <string name="global_actions_panel_title">Mostrar cartões e passes</string>
     <string name="install_unknown_applications">Permitir a instalação de aplicações a partir de outras fontes que não a Play Store</string>
     <string name="keywords_accessibility_menu">incapacidade motora, menu rápido, menu de assistência, toque, destreza</string>
+    <string name="keywords_adaptive_alert_vibration">funcionalidade tátil, vibrar, telemóvel, ligar, tocar, alerta, notificações, alto, silêncio, capa, adaptável</string>
     <string name="keywords_adaptive_charging">carregar, carregamento, carregamento inteligente, carregamento adaptável, bateria, estado da bateria</string>
     <string name="keywords_assist_gesture_launch">gesto, limite, lado, active edge, apertar, manusear, assistência, assistente, apertar, ok google, assistente do google</string>
     <string name="keywords_assist_gesture_silence">gesto, limite, lado, active edge, silenciar, suspender, alarme, chamada recebida, silencioso, visualização, ecrã de bloqueio, apertar, manusear, parar</string>
@@ -227,7 +239,6 @@ Os dados das cópias de segurança não contam para a quota de armazenamento do 
     <string name="me_card_title">O meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel do João.</string>
-    <string name="remove">Remover</string>
     <string name="reverse_charging_auto_turn_on_subtitle">É ativado automaticamente por um curto período quando o telemóvel estiver ligado a um carregador</string>
     <string name="reverse_charging_auto_turn_on_title">Ativar automaticamente</string>
     <string name="reverse_charging_charging_wirelessly_message">Indisponível porque o telemóvel está a carregar sem fios.</string>
@@ -315,7 +326,7 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="security_settings_face_enroll_timeout_try_again">Tentar novamente</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">Utilizar a configuração rápida</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Sair da configuração</string>
-    <string name="security_settings_face_enroll_too_hot_message">Não é possível concluir a configuração do Desbloqueio facial porque o telemóvel está demasiado quente. Tente novamente mais tarde quando o telemóvel arrefecer.</string>
+    <string name="security_settings_face_enroll_too_hot_message">Não é possível concluir a configuração do Desbloqueio facial porque o telemóvel está demasiado quente. Tente mais tarde quando o telemóvel arrefecer.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ignorar Desbloqueio facial</string>
     <string name="security_settings_face_enroll_too_hot_title">Telemóvel demasiado quente</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tocar para configurar a impressão digital</string>
@@ -332,9 +343,8 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="suw_limited_warranty_title">Garantia limitada</string>
     <string name="suw_more_button_label">Mais</string>
     <string name="suw_next_button_label">Seguinte</string>
-    <string name="suw_warranty_description">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo. A garantia também está disponível em Definições, depois, %s e, em seguida, Garantia limitada, bem como em g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">A garantia limitada aplicada ao seu dispositivo também está disponível nas Definições do dispositivo em &lt;b&gt;Definições &gt; %s &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo.&lt;br /&gt;&lt;br /&gt;A garantia também está disponível em &lt;b&gt;Definições &gt; Acerca do telemóvel &gt; Garantia limitada&lt;/b&gt; e em g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Para ver a sua garantia limitada, selecione o país onde comprou este dispositivo. A garantia também está disponível em Definições &gt; Acerca do telemóvel &gt; Garantia limitada e em g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Seguinte</string>
     <string name="suw_warranty_positive_button_text">Fechar</string>
     <string name="time_remaining_warning_subtext">Resta(m) cerca de %1$s com base na utilização anterior</string>
@@ -343,10 +353,6 @@ Para melhorar o desempenho, pode voltar a configurar o Desbloqueio facial nas De
     <string name="tips_suggestion_title">Conheça o seu Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Mantenha o telemóvel à frente do seu rosto</string>
     <string name="usb_use_file_transfers">Transf. ficheiros/Android Auto</string>
-    <string name="vpn_app_bypass">Não use a VPN para as apps selecionadas</string>
-    <string name="vpn_bypass_category_title">Não use a VPN para estas apps</string>
-    <string name="vpn_bypass_description">Pode permitir que algumas apps ignorem a VPN e usem a ligação de rede normal do seu telemóvel</string>
-    <string name="vpn_preference_group_title">Outra</string>
     <string name="wallpaper_dashboard_summary">Cores, ícones temáticos, grelha de apps</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Veja ou altere a subscrição OpenRoaming.</string>

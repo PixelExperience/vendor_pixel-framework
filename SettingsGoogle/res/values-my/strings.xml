@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">ဖန်သားပြင် အကာအကွယ်ကို သုံးချိန်တွင် ထိတွေ့မှုအာရုံခံနိုင်စွမ်း မြင့်စေသည်</string>
     <string name="touch_sensitivity_title">ဖန်သားပြင် အကာအကွယ်မုဒ်</string>
     <string name="columbus_title">လုပ်ဆောင်ချက်စတင်ရန် ‘အမြန်တို့ခြင်း’</string>
-    <string name="about_phone">ဖုန်းအကြောင်း</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge စနစ်ထည့်သွင်းမှု။ နောက်တစ်မျက်နှာသို့ သွားပါ သို့မဟုတ် ဆက်လက်ချိန်ညှိပါ။</string>
     <string name="accessibility_keyboard_haptics_title">ကီးဘုတ် တုန်ခါ၍တုံ့ပြန်မှုများ</string>
+    <string name="adaptive_alert_vibration_summary">သင့်ဖုန်းငြိမ်နေပြီး စခရင် ပက်လက်လှန်ထားစဉ် တုန်ခါမှုအားကို လျှော့ချသည်</string>
+    <string name="adaptive_alert_vibration_title">အလိုက်သင့်သတိပေး တုန်ခါမှု</string>
     <string name="adaptive_charging">အလိုက်သင့်အားသွင်းခြင်း</string>
     <string name="adaptive_charging_description">ပိုမိုကြာမြင့်စွာ အားသွင်းသည့်အချိန်များတွင် ပုံမှန်အားသွင်းခြင်းဖြင့် ဘက်ထရီသက်တမ်းကို ပိုရှည်စေသည်။ သင်၏ သုံးစွဲပုံအပေါ်မူတည်၍ ဖွင့်ထားသည်။</string>
-    <string name="adaptive_charging_time_estimate"><b>အလိုက်သင့်အားသွင်းခြင်း</b> • အားပြည့်ရန် %1$s ကျန်သည်</string>
-    <string name="add_bypassed_application_hint">အက်ပ်ထည့်မထားပါ</string>
-    <string name="advanced_vpn_preference_group_title">အသင့်ပါပြီး</string>
-    <string name="all_apps_category_title">အက်ပ်အားလုံး</string>
+    <string name="adaptive_charging_time_estimate"><b>အလိုက်သင့်အားသွင်းခြင်း</b> • %1$s တွင် အားပြည့်မည်</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">သတ်မှတ်ချက်များ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant၊ မကြာသေးမီက အက်ပ်များ၊ မူရင်း အက်ပ်များ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistant သို့ဆက်ရန်</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">သင့်တက်ဘလက်ကို တပ်ဆင်ထားချိန်တွင် ဘက်ထရီအား ကာကွယ်ရန် အားသွင်းခြင်းကို %1$s ၌ ခဏရပ်ထားသည်</string>
     <string name="battery_tip_smart_battery_summary">"'အလိုက်သင့် ဘက်ထရီအားထိန်း' ကို ဖွင့်ပါ"</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s သည် ဤ Google အကောင့်နှင့် လင့်ခ်ချိတ်ထားသည့် စက်ပစ္စည်းများနှင့် တွဲချိတ်တော့မည် မဟုတ်ပါ</string>
-    <string name="clear_calling_footer">Wi-Fi နှင့် မိုဘိုင်းကွန်ရက်ချိတ်ဆက်မှုအပေါ် မူတည်၍ ဖုန်းဆူညံသံဖျောက်ခြင်း ရရှိနိုင်သည်။ သင့်ခေါ်ဆိုမှုမှ အချက်အလက်ကို Google သို့ မပို့ပါ။</string>
-    <string name="clear_calling_title">ဖုန်းဆူညံသံဖျောက်ခြင်း</string>
-    <string name="clear_calling_toggle">‘ဖုန်းဆူညံသံဖျောက်ခြင်း’ သုံးရန်</string>
+    <string name="clear_calling_footer">"သင့်ကိုယ်ရေးအချက်အလက်လုံခြုံမှုကို ကာကွယ်ရန် ‘ဖုန်းဆူညံသံဖျောက်ခြင်း’ က အော်ဒီယို (သို့) စကားဝိုင်းများကို Google သို့ ဘယ်တော့မှမပို့ပါ။
+
+သင့် Wi-Fi နှင့် မိုဘိုင်းကွန်ရက်ပေါ် မူတည်ပြီး ‘ဖုန်းဆူညံသံဖျောက်ခြင်း’ ရနိုင်သည်။"</string>
+    <string name="clear_calling_title">ကြည်လင်သောခေါ်ဆိုမှု</string>
+    <string name="clear_calling_toggle">‘ကြည်လင်သောခေါ်ဆိုမှု’ သုံးရန်</string>
     <string name="clear_calling_topintro">ဖုန်းပြောနေစဉ် နောက်ခံဆူညံသံများ လျှော့ချပေးသည်</string>
     <string name="columbus_gesture_detected">‘အမြန်တို့’ ကို တွေ့ရသည်။</string>
     <string name="columbus_gesture_enrollment_complete">ပြီးပြီ</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">‘အမြန်တို့’ ကို သုံး၍ ဤအက်ပ်ကိုဖွင့်သောအခါ မည်သို့ဖြစ်မည်ကို ရွေးပါ။</string>
     <string name="columbus_setting_enable_switch_title">‘အမြန်တို့’ သုံးရန်</string>
     <string name="columbus_setting_sensitivity_title">ခပ်ပြင်းပြင်းတို့ချက်များ လိုအပ်သည်</string>
+    <string name="communal_cast_summary">ဤစက်သို့ (သို့) ဤစက်မှ ကာစ်လုပ်ပါ</string>
+    <string name="communal_lock_screen_summary">ကိုယ်ရေးအချက်အလက်လုံခြုံမှု၊ အကြောင်းကြားချက်နှင့် အိမ်သတ်မှတ်ချက်များ</string>
+    <string name="communal_settings_summary_1">လော့ခ်ချပြီး တပ်ဆင်ထားသော လုပ်ဆောင်မှု</string>
+    <string name="communal_settings_summary_2">တပ်ဆင်ချိန် ရွေးစရာများ</string>
+    <string name="communal_settings_summary_3">တပ်ဆင်မှုနှင့် လော့ခ်မျက်နှာပြင် ရွေးစရာများ</string>
+    <string name="communal_settings_summary_4">လော့ခ်မျက်နှာပြင်နှင့် တပ်ဆင်ချိန် ရွေးစရာများ</string>
+    <string name="communal_settings_title">ပင်မမုဒ်</string>
+    <string name="communal_smartspace_summary">Assistant မှ အသိပေးချက်၊ သတိပေးချက်နှင့် နောက်ထပ်အရာများ</string>
+    <string name="communal_smartspace_title">တစ်ချက်ကြည့်ရုံမျှဖြင့်</string>
+    <string name="communal_what_to_show">ပြသမည့်အရာ</string>
+    <string name="communal_what_to_use">သုံးမည့်အရာ</string>
     <string name="connectivity_helper_call_quality_category">ခေါ်ဆိုမှု အရည်အသွေး</string>
     <string name="connectivity_helper_call_quality_summary">ခေါ်ဆိုမှုများအတွင်း ချိတ်ဆက်မှု ပြဿနာများအကြောင်း အကြောင်းကြားချက် ရယူနိုင်သည်</string>
     <string name="connectivity_helper_call_quality_title">အကြောင်းကြားချက်များ ရယူရန်</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">ကတ်နှင့်လက်မှတ်များ ပြရန်</string>
     <string name="install_unknown_applications">Play စတိုးမှမဟုတ်သည့် အခြားအရင်းအမြစ်များမှ အက်ပ်ထည့်သွင်းမှုများကို ခွင့်ပြုပါ</string>
     <string name="keywords_accessibility_menu">မော်တာ၊ အမြန် မီနူး၊ အကူအညီ မီနူး၊ ထိတွေ့မှု၊ လက်၏ကျွမ်းကျင်မှု</string>
+    <string name="keywords_adaptive_alert_vibration">ထိတွေ့တုံ့ပြန်မှု၊ တုန်ခါမှု၊ ဖုန်း၊ ခေါ်ဆိုမှု၊ ဖုန်းမြည်သံ၊ သတိပေးချက်၊ အကြောင်းကြားချက်များ၊ ကျယ်၊ တိုး၊ ဆူညံ၊ ကာဗာ၊ အလိုက်သင့်</string>
     <string name="keywords_adaptive_charging">အားသွင်းသည်၊ အားသွင်းခြင်း၊ အဆင့်မြင့်အားသွင်းခြင်း၊ အလိုက်သင့်အားသွင်းခြင်း၊ ဘက်ထရီ၊ ဘက်ထရီအခြေအနေ</string>
     <string name="keywords_assist_gesture_launch">ဟန်၊ အစွန်း၊ ဘက်၊ active edge၊ ဖျစ်ညှစ်ခြင်း၊ ဆုပ်ကိုင်ခြင်း၊ အကူ၊ assistant၊ ဖျစ်ညှစ်ခြင်း၊ ok google၊ google assistant</string>
     <string name="keywords_assist_gesture_silence">ဟန်၊ အစွန်း၊ ဘက်၊ active edge၊ အသံတိတ်ခြင်း၊ နှိုးစက်အား ဆိုင်းငံ့ခြင်း၊ နှိုးစက်၊ အဝင်ခေါ်ဆိုမှု၊ အသံတိတ်ခြင်း၊ မျက်နှာပြင်ပြသမှု၊ လော့ခ်မျက်နှာပြင်၊ ဖျစ်ညှစ်ခြင်း၊ ဆုပ်ကိုင်ခြင်း၊ ရပ်ခြင်း</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">ကျွန်ုပ်၏ Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">ဥပမာ- Joe ၏ Pixel</string>
-    <string name="remove">ဖယ်ရှားရန်</string>
     <string name="reverse_charging_auto_turn_on_subtitle">သင့်ဖုန်းကို အားသွင်းကိရိယာတွင် ပလတ်တပ်လိုက်ပါက ခဏတာ အလိုအလျောက်ပွင့်မည်</string>
     <string name="reverse_charging_auto_turn_on_title">အလိုအလျောက်ဖွင့်ရန်</string>
     <string name="reverse_charging_charging_wirelessly_message">ဖုန်းကို ကြိုးမဲ့စနစ်ဖြင့် အားသွင်းနေသောကြောင့် မရနိုင်ပါ</string>
@@ -333,9 +344,8 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="suw_limited_warranty_title">ကန့်သတ်အာမခံ</string>
     <string name="suw_more_button_label">နောက်ထပ်</string>
     <string name="suw_next_button_label">ရှေ့သို့</string>
-    <string name="suw_warranty_description">ကန့်သတ်အာမခံကို ကြည့်ရန် ဤစက်ဝယ်ယူခဲ့သော နိုင်ငံကို ရွေးပါ။&lt;br /&gt;&lt;br /&gt;ဤအာမခံကို &lt;b&gt;ဆက်တင်များ &gt; %s &gt; ကန့်သတ်အာမခံ&lt;/b&gt; နှင့် g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်။</string>
-    <string name="suw_warranty_description_content">ကန့်သတ်အာမခံကို ကြည့်ရန် ဤစက်ဝယ်ယူခဲ့သော နိုင်ငံကို ရွေးပါ။ ဤအာမခံကို ‘ဆက်တင်များ’ ထို့နောက် %s ထို့နောက် ‘ကန့်သတ်အာမခံ’ နှင့် g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်။</string>
-    <string name="suw_warranty_language_consistent_description">သင့်စက်နှင့် အကျုံးဝင်သော ကန့်သတ်အာမခံကို စက် ‘ဆက်တင်များ’ ရှိ &lt;b&gt;ဆက်တင်များ &gt; %s &gt; ကန့်သတ်အာမခံ&lt;/b&gt; နှင့် g.co/devicewarranty တွင်လည်း ရရှိနိုင်သည်။</string>
+    <string name="suw_warranty_description">ကန့်သတ်အာမခံ ကြည့်ရန် ဤစက်ဝယ်ယူသော နိုင်ငံကို ရွေးပါ။&lt;br /&gt;&lt;br /&gt;အာမခံကို &lt;b&gt;ဆက်တင်များ &gt; ဖုန်းအကြောင်း &gt; ကန့်သတ်အာမခံ&lt;/b&gt; နှင့် g.co/devicewarranty တွင်လည်း ရနိုင်သည်။</string>
+    <string name="suw_warranty_description_content">ကန့်သတ်အာမခံ ကြည့်ရန် ဤစက်ဝယ်ယူသော နိုင်ငံကို ရွေးပါ။ အာမခံကို ဆက်တင်များမှ ဖုန်းအကြောင်း၊ ‘ကန့်သတ်အာမခံ’ နှင့် g.co/devicewarranty တွင်လည်း ရနိုင်သည်။</string>
     <string name="suw_warranty_next_button_text">ရှေ့သို့</string>
     <string name="suw_warranty_positive_button_text">ပိတ်ရန်</string>
     <string name="time_remaining_warning_subtext">ယခင်က အသုံးပြုသည့်အနေအထားအရ %1$s ခန့် ကျန်ပါသည်</string>
@@ -344,10 +354,6 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="tips_suggestion_title">သင့် Pixel အကြောင်း လေ့လာပါ</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ဖုန်းကို သင့်မျက်နှာရှေ့တွင် ကိုင်ထားပါ</string>
     <string name="usb_use_file_transfers">ဖိုင်ရွှေ့ပြောင်းခြင်း / Android Auto</string>
-    <string name="vpn_app_bypass">ရွေးချယ်ထားသည့်အက်ပ်များအတွက် VPN မသုံးပါနှင့်</string>
-    <string name="vpn_bypass_category_title">ဤအက်ပ်များအတွက် VPN မသုံးပါနှင့်</string>
-    <string name="vpn_bypass_description">VPN အား လျစ်လျူရှုရန် အချို့အက်ပ်များကို ခွင့်ပြုပေးနိုင်ပြီး သင့်ဖုန်း၏ ကွန်ရက်ချိတ်ဆက်မှုကို အသုံးပြုနိုင်သည်</string>
-    <string name="vpn_preference_group_title">အခြား</string>
     <string name="wallpaper_dashboard_summary">အရောင်များ၊ အပြင်အဆင်သုံး သင်္ကေတများ၊ အက်ပ်ဇယား</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming စာရင်းသွင်းမှုကို ကြည့်ရန် သို့မဟုတ် ပြောင်းရန်</string>

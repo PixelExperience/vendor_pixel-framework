@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Érintésérzékenység növelése és érintésjavítás kijelzővédő használatakor</string>
     <string name="touch_sensitivity_title">Kijelzővédő mód</string>
     <string name="columbus_title">Gyors koppintás műveletek indításához</string>
-    <string name="about_phone">A telefonról</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Az Active Edge beállítva. Továbbléphet a következő képernyőre, vagy folytathatja a finomhangolást.</string>
     <string name="accessibility_keyboard_haptics_title">Billentyűzet haptikus visszajelzése</string>
+    <string name="adaptive_alert_vibration_summary">Csökkenti a rezgés erejét, miközben a telefon tétlen, a képernyő pedig felfelé néz</string>
+    <string name="adaptive_alert_vibration_title">Adaptív rezgés</string>
     <string name="adaptive_charging">Adaptív töltés</string>
     <string name="adaptive_charging_description">Növelheti az akkumulátor élettartamát folyamatos töltéssel hosszabb töltési periódusok során. Aktiválva az eddigi használati ciklus alapján.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptív töltés</b> • Teljes töltöttség ekkorra: %1$s</string>
-    <string name="add_bypassed_application_hint">Nincsenek hozzáadva alkalmazások</string>
-    <string name="advanced_vpn_preference_group_title">Beépítve</string>
-    <string name="all_apps_category_title">Összes alkalmazás</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Beállítások</annotation></string>
     <string name="app_and_notification_dashboard_summary">Segéd, legutóbbi alkalmazások, alapértelmezett alkalmazások</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Tovább a Segédhez</string>
@@ -99,9 +97,11 @@ Ha elkészült a visszaállítással, végezze el a beállítási folyamatot, é
     <string name="battery_tip_limited_temporarily_extra_summary">Az akkumulátor védelmének biztosítása érdekében a rendszer %1$s-nál szünetelteti a töltést, amíg a táblagép dokkolt állapotban van</string>
     <string name="battery_tip_smart_battery_summary">Az Alkalmazkodó akkumulátor bekapcsolása</string>
     <string name="bluetooth_untethered_unpair_dialog_body">A(z) %1$s a továbbiakban már nem lesz párosítva az ezzel a Google-fiókkal összekapcsolt eszközökkel</string>
-    <string name="clear_calling_footer">A tiszta hívás a Wi-Fi- és a mobilhálózati kapcsolattól függően áll rendelkezésre. A hívás tartalmát nem kapja meg a Google.</string>
-    <string name="clear_calling_title">Tiszta hívás</string>
-    <string name="clear_calling_toggle">Tiszta hívás használata</string>
+    <string name="clear_calling_footer">"Az adatvédelem biztosítása érdekében a tiszta hívás nem küldi el az audioanyagokat és a beszélgetéseket a Google-nak.
+
+A tiszta hívás a Wi‑Fi- és a mobilhálózattól függően áll rendelkezésre."</string>
+    <string name="clear_calling_title">Tiszta hangzás</string>
+    <string name="clear_calling_toggle">Tiszta hangzás használata</string>
     <string name="clear_calling_topintro">Mérsékli a háttérzajokat hívás közben</string>
     <string name="columbus_gesture_detected">Gyors koppintás észlelve!</string>
     <string name="columbus_gesture_enrollment_complete">Kész</string>
@@ -147,6 +147,17 @@ Ha elkészült a visszaállítással, végezze el a beállítási folyamatot, é
     <string name="columbus_setting_app_shortcut_selection_help_text">Válassza ki, hogy mi történjen, amikor megnyitja ezt az alkalmazást a Gyors koppintás használatával.</string>
     <string name="columbus_setting_enable_switch_title">Gyors koppintás használata</string>
     <string name="columbus_setting_sensitivity_title">Erősebben kell koppintani</string>
+    <string name="communal_cast_summary">Átküldés az eszközre, illetve onnan</string>
+    <string name="communal_lock_screen_summary">Adatvédelem, értesítések és otthon vezérlése</string>
+    <string name="communal_settings_summary_1">Viselkedés zárolt és dokkolt módban</string>
+    <string name="communal_settings_summary_2">Beállítások dokkolt módban</string>
+    <string name="communal_settings_summary_3">Dokkolás és lezárási képernyő beállításai</string>
+    <string name="communal_settings_summary_4">Lezárási képernyő és dokkolási mód beállításai</string>
+    <string name="communal_settings_title">Hub mód</string>
+    <string name="communal_smartspace_summary">Emlékeztetők, értesítések és egyebek a Segédtől</string>
+    <string name="communal_smartspace_title">Áttekintés</string>
+    <string name="communal_what_to_show">Mi jelenjen meg?</string>
+    <string name="communal_what_to_use">Mit érdemes használni?</string>
     <string name="connectivity_helper_call_quality_category">A hívás minősége</string>
     <string name="connectivity_helper_call_quality_summary">Értesítést kaphat a hívások közben fellépő csatlakozási problémák okairól</string>
     <string name="connectivity_helper_call_quality_title">Értesítések kérése</string>
@@ -201,6 +212,7 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="global_actions_panel_title">Kártyák és utalványok megjelenítése</string>
     <string name="install_unknown_applications">A Play Áruházon kívül más forrásokból is lehessen alkalmazásokat telepíteni</string>
     <string name="keywords_accessibility_menu">motorikus, gyorsmenü, kisegítő menü, érintés, kezelhetőség</string>
+    <string name="keywords_adaptive_alert_vibration">rezgés, vibrálás, telefon, hívás, csörgés, figyelmeztetés, értesítések, hangos, csendes, zaj, tok, adaptív</string>
     <string name="keywords_adaptive_charging">tölt, töltés, okostöltés, adaptív töltés, akkumulátor, akkumulátor élettartama</string>
     <string name="keywords_assist_gesture_launch">kézmozdulat, edge, oldal, active edge, összenyomás, fogás, segít, segéd, összenyomás, ok google, google segéd</string>
     <string name="keywords_assist_gesture_silence">kézmozdulat, edge, oldal, active edge, némítás, szundi, ébresztés, bejövő hívás, csendes, kijelző, képernyőzár, összenyomás, fogás, leállítás</string>
@@ -227,7 +239,6 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="me_card_title">Saját Pixel telefon</string>
     <string name="my_device_info_account_preference_title">Google-fiók</string>
     <string name="owner_info_settings_edit_text_hint">Pl. Péter Pixele.</string>
-    <string name="remove">Eltávolítás</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Automatikusan bekapcsol egy rövid időre, ha a telefon töltőhöz csatlakozik</string>
     <string name="reverse_charging_auto_turn_on_title">Automatikus bekapcsolás</string>
     <string name="reverse_charging_charging_wirelessly_message">Nem használható, mert a telefon töltése vezeték nélkül történik</string>
@@ -331,9 +342,8 @@ A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a
     <string name="suw_limited_warranty_title">Korlátozott jótállás</string>
     <string name="suw_more_button_label">Továbbiak</string>
     <string name="suw_next_button_label">Következő</string>
-    <string name="suw_warranty_description">A korlátozott jótállás megtekintéséhez válassza ki azt az országot, ahol az eszközt vásárolta.&lt;br /&gt;&lt;br /&gt;A szavatossági információk a &lt;b&gt;Beállítások &gt; %s &gt; Korlátozott jótállás elérési úton,&lt;/b&gt; és a következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">A korlátozott jótállás megtekintéséhez válassza ki azt az országot, ahol az eszközt vásárolta. A szavatossági információk a Beállítások, %s, majd Korlátozott jótállás elérési úton, illetve következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Az eszközére vonatkozó korlátozott jótállás megtalálható az eszköz Beállítások alkalmazásában a &lt;b&gt;Beállítások &gt; %s &gt; Korlátozott jótállás&lt;/b&gt; menüpontban, valamint a következő weboldalon is: g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">A korlátozott jótállás megtekintéséhez válassza ki azt az országot, ahol az eszközt vásárolta.&lt;br /&gt;&lt;br /&gt;A szavatossági információk a &lt;b&gt;Beállítások &gt; A telefonról &gt; Korlátozott jótállás&lt;/b&gt; elérési úton, valamint a következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">A korlátozott jótállás megtekintéséhez válassza ki azt az országot, ahol az eszközt vásárolta. A szavatossági információk a Beállítások, A telefonról, majd Korlátozott jótállás elérési úton, valamint a következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Következő</string>
     <string name="suw_warranty_positive_button_text">Bezárás</string>
     <string name="time_remaining_warning_subtext">Körülbelül %1$s van hátra az eddigi igénybevétel alapján</string>
@@ -342,10 +352,6 @@ A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a
     <string name="tips_suggestion_title">Ismerje meg Pixel telefonját</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Tartsa a telefont az arca előtt</string>
     <string name="usb_use_file_transfers">Fájlátvitel / Android Auto</string>
-    <string name="vpn_app_bypass">Ne használjon VPN-t bizonyos alkalmazások esetében</string>
-    <string name="vpn_bypass_category_title">Ne használjon VPN-t ezeknél az alkalmazásoknál</string>
-    <string name="vpn_bypass_description">Engedélyezheti, hogy bizonyos alkalmazások figyelmen kívül hagyják a VPN-t, és telefonja megszokott hálózati kapcsolatát használják</string>
-    <string name="vpn_preference_group_title">Egyéb</string>
     <string name="wallpaper_dashboard_summary">Színek, tematikus ikonok, alkalmazásrács</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming-előfizetés megtekintése vagy módosítása</string>

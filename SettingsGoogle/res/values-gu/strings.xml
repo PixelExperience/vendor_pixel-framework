@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">સ્ક્રીનગાર્ડનો ઉપયોગ કરતી વખતે, ટચની સંવેદિતા વધારીને ટચને બહેતર બનાવો</string>
     <string name="touch_sensitivity_title">સ્ક્રીનગાર્ડ મોડ</string>
     <string name="columbus_title">ક્રિયાઓ શરૂ કરવા માટે ક્વિક ટૅપ</string>
-    <string name="about_phone">ફોન વિશે</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edgeનું સેટ અપ. આગળની સ્ક્રીન પર જાઓ અથવા ગોઠવણ ચાલુ રાખો.</string>
     <string name="accessibility_keyboard_haptics_title">કીબોર્ડ સંવેદક</string>
+    <string name="adaptive_alert_vibration_summary">જ્યારે તમારો ફોન સ્થિર હોય અને સ્ક્રીન ઉપરની તરફ હોય ત્યારે વાઇબ્રેશનની તીવ્રતા ઘટાડે છે</string>
+    <string name="adaptive_alert_vibration_title">અલર્ટ માટે અડૅપ્ટિવ વાઇબ્રેશન</string>
     <string name="adaptive_charging">અડૅપ્ટિવ ચાર્જિંગ</string>
     <string name="adaptive_charging_description">ચાર્જિંગના વધુ લાંબા સમયગાળા દરમિયાન સતત ચાર્જ કરીને બૅટરની આવરદા વધારો. તમારા વપરાશ ચક્રના આધારે સક્રિય કરી.</string>
-    <string name="adaptive_charging_time_estimate"><b>અડૅપ્ટિવ ચાર્જિંગ</b> • %1$s સુધી પૂર્ણ ચાર્જ થઈ જશે</string>
-    <string name="add_bypassed_application_hint">કોઈ ઍપ જરૂરી નથી</string>
-    <string name="advanced_vpn_preference_group_title">બિલ્ટ-ઇન</string>
-    <string name="all_apps_category_title">બધી ઍપ</string>
+    <string name="adaptive_charging_time_estimate"><b>અડૅપ્ટિવ ચાર્જિંગ</b> • %1$s સુધીમાં પૂર્ણ ચાર્જ થઈ જશે</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">પસંદગીઓ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, તાજેતરની ઍપ, ડિફૉલ્ટ ઍપ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistant પર આગળ વધો</string>
@@ -99,7 +97,9 @@
     <string name="battery_tip_limited_temporarily_extra_summary">તમારી બૅટરીની સુરક્ષા કરવા માટે, જ્યારે તમારું ટૅબ્લેટ ડૉક કરેલું હોય, ત્યારે ચાર્જિંગ %1$s પર થોભાવવામાં આવે છે</string>
     <string name="battery_tip_smart_battery_summary">અડૅપ્ટિવ બૅટરી ચાલુ કરો</string>
     <string name="bluetooth_untethered_unpair_dialog_body">હવે %1$sનું આ Google એકાઉન્ટથી લિંક કરાયેલા કોઈપણ ડિવાઇસની સાથે જોડાણ કરવામાં આવશે નહીં</string>
-    <string name="clear_calling_footer">તમારા વાઇ-ફાઇ અને મોબાઇલ નેટવર્ક કનેક્શનના આધારે સ્પષ્ટ કૉલિંગની સુવિધા ઉપલબ્ધ હોય છે. કૉલ દરમિયાન થયેલી તમારી વાતચીતનું કન્ટેન્ટ Googleને મોકલવામાં આવતું નથી.</string>
+    <string name="clear_calling_footer">"તમારી પ્રાઇવસીને સુરક્ષિત રાખવા માટે, સ્પષ્ટ કૉલિંગની સુવિધા દ્વારા ક્યારેય Googleને ઑડિયો કે વાતચીત મોકલવામાં આવતી નથી.
+
+તમારા વાઇ-ફાઇ અને મોબાઇલ નેટવર્કના આધારે સ્પષ્ટ કૉલિંગની સુવિધા ઉપલબ્ધ છે."</string>
     <string name="clear_calling_title">સ્પષ્ટ કૉલિંગ</string>
     <string name="clear_calling_toggle">સ્પષ્ટ કૉલિંગ સુવિધાનો ઉપયોગ કરો</string>
     <string name="clear_calling_topintro">કૉલ દરમિયાન બૅકગ્રાઉન્ડમાંથી આવતા અવાજો ઘટાડે છે</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">જ્યારે તમે ક્વિક ટૅપ સુવિધાનો ઉપયોગ કરીને આ ઍપ ખોલો, ત્યારે શું થાય તે પસંદ કરો.</string>
     <string name="columbus_setting_enable_switch_title">ક્વિક ટૅપ સુવિધાનો ઉપયોગ કરો</string>
     <string name="columbus_setting_sensitivity_title">વધુ પ્રબળ ટૅપની જરૂર છે</string>
+    <string name="communal_cast_summary">આ ડિવાઇસ પર અથવા પરથી કાસ્ટ કરો</string>
+    <string name="communal_lock_screen_summary">પ્રાઇવસી, નોટિફિકેશન અને ઘરેલું સાધનોના નિયંત્રણો</string>
+    <string name="communal_settings_summary_1">લૉક અને ડૉક કરેલું હોય ત્યારની વર્તણૂક</string>
+    <string name="communal_settings_summary_2">ડૉક પરના વિકલ્પો</string>
+    <string name="communal_settings_summary_3">ડૉક અને લૉક સ્ક્રીનના વિકલ્પો</string>
+    <string name="communal_settings_summary_4">લૉક સ્ક્રીન અને ડૉક પરના વિકલ્પો</string>
+    <string name="communal_settings_title">હબ મોડ</string>
+    <string name="communal_smartspace_summary">Assistant તરફથી રિમાઇન્ડર, અલર્ટ અને વધુ</string>
+    <string name="communal_smartspace_title">એક નજરમાં</string>
+    <string name="communal_what_to_show">શું બતાવવું</string>
+    <string name="communal_what_to_use">શેનો ઉપયોગ કરવો</string>
     <string name="connectivity_helper_call_quality_category">કૉલની ક્વૉલિટી</string>
     <string name="connectivity_helper_call_quality_summary">કૉલ દરમિયાન કનેક્શન સંબંધિત સમસ્યાઓના કારણો જાણવા માટે નોટિફિકેશન મેળવો</string>
     <string name="connectivity_helper_call_quality_title">નોટિફિકેશન મેળવો</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">કાર્ડ અને પાસ બતાવો</string>
     <string name="install_unknown_applications">Play Store સિવાયનાં અન્ય સ્રોતોથી ઍપ્લિકેશનોના ઇન્સ્ટૉલેશનની મંજૂરી આપો</string>
     <string name="keywords_accessibility_menu">મોટર, ઝડપી મેનૂ, સહાયકારી મેનૂ, ટચ, નિપુણતા</string>
+    <string name="keywords_adaptive_alert_vibration">હેપ્ટિક, વાઇબ્રેટ, ફોન, કૉલ, રિંગ, અલર્ટ, નોટિફિકેશન, લાઉડ, શાંત, ઘોંઘાટ, નૉઇઝ કેસ, અડૅપ્ટિવ</string>
     <string name="keywords_adaptive_charging">ચાર્જ, ચાર્જિંગ, સ્માર્ટ ચાર્જિંગ, અડૅપ્ટિવ ચાર્જિંગ, બૅટરી, બૅટરીની સ્થિતિ</string>
     <string name="keywords_assist_gesture_launch">સંકેત, કિનારી, બાજુ, Active Edge, દબાવો, ગ્રિપ, સહાય, આસિસ્ટંટ, દબાવો, Ok Google, Google Assistant</string>
     <string name="keywords_assist_gesture_silence">સંકેત, કિનારી, બાજુ, Active Edge, મૌન, સ્નૂઝ, અલાર્મ, ઇનકમિંગ કૉલ, શાંત, પ્રદર્શન, લૉકસ્ક્રીન, દબાવો, ગ્રિપ, બંધ કરો</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">મારા Pixel વિશે</string>
     <string name="my_device_info_account_preference_title">Google એકાઉન્ટ</string>
     <string name="owner_info_settings_edit_text_hint">દા.ત., Joeનો Pixel.</string>
-    <string name="remove">કાઢી નાખો</string>
     <string name="reverse_charging_auto_turn_on_subtitle">જ્યારે તમારો ફોન ચાર્જરમાં પ્લગ ઇન કરેલો હોય, ત્યારે ટૂંક સમય માટે ઑટોમૅટિક રીતે ચાલુ થશે</string>
     <string name="reverse_charging_auto_turn_on_title">ઑટોમૅટિક રીતે ચાલુ કરો</string>
     <string name="reverse_charging_charging_wirelessly_message">ફોન વાયર વિના ચાર્જ થતો હોવાને કારણે ઉપલબ્ધ નથી</string>
@@ -332,9 +343,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="suw_limited_warranty_title">મર્યાદિત વૉરંટી</string>
     <string name="suw_more_button_label">વધુ</string>
     <string name="suw_next_button_label">આગલું</string>
-    <string name="suw_warranty_description">તમારી મર્યાદિત વૉરંટી જોવા માટે, જે દેશમાંથી તમે આ ડિવાઇસ ખરીદ્યું છે, તેને પસંદ કરો.&lt;br /&gt;&lt;br /&gt;વૉરંટી &lt;b&gt;સેટિંગ &gt; %s &gt; મર્યાદિત વૉરંટી&lt;/b&gt; પર અને g.co/devicewarranty પર પણ ઉપલબ્ધ છે.</string>
-    <string name="suw_warranty_description_content">તમારી મર્યાદિત વૉરંટી જોવા માટે, જે દેશમાંથી તમે આ ડિવાઇસ ખરીદ્યું છે, તેને પસંદ કરો. વૉરંટી સેટિંગ પછી %s અને તે પછી મર્યાદિત વૉરંટી પર તથા g.co/devicewarranty પર પણ ઉપલબ્ધ છે.</string>
-    <string name="suw_warranty_language_consistent_description">તમારા ડિવાઇસ પર લાગુ થનારી મર્યાદિત વૉરંટી, &lt;b&gt;સેટિંગ &gt; %s &gt; મર્યાદિત વૉરંટી&lt;/b&gt; પર ડિવાઇસના સેટિંગ અને g.co/devicewarranty પર પણ ઉપલબ્ધ છે.</string>
+    <string name="suw_warranty_description">તમારી મર્યાદિત વૉરંટી જોવા માટે, જે દેશમાંથી તમે આ ડિવાઇસ ખરીદ્યું છે, તેને પસંદ કરો.&lt;br /&gt;&lt;br /&gt;વૉરંટી &lt;b&gt;સેટિંગ &gt; ફોન વિશે &gt; મર્યાદિત વૉરંટી&lt;/b&gt; પર અને g.co/devicewarranty પર પણ ઉપલબ્ધ છે.</string>
+    <string name="suw_warranty_description_content">તમારી મર્યાદિત વૉરંટી જોવા માટે, જે દેશમાંથી તમે આ ડિવાઇસ ખરીદ્યું છે, તેને પસંદ કરો. વૉરંટી સેટિંગ પછી ફોન વિશે અને તે પછી મર્યાદિત વૉરંટી પર તથા g.co/devicewarranty પર પણ ઉપલબ્ધ છે.</string>
     <string name="suw_warranty_next_button_text">આગળ</string>
     <string name="suw_warranty_positive_button_text">બંધ કરો</string>
     <string name="time_remaining_warning_subtext">તમારા પહેલાંના વપરાશના આધારે લગભગ %1$s બાકી છે</string>
@@ -343,10 +353,6 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="tips_suggestion_title">તમારા Pixelને જાણો</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ફોનને તમારા ચહેરાની સામે પકડી રાખો</string>
     <string name="usb_use_file_transfers">ફાઇલ ટ્રાન્સફર / Android Auto</string>
-    <string name="vpn_app_bypass">પસંદ કરેલી ઍપ માટે VPNનો ઉપયોગ કરશો નહીં</string>
-    <string name="vpn_bypass_category_title">આ ઍપ માટે VPNનો ઉપયોગ કરશો નહીં</string>
-    <string name="vpn_bypass_description">તમે અમુક ઍપને VPN અવગણી તમારા ફોનના નિયમિત નેટવર્ક કનેક્શનનો ઉપયોગ કરવાની મંજૂરી આપી શકો છો</string>
-    <string name="vpn_preference_group_title">અન્ય</string>
     <string name="wallpaper_dashboard_summary">રંગો, થીમવાળા આઇકન, ઍપ ગ્રિડ</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming સબ્સ્ક્રિપ્શનને જુઓ અથવા બદલો</string>

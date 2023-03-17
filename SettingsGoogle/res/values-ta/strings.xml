@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">ஸ்கிரீன் கார்டைப் பயன்படுத்தும்போது தொடுதல் உணர்திறனை அதிகரிக்கும் மற்றும் தொடுதலை மேம்படுத்தும்</string>
     <string name="touch_sensitivity_title">ஸ்கிரீன் கார்டுப் பயன்முறை</string>
     <string name="columbus_title">செயல்களைத் தொடங்க விரைவுத் தட்டலைப் பயன்படுத்துதல்</string>
-    <string name="about_phone">மொபைல் விவரம்</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge அமைவு. அடுத்த திரைக்குச் செல்லவும் அல்லது தொடர்ந்து சரிசெய்யவும்.</string>
     <string name="accessibility_keyboard_haptics_title">கீபோர்டு ஹாப்டிக்ஸ்</string>
+    <string name="adaptive_alert_vibration_summary">உங்கள் மொபைல் இயக்கப்பட்டு அதன் திரை மேல்நோக்கி இருக்கும்போது அதிர்வைக் குறைக்கும்</string>
+    <string name="adaptive_alert_vibration_title">சூழல்சார் விழிப்பூட்டல் அதிர்வு</string>
     <string name="adaptive_charging">சூழலுக்கேற்பச் சார்ஜ் செய்தல்</string>
     <string name="adaptive_charging_description">நீண்ட நேரம் சார்ஜ் செய்யும்போது சீராகச் சார்ஜ் செய்வதன் மூலம் பேட்டரி ஆயுட்காலத்தை நீட்டிக்கலாம். உங்கள் உபயோக சுழற்சியின் அடிப்படையில் இது செயல்படுத்தப்பட்டது.</string>
-    <string name="adaptive_charging_time_estimate"><b>சூழலுக்கேற்பச் சார்ஜ் செய்தல்</b> • %1$sக்கு நிறைவடையும்</string>
-    <string name="add_bypassed_application_hint">ஆப்ஸ் எதுவும் சேர்க்கப்படவில்லை</string>
-    <string name="advanced_vpn_preference_group_title">உள்ளமைக்கப்பட்டவை</string>
-    <string name="all_apps_category_title">அனைத்து ஆப்ஸும்</string>
+    <string name="adaptive_charging_time_estimate"><b>அடாப்டிவ் சார்ஜிங்</b> • %1$sக்கு முழுமையாகச் சார்ஜாகும்</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">விருப்பத்தேர்வுகள்</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, சமீபத்திய ஆப்ஸ், இயல்பான ஆப்ஸ்</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistantடில் தொடர்க</string>
@@ -99,7 +97,9 @@
     <string name="battery_tip_limited_temporarily_extra_summary">டேப்லெட் டாக் செய்யப்பட்டிருக்கும்போது பேட்டரியைப் பாதுகாக்க, சார்ஜிங் %1$s இல் இடைநிறுத்தப்பட்டுள்ளது</string>
     <string name="battery_tip_smart_battery_summary">அடாப்டிவ் பேட்டரியை ஆன் செய்க</string>
     <string name="bluetooth_untethered_unpair_dialog_body">இந்த Google கணக்குடன் எந்தச் சாதனத்திலும் இனிமேல் இதைப் பயன்படுத்த முடியாது: %1$s</string>
-    <string name="clear_calling_footer">உங்கள் வைஃபையையும் மொபைல் நெட்வொர்க் இணைப்பையும் பொறுத்து தெளிவான அழைப்பு கிடைக்கும். உங்கள் அழைப்பின் உள்ளடக்கம் Googleளுக்கு அனுப்பப்படாது.</string>
+    <string name="clear_calling_footer">"உங்கள் தனியுரிமையைப் பாதுகாக்க 'தெளிவான அழைப்பு' அம்சம் ஆடியோ/உரையாடல்களை எப்போதும் Googleளுக்கு அனுப்பாது.
+
+உங்கள் வைஃபை/மொபைல் நெட்வொர்க்கைப் பொறுத்தே 'தெளிவான அழைப்பு' அம்சம் இயங்கும்."</string>
     <string name="clear_calling_title">தெளிவான அழைப்பு</string>
     <string name="clear_calling_toggle">தெளிவான அழைப்பைப் பயன்படுத்துதல்</string>
     <string name="clear_calling_topintro">அழைப்புகளின்போது பின்புல இரைச்சல்களைக் குறைக்கும்</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">"'விரைவுத் தட்டல்' சைகையைப் பயன்படுத்தி இந்த ஆப்ஸைத் திறக்கும்போது என்ன நடக்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்."</string>
     <string name="columbus_setting_enable_switch_title">"'விரைவுத் தட்டல்' சைகையைப் பயன்படுத்து"</string>
     <string name="columbus_setting_sensitivity_title">பலமாகத் தட்டுதல் அவசியம்</string>
+    <string name="communal_cast_summary">இந்தச் சாதனத்திலிருந்து அல்லது இந்தச் சாதனத்திற்கு அலைபரப்பலாம்</string>
+    <string name="communal_lock_screen_summary">தனியுரிமை, அறிவிப்புகள் மற்றும் வீ்ட்டுக் கட்டுப்பாடுகள்</string>
+    <string name="communal_settings_summary_1">லாக் &amp; டாக் செய்யப்பட்ட செயல்பாடுகள்</string>
+    <string name="communal_settings_summary_2">ஆன்-டாக் விருப்பங்கள்</string>
+    <string name="communal_settings_summary_3">டாக் மற்றும் பூட்டுத் திரை விருப்பங்கள்</string>
+    <string name="communal_settings_summary_4">பூட்டுத் திரை மற்றும் ஆன்-டாக் விருப்பங்கள்</string>
+    <string name="communal_settings_title">ஹப் பயன்முறை</string>
+    <string name="communal_smartspace_summary">Assistantடிடம் இருந்து நினைவூட்டல்கள், விழிப்பூட்டல்கள் மற்றும் பல</string>
+    <string name="communal_smartspace_title">முகப்புத் தகவல்</string>
+    <string name="communal_what_to_show">எதைக் காட்ட வேண்டும்</string>
+    <string name="communal_what_to_use">எதைப் பயன்படுத்த வேண்டும்</string>
     <string name="connectivity_helper_call_quality_category">அழைப்பின் தரம்</string>
     <string name="connectivity_helper_call_quality_summary">அழைப்புகளின்போது ஏற்படும் இணைப்புச் சிக்கல்களுக்கான காரணங்கள் பற்றிய அறிவிப்புகளைப் பெறலாம்</string>
     <string name="connectivity_helper_call_quality_title">அறிவிப்புகளைப் பெறுங்கள்</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">கார்டுகள் &amp; பாஸ்கள்</string>
     <string name="install_unknown_applications">Play Store அல்லாத, பிற மூலங்களிலிருந்து ஆப்ஸை நிறுவ அனுமதி</string>
     <string name="keywords_accessibility_menu">உடல் இயக்கத் திறன், விரைவு மெனு, அசிஸ்ட்டிவ் மெனு, தொடு, கைத்திறன்</string>
+    <string name="keywords_adaptive_alert_vibration">ஹாப்டிக்ஸ், அதிர்வு, மொபைல், அழைப்பு, ரிங்டோன், விழிப்பூட்டல், அறிவிப்புகள், சத்தம், அமைதி, இரைச்சல், கேஸ், சூழல்சார்</string>
     <string name="keywords_adaptive_charging">சார்ஜ், சார்ஜாகிறது, ஸ்மார்ட்டாகச் சார்ஜாகிறது, சூழலுக்கேற்பச் சார்ஜாகிறது, பேட்டரி, பேட்டரி நிலை</string>
     <string name="keywords_assist_gesture_launch">சைகை, முனை, பக்கம், active edge, அழுத்துதல், கிரிப், உதவி, அசிஸ்டண்ட், அழுத்துதல், ok google, google அசிஸ்டண்ட்</string>
     <string name="keywords_assist_gesture_silence">சைகை, முனை, பக்கம், active edge, ஒலியடக்கம், உறக்கநிலை, அலாரம், உள்வரும் அழைப்பு, சைலன்ட், காட்சி, லாக்ஸ்கிரீன், அழுத்துதல், கிரிப், நிறுத்து</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">எனது Pixel</string>
     <string name="my_device_info_account_preference_title">Google கணக்கு</string>
     <string name="owner_info_settings_edit_text_hint">எ.கா., வித்யாவின் Pixel.</string>
-    <string name="remove">அகற்று</string>
     <string name="reverse_charging_auto_turn_on_subtitle">உங்கள் மொபைல் சார்ஜரில் செருகப்பட்டிருக்கும்போது சிறிது நேரத்திற்கு மட்டும் தானாகவே இயங்கும்</string>
     <string name="reverse_charging_auto_turn_on_title">தானாகவே இயக்குதல்</string>
     <string name="reverse_charging_charging_wirelessly_message">மொபைல் வயர்லெஸ் முறையில் சார்ஜ் செய்யப்படுவதால் பயன்படுத்த முடியாது</string>
@@ -333,9 +344,8 @@
     <string name="suw_limited_warranty_title">வரம்பிற்குட்பட்ட உத்திரவாதம்</string>
     <string name="suw_more_button_label">மேலும்</string>
     <string name="suw_next_button_label">அடுத்து</string>
-    <string name="suw_warranty_description">உங்கள் சாதனத்தின் வரம்பிற்குட்பட்ட உத்திரவாதத்தைப் பார்க்க, அதை எந்த நாட்டில் வாங்கினீர்கள் என்பதைத் தேர்ந்தெடுக்கவும்.&lt;br /&gt;&lt;br /&gt;இந்தத் தகவலை &lt;b&gt;அமைப்புகள், &gt; %s, &gt; வரம்பிற்குட்பட்ட உத்திரவாதம்,&lt;/b&gt; g.co/devicewarranty ஆகியவற்றில் பார்க்க முடியும்.</string>
-    <string name="suw_warranty_description_content">உங்கள் சாதனத்தின் வரம்பிற்குட்பட்ட உத்திரவாதத்தைப் பார்க்க, அதை எந்த நாட்டில் வாங்கினீர்கள் என்பதைத் தேர்ந்தெடுக்கவும். இந்தத் தகவலை அமைப்புகள், %s, வரம்பிற்குட்பட்ட உத்திரவாதம், g.co/devicewarranty ஆகியவற்றில் பார்க்க முடியும்.</string>
-    <string name="suw_warranty_language_consistent_description">சாதன அமைப்புகளில் உள்ள &lt;b&gt;அமைப்புகள் &gt; %s &gt; வரம்பிற்குட்பட்ட உத்திரவாதம்&lt;/b&gt; என்பதிலும் g.co/devicewarranty என்ற இணைப்பிற்குச் சென்றும் உங்கள் சாதனத்திற்குப் பொருந்தக்கூடிய வரம்பிற்குட்பட்ட உத்திரவாதம் குறித்த விவரங்களைப் பார்க்கலாம்.</string>
+    <string name="suw_warranty_description">வரம்பிற்குட்பட்ட உத்திரவாதத்தைப் பார்க்க, இந்தச் சாதனத்தை எந்த நாட்டில் வாங்கினீர்கள் என்பதைத் தேர்ந்தெடுங்கள்.&lt;br /&gt;&lt;br /&gt;உத்திரவாதத்தை &lt;b&gt;அமைப்புகள் &gt; மொபைல் - ஓர் அறிமுகம் &gt; வரம்பிற்குட்பட்ட உத்திரவாதம்&lt;/b&gt; என்பதிலும் g.co/devicewarranty என்ற பக்கத்திலும் கூட பார்க்கலாம்.</string>
+    <string name="suw_warranty_description_content">"வரம்பிற்குட்பட்ட உத்திரவாதத்தைப் பார்க்க, இந்தச் சாதனத்தை எந்த நாட்டில் வாங்கினீர்கள் என்பதைத் தேர்ந்தெடுங்கள். உத்திரவாதத்தை 'அமைப்புகள் &gt; மொபைல் - ஓர் அறிமுகம் &gt; வரம்பிற்குட்பட்ட உத்திரவாதம்' என்பதிலும் g.co/devicewarranty என்ற பக்கத்திலும் கூட பார்க்கலாம்."</string>
     <string name="suw_warranty_next_button_text">அடுத்து</string>
     <string name="suw_warranty_positive_button_text">மூடுக</string>
     <string name="time_remaining_warning_subtext">உபயோகத்தின் அடிப்படையில் கிட்டத்தட்ட %1$s மீதமுள்ளது</string>
@@ -344,10 +354,6 @@
     <string name="tips_suggestion_title">Pixel பற்றி அறிக</string>
     <string name="traffic_light_face_enrolling_title_accessibility">உங்கள் முகத்துக்கு முன் நேராக மொபைலைப் பிடியுங்கள்</string>
     <string name="usb_use_file_transfers">ஃபைல் இடமாற்றம் / Android Auto</string>
-    <string name="vpn_app_bypass">தேர்வுசெய்யப்பட்ட ஆப்ஸுக்கு VPNனைப் பயன்படுத்த வேண்டாம்</string>
-    <string name="vpn_bypass_category_title">இந்த ஆப்ஸுக்கு VPNனைப் பயன்படுத்த வேண்டாம்</string>
-    <string name="vpn_bypass_description">VPNனைப் புறக்கணித்துவிட்டு உங்கள் மொபைலின் வழக்கமான நெட்வொர்க் இணைப்பைப் பயன்படுத்த சில ஆப்ஸுக்கு நீங்கள் அனுமதி வழங்கலாம்</string>
-    <string name="vpn_preference_group_title">மற்றவை</string>
     <string name="wallpaper_dashboard_summary">வண்ணங்கள், தீம் ஐகான்கள், ஆப்ஸ் கட்டக் காட்சி</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming சந்தாவைப் பார்க்கலாம் அல்லது மாற்றலாம்</string>

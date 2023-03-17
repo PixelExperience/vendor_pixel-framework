@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Ekran qoruyucusu istifadə edərkən toxunma həssaslığını artırın və toxunuşu yaxşılaşdırın</string>
     <string name="touch_sensitivity_title">Ekran qoruyucu rejimi</string>
     <string name="columbus_title">Fəaliyyətləri başlatmaq üçün Cəld Toxunun</string>
-    <string name="about_phone">Telefon haqqında</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Aktiv Kənar ayarlandı. Növbəti ekrana keçin və tənzimləyin.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviaturanın taktil əks-əlaqəsi</string>
+    <string name="adaptive_alert_vibration_summary">Telefonunuz hərəkətsiz və ekran yuxarı baxanda vibrasiya gücünü azaldır</string>
+    <string name="adaptive_alert_vibration_title">Adaptiv xəbərdarlıq vibrasiyası</string>
     <string name="adaptive_charging">Adaptiv şarj</string>
     <string name="adaptive_charging_description">Uzun müddətli şarj zamanı sabit şarj edərək batareya ömrünü artırın. İstifadə dövrünüz əsasında aktivləşdirilib.</string>
-    <string name="adaptive_charging_time_estimate"><b>Uyğunlaşan şarj</b> • Bu vaxtadək şarj olacaq: %1$s</string>
-    <string name="add_bypassed_application_hint">Tətbiq əlavə edilməyib</string>
-    <string name="advanced_vpn_preference_group_title">Daxilə quraşdırılmış</string>
-    <string name="all_apps_category_title">Bütün tətbiqlər</string>
+    <string name="adaptive_charging_time_estimate"><b>Uyğunlaşan Şarj</b> • Bu vaxtadək tam şarj olacaq: %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Tərcihlər</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, ən son istifadə edilən tətbiqlər, defolt tətbiqlər</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistentə davam edin</string>
@@ -99,9 +97,11 @@ Sıfırlandıqdan sonra quraşdırma prosesindən keçin və əvvəlki telefonun
     <string name="battery_tip_limited_temporarily_extra_summary">Batareyanı qorumaq üçün planşet doka yerləşdirilən zaman şarj %1$s səviyyəsində durdurulur</string>
     <string name="battery_tip_smart_battery_summary">Adaptiv Batareyanı aktiv edin</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s artıq bu Google Hesabı ilə əlaqələndirilmiş cihaz ilə birləşdirilməyəcək</string>
-    <string name="clear_calling_footer">"Wi‑Fi və mobil şəbəkə bağlantınızdan asılı olaraq təmiz səsli zəng əlçatan olur. Zənginizin məzmunu Google'a göndərilmir."</string>
-    <string name="clear_calling_title">Aydın səs keyfiyyətli zəng</string>
-    <string name="clear_calling_toggle">Təmiz səsli zəngdən istifadə edin</string>
+    <string name="clear_calling_footer">"Məxfiliyinizi qorumaq üçün Təmiz Səsli Zəng heç vaxt audio və ya söhbətləri Google'a göndərmir.
+
+Təmiz Səsli Zəng Wi‑Fi və mobil şəbəkənizdən asılı olaraq əlçatandır."</string>
+    <string name="clear_calling_title">Zəng Aydınlaşdırma</string>
+    <string name="clear_calling_toggle">Zəng Aydınlaşdırma xidmətindən istifadə edin</string>
     <string name="clear_calling_topintro">Zəng zamanı arxa fondakı səs-küyü azaldır</string>
     <string name="columbus_gesture_detected">Sürətli Toxunuş aşkarlanıb!</string>
     <string name="columbus_gesture_enrollment_complete">Oldu</string>
@@ -147,6 +147,17 @@ Sıfırlandıqdan sonra quraşdırma prosesindən keçin və əvvəlki telefonun
     <string name="columbus_setting_app_shortcut_selection_help_text">Sürətli Toxunuş istifadə edərək bu tətbiqi açdıqda hansı əməliyyatın yerinə yetirələcəyini seçin.</string>
     <string name="columbus_setting_enable_switch_title">Sürətli Toxunuş işlədin</string>
     <string name="columbus_setting_sensitivity_title">Daha güclü toxunuş tələb edilsin</string>
+    <string name="communal_cast_summary">Bu cihaza və ya cihazdan yayımlayın</string>
+    <string name="communal_lock_screen_summary">Məxfilik, bildirişlər və Ev nəzarətləri</string>
+    <string name="communal_settings_summary_1">Kilidləmə &amp; dokda olma hərəkətləri</string>
+    <string name="communal_settings_summary_2">Dokda olma seçimləri</string>
+    <string name="communal_settings_summary_3">Dok və kilid ekranı seçimləri</string>
+    <string name="communal_settings_summary_4">Kilid ekranı və dokda olma seçimləri</string>
+    <string name="communal_settings_title">Hab rejimi</string>
+    <string name="communal_smartspace_summary">Assistentdən xatırlatmalar, xəbərdarlıqlar və s.</string>
+    <string name="communal_smartspace_title">Ötəri nəzər</string>
+    <string name="communal_what_to_show">Nəyi göstərmək lazımdır</string>
+    <string name="communal_what_to_use">Nə istifadə etməli</string>
     <string name="connectivity_helper_call_quality_category">Zəng keyfiyyəti</string>
     <string name="connectivity_helper_call_quality_summary">Zəng zamanı bağlantı problemlərinin səbəbləri barədə bildiriş alın</string>
     <string name="connectivity_helper_call_quality_title">Bildirişlər alın</string>
@@ -200,6 +211,7 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="global_actions_panel_title">Kartları &amp; gedişləri göstərin</string>
     <string name="install_unknown_applications">"Play Store'dan kənar mənbələrdən tətbiqləri quraşdırmağa imkan verir"</string>
     <string name="keywords_accessibility_menu">sistem, sürətli menyu, yardımçı menyu, toxunma, çeviklik</string>
+    <string name="keywords_adaptive_alert_vibration">haptik, vibrasiya, telefon, zəng, zəng çalmaq, bildirişlər, yüksək, səssiz, səs-küy, keys, adaptiv</string>
     <string name="keywords_adaptive_charging">şarj, şarj etmə, ağıllı şarj, uyğunlaşan şarj, batareya, batareya vəziyyəti</string>
     <string name="keywords_assist_gesture_launch">jest, kənar, tərəf, aktiv kənar, sıxma, sıxma, yardım, assistent, sıxma, ok google, google assistent</string>
     <string name="keywords_assist_gesture_silence">jest, kənar, tərəf, active kənar, səssiz, ertələyin, zəngli saat, gələn zəng, sakit, displey, ekran kilidi, sıxma, sıxma, dayanma</string>
@@ -226,7 +238,6 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="me_card_title">Pikselim</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Məs, Joe'nin Pixel'i."</string>
-    <string name="remove">Silin</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Telefonunuz adapterə qoşulduqda qısa müddət ərzində avtomatik aktiv olacaq</string>
     <string name="reverse_charging_auto_turn_on_title">Avtomatik aktiv edin</string>
     <string name="reverse_charging_charging_wirelessly_message">Telefon simsiz şarj edildiyinə görə əlçatan deyil</string>
@@ -331,9 +342,8 @@ Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarman�
     <string name="suw_limited_warranty_title">Məhdud zəmanət</string>
     <string name="suw_more_button_label">Daha çox</string>
     <string name="suw_next_button_label">Növbəti</string>
-    <string name="suw_warranty_description">Məhdud zəmanətinizə baxmaq üçün bu cihazı aldığınız ölkəni seçin.&lt;br /&gt;&lt;br /&gt;Zəmanət həmçinin burada əlçatandır: &lt;b&gt;Ayarlar &gt; %s &gt; Məhdud zəmanət&lt;/b&gt; və g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Məhdud zəmanətinizə baxmaq üçün bu cihazı aldığınız ölkəni seçin. Zəmanət həmçinin burada əlçatandır: Ayarlar - %s - Məhdud zəmanət və g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Cihazınıza tətbiq edilən məhdud zəmanət həmçinin cihaz Ayarlarında burada əlçatandır: &lt;b&gt;Ayarlar &gt; %s &gt; Məhdud zəmanət&lt;/b&gt; və g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Məhdud zəmanətinizə baxmaq üçün bu cihazı aldığınız ölkəni seçin.&lt;br /&gt;&lt;br /&gt;Zəmanət həmçinin burada əlçatandır: &lt;b&gt;Ayarlar &gt; Telefon haqqında &gt; Məhdud zəmanət&lt;/b&gt; və g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Məhdud zəmanətinizə baxmaq üçün bu cihazı aldığınız ölkəni seçin. Zəmanət həmçinin burada əlçatandır: Ayarlar - Telefon haqqında - Məhdud zəmanət və g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Sonra</string>
     <string name="suw_warranty_positive_button_text">Bağlayın</string>
     <string name="time_remaining_warning_subtext">İstifadəyə əsasən təxminən %1$s qalıb</string>
@@ -342,10 +352,6 @@ Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarman�
     <string name="tips_suggestion_title">Pixel cihazınızı kəşf edin</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonu üzünüzün önündə saxlayın</string>
     <string name="usb_use_file_transfers">Fayl köçürməsi / Android Avto</string>
-    <string name="vpn_app_bypass">Seçilmiş tətbiqlər üçün VPN istifadə etməyin</string>
-    <string name="vpn_bypass_category_title">Bu tətbiqlər üçün VPN istifadə etməyin</string>
-    <string name="vpn_bypass_description">Bəzi tətbiqlərə VPN-ə məhəl qoymamağa və telefonunuzun adi şəbəkə bağlantısından istifadə etməyə icazə verə bilərsiniz</string>
-    <string name="vpn_preference_group_title">Digərləri</string>
     <string name="wallpaper_dashboard_summary">Rənglər, temalı ikonalar, tətbiq toru</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming abunəliyinə baxın və ya dəyişin</string>

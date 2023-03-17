@@ -73,6 +73,7 @@
     <string-array name="config_preinstalled_display_services">
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
+    <array name="config_preinstalled_dream_components"/>
     <string-array name="config_preinstalled_interaction_control_services">
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
         <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>

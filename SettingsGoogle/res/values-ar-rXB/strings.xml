@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">‏‮Increase‬‏ ‏‮touch‬‏ ‏‮sensitivity‬‏ ‏‮and‬‏ ‏‮improve‬‏ ‏‮touch‬‏ ‏‮when‬‏ ‏‮using‬‏ ‏‮a‬‏ ‏‮screen‬‏ ‏‮protector‬‏</string>
     <string name="touch_sensitivity_title">‏‮Screen‬‏ ‏‮protector‬‏ ‏‮mode‬‏</string>
     <string name="columbus_title">‏‮Quick‬‏ ‏‮Tap‬‏ ‏‮to‬‏ ‏‮start‬‏ ‏‮actions‬‏</string>
-    <string name="about_phone">‏‮About‬‏ ‏‮phone‬‏</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏‮Active‬‏ ‏‮Edge‬‏ ‏‮set‬‏ ‏‮up.‬‏ ‏‮Go‬‏ ‏‮to‬‏ ‏‮the‬‏ ‏‮next‬‏ ‏‮screen‬‏ ‏‮or‬‏ ‏‮keep‬‏ ‏‮adjusting.‬‏</string>
     <string name="accessibility_keyboard_haptics_title">‏‮Keyboard‬‏ ‏‮haptics‬‏</string>
+    <string name="adaptive_alert_vibration_summary">‏‮Reduces‬‏ ‏‮vibration‬‏ ‏‮strength‬‏ ‏‮while‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮is‬‏ ‏‮still‬‏ ‏‮and‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮facing‬‏ ‏‮up‬‏</string>
+    <string name="adaptive_alert_vibration_title">‏‮Adaptive‬‏ ‏‮alert‬‏ ‏‮vibration‬‏</string>
     <string name="adaptive_charging">‏‮Adaptive‬‏ ‏‮Charging‬‏</string>
     <string name="adaptive_charging_description">‏‮Extend‬‏ ‏‮battery‬‏ ‏‮lifespan‬‏ ‏‮by‬‏ ‏‮charging‬‏ ‏‮steadily‬‏ ‏‮during‬‏ ‏‮longer‬‏ ‏‮charging‬‏ ‏‮periods.‬‏ ‏‮Activated‬‏ ‏‮based‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮usage‬‏ ‏‮cycle.‬‏</string>
-    <string name="adaptive_charging_time_estimate"><b>‏‮Adaptive‬‏ ‏‮charging‬‏</b> ‏‮•‬‏ ‏‮Full‬‏ ‏‮by‬‏ ‏‮%1‬‏‏‮$s‬‏</string>
-    <string name="add_bypassed_application_hint">‏‮No‬‏ ‏‮apps‬‏ ‏‮added‬‏</string>
-    <string name="advanced_vpn_preference_group_title">‏‮Built-in‬‏</string>
-    <string name="all_apps_category_title">‏‮All‬‏ ‏‮apps‬‏</string>
+    <string name="adaptive_charging_time_estimate"><b>‏‮Adaptive‬‏ ‏‮Charging‬‏</b> ‏‮•‬‏ ‏‮Full‬‏ ‏‮by‬‏ ‏‮%1‬‏‏‮$s‬‏</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">‏‮Preferences‬‏</annotation></string>
     <string name="assist_gesture_enrollment_continue_to_assistant">‏‮Continue‬‏ ‏‮to‬‏ ‏‮Assistant‬‏</string>
     <string name="assist_gesture_enrollment_do_it_later">‏‮Do‬‏ ‏‮it‬‏ ‏‮later‬‏</string>
@@ -81,10 +79,13 @@
 ‏‮•‬‏ ‏‮A‬‏ ‏‮charging‬‏ ‏‮or‬‏ ‏‮data‬‏ ‏‮cable‬‏ ‏‮for‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮phone‬‏
 ‏‮•‬‏ ‏‮The‬‏ ‏‮Quick‬‏ ‏‮Switch‬‏ ‏‮Adapter‬‏ ‏‮that‬‏ ‏‮came‬‏ ‏‮with‬‏ ‏‮your‬‏ ‏‮Pixel‬‏"</string>
     <string name="backup_suggestion_what_is_needed_title">"‏‮What‬‏ ‏‮you'll‬‏ ‏‮need‬‏"</string>
+    <string name="battery_tip_limited_temporarily_extra_summary">‏‮To‬‏ ‏‮protect‬‏ ‏‮your‬‏ ‏‮battery,‬‏ ‏‮charging‬‏ ‏‮is‬‏ ‏‮paused‬‏ ‏‮at‬‏ %1$s ‏‮while‬‏ ‏‮your‬‏ ‏‮tablet‬‏ ‏‮is‬‏ ‏‮docked‬‏</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s ‏‮will‬‏ ‏‮no‬‏ ‏‮longer‬‏ ‏‮be‬‏ ‏‮paired‬‏ ‏‮with‬‏ ‏‮any‬‏ ‏‮device‬‏ ‏‮linked‬‏ ‏‮to‬‏ ‏‮this‬‏ ‏‮Google‬‏ ‏‮Account‬‏</string>
-    <string name="clear_calling_footer">‏‮Clear‬‏ ‏‮calling‬‏ ‏‮is‬‏ ‏‮available‬‏ ‏‮depending‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮Wi‑Fi‬‏ ‏‮and‬‏ ‏‮mobile‬‏ ‏‮network‬‏ ‏‮connection.‬‏ ‏‮Content‬‏ ‏‮from‬‏ ‏‮your‬‏ ‏‮call‬‏ ‏‮is‬‏ ‏‮not‬‏ ‏‮sent‬‏ ‏‮to‬‏ ‏‮Google.‬‏</string>
-    <string name="clear_calling_title">‏‮Clear‬‏ ‏‮calling‬‏</string>
-    <string name="clear_calling_toggle">‏‮Use‬‏ ‏‮clear‬‏ ‏‮calling‬‏</string>
+    <string name="clear_calling_footer">"‏‮To‬‏ ‏‮protect‬‏ ‏‮your‬‏ ‏‮privacy,‬‏ ‏‮Clear‬‏ ‏‮Calling‬‏ ‏‮never‬‏ ‏‮sends‬‏ ‏‮audio‬‏ ‏‮or‬‏ ‏‮conversations‬‏ ‏‮to‬‏ ‏‮Google.‬‏
+
+‏‮Clear‬‏ ‏‮Calling‬‏ ‏‮is‬‏ ‏‮available‬‏ ‏‮depending‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮Wi‑Fi‬‏ ‏‮and‬‏ ‏‮mobile‬‏ ‏‮network.‬‏"</string>
+    <string name="clear_calling_title">‏‮Clear‬‏ ‏‮Calling‬‏</string>
+    <string name="clear_calling_toggle">‏‮Use‬‏ ‏‮Clear‬‏ ‏‮Calling‬‏</string>
     <string name="clear_calling_topintro">‏‮Reduces‬‏ ‏‮background‬‏ ‏‮noises‬‏ ‏‮during‬‏ ‏‮calls‬‏</string>
     <string name="columbus_gesture_detected">‏‮Quick‬‏ ‏‮Tap‬‏ ‏‮detected!‬‏</string>
     <string name="columbus_gesture_enrollment_complete">‏‮Done‬‏</string>
@@ -130,6 +131,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">‏‮Select‬‏ ‏‮what‬‏ ‏‮happens‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮open‬‏ ‏‮this‬‏ ‏‮app‬‏ ‏‮using‬‏ ‏‮Quick‬‏ ‏‮Tap.‬‏</string>
     <string name="columbus_setting_enable_switch_title">‏‮Use‬‏ ‏‮Quick‬‏ ‏‮Tap‬‏</string>
     <string name="columbus_setting_sensitivity_title">‏‮Require‬‏ ‏‮stronger‬‏ ‏‮taps‬‏</string>
+    <string name="communal_cast_summary">‏‮Cast‬‏ ‏‮to‬‏ ‏‮or‬‏ ‏‮from‬‏ ‏‮this‬‏ ‏‮device‬‏</string>
+    <string name="communal_lock_screen_summary">‏‮Privacy,‬‏ ‏‮notifications,‬‏ ‏‮and‬‏ ‏‮Home‬‏ ‏‮controls‬‏</string>
+    <string name="communal_other">‏‮Other‬‏</string>
+    <string name="communal_settings_summary_1">‏‮Locked‬‏ ‏‮&amp;‬‏ ‏‮docked‬‏ ‏‮behavior‬‏</string>
+    <string name="communal_settings_summary_2">‏‮On-dock‬‏ ‏‮options‬‏</string>
+    <string name="communal_settings_summary_3">‏‮Dock‬‏ ‏‮and‬‏ ‏‮lock‬‏ ‏‮screen‬‏ ‏‮options‬‏</string>
+    <string name="communal_settings_summary_4">‏‮Lock‬‏ ‏‮screen‬‏ ‏‮and‬‏ ‏‮on-dock‬‏ ‏‮options‬‏</string>
+    <string name="communal_smartspace_summary">‏‮Reminders,‬‏ ‏‮alerts,‬‏ ‏‮and‬‏ ‏‮more‬‏ ‏‮from‬‏ ‏‮Assistant‬‏</string>
+    <string name="communal_smartspace_title">‏‮At‬‏ ‏‮a‬‏ ‏‮glance‬‏</string>
+    <string name="communal_what_to_show">‏‮What‬‏ ‏‮to‬‏ ‏‮show‬‏</string>
+    <string name="communal_what_to_use">‏‮What‬‏ ‏‮to‬‏ ‏‮use‬‏</string>
     <string name="connectivity_helper_call_quality_category">‏‮Call‬‏ ‏‮quality‬‏</string>
     <string name="connectivity_helper_call_quality_summary">‏‮Get‬‏ ‏‮notified‬‏ ‏‮about‬‏ ‏‮causes‬‏ ‏‮of‬‏ ‏‮connection‬‏ ‏‮issues‬‏ ‏‮during‬‏ ‏‮calls‬‏</string>
     <string name="connectivity_helper_call_quality_title">‏‮Get‬‏ ‏‮notifications‬‏</string>
@@ -185,6 +197,7 @@
     <string name="hats_lib_prompt_take_our_survey">‏‮Take‬‏ ‏‮our‬‏ ‏‮survey‬‏</string>
     <string name="hats_lib_submit">‏‮Submit‬‏</string>
     <string name="install_unknown_applications">‏‮Allow‬‏ ‏‮installation‬‏ ‏‮of‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮sources‬‏ ‏‮other‬‏ ‏‮than‬‏ ‏‮the‬‏ ‏‮Play‬‏ ‏‮Store‬‏</string>
+    <string name="keywords_adaptive_alert_vibration">‏‮haptics,‬‏ ‏‮vibrate,‬‏ ‏‮phone,‬‏ ‏‮call,‬‏ ‏‮ring,‬‏ ‏‮alert,‬‏ ‏‮notifications,‬‏ ‏‮loud,‬‏ ‏‮quiet,‬‏ ‏‮noise,‬‏ ‏‮case,‬‏ ‏‮adaptive‬‏</string>
     <string name="keywords_adaptive_charging">‏‮charge,‬‏ ‏‮charging,‬‏ ‏‮smart‬‏ ‏‮charging,‬‏ ‏‮adaptive‬‏ ‏‮charging,‬‏ ‏‮battery,‬‏ ‏‮battery‬‏ ‏‮health‬‏</string>
     <string name="keywords_assist_gesture_silence">‏‮gesture,‬‏ ‏‮edge,‬‏ ‏‮side,‬‏ ‏‮active‬‏ ‏‮edge,‬‏ ‏‮silence,‬‏ ‏‮snooze,‬‏ ‏‮alarm,‬‏ ‏‮incoming‬‏ ‏‮call,‬‏ ‏‮quiet,‬‏ ‏‮display,‬‏ ‏‮lockscreen,‬‏ ‏‮squeeze,‬‏ ‏‮grip,‬‏ ‏‮stop‬‏</string>
     <string name="keywords_assist_gesture_wake">‏‮gesture,‬‏ ‏‮edge,‬‏ ‏‮side,‬‏ ‏‮active‬‏ ‏‮edge,‬‏ ‏‮wake,‬‏ ‏‮notifications,‬‏ ‏‮screen,‬‏ ‏‮display,‬‏ ‏‮screen‬‏ ‏‮off,‬‏ ‏‮screen‬‏ ‏‮on,‬‏ ‏‮squeeze,‬‏ ‏‮asleep,‬‏ ‏‮sleep,‬‏ ‏‮grip‬‏</string>
@@ -196,7 +209,6 @@
     <string name="limited_warranty_introduction">‏‮Tap‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮of‬‏ ‏‮purchase‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮the‬‏ ‏‮warranty‬‏ ‏‮for‬‏ ‏‮this‬‏ ‏‮device.‬‏ ‏‮The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮g.co/devicewarranty‬‏</string>
     <string name="limited_warranty_title">‏‮Limited‬‏ ‏‮Warranty‬‏</string>
     <string name="me_card_title">‏‮My‬‏ ‏‮Pixel‬‏</string>
-    <string name="remove">‏‮Remove‬‏</string>
     <string name="reverse_charging_auto_turn_on_subtitle">‏‮Will‬‏ ‏‮turn‬‏ ‏‮on‬‏ ‏‮automatically‬‏ ‏‮for‬‏ ‏‮a‬‏ ‏‮short‬‏ ‏‮period‬‏ ‏‮when‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮is‬‏ ‏‮plugged‬‏ ‏‮into‬‏ ‏‮a‬‏ ‏‮charger‬‏</string>
     <string name="reverse_charging_auto_turn_on_title">‏‮Turn‬‏ ‏‮on‬‏ ‏‮automatically‬‏</string>
     <string name="reverse_charging_charging_wirelessly_message">‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮phone‬‏ ‏‮charging‬‏ ‏‮wirelessly‬‏</string>
@@ -255,9 +267,8 @@
     <string name="suw_limited_warranty_title">‏‮Limited‬‏ ‏‮warranty‬‏</string>
     <string name="suw_more_button_label">‏‮More‬‏</string>
     <string name="suw_next_button_label">‏‮Next‬‏</string>
-    <string name="suw_warranty_description">‏‮To‬‏ ‏‮view‬‏ ‏‮your‬‏ ‏‮limited‬‏ ‏‮warranty,‬‏ ‏‮select‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮where‬‏ ‏‮you‬‏ ‏‮bought‬‏ ‏‮this‬‏ ‏‮device.&lt;br‬‏ ‏‮/&gt;&lt;br‬‏ ‏‮/&gt;The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮&lt;b&gt;Settings‬‏ ‏‮&gt;‬‏ %s ‏‮&gt;‬‏ ‏‮Limited‬‏ ‏‮warranty&lt;/b&gt;‬‏ ‏‮and‬‏ ‏‮g.co/devicewarranty.‬‏</string>
-    <string name="suw_warranty_description_content">‏‮To‬‏ ‏‮view‬‏ ‏‮your‬‏ ‏‮limited‬‏ ‏‮warranty,‬‏ ‏‮select‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮where‬‏ ‏‮you‬‏ ‏‮bought‬‏ ‏‮this‬‏ ‏‮device.‬‏ ‏‮The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮Settings‬‏ ‏‮then‬‏ %s ‏‮then‬‏ ‏‮Limited‬‏ ‏‮warranty‬‏ ‏‮and‬‏ ‏‮g.co/devicewarranty.‬‏</string>
-    <string name="suw_warranty_language_consistent_description">‏‮The‬‏ ‏‮limited‬‏ ‏‮warranty‬‏ ‏‮applicable‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮device‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮in‬‏ ‏‮device‬‏ ‏‮Settings‬‏ ‏‮at‬‏ ‏‮&lt;b&gt;Settings‬‏ ‏‮&gt;‬‏ %s ‏‮&gt;‬‏ ‏‮Limited‬‏ ‏‮warranty&lt;/b&gt;‬‏ ‏‮and‬‏ ‏‮at‬‏ ‏‮g.co/devicewarranty.‬‏</string>
+    <string name="suw_warranty_description">‏‮To‬‏ ‏‮view‬‏ ‏‮your‬‏ ‏‮limited‬‏ ‏‮warranty,‬‏ ‏‮select‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮where‬‏ ‏‮you‬‏ ‏‮bought‬‏ ‏‮this‬‏ ‏‮device.&lt;br‬‏ ‏‮/&gt;&lt;br‬‏ ‏‮/&gt;The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮&lt;b&gt;Settings‬‏ ‏‮&gt;‬‏ ‏‮About‬‏ ‏‮phone‬‏ ‏‮&gt;‬‏ ‏‮Limited‬‏ ‏‮warranty&lt;/b&gt;‬‏ ‏‮and‬‏ ‏‮g.co/devicewarranty.‬‏</string>
+    <string name="suw_warranty_description_content">‏‮To‬‏ ‏‮view‬‏ ‏‮your‬‏ ‏‮limited‬‏ ‏‮warranty,‬‏ ‏‮select‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮where‬‏ ‏‮you‬‏ ‏‮bought‬‏ ‏‮this‬‏ ‏‮device.‬‏ ‏‮The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮Settings‬‏ ‏‮then‬‏ ‏‮about‬‏ ‏‮phone‬‏ ‏‮then‬‏ ‏‮Limited‬‏ ‏‮warranty‬‏ ‏‮and‬‏ ‏‮g.co/devicewarranty.‬‏</string>
     <string name="suw_warranty_next_button_text">‏‮Next‬‏</string>
     <string name="suw_warranty_positive_button_text">‏‮Close‬‏</string>
     <string name="time_remaining_warning_subtext">‏‮About‬‏ %1$s ‏‮left‬‏ ‏‮based‬‏ ‏‮on‬‏ ‏‮past‬‏ ‏‮usage‬‏</string>
@@ -265,10 +276,6 @@
     <string name="tips_suggestion_summary">‏‮Explore‬‏ ‏‮what‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮do‬‏ ‏‮with‬‏ ‏‮your‬‏ ‏‮phone‬‏</string>
     <string name="tips_suggestion_title">‏‮Get‬‏ ‏‮to‬‏ ‏‮know‬‏ ‏‮your‬‏ ‏‮Pixel‬‏</string>
     <string name="traffic_light_face_enrolling_title_accessibility">‏‮Hold‬‏ ‏‮phone‬‏ ‏‮in‬‏ ‏‮front‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮face‬‏</string>
-    <string name="vpn_app_bypass">"‏‮Don't‬‏ ‏‮use‬‏ ‏‮VPN‬‏ ‏‮for‬‏ ‏‮selected‬‏ ‏‮apps‬‏"</string>
-    <string name="vpn_bypass_category_title">"‏‮Don't‬‏ ‏‮use‬‏ ‏‮VPN‬‏ ‏‮for‬‏ ‏‮these‬‏ ‏‮apps‬‏"</string>
-    <string name="vpn_bypass_description">"‏‮You‬‏ ‏‮can‬‏ ‏‮allow‬‏ ‏‮some‬‏ ‏‮apps‬‏ ‏‮to‬‏ ‏‮ignore‬‏ ‏‮the‬‏ ‏‮VPN‬‏ ‏‮and‬‏ ‏‮use‬‏ ‏‮your‬‏ ‏‮phone's‬‏ ‏‮regular‬‏ ‏‮network‬‏ ‏‮connection‬‏"</string>
-    <string name="vpn_preference_group_title">‏‮Others‬‏</string>
     <string name="warranty_country_information">%1$s ‏‮(‬‏%2$s‏‮)‬‏</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">‏‮Connected‬‏ ‏‮with‬‏ %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">‏‮Tap‬‏ ‏‮to‬‏ ‏‮connect‬‏</string>

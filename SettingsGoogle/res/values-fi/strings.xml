@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Lisää kosketuksen herkkyyttä ja paranna kosketuskäyttöä, kun näytönsuojus on käytössä</string>
     <string name="touch_sensitivity_title">Näytönsuojustila</string>
     <string name="columbus_title">Käynnistä toimintoja pikanäpäytyksellä</string>
-    <string name="about_phone">Tietoa puhelimesta</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge on määritetty. Siirry seuraavalle näytölle tai säädä ominaisuutta lisää.</string>
     <string name="accessibility_keyboard_haptics_title">Näppäimistön haptinen palaute</string>
+    <string name="adaptive_alert_vibration_summary">Vähentää värinän voimakkuutta puhelimen ollessa paikoillaan näyttö ylöspäin</string>
+    <string name="adaptive_alert_vibration_title">Mukautuva hälytyksen värinä</string>
     <string name="adaptive_charging">Mukautuva lataus</string>
     <string name="adaptive_charging_description">Lataa akkua tasaisesti pidempiä aikoja, jotta se kestää pidempään. Ominaisuus aktivoituu käyttösyklin perusteella.</string>
     <string name="adaptive_charging_time_estimate"><b>Mukautuva lataus</b> • Täynnä klo %1$s mennessä</string>
-    <string name="add_bypassed_application_hint">Sovelluksia ei lisätty</string>
-    <string name="advanced_vpn_preference_group_title">Sisäänrakennettu</string>
-    <string name="all_apps_category_title">Kaikki sovellukset</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Valinnat</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, viimeaikaiset sovellukset, oletussovellukset</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Jatka Assistantiin</string>
@@ -99,9 +97,11 @@ Kun palautus on valmis, määritä laite uudelleen ja valitse tietojen tuominen 
     <string name="battery_tip_limited_temporarily_extra_summary">Akun suojaamiseksi lataaminen keskeytetään, kun virtaa on %1$s ja tabletti on telakoitu</string>
     <string name="battery_tip_smart_battery_summary">Ota käyttöön mukautuva virta</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s ei ole enää minkään tähän Google-tiliin linkitetyn laitteen pari</string>
-    <string name="clear_calling_footer">Selkeä-ääniset puhelut ovat käytettävissä Wi-Fi- ja mobiiliverkkoyhteydestä riippuen. Puhelun sisältöä ei lähetetä Googlelle.</string>
-    <string name="clear_calling_title">Selkeä-ääniset puhelut</string>
-    <string name="clear_calling_toggle">Käytä Selkeä-äänisiä puheluita</string>
+    <string name="clear_calling_footer">"Selkeä-ääniset puhelut ei lähetä audiota tai keskusteluja Googlelle yksityisyytesi suojaamiseksi.
+
+Selkeä-ääniset puhelut on saatavilla Wi-Fi-yhteydestä ja mobiiliverkosta riippuen."</string>
+    <string name="clear_calling_title">Selkeät puhelut</string>
+    <string name="clear_calling_toggle">Käytä Selkeitä puheluista</string>
     <string name="clear_calling_topintro">Vähentää taustahälyä puheluiden aikana</string>
     <string name="columbus_gesture_detected">Pikanäpäytys havaittu</string>
     <string name="columbus_gesture_enrollment_complete">Valmis</string>
@@ -147,6 +147,17 @@ Kun palautus on valmis, määritä laite uudelleen ja valitse tietojen tuominen 
     <string name="columbus_setting_app_shortcut_selection_help_text">Valitse, mitä tapahtuu, kun tämä sovellus avataan pikanäpäytyksellä.</string>
     <string name="columbus_setting_enable_switch_title">Käytä pikanäpäytystä</string>
     <string name="columbus_setting_sensitivity_title">Vaadi voimakkaampia napautuksia</string>
+    <string name="communal_cast_summary">Striimaa tälle laitteelle tai tältä laitteelta</string>
+    <string name="communal_lock_screen_summary">Yksityisyys, ilmoitukset ja kodin ohjaus</string>
+    <string name="communal_settings_summary_1">Toiminta lukittuna ja telakoituna</string>
+    <string name="communal_settings_summary_2">Telakoinnin asetukset</string>
+    <string name="communal_settings_summary_3">Telineen ja lukitusnäytön asetukset</string>
+    <string name="communal_settings_summary_4">Lukitusnäytön ja telakoinnin asetukset</string>
+    <string name="communal_settings_title">Hubitila</string>
+    <string name="communal_smartspace_summary">Muistutukset, varoitukset ja muuta Assistantilta</string>
+    <string name="communal_smartspace_title">Pikanäkymä</string>
+    <string name="communal_what_to_show">Mitä kannattaa pitää näkyvillä</string>
+    <string name="communal_what_to_use">Mitä kannattaa käyttää</string>
     <string name="connectivity_helper_call_quality_category">Puhelun laatu</string>
     <string name="connectivity_helper_call_quality_summary">Näe ilmoituksia yhteysongelmien syistä puheluiden aikana</string>
     <string name="connectivity_helper_call_quality_title">Tilaa ilmoitukset</string>
@@ -201,6 +212,7 @@ Varmuuskopioita ei vähennetä Drive-tallennustilan kiintiöstäsi. Suuria ja ke
     <string name="global_actions_panel_title">Näytä kortit</string>
     <string name="install_unknown_applications">Salli sovellusten asentaminen muualta kuin Play Kaupasta.</string>
     <string name="keywords_accessibility_menu">motoriikka, pikavalikko, apuvalikko, kosketus, liikkuvuus</string>
+    <string name="keywords_adaptive_alert_vibration">haptinen teknologia, värinä, puhelin, puhelu, hälytys, ilmoitukset, äänekäs, hiljainen, ääni, kotelo, mukautuva</string>
     <string name="keywords_adaptive_charging">lataa, lataus, älykäs lataus, mukautuva lataus, akku, akun toiminta</string>
     <string name="keywords_assist_gesture_launch">ele, edge, sivu, active edge, puristus, ote, assistentti, assistant, puristaa, ok google, google assistant</string>
     <string name="keywords_assist_gesture_silence">ele, edge, sivu, active edge, hiljennä, torkku, herätys, saapuva puhelu, äänetön, näyttö, lukitusnäyttö, puristus, ote, lopeta</string>
@@ -227,7 +239,6 @@ Varmuuskopioita ei vähennetä Drive-tallennustilan kiintiöstäsi. Suuria ja ke
     <string name="me_card_title">Oma Pixel</string>
     <string name="my_device_info_account_preference_title">Google-tili</string>
     <string name="owner_info_settings_edit_text_hint">Esim. Rikun Pixel</string>
-    <string name="remove">Poista</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Menee automaattisesti päälle hetkeksi, kun puhelin on laturissa</string>
     <string name="reverse_charging_auto_turn_on_title">Laita päälle automaattisesti</string>
     <string name="reverse_charging_charging_wirelessly_message">Ei käytettävissä, koska puhelin latautuu langattomasti</string>
@@ -333,9 +344,8 @@ Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uude
     <string name="suw_limited_warranty_title">Rajoitettu takuu</string>
     <string name="suw_more_button_label">Lisää</string>
     <string name="suw_next_button_label">Seuraava</string>
-    <string name="suw_warranty_description">Jos haluat nähdä rajoitetun takuusi tiedot, valitse maa, josta ostit laitteen.&lt;br /&gt;&lt;br /&gt;Löydät takuutiedot myös valitsemalla &lt;b&gt;Asetukset &gt; %s &gt; Rajoitettu takuu&lt;/b&gt; tai menemällä osoitteeseen g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Jos haluat nähdä rajoitetun takuusi tiedot, valitse maa, josta ostit laitteen. Löydät takuutiedot myös valitsemalla Asetukset sitten %s sitten Rajoitettu takuu tai menemällä osoitteeseen g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Näet laitteen rajoitetun takuun myös, kun valitset &lt;b&gt;Asetukset &gt; %s &gt; Rajoitettu takuu&lt;/b&gt; ja osoitteessa g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Jos haluat nähdä rajoitetun takuusi tiedot, valitse maa, josta ostit laitteen.&lt;br /&gt;&lt;br /&gt;Löydät takuutiedot myös valitsemalla &lt;b&gt;Asetukset &gt; Tietoa puhelimesta &gt; Rajoitettu takuu&lt;/b&gt; tai menemällä osoitteeseen g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Jos haluat nähdä rajoitetun takuusi tiedot, valitse maa, josta ostit laitteen. Löydät takuutiedot myös valitsemalla \"Asetukset \"Tietoa puhelimesta\" ja sitten \"Rajoitettu takuu\" tai menemällä osoitteeseen g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Seuraava</string>
     <string name="suw_warranty_positive_button_text">Sulje</string>
     <string name="time_remaining_warning_subtext">Noin %1$s jäljellä aiemman käytön perusteella</string>
@@ -344,10 +354,6 @@ Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uude
     <string name="tips_suggestion_title">Tutustu Pixeliin</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Pidä puhelinta kasvojesi edessä</string>
     <string name="usb_use_file_transfers">Tiedostonsiirto / Android Auto</string>
-    <string name="vpn_app_bypass">Älä käytä VPN:ää valituissa sovelluksissa</string>
-    <string name="vpn_bypass_category_title">Älä käytä VPN:ää näillä sovelluksilla</string>
-    <string name="vpn_bypass_description">Voit sallia, että jotkin sovellukset ohittavat VPN:n ja käyttävät puhelimen tavallista verkkoyhteyttä</string>
-    <string name="vpn_preference_group_title">Muut</string>
     <string name="wallpaper_dashboard_summary">Värit, kuvakkeiden teemat, sovellusruudukko</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Katso tai muuta OpenRoaming-tilausta</string>

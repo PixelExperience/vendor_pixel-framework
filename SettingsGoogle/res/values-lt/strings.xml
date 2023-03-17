@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Padidinkite palietimo jautrumą ir pagerinkite atsaką į palietimą, kai naudojate apsauginį ekrano stiklą</string>
     <string name="touch_sensitivity_title">Apsauginio ekrano stiklo režimas</string>
     <string name="columbus_title">Veiksmų pradžia naudojant „Quick Tap“</string>
-    <string name="about_phone">Apie telefoną</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">„Active Edge“ nustatytas. Eikite į kitą ekraną arba koreguokite toliau.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviatūros lietimo technologija</string>
+    <string name="adaptive_alert_vibration_summary">Sumažina vibracijos stiprį, kai telefonas nejuda ir yra nukreiptas ekranu į viršų</string>
+    <string name="adaptive_alert_vibration_title">Prisitaikantis įspėjimo vibravimas</string>
     <string name="adaptive_charging">Prisitaikantis įkrovimas</string>
     <string name="adaptive_charging_description">Stabiliai įkraunant ilgesnės trukmės įkrovimo laikotarpiais akumuliatorius veiks ilgiau. Suaktyvinta atsižvelgiant į jūsų naudojimo ciklą.</string>
     <string name="adaptive_charging_time_estimate"><b>Prisitaikantis įkrovimas</b> • Visiškai įkrauta bus %1$s</string>
-    <string name="add_bypassed_application_hint">Nepridėta jokių programų</string>
-    <string name="advanced_vpn_preference_group_title">Integruota</string>
-    <string name="all_apps_category_title">Visos programos</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Nuostatos</annotation></string>
     <string name="app_and_notification_dashboard_summary">Padėjėjas, pastarosios programos, numatytosios programos</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Paleisti Padėjėją</string>
@@ -99,7 +97,9 @@ Kai telefonas bus nustatytas iš naujo, atlikite sąrankos proceso veiksmus ir p
     <string name="battery_tip_limited_temporarily_extra_summary">Siekiant apsaugoti akumuliatorių, įkrovimas pristabdytas pasiekus %1$s, kol planšetinis kompiuteris prijungtas prie doko</string>
     <string name="battery_tip_smart_battery_summary">Įjunkite prisitaikantį akumuliatorių</string>
     <string name="bluetooth_untethered_unpair_dialog_body">„%1$s“ nebebus susietas su jokiu įrenginiu, kuris buvo susietas su šia „Google Account“ paskyra</string>
-    <string name="clear_calling_footer">Aiškaus skambučio funkcija pasiekiama, atsižvelgiant į „Wi‑Fi“ ir mobiliojo ryšio tinklą. Skambučio turinys nesiunčiamas „Google“.</string>
+    <string name="clear_calling_footer">"Kad apsaugotų jūsų privatumą, funkcija „Aiškus skambutis“ niekada nesiunčia garso įrašų ar pokalbių „Google“.
+
+„Clear Calling“ pasiekiama pagal jūsų „Wi‑Fi“ ir mobiliojo ryšio tinklą."</string>
     <string name="clear_calling_title">Aiškus skambutis</string>
     <string name="clear_calling_toggle">Naudoti funkciją „Aiškus skambutis“</string>
     <string name="clear_calling_topintro">Sumažinamas foninis triukšmas skambinant</string>
@@ -147,6 +147,17 @@ Kai telefonas bus nustatytas iš naujo, atlikite sąrankos proceso veiksmus ir p
     <string name="columbus_setting_app_shortcut_selection_help_text">Pasirinkite, kas nutinka, kai atidarote šią programą naudodami „Quick Tap“.</string>
     <string name="columbus_setting_enable_switch_title">Naudoti „Quick Tap“</string>
     <string name="columbus_setting_sensitivity_title">Intensyvesnių palietimų reikalavimas</string>
+    <string name="communal_cast_summary">Perduoti į šį įrenginį ar iš jo</string>
+    <string name="communal_lock_screen_summary">Privatumas, pranešimai ir namų sistemos valdymas</string>
+    <string name="communal_settings_summary_1">Veikimas užrakinus ir prijungus prie doko</string>
+    <string name="communal_settings_summary_2">Prijungimo prie doko parinktys</string>
+    <string name="communal_settings_summary_3">Doko ir užrakinimo ekrano parinktys</string>
+    <string name="communal_settings_summary_4">Užrakinimo ekrano, prijungimo prie doko parinktys</string>
+    <string name="communal_settings_title">Centro režimas</string>
+    <string name="communal_smartspace_summary">Priminimai, įspėjimai ir kitos Padėjėjo funkcijos</string>
+    <string name="communal_smartspace_title">Apžvalga</string>
+    <string name="communal_what_to_show">Ką rodyti</string>
+    <string name="communal_what_to_use">Ką naudoti</string>
     <string name="connectivity_helper_call_quality_category">Skambučių kokybė</string>
     <string name="connectivity_helper_call_quality_summary">Gaukite pranešimus apie ryšio problemų, kylančių per skambučius, priežastis</string>
     <string name="connectivity_helper_call_quality_title">Gauti pranešimus</string>
@@ -201,6 +212,7 @@ Atsarginių kopijų duomenys nebus įtraukti skaičiuojant Disko saugyklos kvot�
     <string name="global_actions_panel_title">Rodyti korteles ir pasus</string>
     <string name="install_unknown_applications">Leisti diegti programas iš kitų nei „Google Play“ parduotuvė šaltinių</string>
     <string name="keywords_accessibility_menu">motorika, spartusis meniu, pagalbinis meniu, paliesti, miklumas</string>
+    <string name="keywords_adaptive_alert_vibration">lietimo technologija, vibruoti, telefonas, skambutis, skambėjimas, įspėjimas, pranešimai, garsus, tylus, triukšmas, dėklas, prisitaikantis</string>
     <string name="keywords_adaptive_charging">įkrauti, įkrovimas, išmanusis įkrovimas, prisitaikantis įkrovimas, akumuliatorius, akumuliatoriaus būsena</string>
     <string name="keywords_assist_gesture_launch">gestas, kraštas, šonas, „Active Edge“, suspausti, sugriebti, pagalba, padėjėjas, suspausti, „Ok Google“, „Google“ padėjėjas</string>
     <string name="keywords_assist_gesture_silence">gestas, kraštas, šonas, „Active Edge“, tyla, snausti, žadintuvas, gaunamas skambutis, tylus, vaizdas, užrakinimo ekranas, suspausti, sugriebti, sustabdyti</string>
@@ -227,7 +239,6 @@ Atsarginių kopijų duomenys nebus įtraukti skaičiuojant Disko saugyklos kvot�
     <string name="me_card_title">Mano „Pixel“ įrenginys</string>
     <string name="my_device_info_account_preference_title">„Google“ paskyra</string>
     <string name="owner_info_settings_edit_text_hint">Pvz., Jurgio „Pixel“ įrenginys.</string>
-    <string name="remove">Pašalinti</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Trumpą laiką bus įjungta automatiškai, kai telefonas bus prijungtas prie kroviklio</string>
     <string name="reverse_charging_auto_turn_on_title">Automatinis įjungimas</string>
     <string name="reverse_charging_charging_wirelessly_message">Nepasiekiama, nes telefonas įkraunamas belaidžiu būdu</string>
@@ -331,9 +342,8 @@ Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti a
     <string name="suw_limited_warranty_title">Ribota garantija</string>
     <string name="suw_more_button_label">Daugiau</string>
     <string name="suw_next_button_label">Kitas</string>
-    <string name="suw_warranty_description">Jei norite peržiūrėti ribotą garantiją, pasirinkite šalį, kurioje įsigijote šį įrenginį.&lt;br /&gt;&lt;br /&gt;Garantija taip pat pasiekiama skiltyje &lt;b&gt;„Nustatymai“ &gt; „%s“ &gt; „Ribota garantija“&lt;/b&gt; ir adresu g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Jei norite peržiūrėti ribotą garantiją, pasirinkite šalį, kurioje įsigijote šį įrenginį. Garantija taip pat pasiekiama skiltyje „Nustatymai“ &gt; „%s“ &gt; „Ribota garantija“ ir adresu g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Jūsų įrenginiui taikoma garantija taip pat pasiekiama įrenginio nustatymų skiltyje &lt;b&gt;„Nustatymai“ &gt; „%s“ &gt; „Ribota garantija“&lt;/b&gt; ir adresu g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Jei norite peržiūrėti ribotą garantiją, pasirinkite šalį, kurioje įsigijote šį įrenginį.&lt;br /&gt;&lt;br /&gt;Garantija taip pat pasiekiama skiltyje &lt;b&gt;„Nustatymai“ &gt; „Apie telefoną“ &gt; „Ribota garantija“&lt;/b&gt; ir adresu g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Jei norite peržiūrėti ribotą garantiją, pasirinkite šalį, kurioje įsigijote šį įrenginį. Garantija taip pat pasiekiama skiltyje „Nustatymai“ &gt; „Apie telefoną“ &gt; „Ribota garantija“ ir adresu g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Kitas</string>
     <string name="suw_warranty_positive_button_text">Uždaryti</string>
     <string name="time_remaining_warning_subtext">Remiantis tuo, kaip įrenginys buvo naudojamas anksčiau, liko maždaug %1$s</string>
@@ -342,10 +352,6 @@ Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti a
     <string name="tips_suggestion_title">Susipažinimas su „Pixel“</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Laikykite telefoną prieš save</string>
     <string name="usb_use_file_transfers">Failų perkėlimas / „Android Auto“</string>
-    <string name="vpn_app_bypass">Nenaudoti VPN pasirinktoms programoms</string>
-    <string name="vpn_bypass_category_title">Nenaudoti VPN šioms programoms</string>
-    <string name="vpn_bypass_description">Galite leisti kai kurioms programoms nepaisyti VPN ir naudoti įprastą telefono tinklo ryšį</string>
-    <string name="vpn_preference_group_title">Kita</string>
     <string name="wallpaper_dashboard_summary">Spalvos, teminės piktogramos, programų tinklelis</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">„OpenRoaming“ prenumeratos peržiūra arba keitimas</string>

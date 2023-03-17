@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">يمكنك زيادة حساسية اللمس وتحسين الاستجابة باللمس إذا كنت تستخدم واقي شاشة.</string>
     <string name="touch_sensitivity_title">وضع \"واقي الشاشة\"</string>
     <string name="columbus_title">النقرة السريعة لبدء الإجراءات</string>
-    <string name="about_phone">لمحة عن الهاتف</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏تم إعداد Active Edge. انتقل إلى الشاشة التالية أو استمر في التعديل.</string>
     <string name="accessibility_keyboard_haptics_title">لوحات مفاتيح تعمل باللمس</string>
+    <string name="adaptive_alert_vibration_summary">لتقليل قوة الاهتزاز عندما يكون الهاتف ثابتًا والشاشة موجَّهة للأعلى.</string>
+    <string name="adaptive_alert_vibration_title">الاهتزاز التكيّفي للتنبيه</string>
     <string name="adaptive_charging">الشحن التكيُّفي</string>
     <string name="adaptive_charging_description">يمكنك إطالة عمر البطارية من خلال شحنها بوتيرة ثابتة لفترات شحن أطول. يتم تفعيل خيار الشحن التكيُّفي وفقًا لدورة استخدامك.</string>
-    <string name="adaptive_charging_time_estimate"><b>جارٍ الشحن التكيُّفي</b> • يكتمل الشحن بحلول %1$s.</string>
-    <string name="add_bypassed_application_hint">لم تتم إضافة تطبيقات.</string>
-    <string name="advanced_vpn_preference_group_title">الإعدادات المدمجة</string>
-    <string name="all_apps_category_title">جميع التطبيقات</string>
+    <string name="adaptive_charging_time_estimate"><b>جارٍ الشحن الذكي</b> • يكتمل الشحن بحلول %1$s.</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
     <string name="app_and_notification_dashboard_summary">‏\"مساعد Google\" والتطبيقات المُستخدمة مؤخرًا والتطبيقات التلقائية</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">المتابعة إلى المساعد</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">للحفاظ على البطارية، يتم إيقاف شحنها مؤقتًا عند وصول نسبة الشحن إلى %1$s بينما يكون الجهاز اللوحي في وضع الإرساء.</string>
     <string name="battery_tip_smart_battery_summary">تفعيل ميزة \"البطارية التكيّفية\"</string>
     <string name="bluetooth_untethered_unpair_dialog_body">‏لن يتم إقران %1$s بعد الآن بأي جهاز متصل بـ \"حساب Google\" هذا.</string>
-    <string name="clear_calling_footer">‏تتوفّر ميزة \"تحسين جودة المكالمات\" بناءً على اتصال شبكة Wi‑Fi وشبكة الجوّال. لا يتم إرسال المحتوى من مكالمتك إلى Google.</string>
-    <string name="clear_calling_title">تحسين جودة المكالمات</string>
-    <string name="clear_calling_toggle">استخدام ميزة \"تحسين جودة المكالمات\"</string>
+    <string name="clear_calling_footer">"‏لحماية خصوصيتك، لا يتم مطلقًا إرسال المحتوى الصوتي أو المحادثات إلى Google من خلال ميزة \"تحسين جودة المكالمات\".
+
+تتوفّر ميزة \"تحسين جودة المكالمات\" بناءً على توفّر شبكة Wi‑Fi وشبكة الجوال."</string>
+    <string name="clear_calling_title">إجراء المكالمات بصوت واضح</string>
+    <string name="clear_calling_toggle">استخدام إعداد إجراء المكالمات بصوت واضح</string>
     <string name="clear_calling_topintro">يقلل هذا الإعداد التشويش في الخلفية أثناء المكالمات.</string>
     <string name="columbus_gesture_detected">تم رصد \"النقرة السريعة\".</string>
     <string name="columbus_gesture_enrollment_complete">تم</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">اختَر ما يحدث عندما تفتح هذا التطبيق باستخدام ميزة \"النقرة السريعة\".</string>
     <string name="columbus_setting_enable_switch_title">استخدام ميزة \"النقرة السريعة\"</string>
     <string name="columbus_setting_sensitivity_title">يجب النقر بقوة أكبر</string>
+    <string name="communal_cast_summary">البثّ من وإلى هذا الجهاز</string>
+    <string name="communal_lock_screen_summary">الخصوصية والإشعارات و\"إدارة المنزل آليًّا\"</string>
+    <string name="communal_settings_summary_1">السلوك في حالتَي القفل والإرساء</string>
+    <string name="communal_settings_summary_2">خيارات وضع الإرساء</string>
+    <string name="communal_settings_summary_3">خيارات الإرساء وشاشة القفل</string>
+    <string name="communal_settings_summary_4">خيارات شاشة القفل ووضع الإرساء</string>
+    <string name="communal_settings_title">وضع الإرساء</string>
+    <string name="communal_smartspace_summary">‏التذكيرات والتنبيهات والمزيد من \"مساعد Google\"</string>
+    <string name="communal_smartspace_title">نظرة سريعة</string>
+    <string name="communal_what_to_show">ما يتم عرضه</string>
+    <string name="communal_what_to_use">ما الذي سيتم استخدامه</string>
     <string name="connectivity_helper_call_quality_category">جودة الاتصال</string>
     <string name="connectivity_helper_call_quality_summary">تلقّي إشعارات بشأن أسباب مشاكل الاتصال أثناء المكالمات</string>
     <string name="connectivity_helper_call_quality_title">تلقّي الإشعارات</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">عرض البطاقات والتذاكر</string>
     <string name="install_unknown_applications">‏السماح بتثبيت التطبيقات من مصادر أخرى غير متجر Play</string>
     <string name="keywords_accessibility_menu">المهارات الحركية، القائمة السريعة، قائمة المساعدة، اللمس، القدرة الحركية</string>
+    <string name="keywords_adaptive_alert_vibration">تقنية اللمس، اهتزاز، هاتف، اتصال، رنين، إشعارات، بصوت عالٍ، بهدوء، ضوضاء، حافظة، تكيّفي</string>
     <string name="keywords_adaptive_charging">شحن، الشحن، الشحن الذكي، الشحن التكيُّفي، البطارية، سلامة البطارية</string>
     <string name="keywords_assist_gesture_launch">‏إيماءة، حافة، جهة، active edge، ضغط، قَبض، مساعدة، مساعد، ضغط، ok google، مساعد google</string>
     <string name="keywords_assist_gesture_silence">‏إيماءة، حافة، جهة، active edge، كتم الصوت، غفوة، تنبيه، مكالمة واردة، سكون، عرض، شاشة قفل، ضغط، قَبض، إيقاف</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">‏هاتف Pixel</string>
     <string name="my_device_info_account_preference_title">‏حساب Google</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Pixel الخاص بهاني مثلاً</string>
-    <string name="remove">إزالة</string>
     <string name="reverse_charging_auto_turn_on_subtitle">سيتم تفعيل هذه الميزة تلقائيًا لفترة قصيرة عندما يتم توصيل هاتفك بالشاحن.</string>
     <string name="reverse_charging_auto_turn_on_title">التفعيل تلقائيًا</string>
     <string name="reverse_charging_charging_wirelessly_message">الميزة غير متاحة لأنه يتم شحن الهاتف لاسلكيًا.</string>
@@ -331,9 +342,8 @@
     <string name="suw_limited_warranty_title">الضمان المحدود</string>
     <string name="suw_more_button_label">المزيد</string>
     <string name="suw_next_button_label">التالي</string>
-    <string name="suw_warranty_description">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز.&lt;br /&gt;&lt;br /&gt;يتوفّر الضمان أيضًا في &lt;b&gt;الإعدادات &gt; %s &gt; الضمان المحدود&lt;/b&gt; وعلى g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز. يتوفّر الضمان أيضًا في \"الإعدادات\" ثم %s ثم \"الضمان المحدود\" وعلى g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">‏يتوفّر الضمان المحدود الذي ينطبق على جهازك أيضًا بإعدادات الجهاز في &lt;b&gt;الإعدادات &gt; %s &gt; الضمان المحدود&lt;/b&gt; وعلى g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز.&lt;br /&gt;&lt;br /&gt;يتوفّر الضمان أيضًا في &lt;b&gt;الإعدادات &gt; لمحة عن الهاتف &gt; الضمان المحدود&lt;/b&gt; وعلى الرابط g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز. يتوفّر الضمان أيضًا في \"الإعدادات\" ثم \"لمحة عن الهاتف\" ثم \"الضمان المحدود\" وعلى الرابط g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">التالي</string>
     <string name="suw_warranty_positive_button_text">إغلاق</string>
     <string name="time_remaining_warning_subtext">يتبقى %1$s تقريبًا بناءً على الاستخدام الماضي</string>
@@ -342,10 +352,6 @@
     <string name="tips_suggestion_title">‏التعرّف على هاتف Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">عليك تثبيت الهاتف أمام وجهك</string>
     <string name="usb_use_file_transfers">‏نقل الملفات / Android Auto</string>
-    <string name="vpn_app_bypass">عدم استخدام الشبكة الافتراضية الخاصة مع التطبيقات المحدّدة</string>
-    <string name="vpn_bypass_category_title">‏عدم استخدام الشبكة الافتراضية الخاصة (VPN) لهذه التطبيقات</string>
-    <string name="vpn_bypass_description">‏يمكنك السماح لبعض التطبيقات بتجاهل الشبكة الافتراضية الخاصة (VPN) واستخدام الاتصال العادي بالشبكة.</string>
-    <string name="vpn_preference_group_title">الإعدادات الأخرى</string>
     <string name="wallpaper_dashboard_summary">الألوان والرموز المرتبطة بموضوع معيّن وشبكة التطبيقات</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏عرض اشتراك OpenRoaming أو تغييره</string>

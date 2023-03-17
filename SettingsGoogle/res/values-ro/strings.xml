@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Crește sensibilitatea și îmbunătățește răspunsul la atingere când folosești o protecție pentru ecran</string>
     <string name="touch_sensitivity_title">Modul protecție pentru ecran</string>
     <string name="columbus_title">Atingere rapidă pentru a iniția acțiuni</string>
-    <string name="about_phone">Despre telefon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">S-a configurat Active Edge. Accesează ecranul următor sau continuă să reglezi.</string>
     <string name="accessibility_keyboard_haptics_title">Feedback tactil pentru tastatură</string>
+    <string name="adaptive_alert_vibration_summary">Reduce intensitatea vibrației când telefonul este nemișcat și ecranul este orientat cu fața în sus</string>
+    <string name="adaptive_alert_vibration_title">Vibrație de alertă adaptivă</string>
     <string name="adaptive_charging">Încărcare adaptabilă</string>
     <string name="adaptive_charging_description">Mărește autonomia bateriei prin încărcare constantă pe perioade mai lungi. Opțiunea este activată în funcție de ciclul de utilizare.</string>
     <string name="adaptive_charging_time_estimate"><b>Încărcare adaptabilă</b> • Timp rămas: %1$s</string>
-    <string name="add_bypassed_application_hint">Nu s-au adăugat aplicații</string>
-    <string name="advanced_vpn_preference_group_title">Încorporat</string>
-    <string name="all_apps_category_title">Toate aplicațiile</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferințe</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistent, aplicații recente, aplicații prestabilite</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Accesează Asistentul</string>
@@ -99,9 +97,11 @@ După resetarea dispozitivului, parcurge procesul de configurare și alege să t
     <string name="battery_tip_limited_temporarily_extra_summary">Pentru a proteja bateria, încărcarea este întreruptă la %1$s cât timp tableta este andocată</string>
     <string name="battery_tip_smart_battery_summary">Activează Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s nu va mai fi asociat cu niciun dispozitiv conectat la acest Cont Google</string>
-    <string name="clear_calling_footer">Apelarea cu sunet clar este disponibilă în funcție de conexiunea Wi‑Fi și la rețeaua mobilă. Nu se trimite la Google conținutul apelului.</string>
-    <string name="clear_calling_title">Apelare cu sunet clar</string>
-    <string name="clear_calling_toggle">Folosește Apelarea cu sunet clar</string>
+    <string name="clear_calling_footer">"Pentru a-ți proteja confidențialitatea, Apelarea cu sunet clar nu trimite niciodată conținut audio sau conversații la Google.
+
+Apelarea cu sunet clar este disponibilă în funcție de conexiunea Wi‑Fi și la rețeaua mobilă."</string>
+    <string name="clear_calling_title">Apelare cu sunet foarte clar</string>
+    <string name="clear_calling_toggle">Folosiți Apelarea cu sunet foarte clar</string>
     <string name="clear_calling_topintro">Reduce zgomotele de fundal în timpul apelurilor</string>
     <string name="columbus_gesture_detected">A fost detectată o Atingere rapidă!</string>
     <string name="columbus_gesture_enrollment_complete">Terminat</string>
@@ -147,6 +147,17 @@ După resetarea dispozitivului, parcurge procesul de configurare și alege să t
     <string name="columbus_setting_app_shortcut_selection_help_text">Selectează ce se întâmplă când deschizi aplicația folosind Atingerea rapidă.</string>
     <string name="columbus_setting_enable_switch_title">Folosește Atingerea rapidă</string>
     <string name="columbus_setting_sensitivity_title">Solicită apăsări mai puternice</string>
+    <string name="communal_cast_summary">Proiectează pe sau de pe acest dispozitiv</string>
+    <string name="communal_lock_screen_summary">Confidențialitate, notificări și comenzi pentru locuință</string>
+    <string name="communal_settings_summary_1">Comportament când dispozitivul e blocat și andocat</string>
+    <string name="communal_settings_summary_2">Opțiuni pentru dispozitivul de andocare</string>
+    <string name="communal_settings_summary_3">Opțiuni pentru dispozitivul de andocare și ecranul de blocare</string>
+    <string name="communal_settings_summary_4">Opțiuni pentru ecranul de blocare și dispozitivul de andocare</string>
+    <string name="communal_settings_title">Modul hub</string>
+    <string name="communal_smartspace_summary">Mementouri, alerte și altele de la Asistent</string>
+    <string name="communal_smartspace_title">Pe scurt</string>
+    <string name="communal_what_to_show">Ce se afișează</string>
+    <string name="communal_what_to_use">Ce să folosești</string>
     <string name="connectivity_helper_call_quality_category">Calitatea apelurilor</string>
     <string name="connectivity_helper_call_quality_summary">Primește notificări cu privire la cauzele problemelor de conexiune din timpul apelurilor</string>
     <string name="connectivity_helper_call_quality_title">Primește notificări</string>
@@ -201,6 +212,7 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="global_actions_panel_title">Afișează cardurile și permisele</string>
     <string name="install_unknown_applications">Permite instalarea aplicațiilor din alte surse decât Magazinul Play</string>
     <string name="keywords_accessibility_menu">abilități motorii, meniu rapid, meniu asistență, tactil, dexteritate</string>
+    <string name="keywords_adaptive_alert_vibration">tactil, vibrații, telefon, apel, sonerie, alertă, notificări, tare, intensitate joasă, zgomot, carcasă, adaptiv</string>
     <string name="keywords_adaptive_charging">încarcă, încărcare, încărcare inteligentă, încărcare adaptativă, baterie, starea bateriei</string>
     <string name="keywords_assist_gesture_launch">gest, margine, latură, margine activă, strângere, prindere, asistență, asistent, strângere, ok google, asistent google</string>
     <string name="keywords_assist_gesture_silence">gest, margine, latură, margine activă, dezactivarea sunetului, amânare, alarmă, apel primit, silențios, afișaj, ecran de blocare, strângere, prindere, oprire</string>
@@ -227,7 +239,6 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="me_card_title">Dispozitvul meu Pixel</string>
     <string name="my_device_info_account_preference_title">Cont Google</string>
     <string name="owner_info_settings_edit_text_hint">De ex., telefonul Pixel al lui Andrei.</string>
-    <string name="remove">Elimină</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Se va activa automat pentru o scurtă perioadă când telefonul este conectat la încărcător</string>
     <string name="reverse_charging_auto_turn_on_title">Activează automat</string>
     <string name="reverse_charging_charging_wirelessly_message">Funcție indisponibilă, deoarece telefonul se încarcă wireless</string>
@@ -335,9 +346,8 @@ Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea f
     <string name="suw_limited_warranty_title">Garanție limitată</string>
     <string name="suw_more_button_label">Mai mult</string>
     <string name="suw_next_button_label">Înainte</string>
-    <string name="suw_warranty_description">Pentru a vedea garanția limitată, selectează țara din care ai cumpărat dispozitivul.&lt;br /&gt;&lt;br /&gt;Garanția este disponibilă și în &lt;b&gt;Setări &gt; %s &gt; Garanție limitată&lt;/b&gt; și la g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Ca să vezi garanția limitată, selectează țara din care ai cumpărat dispozitivul. Garanția este disponibilă și în Setări, %s, apoi Garanție limitată, precum și la g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Garanția limitată aplicabilă dispozitivului este disponibilă și în Setările acestuia, la &lt;b&gt;Setări &gt; %s &gt; Garanție limitată&lt;/b&gt; și la g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Pentru a vedea garanția limitată, selectează țara din care ai cumpărat dispozitivul.&lt;br /&gt;&lt;br /&gt;Garanția este disponibilă și în &lt;b&gt;Setări &gt; Despre telefon &gt; Garanție limitată&lt;/b&gt; și la g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Pentru a vedea garanția limitată, selectează țara din care ai cumpărat dispozitivul. Garanția este disponibilă și în Setări &gt; Despre telefon &gt; Garanție limitată, precum și la g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Înainte</string>
     <string name="suw_warranty_positive_button_text">Închide</string>
     <string name="time_remaining_warning_subtext">Pe baza utilizării anterioare, timpul aproximativ rămas este %1$s</string>
@@ -346,10 +356,6 @@ Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea f
     <string name="tips_suggestion_title">Fă cunoștință cu Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Ține telefonul în fața ta</string>
     <string name="usb_use_file_transfers">Transferul fișierelor / Android Auto</string>
-    <string name="vpn_app_bypass">Nu folosi VPN pentru aplicațiile selectate</string>
-    <string name="vpn_bypass_category_title">Nu folosi VPN pentru aceste aplicații</string>
-    <string name="vpn_bypass_description">Poți să permiți unor aplicații să ignore rețeaua VPN și să utilizeze conexiunea la rețea obișnuită a telefonului</string>
-    <string name="vpn_preference_group_title">Altele</string>
     <string name="wallpaper_dashboard_summary">Culori, pictograme tematice, grilă de aplicații</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Vezi sau modifică abonamentul OpenRoaming</string>

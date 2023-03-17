@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Увеличаване на чувствителността и подобряване на точността при докосване, когато използвате защитен слой на екрана</string>
     <string name="touch_sensitivity_title">Режим при защитен слой на екрана</string>
     <string name="columbus_title">Бързо докосване за стартиране на действия</string>
-    <string name="about_phone">Всичко за телефона</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Настройване на Active Edge. Преминете към следващия екран или продължете да коригирате.</string>
     <string name="accessibility_keyboard_haptics_title">Осезателна обратна връзка от клавиатурата</string>
+    <string name="adaptive_alert_vibration_summary">Намалява силата на вибрирането, когато телефонът ви е неподвижен и с насочен нагоре екран</string>
+    <string name="adaptive_alert_vibration_title">Адаптивно вибриране за сигналите</string>
     <string name="adaptive_charging">Адаптивно зареждане</string>
     <string name="adaptive_charging_description">Удължете живота на батерията, като зареждате равномерно за по-продължителни периоди. Функцията се активира въз основа на цикъла ви на използване.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптивно зареждане</b> • Ще се зареди напълно до %1$s</string>
-    <string name="add_bypassed_application_hint">Няма добавени приложения</string>
-    <string name="advanced_vpn_preference_group_title">Вградено</string>
-    <string name="all_apps_category_title">Всички приложения</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Предпочитания</annotation></string>
     <string name="app_and_notification_dashboard_summary">Асистент, скорошни приложения, стандартни приложения</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Към Асистент</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">С цел запазване на батерията ви зареждането се поставя на пауза при достигане на %1$s, когато таблетът ви е свързан с докинг станция</string>
     <string name="battery_tip_smart_battery_summary">Включете режима за адаптивна батерия</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Устройството %1$s вече няма да бъде сдвоено с никое устройство, свързано с този профил в Google</string>
-    <string name="clear_calling_footer">Функцията за обаждане със звук без фонов шум е налице в зависимост от връзката ви с Wi‑Fi и мобилната мрежа. До Google не се изпраща съдържание от обаждането ви.</string>
-    <string name="clear_calling_title">Обажд. със звук без фонов шум</string>
-    <string name="clear_calling_toggle">Използване на функцията за обаждане със звук без фонов шум</string>
+    <string name="clear_calling_footer">"С цел защита на поверителността ви функцията за обаждане със звук без фонов шум никога не изпраща до Google аудио или разговори.
+
+Тази функция е налице в зависимост от Wi‑Fi мрежата и мобилната мрежа."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Използване на Clear Calling</string>
     <string name="clear_calling_topintro">Намалява фоновия шум по време на обаждания</string>
     <string name="columbus_gesture_detected">Разпознат е жестът „Бързо докосване“!</string>
     <string name="columbus_gesture_enrollment_complete">Готово</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Изберете какво да се случва, когато отворите това приложение посредством жеста „Бързо докосване“.</string>
     <string name="columbus_setting_enable_switch_title">Използване на жеста „Бързо докосване“</string>
     <string name="columbus_setting_sensitivity_title">Изискване на повече сила при докосванията</string>
+    <string name="communal_cast_summary">Предаване към или от това устройство</string>
+    <string name="communal_lock_screen_summary">Поверителност, известия и контроли за дома</string>
+    <string name="communal_settings_summary_1">Поведение при заключване и връзка с докинг станция</string>
+    <string name="communal_settings_summary_2">Опции при връзка с докинг станция</string>
+    <string name="communal_settings_summary_3">Опции за докинг станция и заключен екран</string>
+    <string name="communal_settings_summary_4">Опции при заключен екран и връзка с докинг станция</string>
+    <string name="communal_settings_title">Режим „Контролен център“</string>
+    <string name="communal_smartspace_summary">Напомняния, сигнали и др. от Асистент</string>
+    <string name="communal_smartspace_title">Бърз поглед</string>
+    <string name="communal_what_to_show">Какво да се показва</string>
+    <string name="communal_what_to_use">Какво да се използва</string>
     <string name="connectivity_helper_call_quality_category">Качество на обажданията</string>
     <string name="connectivity_helper_call_quality_summary">Получавайте известия относно причините за проблемите с връзката по време на обаждания</string>
     <string name="connectivity_helper_call_quality_title">Получаване на известия</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Показване на карти и пропуски</string>
     <string name="install_unknown_applications">Разрешаване на инсталирането на приложения от източници, различни от Google Play Магазин</string>
     <string name="keywords_accessibility_menu">двигателна система, бързо меню, помощно меню, докосване, сръчност</string>
+    <string name="keywords_adaptive_alert_vibration">осезателна обратна връзка, вибриране, телефон, обаждане, звънене, сигнал, известия, силно, тихо, шум, калъф, адаптивно</string>
     <string name="keywords_adaptive_charging">зареждане, зарежда се, интелигентно зареждане, адаптивно зареждане, батерия, състояние на батерията</string>
     <string name="keywords_assist_gesture_launch">жест, ръб, страна, active edge, стискане, хващане, помощно приложение, асистент, стискам, ok google, google асистент</string>
     <string name="keywords_assist_gesture_silence">жест, ръб, страна, active edge, заглушаване, отлагане, будилник, входящо обаждане, тихо, дисплей, заключен екран, стискане, хващане, спиране</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Моят Pixel</string>
     <string name="my_device_info_account_preference_title">Профил в Google</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството Pixel на Иван“.</string>
-    <string name="remove">Премахване</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Ще се включи автоматично за кратък период от време, когато телефонът ви е включен в зарядното устройство</string>
     <string name="reverse_charging_auto_turn_on_title">Автоматично включване</string>
     <string name="reverse_charging_charging_wirelessly_message">Не е налице, защото телефонът се зарежда безжично</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">Ограничена гаранция</string>
     <string name="suw_more_button_label">Още</string>
     <string name="suw_next_button_label">Напред</string>
-    <string name="suw_warranty_description">За да прегледате ограничената гаранция за това устройство, докоснете държавата, в която е закупено.&lt;br /&gt;&lt;br /&gt;Гаранцията е налице и в &lt;b&gt;Настройки &gt; %s &gt; Ограничена гаранция&lt;/b&gt;, както и на адрес g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">За да прегледате ограничената гаранция за това устройство, докоснете държавата, в която е закупено. Гаранцията е налице и като отворите „Настройки“, след което „%s“ и след това „Ограничена гаранция“, както и на адрес g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Ограничената гаранция, приложима за устройството ви, е налице и в настройките му (&lt;b&gt;Настройки &gt; %s &gt; Ограничена гаранция&lt;/b&gt;), както и на адрес g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">За да прегледате ограничената гаранция за това устройство, изберете държавата, в която е закупено.&lt;br /&gt;&lt;br /&gt;Гаранцията е налице и в &lt;b&gt;Настройки &gt; Всичко за телефона &gt; Ограничена гаранция&lt;/b&gt;, както и на адрес g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">За да прегледате ограничената гаранция за това устройство, изберете държавата, в която е закупено. Гаранцията е налице и като отворите „Настройки“, след което „Всичко за телефона“ и след това „Ограничена гаранция“, както и на адрес g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Напред</string>
     <string name="suw_warranty_positive_button_text">Затваряне</string>
     <string name="time_remaining_warning_subtext">Още около %1$s въз основа на историята на използване</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">Опознайте своя Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Дръжте телефона пред лицето си</string>
     <string name="usb_use_file_transfers">Прехв. на файлове/Android Auto</string>
-    <string name="vpn_app_bypass">Без използване на VPN за избраните приложения</string>
-    <string name="vpn_bypass_category_title">Без използване на VPN за тези приложения</string>
-    <string name="vpn_bypass_description">Можете да разрешите на някои приложения да игнорират VPN и да използват обикновената връзка с мрежата на телефона</string>
-    <string name="vpn_preference_group_title">Други</string>
     <string name="wallpaper_dashboard_summary">Цветове, икони с теми, решетка с приложения</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Преглед или промяна на абонамента за OpenRoaming</string>

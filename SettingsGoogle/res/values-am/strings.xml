@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">የማያ ገጽ መከላከያን ሲጠቀሙ የንክኪ አደጋ ተጋላጭነትን ይጨምሩ እና ንክኪን ያሻሽሉ።</string>
     <string name="touch_sensitivity_title">የማያ ገጽ መከላከያ ሁነታ</string>
     <string name="columbus_title">እርምጃዎችን ለመጀመር ፈጣን መታ ያድርጉ</string>
-    <string name="about_phone">ስለስልክ</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">ንቁ የEdge ቅንብር። ወደ ቀጣዩ ማያ ገጽ ይሂዱ ወይም ማስተካከል ይቀጥሉ።</string>
     <string name="accessibility_keyboard_haptics_title">የቁልፍ ሰሌዳ ረቂቅ ንዝረት</string>
+    <string name="adaptive_alert_vibration_summary">ስልክዎ በእንቅስቃሴ ላይ ሳይሆን እና ማያ ገጹ ወደ ላይ ሲዞር የንዝረት ጥንካሬን ይቀንሳል</string>
+    <string name="adaptive_alert_vibration_title">ተስማሚ የማንቂያ ንዝረት</string>
     <string name="adaptive_charging">ተስማሚ ኃይል መሙላት</string>
     <string name="adaptive_charging_description">ረዘም ላሉ ጊዜያት ኃይል በሚሞላበት ጊዜ ያለማቋረጥ ኃይል በመሙላት የባትሪ ዕድሜን ያራዝሙ። በእርስዎ የአጠቃቀም ዑደት መሰረት ገቢር ተደርጓል።</string>
-    <string name="adaptive_charging_time_estimate"><b>ተስማሚ የኃይል አሞላል</b> • እስከ %1$s ድረስ የሚሞላ</string>
-    <string name="add_bypassed_application_hint">ምንም መተግበሪያዎች አልታከሉም</string>
-    <string name="advanced_vpn_preference_group_title">አብሮገነብ</string>
-    <string name="all_apps_category_title">ሁሉም መተግበሪያዎች</string>
+    <string name="adaptive_charging_time_estimate"><b>ተስማሚ ኃይል መሙላት</b> • እስከ %1$s ድረስ የሚሞላ</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">ምርጫዎች</annotation></string>
     <string name="app_and_notification_dashboard_summary">ረዳት፣ የቅርብ ጊዜ መተግበሪያዎች፣ ነባሪ መተግበሪያዎች</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">ወደ ረዳት ቀጥል</string>
@@ -25,8 +23,8 @@
     <string name="assist_gesture_enrollment_settings">ቅንብሮች</string>
     <string name="assist_gesture_setting_enable_assistant_text">የእርስዎን ረዳት ለማናገር ታችኛውን የስልክዎ አጋማሽ በፍጥነት ጨመቅ አድርገው ለቀቅ ያድርጉት</string>
     <string name="assist_gesture_setting_enable_assistant_title">የእርስዎን ረዳት ይጭመቁት</string>
-    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">የማንቂያዎች፣ የሰዓት ቆጣሪዎች እና የገቢ ጥሪዎች ድምጽ ለመዝጋት ጨመቅ ያድርጉ</string>
-    <string name="assist_gesture_setting_enable_ring_silence_text">ማሳወቂያዎችን እና የገቢ ጥሪዎችን ድምጽ ለመዝጋት ጨመቅ ያድርጉ</string>
+    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">የማንቂያዎች፣ የሰዓት ቆጣሪዎች እና የገቢ ጥሪዎች ድምፅ ለመዝጋት ጨመቅ ያድርጉ</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">ማሳወቂያዎችን እና የገቢ ጥሪዎችን ድምፅ ለመዝጋት ጨመቅ ያድርጉ</string>
     <string name="assist_gesture_setting_enable_ring_silence_title">ስልክን ጸጥ ለማሰኘት ጨመቅ ያድርጉት</string>
     <string name="assist_gesture_setting_enable_wake_title">ማያ ገጽ ሲጠፋ ረዳት ይክፈቱ</string>
     <string name="assist_gesture_squeeze_help_maximum_sensitivity">ቀላል ጨመቅ ማድረግ</string>
@@ -44,8 +42,8 @@
     <string name="assist_gesture_training_finished_title">ይጨርሱ ወይም ማስተካከሉን ይቀጥሉ</string>
     <string name="assist_gesture_training_intro_text">በማንኛውም ጊዜ ረዳትዎን ለማነጋገር የስልክዎን ታችኛው ግማሽ ክፍል ጨመቅ ያድርጉትና ይልቀቁት</string>
     <string name="assist_gesture_training_intro_title">የእርስዎን ረዳት ይጭመቁት</string>
-    <string name="assist_gesture_training_suggestion_summary">ከረዳት ጋር ይነጋገሩ፣ የጥሪዎች ድምጽ ይዝጉ</string>
-    <string name="assist_gesture_training_suggestion_summary_including_alarms">ከረዳት ጋር ይነጋገሩ፣ የማንቂያዎች እና ጥሪዎች ድምጽ ይዝጉ</string>
+    <string name="assist_gesture_training_suggestion_summary">ከረዳት ጋር ይነጋገሩ፣ የጥሪዎች ድምፅ ይዝጉ</string>
+    <string name="assist_gesture_training_suggestion_summary_including_alarms">ከረዳት ጋር ይነጋገሩ፣ የማንቂያዎች እና ጥሪዎች ድምፅ ይዝጉ</string>
     <string name="assist_gesture_training_suggestion_title">ረዳቱን ለማግኘት ጨመቅ ያድርጉና ይልቀቁ</string>
     <string name="automatic_storage_manager_activation_warning">እርስዎ ሲገናኙ አሁንም ፎቶዎችን እና ቪዲዮዎችን ለምትኬ በመረጡት ጥራት ላይ መድረስ ይችላሉ</string>
     <string name="automatic_storage_manager_days_title">ምትኬ የተቀመጠላቸው ፎቶዎችን እና ቪዲዮዎችን አስወግድ</string>
@@ -99,8 +97,10 @@
     <string name="battery_tip_limited_temporarily_extra_summary">ባትሪዎን ለመጠበቅ የእርስዎ ጡባዊ ተተክሎ ሳለ ኃይል መሙላት %1$s ላይ ባለበት ቆሟል</string>
     <string name="battery_tip_smart_battery_summary">ተለማማጅ ባትሪን ያብሩ</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s ከእንግዲህ ከዚህ Google መለያ ጋር ከተገናኘ ማንኛውም መሣሪያ ጋር አይጣመርም</string>
-    <string name="clear_calling_footer">በእርስዎ የWi-Fi እና የተንቀሳቃሽ ስልክ አውታረ መረብ ግንኙነት ላይ በመመስረት ግልጽ ጥሪ ይገኛል። ከእርስዎ ጥሪ የሚገኝ ይዘት ወደ Google አይላክም።</string>
-    <string name="clear_calling_title">ግልጽ ጥሪ</string>
+    <string name="clear_calling_footer">"ግላዊነትዎን ለመጠበቅ ግልጽ ጥሪ ለGoogle ኦዲዮ ወይም ወይይቶችን በጭራሽ አይልክም።
+
+ግልጽ ጥሪ በእርስዎ የWi‑Fi እና የተንቀሳቃሽ ስልክ አውታረ መረብ ላይ በመመስረት ይገኛል።"</string>
+    <string name="clear_calling_title">ግልፅ ጥሪ</string>
     <string name="clear_calling_toggle">ግልፅ ጥሪን ተጠቀም</string>
     <string name="clear_calling_topintro">በጥሪዎች ጊዜ የበስተጀርባ ድምፆችን ይቀንሳል</string>
     <string name="columbus_gesture_detected">ፈጣን መታ ማድረግ ተገኝቷል!</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">ፈጣን መታ ማድረግን በመጠቀም ይህን መተግበሪያ ሲከፍቱት ጊዜ ምን እንደሚከሰት ይምረጡ።</string>
     <string name="columbus_setting_enable_switch_title">ፈጣን መታ ማድረግን ይጠቀሙ</string>
     <string name="columbus_setting_sensitivity_title">ጠንከር ያሉ መታ ማድረጎችን ይጠይቁ</string>
+    <string name="communal_cast_summary">ወደዚህ ወይም ከዚህ መሣሪያ cast ያድርጉ</string>
+    <string name="communal_lock_screen_summary">ግለዊነት፣ ማሳወቂያዎች እና የቤት ውስጥ መቆጣጠሪያዎች</string>
+    <string name="communal_settings_summary_1">የመቆለፍ እና የመተከል ባህሪ</string>
+    <string name="communal_settings_summary_2">የመተከል ላይ አማራጮች</string>
+    <string name="communal_settings_summary_3">የመተከል እና የማያ ገጽ ቁልፍ አማራጮች</string>
+    <string name="communal_settings_summary_4">የማያ ገጽ ቁልፍ እና የመተከል ላይ አማራጮች</string>
+    <string name="communal_settings_title">የመገናኛ ሁነታ</string>
+    <string name="communal_smartspace_summary">አስታዋሾች፣ ማንቂያዎች እና ሌሎችም ከረዳት</string>
+    <string name="communal_smartspace_title">በአፍታ ዕይታ</string>
+    <string name="communal_what_to_show">ምን እንደሚታይ</string>
+    <string name="communal_what_to_use">ምን ጥቅም ላይ እንደሚውል</string>
     <string name="connectivity_helper_call_quality_category">የጥሪ ጥራት</string>
     <string name="connectivity_helper_call_quality_summary">በጥሪዎች ጊዜ ስለ የግንኙነት ችግሮች መንስኤዎች ማሳወቂያ ያግኙ</string>
     <string name="connectivity_helper_call_quality_title">ማሳወቂያዎችን ያግኙ</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">ካርዶችን እና ማለፊያዎችን አሳይ</string>
     <string name="install_unknown_applications">ከPlay መደብር ውጭ ካሉ ምንጮች የሚመጡ መተግበሪያዎች እንዲጫኑ ፍቀድ</string>
     <string name="keywords_accessibility_menu">ሞተር፣ ፈጣን ምናሌ፣ ረዳት ምናሌ፣ ንካ፣ ቅልጥፍና</string>
+    <string name="keywords_adaptive_alert_vibration">ረቂቅ ንዝረት፣ ንዝረት፣ ስልክ፣ ጥሪ፣ ማንቂያ፣ ማሳወቂያዎች፣ ጩኸት፣ ጸጥታ፣ ጫጫታ፣ መያዣ፣ ተስማሚ</string>
     <string name="keywords_adaptive_charging">ኃይል ሙላ፣ ኃይል በመሙላት ላይ፣ ዘመናዊ ኃይል አሞላል፣ ተስማሚ ኃይል አሞላል፣ ባትሪ፣ የባትሪ ጤና</string>
     <string name="keywords_assist_gesture_launch">የእጅ ውዝዋዜ፣ ጫፍ፣ ጎን፣ ንቁ ጫፍ፣ ጭመቅ፣ ጨብጥ፣ እርዳ፣ ረዳት፣ ጭመቅ፣ ok google፣ google ረዳት</string>
     <string name="keywords_assist_gesture_silence">"የእጅ ውዝዋዜ፣ ጫፍ፣ ጎን፣ ንቁ  ጎን፣ ጸጥታ፣ አሸልብ፣ ማንቂያ፣ ገቢ ጥሪ፣ ጸጥታ፣ ማሳያ፣ የማያ ገጽ ቆላፊ፣ ጭመቅ፣ ጭመቅ፣ ጨብጥ፣ ቁም"</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">የእኔ Pixel</string>
     <string name="my_device_info_account_preference_title">የGoogle መለያ</string>
     <string name="owner_info_settings_edit_text_hint">ለምሳሌ፦ የአበበ Pixel</string>
-    <string name="remove">አስወግድ</string>
     <string name="reverse_charging_auto_turn_on_subtitle">ስልክዎ የኃይል መሙያ ላይ ሲሰካ ለአጭር ጊዜ በራስ-ሰር ይበራል</string>
     <string name="reverse_charging_auto_turn_on_title">በራስ-ሰር አብራ</string>
     <string name="reverse_charging_charging_wirelessly_message">ስልኩ ያለገመድ ኃይል እየሞላ ስለሆነ አይገኝም</string>
@@ -332,9 +343,8 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="suw_limited_warranty_title">የተወሰነ የዋስትና ማረጋገጫ</string>
     <string name="suw_more_button_label">ተጨማሪ</string>
     <string name="suw_next_button_label">ቀጣይ</string>
-    <string name="suw_warranty_description">የተወሰነ የዋስትና ማረጋገጫዎን ለመመልከት ይህን መሣሪያ የገዙበትን አገር ይምረጡ።&lt;br /&gt;&lt;br /&gt;የዋስትና ማረጋገጫው &lt;b&gt;ቅንብሮች &gt; %s &gt; የተወሰነ የዋስትና ማረጋገጫ&lt;/b&gt; እና g.co/devicewarranty ላይም ይገኛል።</string>
-    <string name="suw_warranty_description_content">የተወሰነ የዋስትና ማረጋገጫዎን ለመመልከት ይህን መሣሪያ የገዙበትን አገር ይምረጡ። የዋስትና ማረጋገጫው ቅንብሮች ከዚያ %s ከዚያ የተወሰነ የዋስትና ማረጋገጫ እና g.co/devicewarranty ላይም ይገኛል።</string>
-    <string name="suw_warranty_language_consistent_description">የእርስዎ መሣሪያ ላይ መተግበር የሚችለው የተወሰነ የዋስትና ማረጋገጫ እንዲሁም በመሣሪያ ቅንብሮች ውስጥ &lt;b&gt;ቅንብሮች &gt; %s &gt; የተወሰነ የዋስትና ማረጋገጫ&lt;/b&gt; ላይ እና g.co/devicewarranty ላይ ይገኛል።</string>
+    <string name="suw_warranty_description">የተወሰነ የዋስትና ማረጋገጫዎን ለመመልከት ይህን መሣሪያ የገዙበትን አገር ይምረጡ።&lt;br /&gt;&lt;br /&gt;እንዲሁም የዋስትና ማረጋገጫው &lt;b&gt;ቅንብሮች &gt; ስለስልክ &gt; የተወሰነ የዋስትና ማረጋገጫ&lt;/b&gt; እና g.co/devicewarranty ላይ ይገኛል።</string>
+    <string name="suw_warranty_description_content">የተወሰነ የዋስትና ማረጋገጫዎን ለመመልከት ይህን መሣሪያ የገዙበትን አገር ይምረጡ። እንዲሁም የዋስትና ማረጋገጫው ቅንብሮች ከዚያም ስለስልክ ከዚያም የተወሰነ የዋስትና ማረጋገጫ እና g.co/devicewarranty ላይ ይገኛል።</string>
     <string name="suw_warranty_next_button_text">ቀጣይ</string>
     <string name="suw_warranty_positive_button_text">ዝጋ</string>
     <string name="time_remaining_warning_subtext">ባለፈ አጠቃቀም ላይ በመመርኮዝ ወደ %1$s ገደማ ቀርቷል</string>
@@ -343,10 +353,6 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="tips_suggestion_title">ከእርስዎ Pixel ጋር ይተዋወቁ</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ስልክ ከፊትዎ ፊት ለፊት ይያዙ</string>
     <string name="usb_use_file_transfers">ፋይል ማስተላለፍ / ራስሰር Android</string>
-    <string name="vpn_app_bypass">ለተመረጡ መተግበሪያዎች VPN አይጠቀሙ</string>
-    <string name="vpn_bypass_category_title">ለእነዚህ መተግበሪያዎች VPN አይጠቀሙ</string>
-    <string name="vpn_bypass_description">አንዳንድ መተግበሪያዎች VPNን ችላ እንዲሉ እና የስልክዎን መደበኛ የአውታረ መረብ ግንኙነት እንዲጠቀሙ መፍቀድ ይችላሉ</string>
-    <string name="vpn_preference_group_title">ሌሎች</string>
     <string name="wallpaper_dashboard_summary">ቀለሞች፣ ገጽታ ያላቸው አዶዎች፣ የመተግበሪያ ፍርግርግ</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">የOpenRoaming ደንበኝነት ምዝገባን ይመልከቱ ወይም ይቀይሩ</string>

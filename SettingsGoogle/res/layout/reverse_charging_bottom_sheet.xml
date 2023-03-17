@@ -69,9 +69,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:divider="@android:drawable/divider_horizontal_textfield"
         android:orientation="vertical"
-        android:showDividers="beginning"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,8 +90,10 @@
 
             <Button
                 android:id="@id/ok_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@android:string/ok"
-                style="@style/BottomSheetButton"
+                style="@style/SettingsLibButtonStyle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 

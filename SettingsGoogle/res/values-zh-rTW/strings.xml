@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">提升使用螢幕保護貼時的觸控靈敏度，並改善觸控回應效果</string>
     <string name="touch_sensitivity_title">螢幕保護貼模式</string>
     <string name="columbus_title">快速輕觸即可執行操作</string>
-    <string name="about_phone">關於手機</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge 已設定完成。請前往下一個畫面或繼續調整相關設定。</string>
     <string name="accessibility_keyboard_haptics_title">鍵盤觸動回饋</string>
+    <string name="adaptive_alert_vibration_summary">當手機處於靜止狀態且正面朝上時，系統就會降低震動強度</string>
+    <string name="adaptive_alert_vibration_title">自動調整震動強度</string>
     <string name="adaptive_charging">自動調節充電</string>
     <string name="adaptive_charging_description">如果裝置必須長時間充電，系統會以穩定充電的方式延長電池壽命。這項功能會依據你的使用週期啟動。</string>
     <string name="adaptive_charging_time_estimate"><b>自動調節充電中</b> • 將於%1$s 充飽</string>
-    <string name="add_bypassed_application_hint">未新增任何應用程式</string>
-    <string name="advanced_vpn_preference_group_title">內建</string>
-    <string name="all_apps_category_title">所有應用程式</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">偏好設定</annotation></string>
     <string name="app_and_notification_dashboard_summary">Google 助理、最近使用的應用程式、預設應用程式</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">繼續使用 Google 助理</string>
@@ -98,9 +96,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">平板電腦插在座架上時，系統會在電量達 %1$s 後暫停充電，以保護電池</string>
     <string name="battery_tip_smart_battery_summary">開啟自動調節電池用量功能</string>
     <string name="bluetooth_untethered_unpair_dialog_body">「%1$s」將與任何已連結到這個 Google 帳戶的裝置解除配對</string>
-    <string name="clear_calling_footer">清晰通話功能可用與否取決於 Wi-Fi 及行動網路連線狀態，通話內容並不會傳送給 Google。</string>
-    <string name="clear_calling_title">清晰通話</string>
-    <string name="clear_calling_toggle">使用清晰通話</string>
+    <string name="clear_calling_footer">"為保護你的隱私，清晰通話功能絕對不會將音訊或對話內容傳送給 Google。
+
+清晰通話功能可用與否取決於 Wi-Fi 及行動網路連線狀態。"</string>
+    <string name="clear_calling_title">清晰通話品質</string>
+    <string name="clear_calling_toggle">使用清晰通話品質</string>
     <string name="clear_calling_topintro">降低通話時的背景噪音</string>
     <string name="columbus_gesture_detected">系統偵測到「快速輕觸」！</string>
     <string name="columbus_gesture_enrollment_complete">完成</string>
@@ -146,6 +146,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">選取透過「快速輕觸」手勢開啟這個應用程式時要執行的操作。</string>
     <string name="columbus_setting_enable_switch_title">使用「快速輕觸」手勢</string>
     <string name="columbus_setting_sensitivity_title">輕觸時必須使用較強的力道</string>
+    <string name="communal_cast_summary">投放到這部裝置，或從這部裝置投放</string>
+    <string name="communal_lock_screen_summary">隱私權、通知和居家控制</string>
+    <string name="communal_settings_summary_1">鎖定及插入座架時的行為</string>
+    <string name="communal_settings_summary_2">座架模式選項</string>
+    <string name="communal_settings_summary_3">座架和螢幕鎖定選項</string>
+    <string name="communal_settings_summary_4">螢幕鎖定和座架模式選項</string>
+    <string name="communal_settings_title">Hub 模式</string>
+    <string name="communal_smartspace_summary">透過 Google 助理接收提醒、快訊等等</string>
+    <string name="communal_smartspace_title">資訊一覽</string>
+    <string name="communal_what_to_show">要顯示的內容</string>
+    <string name="communal_what_to_use">要使用的內容</string>
     <string name="connectivity_helper_call_quality_category">通話品質</string>
     <string name="connectivity_helper_call_quality_summary">接收通話期間的連線問題原因通知</string>
     <string name="connectivity_helper_call_quality_title">接收通知</string>
@@ -200,6 +211,7 @@
     <string name="global_actions_panel_title">顯示卡片和票證</string>
     <string name="install_unknown_applications">允許從 Play 商店以外的來源安裝應用程式</string>
     <string name="keywords_accessibility_menu">動作, 快速選單, 輔助選單, 觸控, 精細動作</string>
+    <string name="keywords_adaptive_alert_vibration">觸覺技術, 震動, 手機, 通話, 響鈴, 快訊, 通知, 大聲, 安靜, 噪音, 情況, 自動調整</string>
     <string name="keywords_adaptive_charging">充電, 充電中, 智慧型充電, 智慧充電, 電池, 電池狀態</string>
     <string name="keywords_assist_gesture_launch">"手勢, 邊緣, 側面, active edge, 握壓, 拿握, 協助,  Google 助理, 握壓, Ok Google, Google 助理"</string>
     <string name="keywords_assist_gesture_silence">手勢, 邊緣, 側面, active edge, 關閉鈴聲, 貪睡, 鬧鐘, 來電, 靜音, 顯示, 螢幕鎖定, 握壓, 拿握, 停止</string>
@@ -226,7 +238,6 @@
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帳戶</string>
     <string name="owner_info_settings_edit_text_hint">例如：小明的 Pixel。</string>
-    <string name="remove">移除</string>
     <string name="reverse_charging_auto_turn_on_subtitle">手機充電時會自動開啟一小段時間</string>
     <string name="reverse_charging_auto_turn_on_title">自動開啟</string>
     <string name="reverse_charging_charging_wirelessly_message">手機正在無線充電，因此無法使用這項功能</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">有限保固</string>
     <string name="suw_more_button_label">更多</string>
     <string name="suw_next_button_label">繼續</string>
-    <string name="suw_warranty_description">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。&lt;br /&gt;&lt;br /&gt;在裝置上依序點選「設定」&gt;「%s」&gt;「有限保固」&lt;b&gt;&lt;/b&gt;及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
-    <string name="suw_warranty_description_content">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。在裝置上依序點選「設定」、「%s」、「有限保固」及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
-    <string name="suw_warranty_language_consistent_description">適用於您設備的有限保固也可見於 &lt;b&gt;設定 &gt; %s &gt; 有限保固 &lt;/b&gt; 及 g.co/devicewarranty 中的設備設定。</string>
+    <string name="suw_warranty_description">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。&lt;br /&gt;&lt;br /&gt;在裝置上依序點選「設定」&gt;「關於手機」&gt;「有限保固」&lt;b&gt;&lt;/b&gt;及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
+    <string name="suw_warranty_description_content">如要查看有限保固資訊，請選取你購買這部裝置的國家/地區。在裝置上依序點選「設定」、「關於手機」、「有限保固」及前往 g.co/devicewarranty 也可以查看這類資訊。</string>
     <string name="suw_warranty_next_button_text">繼續</string>
     <string name="suw_warranty_positive_button_text">關閉</string>
     <string name="time_remaining_warning_subtext">依據過去的使用情況估計可再使用 %1$s</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">瞭解你的 Pixel 手機</string>
     <string name="traffic_light_face_enrolling_title_accessibility">將手機放在面前</string>
     <string name="usb_use_file_transfers">檔案轉移 / Android Auto</string>
-    <string name="vpn_app_bypass">執行特定應用程式時不要使用 VPN</string>
-    <string name="vpn_bypass_category_title">執行這些應用程式時不要使用 VPN</string>
-    <string name="vpn_bypass_description">你可以讓某些應用程式在執行時不使用 VPN，而是使用手機的一般網路連線</string>
-    <string name="vpn_preference_group_title">其他</string>
     <string name="wallpaper_dashboard_summary">顏色、主題圖示、應用程式排列顯示</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">查看或變更 OpenRoaming 訂閱</string>

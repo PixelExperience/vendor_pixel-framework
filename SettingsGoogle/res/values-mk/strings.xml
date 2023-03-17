@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Зголемете ја чувствителноста на допир и подобрете го допирот кога користите заштитник на екранот</string>
     <string name="touch_sensitivity_title">Режим на заштитник на екранот</string>
     <string name="columbus_title">„Брз допир“ за започнување дејства</string>
-    <string name="about_phone">За телефонот</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Поставете Active Edge. Одете на следниот екран или продолжете со приспособување.</string>
     <string name="accessibility_keyboard_haptics_title">Допир на тастатурата</string>
+    <string name="adaptive_alert_vibration_summary">Ја намалува јачината на вибрациите кога телефонот е во мирување, а екранот е свртен нагоре</string>
+    <string name="adaptive_alert_vibration_title">Адаптивни вибрации за известувања</string>
     <string name="adaptive_charging">Адаптивно полнење</string>
     <string name="adaptive_charging_description">Продолжете го животниот век на батеријата со постепено полнење за време на подолги периоди на полнење. Се активира според вашиот циклус на користење.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптивно полнење</b> • Целосно наполнето за %1$s</string>
-    <string name="add_bypassed_application_hint">Не се додадени апликации</string>
-    <string name="advanced_vpn_preference_group_title">Вградена</string>
-    <string name="all_apps_category_title">Сите апликации</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Поставки</annotation></string>
     <string name="app_and_notification_dashboard_summary">Помошник, неодамнешни апликации, стандардни апликации</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Продолжи на „Помошникот“</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">За да се заштити вашата батерија, полнењето е паузирано на %1$s додека таблетот е приклучен на док</string>
     <string name="battery_tip_smart_battery_summary">Вклучете „Адаптивна батерија“</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s веќе нема да биде спарен со ниту еден уред поврзан со сметкава на Google</string>
-    <string name="clear_calling_footer">Функцијата „Јасни повици“ е достапна во зависност од врската со Wi‑Fi и мобилната мрежа. Содржините од вашите повици не се испраќаат до Google.</string>
-    <string name="clear_calling_title">Јасни повици</string>
-    <string name="clear_calling_toggle">Користи „Јасни повици“</string>
+    <string name="clear_calling_footer">"За да ја заштити вашата приватност, „Јасни повици“ никогаш не испраќа аудио или разговори во Google.
+
+Достапноста на „Јасни повици“ зависи од Wi‑Fi мрежата и мобилната мрежа."</string>
+    <string name="clear_calling_title">Јасно повикување</string>
+    <string name="clear_calling_toggle">Користете „Јасно повикување“</string>
     <string name="clear_calling_topintro">Ги намалува заднинските шумови за време на повиците</string>
     <string name="columbus_gesture_detected">Откриен е „Брз допир“!</string>
     <string name="columbus_gesture_enrollment_complete">Готово</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Изберете што да се случува кога ќе ја отворите апликацијава со „Брз допир“.</string>
     <string name="columbus_setting_enable_switch_title">Користи „Брз допир“</string>
     <string name="columbus_setting_sensitivity_title">Барај посилни допири</string>
+    <string name="communal_cast_summary">Емитувајте на или од уредов</string>
+    <string name="communal_lock_screen_summary">Приватност, известувања и контроли за домот</string>
+    <string name="communal_settings_summary_1">Однесување кога е заклучен и приклучен на док</string>
+    <string name="communal_settings_summary_2">Опции на док</string>
+    <string name="communal_settings_summary_3">Опции за приклучување на док и заклучен екран</string>
+    <string name="communal_settings_summary_4">Опции за заклучен екран и на док</string>
+    <string name="communal_settings_title">Режим Hub</string>
+    <string name="communal_smartspace_summary">Потсетници, предупредувања и друго од „Помошникот“</string>
+    <string name="communal_smartspace_title">На прв поглед</string>
+    <string name="communal_what_to_show">Што да се прикажува</string>
+    <string name="communal_what_to_use">Што да се користи</string>
     <string name="connectivity_helper_call_quality_category">Квалитет на повик</string>
     <string name="connectivity_helper_call_quality_summary">Добивајте известувања за случаи со проблеми со врската за време на повици</string>
     <string name="connectivity_helper_call_quality_title">Добивајте известувања</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Прикажи картички и пропусници</string>
     <string name="install_unknown_applications">Дозволи инсталација на апликации од други извори освен Play Store</string>
     <string name="keywords_accessibility_menu">моторна, брзо мени, помошно мени, допир, попреченост</string>
+    <string name="keywords_adaptive_alert_vibration">повратни информации со допир, вибрации, телефон, повик, ѕвони, известување, известувања, гласно, тивко, шум, футрола, адаптивен</string>
     <string name="keywords_adaptive_charging">полнење, паметно полнење, адаптивно полнење, батерија, трајност на батеријата</string>
     <string name="keywords_assist_gesture_launch">движење, раб, страна, активен раб, стискање, стисок, помош, помошник, стисни, ok google, помошник на google</string>
     <string name="keywords_assist_gesture_silence">движење, раб, страна, активен раб, тишина, одложи аларм, аларм, дојдовен повик, тивко, приказ, заклучен екран, стискање, стисок, сопри</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Мојот Pixel</string>
     <string name="my_device_info_account_preference_title">Сметка на Google</string>
     <string name="owner_info_settings_edit_text_hint">На пр. Pixel-от на Миле.</string>
-    <string name="remove">Отстрани</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Ќе се вклучи автоматски краток период кога телефонот е поврзан со полнач</string>
     <string name="reverse_charging_auto_turn_on_title">Вклучи автоматски</string>
     <string name="reverse_charging_charging_wirelessly_message">Не е достапно бидејќи батеријата се полни безжично</string>
@@ -334,9 +345,8 @@
     <string name="suw_limited_warranty_title">Ограничена гаранција</string>
     <string name="suw_more_button_label">Повеќе</string>
     <string name="suw_next_button_label">Следно</string>
-    <string name="suw_warranty_description">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот.&lt;br /&gt;&lt;br /&gt;Гаранцијата е исто така достапна во &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот. Гаранцијата е исто така достапна во „Поставки“, потоа %s, потоа „Ограничена гаранција“ и g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Ограничената гаранција што важи за вашиот уред е исто така достапна во „Поставки“ на уредот во &lt;b&gt;Поставки &gt; %s &gt; Ограничена гаранција&lt;/b&gt; и на g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот.&lt;br /&gt;&lt;br /&gt;Гаранцијата е исто така достапна во &lt;b&gt;Поставки &gt; За телефонот &gt; Ограничена гаранција&lt;/b&gt; и g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">За да ја прегледате ограничената гаранција, изберете ја земјата во која го купивте уредот. Гаранцијата е исто така достапна во „Поставки“, потоа „За телефонот“, потоа „Ограничена гаранција“ и g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Следно</string>
     <string name="suw_warranty_positive_button_text">Затвори</string>
     <string name="time_remaining_warning_subtext">Уште околу %1$s според досегашното користење</string>
@@ -345,10 +355,6 @@
     <string name="tips_suggestion_title">Запознајте го вашиот Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Држете го телефонот пред лицето</string>
     <string name="usb_use_file_transfers">Пренос на датотеки/Android Auto</string>
-    <string name="vpn_app_bypass">Не користете VPN за избрани апликации</string>
-    <string name="vpn_bypass_category_title">Не користете VPN за апликацииве</string>
-    <string name="vpn_bypass_description">Можете да дозволите некои апликации да игнорираат VPN и да ја користат вообичаената мрежна врска на телефонот</string>
-    <string name="vpn_preference_group_title">Други</string>
     <string name="wallpaper_dashboard_summary">Бои, икони со тема, мрежа со апликации</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Прегледајте ја или изменете ја претплатата за OpenRoaming</string>

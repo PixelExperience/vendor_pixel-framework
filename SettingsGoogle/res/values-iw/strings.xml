@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">הגברת הרגישות למגע ושיפור המגע בזמן השימוש במגן מסך</string>
     <string name="touch_sensitivity_title">מצב מגן מסך</string>
     <string name="columbus_title">הקשה מהירה לביצוע פעולות</string>
-    <string name="about_phone">מידע על הטלפון</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏Active Edge מוגדר. אפשר לעבור למסך הבא או להמשיך בהתאמה.</string>
     <string name="accessibility_keyboard_haptics_title">מגע פיזי במקלדת</string>
+    <string name="adaptive_alert_vibration_summary">כדי להפחית את עוצמת הרטט כשהטלפון יציב והמסך שלו פונה כלפי מעלה</string>
+    <string name="adaptive_alert_vibration_title">רטט של התראה שניתן להתאמה</string>
     <string name="adaptive_charging">טעינה דינמית</string>
     <string name="adaptive_charging_description">חיי הסוללה יוארכו על ידי טעינה בזמנים קבועים למשך זמן רב יותר. האפשרות הופעלה על סמך מחזור השימוש שלך בסוללה.</string>
     <string name="adaptive_charging_time_estimate"><b>טעינה דינמית</b> • טעינה מלאה בשעה %1$s</string>
-    <string name="add_bypassed_application_hint">לא נוספו אפליקציות</string>
-    <string name="advanced_vpn_preference_group_title">מובנה</string>
-    <string name="all_apps_category_title">כל האפליקציות</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">העדפות</annotation></string>
     <string name="app_and_notification_dashboard_summary">‏Assistant, אפליקציות אחרונות, אפליקציות ברירת מחדל</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">‏המשך אל Assistant</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">כדי להגן על הסוללה, הטעינה מושהית במצב של %1$s כשהטאבלט נמצא באביזר העגינה</string>
     <string name="battery_tip_smart_battery_summary">הפעלת סוללה שניתנת להתאמה</string>
     <string name="bluetooth_untethered_unpair_dialog_body">‏תבוטל ההתאמה בין %1$s לבין כל מכשיר שמקושר לחשבון Google הזה</string>
-    <string name="clear_calling_footer">"‏התכונה 'שיחה ללא רעשי רקע' זמינה בהתאם לחיבור ה-‎Wi-Fi והחיבור לרשת הסלולרית. תוכן השיחה לא נשלח אל Google."</string>
-    <string name="clear_calling_title">שיחה ללא רעשי רקע</string>
-    <string name="clear_calling_toggle">"שימוש בתכונה 'שיחה ללא רעשי רקע'"</string>
+    <string name="clear_calling_footer">"‏כדי להגן על הפרטיות שלך, התכונה 'שיחה ללא רעשי רקע' לעולם לא שולחת אודיו או שיחות ל-Google.
+
+התכונה 'שיחה ללא רעשי רקע' זמינה בהתאם לחיבור ה-‎Wi-Fi והחיבור לרשת הסלולרית."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">‏שימוש ב-Clear Calling</string>
     <string name="clear_calling_topintro">הפחתת רעשי רקע במהלך שיחות</string>
     <string name="columbus_gesture_detected">זוהתה הקשה מהירה!</string>
     <string name="columbus_gesture_enrollment_complete">סיום</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">צריך לבחור מה קורה כשפותחים את האפליקציה באמצעות ההקשה המהירה.</string>
     <string name="columbus_setting_enable_switch_title">שימוש בהקשה המהירה</string>
     <string name="columbus_setting_sensitivity_title">הגברת עוצמת ההקשה</string>
+    <string name="communal_cast_summary">‏העברה (cast) למכשיר הזה או ממנו</string>
+    <string name="communal_lock_screen_summary">פרטיות, התראות ופקדים לשליטה בבית חכם</string>
+    <string name="communal_settings_summary_1">התנהגות כשהמכשיר נעול ובאביזר העגינה</string>
+    <string name="communal_settings_summary_2">אפשרויות בזמן העגינה</string>
+    <string name="communal_settings_summary_3">אפשרויות באביזר העגינה ובמסך הנעילה</string>
+    <string name="communal_settings_summary_4">אפשרויות במסך הנעילה ובזמן העגינה</string>
+    <string name="communal_settings_title">מצב רכזת</string>
+    <string name="communal_smartspace_summary">‏קבלת תזכורות, התראות ועוד מ-Assistant</string>
+    <string name="communal_smartspace_title">בקצרה</string>
+    <string name="communal_what_to_show">מה להציג</string>
+    <string name="communal_what_to_use">במה כדאי להשתמש</string>
     <string name="connectivity_helper_call_quality_category">איכות השיחה</string>
     <string name="connectivity_helper_call_quality_summary">קבלת עדכונים על גורמים לבעיות בחיבור במהלך שיחות</string>
     <string name="connectivity_helper_call_quality_title">קבלת עדכונים</string>
@@ -200,6 +211,7 @@
     <string name="global_actions_panel_title">הצגת כרטיסים</string>
     <string name="install_unknown_applications">‏אישור התקנת אפליקציות ממקורות אחרים שאינם חנות Play</string>
     <string name="keywords_accessibility_menu">מוטורי, תפריט מהיר, תפריט מסייע, מגע, מוטוריקה עדינה</string>
+    <string name="keywords_adaptive_alert_vibration">מגע, רטט, טלפון, שיחה, צלצול, התראה, הודעות, רועש, שקט, רעש, כיסוי, אפשרות להתאמה</string>
     <string name="keywords_adaptive_charging">טעינה, טעינה דינמית, מתבצעת טעינה, טעינה חכמה, טעינה ניתנת להתאמה, סוללה, תקינות הסוללה</string>
     <string name="keywords_assist_gesture_launch">"‏תנועה, מחווה, אדג', צד, כיווץ, תפיסה, לחץ משני צדי המכשיר, אחיזה, עזרה, אסיסטנט, assistant, Ok Google‏, אוקיי גוגל, אסיסטנט של גוגל, google assistant, gesture, edge, side, active edge, squeeze, grip, assist, assistant, ok google, google assistant"</string>
     <string name="keywords_assist_gesture_silence">"‏תנועה, מחווה, אדג', צד, אקטיב אדג', השתק, השתקה, נודניק, שעון מעורר, שיחה נכנסת, שקט, מצב שקט, מסך, צג, תצוגה, מסך נעילה, נעילת מסך, לחץ משני צדי המכשיר, אחיזה, תפיסה, עצירה, gesture, edge, side, active edge, silence, snooze, alarm, incoming call, quiet, display, lockscreen, squeeze, grip, stop"</string>
@@ -226,7 +238,6 @@
     <string name="me_card_title">‏ה-Pixel שלי</string>
     <string name="my_device_info_account_preference_title">‏חשבון Google</string>
     <string name="owner_info_settings_edit_text_hint">‏לדוגמה, ה-Pixel של יוסי.</string>
-    <string name="remove">הסרה</string>
     <string name="reverse_charging_auto_turn_on_subtitle">יופעל אוטומטית לפרק זמן קצר כשהטלפון יחובר למטען</string>
     <string name="reverse_charging_auto_turn_on_title">הפעלה אוטומטית</string>
     <string name="reverse_charging_charging_wirelessly_message">לא זמין מפני שהטלפון נטען באופן אלחוטי</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">אחריות מוגבלת</string>
     <string name="suw_more_button_label">עוד</string>
     <string name="suw_next_button_label">הבא</string>
-    <string name="suw_warranty_description">‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם ב&lt;b&gt;הגדרות &gt; %s &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">"‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה. תנאי האחריות זמינים גם ב'הגדרות' &gt; %s &gt; 'אחריות מוגבלת', ובכתובת g.co/devicewarranty."</string>
-    <string name="suw_warranty_language_consistent_description">‏האחריות המוגבלת שחלה על המכשיר שלך זמינה גם בהגדרות של המכשיר בקטע &lt;b&gt;הגדרות &gt;‏ %s &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם ב&lt;b&gt;הגדרות &gt; מידע על הטלפון &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">"‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה. תנאי האחריות זמינים גם ב'הגדרות' &gt; 'מידע על הטלפון' &gt; 'אחריות מוגבלת', ובכתובת g.co/devicewarranty."</string>
     <string name="suw_warranty_next_button_text">הבא</string>
     <string name="suw_warranty_positive_button_text">סגירה</string>
     <string name="time_remaining_warning_subtext">על סמך נתוני שימוש קודמים, נשארו בערך %1$s</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">‏טיפים ל-Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">מחזיקים את הטלפון מול הפנים</string>
     <string name="usb_use_file_transfers">‏העברת קבצים / Android Auto</string>
-    <string name="vpn_app_bypass">‏אין להשתמש ב-VPN עבור האפליקציות שנבחרו</string>
-    <string name="vpn_bypass_category_title">‏אין להשתמש ב-VPN עבור האפליקציות האלה</string>
-    <string name="vpn_bypass_description">‏אפשר להעניק לחלק מהאפליקציות האלה הרשאה להתעלם מה-VPN ולהשתמש בחיבור לרשת הרגילה של הטלפון</string>
-    <string name="vpn_preference_group_title">אחרים</string>
     <string name="wallpaper_dashboard_summary">צבעים, סמלים מעוצבים, תצוגת אפליקציות</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏הצגה או שינוי של מינוי OpenRoaming</string>

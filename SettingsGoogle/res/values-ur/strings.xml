@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">اسکرین پروٹیکٹر استعمال کرتے وقت ٹچ کی حساسیت میں اضافہ کریں اور ٹچ کو بہتر بنائیں</string>
     <string name="touch_sensitivity_title">اسکرین پروٹیکٹر موڈ</string>
     <string name="columbus_title">کارروائیاں شروع کرنے کے لیے فوری تھپتھپاہٹ</string>
-    <string name="about_phone">فون کے بارے میں</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏Active Edge سیٹ اپ۔ اگلی اسکرین پر جائيں یا ایڈجسٹ کرتے رہیں۔</string>
     <string name="accessibility_keyboard_haptics_title">کی بورڈ ہیپٹکس</string>
+    <string name="adaptive_alert_vibration_summary">جب آپ کا فون ساکن ہو اور اسکرین اوپر کی طرف ہو تو یہ وائبریشن کی طاقت کو کم کرتا ہے</string>
+    <string name="adaptive_alert_vibration_title">تغیر پذیر الرٹ وائبریشن</string>
     <string name="adaptive_charging">اڈاپٹیو چارجنگ</string>
     <string name="adaptive_charging_description">طویل چارجنگ کی مدت کے دوران مسلسل چارج کر کے بیٹری کی عمر بڑھائیں۔ آپ کے استعمال کے سائیکل کی بنیاد پر فعال کردہ۔</string>
     <string name="adaptive_charging_time_estimate"><b>اڈاپٹیو چارجنگ</b> • %1$s تک مکمل</string>
-    <string name="add_bypassed_application_hint">کوئی ایپ شامل نہیں کی گئی</string>
-    <string name="advanced_vpn_preference_group_title">پہلے سے شامل</string>
-    <string name="all_apps_category_title">سبھی ایپس</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">ترجیحات</annotation></string>
     <string name="app_and_notification_dashboard_summary">اسسٹنٹ، حالیہ ایپس، ڈیفالٹ ایپس</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">اسسٹنٹ پر جاری رہیں</string>
@@ -99,7 +97,9 @@
     <string name="battery_tip_limited_temporarily_extra_summary">آپ کے ٹیبلیٹ کے ڈاک ہونے کے دوران آپ کی بیٹری کی حفاظت کرنے کیلئے، چارجنگ کو %1$s پر روک دیا گیا ہے</string>
     <string name="battery_tip_smart_battery_summary">تغیر پذیر بیٹری آن کریں</string>
     <string name="bluetooth_untethered_unpair_dialog_body">‏%1$s اس Google اکاؤنٹ سے لنک کردہ کسی بھی آلہ کے ساتھ مزید نہیں جوڑا جائے گا</string>
-    <string name="clear_calling_footer">‏آپ کے Wi‑Fi اور موبائل نیٹ ورک کنکشن کی بنیاد پر واضح کالنگ دستیاب ہے۔ آپ کی کال سے متعلق مواد Google کو نہیں بھیجا جاتا ہے۔</string>
+    <string name="clear_calling_footer">"‏آپ کی رازداری کے تحفظ کے لیے، کلیئر کالنگ کبھی بھی آڈیو یا گفتگوئیں Google کو نہیں بھیجتی ہے۔
+
+ آپ کے Wi‑Fi اور موبائل نیٹ ورک کے لحاظ سے کلیئر کالنگ دستیاب ہے۔"</string>
     <string name="clear_calling_title">کلیئر کالنگ</string>
     <string name="clear_calling_toggle">کلیئر کالنگ کا استعمال کریں</string>
     <string name="clear_calling_topintro">کالز کے دوران پس منظر کے شور کو کم کرتی ہے</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">منتخب کریں کہ جب آپ فوری تھپتھپاہٹ کا استعمال کرتے ہوئے ایپ کھولتے ہیں تو کیا ہوتا ہے۔</string>
     <string name="columbus_setting_enable_switch_title">فوری تھپتھپاہٹ کا استعمال کریں</string>
     <string name="columbus_setting_sensitivity_title">مضبوط تھپتھپاہٹیں درکار ہیں</string>
+    <string name="communal_cast_summary">اس آلے میں یا اس سے کاسٹ کریں</string>
+    <string name="communal_lock_screen_summary">رازداری، اطلاعات اور ہوم کنٹرولز</string>
+    <string name="communal_settings_summary_1">لاک کردہ اور ڈاک کردہ برتاؤ</string>
+    <string name="communal_settings_summary_2">ڈاک کرنے پر دستیاب اختیارات</string>
+    <string name="communal_settings_summary_3">ڈاک اور لاک اسکرین کے اختیارات</string>
+    <string name="communal_settings_summary_4">لاک اسکرین اور ڈاک کرنے پر دستیاب اختیارات</string>
+    <string name="communal_settings_title">ہب موڈ</string>
+    <string name="communal_smartspace_summary">اسسٹنٹ کی جانب سے یاد دہانیاں، الرٹس اور بہت کچھ</string>
+    <string name="communal_smartspace_title">ایک نظر میں</string>
+    <string name="communal_what_to_show">کیا دکھانا ہے</string>
+    <string name="communal_what_to_use">کیا استعمال کرنا ہے</string>
     <string name="connectivity_helper_call_quality_category">کال کا معیار</string>
     <string name="connectivity_helper_call_quality_summary">کالز کے دوران کنکشن کے مسائل کی وجوہات کے بارے میں اطلاع حاصل کریں</string>
     <string name="connectivity_helper_call_quality_title">اطلاعات حاصل کریں</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">کارڈز اور پاسز دکھائیں</string>
     <string name="install_unknown_applications">‏Play اسٹور کے علاوہ دیگر مآخذ سے ایپس انسٹال کرنے کی اجازت دیں</string>
     <string name="keywords_accessibility_menu">اعصاب کی حرکی سرگرمی سے متعلق مہارتیں، فوری مینو، مددگار مینو، ٹچ، مہارت</string>
+    <string name="keywords_adaptive_alert_vibration">ہیپٹکس، وائبریٹ، فون، کال، رنگ، الرٹ، اطلاعات، بلند آواز، خاموش، شور، کیس، تغیر پذیر</string>
     <string name="keywords_adaptive_charging">چارج کریں، چارجنگ، اسمارٹ چارجنگ، اڈاپٹیو چارجنگ، بیٹری، بیٹری کی صحت</string>
     <string name="keywords_assist_gesture_launch">‏اشارہ، edge، سائڈ، active edge، دبانا، گرفت، اسسٹ، اسسٹنٹ ، دبانا، ok google، google اسسٹنٹ</string>
     <string name="keywords_assist_gesture_silence">‏اشارہ، edge، سائڈ، active edge، خاموشی، اسنوز، الارم، اِن کمنگ کال، خاموش، ڈسپلے، لاک اسکرین، دبانا، گرفت، بند کرنا</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">میرا پکسل</string>
     <string name="my_device_info_account_preference_title">‏Google اکاؤنٹ</string>
     <string name="owner_info_settings_edit_text_hint">‏جیسے، شمائلہ کا Pixel۔</string>
-    <string name="remove">ہٹائیں</string>
     <string name="reverse_charging_auto_turn_on_subtitle">جب آپ کا فون چارجر میں پلگ ان ہوتا ہے تو یہ تھوڑی مدت کے لیے خودکار طور پر آن ہو جائے گا</string>
     <string name="reverse_charging_auto_turn_on_title">خودکار طور پر آن کریں</string>
     <string name="reverse_charging_charging_wirelessly_message">دستیاب نہیں ہے کیونکہ فون وائر لیس طریقے سے چارج ہو رہا ہے</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">محدود وارنٹی</string>
     <string name="suw_more_button_label">مزید</string>
     <string name="suw_next_button_label">آگے</string>
-    <string name="suw_warranty_description">‏اپنی محدود وارنٹی دیکھنے کے لیے، وہ ملک منتخب کریں جہاں سے آپ نے یہ آلہ خریدا ہے۔&lt;br /&gt;&lt;br /&gt;وارنٹی &lt;b&gt;ترتیبات‏&gt; %s ‏&gt; محدود وارنٹی&lt;/b&gt; اور g.co/devicewarranty پر بھی دستیاب ہے۔</string>
-    <string name="suw_warranty_description_content">‏اپنی محدود وارنٹی دیکھنے کے لیے، وہ ملک منتخب کریں جہاں سے آپ نے یہ آلہ خریدا ہے۔ وارنٹی ترتیبات پھر %s اس کے بعد محدود وارنٹی اور g.co/devicewarranty پر بھی دستیاب ہے۔</string>
-    <string name="suw_warranty_language_consistent_description">‏آپ کے آلے پر قابل اطلاق محدود وارنٹی آلے کی ترتیبات میں &lt;b&gt;ترتیبات &gt; %s ‏&gt; محدود وارنٹی&lt;/b&gt; اور at g.co/devicewarranty پر بھی دستیاب ہے۔</string>
+    <string name="suw_warranty_description">‏اپنی محدود وارنٹی دیکھنے کے لیے، وہ ملک منتخب کریں جہاں سے آپ نے یہ آلہ خریدا ہے۔&lt;br /&gt;&lt;br /&gt;وارنٹی &lt;b&gt;ترتیبات‏&gt; فون ‏&gt; محدود وارنٹی&lt;/b&gt; اور g.co/devicewarranty پر بھی دستیاب ہے۔</string>
+    <string name="suw_warranty_description_content">‏اپنی محدود وارنٹی دیکھنے کے لیے، وہ ملک منتخب کریں جہاں سے آپ نے یہ آلہ خریدا ہے۔ وارنٹی ترتیبات پھر فون اس کے بعد محدود وارنٹی اور g.co/devicewarranty پر بھی دستیاب ہے۔</string>
     <string name="suw_warranty_next_button_text">اگلا</string>
     <string name="suw_warranty_positive_button_text">بند کریں</string>
     <string name="time_remaining_warning_subtext">گزشتہ استعمال کی بنیاد پر تقریباً %1$s باقی ہے</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">‏اپنے Pixel کے بارے میں جانیں</string>
     <string name="traffic_light_face_enrolling_title_accessibility">فون کو اپنے چہرے کے سامنے پکڑیں</string>
     <string name="usb_use_file_transfers">‏فائل کی منتقلی / Android Auto</string>
-    <string name="vpn_app_bypass">‏منتخب ایپس کے لیے VPN کا استعمال نہ کریں</string>
-    <string name="vpn_bypass_category_title">‏ان ایپس کے لیے VPN کا استعمال نہ کریں</string>
-    <string name="vpn_bypass_description">‏آپ کچھ ایپس کو VPN کو نظر انداز کرنے اور اپنے فون کا ریگولر نیٹ ورک کنکشن استعمال کرنے کی اجازت دے سکتے ہیں</string>
-    <string name="vpn_preference_group_title">دیگر</string>
     <string name="wallpaper_dashboard_summary">رنگ، تھیم کردہ آئیکنز، ایپ گرڈ</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏OpenRoaming سبسکرپشن دیکھیں یا تبدیل کریں</string>

@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Nyusa ukuzwela kokuthinta futhi uthuthukise ukuthinta lapho usebenzisa isivikeli sesikrini</string>
     <string name="touch_sensitivity_title">Imodi yesivikeli sesikrini</string>
     <string name="columbus_title">Thepha Ngokushesha ukuze uqalise izenzo</string>
-    <string name="about_phone">Mayelana nefoni</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Ukusetha kwe-Active Edge. Iya esikrinini esilandelayo noma qhubeka nokulungisa.</string>
     <string name="accessibility_keyboard_haptics_title">Ama-haptic wekhibhodi</string>
+    <string name="adaptive_alert_vibration_summary">Yehlisa amandla okudlidliza ngenkathi ifoni yakho inganyakazi futhi isikrini sibheke phezulu</string>
+    <string name="adaptive_alert_vibration_title">Ukudlidliza kwesixwayiso esiguquguqukayo</string>
     <string name="adaptive_charging">Ukushaja Okuvumelana Nezimo</string>
     <string name="adaptive_charging_description">Nweba impilo yebhethri ngokushaja kancane phakathi nezikhathi zokushaja ezinde. Yenziwe yasebenza ngokusekelwe kumjikelezo wakho wokusebenzisa.</string>
-    <string name="adaptive_charging_time_estimate"><b>Ukushaja okuzivumelanisa nezimo</b> • Izogcwala ngo-%1$s</string>
-    <string name="add_bypassed_application_hint">Awekho ama-app engeziwe</string>
-    <string name="advanced_vpn_preference_group_title">Yakhelwe ngaphakathi</string>
-    <string name="all_apps_category_title">Wonke ama-app</string>
+    <string name="adaptive_charging_time_estimate"><b>Ukushaja Okuzivumelanisa Nezimo</b> • Izogcwala ngo-%1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Okuncamelayo</annotation></string>
     <string name="app_and_notification_dashboard_summary">Umsizi, izinhlelo zokusebenza zakamuva, izinhlelo zokusebenza ezizenzakalelayo</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Qhubeka ukuze uye kumsizi</string>
@@ -99,9 +97,11 @@ Uma isetha kabusha, dlula kunqubo yokusetha uphinde ukhethe ukuletha idatha yakh
     <string name="battery_tip_limited_temporarily_extra_summary">Ukuze uvikele ibhethri lakho, ukushaja kumisiwe okwesikhashana ku-%1$s ngenkathi ithebulethi yakho idokhiwe</string>
     <string name="battery_tip_smart_battery_summary">Vula ibhethri le-Adaptive</string>
     <string name="bluetooth_untethered_unpair_dialog_body">I-%1$s ngeke isabhangqwa nanoma iyiphi idivayisi exhunywe kule akhawunti ye-Google</string>
-    <string name="clear_calling_footer">I-clear calling iyatholakala kuye nge-Wi-Fi yakho noxhumo lwenethiwekhi yeselula. Okuqukethwe okuvela kukholi yakho akuthunyelwa ku-Google.</string>
-    <string name="clear_calling_title">I-clear calling</string>
-    <string name="clear_calling_toggle">Sebenzisa i-clear calling</string>
+    <string name="clear_calling_footer">"Ukuze uvikele ubumfihlo bakho, Ukushaya Okucacile akuthumeli umsindo noma izingxoxo ku-Google.
+
+Ukusula Ukufona kuyatholakala kuye nge-Wi-Fi yakho nenethiwekhi yeselula."</string>
+    <string name="clear_calling_title">Ukufona Okucacile</string>
+    <string name="clear_calling_toggle">Sebenzisa Ukufona Okucacile</string>
     <string name="clear_calling_topintro">Inciphisa umsindo wangemuva phakathi namakholi</string>
     <string name="columbus_gesture_detected">Ukuthepha Okusheshayo kutholakele!</string>
     <string name="columbus_gesture_enrollment_complete">Kwenziwe</string>
@@ -147,6 +147,17 @@ Uma isetha kabusha, dlula kunqubo yokusetha uphinde ukhethe ukuletha idatha yakh
     <string name="columbus_setting_app_shortcut_selection_help_text">Khetha ukuthi kwenzekani lapho uvula le app usebenzisa Ukuthepha Okusheshayo.</string>
     <string name="columbus_setting_enable_switch_title">Sebenzisa Ukuthepha Okusheshayo</string>
     <string name="columbus_setting_sensitivity_title">Idinga ukuthepha okunamandla</string>
+    <string name="communal_cast_summary">Sakaza ukuya noma ukusuka kule divayisi</string>
+    <string name="communal_lock_screen_summary">Ubumfihlo, izaziso, Nezilawuli zasekhaya</string>
+    <string name="communal_settings_summary_1">Okukhiyiwe nokuziphatha okudokhiwe</string>
+    <string name="communal_settings_summary_2">Okukhethwa kukho kudokhu</string>
+    <string name="communal_settings_summary_3">Okungakhethwa kukho kokudokha nokukhiya isikrini</string>
+    <string name="communal_settings_summary_4">Khiya isikrini nokungakhethwa kukho okukudokhu</string>
+    <string name="communal_settings_title">Imodi yehabhu</string>
+    <string name="communal_smartspace_summary">Izikhumbuzi, izexwayiso, nokunye okwengeziwe okuvela ku-Assistant</string>
+    <string name="communal_smartspace_title">Ngokubuka nje</string>
+    <string name="communal_what_to_show">Yini engaboniswa</string>
+    <string name="communal_what_to_use">Okuzosetshenziswa</string>
     <string name="connectivity_helper_call_quality_category">Ikhwalithi yekholi</string>
     <string name="connectivity_helper_call_quality_summary">Yaziswa ngezimbangela zezinkinga zoxhumo phakathi namakholi</string>
     <string name="connectivity_helper_call_quality_title">Thola izaziso</string>
@@ -201,6 +212,7 @@ Idatha eyenziwe isipele ngeke ibalwe ngokubhekiswe ku-quota yesitoreji sakho seD
     <string name="global_actions_panel_title">Bonisa amakhadi nokudlula</string>
     <string name="install_unknown_applications">Vumela ukufaka kwezinhlelo zokusebenza kusuka emithonjeni ngaphandle kwe-Play Store</string>
     <string name="keywords_accessibility_menu">i-motor, imenyu esheshayo, imenyu yokusiza, ukuthinta, i-dexterity</string>
+    <string name="keywords_adaptive_alert_vibration">ama-haptic, ukudlidliza, ifoni, ikholi, khala, isexwayiso, izaziso, phezulu, kuthule, umsindo, ikesi, ukuzivumelanisa nezimo</string>
     <string name="keywords_adaptive_charging">shaja, ukushaja, ukushaja okusmathi, ukushaja oku-adaptive, ibhethri, impilo yebhethri</string>
     <string name="keywords_assist_gesture_launch">ukuthinta, umphetho, uhlangothi, umphetho osebenzayo, ukuminyanisa, ukubamba, ukusiza, usizo, ukuminyanisa, ok google, umsizi we-google</string>
     <string name="keywords_assist_gesture_silence">ukuthinta, umphetho, uhlangothi, umphetho osebenzayo, ukuthula, ukusnuza, i-alamu, ikholi engenayo, ukuthula, bonisa, ukukhiya isikrini, ukuminyanisa, ukubamba, ukumisa</string>
@@ -227,7 +239,6 @@ Idatha eyenziwe isipele ngeke ibalwe ngokubhekiswe ku-quota yesitoreji sakho seD
     <string name="me_card_title">I-Pixel yami</string>
     <string name="my_device_info_account_preference_title">I-akhawunti ye-Google</string>
     <string name="owner_info_settings_edit_text_hint">Isb., i-Pixel ka-Sipho.</string>
-    <string name="remove">Susa</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Izovuleka ngokuzenzakalelayo isikhathi esifushane uma ifoni yakho ixhunywe kushaja</string>
     <string name="reverse_charging_auto_turn_on_title">Vula ngokuzenzakalela</string>
     <string name="reverse_charging_charging_wirelessly_message">Akutholakali ngoba ifoni ishaja ngokungenantambo</string>
@@ -332,9 +343,8 @@ Ukuze uthuthukise ukusebenza, ungasetha futhi Ukuvula ngobuso kokuthi Amasething
     <string name="suw_limited_warranty_title">Ukuqinisekisa okukhawulelwe</string>
     <string name="suw_more_button_label">Okuningi</string>
     <string name="suw_next_button_label">Okulandelayo</string>
-    <string name="suw_warranty_description">Ukuze ubuke ukuqinisekisa kwakho okukhawulelwe, khetha izwe othenge kulo le divayisi.&lt;br /&gt;&lt;br /&gt;Isiqinisekiso siyatholakala kokuthi &lt;b&gt;Amasethingi &gt; %s &gt; Ukuqinisekisa okukhawulelwe&lt;/b&gt; nakokuthi g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Ukuze ubuke ukuqinisekisa kwakho okukhawulelwe, khetha izwe othenge kulo le divayisi. Isiqinisekiso siyatholakala nakokuthi Amasethingi bese uya kokuthi %s bese uya kokuthi Ukuqinisekisa okukhawulelwe nakokuthi g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Ukuqinisekisa okukhawulelwe okusebenza kudivayisi yakho kuphinde kutholakale Kumasethingi edivayisi kokuthi &lt;b&gt;Amasethingi &gt; %s &gt; Ukuqinisekisa okukhawulelwe&lt;/b&gt; nakokuthi g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Ukuze ubuke ukuqinisekisa kwakho okukhawulelwe, khetha izwe othenge kulo le divayisi.&lt;br /&gt;&lt;br /&gt;Isiqinisekiso siyatholakala kokuthi &lt;b&gt;Amasethingi &gt; Mayelana nedivayisi &gt; Ukuqinisekisa okukhawulelwe&lt;/b&gt; nakokuthi g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Ukuze ubuke ukuqinisekisa kwakho okukhawulelwe, khetha izwe othenge kulo le divayisi. Isiqinisekiso siyatholakala nakokuthi Amasethingi bese uya kokuthi Mayelana nedivayisi bese uya kokuthi Ukuqinisekisa okukhawulelwe nakokuthi g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Okulandelayo</string>
     <string name="suw_warranty_positive_button_text">Vala</string>
     <string name="time_remaining_warning_subtext">Cishe kusele okungu-%1$s kusukela ekusetshenzisweni kwakho</string>
@@ -343,10 +353,6 @@ Ukuze uthuthukise ukusebenza, ungasetha futhi Ukuvula ngobuso kokuthi Amasething
     <string name="tips_suggestion_title">Yazi i-Pixel yakho</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Bamba ifoni phambi kobuso bakho</string>
     <string name="usb_use_file_transfers">Ukudluliselwa kwefayela / i-Android Auto</string>
-    <string name="vpn_app_bypass">Ungasebenzisi i-VPN kuma-app akhethiwe</string>
-    <string name="vpn_bypass_category_title">Ungasebenzisi i-VPN kulama app</string>
-    <string name="vpn_bypass_description">Ungavumela amanye ama-app ukuthi azibe i-VPN futhi asebenzise uxhumo lenethiwekhi oluvamile lwefoni yakho</string>
-    <string name="vpn_preference_group_title">Abanye</string>
     <string name="wallpaper_dashboard_summary">Imibala, izithonjana ezinetimu, igridi ye-app</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Buka noma shintsha okubhalisile kwe-OpenRoaming</string>
