@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <style name="NoScreenSaverTextColor">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
     <style name="SuggestionCardIconStyle">
         <item name="android:tint">?android:textColorPrimaryInverse</item>
     </style>

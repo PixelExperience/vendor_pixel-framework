@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Augmenta la sensibilitat al tacte i millora la resposta tàctil en utilitzar un protector de pantalla</string>
     <string name="touch_sensitivity_title">Mode de protector de pantalla</string>
     <string name="columbus_title">Toc ràpid per iniciar accions</string>
-    <string name="about_phone">Informació del telèfon</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">"Configuració d'Active Edge. Ves a la pantalla següent o continua ajustant."</string>
     <string name="accessibility_keyboard_haptics_title">Tecnologia hàptica del teclat</string>
+    <string name="adaptive_alert_vibration_summary">Redueix la intensitat de la vibració mentre el telèfon està quiet i la pantalla és cara amunt</string>
+    <string name="adaptive_alert_vibration_title">"Vibració d'alerta adaptativa"</string>
     <string name="adaptive_charging">Càrrega intel·ligent</string>
     <string name="adaptive_charging_description">"Allarga la vida útil de la bateria carregant-la de manera estable durant períodes de càrrega més llargs. S'ha activat en funció del teu cicle d'ús."</string>
-    <string name="adaptive_charging_time_estimate"><b>Càrrega intel·ligent</b>" • S'haurà carregat a les %1$s"</string>
-    <string name="add_bypassed_application_hint">"No s'ha afegit cap aplicació"</string>
-    <string name="advanced_vpn_preference_group_title">Integrat</string>
-    <string name="all_apps_category_title">Totes les aplicacions</string>
+    <string name="adaptive_charging_time_estimate"><b>Càrrega intel·ligent</b>" • S'haurà completat a les %1$s"</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferències</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, aplicacions recents, aplicacions predeterminades</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">"Inicia l'Assistent"</string>
@@ -99,7 +97,9 @@ Quan s'hagi restablert, completa el procés de configuració i tria copiar les d
     <string name="battery_tip_limited_temporarily_extra_summary">"Per protegir la bateria, la càrrega s'atura al %1$s mentre la tauleta està connectada a la base"</string>
     <string name="battery_tip_smart_battery_summary">Activa la bateria adaptativa</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s es desvincularà de qualsevol dispositiu enllaçat a aquest Compte de Google</string>
-    <string name="clear_calling_footer">"Les trucades nítides estan disponibles en funció de la connexió Wi‑Fi i a la xarxa mòbil. El contingut de la trucada no s'envia a Google."</string>
+    <string name="clear_calling_footer">"Per protegir la teva privadesa, Trucades nítides mai envia l'àudio ni les conversacions a Google.
+
+Trucades nítides està disponible segons la teva connexió a la xarxa Wi‑Fi i mòbil."</string>
     <string name="clear_calling_title">Trucades nítides</string>
     <string name="clear_calling_toggle">Utilitza Trucades nítides</string>
     <string name="clear_calling_topintro">Redueix els sorolls de fons durant les trucades</string>
@@ -147,6 +147,17 @@ Quan s'hagi restablert, completa el procés de configuració i tria copiar les d
     <string name="columbus_setting_app_shortcut_selection_help_text">Tria què passa quan obres aquesta aplicació amb Toc ràpid.</string>
     <string name="columbus_setting_enable_switch_title">Utilitza Toc ràpid</string>
     <string name="columbus_setting_sensitivity_title">Requereix tocs més forts</string>
+    <string name="communal_cast_summary">"Emet contingut en o des d'aquest dispositiu"</string>
+    <string name="communal_lock_screen_summary">Privadesa, notificacions i domòtica</string>
+    <string name="communal_settings_summary_1">Funcionament quan està bloquejat i acoblat</string>
+    <string name="communal_settings_summary_2">"Opcions d'acoblament"</string>
+    <string name="communal_settings_summary_3">Opcions de base i de pantalla de bloqueig</string>
+    <string name="communal_settings_summary_4">"Opcions de pantalla de bloqueig i d'acoblament"</string>
+    <string name="communal_settings_title">Mode Hub</string>
+    <string name="communal_smartspace_summary">"Recordatoris, alertes i més de l'Assistent"</string>
+    <string name="communal_smartspace_title">"D'una ullada"</string>
+    <string name="communal_what_to_show">Què es mostra</string>
+    <string name="communal_what_to_use">Què cal utilitzar</string>
     <string name="connectivity_helper_call_quality_category">Qualitat de la trucada</string>
     <string name="connectivity_helper_call_quality_summary">Obtén notificacions sobre les causes dels problemes de connexió durant les trucades</string>
     <string name="connectivity_helper_call_quality_title">Rep notificacions</string>
@@ -201,6 +212,7 @@ Les dades de la còpia de seguretat no ocupen espai de la teva quota d'emmagatze
     <string name="global_actions_panel_title">Mostra targetes i passis</string>
     <string name="install_unknown_applications">"Permet la instal·lació d'aplicacions que no siguin de Play Store"</string>
     <string name="keywords_accessibility_menu">"motor, menú ràpid, menú d'assistència, toc, destresa"</string>
+    <string name="keywords_adaptive_alert_vibration">tecnologia hàptica, vibració, telèfon, trucada, so, alerta, notificacions, fort, fluix, soroll, funda, adaptatiu</string>
     <string name="keywords_adaptive_charging">càrrega, carregar, càrrega intel·ligent, càrrega intel·ligent, bateria, estat de la bateria</string>
     <string name="keywords_assist_gesture_launch">gest, lateral, costat, active edge, estrènyer, agafar, assistència, assistent, estrènyer, ok google, assistent de google</string>
     <string name="keywords_assist_gesture_silence">gest, lateral, costat, active edge, silenciar, posposar, alarma, trucada entrant, baix, visualització, pantalla de bloqueig, estrènyer, agafar, aturar</string>
@@ -227,7 +239,6 @@ Les dades de la còpia de seguretat no ocupen espai de la teva quota d'emmagatze
     <string name="me_card_title">El meu Pixel</string>
     <string name="my_device_info_account_preference_title">Compte de Google</string>
     <string name="owner_info_settings_edit_text_hint">"P. ex.: el Pixel de l'Anna."</string>
-    <string name="remove">Suprimeix</string>
     <string name="reverse_charging_auto_turn_on_subtitle">"S'activarà automàticament durant un període curt de temps quan el telèfon estigui connectat a un carregador"</string>
     <string name="reverse_charging_auto_turn_on_title">Activa automàticament</string>
     <string name="reverse_charging_charging_wirelessly_message">"No està disponible perquè el telèfon s'està carregant sense fil"</string>
@@ -334,9 +345,8 @@ Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Conf
     <string name="suw_limited_warranty_title">Garantia limitada</string>
     <string name="suw_more_button_label">Més</string>
     <string name="suw_next_button_label">Següent</string>
-    <string name="suw_warranty_description">Per veure la teva garantia limitada, selecciona el país on has comprat aquest dispositiu.&lt;br /&gt;&lt;br /&gt;La garantia també està disponible a &lt;b&gt;Configuració &gt; %s &gt; Garantia limitada&lt;/b&gt;, i a g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Per veure la teva garantia limitada, selecciona el país on has comprat aquest dispositiu. La garantia també està disponible seleccionant Configuració, %s i, a continuació, Garantia limitada, i a g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">La garantia limitada aplicable al teu dispositiu també està disponible a &lt;b&gt;Configuració &gt; %s &gt; Garantia limitada&lt;/b&gt; i a g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Per veure la teva garantia limitada, selecciona el país on has comprat aquest dispositiu.&lt;br /&gt;&lt;br /&gt;La garantia també està disponible a &lt;b&gt;Configuració &gt; Informació del telèfon &gt; Garantia limitada&lt;/b&gt;, i a g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Per veure la teva garantia limitada, selecciona el país on has comprat aquest dispositiu. La garantia també està disponible a Configuració, després Informació del telèfon i, a continuació, Garantia limitada, i a g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Següent</string>
     <string name="suw_warranty_positive_button_text">Tanca</string>
     <string name="time_remaining_warning_subtext">"Temps restant aproximat segons l'ús fet anteriorment: %1$s"</string>
@@ -345,10 +355,6 @@ Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Conf
     <string name="tips_suggestion_title">Coneix el teu Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Subjecta el telèfon davant de la cara</string>
     <string name="usb_use_file_transfers">Transferència de fitxers / Android Auto</string>
-    <string name="vpn_app_bypass">No utilitzis la VPN per a les aplicacions seleccionades</string>
-    <string name="vpn_bypass_category_title">No utilitzis la VPN per a aquestes aplicacions</string>
-    <string name="vpn_bypass_description">Pots permetre que algunes aplicacions ignorin la VPN i utilitzin la connexió a la xarxa normal del telèfon</string>
-    <string name="vpn_preference_group_title">Altres</string>
     <string name="wallpaper_dashboard_summary">"Colors, icones temàtiques, quadrícula d'aplicacions"</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Consulta o canvia la subscripció a OpenRoaming</string>

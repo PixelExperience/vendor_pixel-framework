@@ -7,16 +7,13 @@
     <string name="touch_sensitivity_summary">Pataasin ang pagkasensitibo sa pagpindot at pahusayin ang pagpindot kapag gumagamit ng screen protector</string>
     <string name="touch_sensitivity_title">Screen protector mode</string>
     <string name="columbus_title">Mag-Quick Tap para magsimula ng mga pagkilos</string>
-    <string name="about_phone">Tungkol sa telepono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Pag-set up ng Active Edge. Pumunta sa susunod na screen o patuloy na mag-adjust.</string>
     <string name="accessibility_keyboard_haptics_title">Haptics sa keyboard</string>
+    <string name="adaptive_alert_vibration_summary">Binabawasan ang lakas ng pag-vibrate kapag nakalapag ang iyong telepono nang nakaangat ang screen</string>
+    <string name="adaptive_alert_vibration_title">Adaptive na pag-vibrate ng alerto</string>
     <string name="adaptive_charging">Adaptive na Pag-charge</string>
     <string name="adaptive_charging_description">Pahabain ang tagal ng baterya sa pamamagitan ng pag-charge nang mabagal sa loob ng mas matatagal na panahon ng pag-charge. Na-activate batay sa iyong cycle ng paggamit.</string>
-    <string name="adaptive_charging_time_estimate"><b>Adaptive na pag-charge</b> • Mapupuno bago ang %1$s</string>
-    <string name="add">Idagdag</string>
-    <string name="add_bypassed_application_hint">Walang idinagdag na app</string>
-    <string name="advanced_vpn_preference_group_title">Built-in</string>
-    <string name="all_apps_category_title">Lahat ng app</string>
+    <string name="adaptive_charging_time_estimate"><b>Adaptive na Pag-charge</b> • Mapupuno bago ang %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Mga Kagustuhan</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistant, mga kamakailang app, mga default na app</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Tumuloy sa Assistant</string>
@@ -99,9 +96,11 @@ Kapag na-reset na ito, sundan ang proseso ng pag-setup at pumili upang mailipat 
     <string name="battery_tip_limited_temporarily_extra_summary">Para protektahan ang iyong baterya, mapo-pause ang pag-charge sa %1$s habang naka-dock ang tablet mo</string>
     <string name="battery_tip_smart_battery_summary">I-on ang Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Hindi na ipapares ang %1$s sa anumang device na naka-link sa Google Account na ito</string>
-    <string name="clear_calling_footer">Available ang malinaw na pagtawag depende sa iyong Wi-Fi at koneksyon ng mobile network Hindi ipinapadala sa Google ang content mula sa iyong tawag.</string>
-    <string name="clear_calling_title">Malinaw na tawag</string>
-    <string name="clear_calling_toggle">Gamitin ang malinaw na tawag</string>
+    <string name="clear_calling_footer">"Para maprotektahan ang iyong privacy, hindi kailanman nagpapadala ang Malinaw na Tawag ng audio o mga pag-uusap sa Google.
+
+Available ang Malinaw na Pagtawag depende sa iyong Wi‑Fi at mobile network."</string>
+    <string name="clear_calling_title">Malinaw na Pagtawag</string>
+    <string name="clear_calling_toggle">Gamitin ang Malinaw na Pagtawag</string>
     <string name="clear_calling_topintro">Binabawasan ang mga ingay sa background kapag may mga tawag</string>
     <string name="columbus_gesture_detected">May na-detect na Quick Tap!</string>
     <string name="columbus_gesture_enrollment_complete">Tapos na</string>
@@ -147,6 +146,17 @@ Kapag na-reset na ito, sundan ang proseso ng pag-setup at pumili upang mailipat 
     <string name="columbus_setting_app_shortcut_selection_help_text">Piliin kung ano ang mangyayari kapag binuksan mo ang app na ito gamit ang Quick Tap.</string>
     <string name="columbus_setting_enable_switch_title">Gamitin ang Quick Tap</string>
     <string name="columbus_setting_sensitivity_title">Kailanganin ang mas malalakas na pag-tap</string>
+    <string name="communal_cast_summary">Mag-cast sa o mula sa device na ito</string>
+    <string name="communal_lock_screen_summary">Privacy, mga notification, at mga Home control</string>
+    <string name="communal_settings_summary_1">Gawi kapag naka-lock at naka-dock</string>
+    <string name="communal_settings_summary_2">Mga opsyon kapag naka-dock</string>
+    <string name="communal_settings_summary_3">Mga opsyon sa dock at lock screen</string>
+    <string name="communal_settings_summary_4">Mga opsyon sa lock screen at habang naka-dock</string>
+    <string name="communal_settings_title">Hub mode</string>
+    <string name="communal_smartspace_summary">Mga paalala, alerto, at higit pa mula sa Assistant</string>
+    <string name="communal_smartspace_title">Sa isang sulyap</string>
+    <string name="communal_what_to_show">Ang ipapakita</string>
+    <string name="communal_what_to_use">Ano ang dapat gamitin</string>
     <string name="connectivity_helper_call_quality_category">Kalidad ng tawag</string>
     <string name="connectivity_helper_call_quality_summary">Maabisuhan tungkol sa mga dahilan ng mga isyu sa koneksyon sa panahon ng mga tawag</string>
     <string name="connectivity_helper_call_quality_title">Makatanggap ng mga notification</string>
@@ -201,6 +211,7 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="global_actions_panel_title">Ipakita ang mga card at pass</string>
     <string name="install_unknown_applications">Payagan ang pag-install ng mga app mula sa mga pinagmulan maliban sa Play Store</string>
     <string name="keywords_accessibility_menu">motor, mabilisang menu, pantulong na menu, pagpindot, kahusayan sa paggalaw</string>
+    <string name="keywords_adaptive_alert_vibration">haptics, pag-vibrate, telepono, tawag, pag-ring, alerto, mga notification, malakas, mahina, ingay, case, adaptive</string>
     <string name="keywords_adaptive_charging">charge, pag-charge, smart na pag-charge, adaptive na pag-charge, baterya, tagal ng baterya</string>
     <string name="keywords_assist_gesture_launch">galaw, edge, gilid, active edge, i-squeeze, i-grip, tulong, assistant, i-squeeze, ok google, google assistant</string>
     <string name="keywords_assist_gesture_silence">galaw, edge, gilid, active edge, i-silent, i-snooze, alarm, papasok na tawag, tahimik, display, lockscreen, i-squeeze, i-grip, ihinto</string>
@@ -227,7 +238,6 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="me_card_title">Aking Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Hal., Pixel ni Joe.</string>
-    <string name="remove">Alisin</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Awtomatikong mag-o-on nang saglit kapag nakasaksak sa charger ang iyong telepono</string>
     <string name="reverse_charging_auto_turn_on_title">Awtomatikong i-on</string>
     <string name="reverse_charging_charging_wirelessly_message">Hindi available dahil wireless na nagcha-charge ang telepono</string>
@@ -333,9 +343,8 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="suw_limited_warranty_title">Limitadong warranty</string>
     <string name="suw_more_button_label">Higit pa</string>
     <string name="suw_next_button_label">Susunod</string>
-    <string name="suw_warranty_description">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito.&lt;br /&gt;&lt;br /&gt;Available din ang warranty sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito. Available din ang warranty sa Mga Setting, pagkatapos ay %s, pagkatapos ay Limitadong warranty at g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Available din ang limitadong warranty na nalalapat sa iyong device sa Mga Setting ng device sa &lt;b&gt;Mga Setting &gt; %s &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito.&lt;br /&gt;&lt;br /&gt;Available din ang warranty sa &lt;b&gt;Mga Setting &gt; Tungkol sa telepono &gt; Limitadong warranty&lt;/b&gt; at g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Para matingnan ang iyong limitadong warranty, piliin ang bansa kung saan mo binili ang device na ito. Available din ang warranty sa Mga Setting, pagkatapos ay tungkol sa telepono, pagkatapos ay Limitadong warranty at g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Susunod</string>
     <string name="suw_warranty_positive_button_text">Isara</string>
     <string name="time_remaining_warning_subtext">Humigit-kumulang %1$s ang natitira batay sa nakaraang paggamit</string>
@@ -344,10 +353,6 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="tips_suggestion_title">Kilalanin ang iyong Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hawakan ang telepono sa harap ng iyong mukha</string>
     <string name="usb_use_file_transfers">Paglilipat ng file / Android Auto</string>
-    <string name="vpn_app_bypass">Huwag gamitin ang VPN para sa mga piniling app</string>
-    <string name="vpn_bypass_category_title">Huwag gamitin ang VPN para sa mga app na ito</string>
-    <string name="vpn_bypass_description">Puwede mong payagan ang ilang app na balewalain ang VPN at gamitin ang regular na koneksyon ng network ng iyong telepono</string>
-    <string name="vpn_preference_group_title">Iba pa</string>
     <string name="wallpaper_dashboard_summary">Mga kulay, mga may temang icon, grid ng app</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Tingnan o baguhin ang subscription sa OpenRoaming</string>

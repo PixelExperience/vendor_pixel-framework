@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">タップの感度を上げ、画面保護シートを使用しているときのタップを改善します</string>
     <string name="touch_sensitivity_title">画面保護シート モード</string>
     <string name="columbus_title">クイックタップでアクションを開始</string>
-    <string name="about_phone">デバイス情報</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge をセットアップしました。次の画面に進むか、調整を続けてください。</string>
     <string name="accessibility_keyboard_haptics_title">キーボードのハプティクス</string>
+    <string name="adaptive_alert_vibration_summary">スマートフォンの画面が上に向いて安定した状態になっている間は、バイブレーションを弱くします</string>
+    <string name="adaptive_alert_vibration_title">アラート バイブレーション自動調整</string>
     <string name="adaptive_charging">アダプティブ充電</string>
     <string name="adaptive_charging_description">ゆっくりと充電して充電時間を長くすることで、バッテリーを長持ちさせることができます。使用サイクルに応じて有効化されます。</string>
     <string name="adaptive_charging_time_estimate"><b>アダプティブ充電中</b> • %1$s までにフル充電</string>
-    <string name="add_bypassed_application_hint">アプリは追加されていません</string>
-    <string name="advanced_vpn_preference_group_title">搭載</string>
-    <string name="all_apps_category_title">すべてのアプリ</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">設定</annotation></string>
     <string name="app_and_notification_dashboard_summary">アシスタント、最近使ったアプリ、デフォルトのアプリ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">アシスタントを起動</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">バッテリーを保護するため、タブレットをホルダーに置いている間は充電が %1$s で一時停止します</string>
     <string name="battery_tip_smart_battery_summary">自動調整バッテリーを ON にしてください</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s と、この Google アカウントにリンクしているすべてのデバイスとのペア設定を解除します</string>
-    <string name="clear_calling_footer">クリア音声通話の利用は、Wi‑Fi およびモバイル ネットワーク接続の状態に左右されます。通話内容が Google に送信されることはありません。</string>
-    <string name="clear_calling_title">クリア音声通話</string>
-    <string name="clear_calling_toggle">クリア音声通話の使用</string>
+    <string name="clear_calling_footer">"プライバシーを保護するために、クリア音声通話から Google に音声や会話が送信されることは一切ありません。
+
+クリア音声通話の利用は、Wi-Fi およびモバイル ネットワーク接続の状態に左右されます。"</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Clear Calling の使用</string>
     <string name="clear_calling_topintro">通話中にバックグラウンドのノイズを低減します</string>
     <string name="columbus_gesture_detected">クイックタップが検出されました。</string>
     <string name="columbus_gesture_enrollment_complete">完了</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">クイックタップを使用してこのアプリを開いたときのアクションを選択してください。</string>
     <string name="columbus_setting_enable_switch_title">クイックタップの使用</string>
     <string name="columbus_setting_sensitivity_title">強いタップが必要</string>
+    <string name="communal_cast_summary">このデバイスとの間でキャストします</string>
+    <string name="communal_lock_screen_summary">プライバシー、通知、ホーム コントロール</string>
+    <string name="communal_settings_summary_1">ロック時とホルダー装着時の動作</string>
+    <string name="communal_settings_summary_2">ホルダー装着時のオプション</string>
+    <string name="communal_settings_summary_3">ホルダー装着時とロック画面のオプション</string>
+    <string name="communal_settings_summary_4">ロック画面とホルダー装着時のオプション</string>
+    <string name="communal_settings_title">ハブモード</string>
+    <string name="communal_smartspace_summary">アシスタントからのリマインダー、アラートなど</string>
+    <string name="communal_smartspace_title">スナップショット</string>
+    <string name="communal_what_to_show">表示する情報</string>
+    <string name="communal_what_to_use">使用する情報</string>
     <string name="connectivity_helper_call_quality_category">通話品質</string>
     <string name="connectivity_helper_call_quality_summary">通話時の接続の問題の原因に関する通知が届きます</string>
     <string name="connectivity_helper_call_quality_title">通知を受け取る</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">カードとパスの表示</string>
     <string name="install_unknown_applications">提供元が Play ストアではないアプリのインストールを許可する</string>
     <string name="keywords_accessibility_menu">運動, クイック メニュー, アシスト メニュー, タッチ, 手の動き</string>
+    <string name="keywords_adaptive_alert_vibration">ハプティクス, バイブレーション, 電話, 通話, 着信, アラート, 通知, 騒がしい, 静か, ノイズ, ケース, 自動調整</string>
     <string name="keywords_adaptive_charging">充電, 充電中, スマート充電, アダプティブ充電, 電池, 電池の状態</string>
     <string name="keywords_assist_gesture_launch">操作, 側面, 側, Active Edge, スクイーズ, つかむ, アシスト, アシスタント, スクイーズ, OK Google, Google アシスタント</string>
     <string name="keywords_assist_gesture_silence">操作, 側面, 側, Active Edge, マナーモード, スヌーズ, アラーム, 着信, 無音, 表示, ロック画面, スクイーズ, つかむ, 停止</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">自分の Pixel</string>
     <string name="my_device_info_account_preference_title">Google アカウント</string>
     <string name="owner_info_settings_edit_text_hint">例: 佐藤の Pixel</string>
-    <string name="remove">削除</string>
     <string name="reverse_charging_auto_turn_on_subtitle">スマートフォンが充電器に接続されると自動的に短時間 ON になります</string>
     <string name="reverse_charging_auto_turn_on_title">自動的に ON</string>
     <string name="reverse_charging_charging_wirelessly_message">スマートフォンのワイヤレス充電中のため利用できません</string>
@@ -331,9 +342,8 @@
     <string name="suw_limited_warranty_title">限定保証</string>
     <string name="suw_more_button_label">もっと見る</string>
     <string name="suw_next_button_label">次へ</string>
-    <string name="suw_warranty_description">限定保証を確認するには、このデバイスを購入した国を選択してください。&lt;br /&gt;&lt;br /&gt;また、&lt;b&gt;[設定] &gt; [%s] &gt; [限定保証]&lt;/b&gt; に移動するか、g.co/devicewarranty にアクセスして確認することもできます。</string>
-    <string name="suw_warranty_description_content">限定保証を確認するには、このデバイスを購入した国を選択してください。また、[設定] &gt; [%s] &gt; [限定保証] に移動するか、g.co/devicewarranty にアクセスして確認することもできます。</string>
-    <string name="suw_warranty_language_consistent_description">デバイスに適用される限定保証は、デバイスの設定（&lt;b&gt;[設定] &gt; [%s] &gt; [限定保証]&lt;/b&gt;）および g.co/devicewarranty でもご覧いただけます。</string>
+    <string name="suw_warranty_description">限定保証を確認するには、このデバイスを購入した国を選択してください。&lt;br /&gt;&lt;br /&gt;また、&lt;b&gt;[設定] &gt; [デバイス情報] &gt; [限定保証]&lt;/b&gt; に移動するか、g.co/devicewarranty にアクセスして確認することもできます。</string>
+    <string name="suw_warranty_description_content">限定保証を確認するには、このデバイスを購入した国を選択してください。また、[設定] &gt; [デバイス情報] &gt; [限定保証] に移動するか、g.co/devicewarranty にアクセスして確認することもできます。</string>
     <string name="suw_warranty_next_button_text">次へ</string>
     <string name="suw_warranty_positive_button_text">閉じる</string>
     <string name="time_remaining_warning_subtext">過去の使用状況によると、あと約 %1$s使用できます</string>
@@ -342,10 +352,6 @@
     <string name="tips_suggestion_title">Pixel を最大限活用しよう</string>
     <string name="traffic_light_face_enrolling_title_accessibility">スマートフォンを顔の前で持ちます</string>
     <string name="usb_use_file_transfers">ファイル転送 / Android Auto</string>
-    <string name="vpn_app_bypass">選択したアプリで VPN を使用しない</string>
-    <string name="vpn_bypass_category_title">これらのアプリで VPN を使用しない</string>
-    <string name="vpn_bypass_description">一部のアプリに、VPN を無視してスマートフォンの通常のネットワーク接続を使用することを許可できます</string>
-    <string name="vpn_preference_group_title">その他</string>
     <string name="wallpaper_dashboard_summary">色、テーマアイコン、アプリグリッド</string>
     <string name="warranty_country_information">%1$s（%2$s）</string>
     <string name="wifi_subscription_summary">OpenRoaming の定期購入を確認、変更できます</string>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="communal_preference_screen"
+    android:title="@string/communal_settings_title">
+
+    <PreferenceCategory
+        android:key="communal_what_to_show"
+        android:title="@string/communal_what_to_show">
+
+        <Preference
+            android:fragment="com.android.settings.dream.DreamSettings"
+            android:key="screensaver_from_communal_settings"
+            android:order="0"
+            android:title="@string/screensaver_settings_title"
+            settings:controller="com.android.settings.display.ScreenSaverPreferenceController" />
+
+        <Preference
+            android:key="smartspace_from_communal_settings"
+            android:order="10"
+            android:summary="@string/communal_smartspace_summary"
+            android:title="@string/communal_smartspace_title"
+            settings:controller="com.google.android.settings.smartspace.CommunalSmartspacePreferenceController" />
+
+        <Preference
+            android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+            android:key="lockscreen_from_communal_settings"
+            android:order="20"
+            android:summary="@string/communal_lock_screen_summary"
+            android:title="@string/lockscreen_settings_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="communal_what_to_use"
+        android:order="25"
+        android:title="@string/communal_what_to_use">
+
+        <Preference
+            android:fragment="com.android.settings.wfd.WifiDisplaySettings"
+            android:key="cast_from_communal_settings"
+            android:order="40"
+            android:summary="@string/communal_cast_summary"
+            android:title="@string/wifi_display_settings_title"
+            settings:controller="com.google.android.settings.wfd.CommunalWifiDisplayPreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="communal_other"
+        android:order="45"
+        android:title="@string/communal_other" />
+
+</PreferenceScreen>

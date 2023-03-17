@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Повысить чувствительность экрана к касанию при использовании защитной пленки или стекла</string>
     <string name="touch_sensitivity_title">Режим защиты экрана</string>
     <string name="columbus_title">Короткое касание для выполнения действий</string>
-    <string name="about_phone">О телефоне</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Настройка Active Edge завершена. Вы можете перейти к следующему экрану или продолжить настройку.</string>
     <string name="accessibility_keyboard_haptics_title">Виброотклик клавиатуры</string>
+    <string name="adaptive_alert_vibration_summary">Уменьшает силу вибрации, когда телефон лежит экраном вверх</string>
+    <string name="adaptive_alert_vibration_title">Адаптивная регулировка вибрации</string>
     <string name="adaptive_charging">Адаптивная зарядка</string>
     <string name="adaptive_charging_description">Чтобы батарея послужила дольше, зарядка будет идти медленнее и равномернее. Этот режим учитывает, в какое время вы обычно заряжаете устройство.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптивная зарядка</b> • Завершится к %1$s</string>
-    <string name="add_bypassed_application_hint">Нет добавленных приложений</string>
-    <string name="advanced_vpn_preference_group_title">Предустановленные</string>
-    <string name="all_apps_category_title">Все приложения</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Настройки</annotation></string>
     <string name="app_and_notification_dashboard_summary">Ассистент, недавние приложения, приложения по умолчанию</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Запустить Ассистента</string>
@@ -98,9 +96,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Если ваш планшет подключен к док-станции, его зарядка будет приостановлена, когда уровень заряда достигнет %1$s. Это нужно, чтобы увеличить срок службы аккумулятора.</string>
     <string name="battery_tip_smart_battery_summary">Включите адаптивное энергопотребление</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Все устройства, привязанные к этому аккаунту Google, будут отключены от устройства \"%1$s\".</string>
-    <string name="clear_calling_footer">Функция \"Чистый звук\" доступна в зависимости от скорости подключения к Wi‑Fi и мобильной сети. Текст и записи ваших телефонных разговоров не отправляются в Google.</string>
+    <string name="clear_calling_footer">"В целях защиты конфиденциальности функция \"Чистый звук\" никогда не передает аудиозаписи и расшифровки разговоров в Google.
+
+Ее доступность зависит от подключения к Wi-Fi и мобильной сети."</string>
     <string name="clear_calling_title">Чистый звук</string>
-    <string name="clear_calling_toggle">Использовать чистый звук</string>
+    <string name="clear_calling_toggle">Использовать Чистый звук</string>
     <string name="clear_calling_topintro">Уменьшает фоновые шумы во время звонков</string>
     <string name="columbus_gesture_detected">Короткое касание распознано.</string>
     <string name="columbus_gesture_enrollment_complete">ОК</string>
@@ -146,6 +146,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Выберите действие, которое будет выполняться после запуска приложения коротким касанием.</string>
     <string name="columbus_setting_enable_switch_title">Использовать короткое касание</string>
     <string name="columbus_setting_sensitivity_title">Уменьшить чувствительность</string>
+    <string name="communal_cast_summary">Транслировать на устройство или с него</string>
+    <string name="communal_lock_screen_summary">Конфиденциальность, уведомления и управление домом</string>
+    <string name="communal_settings_summary_1">Работа при блокировке и подключении к док-станции</string>
+    <string name="communal_settings_summary_2">Параметры при подключении к док-станции</string>
+    <string name="communal_settings_summary_3">Параметры на док-станции и заблокированном экране</string>
+    <string name="communal_settings_summary_4">Параметры на док-станции и заблокированном экране</string>
+    <string name="communal_settings_title">Режим домашнего центра</string>
+    <string name="communal_smartspace_summary">Напоминания, оповещения и другие функции Ассистента</string>
+    <string name="communal_smartspace_title">Самое главное</string>
+    <string name="communal_what_to_show">Что показывать</string>
+    <string name="communal_what_to_use">Что использовать</string>
     <string name="connectivity_helper_call_quality_category">Качество связи</string>
     <string name="connectivity_helper_call_quality_summary">Получайте уведомления о проблемах с подключением во время вызовов.</string>
     <string name="connectivity_helper_call_quality_title">Получение уведомлений</string>
@@ -199,6 +210,7 @@
     <string name="global_actions_panel_title">Показать карты и билеты</string>
     <string name="install_unknown_applications">Разрешить установку приложений не из Google Play</string>
     <string name="keywords_accessibility_menu">двигательные нарушения, быстрое меню, Меню вспомогательных функций, сенсорное управление, ловкость</string>
+    <string name="keywords_adaptive_alert_vibration">виброотклик, вибрация, телефон, звонок, вызов, оповещение, уведомление, громкость, тишина, шум, чехол, адаптивность</string>
     <string name="keywords_adaptive_charging">зарядить, зарядка, умная зарядка, адаптивная зарядка, батарея, состояние батареи</string>
     <string name="keywords_assist_gesture_launch">жест, край, сторона, active edge, сжатие, захват, помощь, ассистент, окей, google, google ассистент</string>
     <string name="keywords_assist_gesture_silence">жест, край, сторона, active edge, отключить звук, отложить, будильник, входящий вызов, низкая громкость, экран, заблокированный экран, сжатие, захват, остановить</string>
@@ -225,7 +237,6 @@
     <string name="me_card_title">Мое устройство Pixel</string>
     <string name="my_device_info_account_preference_title">Аккаунт Google</string>
     <string name="owner_info_settings_edit_text_hint">Например, Pixel Саши</string>
-    <string name="remove">Удалить</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Включается автоматически на короткий период времени, когда телефон подключен к зарядному устройству</string>
     <string name="reverse_charging_auto_turn_on_title">Включать автоматически</string>
     <string name="reverse_charging_charging_wirelessly_message">Функция недоступна, так как выполняется беспроводная зарядка телефона.</string>
@@ -330,9 +341,8 @@
     <string name="suw_limited_warranty_title">Ограниченная гарантия</string>
     <string name="suw_more_button_label">Ещё</string>
     <string name="suw_next_button_label">Далее</string>
-    <string name="suw_warranty_description">Чтобы посмотреть информацию об ограниченной гарантии, выберите страну, в которой вы приобрели устройство.&lt;br /&gt;&lt;br /&gt;Эти сведения также доступны в разделе &lt;b&gt;Настройки &gt; %s &gt; Ограниченная гарантия&lt;/b&gt; и по адресу g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Чтобы посмотреть информацию об ограниченной гарантии, выберите страну, в которой вы приобрели устройство. Вы также можете перейти по адресу g.co/devicewarranty или нажать \"Настройки\", а затем \"%s\" и \"Ограниченная гарантия\".</string>
-    <string name="suw_warranty_language_consistent_description">Информацию об ограниченной гарантии, действующей для вашего устройства, можно также посмотреть в разделе &lt;b&gt;Настройки &gt; %s &gt; Ограниченная гарантия&lt;/b&gt; или по адресу g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Чтобы посмотреть информацию об ограниченной гарантии, выберите страну, в которой вы приобрели устройство.&lt;br /&gt;&lt;br /&gt;Эти сведения также доступны в разделе &lt;b&gt;Настройки &gt; О телефоне &gt; Ограниченная гарантия&lt;/b&gt; и по адресу g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Чтобы посмотреть информацию об ограниченной гарантии, выберите страну, в которой вы приобрели устройство. Эти сведения также доступны в разделе \"Настройки &gt; О телефоне &gt; Ограниченная гарантия\" и по адресу g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Далее</string>
     <string name="suw_warranty_positive_button_text">Закрыть</string>
     <string name="time_remaining_warning_subtext">Примерное оставшееся время работы с прежней интенсивностью использования: %1$s</string>
@@ -341,10 +351,6 @@
     <string name="tips_suggestion_title">Узнайте больше о Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Поднесите телефон к лицу</string>
     <string name="usb_use_file_transfers">Передача файлов/Android Auto</string>
-    <string name="vpn_app_bypass">Не использовать VPN для выбранных приложений</string>
-    <string name="vpn_bypass_category_title">Приложения, для которых не будет использоваться VPN</string>
-    <string name="vpn_bypass_description">Вы можете разрешить отдельным приложениям игнорировать VPN и подключаться к сети как обычно.</string>
-    <string name="vpn_preference_group_title">Другие</string>
     <string name="wallpaper_dashboard_summary">Цвета, тематические значки, сетка приложений</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Просмотр и изменение подписок OpenRoaming</string>

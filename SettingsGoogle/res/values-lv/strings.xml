@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Palielināt skārienjutību un uzlabot skārienievadi caur ekrāna aizsargplēvi</string>
     <string name="touch_sensitivity_title">Ekrāna aizsargplēves režīms</string>
     <string name="columbus_title">Ātri pieskarieties, lai sāktu darbības</string>
-    <string name="about_phone">Par tālruni</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge iestatīšana tika pabeigta. Pārejiet uz nākamo ekrānu vai turpiniet pielāgošanu.</string>
     <string name="accessibility_keyboard_haptics_title">Vibrācija, pieskaroties tastatūrai</string>
+    <string name="adaptive_alert_vibration_summary">Samazina vibrāciju stiprumu, kamēr tālrunis ir nekustīgs un ekrāns ir pavērsts augšup.</string>
+    <string name="adaptive_alert_vibration_title">Adaptīva vibrācija brīdinājumiem</string>
     <string name="adaptive_charging">Adaptīvā uzlāde</string>
     <string name="adaptive_charging_description">Paildziniet akumulatora darbības laiku, veicot nepārtrauktu uzlādi ilgākos uzlādes periodos. Šī preference tiek aktivizēta, pamatojoties uz jūsu uzlādes ciklu.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptīvā uzlāde</b> • Tiks pabeigta līdz: %1$s</string>
-    <string name="add_bypassed_application_hint">Neviena lietotne netika pievienota</string>
-    <string name="advanced_vpn_preference_group_title">Iebūvēts</string>
-    <string name="all_apps_category_title">Visas lietotnes</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferences</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistents, pēdējās izmantotās lietotnes, noklusējuma lietotnes</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Aktivizēt Asistentu</string>
@@ -99,9 +97,11 @@ Pēc atiestatīšanas veiciet iestatīšanu un izvēlieties datu importēšanu n
     <string name="battery_tip_limited_temporarily_extra_summary">Lai taupītu akumulatora enerģiju, kad planšetdators ir dokots, uzlāde tiek pārtraukta, sasniedzot %1$s uzlādes līmeni.</string>
     <string name="battery_tip_smart_battery_summary">Ieslēgt režīmu Adaptīvais akumulators</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Ierīce “%1$s” vairs nebūs savienota pārī ar jebkuru šī Google konta saistītu ierīci.</string>
-    <string name="clear_calling_footer">Skaidri zvani ir pieejami atkarībā no jūsu Wi-Fi un mobilā tīkla savienojuma. Jūsu zvanu saturs netiek sūtīts Google serveriem.</string>
+    <string name="clear_calling_footer">"Lai aizsargātu jūsu konfidencialitāti, funkcija Skaidri zvani nekad nesūta audio vai sarunas uzņēmumam Google.
+
+Skaidri zvani ir pieejami atkarībā no jūsu Wi‑Fi un mobilā tīkla."</string>
     <string name="clear_calling_title">Skaidri zvani</string>
-    <string name="clear_calling_toggle">Izmantot skaidrus zvanus</string>
+    <string name="clear_calling_toggle">Izmantot funkciju “Skaidra skaņa zvana laikā”</string>
     <string name="clear_calling_topintro">Tiek samazināti fona trokšņi zvanu laikā</string>
     <string name="columbus_gesture_detected">Tika konstatēts ātrais pieskāriens.</string>
     <string name="columbus_gesture_enrollment_complete">Gatavs</string>
@@ -147,6 +147,17 @@ Pēc atiestatīšanas veiciet iestatīšanu un izvēlieties datu importēšanu n
     <string name="columbus_setting_app_shortcut_selection_help_text">Atlasiet darbību, kas jāveic, ja atverat šo lietotni, izmantojot ātro pieskārienu.</string>
     <string name="columbus_setting_enable_switch_title">Ātrā pieskāriena izmantošana</string>
     <string name="columbus_setting_sensitivity_title">Reaģēt tikai uz stiprākiem pieskārieniem</string>
+    <string name="communal_cast_summary">Apraide uz šo ierīci vai no tās</string>
+    <string name="communal_lock_screen_summary">Konfidencialitāte, paziņojumi un mājas viedierīču pārvaldība</string>
+    <string name="communal_settings_summary_1">Darbība, kad ierīce ir bloķēta un dokota</string>
+    <string name="communal_settings_summary_2">Iespējas dokā</string>
+    <string name="communal_settings_summary_3">Doka un bloķēšanas ekrāna iespējas</string>
+    <string name="communal_settings_summary_4">Iespējas bloķēšanas ekrānā un dokā</string>
+    <string name="communal_settings_title">Centra režīms</string>
+    <string name="communal_smartspace_summary">Atgādinājumi, brīdinājumi un cits Asistenta saturs</string>
+    <string name="communal_smartspace_title">Īsumā</string>
+    <string name="communal_what_to_show">Ko rādīt</string>
+    <string name="communal_what_to_use">Ko izmantot</string>
     <string name="connectivity_helper_call_quality_category">Zvanu kvalitāte</string>
     <string name="connectivity_helper_call_quality_summary">Saņemiet paziņojumus par savienojuma problēmu iemesliem zvanu laikā.</string>
     <string name="connectivity_helper_call_quality_title">Paziņojumu saņemšana</string>
@@ -201,6 +212,7 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="global_actions_panel_title">Rādīt kartes un caurlaides</string>
     <string name="install_unknown_applications">Atļaut instalēt lietotnes no avotiem, kas nav Play veikals</string>
     <string name="keywords_accessibility_menu">motorika, ātrā izvēlne, papildu darbību izvēlne, pieskāriens, roku veiklība</string>
+    <string name="keywords_adaptive_alert_vibration">haptiskā tehnoloģija, vibrācija, tālrunis, zvans, zvanīt, brīdinājums, paziņojumi, skaļš, kluss, troksnis, aizsargvāciņš, adaptīvs</string>
     <string name="keywords_adaptive_charging">uzlādēt, uzlāde, viedā uzlāde, adaptīvā uzlāde, akumulators, akumulatora stāvoklis</string>
     <string name="keywords_assist_gesture_launch">žests, mala, sāni, active edge, saspiest, satvert, palīgs, asistents, ok google, google asistents</string>
     <string name="keywords_assist_gesture_silence">žests, mala, sāni, active edge, klusums, atlikt, signāls, ienākošs zvans, kluss, displejs, bloķēšanas ekrāns, saspiest, satvert, apturēt</string>
@@ -227,7 +239,6 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="me_card_title">Mana Pixel ierīce</string>
     <string name="my_device_info_account_preference_title">Google konts</string>
     <string name="owner_info_settings_edit_text_hint">Piemērs: Jāņa Pixel ierīce.</string>
-    <string name="remove">Noņemt</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Tiks automātiski ieslēgts uz neilgu laiku, kad tālrunis būs pievienots lādētājam.</string>
     <string name="reverse_charging_auto_turn_on_title">Ieslēgt automātiski</string>
     <string name="reverse_charging_charging_wirelessly_message">Nav pieejama, jo notiek tālruņa bezvadu uzlāde</string>
@@ -333,9 +344,8 @@ Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc se
     <string name="suw_limited_warranty_title">Ierobežotā garantija</string>
     <string name="suw_more_button_label">Vairāk</string>
     <string name="suw_next_button_label">Tālāk</string>
-    <string name="suw_warranty_description">Lai skatītu ierobežoto garantiju, atlasiet valsti, kurā iegādājāties šo ierīci.&lt;br /&gt;&lt;br /&gt;Garantiju varat arī skatīt, pārejot uz sadaļu &lt;b&gt;Iestatījumi &gt; %s &gt; Ierobežotā garantija&lt;/b&gt; un ievadot g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Lai skatītu ierobežoto garantiju, atlasiet valsti, kurā iegādājāties šo ierīci. Garantiju varat arī skatīt, pārejot uz sadaļu “Iestatījumi”, pēc tam “%s”, pēc tam “Ierobežotā garantija” un ievadot g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Jūsu ierīcei piemērojamā ierobežotā garantija ir atrodama arī ierīces iestatījumos sadaļā &lt;b&gt;Iestatījumi &gt; %s &gt; Ierobežotā garantija&lt;/b&gt; un vietnē g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Lai skatītu ierobežoto garantiju, atlasiet valsti, kurā iegādājāties šo ierīci.&lt;br /&gt;&lt;br /&gt;Garantiju varat skatīt arī, atverot sadaļu &lt;b&gt;Iestatījumi &gt; Par tālruni &gt; Ierobežotā garantija&lt;/b&gt; vai apmeklējot vietni g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Lai skatītu ierobežoto garantiju, atlasiet valsti, kurā iegādājāties šo ierīci. Garantiju varat skatīt arī, atverot sadaļu “Iestatījumi” un pēc tam — sadaļas “Par tālruni” un “Ierobežotā garantija” vai apmeklējot vietni g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Tālāk</string>
     <string name="suw_warranty_positive_button_text">Aizvērt</string>
     <string name="time_remaining_warning_subtext">Atlikušais laiks: aptuveni %1$s (ņemot vērā iepriekšējo lietojumu)</string>
@@ -344,10 +354,6 @@ Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc se
     <string name="tips_suggestion_title">Iepazīstiet Pixel tālruni</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Turiet tālruni sejas priekšā</string>
     <string name="usb_use_file_transfers">Failu pārsūtīšana/ Android Auto</string>
-    <string name="vpn_app_bypass">Neizmantojiet virtuālo privāto tīklu atlasītajām lietotnēm</string>
-    <string name="vpn_bypass_category_title">Neizmantojiet virtuālo privāto tīklu šīm lietotnēm</string>
-    <string name="vpn_bypass_description">Dažām lietotnēm varat piešķirt atļauju ignorēt virtuālo privāto tīklu un izmantot tālruņa standarta tīkla savienojumu</string>
-    <string name="vpn_preference_group_title">Citi</string>
     <string name="wallpaper_dashboard_summary">Krāsas, motīvu ikonas, lietotņu režģis</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Skatīt vai mainīt OpenRoaming abonementu</string>

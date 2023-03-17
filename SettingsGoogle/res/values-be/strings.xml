@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Павышэнне адчувальнасці да дакрананняў і паляпшэнне водгуку на націсканне падчас карыстання ахоўнай плёнкай</string>
     <string name="touch_sensitivity_title">Рэжым ахоўнай плёнкі</string>
     <string name="columbus_title">Хуткі дотык для пачатку дзеянняў</string>
-    <string name="about_phone">Звесткі пра тэлефон</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge наладжаны. Перайдзіце да наступнага экрана ці працягвайце выконваць налады.</string>
     <string name="accessibility_keyboard_haptics_title">Тактыльны водгук клавіятуры</string>
+    <string name="adaptive_alert_vibration_summary">Зніжае сілу вібрацыі, калі тэлефон ляжыць экранам уверх</string>
+    <string name="adaptive_alert_vibration_title">Адаптыўная вібрацыя для паведамленняў</string>
     <string name="adaptive_charging">Адаптыўная зарадка</string>
     <string name="adaptive_charging_description">Павялічваць тэрмін службы акумулятара, зараджаючы яго больш працяглы час. Адаптыўная зарадка працуе з улікам цыкла выкарыстання.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптыўная зарадка</b> • Поўнасцю зарадзіцца ў %1$s</string>
-    <string name="add_bypassed_application_hint">Праграмы не дададзены</string>
-    <string name="advanced_vpn_preference_group_title">Убудаваны</string>
-    <string name="all_apps_category_title">Усе праграмы</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Налады</annotation></string>
     <string name="app_and_notification_dashboard_summary">Памочнік, нядаўнія праграмы, стандартныя праграмы</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Перайсці да Памочніка</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Пакуль планшэт знаходзіцца на док-станцыі, дзеля ашчады акумулятара зарадка прыпынена па дасягненні %1$s</string>
     <string name="battery_tip_smart_battery_summary">Уключыць адаптацыю акумулятара</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Прылада \"%1$s\" больш не будзе спалучацца з прыладамі, звязанымі з гэтым Уліковым запісам Google</string>
-    <string name="clear_calling_footer">Паляпшэнне якасці гуку спрацоўвае ў залежнасці ад падключэння да сеткі Wi‑Fi і да мабільнай сеткі. Змесціва вашага выкліку не адпраўляецца ў Google.</string>
-    <string name="clear_calling_title">Паляпшэнне якасці гуку</string>
-    <string name="clear_calling_toggle">Выкарыстоўваць паляпшэнне якасці гуку</string>
+    <string name="clear_calling_footer">"Дзеля аховы вашай прыватнасці функцыя \"Паляпшэнне якасці гуку\" ніколі не адпраўляе ў Google аўдыязапісы і расшыфроўкі размоў.
+
+Праца гэтай функцыі залежыць ад падключэння да Wi‑Fi і мабільнай сеткі."</string>
+    <string name="clear_calling_title">Чысты гук</string>
+    <string name="clear_calling_toggle">Выкарыстоўваць функцыю \"Чысты гук\"</string>
     <string name="clear_calling_topintro">Зніжае фонавыя шумы падчас выклікаў</string>
     <string name="columbus_gesture_detected">Выяўлены Хуткі дотык!</string>
     <string name="columbus_gesture_enrollment_complete">Гатова</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Выберыце, што павінна адбыцца, калі вы адкрыеце гэту праграму з дапамогай Хуткага дотыку.</string>
     <string name="columbus_setting_enable_switch_title">Выкарыстоўваць Хуткі дотык</string>
     <string name="columbus_setting_sensitivity_title">Патрабаваць мацнейшыя дотыкі</string>
+    <string name="communal_cast_summary">Трансліраваць на гэтую прыладу ці з яе</string>
+    <string name="communal_lock_screen_summary">Прыватнасць, апавяшчэнні і кіраванне домам</string>
+    <string name="communal_settings_summary_1">Праца пры блакіроўцы і знаходжанні на док-станцыі</string>
+    <string name="communal_settings_summary_2">Параметры знаходжання на док-станцыі</string>
+    <string name="communal_settings_summary_3">Параметры док-станцыі і экрана блакіроўкі</string>
+    <string name="communal_settings_summary_4">Параметры экрана блакіроўкі і знаходжання на док-станцыі</string>
+    <string name="communal_settings_title">Рэжым хаба</string>
+    <string name="communal_smartspace_summary">Напаміны, абвесткі і іншыя паведамленні Памочніка</string>
+    <string name="communal_smartspace_title">Кароткі агляд</string>
+    <string name="communal_what_to_show">Што паказваць</string>
+    <string name="communal_what_to_use">Што выкарыстоўваць</string>
     <string name="connectivity_helper_call_quality_category">Якасць выкліку</string>
     <string name="connectivity_helper_call_quality_summary">Атрымліваць апавяшчэнні пра выпадкі ўзнікнення праблем з падключэннем падчас выклікаў</string>
     <string name="connectivity_helper_call_quality_title">Атрымліваць апавяшчэнні</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Паказваць карткі і талоны</string>
     <string name="install_unknown_applications">Дазволіць усталяванне праграм не з Крамы Play</string>
     <string name="keywords_accessibility_menu">маторыка, хуткае меню, дапаможнае меню, дотык, спрыт</string>
+    <string name="keywords_adaptive_alert_vibration">тактыльны водгук, вібрыраваць, тэлефон, выклік, званок, абвестка, апавяшчэнні, гучна, ціха, шум, чахол, адаптыўны</string>
     <string name="keywords_adaptive_charging">зараджаць, зарадка, разумная зарадка, адаптыўная зарадка, акумулятар, тэрмін службы акумулятара</string>
     <string name="keywords_assist_gesture_launch">жэст, край, бок, актыўны край, сціснуць, ухапіць, дапамагчы, памочнік, сціскаць, ok google, памочнік google</string>
     <string name="keywords_assist_gesture_silence">жэст, край, бок, актыўны край, адключыць гук, адкласці, будзільнік, уваходны выклік, ціха, дысплэй, экран блакіроўкі, сціснуць, ухапіць, прыпыніць</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Мая прылада Pixel</string>
     <string name="my_device_info_account_preference_title">Уліковы запіс Google</string>
     <string name="owner_info_settings_edit_text_hint">Напрыклад, Pixel Джо.</string>
-    <string name="remove">Выдаліць</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Уключаецца аўтаматычна на кароткі час, калі тэлефон падключаны да зарадкі</string>
     <string name="reverse_charging_auto_turn_on_title">Уключаць аўтаматычна</string>
     <string name="reverse_charging_charging_wirelessly_message">Недаступна, таму што ідзе бесправадная зарадка тэлефона</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">Абмежаваная гарантыя</string>
     <string name="suw_more_button_label">Яшчэ</string>
     <string name="suw_next_button_label">Далей</string>
-    <string name="suw_warranty_description">Каб праглядзець абмежаваную гарантыю, выберыце краіну куплі гэтай прылады.&lt;br /&gt;&lt;br /&gt;Гарантыю таксама можна знайсці праз &lt;b&gt;Налады &gt; %s &gt; Абмежаваная гарантыя&lt;/b&gt; і на старонцы g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Каб праглядзець абмежаваную гарантыю, выберыце краіну куплі гэтай прылады. Гарантыю таксама можна знайсці, выбраўшы \"Налады\", потым \"%s\", а пасля – \"Абмежаваная гарантыя\"; або на старонцы g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Абмежаваная гарантыя на вашу прыладу таксама даступная ў Наладах прылады ў раздзеле &lt;b&gt;Налады &gt; %s &gt; Абмежаваная гарантыя&lt;/b&gt; і на старонцы g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Каб праглядзець абмежаваную гарантыю, выберыце краіну куплі гэтай прылады.&lt;br /&gt;&lt;br /&gt;Гарантыю таксама можна знайсці праз &lt;b&gt;Налады &gt; Інфармацыя пра тэлефон &gt; Абмежаваная гарантыя&lt;/b&gt; і на старонцы g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Каб праглядзець абмежаваную гарантыю, выберыце краіну куплі гэтай прылады. Гарантыю таксама можна знайсці, выбраўшы \"Налады\", потым – \"Інфармацыя пра тэлефон\", а пасля – \"Абмежаваная гарантыя\"; або на старонцы g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Далей</string>
     <string name="suw_warranty_positive_button_text">Закрыць</string>
     <string name="time_remaining_warning_subtext">Засталося каля %1$s на аснове вашага былога выкарыстання</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">Азнаёмцеся са сваім Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Трымайце тэлефон перад тварам</string>
     <string name="usb_use_file_transfers">Перанос файла / Android Auto</string>
-    <string name="vpn_app_bypass">Не выкарыстоўваць VPN для выбраных праграм</string>
-    <string name="vpn_bypass_category_title">Не выкарыстоўваць VPN для гэтых праграм</string>
-    <string name="vpn_bypass_description">Вы можаце дазволіць некаторым праграмам абыходзіць VPN і выкарыстоўваць звычайнае падключэнне тэлефона да сеткі</string>
-    <string name="vpn_preference_group_title">Іншае</string>
     <string name="wallpaper_dashboard_summary">Колеры, тэматычныя значкі, сетка праграм</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Праглядзець або змяніць падпіску OpenRoaming</string>

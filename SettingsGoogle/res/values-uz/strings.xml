@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Ekran himoyasidan foydalanganda sensor sezgirligini oshirish va teginishni aniqlashni yaxshilash</string>
     <string name="touch_sensitivity_title">Ekran himoyasi rejimi</string>
     <string name="columbus_title">Qisqa teginib amal bajarish</string>
-    <string name="about_phone">Telefon haqida</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge sozlandi. Keyingi ekranga o‘ting yoki sozlashni davom ettiring.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviaturada sezgir aloqa</string>
+    <string name="adaptive_alert_vibration_summary">Telefon ekrani tepaga qaragan holatda qimirlamay turganda tebranish kuchini pasaytiradi</string>
+    <string name="adaptive_alert_vibration_title">Molashuvchan signal tebranishi</string>
     <string name="adaptive_charging">Moslashuvchan quvvatlash</string>
     <string name="adaptive_charging_description">Batareya ishlash muddatini uzoqroq quvvatlash vaqtida barqaror quvvatlash orqali uzaytiring. Foydalanish davringiz asosida faollashtirilgan.</string>
     <string name="adaptive_charging_time_estimate"><b>Moslashuvchan quvvatlash</b> • Qoldi: %1$s</string>
-    <string name="add_bypassed_application_hint">Ilovalar kiritilmagan</string>
-    <string name="advanced_vpn_preference_group_title">Oldindan oʻrnatilgan</string>
-    <string name="all_apps_category_title">Barcha ilovalar</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Sozlamalar</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, oxirgi ilovalar, birlamchi ilovalar</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistentga kirish</string>
@@ -99,7 +97,9 @@ Asl holatiga qaytgach, ma’lumotlarni ko‘chirish uchun boshlang‘ich jarayon
     <string name="battery_tip_limited_temporarily_extra_summary">Planshet dokka joylanganda batareyani himoyalash maqsadida quvvatlanish %1$s holatida pauza qilindi</string>
     <string name="battery_tip_smart_battery_summary">Adaptive Battery funksiyasini yoqing</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s endi bu Google hisobining hech qaysi qurilmasiga ulanmaydi</string>
-    <string name="clear_calling_footer">Tiniq chaqiruv funksiyasining ishlashi Wi-Fi va mobil internet aloqasiga bogʻliq. Chaqiruv kontenti Googlega yuborilmaydi.</string>
+    <string name="clear_calling_footer">"Maxfiylikni himoyalash maqsadida Tiniq chaqiruv funksiyasi audio va suhbatlarni hech qachon Google’ga yubormaydi.
+
+Tiniq chaqiruv Wi-Fi yoki mobil internet asosida ishlaydi."</string>
     <string name="clear_calling_title">Tiniq ovoz</string>
     <string name="clear_calling_toggle">Tiniq ovoz funksiyasidan foydalanish</string>
     <string name="clear_calling_topintro">Chaqiruv davomida tashqi shovqinni pasaytiradi</string>
@@ -147,6 +147,17 @@ Asl holatiga qaytgach, ma’lumotlarni ko‘chirish uchun boshlang‘ich jarayon
     <string name="columbus_setting_app_shortcut_selection_help_text">Tezkor teginish yordamida bu ilova ochilganda nimalar boʻlishini tanlang.</string>
     <string name="columbus_setting_enable_switch_title">Tezkor teginishdan foydalanish</string>
     <string name="columbus_setting_sensitivity_title">Kuchliroq teginishni talab etish</string>
+    <string name="communal_cast_summary">Qurilmaga yoki qurilmadan translatsiya qilish</string>
+    <string name="communal_lock_screen_summary">Maxfiylik, bildirishnomalar va uy boshqaruvi</string>
+    <string name="communal_settings_summary_1">Qulflangan va dokka ulanganda ishlash xususiyati</string>
+    <string name="communal_settings_summary_2">Dokka ulanganda chiqadigan variantlar</string>
+    <string name="communal_settings_summary_3">Dokda va ekran qulfida chiqadigan variantlar</string>
+    <string name="communal_settings_summary_4">Ekran qulfi va dokda chiqadigan variantlar</string>
+    <string name="communal_settings_title">Hub rejimi</string>
+    <string name="communal_smartspace_summary">Assistentdan eslatma va signallar</string>
+    <string name="communal_smartspace_title">Eng asosiy</string>
+    <string name="communal_what_to_show">Nimalar chiqsin</string>
+    <string name="communal_what_to_use">Nima ishlatilsin</string>
     <string name="connectivity_helper_call_quality_category">Chaqiruv sifati</string>
     <string name="connectivity_helper_call_quality_summary">Chaqiruv davomida aloqada yuz bergan muammolar sabablari haqida maʼlumot oling</string>
     <string name="connectivity_helper_call_quality_title">Bildirishnomalar olish</string>
@@ -201,6 +212,7 @@ Zaxiralangan ma’lumotlar egallagan joy Google Drive xizmatidagi sizga ajratilg
     <string name="global_actions_panel_title">Kartalar va talonlar</string>
     <string name="install_unknown_applications">Play Marketdan boshqa manbalardan olingan ilovalarni o‘rnatishga ruxsat berish</string>
     <string name="keywords_accessibility_menu">motor, tezkor menyu, yordamchi menyu, teginish, tezkorlik</string>
+    <string name="keywords_adaptive_alert_vibration">sezish, tebranish, telefon, chaqiruv, jiringlash, signal, bildirishnomalar, baland, past, shovqin, jild, moslashuvchan</string>
     <string name="keywords_adaptive_charging">quvvatlash, quvvatlanmoqda, smart quvvatlash, moslashuvchan quvvatlagich, batareya, batareya yaroqliligi</string>
     <string name="keywords_assist_gesture_launch">imo-ishora, qirra, tomon, faol qirra, qisish, ushlash, yordam, assistent, qisish, ok google, google assistent</string>
     <string name="keywords_assist_gesture_silence">imo-ishora, qirra, tomon, faol qirra, ovozsiz, kechiktirish, signal, kiruvchi chaqiruv, jimjit, ekran, ekran qulfi, qisish, ushlash, to‘xtatish</string>
@@ -227,7 +239,6 @@ Zaxiralangan ma’lumotlar egallagan joy Google Drive xizmatidagi sizga ajratilg
     <string name="me_card_title">Pixel qurilmam</string>
     <string name="my_device_info_account_preference_title">Google hisobi</string>
     <string name="owner_info_settings_edit_text_hint">M-n: Abrorning Pixel telefoni.</string>
-    <string name="remove">Olib tashlash</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Telefoningiz quvvatlagichga ulanganda qisqa muddatga avtomatik ravishda yoqiladi</string>
     <string name="reverse_charging_auto_turn_on_title">Avtomatik yoqish</string>
     <string name="reverse_charging_charging_wirelessly_message">Telefon simsiz quvvat olayotgani sababli hozir ishlamaydi</string>
@@ -332,9 +343,8 @@ Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qa
     <string name="suw_limited_warranty_title">Cheklangan kafolat</string>
     <string name="suw_more_button_label">Yana</string>
     <string name="suw_next_button_label">Keyingisi</string>
-    <string name="suw_warranty_description">Cheklangan kafolatni koʻrish uchun bu qurilmani sotib olgan mamlakatni tanlang.&lt;br /&gt;&lt;br /&gt;Ushbu maʼlumot &lt;b&gt;Sozlamalar&gt; %s &gt; Cheklangan kafolat&lt;/b&gt; va g.co/devicewarranty manzilida ham mavjud.</string>
-    <string name="suw_warranty_description_content">Cheklangan kafolatni koʻrish uchun bu qurilmani sotib olgan mamlakatni tanlang. Shuningdek, g.co/devicewarranty sahifasiga oʻting yoki “Sozlamalar”, %s va keyin “Cheklangan kafolat” tugmasini bosing.</string>
-    <string name="suw_warranty_language_consistent_description">Shuningdek, qurilmangizga tegishli cheklangan kafolatni &lt;b&gt;Sozlamalar &gt; %s &gt; Cheklangan kafolat&lt;/b&gt; yoki g.co/devicewarranty sahifasida mavjud.</string>
+    <string name="suw_warranty_description">Cheklangan kafolatni koʻrish uchun bu qurilmani sotib olgan mamlakatni tanlang.&lt;br /&gt;&lt;br /&gt;Ushbu maʼlumot &lt;b&gt;Sozlamalar &gt; Telefon haqida &gt; Cheklangan kafolat&lt;/b&gt; va g.co/devicewarranty manzilida ham mavjud.</string>
+    <string name="suw_warranty_description_content">Cheklangan kafolatni koʻrish uchun bu qurilmani sotib olgan mamlakatni tanlang. Shuningdek, g.co/devicewarranty sahifasiga oʻting yoki “Sozlamalar”, telefon haqida va keyin “Cheklangan kafolat” tugmasini bosing.</string>
     <string name="suw_warranty_next_button_text">Keyingisi</string>
     <string name="suw_warranty_positive_button_text">Yopish</string>
     <string name="time_remaining_warning_subtext">Oldingi foydalanishga nisbatan taxminan %1$s qoldi</string>
@@ -343,10 +353,6 @@ Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qa
     <string name="tips_suggestion_title">Pixel bilan tanishing</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Telefonni yuzingizga qaratib tutib turing</string>
     <string name="usb_use_file_transfers">Fayl uzatish / Android Auto</string>
-    <string name="vpn_app_bypass">Tanlangan ilovalarda VPN ishlatilmasin</string>
-    <string name="vpn_bypass_category_title">Quyidagi ilovalarda VPN ishlatilmasin</string>
-    <string name="vpn_bypass_description">Ayrim ilovalar VPN aloqasini inkor etib, telefondagi odatiy tarmoq aloqasidan foydalanishiga ruxsat berish mumkin</string>
-    <string name="vpn_preference_group_title">Boshqalar</string>
     <string name="wallpaper_dashboard_summary">Ranglar, uslubiy belgilar, ilovalar jadvali</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming obunasini koʻrish yoki oʻzgartirish</string>

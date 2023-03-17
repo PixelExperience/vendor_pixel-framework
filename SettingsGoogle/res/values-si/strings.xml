@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">තිර ආරක්ෂකයක් භාවිත කරන විට ස්පර්ශ සංවේදීතාව වැඩි කරන්න සහ ස්පර්ශය වැඩි දියුණු කරන්න</string>
     <string name="touch_sensitivity_title">තිර ආරක්ෂක ප්‍රකාරය</string>
     <string name="columbus_title">ක්‍රියා ආරම්භ කිරීමට ඉක්මන් තට්ටු කිරීම</string>
-    <string name="about_phone">දුරකථනය ගැන</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge පිහිටුවීම. ඊළඟ තිරය වෙත යන්න නැතහොත් සීරුමාරු කිරීම දිගටම කරගෙන යන්න.</string>
     <string name="accessibility_keyboard_haptics_title">යතුරු පුවරු ස්පර්ශ</string>
+    <string name="adaptive_alert_vibration_summary">ඔබේ දුරකථනය නිශ්චලව ඇති අතර තිරය ඉහළට මුහුණ ලා සිටින විට කම්පන ශක්තිය අඩු කරයි</string>
+    <string name="adaptive_alert_vibration_title">අනුවර්තන ඇඟවීමේ කම්පනය</string>
     <string name="adaptive_charging">අනුවර්තී ආරෝපණය</string>
     <string name="adaptive_charging_description">දිගු ආරෝපණ කාල තුළ ස්ථාවර ලෙස ආරෝපණය කිරීමෙන් බැටරි ආයු කාලය දීර්ඝ කරන්න. ඔබගේ භාවිත චක්‍රය මත පදනම්ව සක්‍රිය කර ඇත.</string>
     <string name="adaptive_charging_time_estimate"><b>අනුවර්තී ආරෝපණය</b> • %1$s වන විට සම්පූර්ණයි</string>
-    <string name="add_bypassed_application_hint">යෙදුම් එක් කර නැත</string>
-    <string name="advanced_vpn_preference_group_title">ආවේණික</string>
-    <string name="all_apps_category_title">සියලු යෙදුම්</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">මනාප</annotation></string>
     <string name="app_and_notification_dashboard_summary">සහකරු, මෑත යෙදුම්, පෙරනිමි යෙදුම්</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">සහායක වෙත දිගටම</string>
@@ -99,8 +97,10 @@
     <string name="battery_tip_limited_temporarily_extra_summary">ඔබේ බැටරිය ආරක්ෂා කිරීම සඳහා, ඔබේ ටැබ්ලටය ඈඳා ඇති අතරේ ආරෝපණය කිරීම %1$s හි දී විරාම වේ</string>
     <string name="battery_tip_smart_battery_summary">අනුවර්තනීය බැටරිය ක්‍රියාත්මක කරන්න</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s මෙම Google ගිණුමට සබැඳි කළ කිසිම උපාංගයකට තවදුරටත් යුගලන නොකෙරේ</string>
-    <string name="clear_calling_footer">ඔබේ Wi‑Fi සහ ජංගම ජාල සබැඳුම මත පදනම්ව පැහැදිලි ඇමතුම් ලබා ගත හැක. ඔබේ ඇමතුමෙන් අන්තර්ගතය Google වෙත යවනු නොලැබේ.</string>
-    <string name="clear_calling_title">පැහැදිලි ඇමතුම</string>
+    <string name="clear_calling_footer">"ඔබේ පෞද්ගලිකත්වය ආරක්ෂා කිරීම සඳහා, පැහැදිලි ඇමතුම් කිසිවිටෙක Google වෙත ශ්‍රව්‍ය හෝ සංවාද නොයවයි.
+
+ඔබේ Wi‑Fi සහ ජංගම ජාලය අනුව පැහැදිලි ඇමතුම් ලබා ගත හැක."</string>
+    <string name="clear_calling_title">පැහැදිලි ඇමතීම</string>
     <string name="clear_calling_toggle">පැහැදිලි ඇමතීම භාවිතා කරන්න</string>
     <string name="clear_calling_topintro">ඇමතුම් අතරතුර පසුබිම් ඝෝෂාව අඩු කරයි</string>
     <string name="columbus_gesture_detected">ඉක්මන් තට්ටු කිරීම අනාවරණය කර ගන්නා ලදි!</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">ඔබ ඉක්මන් තට්ටු කිරීම භාවිතයෙන් මෙම යෙදුම විවෘත කළ විට සිදු වන දේ තෝරන්න.</string>
     <string name="columbus_setting_enable_switch_title">ඉක්මන් තට්ටු කිරීම භාවිත කරන්න</string>
     <string name="columbus_setting_sensitivity_title">වඩාත් දැඩි තට්ටු කිරීම් අවශ්‍යයි</string>
+    <string name="communal_cast_summary">මෙම උපාංගය වෙත හෝ එයින් විකාශය කරන්න</string>
+    <string name="communal_lock_screen_summary">රහස්‍යතාවය, දැනුම්දීම්, සහ නිවෙස් පාලන</string>
+    <string name="communal_settings_summary_1">අගුළු දමා ඇති සහ ඈඳන ලද හැසිරීම</string>
+    <string name="communal_settings_summary_2">ඩොකය-මත විකල්ප</string>
+    <string name="communal_settings_summary_3">ඩොක් සහ අගුළු තිර විකල්ප</string>
+    <string name="communal_settings_summary_4">අගුළු තිරය සහ ඩොකය-මත විකල්ප</string>
+    <string name="communal_settings_title">මධ්‍යස්ථාන ප්‍රකාරය</string>
+    <string name="communal_smartspace_summary">සහායක වෙතින් සිහිකැඳවීම්, ඇඟවීම්, සහ තවත් දේ</string>
+    <string name="communal_smartspace_title">එක් බැල්මකින්</string>
+    <string name="communal_what_to_show">පෙන්වන දේ</string>
+    <string name="communal_what_to_use">භාවිතා කළ යුතු දේ</string>
     <string name="connectivity_helper_call_quality_category">ඇමතුමේ ගුණත්වය</string>
     <string name="connectivity_helper_call_quality_summary">ඇමතුම් අතරතුර සම්බන්ධතා ගැටලු ඇති වීමේ හේතු පිළිබඳ දැනුම්දීම් ලබා ගන්න</string>
     <string name="connectivity_helper_call_quality_title">දැනුම්දීම් ලබා ගන්න</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">කාඩ්පත් සහ පාස්පත් පෙන්වන්න</string>
     <string name="install_unknown_applications">Play Store හැර අනෙකුත් මූලාශ්‍ර වෙතින් යෙදුම් ස්ථාපනය කිරීමට ඉඩ දෙන්න</string>
     <string name="keywords_accessibility_menu">මෝටරය, ඉක්මන් මෙනුව, සහායක මෙනුව, ස්පර්ශය, දක්ෂතාව</string>
+    <string name="keywords_adaptive_alert_vibration">ස්පර්ශක, කම්පනය, දුරකථන, ඇමතුම, නාද, ඇඟවීම්, දැනුම්දීම්, ඝෝෂාකාරී, නිහඬ, ශබ්දය, සිද්ධිය, අනුවර්තනය</string>
     <string name="keywords_adaptive_charging">ආරෝපණය, ආරෝපණය කිරීම, ස්මාර්ට් ආරෝපණය, අනුවර්තී ආරෝපණය, බැටරිය, බැටරි තත්ත්වය</string>
     <string name="keywords_assist_gesture_launch">ඉංගිතය, දාරය, පැත්ත, ක්‍රියාකාරී දාරය, මිරිකීම, ග්‍රහණය, සහාය, සහකාර, මිරිකීම, ok google, google සහායක</string>
     <string name="keywords_assist_gesture_silence">ඉංගිතය, දාරය, පැත්ත, ක්‍රියාකාරී දාරය, නිහඬතාව, ස්නූස්, එලාම, ලැබෙන ඇමතුම්, නිහඬ, සංදර්ශකය, අගුලු තිරය, මිරිකීම, ග්‍රහණය, දාරය, නවත්වන්න</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">මගේ Pixel</string>
     <string name="my_device_info_account_preference_title">Google ගිණුම</string>
     <string name="owner_info_settings_edit_text_hint">උදාහරණයක් ලෙස, ජෝගේ Pixel.</string>
-    <string name="remove">ඉවත් කරන්න</string>
     <string name="reverse_charging_auto_turn_on_subtitle">ඔබේ දුරකථනය චාලකයකට සම්බන්ධ කර ඇති විට කෙටි කාලයක් සඳහා ස්වයංක්‍රීයව ක්‍රියාත්මක වනු ඇත</string>
     <string name="reverse_charging_auto_turn_on_title">ස්වයංක්‍රීයව ක්‍රියාත්මක කරන්න</string>
     <string name="reverse_charging_charging_wirelessly_message">දුරකථනය නොරැහැන්ව ආරෝපණය වන නිසා ලබා ගත නොහැකිය</string>
@@ -336,9 +347,8 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="suw_limited_warranty_title">සීමිත වගකීම</string>
     <string name="suw_more_button_label">තවත්</string>
     <string name="suw_next_button_label">ඊළඟ</string>
-    <string name="suw_warranty_description">ඔබේ සීමිත වගකීම බැලීමට, ඔබ මෙම උපාංගය මිලදී ගත් රට තෝරන්න.&lt;br /&gt;&lt;br /&gt;වගකීම &lt;b&gt;සැකසීම් &gt; %s &gt; සීමිත වගකීම&lt;/b&gt; සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
-    <string name="suw_warranty_description_content">ඔබේ සීමිත වගකීම බැලීමට, ඔබ මෙම උපාංගය මිලදී ගත් රට තෝරන්න. වගකීම සැකසීම්, පසුව %s, පසුව සීමිත වගකීම, සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
-    <string name="suw_warranty_language_consistent_description">ඔබේ උපාංගයට ලැබෙන සීමිත වගකීම උපාංග සැකසීම් තුළ &lt;b&gt;සැකසීම් &gt; %s &gt; සීමිත වගකීම&lt;/b&gt; සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
+    <string name="suw_warranty_description">ඔබේ සීමිත වගකීම බැලීමට, ඔබ මෙම උපාංගය මිලදී ගත් රට තෝරන්න.&lt;br /&gt;&lt;br /&gt;වගකීම &lt;b&gt;සැකසීම් &gt; උපාංගය පිළිබඳ &gt; සීමිත වගකීම&lt;/b&gt; සහ g.co/devicewarranty තුළ ද ලැබේ.</string>
+    <string name="suw_warranty_description_content">ඔබේ සීමිත වගකීම බැලීමට, ඔබ මෙම උපාංගය මිල දී ගත් රට තෝරන්න. වගකීම සැකසීම් අනතුරුව දුරකථනය පසුව සීමිත වගකීම සහ g.co/devicewarranty හි දී ද ඇත.</string>
     <string name="suw_warranty_next_button_text">ඊළඟ</string>
     <string name="suw_warranty_positive_button_text">වසන්න</string>
     <string name="time_remaining_warning_subtext">ඔබගේ භාවිතය මත පදනම්ව %1$s පමණ ඉතිරිව ඇත</string>
@@ -347,10 +357,6 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="tips_suggestion_title">ඔබගේ Pixel ගැන දැන ගන්න</string>
     <string name="traffic_light_face_enrolling_title_accessibility">ඔබගේ දුරකථනය ඔබගේ මුහුණ ඉදිරියෙන් අල්ලා ගන්න</string>
     <string name="usb_use_file_transfers">ගොනු මාරුව / Android Auto</string>
-    <string name="vpn_app_bypass">තෝරාගත් යෙදුම් සඳහා VPN භාවිත නොකරන්න</string>
-    <string name="vpn_bypass_category_title">මෙම යෙදුම් සඳහා VPN භාවිත නොකරන්න</string>
-    <string name="vpn_bypass_description">ඔබට VPN නොසලකා හැරීමට සහ ඔබේ දුරකථනයේ සාමාන්‍ය ජාල සබැඳුම භාවිත කිරීමට සමහර යෙදුම්වලට ඉඩ දිය හැක</string>
-    <string name="vpn_preference_group_title">වෙනත්</string>
     <string name="wallpaper_dashboard_summary">වර්ණ, තේමා නිරූපක, යෙදුම් ජාලකය</string>
     <string name="warranty_country_information">%1$s %2$s</string>
     <string name="wifi_subscription_summary">OpenRoaming දායකත්වය බලන්න නැතහොත් වෙනස් කරන්න</string>

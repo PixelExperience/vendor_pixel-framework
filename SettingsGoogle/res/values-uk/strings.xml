@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Збільште чутливість екрана й покращте ефективність дотику, якщо використовуєте захисне скло чи плівку</string>
     <string name="touch_sensitivity_title">Режим \"Захисне скло\"</string>
     <string name="columbus_title">Подвійний дотик для виконання дій</string>
-    <string name="about_phone">Про телефон</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge налаштовано. Перейдіть на наступний екран або продовжуйте коригування.</string>
     <string name="accessibility_keyboard_haptics_title">Вібровідгук клавіатури</string>
+    <string name="adaptive_alert_vibration_summary">Зменшує інтенсивність вібрації, коли телефон лежить нерухомо екраном угору</string>
+    <string name="adaptive_alert_vibration_title">Адаптивна вібрація під час сповіщень</string>
     <string name="adaptive_charging">Адаптивне заряджання</string>
     <string name="adaptive_charging_description">Подовжує час роботи акумулятора завдяки рівномірному довготривалому заряджанню. Активується на основі циклу використання.</string>
     <string name="adaptive_charging_time_estimate"><b>Адаптивне заряджання</b> • Завершиться о %1$s</string>
-    <string name="add_bypassed_application_hint">Немає доданих додатків</string>
-    <string name="advanced_vpn_preference_group_title">Вбудовані</string>
-    <string name="all_apps_category_title">Усі додатки</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Параметри</annotation></string>
     <string name="app_and_notification_dashboard_summary">Асистент, нещодавні додатки, додатки за умовчанням</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Відкрити Асистент</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Щоб захистити акумулятор, заряджання призупиняється на рівні %1$s, поки планшет у док-станції</string>
     <string name="battery_tip_smart_battery_summary">Увімкнути Адаптивний акумулятор</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s більше не буде підключено до інших пристроїв, зв’язаних із цим обліковим записом Google</string>
-    <string name="clear_calling_footer">Доступність функції \"Чистий звук\" залежить від з’єднання з Wi‑Fi і мобільною мережею. Зміст вашої розмови не надсилається компанії Google.</string>
+    <string name="clear_calling_footer">"Задля захисту вашої конфіденційності функція \"Чистий звук\" ніколи не надсилає аудіофайли чи записи розмов у Google.
+
+Доступність функції \"Чистий звук\" залежить від з’єднання з Wi‑Fi і мобільною мережею."</string>
     <string name="clear_calling_title">Чистий звук</string>
-    <string name="clear_calling_toggle">Використовувати функцію \"Чистий звук\"</string>
+    <string name="clear_calling_toggle">Використовувати Чистий звук</string>
     <string name="clear_calling_topintro">Зменшує фоновий шум під час дзвінків</string>
     <string name="columbus_gesture_detected">Виявлено подвійний дотик.</string>
     <string name="columbus_gesture_enrollment_complete">Готово</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Виберіть дію, яка має відбуватися, коли ви відкриваєте цей додаток подвійним дотиком.</string>
     <string name="columbus_setting_enable_switch_title">Використовувати подвійний дотик</string>
     <string name="columbus_setting_sensitivity_title">Сильніший дотик</string>
+    <string name="communal_cast_summary">Трансляція на пристрій або з пристрою</string>
+    <string name="communal_lock_screen_summary">Конфіденційність, сповіщення й автоматизація дому</string>
+    <string name="communal_settings_summary_1">Коли заблоковано й підключено до док-станції</string>
+    <string name="communal_settings_summary_2">Параметри на док-станції</string>
+    <string name="communal_settings_summary_3">Підключення до док-станції та блокування екрана</string>
+    <string name="communal_settings_summary_4">Параметри на заблокованому екрані й док-станції</string>
+    <string name="communal_settings_title">Режим центру керування</string>
+    <string name="communal_smartspace_summary">Нагадування, попередження тощо від Асистента</string>
+    <string name="communal_smartspace_title">Найважливіше</string>
+    <string name="communal_what_to_show">Що показувати</string>
+    <string name="communal_what_to_use">Що використовувати</string>
     <string name="connectivity_helper_call_quality_category">Якість дзвінка</string>
     <string name="connectivity_helper_call_quality_summary">Отримуйте сповіщення про причини проблем із підключенням під час дзвінків</string>
     <string name="connectivity_helper_call_quality_title">Отримуйте сповіщення</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Показати картки й квитки</string>
     <string name="install_unknown_applications">Дозволити встановлення додатків не лише з магазину Google Play</string>
     <string name="keywords_accessibility_menu">моторика, швидке меню, допоміжне меню, дотик, для лівої руки</string>
+    <string name="keywords_adaptive_alert_vibration">тактильний відгук, вібрація, телефон, виклик, дзвінок, сигнал, сповіщення, голосно, тихо, шум, проблема, адаптивний</string>
     <string name="keywords_adaptive_charging">зарядити, заряджання, розумне заряджання, адаптивне заряджання, акумулятор, стан акумулятора</string>
     <string name="keywords_assist_gesture_launch">жест, край, сторона, активний край, стиснути, міцно тримати, допомагати, асистент, стиснути, ok google, google асистент, помічник</string>
     <string name="keywords_assist_gesture_silence">жест, край, сторона, активний край, вимкнути звук, відкласти, будильник, вхідний дзвінок, беззвучний режим, дисплей, заблокований екран, стиснути, міцно тримати, зупинити</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Мій Pixel</string>
     <string name="my_device_info_account_preference_title">Обліковий запис Google</string>
     <string name="owner_info_settings_edit_text_hint">Приклад: Pixel Олега.</string>
-    <string name="remove">Вилучити</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Автоматично вмикатиметься на короткий час, коли ви підключите телефон до зарядного пристрою</string>
     <string name="reverse_charging_auto_turn_on_title">Вмикати автоматично</string>
     <string name="reverse_charging_charging_wirelessly_message">Недоступно під час бездротового заряджання телефона</string>
@@ -295,9 +306,9 @@
     <string name="security_settings_face_enroll_introduction_how_title">Як це працює</string>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Можливо, для розблокування телефона за допомогою фейсконтролю або підтвердження особи дитині потрібно буде розплющити очі. Ви та дитина будь-коли можете вимкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Якщо дитина зазвичай носить окуляри, вона може не знімати їх під час налаштування.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Розблокування телефона через фейсконтроль дитини може поступатися за надійністю ключу, PIN-коду або паролю</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Дитина може випадково розблокувати телефон, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на неї (наприклад, близнюк) або інша особа, яка піднесе пристрій до її обличчя.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Фейсконтроль може вимагати, щоб ви розплющили очі, перш ніж розблокувати телефон або підтверити особу. Ви будь-коли можете ввімкнути цю опцію в налаштуваннях.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">>Розблокування телефона через фейсконтроль дитини може поступатися за надійністю ключу, PIN-коду або паролю</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">>Дитина може випадково розблокувати телефон, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на неї (наприклад, близнюк) або інша особа, яка піднесе пристрій до її обличчя.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">>Фейс-контроль можна налаштувати так, щоб він спрацьовував, лише коли ваші очі розплющені. Ви будь-коли можете ввімкнути цю опцію в налаштуваннях.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Можна не знімати звичайні або слабозатінені сонцезахисні окуляри.</string>
     <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Розблокування телефона через фейсконтроль може поступатися за надійністю ключу, PIN-коду або паролю</string>
     <string name="security_settings_face_enroll_introduction_info_looking" product="device">Ви можете випадково розблокувати телефон у недоречний момент, ненароком поглянувши на нього. Крім того, телефон може розблокувати хтось дуже схожий на вас (наприклад, ваш близнюк) або інша особа, яка піднесе пристрій до вашого обличчя.</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">Обмежена гарантія</string>
     <string name="suw_more_button_label">Більше</string>
     <string name="suw_next_button_label">Далі</string>
-    <string name="suw_warranty_description">Щоб переглянути обмежену гарантію, виберіть країну покупки цього пристрою.&lt;br /&gt;&lt;br /&gt;З нею можна також ознайомитися, вибравши &lt;b&gt;Налаштування &gt; %s &gt; Обмежена гарантія&lt;/b&gt; і на сторінці g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Щоб переглянути обмежену гарантію, виберіть країну покупки цього пристрою. З нею можна також ознайомитися, вибравши \"Налаштування\", %s, а потім \"Обмежена гарантія\", а також на сторінці g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Щоб ознайомитися з обмеженою гарантією, яка застосовується до вашого пристрою, перейдіть у налаштування пристрою: &lt;b&gt;Налаштування &gt; %s &gt; Обмежена гарантія&lt;/b&gt; або відвідайте сторінку g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Щоб переглянути обмежену гарантію, виберіть країну покупки цього пристрою.&lt;br /&gt;&lt;br /&gt;З нею можна також ознайомитися, вибравши &lt;b&gt;Налаштування &gt; Про телефон &gt; Обмежена гарантія&lt;/b&gt; і на сторінці g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Щоб переглянути обмежену гарантію, виберіть країну покупки цього пристрою. З нею можна також ознайомитися, вибравши \"Налаштування\" &gt; \"Про телефон\" &gt; \"Обмежена гарантія\", а також на сторінці g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Далі</string>
     <string name="suw_warranty_positive_button_text">Закрити</string>
     <string name="time_remaining_warning_subtext">Залишилося приблизно %1$s (на основі попереднього використання)</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">Докладніше про Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Тримайте телефон перед обличчям</string>
     <string name="usb_use_file_transfers">Передавання файлів/Android Auto</string>
-    <string name="vpn_app_bypass">Не використовувати VPN для вибраних додатків</string>
-    <string name="vpn_bypass_category_title">Не використовувати VPN для цих додатків</string>
-    <string name="vpn_bypass_description">Ви можете дозволити деяким додаткам ігнорувати VPN і використовувати звичайне з’єднання з мережею вашого телефона</string>
-    <string name="vpn_preference_group_title">Інші</string>
     <string name="wallpaper_dashboard_summary">Кольори, теми значків, сітка додатків</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Перегляд або редагування підписки OpenRoaming</string>

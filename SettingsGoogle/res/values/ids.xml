@@ -11,8 +11,6 @@
     <item type="id" name="browser_actions_menu_item_text"/>
     <item type="id" name="browser_actions_menu_items"/>
     <item type="id" name="browser_actions_menu_view"/>
-    <item type="id" name="candidate_apps_header_text"/>
-    <item type="id" name="candidate_apps_list"/>
     <item type="id" name="card"/>
     <item type="id" name="columbus_gesture_illustration"/>
     <item type="id" name="content_container"/>
@@ -20,10 +18,6 @@
     <item type="id" name="distance_indicator_view"/>
     <item type="id" name="dream_container"/>
     <item type="id" name="dream_setup_list"/>
-    <item type="id" name="enabled_apps_header_text"/>
-    <item type="id" name="enabled_apps_hint_text"/>
-    <item type="id" name="enabled_apps_list"/>
-    <item type="id" name="end_icon"/>
     <item type="id" name="face_check"/>
     <item type="id" name="face_enroll_confirmation"/>
     <item type="id" name="face_enroll_participation"/>

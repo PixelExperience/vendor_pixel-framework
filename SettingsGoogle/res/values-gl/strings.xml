@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Aumenta a sensibilidade ao tacto e mellora o tacto ao usar un protector de pantalla</string>
     <string name="touch_sensitivity_title">Modo de protector de pantalla</string>
     <string name="columbus_title">Usar Toque rápido para iniciar accións</string>
-    <string name="about_phone">Acerca do teléfono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Configurouse Active Edge. Vai á seguinte pantalla ou sigue axustándoo.</string>
     <string name="accessibility_keyboard_haptics_title">Tecnoloxía háptica do teclado</string>
+    <string name="adaptive_alert_vibration_summary">Reduce a intensidade da vibración cando o teléfono está estable e coa pantalla cara arriba</string>
+    <string name="adaptive_alert_vibration_title">Vibración de alerta intelixente</string>
     <string name="adaptive_charging">Carga intelixente</string>
-    <string name="adaptive_charging_description">Carga a batería dun xeito lento e constante durante períodos de tempo máis longos para que dure máis. Actívase segundo os teus ciclos de uso.</string>
-    <string name="adaptive_charging_time_estimate"><b>Carga intelixente</b> • Carga completa ás %1$s</string>
-    <string name="add_bypassed_application_hint">Non se engadiu ningunha aplicación</string>
-    <string name="advanced_vpn_preference_group_title">Integrada</string>
-    <string name="all_apps_category_title">Todas as aplicacións</string>
+    <string name="adaptive_charging_description">Carga a batería dun xeito lento e constante durante períodos de tempo máis longos para aumentar a vida útil da batería. Actívase segundo os teus ciclos de uso.</string>
+    <string name="adaptive_charging_time_estimate"><b>Carga intelixente</b> • Hora á que se completará: %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferencias</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistente, aplicacións recentes, aplicacións predeterminadas</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Continuar Asistente</string>
@@ -99,9 +97,11 @@ En canto se restableza, inicia o proceso de configuración e escolle a opción d
     <string name="battery_tip_limited_temporarily_extra_summary">Para protexer a batería, a carga ponse en pausa ao chegar ao %1$s cando a tableta está colocada na base</string>
     <string name="battery_tip_smart_battery_summary">Activa a batería intelixente</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s xa non se sincronizará con ningún dispositivo vinculado a esta Conta de Google</string>
-    <string name="clear_calling_footer">A función Chamadas nítidas estará dispoñible ou non en función da conexión wifi e da rede de telefonía móbil. O contido da chamada non se lle envía a Google.</string>
-    <string name="clear_calling_title">Chamadas nítidas</string>
-    <string name="clear_calling_toggle">Usar Chamadas nítidas</string>
+    <string name="clear_calling_footer">"Para protexer a túa privacidade, coa función Chamadas nítidas nunca se lle envían a Google conversas nin audio.
+
+Chamadas nítidas está dispoñible dependendo da túa rede de telefonía móbil e wifi."</string>
+    <string name="clear_calling_title">Chamadas de audio nítido</string>
+    <string name="clear_calling_toggle">Usar Chamadas de audio nítido</string>
     <string name="clear_calling_topintro">Reduce o ruído de fondo durante as chamadas</string>
     <string name="columbus_gesture_detected">Detectouse o xesto Toque rápido.</string>
     <string name="columbus_gesture_enrollment_complete">Feito</string>
@@ -147,6 +147,17 @@ En canto se restableza, inicia o proceso de configuración e escolle a opción d
     <string name="columbus_setting_app_shortcut_selection_help_text">Selecciona o que queres que pase cando abras esta aplicación co xesto Toque rápido.</string>
     <string name="columbus_setting_enable_switch_title">Usar xesto Toque rápido</string>
     <string name="columbus_setting_sensitivity_title">Requirir toques máis fortes</string>
+    <string name="communal_cast_summary">Retransmite contido desde ou para este dispositivo</string>
+    <string name="communal_lock_screen_summary">Privacidade, notificacións e controis domóticos</string>
+    <string name="communal_settings_summary_1">Comportamento bloqueado e na base</string>
+    <string name="communal_settings_summary_2">Opcións na base</string>
+    <string name="communal_settings_summary_3">Opcións na base e coa pantalla de bloqueo</string>
+    <string name="communal_settings_summary_4">Opcións da pantalla de bloqueo e na base</string>
+    <string name="communal_settings_title">Modo Hub</string>
+    <string name="communal_smartspace_summary">Recordatorios, alertas e moito máis do Asistente</string>
+    <string name="communal_smartspace_title">Dunha ollada</string>
+    <string name="communal_what_to_show">Que se debe mostrar</string>
+    <string name="communal_what_to_use">Que se debe usar</string>
     <string name="connectivity_helper_call_quality_category">Calidade das chamadas</string>
     <string name="connectivity_helper_call_quality_summary">Recibe notificacións sobre as causas dos problemas de conexión que se produzan durante as chamadas</string>
     <string name="connectivity_helper_call_quality_title">Recibir notificacións</string>
@@ -201,6 +212,7 @@ Os datos da copia de seguranza non contarán na cota de almacenamento de Drive. 
     <string name="global_actions_panel_title">Mostrar tarxetas/pases</string>
     <string name="install_unknown_applications">Permitir a instalación de aplicacións de fontes distintas a Play Store</string>
     <string name="keywords_accessibility_menu">motor, menú rápido, menú asistencial, función táctil, destreza</string>
+    <string name="keywords_adaptive_alert_vibration">tecnoloxía háptica, vibrar, teléfono, chamada, soar, alerta, notificacións, alto, silencioso, funda, intelixente</string>
     <string name="keywords_adaptive_charging">carga, cargar, carga intelixente, batería, estado da batería</string>
     <string name="keywords_assist_gesture_launch">xesto, bordo, lado, Active Edge, apertar, agarrar, axudar, Asistente, Ok Google, Asistente de Google</string>
     <string name="keywords_assist_gesture_silence">xesto, bordo, lado, Active Edge, silencio, adiar, alarma, chamada entrante, silencio, pantalla, pantalla de bloqueo, apertar, agarrar, deter</string>
@@ -227,7 +239,6 @@ Os datos da copia de seguranza non contarán na cota de almacenamento de Drive. 
     <string name="me_card_title">O meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta de Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel de Brais.</string>
-    <string name="remove">Quitar</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Activarase automaticamente durante un período de tempo curto cando o teléfono se conecte a un cargador</string>
     <string name="reverse_charging_auto_turn_on_title">Activar automaticamente</string>
     <string name="reverse_charging_charging_wirelessly_message">Non está dispoñible porque o teléfono está cargando sen fíos</string>
@@ -333,9 +344,8 @@ Para mellorar o funcionamento, podes configurar de novo o desbloqueo facial en C
     <string name="suw_limited_warranty_title">Garantía limitada</string>
     <string name="suw_more_button_label">Máis</string>
     <string name="suw_next_button_label">Seguinte</string>
-    <string name="suw_warranty_description">Para consultar a garantía limitada, selecciona o país no que compraches este dispositivo.&lt;br /&gt;&lt;br /&gt;A garantía tamén está dispoñible en &lt;b&gt;Configuración &gt; %s &gt; Garantía limitada&lt;/b&gt;, así como en g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Para consultar a garantía limitada, selecciona o país no que compraches este dispositivo. A garantía tamén está dispoñible en Configuración &gt; %s &gt; Garantía limitada, así como en g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">A garantía limitada aplicable ao teu dispositivo tamén está dispoñible nel en &lt;b&gt;Configuración &gt; %s &gt; Garantía limitada&lt;/b&gt; e en g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Para consultar a garantía limitada, selecciona o país no que compraches este dispositivo.&lt;br /&gt;&lt;br /&gt;A garantía tamén está dispoñible en &lt;b&gt;Configuración &gt; Acerca do teléfono &gt; Garantía limitada&lt;/b&gt;, así como en g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Para consultar a garantía limitada, selecciona o país no que compraches este dispositivo. A garantía tamén está dispoñible en Configuración &gt; Acerca do teléfono &gt; Garantía limitada, así como en g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Seguinte</string>
     <string name="suw_warranty_positive_button_text">Pechar</string>
     <string name="time_remaining_warning_subtext">Tempo restante aproximado en función do uso efectuado anteriormente: %1$s</string>
@@ -344,10 +354,6 @@ Para mellorar o funcionamento, podes configurar de novo o desbloqueo facial en C
     <string name="tips_suggestion_title">Coñece o teu Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Coloca o teléfono diante da cara</string>
     <string name="usb_use_file_transfers">Android Auto/Transferencia de ficheiros</string>
-    <string name="vpn_app_bypass">Non usar VPN nas aplicacións seleccionadas</string>
-    <string name="vpn_bypass_category_title">Non usar VPN nestas aplicacións</string>
-    <string name="vpn_bypass_description">Podes darlle permiso a algunhas aplicacións para que ignoren a VPN e usen a conexión de rede normal do teu teléfono</string>
-    <string name="vpn_preference_group_title">Outra</string>
     <string name="wallpaper_dashboard_summary">Cores, temas das iconas, grade de aplicacións</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Consulta ou cambia a subscrición a OpenRoaming</string>

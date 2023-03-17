@@ -60,6 +60,11 @@
             android:title="@string/lockscreen_trivial_controls_setting_toggle"
             settings:controller="com.android.settings.display.ControlsTrivialPrivacyPreferenceController" />
 
+        <Preference
+            android:key="customizable_lock_screen_quick_affordances"
+            android:title="@string/lockscreen_quick_affordances_title"
+            settings:controller="com.android.settings.display.CustomizableLockScreenQuickAffordancesPreferenceController" />
+
         <SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:summary="@string/lockscreen_double_line_clock_summary"

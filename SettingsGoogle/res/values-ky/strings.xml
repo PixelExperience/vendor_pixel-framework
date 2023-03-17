@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Экранга коргоочу пленка же айнек коюлганда, анын тийүүгө сезгичтиги жогорулайт</string>
     <string name="touch_sensitivity_title">Экранды коргоо режими</string>
     <string name="columbus_title">Тез баскылап, аракеттерди аткарып баштоо</string>
-    <string name="about_phone">Телефон жөнүндө</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge жөндөлдү. Кийинки экранга өтүңүз же тууралоону улантыңыз.</string>
     <string name="accessibility_keyboard_haptics_title">Баскычтоптун сенсорлору</string>
+    <string name="adaptive_alert_vibration_summary">Телефонуңуздун экраны өйдө карап жатканда акырыныраак дирилдейт</string>
+    <string name="adaptive_alert_vibration_title">Дирилдөөнү ыңгайлаштырып тууралоо</string>
     <string name="adaptive_charging">Ыңгайлаштырылган кубаттоо</string>
     <string name="adaptive_charging_description">Батареяны көпкө чейин колдонуу үчүн түзмөк бир калыпта жайыраак кубатталат. Бул режим түзмөгүңүздү адатта кайсы убакытта кубаттай турганыңызды эске алат.</string>
     <string name="adaptive_charging_time_estimate"><b>Ыңгайлаштырылган кубаттоо</b> • Саат %1$s кубатталып бүтөт</string>
-    <string name="add_bypassed_application_hint">Колдонмолор кошулган жок</string>
-    <string name="advanced_vpn_preference_group_title">Алдын ала орнотулган оюн</string>
-    <string name="all_apps_category_title">Бардык колдонмолор</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Жеке жөндөөлөр</annotation></string>
     <string name="app_and_notification_dashboard_summary">Жардамчы, акыркы колдонмолор, демейки колдонмолор</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Жардамчыга өтүү</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Планшет туташып турганда, батареяны коргоо үчүн кубаттоо %1$s жеткенде тындырылат</string>
     <string name="battery_tip_smart_battery_summary">Adaptive Battery функциясын иштетесиз</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Мындан ары %1$s бул Google аккаунту менен байланыштырылган түзмөктөр менен жупташтырылбайт</string>
-    <string name="clear_calling_footer">"Мыкты сапатта чалуу Wi‑Fi жана мобилдик тармактын туташуусуна жараша жеткиликтүү. Чалуунун мазмуну Google'га жөнөтүлбөйт."</string>
-    <string name="clear_calling_title">Мыкты сапатта чалуу</string>
-    <string name="clear_calling_toggle">Мыкты сапатта чалуу функциясын колдонуу</string>
+    <string name="clear_calling_footer">"Купуялыгыңызды коргоо үчүн Мыкты сапатта чалуу функциясы аудио файлдарды же жазышууларды Google'га жөнөтпөйт.
+
+Мыкты сапатта чалуу функциясы Wi‑Fi жана мобилдик тармакка жараша иштейт."</string>
+    <string name="clear_calling_title">Таза аудио</string>
+    <string name="clear_calling_toggle">\"Таза аудио\" функциясын колдонуу</string>
     <string name="clear_calling_topintro">Чалууларда фондогу ызы-чууларды азайтат</string>
     <string name="columbus_gesture_detected">Тез баскылоо аныкталды!</string>
     <string name="columbus_gesture_enrollment_complete">Бүттү</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Бул колдонмону тез баскылап ачкандан кийин аткарыла турган аракетти тандаңыз.</string>
     <string name="columbus_setting_enable_switch_title">Тез баскылоону иштетүү</string>
     <string name="columbus_setting_sensitivity_title">Катуураак басууну талап кылуу</string>
+    <string name="communal_cast_summary">Бул түзмөккө же андан тышкы экранга чыгаруу</string>
+    <string name="communal_lock_screen_summary">Купуялык, билдирмелер жана Үйдөгү түзмөктөрдү башкаруу</string>
+    <string name="communal_settings_summary_1">Кулпуланган жана туташкан кездеги аракет</string>
+    <string name="communal_settings_summary_2">Туташуудагы параметрлер</string>
+    <string name="communal_settings_summary_3">Туташуу жана кулпуланган экрандагы параметрлер</string>
+    <string name="communal_settings_summary_4">Кулпуланган экран жана туташуудагы параметрлер</string>
+    <string name="communal_settings_title">Hub режими</string>
+    <string name="communal_smartspace_summary">Эстеткичтер, эскертүүлөр жана Жардамчынын башка функциялары</string>
+    <string name="communal_smartspace_title">Дароо көрүү</string>
+    <string name="communal_what_to_show">Көрсөтүлө турган нерселер</string>
+    <string name="communal_what_to_use">Колдонула турган нерселер</string>
     <string name="connectivity_helper_call_quality_category">Чалуунун сапаты</string>
     <string name="connectivity_helper_call_quality_summary">Чалуулардагы туташуу көйгөйлөрүнө себеп болгон нерселерди билип турасыз</string>
     <string name="connectivity_helper_call_quality_title">Билдирмелерди алуу</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Насыя жана башка карталарды көрсөтүү</string>
     <string name="install_unknown_applications">"Play Store'дон башка булактардан алынган колдонмолорду орнотууга уруксат берүү"</string>
     <string name="keywords_accessibility_menu">кыймылдын бузулушу, ыкчам меню, ыңгайлуу меню, тийүү, эптүүлүк</string>
+    <string name="keywords_adaptive_alert_vibration">сенсорлор, дирилдөө, телефон, чалуу, шыңгыратуу, эскертүү, билдирмелер, катуу, акырын, ызы-чуу, кутуча, адаптивдүү</string>
     <string name="keywords_adaptive_charging">кубаттоо, кубатталууда, акылдуу кубаттоо, ыңгайлаштырылуучу кубаттоо, батарея, батареянын акыбалы</string>
     <string name="keywords_assist_gesture_launch">жаңсоо, кыркуу, тарап, жигердүү кыркуу, кысуу, кармоо, жардам берүү, жардамчы, кысуу, ok google, google жардамчы</string>
     <string name="keywords_assist_gesture_silence">жаңсоо, кыркуу, тарап, жигердүү кыркуу, үндү басуу, тындыруу, ойготкуч, кириш чалуу, акырын, дисплей, кулпуланган экран, кысуу, кармоо, токтотуу</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Pixel түзмөгүм</string>
     <string name="my_device_info_account_preference_title">Google аккаунту</string>
     <string name="owner_info_settings_edit_text_hint">Мисалы, Асандын Pixel түзмөгү.</string>
-    <string name="remove">Өчүрүү</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Телефонуңуз кубаттагычка туташтырылганда кыска мөөнөткө автоматтык түрдө күйөт</string>
     <string name="reverse_charging_auto_turn_on_title">Автоматтык түрдө күйөт</string>
     <string name="reverse_charging_charging_wirelessly_message">Жеткиликсиз, анткени телефон зымсыз кубатталып жатат</string>
@@ -331,9 +342,8 @@
     <string name="suw_limited_warranty_title">Чектелген кепилдик</string>
     <string name="suw_more_button_label">Дагы</string>
     <string name="suw_next_button_label">Кийинки</string>
-    <string name="suw_warranty_description">Чектелген кепилдикти көрүү үчүн бул түзмөктү сатып алган өлкөнү тандаңыз.&lt;br /&gt;&lt;br /&gt;Ошондой эле кепилдикти &lt;b&gt;Тууралоолор &gt; %s &gt; Чектелген кепилдик&lt;/b&gt; жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
-    <string name="suw_warranty_description_content">Чектелген кепилдикти көрүү үчүн бул түзмөктү сатып алган өлкөнү тандаңыз. Ошондой эле кепилдикти Тууралоолор, андан соң %s, Чектелген кепилдик жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
-    <string name="suw_warranty_language_consistent_description">Ошондой эле түзмөгүңүзгө берилген чектелген кепилдикти &lt;b&gt;Тууралоолор &gt; %s &gt; Чектелген кепилдик&lt;/b&gt; жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
+    <string name="suw_warranty_description">Чектелген кепилдикти көрүү үчүн бул түзмөктү сатып алган өлкөнү тандаңыз.&lt;br /&gt;&lt;br /&gt;Ошондой эле кепилдикти &lt;b&gt;Тууралоолор &gt; Телефон жөнүндө &gt; Чектелген кепилдик&lt;/b&gt; жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
+    <string name="suw_warranty_description_content">Чектелген кепилдикти көрүү үчүн бул түзмөктү сатып алган өлкөнү тандаңыз. Ошондой эле кепилдикти Тууралоолор, андан соң Телефон жөнүндө, Чектелген кепилдик жана g.co/devicewarranty бөлүмүнөн көрүүгө болот.</string>
     <string name="suw_warranty_next_button_text">Кийинки</string>
     <string name="suw_warranty_positive_button_text">Жабуу</string>
     <string name="time_remaining_warning_subtext">Мурда колдонгонуңузга караганда, болжол менен %1$s калды</string>
@@ -342,10 +352,6 @@
     <string name="tips_suggestion_title">Pixel жөнүндө билип алыңыз</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Телефонду жүзүңүздүн алдына алып келиңиз</string>
     <string name="usb_use_file_transfers">Файлдарды өткөрүү / Android Auto</string>
-    <string name="vpn_app_bypass">Айрым колдонмолор үчүн VPN иштетилбесин</string>
-    <string name="vpn_bypass_category_title">Бул колдонмолор үчүн VPN иштетилбесин</string>
-    <string name="vpn_bypass_description">"Айрым колдонмолорго VPN'ди иштетпей, телефонуңуздун адаттагы тармагына туташууга уруксат бере аласыз"</string>
-    <string name="vpn_preference_group_title">Башкалар</string>
     <string name="wallpaper_dashboard_summary">Түстөр, тематикалык сүрөтчөлөр, колдонмолор торчосу</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming жазылуусун көрүү же өзгөртүү</string>

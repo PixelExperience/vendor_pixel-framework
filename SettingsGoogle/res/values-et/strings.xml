@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Suurendab puudutuse tundlikkust ja täiustab puudutuste toimimist ekraanikaitse kasutamisel</string>
     <string name="touch_sensitivity_title">Ekraanikaitse režiim</string>
     <string name="columbus_title">Kiirpuudutus toimingute käivitamiseks</string>
-    <string name="about_phone">Teave telefoni kohta</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge on seadistatud. Minge järgmisele kuvale või jätkake kohandamist.</string>
     <string name="accessibility_keyboard_haptics_title">Klaviatuuri värintagasiside</string>
+    <string name="adaptive_alert_vibration_summary">Vähendab vibreerimise tugevust, kui teie telefon seisab paigal ja ekraan on ülespoole</string>
+    <string name="adaptive_alert_vibration_title">Hoiatuste kohanduv vibreerimine</string>
     <string name="adaptive_charging">Kohanduv laadimine</string>
     <string name="adaptive_charging_description">Pikendage aku tööiga, laadides pidevalt pikema aja jooksul. Aktiveeritakse teie kasutustsükli põhjal.</string>
-    <string name="adaptive_charging_time_estimate"><b>Kohanduv laadimine</b> • Saab täis %1$s</string>
-    <string name="add_bypassed_application_hint">Rakendusi pole lisatud</string>
-    <string name="advanced_vpn_preference_group_title">Sisseehitatud</string>
-    <string name="all_apps_category_title">Kõik rakendused</string>
+    <string name="adaptive_charging_time_estimate"><b>Kohanduv laadimine</b> • Täis %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Eelistused</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistent, hiljutised rakendused, vaikerakendused</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Jätka ja ava abimees</string>
@@ -99,9 +97,11 @@ Kui see on lähtestatud, läbige seadistusprotsess ning hankige oma eelmisest te
     <string name="battery_tip_limited_temporarily_extra_summary">Aku seisukorra kaitsmiseks peatatakse laadimine %1$s juures, kui teie tahvelarvuti on dokitud</string>
     <string name="battery_tip_smart_battery_summary">Kohanduva akuhalduri sisselülitamine</string>
     <string name="bluetooth_untethered_unpair_dialog_body">"Seadet %1$s ei seota enam ühegi selle Google'i kontoga lingitud seadmega"</string>
-    <string name="clear_calling_footer">"Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendusest. Teie kõne sisu ei saadeta Google'ile."</string>
-    <string name="clear_calling_title">Selge heliga helistamine</string>
-    <string name="clear_calling_toggle">Kasuta funktsiooni Selge heliga helistamine</string>
+    <string name="clear_calling_footer">"Teie privaatsuse kaitsmiseks ei saada funktsioon Selge heliga helistamine Google'ile kunagi heli ega vestlusi.
+
+Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendusest."</string>
+    <string name="clear_calling_title">Selged kõned</string>
+    <string name="clear_calling_toggle">Kasuta funktsiooni Selged kõned</string>
     <string name="clear_calling_topintro">Vähendab kõnede ajal taustamüra</string>
     <string name="columbus_gesture_detected">Tuvastati kiirpuudutus!</string>
     <string name="columbus_gesture_enrollment_complete">Valmis</string>
@@ -147,6 +147,17 @@ Kui see on lähtestatud, läbige seadistusprotsess ning hankige oma eelmisest te
     <string name="columbus_setting_app_shortcut_selection_help_text">Valige, mis juhtub, kui selle rakenduse kiirpuudutusega avate.</string>
     <string name="columbus_setting_enable_switch_title">Kiirpuudutuse kasutamine</string>
     <string name="columbus_setting_sensitivity_title">Tugevamate puudutuste nõudmine</string>
+    <string name="communal_cast_summary">Ülekandmine sellesse seadmesse / sellest seadmest</string>
+    <string name="communal_lock_screen_summary">Privaatsus, märguanded ja kodu juhtelemendid</string>
+    <string name="communal_settings_summary_1">Käitumine lukustatud ja dokitud olekus</string>
+    <string name="communal_settings_summary_2">Valikud dokis olles</string>
+    <string name="communal_settings_summary_3">Doki ja lukustuskuva valikud</string>
+    <string name="communal_settings_summary_4">Lukustuskuva ja dokis oleku valikud</string>
+    <string name="communal_settings_title">Kontrollerirežiim</string>
+    <string name="communal_smartspace_summary">Assistendi meeldetuletused, hoiatused ja muu</string>
+    <string name="communal_smartspace_title">Ülevaade</string>
+    <string name="communal_what_to_show">Mida kuvada?</string>
+    <string name="communal_what_to_use">Mida kasutada?</string>
     <string name="connectivity_helper_call_quality_category">Kõne kvaliteet</string>
     <string name="connectivity_helper_call_quality_summary">Hankige telefonikõnede ajal märguandeid ühendusprobleemide kohta</string>
     <string name="connectivity_helper_call_quality_title">Märguannete hankimine</string>
@@ -201,6 +212,7 @@ Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja f
     <string name="global_actions_panel_title">Kuva kaarte ja pääsmeid</string>
     <string name="install_unknown_applications">Luba rakenduste installimine muudest allikatest peale Play poe</string>
     <string name="keywords_accessibility_menu">motoorika, kiirmenüü, abistav menüü, puude, käeline osavus</string>
+    <string name="keywords_adaptive_alert_vibration">puutepõhine, vibreerimine, telefon, kõne, helin, helisemine, hoiatus, märguanded, vali, vaikne, lärmakas, lärm, ümbris, kohanduv</string>
     <string name="keywords_adaptive_charging">laadima, laadimine, nutikas laadimine, kohanduv laadimine, aku, aku toimivus</string>
     <string name="keywords_assist_gesture_launch">"liigutus, serv, külg, aktiivne serv, pigistamine, haare, abi, assistent, pigistamine, ok google, google'i assistent"</string>
     <string name="keywords_assist_gesture_silence">liigutus, serv, külg, aktiivne serv, vaikus, edasilükkamine, alarm, sissetulev kõne, vaikne, ekraanikuva, lukustuskuva, pigistamine, haare, peatamine</string>
@@ -227,7 +239,6 @@ Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja f
     <string name="me_card_title">Minu Pixel</string>
     <string name="my_device_info_account_preference_title">"Google'i konto"</string>
     <string name="owner_info_settings_edit_text_hint">Nt Karli Pixel.</string>
-    <string name="remove">Eemalda</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Lülitub lühikeseks ajaks automaatselt sisse, kui teie telefon on laadijaga ühendatud</string>
     <string name="reverse_charging_auto_turn_on_title">Lülita automaatselt sisse</string>
     <string name="reverse_charging_charging_wirelessly_message">Pole saadaval, kuna telefon laeb juhtmeta</string>
@@ -332,9 +343,8 @@ Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</strin
     <string name="suw_limited_warranty_title">Piiratud garantii</string>
     <string name="suw_more_button_label">Rohkem</string>
     <string name="suw_next_button_label">Edasi</string>
-    <string name="suw_warranty_description">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite.&lt;br /&gt;&lt;br /&gt;Garantii on saadaval ka menüüs &lt;b&gt;Seaded &gt; %s &gt; Piiratud garantii&lt;/b&gt; ja saidil g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite. Garantii on saadaval ka menüüs Seaded &gt; %s &gt; Piiratud garantii ja saidil g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Teie seadme puhul kehtiv piiratud garantii on saadaval ka seadme seadetes menüüs &lt;b&gt;Seaded &gt; %s &gt; Piiratud garantii&lt;/b&gt; ja aadressil g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite.&lt;br /&gt;&lt;br /&gt;Garantii on saadaval ka menüüs &lt;b&gt;Seaded &gt; Teave telefoni kohta &gt; Piiratud garantii&lt;/b&gt; ja saidil g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite. Garantii on saadaval ka menüüs Seaded &gt; Teave telefoni kohta &gt; Piiratud garantii ja saidil g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Järgmine</string>
     <string name="suw_warranty_positive_button_text">Sule</string>
     <string name="time_remaining_warning_subtext">Teie kasutuse alusel on jäänud ligikaudu %1$s</string>
@@ -343,10 +353,6 @@ Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</strin
     <string name="tips_suggestion_title">Õppige oma Pixelit tundma</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hoidke telefoni oma näo ees</string>
     <string name="usb_use_file_transfers">Failiedastus / Android Auto</string>
-    <string name="vpn_app_bypass">Ära kasuta valitud rakenduste puhul VPN-i</string>
-    <string name="vpn_bypass_category_title">Ära kasuta nende rakenduste puhul VPN-i</string>
-    <string name="vpn_bypass_description">Saate mõnele rakendusele anda loa VPN-i eirata ja kasutada telefoni tavapärast võrguühendust</string>
-    <string name="vpn_preference_group_title">Muud</string>
     <string name="wallpaper_dashboard_summary">Värvid, temaatilised ikoonid, rakenduste ruudustik</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Tellimuse OpenRoaming vaatamine või muutmine</string>

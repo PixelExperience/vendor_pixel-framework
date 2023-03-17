@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Povečanje občutljivosti na dotik in izboljšanje zaznavanja dotikov pri uporabi zaščite zaslona.</string>
     <string name="touch_sensitivity_title">Način z zaščito zaslona</string>
     <string name="columbus_title">Hitri dotik za zagon dejanj</string>
-    <string name="about_phone">O telefonu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Funkcija Active Edge je nastavljena. Pojdite na naslednji zaslon ali pa nadaljujte s prilagajanjem.</string>
     <string name="accessibility_keyboard_haptics_title">Tipni odziv tipkovnice</string>
+    <string name="adaptive_alert_vibration_summary">Zmanjša moč vibriranja, ko je telefon pri miru z navzgor obrnjenim zaslonom.</string>
+    <string name="adaptive_alert_vibration_title">Prilagodljivo vibriranje ob opozorilih</string>
     <string name="adaptive_charging">Prilagodljivo polnjenje</string>
     <string name="adaptive_charging_description">Z dolgotrajnejšimi obdobji enakomernega polnjenja boste podaljšali življenjsko dobo baterije. Aktivirano na podlagi cikla porabe.</string>
     <string name="adaptive_charging_time_estimate"><b>Prilagodljivo polnjenje</b> • Povsem polna bo do %1$s</string>
-    <string name="add_bypassed_application_hint">Nobena aplikacija ni bila dodana</string>
-    <string name="advanced_vpn_preference_group_title">Vgrajeno</string>
-    <string name="all_apps_category_title">Vse aplikacije</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Nastavitve</annotation></string>
     <string name="app_and_notification_dashboard_summary">Pomočnik, nedavne aplikacije, privzete aplikacije</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Naprej na Pomočnika</string>
@@ -98,7 +96,9 @@ Ko je telefon ponastavljen, izvedite postopek nastavitve in izberite možnost za
     <string name="battery_tip_limited_temporarily_extra_summary">Zaradi zaščite baterije je polnjenje začasno zaustavljeno pri %1$s, ko je tablični računalnik priklopljen na nosilec.</string>
     <string name="battery_tip_smart_battery_summary">Vklopite prilagodljivo varčevanje z energijo baterije.</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Naprava %1$s ne bo več seznanjena z nobeno napravo, povezano s tem računom Google</string>
-    <string name="clear_calling_footer">Jasen zvok klica je na voljo pri vzpostavljeni povezavi Wi-Fi ali povezavi z mobilnim omrežjem. Vsebina klica se ne pošlje Googlu.</string>
+    <string name="clear_calling_footer">"Zaradi varovanja vaše zasebnosti funkcija »Jasen zvok klica« zvoka ali pogovorov nikoli ne pošlje Googlu.
+
+Razpoložljivost funkcije »Jasen zvok klica« je odvisna od omrežja Wi-Fi ali mobilnega omrežja."</string>
     <string name="clear_calling_title">Jasen zvok klica</string>
     <string name="clear_calling_toggle">Uporaba jasnega zvoka klica</string>
     <string name="clear_calling_topintro">Zmanjšanje hrupa v ozadju med klici</string>
@@ -146,6 +146,17 @@ Ko je telefon ponastavljen, izvedite postopek nastavitve in izberite možnost za
     <string name="columbus_setting_app_shortcut_selection_help_text">Izberite, katero dejanje se izvede, ko to aplikacijo odprete s hitrim dotikom.</string>
     <string name="columbus_setting_enable_switch_title">Uporabi hitri dotik</string>
     <string name="columbus_setting_sensitivity_title">Uporaba močnejših dotikov</string>
+    <string name="communal_cast_summary">Predvajanje v tej napravi ali iz te naprave</string>
+    <string name="communal_lock_screen_summary">Zasebnost, obvestila in kontrolniki za dom</string>
+    <string name="communal_settings_summary_1">Način delovanja v zaklenjenem stanju in v nosilcu</string>
+    <string name="communal_settings_summary_2">Možnosti priklopa v nosilec</string>
+    <string name="communal_settings_summary_3">Možnosti nosilca in zaklenjenega zaslona</string>
+    <string name="communal_settings_summary_4">Možnosti zaklenjenega zaslona in priklopa v nosilec</string>
+    <string name="communal_settings_title">Način središča</string>
+    <string name="communal_smartspace_summary">Opomniki, opozorila in drugo od Pomočnika</string>
+    <string name="communal_smartspace_title">Hitri pregled</string>
+    <string name="communal_what_to_show">Kaj naj bo prikazano</string>
+    <string name="communal_what_to_use">Kaj uporabljati</string>
     <string name="connectivity_helper_call_quality_category">Kakovost klica</string>
     <string name="connectivity_helper_call_quality_summary">Bodite obveščeni o vzrokih težav s povezavo med klici.</string>
     <string name="connectivity_helper_call_quality_title">Prejemanje obvestil</string>
@@ -200,6 +211,7 @@ Varnostno kopirani podatki se ne bodo šteli v vašo omejitev prostora za shranj
     <string name="global_actions_panel_title">Prikaz kartic in vstopnic</string>
     <string name="install_unknown_applications">Dovoli namestitev aplikacij iz virov, ki niso Trgovina Google Play</string>
     <string name="keywords_accessibility_menu">motorično, gibalno, hitri meni, podporni meni, dotik, spretnost</string>
+    <string name="keywords_adaptive_alert_vibration">haptično, tipno, vibriranje, telefon, klic, zvonjenje, opozorilo, obvestila, glasno, tiho, hrup, ovitek, prilagodljivo</string>
     <string name="keywords_adaptive_charging">polniti, polnjenje, pametno polnjenje, prilagodljivo polnjenje, baterija, zmogljivost baterije</string>
     <string name="keywords_assist_gesture_launch">poteza, rob, stran, stranica, aktivni rob, stisk, prijem, oprijem, pomoč, pomočnik, pomočnica, stisniti, Ok Google, Pomočnik Google</string>
     <string name="keywords_assist_gesture_silence">poteza, rob, stran, stranica, aktivni rob, utišanje, dremanje, dremež, alarm, dohodni klic, tiho, prikaz, zaklenjen zaslon, stisk, prijem, oprijem, ustavitev, prekinitev</string>
@@ -226,7 +238,6 @@ Varnostno kopirani podatki se ne bodo šteli v vašo omejitev prostora za shranj
     <string name="me_card_title">Moj Pixel</string>
     <string name="my_device_info_account_preference_title">Račun Google</string>
     <string name="owner_info_settings_edit_text_hint">Npr. Janezov Pixel.</string>
-    <string name="remove">Odstrani</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Za kratek čas se samodejno vklopi, ko je telefon priključen na polnilnik.</string>
     <string name="reverse_charging_auto_turn_on_title">Samodejni vklop</string>
     <string name="reverse_charging_charging_wirelessly_message">Ni na voljo, ker se telefon polni brezžično</string>
@@ -332,9 +343,8 @@ Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh
     <string name="suw_limited_warranty_title">Omejeno jamstvo</string>
     <string name="suw_more_button_label">Več</string>
     <string name="suw_next_button_label">Naprej</string>
-    <string name="suw_warranty_description">Če si želite ogledati omejeno jamstvo, izberite državo, v kateri ste kupili to napravo.&lt;br /&gt;&lt;br /&gt;Izjava o jamstvu je na voljo tudi v meniju &lt;b&gt;Nastavitve &gt; %s &gt; Omejeno jamstvo&lt;/b&gt; in na naslovu g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Če si želite ogledati omejeno jamstvo, izberite državo, v kateri ste kupili to napravo. Izjava o jamstvu je na voljo tudi v meniju »Nastavitve« &amp;gt; »%s« &amp;gt; »Omejeno jamstvo« in na naslovu g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Omejeno jamstvo, ki velja za vašo napravo, je na voljo tudi v nastavitvah naprave (&lt;b&gt;Nastavitve &gt; %s &gt; Omejeno jamstvo&lt;/b&gt;) in na naslovu g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Če si želite ogledati omejeno jamstvo, izberite državo, v kateri ste kupili to napravo.&lt;br /&gt;&lt;br /&gt;Izjava o jamstvu je na voljo tudi v meniju &lt;b&gt;»Nastavitve« &gt; »O telefonu« &gt; »Omejeno jamstvo«&lt;/b&gt; in na naslovu g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Če si želite ogledati omejeno jamstvo, izberite državo, v kateri ste kupili to napravo. Izjava o jamstvu je na voljo tudi v meniju »Nastavitve«, »O telefonu«, »Omejeno jamstvo« in na naslovu g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Naprej</string>
     <string name="suw_warranty_positive_button_text">Zapri</string>
     <string name="time_remaining_warning_subtext">Glede na preteklo uporabo preostane še približno %1$s</string>
@@ -343,10 +353,6 @@ Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh
     <string name="tips_suggestion_title">Spoznajte svoj Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Držite telefon pred obrazom.</string>
     <string name="usb_use_file_transfers">Prenos datotek/Android Auto</string>
-    <string name="vpn_app_bypass">Ne uporabi omrežja VPN za izbrane aplikacije.</string>
-    <string name="vpn_bypass_category_title">Ne uporabi omrežja VPN za te aplikacije</string>
-    <string name="vpn_bypass_description">Nekaterim aplikacijam lahko dovolite, da prezrejo omrežje VPN in uporabijo običajno omrežno povezavo telefona.</string>
-    <string name="vpn_preference_group_title">Drugo</string>
     <string name="wallpaper_dashboard_summary">Barve, ikone s temo, mreža aplikacij</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Ogled ali sprememba naročnine OpenRoaming</string>

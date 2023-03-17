@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">화면 보호재 사용 시 터치 감도 향상 및 터치 개선</string>
     <string name="touch_sensitivity_title">화면 보호재 모드</string>
     <string name="columbus_title">더블 탭하여 작업 시작하기</string>
-    <string name="about_phone">휴대전화 정보</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge가 설정되었습니다. 다음 화면으로 이동하거나 조정을 계속하세요.</string>
     <string name="accessibility_keyboard_haptics_title">키보드 햅틱 반응</string>
+    <string name="adaptive_alert_vibration_summary">휴대전화가 움직이지 않고 화면이 위를 향하고 있으면 진동 강도를 줄입니다.</string>
+    <string name="adaptive_alert_vibration_title">적응형 알림 진동</string>
     <string name="adaptive_charging">자동 조절 충전</string>
     <string name="adaptive_charging_description">더 오래 꾸준하게 충전하여 배터리 수명을 늘립니다. 사용 주기를 기반으로 하여 활성화됩니다.</string>
     <string name="adaptive_charging_time_estimate"><b>자동 조절 충전</b> • %1$s에 충전 완료</string>
-    <string name="add_bypassed_application_hint">추가된 앱 없음</string>
-    <string name="advanced_vpn_preference_group_title">내장됨</string>
-    <string name="all_apps_category_title">모든 앱</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">환경설정</annotation></string>
     <string name="app_and_notification_dashboard_summary">어시스턴트, 최근 앱, 기본 앱</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">어시스턴트에서 계속하기</string>
@@ -98,9 +96,11 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="battery_tip_limited_temporarily_extra_summary">배터리 절약을 위해 태블릿이 도킹되어 있는 동안 충전이 %1$s에서 일시중지됩니다.</string>
     <string name="battery_tip_smart_battery_summary">배터리 자동 조절을 사용 설정하세요</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s이(가) 더 이상 이 Google 계정에 연결된 기기와 페어링되지 않습니다.</string>
-    <string name="clear_calling_footer">Wi‑Fi 및 모바일 네트워크 연결에 따라 선명한 통화 음질 기능을 사용할 수 있습니다. 통화 내용은 Google로 전송되지 않습니다.</string>
-    <string name="clear_calling_title">선명한 통화 음질</string>
-    <string name="clear_calling_toggle">선명한 통화 음질 사용</string>
+    <string name="clear_calling_footer">"개인 정보 보호를 위해 선명한 통화 음질은 Google로 오디오 또는 대화를 전송하지 않습니다.
+
+선명한 통화 음질은 Wi-Fi 및 모바일 네트워크에 따라 사용이 불가능할 수도 있습니다."</string>
+    <string name="clear_calling_title">선명한 통화</string>
+    <string name="clear_calling_toggle">선명한 통화 사용</string>
     <string name="clear_calling_topintro">통화 중 배경 소음 감소</string>
     <string name="columbus_gesture_detected">더블 탭이 감지되었습니다.</string>
     <string name="columbus_gesture_enrollment_complete">완료</string>
@@ -146,6 +146,17 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="columbus_setting_app_shortcut_selection_help_text">앱을 더블 탭으로 열 때 실행할 작업을 선택하세요.</string>
     <string name="columbus_setting_enable_switch_title">더블 탭 사용</string>
     <string name="columbus_setting_sensitivity_title">더 강한 탭 필요</string>
+    <string name="communal_cast_summary">이 기기 안팎으로 전송</string>
+    <string name="communal_lock_screen_summary">개인 정보 보호, 알림 및 홈 컨트롤</string>
+    <string name="communal_settings_summary_1">잠금 및 도킹된 동작</string>
+    <string name="communal_settings_summary_2">도킹 옵션</string>
+    <string name="communal_settings_summary_3">도크 및 잠금 화면 옵션</string>
+    <string name="communal_settings_summary_4">잠금 화면 및 도킹 옵션</string>
+    <string name="communal_settings_title">허브 모드</string>
+    <string name="communal_smartspace_summary">어시스턴트의 리마인더, 알림 등</string>
+    <string name="communal_smartspace_title">한눈에 보기</string>
+    <string name="communal_what_to_show">표시 내용</string>
+    <string name="communal_what_to_use">용도</string>
     <string name="connectivity_helper_call_quality_category">통화 품질</string>
     <string name="connectivity_helper_call_quality_summary">통화 중 연결 문제를 일으킨 원인에 관해 알림을 받습니다.</string>
     <string name="connectivity_helper_call_quality_title">알림 받기</string>
@@ -200,6 +211,7 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="global_actions_panel_title">카드 및 패스 보기</string>
     <string name="install_unknown_applications">Play 스토어 외 출처의 앱 설치 허용</string>
     <string name="keywords_accessibility_menu">거동, 빠른 메뉴, 보조 메뉴, 터치, 수동기민성</string>
+    <string name="keywords_adaptive_alert_vibration">햅틱, 진동, 휴대전화, 통화, 벨소리, 경고, 알림, 크게, 작게, 소음, 케이스, 적응형</string>
     <string name="keywords_adaptive_charging">충전, 충전하기, 스마트 충전, 자동 조절 충전, 배터리, 배터리 상태</string>
     <string name="keywords_assist_gesture_launch">동작, Edge, 측면, Active Edge, 쥐기, 잡기, 어시스트, 어시스턴트, 쥐기, Ok Google, Google 어시스턴트</string>
     <string name="keywords_assist_gesture_silence">동작, Edge, 측면, Active Edge, 소리 끄기, 일시 중지, 알람, 수신 전화, 무음, 표시, 잠금 화면, 쥐기, 잡기, 중지</string>
@@ -226,7 +238,6 @@ Pixel이 초기화되면 설정 과정을 진행한 다음 이전 휴대전화�
     <string name="me_card_title">내 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 계정</string>
     <string name="owner_info_settings_edit_text_hint">예: 수지의 Pixel</string>
-    <string name="remove">삭제</string>
     <string name="reverse_charging_auto_turn_on_subtitle">휴대전화가 충전기에 연결되면 짧은 시간 동안 자동으로 사용 설정됨</string>
     <string name="reverse_charging_auto_turn_on_title">자동으로 사용 설정</string>
     <string name="reverse_charging_charging_wirelessly_message">휴대전화가 무선 충전 중이므로 사용할 수 없음</string>
@@ -332,9 +343,8 @@ g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="suw_limited_warranty_title">한정 보증</string>
     <string name="suw_more_button_label">더보기</string>
     <string name="suw_next_button_label">다음</string>
-    <string name="suw_warranty_description">한정 보증 내용을 보려면 기기를 구매한 국가를 선택하세요.&lt;br /&gt;&lt;br /&gt;보증 정보는 &lt;b&gt;설정 &gt; %s &gt; 한정 보증&lt;/b&gt; 및 g.co/devicewarranty에서도 볼 수 있습니다.</string>
-    <string name="suw_warranty_description_content">한정 보증 내용을 보려면 기기를 구매한 국가를 선택하세요. 보증 정보는 설정 &gt; %s &gt; 한정 보증 및 g.co/devicewarranty에서도 볼 수 있습니다.</string>
-    <string name="suw_warranty_language_consistent_description">기기에 적용되는 한정 보증은 &lt;b&gt;설정 &gt; %s &gt; 한정 보증&lt;/b&gt; 및 g.co/devicewarranty에서도 확인할 수 있습니다.</string>
+    <string name="suw_warranty_description">한정 보증 내용을 보려면 기기를 구매한 국가를 선택하세요.&lt;br /&gt;&lt;br /&gt;보증 정보는 &lt;b&gt;설정 &gt; 휴대전화 정보 &gt; 한정 보증&lt;/b&gt; 및 g.co/devicewarranty에서도 볼 수 있습니다.</string>
+    <string name="suw_warranty_description_content">한정 보증 내용을 보려면 기기를 구매한 국가를 선택하세요. 보증 정보는 설정 &gt; 휴대전화 정보 &gt; 한정 보증 및 g.co/devicewarranty에서도 볼 수 있습니다.</string>
     <string name="suw_warranty_next_button_text">다음</string>
     <string name="suw_warranty_positive_button_text">닫기</string>
     <string name="time_remaining_warning_subtext">이전 사용량을 기준으로 약 %1$s 남음</string>
@@ -343,10 +353,6 @@ g.co/pixel/faceunlock에서 자세히 알아보세요."</string>
     <string name="tips_suggestion_title">Pixel 알아보기</string>
     <string name="traffic_light_face_enrolling_title_accessibility">휴대전화가 얼굴을 향하도록 잡아 주세요.</string>
     <string name="usb_use_file_transfers">파일 전송/Android Auto</string>
-    <string name="vpn_app_bypass">선택한 앱에 VPN 사용 안함</string>
-    <string name="vpn_bypass_category_title">이러한 앱에 VPN 사용 안함</string>
-    <string name="vpn_bypass_description">일부 앱이 VPN을 무시하고 휴대전화의 일반 네트워크 연결을 사용하도록 허용할 수 있습니다.</string>
-    <string name="vpn_preference_group_title">기타</string>
     <string name="wallpaper_dashboard_summary">색상, 테마 아이콘, 앱 그리드</string>
     <string name="warranty_country_information">%1$s(%2$s)</string>
     <string name="wifi_subscription_summary">OpenRoaming 구독 확인 또는 변경</string>

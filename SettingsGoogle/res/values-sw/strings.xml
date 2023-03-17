@@ -7,16 +7,13 @@
     <string name="touch_sensitivity_summary">Ongeza kiwango cha hisi unapogusa na uboreshe matumizi ya kugusa wakati unatumia ulinzi wa skrini</string>
     <string name="touch_sensitivity_title">Hali ya ulinzi wa skrini</string>
     <string name="columbus_title">Kugusa Haraka ili kuanzisha vitendo</string>
-    <string name="about_phone">Kuhusu simu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Mipangilio ya Active Edge. Nenda kwenye skrini inayofuata au endelea kurekebisha.</string>
     <string name="accessibility_keyboard_haptics_title">Uhisi wa kibodi</string>
+    <string name="adaptive_alert_vibration_summary">Hupunguza nguvu ya mtetemo simu yako ikiwa haitumiki na skrini inatazama juu</string>
+    <string name="adaptive_alert_vibration_title">Mtetemo wa tahadhari unaojirekebisha</string>
     <string name="adaptive_charging">Hali ya Kuchaji Inayojirekebisha</string>
     <string name="adaptive_charging_description">Ongeza muda wa matumizi ya betri kwa kuchaji bila kuharakisha wakati wa vipindi virefu vya kuchaji. Inawashwa kulingana na mzunguko wako wa matumizi.</string>
-    <string name="adaptive_charging_time_estimate"><b>Hali ya kuchaji inayojirekebisha</b> • Itajaa kufikia saa %1$s</string>
-    <string name="add">Weka</string>
-    <string name="add_bypassed_application_hint">Hakuna programu zilizowekwa</string>
-    <string name="advanced_vpn_preference_group_title">Imejumuishwa</string>
-    <string name="all_apps_category_title">Programu zote</string>
+    <string name="adaptive_charging_time_estimate"><b>Hali ya Kuchaji Inayojirekebisha</b> • Itajaa kufikia saa %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Mapendeleo</annotation></string>
     <string name="app_and_notification_dashboard_summary">Mratibu, programu za hivi majuzi, programu chaguomsingi</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Nenda kwenye Mratibu</string>
@@ -99,9 +96,11 @@ Baada ya kubadilisha mipangilio, kagua mchakato wa kuweka mipangilio na uchague 
     <string name="battery_tip_limited_temporarily_extra_summary">Ili kulinda betri yako, kompyuta kibao itasitisha kuchaji ikifika %1$s inapokuwa imeambatishwa</string>
     <string name="battery_tip_smart_battery_summary">Washa Betri Inayojirekebisha</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s kamwe hakitaoanishwa na kifaa chochote kilichounganishwa kwenye Akaunti hii ya Google</string>
-    <string name="clear_calling_footer">Kipengele cha simu pasi kelele kinapatikana kulingana na muunganisho wako wa Wi-Fi na mtandao wa simu. Maudhui kutoka kwenye simu yako hayatumwi Google.</string>
-    <string name="clear_calling_title">Simu pasi kelele</string>
-    <string name="clear_calling_toggle">Tumia mipangilio ya kipengele cha simu pasi kelele</string>
+    <string name="clear_calling_footer">"Ili kulinda faragha yako, Kipengele cha Simu Pasi Kelele kamwe hakitumi sauti au mazungumzo kwenda Google.
+
+Kipengele cha Simu Pasi Kelele kinapatikana kulingana na Wi-Fi na mtandao wako wa simu."</string>
+    <string name="clear_calling_title">Kipengele cha Usikivu Murua</string>
+    <string name="clear_calling_toggle">Tumia mipangilio ya kipengele cha Usikivu Murua</string>
     <string name="clear_calling_topintro">Hupunguza kelele za mazingira wakati wa kupiga simu</string>
     <string name="columbus_gesture_detected">Kipengele cha Kugusa Haraka kimetambuliwa!</string>
     <string name="columbus_gesture_enrollment_complete">Nimemaliza</string>
@@ -147,6 +146,17 @@ Baada ya kubadilisha mipangilio, kagua mchakato wa kuweka mipangilio na uchague 
     <string name="columbus_setting_app_shortcut_selection_help_text">Chagua kinachofanyika unapofungua programu hii ukitumia kipengele cha Kugusa Haraka.</string>
     <string name="columbus_setting_enable_switch_title">Tumia kipengele cha Kugusa Haraka</string>
     <string name="columbus_setting_sensitivity_title">Inahitaji uguse kwa nguvu</string>
+    <string name="communal_cast_summary">Tuma kwenda au kutoka kwenye kifaa hiki</string>
+    <string name="communal_lock_screen_summary">Faragha, arifa na Vidhibiti vya vifaa nyumbani</string>
+    <string name="communal_settings_summary_1">Utendaji wa kifaa kinapokuwa kimefungwa na kimepachikwa</string>
+    <string name="communal_settings_summary_2">Chaguo za kifaa wakati kimeambatishwa</string>
+    <string name="communal_settings_summary_3">Chaguo za kifaa wakati kimepachikwa na skrini imefungwa</string>
+    <string name="communal_settings_summary_4">Chaguo za kifaa wakati kimeambatishwa na skrini imefungwa</string>
+    <string name="communal_settings_title">Hali ya kutumia ikiwa imepachikwa</string>
+    <string name="communal_smartspace_summary">Vikumbusho, arifa na zaidi kutoka kwenye programu ya Mratibu</string>
+    <string name="communal_smartspace_title">Kwa muhtasari</string>
+    <string name="communal_what_to_show">Cha kuonyesha</string>
+    <string name="communal_what_to_use">Cha kutumia</string>
     <string name="connectivity_helper_call_quality_category">Ubora wa kupiga simu</string>
     <string name="connectivity_helper_call_quality_summary">Pokea arifa kuhusu vyanzo vya hitilafu za muunganisho wakati wa kupiga simu</string>
     <string name="connectivity_helper_call_quality_title">Pokea arifa</string>
@@ -201,6 +211,7 @@ Data ya nakala haitajumuishwa katika kiwango cha nafasi yako kwenye Hifadhi ya G
     <string name="global_actions_panel_title">Onyesha kadi na pasi</string>
     <string name="install_unknown_applications">Ruhusu usakinishaji wa programu zilizo kwenye vyanzo vingine kando na Duka la Google Play</string>
     <string name="keywords_accessibility_menu">mota, menyu ya haraka, menyu saidizi, gusa, kutumia vidole</string>
+    <string name="keywords_adaptive_alert_vibration">miguso, kutetema, simu, piga simu, mlio, tahadhari, arifa, sauti, tulivu, keleel, kifuniko, kujirekebisha</string>
     <string name="keywords_adaptive_charging">chaji, inachaji, chaji mahiri, chaji inayojirekebisha, betri, hali ya betri</string>
     <string name="keywords_assist_gesture_launch">ishara, edge, upande, active edge, bana, shikilia, mapendeleo, mratibu, bana, ok google, mratibu wa google</string>
     <string name="keywords_assist_gesture_silence">ishara, edge, upande, active edge, kimya, ahirisha, kengele, simu inayoingia, utulivu, onyesho, kufunga skrini, bana, shikilia, simamisha</string>
@@ -227,7 +238,6 @@ Data ya nakala haitajumuishwa katika kiwango cha nafasi yako kwenye Hifadhi ya G
     <string name="me_card_title">Pixel Yangu</string>
     <string name="my_device_info_account_preference_title">Akaunti ya Google</string>
     <string name="owner_info_settings_edit_text_hint">Kwa mfano, Pixel ya Juma.</string>
-    <string name="remove">Ondoa</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Kitawaka kiotomatiki kwa muda mfupi wakati simu yako imechomekwa kwenye chaja</string>
     <string name="reverse_charging_auto_turn_on_title">Washa kiotomatiki</string>
     <string name="reverse_charging_charging_wirelessly_message">Haipatikani kwa sababu simu inachaji bila kutumia waya</string>
@@ -332,9 +342,8 @@ Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika
     <string name="suw_limited_warranty_title">Hakikisho lenye mipaka</string>
     <string name="suw_more_button_label">Zaidi</string>
     <string name="suw_next_button_label">Endelea</string>
-    <string name="suw_warranty_description">Kuona hakikisho lako lenye mipaka, chagua nchi uliponunua kifaa hiki.&lt;br /&gt;&lt;br /&gt;Pia, hakikisho linapatikana kwenye &lt;b&gt;Mipangilio &gt; %s &gt; Hakikisho lenye mipaka&lt;/b&gt; na katika g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Kuona hakikisho lako lenye mipaka, chagua nchi uliponunua kifaa hiki. Pia, hakikisho linapatikana kwenye Mipangilio kisha %s kisha Hakikisho lenye mipaka na katika g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Dhamana yenye kikomo inayotumika kwenye kifaa chako pia inapatikana kwenye Mipangilio ya kifaa kwenye &lt;b&gt;Mipangilio &gt; %s &gt; Dhamana yenye kikomo&lt;/b&gt; na katika g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Kuona hakikisho lako lenye mipaka, chagua nchi uliponunua kifaa hiki.&lt;br /&gt;&lt;br /&gt;Pia, hakikisho linapatikana kwenye &lt;b&gt;Mipangilio &gt; &gt; Kuhusu kifaa &gt; &gt; Hakikisho lenye mipaka&lt;/b&gt; na katika g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Kuona hakikisho lako lenye mipaka, chagua nchi uliponunua kifaa hiki. Pia, hakikisho linapatikana kwenye Mipangilio kisha kuhusu kifaa kisha Hakikisho lenye mipaka na katika g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Endelea</string>
     <string name="suw_warranty_positive_button_text">Funga</string>
     <string name="time_remaining_warning_subtext">Takriban %1$s zimesalia kulingana na matumizi yako</string>
@@ -343,11 +352,7 @@ Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika
     <string name="tips_suggestion_title">Ifahamu Pixel yako</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Shikilia simu mbele ya uso wako</string>
     <string name="usb_use_file_transfers">Kuhamisha faili / Android Auto</string>
-    <string name="vpn_app_bypass">Usitumie VPN kwa programu zilizochaguliwa</string>
-    <string name="vpn_bypass_category_title">Usitumie VPN kwa programu hizi</string>
-    <string name="vpn_bypass_description">Unaweza kuruhusu baadhi ya programu zipuuze VPN na zitumie muunganisho wa kawaida wa mtandao wa simu yako</string>
-    <string name="vpn_preference_group_title">Zingine</string>
-    <string name="wallpaper_dashboard_summary">Rangi, aikoni zenye mada, gridi ya programu</string>
+    <string name="wallpaper_dashboard_summary">Rangi, aikoni zenye mitindo, gridi ya programu</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Angalia au ubadilishe usajili wa OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Imeunganishwa na %1$s</string>

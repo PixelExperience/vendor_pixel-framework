@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Zvýšit citlivost dotyku a vylepšit reakci na dotyk při použití chrániče obrazovky</string>
     <string name="touch_sensitivity_title">Režim ochrany displeje</string>
     <string name="columbus_title">Rychlým poklepáním spouštět akce</string>
-    <string name="about_phone">Informace o telefonu</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Nastavení funkce Active Edge. Přejděte na další obrazovku nebo pokračujte v úpravách.</string>
     <string name="accessibility_keyboard_haptics_title">Hmatová odezva klávesnice</string>
+    <string name="adaptive_alert_vibration_summary">Snižuje sílu vibrací, když je telefon v klidu a otočený displejem nahoru</string>
+    <string name="adaptive_alert_vibration_title">Adaptivní vibrační upozornění</string>
     <string name="adaptive_charging">Adaptivní nabíjení</string>
     <string name="adaptive_charging_description">Prodloužit životnost baterie plynulým nabíjením během delší doby nabíjení. Aktivuje se podle vašeho cyklu používání.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptivní nabíjení</b> • Plně nabito za %1$s</string>
-    <string name="add_bypassed_application_hint">Nebyly přidány žádné aplikace</string>
-    <string name="advanced_vpn_preference_group_title">Integrováno</string>
-    <string name="all_apps_category_title">Všechny aplikace</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Předvolby</annotation></string>
     <string name="app_and_notification_dashboard_summary">Asistent, nedávné aplikace, výchozí aplikace</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Spustit Asistenta</string>
@@ -99,9 +97,11 @@ Po resetování zopakujte proces úvodního nastavení a zkopírujte data z p�
     <string name="battery_tip_limited_temporarily_extra_summary">Když je tablet v doku, za účelem ochrany baterie se nabíjení při %1$s pozastaví</string>
     <string name="battery_tip_smart_battery_summary">Zapněte adaptivní baterii</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Zařízení %1$s již nebude spárováno s žádným zařízením, které je s tímto účtem Google propojeno</string>
-    <string name="clear_calling_footer">Čistý zvuk volání je k dispozici v závislosti na připojení přes Wi-Fi nebo mobilní síť. Obsah vašich hovorů se neposílá do Googlu.</string>
-    <string name="clear_calling_title">Čistý zvuk volání</string>
-    <string name="clear_calling_toggle">Používat čistý zvuk volání</string>
+    <string name="clear_calling_footer">"Z důvodu ochrany vašeho soukromí funkce Čistý zvuk volání nikdy neodesílá zvuk ani konverzace do Googlu.
+
+Funkce Čistý zvuk volání je k dispozici v závislosti na připojení přes Wi-Fi nebo mobilní síť."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Používat funkci Clear Calling</string>
     <string name="clear_calling_topintro">Snižuje hluk v pozadí během hovorů</string>
     <string name="columbus_gesture_detected">Bylo zjištěno rychlé poklepání.</string>
     <string name="columbus_gesture_enrollment_complete">Hotovo</string>
@@ -147,6 +147,17 @@ Po resetování zopakujte proces úvodního nastavení a zkopírujte data z p�
     <string name="columbus_setting_app_shortcut_selection_help_text">Vyberte, co se stane, když tuto aplikaci otevřete pomocí rychlého poklepání.</string>
     <string name="columbus_setting_enable_switch_title">Používat rychlé poklepání</string>
     <string name="columbus_setting_sensitivity_title">Vyžadovat silnější klepnutí</string>
+    <string name="communal_cast_summary">Odesílat do nebo z tohoto zařízení</string>
+    <string name="communal_lock_screen_summary">Soukromí, oznámení a ovládání domácnosti</string>
+    <string name="communal_settings_summary_1">Chování při uzamčení a v doku</string>
+    <string name="communal_settings_summary_2">Možnosti chování v doku</string>
+    <string name="communal_settings_summary_3">Možnosti obrazovky uzamčení a chování v doku</string>
+    <string name="communal_settings_summary_4">Možnosti obrazovky uzamčení a chování v doku</string>
+    <string name="communal_settings_title">Režim centra</string>
+    <string name="communal_smartspace_summary">Připomenutí, upozornění a další sdělení od Asistenta</string>
+    <string name="communal_smartspace_title">Přehled událostí</string>
+    <string name="communal_what_to_show">Co zobrazovat</string>
+    <string name="communal_what_to_use">Co používat</string>
     <string name="connectivity_helper_call_quality_category">Kvalita hovoru</string>
     <string name="connectivity_helper_call_quality_summary">Dostávejte během hovorů oznámení o příčinách problémů s připojením</string>
     <string name="connectivity_helper_call_quality_title">Oznámení</string>
@@ -201,6 +212,7 @@ Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké 
     <string name="global_actions_panel_title">Zobrazit karty a lístky</string>
     <string name="install_unknown_applications">Povolit instalaci aplikací z jiných zdrojů než Obchod Play</string>
     <string name="keywords_accessibility_menu">motorika, rychlá nabídka, nabídka pomocných funkcí, dotyk, zručnost</string>
+    <string name="keywords_adaptive_alert_vibration">hmatová odezva, vibrace, telefon, hovor, vyzvánění, upozornění, oznámení, hlasité, tiché, hluk, pouzdro, adaptivní</string>
     <string name="keywords_adaptive_charging">nabíjení, chytré nabíjení, adaptivní nabíjení, baterie, životnost baterie</string>
     <string name="keywords_assist_gesture_launch">gesto, okraj, strana, active edge, aktivní okraj, zmáčknout, uchopit, asistence, asistent, zmáčknutí, ok google, asistent google</string>
     <string name="keywords_assist_gesture_silence">gesto, okraj, strana, active edge, aktivní okraj, ticho, odložit, budík, příchozí hovor, tichý, displej, obrazovka uzamčení, zmáčknout, uchopit, zastavit</string>
@@ -227,7 +239,6 @@ Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké 
     <string name="me_card_title">Můj Pixel</string>
     <string name="my_device_info_account_preference_title">Účet Google</string>
     <string name="owner_info_settings_edit_text_hint">Např. Tomův Pixel.</string>
-    <string name="remove">Odstranit</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Na krátkou dobu se automaticky zapne po zapojení telefonu do nabíječky</string>
     <string name="reverse_charging_auto_turn_on_title">Zapnout automaticky</string>
     <string name="reverse_charging_charging_wirelessly_message">Nedostupné, protože se telefon bezdrátově nabíjí</string>
@@ -333,9 +344,8 @@ Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nasta
     <string name="suw_limited_warranty_title">Omezená záruka</string>
     <string name="suw_more_button_label">Další</string>
     <string name="suw_next_button_label">Další</string>
-    <string name="suw_warranty_description">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili.&lt;br /&gt;&lt;br /&gt;Záruka je také k dispozici v sekci &lt;b&gt;Nastavení &gt; %s &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili. Záruka je také k dispozici v sekci Nastavení &gt; %s &gt; Omezená záruka a na adrese g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Omezená záruka platná pro toto zařízení je také k dispozici v nastavení zařízení v sekci &lt;b&gt;Nastavení &gt; %s &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili.&lt;br /&gt;&lt;br /&gt;Záruka je také k dispozici v sekci &lt;b&gt;Nastavení &gt; Informace o telefonu &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili. Záruka je také k dispozici v sekci Nastavení, poté Informace o telefonu a poté Omezená záruka a na adrese g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Další</string>
     <string name="suw_warranty_positive_button_text">Zavřít</string>
     <string name="time_remaining_warning_subtext">Podle předchozího používání zbývá přibližně %1$s</string>
@@ -344,10 +354,6 @@ Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nasta
     <string name="tips_suggestion_title">Poznejte svůj Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Podržte si telefon před obličejem</string>
     <string name="usb_use_file_transfers">Přenos souborů / Android Auto</string>
-    <string name="vpn_app_bypass">U vybraných aplikací nepoužívat VPN</string>
-    <string name="vpn_bypass_category_title">U těchto aplikací nepoužívat VPN</string>
-    <string name="vpn_bypass_description">Některým aplikacím můžete povolit, aby ignorovaly síť VPN a používaly standardní připojení k síti dostupné v telefonu</string>
-    <string name="vpn_preference_group_title">Jiné</string>
     <string name="wallpaper_dashboard_summary">Barvy, tematické ikony, mřížka aplikací</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Zobrazení nebo změna odběru OpenRoaming</string>

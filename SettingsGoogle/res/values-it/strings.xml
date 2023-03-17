@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Aumenta la sensibilità e migliora la risposta al tocco quando utilizzi una protezione per lo schermo</string>
     <string name="touch_sensitivity_title">Modalità protezione per lo schermo</string>
     <string name="columbus_title">"Tocco rapido per iniziare un'azione"</string>
-    <string name="about_phone">Informazioni sul telefono</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Funzione Active Edge configurata. Vai alla prossima schermata o continua a regolare la funzione.</string>
     <string name="accessibility_keyboard_haptics_title">Feedback aptico tastiera</string>
+    <string name="adaptive_alert_vibration_summary">"Riduce l'intensità della vibrazione quando il telefono è fermo e lo schermo è rivolto verso l'alto"</string>
+    <string name="adaptive_alert_vibration_title">Vibrazione di avviso adattiva</string>
     <string name="adaptive_charging">Ricarica adattiva</string>
     <string name="adaptive_charging_description">Estendi la durata della batteria caricandola in modo costante in tempi più lunghi; si attiva in base al tuo ciclo di utilizzo</string>
     <string name="adaptive_charging_time_estimate"><b>Ricarica adattiva</b> • Completa entro le ore %1$s</string>
-    <string name="add_bypassed_application_hint">Nessuna app aggiunta</string>
-    <string name="advanced_vpn_preference_group_title">Integrato</string>
-    <string name="all_apps_category_title">Tutte le app</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferenze</annotation></string>
     <string name="app_and_notification_dashboard_summary">Assistente, app recenti, app predefinite</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">"Continua con l'assistente"</string>
@@ -99,9 +97,11 @@ Una volta reimpostato, segui la procedura di configurazione e scegli di importar
     <string name="battery_tip_limited_temporarily_extra_summary">Per proteggere la batteria, la ricarica viene messa in pausa a %1$s mentre il tablet è inserito nel dock</string>
     <string name="battery_tip_smart_battery_summary">Attiva Batteria adattiva</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Il dispositivo %1$s non sarà più accoppiato con alcun dispositivo collegato a questo Account Google</string>
-    <string name="clear_calling_footer">La funzionalità di chiamata nitida è disponibile in base alla connessione di rete mobile e Wi-Fi. I contenuti della chiamata non vengono inviati a Google.</string>
+    <string name="clear_calling_footer">"Per proteggere la tua privacy, la funzionalità di chiamata nitida non invia mai l'audio o le conversazioni a Google.
+
+Questa funzionalità è disponibile in base alla rete Wi-Fi e mobile usata."</string>
     <string name="clear_calling_title">Chiamata nitida</string>
-    <string name="clear_calling_toggle">Usa chiamata nitida</string>
+    <string name="clear_calling_toggle">Usa Chiamata nitida</string>
     <string name="clear_calling_topintro">Riduce i rumori di fondo durante le chiamate</string>
     <string name="columbus_gesture_detected">È stato rilevato un gesto Tocco rapido.</string>
     <string name="columbus_gesture_enrollment_complete">Fine</string>
@@ -147,6 +147,17 @@ Una volta reimpostato, segui la procedura di configurazione e scegli di importar
     <string name="columbus_setting_app_shortcut_selection_help_text">"Seleziona l'azione da eseguire quando apri questa app usando Tocco rapido."</string>
     <string name="columbus_setting_enable_switch_title">Usa Tocco rapido</string>
     <string name="columbus_setting_sensitivity_title">Richiedi tocchi più decisi</string>
+    <string name="communal_cast_summary">Trasmetti a o da questo dispositivo</string>
+    <string name="communal_lock_screen_summary">Privacy, notifiche e controlli della casa</string>
+    <string name="communal_settings_summary_1">Comportamento \"bloccato e inserito nel dock\"</string>
+    <string name="communal_settings_summary_2">Opzioni nel dock</string>
+    <string name="communal_settings_summary_3">Opzioni dock e schermata di blocco</string>
+    <string name="communal_settings_summary_4">Opzioni schermata di blocco e nel dock</string>
+    <string name="communal_settings_title">Modalità Hub</string>
+    <string name="communal_smartspace_summary">"Promemoria, avvisi e altro dall'assistente"</string>
+    <string name="communal_smartspace_title">Riepilogo</string>
+    <string name="communal_what_to_show">Cosa mostrare</string>
+    <string name="communal_what_to_use">Cosa usare</string>
     <string name="connectivity_helper_call_quality_category">Qualità delle chiamate</string>
     <string name="connectivity_helper_call_quality_summary">Ricevi notifiche sulle cause dei problemi di connessione durante le chiamate</string>
     <string name="connectivity_helper_call_quality_title">Ricevi notifiche</string>
@@ -201,6 +212,7 @@ I dati di backup non vengono considerati per la quota di spazio di archiviazione
     <string name="global_actions_panel_title">Mostra carte e pass</string>
     <string name="install_unknown_applications">"Consenti l'installazione di app da fonti diverse da Play Store"</string>
     <string name="keywords_accessibility_menu">motore, menu rapido, menu assistivo, tocco, prontezza</string>
+    <string name="keywords_adaptive_alert_vibration">tecnologia aptica, vibrazione, telefono, chiamata, squillo, avviso, notifiche, alto, basso, rumore, custodia, adattiva</string>
     <string name="keywords_adaptive_charging">ricaricare, ricarica, ricarica smart, ricarica adattiva, batteria, condizioni della batteria</string>
     <string name="keywords_assist_gesture_launch">gesto, bordo, lato, active edge, stringere, afferrare, assistenza, assistente, ok google, assistente google</string>
     <string name="keywords_assist_gesture_silence">gesto, bordo, lato, active edge, silenzioso, posticipare, sveglia, chiamata in arrivo, silenzio, display, blocco schermo, stringere, afferrare, interrompere</string>
@@ -227,7 +239,6 @@ I dati di backup non vengono considerati per la quota di spazio di archiviazione
     <string name="me_card_title">Il mio telefono Pixel</string>
     <string name="my_device_info_account_preference_title">Account Google</string>
     <string name="owner_info_settings_edit_text_hint">Esempio: telefono di Anna</string>
-    <string name="remove">Rimuovi</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Si attiva automaticamente per un breve periodo quando il telefono è collegato a un caricabatterie</string>
     <string name="reverse_charging_auto_turn_on_title">Attiva automaticamente</string>
     <string name="reverse_charging_charging_wirelessly_message">Non disponibile perché il telefono è in carica wireless</string>
@@ -333,9 +344,8 @@ Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle 
     <string name="suw_limited_warranty_title">Garanzia limitata</string>
     <string name="suw_more_button_label">Altro</string>
     <string name="suw_next_button_label">Avanti</string>
-    <string name="suw_warranty_description">"Per visualizzare la tua garanzia limitata, seleziona il paese in cui hai acquistato questo dispositivo.&lt;br /&gt;&lt;br /&gt;La garanzia è disponibile anche in &lt;b&gt;Impostazioni &gt; %s &gt; Garanzia limitata&lt;/b&gt; e all'indirizzo g.co/devicewarranty."</string>
-    <string name="suw_warranty_description_content">"Per visualizzare la tua garanzia limitata, seleziona il paese in cui hai acquistato questo dispositivo. La garanzia è disponibile anche in Impostazioni, %s, Garanzia limitata e all'indirizzo g.co/devicewarranty."</string>
-    <string name="suw_warranty_language_consistent_description">La garanzia limitata relativa al tuo dispositivo è disponibile anche nelle &lt;b&gt;Impostazioni &gt; %s &gt; Garanzia limitata&lt;/b&gt; e g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">"Per visualizzare la tua garanzia limitata, seleziona il paese in cui hai acquistato questo dispositivo.&lt;br /&gt;&lt;br /&gt;La garanzia è disponibile anche in &lt;b&gt;Impostazioni &gt; Informazioni sul telefono &gt; Garanzia limitata&lt;/b&gt; e all'indirizzo g.co/devicewarranty."</string>
+    <string name="suw_warranty_description_content">"Per visualizzare la tua garanzia limitata, seleziona il paese in cui hai acquistato questo dispositivo. La garanzia è disponibile anche in Impostazioni, Informazioni sul telefono, Garanzia limitata e all'indirizzo g.co/devicewarranty."</string>
     <string name="suw_warranty_next_button_text">Avanti</string>
     <string name="suw_warranty_positive_button_text">Esci</string>
     <string name="time_remaining_warning_subtext">Tempo rimanente in base al tuo utilizzo precedente: %1$s</string>
@@ -344,10 +354,6 @@ Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle 
     <string name="tips_suggestion_title">Impara a conoscere Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Tieni il telefono davanti al volto</string>
     <string name="usb_use_file_transfers">Trasferimento file/Android Auto</string>
-    <string name="vpn_app_bypass">Non usare la VPN per app selezionate</string>
-    <string name="vpn_bypass_category_title">Non usare la VPN per queste app</string>
-    <string name="vpn_bypass_description">Puoi consentire ad alcune app di ignorare la VPN e di usare la connessione di rete normale del telefono</string>
-    <string name="vpn_preference_group_title">Altri</string>
     <string name="wallpaper_dashboard_summary">Colori, icone a tema, griglia delle app</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">"Visualizza o modifica l'abbonamento a OpenRoaming"</string>

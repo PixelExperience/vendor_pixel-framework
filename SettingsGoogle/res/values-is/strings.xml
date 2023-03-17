@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Þú getur aukið næmi fyrir snertingu og bætt snertingu með því að nota skjávörn</string>
     <string name="touch_sensitivity_title">Skjávarnarstilling</string>
     <string name="columbus_title">Pikka til að ræsa aðgerðir</string>
-    <string name="about_phone">Um símann</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Uppsetning á Active Edge. Farðu á næsta skjá eða haltu áfram að stilla.</string>
     <string name="accessibility_keyboard_haptics_title">Snertisvörun lyklaborðs</string>
+    <string name="adaptive_alert_vibration_summary">Dregur úr styrk titrings þegar síminn er kyrr og skjárinn snýr upp.</string>
+    <string name="adaptive_alert_vibration_title">Stillanleg titringsviðvörun</string>
     <string name="adaptive_charging">Aðlöguð hleðsla</string>
     <string name="adaptive_charging_description">Lengdu endingu rafhlöðunnar með því að hlaða jafnt og þétt yfir lengri tíma. Virkjað í samræmi við notkunarmynstur þitt.</string>
-    <string name="adaptive_charging_time_estimate"><b>Aðlöguð hleðsla</b> • Fullhlaðið fyrir kl. %1$s</string>
-    <string name="add_bypassed_application_hint">Engum forritum bætt við</string>
-    <string name="advanced_vpn_preference_group_title">Innbyggt</string>
-    <string name="all_apps_category_title">Öll forrit</string>
+    <string name="adaptive_charging_time_estimate"><b>Aðlöguð hleðsla</b> • Fullhlaðið fyrir %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Kjörstillingar</annotation></string>
     <string name="app_and_notification_dashboard_summary">Hjálpari, nýleg forrit, sjálfgefin forrit</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Halda áfram í aðstoðarmanninn</string>
@@ -98,9 +96,11 @@ Eftir að endurstillingu er lokið skaltu fara í gegnum uppsetningarferlið til
     <string name="battery_tip_limited_temporarily_extra_summary">Til að vernda rafhlöðuna verður gert hlé á hleðslu við %1$s þegar spjaldtölvan er tengd við dokku</string>
     <string name="battery_tip_smart_battery_summary">Kveikja á breytilegri rafhlöðustjórnun</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s verða ekki lengur pöruð við tæki sem tengjast þessum Google reikningi</string>
-    <string name="clear_calling_footer">Framboð á skýru símtali er háð WiFi-neti og nettengingu um farsímakerfi. Innihald símtalsins er ekki sent til Google.</string>
-    <string name="clear_calling_title">Skýrt símtal</string>
-    <string name="clear_calling_toggle">Nota skýrt símtal</string>
+    <string name="clear_calling_footer">"Til að gæta persónuverndar sendir skýrt símtal aldrei hljóð eða samtöl til Google.
+
+Það veltur á WiFi-tengingu og farsímakerfi hvort skýrt símtal sé í boði."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">Nota Clear Calling</string>
     <string name="clear_calling_topintro">Dregur úr bakgrunnshljóðum meðan á símtali stendur</string>
     <string name="columbus_gesture_detected">Pikk greindist!</string>
     <string name="columbus_gesture_enrollment_complete">Lokið</string>
@@ -146,6 +146,17 @@ Eftir að endurstillingu er lokið skaltu fara í gegnum uppsetningarferlið til
     <string name="columbus_setting_app_shortcut_selection_help_text">Veldu hvað gerist þegar þú opnar þetta forrit með pikki.</string>
     <string name="columbus_setting_enable_switch_title">Nota pikk</string>
     <string name="columbus_setting_sensitivity_title">Krefjast þess að ýtt sé fastar</string>
+    <string name="communal_cast_summary">Senda í eða úr þessu tæki</string>
+    <string name="communal_lock_screen_summary">Persónuvernd, tilkynningar og heimastýringar</string>
+    <string name="communal_settings_summary_1">Virkni þegar tæki er læst eða í dokku</string>
+    <string name="communal_settings_summary_2">Valkostir þegar tæki er í dokku</string>
+    <string name="communal_settings_summary_3">Valkostir þegar skjálás er á eða tæki er í dokku</string>
+    <string name="communal_settings_summary_4">Valkostir þegar skjálás er á eða tæki er í dokku</string>
+    <string name="communal_settings_title">Miðstöðvarstilling</string>
+    <string name="communal_smartspace_summary">Áminningar, viðvaranir og fleira frá Hjálparanum</string>
+    <string name="communal_smartspace_title">Í fljótu bragði</string>
+    <string name="communal_what_to_show">Hvað á að sýna</string>
+    <string name="communal_what_to_use">Hvað á að nota</string>
     <string name="connectivity_helper_call_quality_category">Gæði símtals</string>
     <string name="connectivity_helper_call_quality_summary">Fáðu tilkynningar um orsakir tengingarvandamála símtala</string>
     <string name="connectivity_helper_call_quality_title">Fá tilkynningar</string>
@@ -200,6 +211,7 @@ Afritunargögn nota ekki geymslukvótann þinn á Drive. Stórar skrár eða skr
     <string name="global_actions_panel_title">Sýna kort og passa</string>
     <string name="install_unknown_applications">Leyfa uppsetningu forrita sem ekki eru frá Play Store</string>
     <string name="keywords_accessibility_menu">mótor, flýtivalmynd, hjálparvalmynd, snerting, lipurð</string>
+    <string name="keywords_adaptive_alert_vibration">snertisvörun, titra, sími, símtal, hringing, viðvörun, tilkynningar, hátt, hljóðlátt, hávaði, hulstur, stillanlegt</string>
     <string name="keywords_adaptive_charging">hlaða, hleður, snjallhleðsla, breytileg hleðsla, rafhlaða, ástand rafhlöðu</string>
     <string name="keywords_assist_gesture_launch">bending, brún, hlið, virk brún, kreista, grípa, aðstoð, aðstoðarmaður, kreista, ókei google, google aðstoðarmaður</string>
     <string name="keywords_assist_gesture_silence">bending, brún, hlið, active edge, þögn, blunda, vekjari, símtal berst, þögult, skjár, lásskjár, kreista, grípa, stöðva</string>
@@ -226,7 +238,6 @@ Afritunargögn nota ekki geymslukvótann þinn á Drive. Stórar skrár eða skr
     <string name="me_card_title">Pixel síminn minn</string>
     <string name="my_device_info_account_preference_title">Google reikningur</string>
     <string name="owner_info_settings_edit_text_hint">Til dæmis „Pixel sími Jóa“.</string>
-    <string name="remove">Fjarlægja</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Kviknar sjálfkrafa í stutta stund þegar síminn er settur í hleðslu</string>
     <string name="reverse_charging_auto_turn_on_title">Kveikja sjálfkrafa</string>
     <string name="reverse_charging_charging_wirelessly_message">Ekki í boði vegna þess að síminn er í þráðlausri hleðslu</string>
@@ -332,9 +343,8 @@ Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."<
     <string name="suw_limited_warranty_title">Takmörkuð ábyrgð</string>
     <string name="suw_more_button_label">Meira</string>
     <string name="suw_next_button_label">Áfram</string>
-    <string name="suw_warranty_description">Til að skoða takmörkuðu ábyrgðina þína skaltu velja landið sem þú keyptir tækið í.&lt;br /&gt;&lt;br /&gt;Þú getur líka fundið ábyrgðina undir&lt;b&gt;„Stillingar &gt; %s &gt; Takmörkuð ábyrgð“&lt;/b&gt; og á g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">Til að skoða takmörkuðu ábyrgðina þína skaltu velja landið sem þú keyptir tækið í. Þú getur einnig séð ábyrgðina með því að opna „Stillingar,“ „%s“ og „Takmörkuð ábyrgð“ og á g.co/devicewarranty.</string>
-    <string name="suw_warranty_language_consistent_description">Einnig má sjá takmörkuðu ábyrgðina sem gildir um þetta tæki í stillingum tækisins undir &lt;b&gt;Stillingar &gt; %s &gt; Takmörkuð ábyrgð&lt;/b&gt; og á g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Til að skoða takmörkuðu ábyrgðina þína skaltu velja landið sem þú keyptir tækið í.&lt;br /&gt;&lt;br /&gt;Þú getur líka fundið ábyrgðina undir&lt;b&gt;„Stillingar &gt; Um síma &gt; Takmörkuð ábyrgð“&lt;/b&gt; og á g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">Til að skoða takmörkuðu ábyrgðina þína skaltu velja landið sem þú keyptir tækið í. Þú getur einnig séð ábyrgðina með því að opna „Stillingar &gt; Um síma &gt; Takmörkuð ábyrgð“ eða á g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Áfram</string>
     <string name="suw_warranty_positive_button_text">Loka</string>
     <string name="time_remaining_warning_subtext">Um það bil %1$s eftir miðað við fyrri notkun þína</string>
@@ -343,10 +353,6 @@ Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."<
     <string name="tips_suggestion_title">Kynntu þér Pixel betur</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Haltu símanum fyrir framan andlitið</string>
     <string name="usb_use_file_transfers">Skráaflutningur / Android Auto</string>
-    <string name="vpn_app_bypass">Ekki nota VPN fyrir valin forrit</string>
-    <string name="vpn_bypass_category_title">Ekki nota VPN fyrir þessi forrit</string>
-    <string name="vpn_bypass_description">Þú getur veitt sumum forritum heimild til að hunsa VPN og nota venjulega nettengingu símans</string>
-    <string name="vpn_preference_group_title">Aðrir</string>
     <string name="wallpaper_dashboard_summary">Litir, þematákn, forritatafla</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Skoða eða breyta OpenRoaming-áskrift</string>

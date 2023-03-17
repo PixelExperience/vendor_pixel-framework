@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">افزایش حساسیت لمس و بهبود لمس هنگام استفاده از محافظ صفحه‌نمایش</string>
     <string name="touch_sensitivity_title">حالت محافظ صفحه‌نمایش</string>
     <string name="columbus_title">ضربه سریع برای شروع کنش‌ها</string>
-    <string name="about_phone">درباره تلفن</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏Active Edge راه‌اندازی شد. به صفحه بعد بروید یا به تنظیم ادامه دهید.</string>
     <string name="accessibility_keyboard_haptics_title">صفحه‌کلید لمسی</string>
+    <string name="adaptive_alert_vibration_summary">وقتی تلفنتان بدون حرکت باشد و صفحه‌نمایش آن روبه بالا باشد، لرزش را کاهش می‌دهد</string>
+    <string name="adaptive_alert_vibration_title">لرزش هشدار تطبیقی</string>
     <string name="adaptive_charging">شارژ تطبیقی</string>
     <string name="adaptive_charging_description">افزایش طول عمر باتری با شارژ پیوسته در دوره‌های شارژ طولانی‌تر. براساس چرخه استفاده فعال می‌شود.</string>
     <string name="adaptive_charging_time_estimate"><b>شارژ تطبیقی</b> • تا %1$s کامل می‌شود</string>
-    <string name="add_bypassed_application_hint">برنامه‌ای اضافه نشده است</string>
-    <string name="advanced_vpn_preference_group_title">داخلی</string>
-    <string name="all_apps_category_title">همه برنامه‌ها</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">اولویت‌ها</annotation></string>
     <string name="app_and_notification_dashboard_summary">دستیار، برنامه‌های اخیر، برنامه‌های پیش‌فرض</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">ادامه کار در دستیار</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">برای محافظت از باتری، وقتی رایانه لوحی‌تان روی پایه باشد شارژ به‌طور موقت در %1$s متوقف می‌شود</string>
     <string name="battery_tip_smart_battery_summary">«باتری تطبیقی» را روشن کنید</string>
     <string name="bluetooth_untethered_unpair_dialog_body">‏%1$s دیگر با دستگاه‌های پیوندداده‌شده با این حساب Google مرتبط نخواهد بود</string>
-    <string name="clear_calling_footer">‏بسته به Wi-Fi و اتصال شبکه تلفن همراه، «تماس واضح» دردسترس است. محتوای تماستان به Google ارسال نمی‌شود.</string>
-    <string name="clear_calling_title">تماس واضح</string>
-    <string name="clear_calling_toggle">استفاده از «تماس واضح»</string>
+    <string name="clear_calling_footer">"‏برای محافظت از حریم خصوصی‌تان، «تماس واضح» هرگز صداها یا مکالمه‌ها را به Google ارسال نمی‌کند.
+
+«تماس واضح» بسته به Wi-Fi و شبکه تلفن همراه شما دردسترس است."</string>
+    <string name="clear_calling_title">Clear Calling</string>
+    <string name="clear_calling_toggle">‏استفاده از Clear Calling</string>
     <string name="clear_calling_topintro">نوفه‌های زمینه را درطول تماس کاهش می‌دهد</string>
     <string name="columbus_gesture_detected">«ضربه سریع» شناسایی شد!</string>
     <string name="columbus_gesture_enrollment_complete">تمام</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">انتخاب کنید که هنگام باز کردن این برنامه بااستفاده از «ضربه سریع»، چه اتفاقی بیفتد.</string>
     <string name="columbus_setting_enable_switch_title">استفاده از «ضربه سریع»</string>
     <string name="columbus_setting_sensitivity_title">درخواست ضربه‌های محکم‌تر</string>
+    <string name="communal_cast_summary">پخش محتوا در یا از این دستگاه</string>
+    <string name="communal_lock_screen_summary">حریم خصوصی، اعلان‌ها، و کنترل‌های لوازم خانگی</string>
+    <string name="communal_settings_summary_1">رفتار هنگام قفل بودن و قرار داشتن روی پایه</string>
+    <string name="communal_settings_summary_2">گزینه‌های روی پایه</string>
+    <string name="communal_settings_summary_3">گزینه‌های پایه و صفحه قفل</string>
+    <string name="communal_settings_summary_4">گزینه‌های صفحه قفل و روی پایه</string>
+    <string name="communal_settings_title">حالت متصل</string>
+    <string name="communal_smartspace_summary">یادآوری‌ها، هشدارها، و موارد دیگر از «دستیار»</string>
+    <string name="communal_smartspace_title">در یک نگاه</string>
+    <string name="communal_what_to_show">چه چیزی نشان داده شود</string>
+    <string name="communal_what_to_use">از چه چیزی استفاده شود</string>
     <string name="connectivity_helper_call_quality_category">کیفیت تماس</string>
     <string name="connectivity_helper_call_quality_summary">درباره دلایل مشکلات اتصال درحین تماس‌ها اعلان دریافت می‌کنید</string>
     <string name="connectivity_helper_call_quality_title">دریافت اعلان</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">نمایش کارت‌ها و مجوزها</string>
     <string name="install_unknown_applications">‏اجازه نصب برنامه‌ها از منابعی غیراز «فروشگاه Play»</string>
     <string name="keywords_accessibility_menu">حرکت، منوی سریع، منوی یاری‌رسان، لمس کردن، مهارت‌های حرکتی</string>
+    <string name="keywords_adaptive_alert_vibration">لمسی، لرزش، تلفن، تماس، زنگ، هشدار، اعلان، بلند، بی‌صدا، سروصدا، قاب، تطبیقی</string>
     <string name="keywords_adaptive_charging">شارژ، شارژ کردن، شارژ هوشمند، شارژ تطبیقی، باتری، سلامت باتری</string>
     <string name="keywords_assist_gesture_launch">‏اشاره، لبه، کنار، active edge، فشردن، در دست گرفتن، کمک کردن، دستیار، فشردن، ok google، دستیار google</string>
     <string name="keywords_assist_gesture_silence">‏اشاره، لبه، کنار، active edge، سکوت، تعویق، زنگ، تماس ورودی، بی‌صدا، نمایشگر، صفحه درحالت قفل، فشردن، در دست گرفتن، توقف</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">‏Pixel من</string>
     <string name="my_device_info_account_preference_title">‏حساب Google</string>
     <string name="owner_info_settings_edit_text_hint">‏برای مثال، Ali’s Pixel (پیکسل علی)</string>
-    <string name="remove">برداشتن</string>
     <string name="reverse_charging_auto_turn_on_subtitle">وقتی تلفن به شارژر متصل است، به‌طور خودکار برای مدت کوتاهی روشن خواهد شد</string>
     <string name="reverse_charging_auto_turn_on_title">روشن شدن خودکار</string>
     <string name="reverse_charging_charging_wirelessly_message">امکان‌پذیر نیست، چون تلفن به‌صورت بی‌سیم درحال شارژ شدن است</string>
@@ -285,7 +296,7 @@
     <string name="security_settings_face_enroll_introduction_control_message" product="device">"‏هر زمان بخواهید می‌توانید مدل چهره‌تان را حذف کنید، یا «قفل‌گشایی با چهره» را در «تنظیمات» خاموش کنید. تا وقتی مدل‌های چهره را حذف نکنید، در تلفن ذخیره می‌مانند.
 
 در g.co/pixel/faceunlock بیشتر بدانید."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">کنترل در دست شماست</string>
+    <string name="security_settings_face_enroll_introduction_control_title">کنترل در دست شما است</string>
     <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"«قفل‌گشایی با چهره» مدلی بی‌همتا از چهره فرزندتان ایجاد می‌کند که برای تأیید هویت او استفاده می‌شود. برای ایجاد این مدل چهره درحین راه‌اندازی، فرزندتان چند تصویر از زاویه‌های مختلف از چهره‌اش می‌گیرد.
 
 وقتی فرزندتان از «قفل‌گشایی با چهره» استفاده می‌کند، مدل چهره او به‌کمک تصاویر به‌روزرسانی می‌شود. تصاویر استفاده‌شده برای ایجاد مدل چهره فرزندتان ذخیره نمی‌شوند، اما مدل چهره به‌طور ایمن در تلفن ذخیره می‌شود و هرگز از آن خارج نمی‌شود. همه پردازش‌ها به‌طور ایمن در تلفن انجام می‌شود."</string>
@@ -332,9 +343,8 @@
     <string name="suw_limited_warranty_title">ضمانت‌نامه محدود</string>
     <string name="suw_more_button_label">بیشتر</string>
     <string name="suw_next_button_label">بعدی</string>
-    <string name="suw_warranty_description">‏برای مشاهده ضمانت‌نامه محدود خود، کشور محل خرید این دستگاه را انتخاب کنید.&lt;br /&gt;&lt;br /&gt;این ضمانت‌نامه در &lt;b&gt;تنظیمات &gt; %s ‏&gt; ضمانت‌نامه محدود&lt;/b&gt; و g.co/devicewarranty نیز دردسترس است.</string>
-    <string name="suw_warranty_description_content">‏برای مشاهده ضمانت‌نامه محدود خود، کشور محل خریداری این دستگاه را انتخاب کنید. این ضمانت‌نامه در «تنظیمات» &gt; %s &gt; «ضمانت‌نامه محدود» و g.co/devicewarranty نیز دردسترس است.</string>
-    <string name="suw_warranty_language_consistent_description">‏ضمانت‌نامه محدود مربوط به دستگاه شما در «تنظیمات» دستگاه در بخش &lt;b&gt;تنظیمات &gt; %s &gt; ضمانت‌نامه محدود&lt;/b&gt; و در g.co/devicewarranty هم دردسترس است.</string>
+    <string name="suw_warranty_description">‏برای مشاهده ضمانت‌نامه محدود خود، کشور محل خرید این دستگاه را انتخاب کنید.&lt;br /&gt;&lt;br /&gt;این ضمانت‌نامه در &lt;b&gt;تنظیمات &gt; درباره تلفن &gt; ضمانت‌نامه محدود&lt;/b&gt; و g.co/devicewarranty نیز دردسترس است.</string>
+    <string name="suw_warranty_description_content">‏برای مشاهده ضمانت‌نامه محدود خود، کشور محل خریداری این دستگاه را انتخاب کنید. این ضمانت‌نامه در «تنظیمات &gt; درباره تلفن &gt; ضمانت‌نامه محدود» و g.co/devicewarranty نیز دردسترس است.</string>
     <string name="suw_warranty_next_button_text">بعدی</string>
     <string name="suw_warranty_positive_button_text">بستن</string>
     <string name="time_remaining_warning_subtext">براساس میزان مصرف گذشته، تقریباً %1$s باقی‌مانده است</string>
@@ -343,10 +353,6 @@
     <string name="tips_suggestion_title">‏با Pixel خود آشنا شوید</string>
     <string name="traffic_light_face_enrolling_title_accessibility">تلفن را جلوی صورتتان نگه دارید</string>
     <string name="usb_use_file_transfers">‏انتقال فایل / Android Auto</string>
-    <string name="vpn_app_bypass">‏برای برنامه‌های انتخاب‌شده از VPN استفاده نشود</string>
-    <string name="vpn_bypass_category_title">‏برای این برنامه‌ها از VPN استفاده نشود</string>
-    <string name="vpn_bypass_description">‏می‌توانید به برخی برنامه‌ها اجازه دهید VPN را نادیده بگیرند و از اتصال شبکه معمول تلفن استفاده کنند</string>
-    <string name="vpn_preference_group_title">موارد دیگر</string>
     <string name="wallpaper_dashboard_summary">رنگ‌ها، نمادهای دارای زمینه، جدول برنامه</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">‏مشاهده یا تغییر اشتراک OpenRoaming</string>

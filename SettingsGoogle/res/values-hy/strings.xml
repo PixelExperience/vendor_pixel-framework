@@ -7,15 +7,13 @@
     <string name="touch_sensitivity_summary">Բարձրացնել հպէկրանի զգայունությունը և բարելավել արձագանքը հպմանը, երբ օգտագործվում է էկրանի պաշտպանիչ</string>
     <string name="touch_sensitivity_title">Էկրանի պաշտպանիչի ռեժիմ</string>
     <string name="columbus_title">Կարճ հպում՝ գործողություններ սկսելու համար</string>
-    <string name="about_phone">Հեռախոսի մասին</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge-ի կարգավորում։ Շարունակելու համար անցեք հաջորդ էկրանին։</string>
     <string name="accessibility_keyboard_haptics_title">Ստեղնաշարի հապտիկ արձագանք</string>
+    <string name="adaptive_alert_vibration_summary">Նվազեցնում է թրթռոցի ուժգնությունը, երբ հեռախոսն անշարժ դրված է՝ էկրանը դեպի վերև դիրքով</string>
+    <string name="adaptive_alert_vibration_title">Հարմարվող թրթռոց ծանուցումների ժամանակ</string>
     <string name="adaptive_charging">Հարմարվող լիցքավորում</string>
     <string name="adaptive_charging_description">Երկարացրեք մարտկոցի ծառայության ժամկետը դանդաղ լիցքավորման շնորհիվ։ Ակտիվանում է սարքի օգտագործման ցիկլի հիման վրա։</string>
     <string name="adaptive_charging_time_estimate"><b>Հարմարվող լիցքավորում</b> • Կավարտվի %1$s</string>
-    <string name="add_bypassed_application_hint">Հավելվածներ չեն ավելացվել</string>
-    <string name="advanced_vpn_preference_group_title">Ներկառուցված</string>
-    <string name="all_apps_category_title">Բոլոր հավելվածները</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Կարգավորումներ</annotation></string>
     <string name="app_and_notification_dashboard_summary">Օգնական, վերջին հավելվածները, կանխադրված հավելվածներ</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Գործարկել Օգնականը</string>
@@ -99,9 +97,11 @@
     <string name="battery_tip_limited_temporarily_extra_summary">Մարտկոցը պաշտպանելու համար լիցքավորումը դադարեցվում է %1$s-ի մակարդակում, երբ պլանշետը տեղադրված է դոկ-կայանում</string>
     <string name="battery_tip_smart_battery_summary">Միացրեք «Հարմարվող մարտկոց» գործառույթը</string>
     <string name="bluetooth_untethered_unpair_dialog_body">Այս Google հաշվին կապված բոլոր սարքերը կանջատվեն «%1$s» սարքից</string>
-    <string name="clear_calling_footer">«Մաքուր ձայնով զանգեր» գործառույթը հասանելի է՝ կախված ձեր Wi-Fi-ի և բջջային կապի արագությունից: Ձեր զանգի բովանդակությունը չի ուղարկվում Google-ին:</string>
-    <string name="clear_calling_title">Մաքուր ձայնով զանգեր</string>
-    <string name="clear_calling_toggle">Օգտագործել «Մաքուր ձայնով զանգեր» գործառույթը</string>
+    <string name="clear_calling_footer">"Ձեր գաղտնիությունն ապահովելու համար «Մաքուր ձայնով զանգեր» գործառույթը երբեք չի ուղարկում ձայնագրությունները և զրույցների գրադարձումները Google-ին։
+
+«Մաքուր ձայնով զանգեր» գործառույթի հասանելիությունը կախված է Wi‑Fi-ին կամ բջջային ցանցին միացումից։"</string>
+    <string name="clear_calling_title">Բյուրեղյա մաքրության զանգեր</string>
+    <string name="clear_calling_toggle">Օգտագործել «Բյուրեղյա մաքրության զանգեր» գործառույթը</string>
     <string name="clear_calling_topintro">Նվազեցնում է ֆոնային աղմուկը զանգերի ժամանակ</string>
     <string name="columbus_gesture_detected">Հայտնաբերվել է արագ հպում</string>
     <string name="columbus_gesture_enrollment_complete">Պատրաստ է</string>
@@ -147,6 +147,17 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">Ընտրեք, թե ինչ պետք է կատարվի հավելվածը արագ հպման միջոցով բացելու դեպքում։</string>
     <string name="columbus_setting_enable_switch_title">Արագ հպման օգտագործում</string>
     <string name="columbus_setting_sensitivity_title">Պահանջել ավելի ուժգին հպումներ</string>
+    <string name="communal_cast_summary">Հեռարձակել այս սարքում կամ սարքից</string>
+    <string name="communal_lock_screen_summary">Գաղտնիություն, ծանուցումներ և տան կառավարման տարրեր</string>
+    <string name="communal_settings_summary_1">Աշխատանքը կողպված և դոկ-կայանում տեղադրված ժամանակ</string>
+    <string name="communal_settings_summary_2">Պարամետրերը դոկ-կայանում տեղադրված ժամանակ</string>
+    <string name="communal_settings_summary_3">Դոկ-կայանի և կողպէկրանի պարամետրեր</string>
+    <string name="communal_settings_summary_4">Պարամետրերը կողպէկրանին և դոկ-կայանում</string>
+    <string name="communal_settings_title">Հանգույցի ռեժիմ</string>
+    <string name="communal_smartspace_summary">Հիշեցումներ, ծանուցումներ և ավելին՝ Օգնականից</string>
+    <string name="communal_smartspace_title">Հակիրճ գլխավորի մասին</string>
+    <string name="communal_what_to_show">Ինչ ցուցադրել</string>
+    <string name="communal_what_to_use">Ինչ օգտագործել</string>
     <string name="connectivity_helper_call_quality_category">Զանգի որակը</string>
     <string name="connectivity_helper_call_quality_summary">Ստացեք ծանուցումներ զանգերի ընթացքում կապի խնդիրների մասին</string>
     <string name="connectivity_helper_call_quality_title">Ծանուցումների ստացում</string>
@@ -201,6 +212,7 @@
     <string name="global_actions_panel_title">Ցուցադրել քարտերն ու տոմսերը</string>
     <string name="install_unknown_applications">Թույլատրել հավելվածների տեղադրումը ոչ միայն Play Խանութից, այլ նաև ուրիշ աղբյուրներից</string>
     <string name="keywords_accessibility_menu">շարժման խանգարումներ, արագ ընտրացանկ, հատուկ օգնության ընտրացանկ, հպումով կառավարում, շարժունություն</string>
+    <string name="keywords_adaptive_alert_vibration">հապտիկ արձագանք, թրթռոց, հեռախոս, զանգ, ազդանշան, ծանուցումներ, բարձր ձայն, լռություն, աղմուկ, պատյան, հարմարվող</string>
     <string name="keywords_adaptive_charging">լիցքավորել, լիցքավորում, խելացի լիցքավորում, հարմարվող լիցքավորում, մարտկոց, մարտկոցի, մարտկոցի կարգավիճակ, մարտկոցի կյանք</string>
     <string name="keywords_assist_gesture_launch">ժեստ, եզր, կողք, ակտիվ եզր, սեղմել, ճզմել, օգնել, օգնական, սեղմել, ok google, google օգնական</string>
     <string name="keywords_assist_gesture_silence">ժեստ, եզր, կողմ, ակտիվ եզր, լռություն, հետաձգել, ազդանշան, մուտքային զանգ, անձայն, էկրան, կողպէկրան, սեղմել, ճզմել, դադարեցնել</string>
@@ -227,7 +239,6 @@
     <string name="me_card_title">Իմ Pixel սարքը</string>
     <string name="my_device_info_account_preference_title">Google հաշիվ</string>
     <string name="owner_info_settings_edit_text_hint">Օրինակ՝ Վարդանի Pixel-ը</string>
-    <string name="remove">Հեռացնել</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Ավտոմատ կերպով կմիանա կարճ ժամանակով, երբ ձեր հեռախոսը միացված լինի լիցքավորիչին</string>
     <string name="reverse_charging_auto_turn_on_title">Ավտոմատ միացնել</string>
     <string name="reverse_charging_charging_wirelessly_message">Անհասանելի է, քանի որ հեռախոսն անլար լիցքավորման ռեժիմում է</string>
@@ -331,9 +342,8 @@
     <string name="suw_limited_warranty_title">Սահմանափակ երաշխիք</string>
     <string name="suw_more_button_label">Ավելին</string>
     <string name="suw_next_button_label">Առաջ</string>
-    <string name="suw_warranty_description">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։&lt;br /&gt;&lt;br /&gt;Երաշխիքը կարող եք նաև դիտել՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; %s &gt; Սահմանափակ երաշխիք&lt;/b&gt; և g.co/devicewarranty;</string>
-    <string name="suw_warranty_description_content">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։ Երաշխիքը կարող եք նաև դիտել՝ անցնելով Կարգավորումներ, ապա՝ %s, այնուհետև՝ Սահմանափակ երաշխիք և g.co/devicewarranty։</string>
-    <string name="suw_warranty_language_consistent_description">Ձեր սարքի համար կիրառելի սահմանափակ երաշխիքի մասին տեղեկությունները կարող եք նաև գտնել սարքի Կարգավորումներում՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; %s &gt; Սահմանափակ երաշխիք&lt;/b&gt;, կամ g.co/devicewarranty էջում։</string>
+    <string name="suw_warranty_description">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։&lt;br /&gt;&lt;br /&gt;Երաշխիքը կարող եք նաև դիտել՝ անցնելով &lt;b&gt;Կարգավորումներ &gt; Հեռախոսի մասին &gt; Սահմանափակ երաշխիք&lt;/b&gt; և g.co/devicewarranty։</string>
+    <string name="suw_warranty_description_content">Ձեր սահմանափակ երաշխիքը տեսնելու համար ընտրեք երկիրը, որտեղ գնել եք այս սարքը։ Երաշխիքը կարող եք նաև դիտել՝ անցնելով Կարգավորումներ, ապա՝ Հեռախոսի մասին, այնուհետև՝ Սահմանափակ երաշխիք և g.co/devicewarranty։</string>
     <string name="suw_warranty_next_button_text">Առաջ</string>
     <string name="suw_warranty_positive_button_text">Փակել</string>
     <string name="time_remaining_warning_subtext">Մնացել է մոտ %1$s՝ նախկինում օգտագործման տվյալների հիման վրա</string>
@@ -342,10 +352,6 @@
     <string name="tips_suggestion_title">Ուսումնասիրեք ձեր Pixel-ը</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Հեռախոսը պահեք ձեր դեմքի առջև</string>
     <string name="usb_use_file_transfers">Ֆայլերի փոխանցում / Android Auto</string>
-    <string name="vpn_app_bypass">Չօգտագործել VPN-ը նշված հավելվածների համար</string>
-    <string name="vpn_bypass_category_title">Չօգտագործել VPN-ը այս հավելվածների համար</string>
-    <string name="vpn_bypass_description">Դուք կարող եք թույլատրել որոշ հավելվածների անտեսել VPN-ը և օգտագործել ձեր հեռախոսի սովորական կապը</string>
-    <string name="vpn_preference_group_title">Այլ</string>
     <string name="wallpaper_dashboard_summary">Գույներ, թեմատիկ պատկերակներ, հավելվածների ցանց</string>
     <string name="warranty_country_information">%1$s (%2$s)</string>
     <string name="wifi_subscription_summary">Դիտել և փոխել OpenRoaming-ի բաժանորդագրությունը</string>

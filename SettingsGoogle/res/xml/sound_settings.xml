@@ -50,18 +50,18 @@
         settings:controller="com.android.settings.notification.RingVolumePreferenceController" />
 
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@*android:drawable/ic_audio_alarm"
-        android:key="alarm_volume"
-        android:order="-150"
-        android:title="@string/alarm_volume_option_title"
-        settings:controller="com.android.settings.notification.AlarmVolumePreferenceController" />
-
-    <com.android.settings.notification.VolumeSeekBarPreference
         android:icon="@drawable/ic_notifications"
         android:key="notification_volume"
-        android:order="-140"
+        android:order="-150"
         android:title="@string/notification_volume_option_title"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController" />
+
+    <com.android.settings.notification.VolumeSeekBarPreference
+        android:icon="@*android:drawable/ic_audio_alarm"
+        android:key="alarm_volume"
+        android:order="-140"
+        android:title="@string/alarm_volume_option_title"
+        settings:controller="com.android.settings.notification.AlarmVolumePreferenceController" />
 
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.notification.zen.ZenModeSettings"
