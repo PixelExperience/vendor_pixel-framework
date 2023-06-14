@@ -21,6 +21,7 @@ import android.app.admin.DevicePolicyManager;
 import android.content.Context;
 import android.os.Handler;
 import android.os.UserManager;
+import com.android.internal.widget.LockPatternUtils;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Main;
@@ -56,10 +57,10 @@ public final class NotificationLockscreenUserManagerGoogle extends NotificationL
         StatusBarStateController statusBarStateController, @Main Handler mainHandler,
         DeviceProvisionedController deviceProvisionedController, KeyguardStateController keyguardStateController,
         Lazy<KeyguardBypassController> keyguardBypassController, SmartSpaceController smartSpaceController,
-        SecureSettings secureSettings, DumpManager dumpManager) {
+        SecureSettings secureSettings, DumpManager dumpManager, LockPatternUtils lockPatternUtils) {
         super(context, broadcastDispatcher, devicePolicyManager, userManager, userTracker, visibilityProviderLazy,
             commonNotifCollectionLazy, clickNotifier, overviewProxyServiceLazy, keyguardManager, statusBarStateController,
-            mainHandler, deviceProvisionedController, keyguardStateController, secureSettings, dumpManager);
+            mainHandler, deviceProvisionedController, keyguardStateController, secureSettings, dumpManager, lockPatternUtils);
         KeyguardStateController.Callback callback = new KeyguardStateController.Callback() {
             public void onKeyguardShowingChanged() {
                 NotificationLockscreenUserManagerGoogle.this.updateSmartSpaceVisibilitySettings();

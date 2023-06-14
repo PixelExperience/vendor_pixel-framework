@@ -27,6 +27,7 @@ import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.power.EnhancedEstimates;
 import com.android.systemui.power.PowerUI;
 import com.android.systemui.power.data.repository.PowerRepositoryModule;
+import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.policy.BatteryController;
 import com.google.android.systemui.power.EnhancedEstimatesGoogleImpl;
 import com.google.android.systemui.power.PowerNotificationWarningsGoogleImpl;
@@ -51,8 +52,8 @@ public interface PowerModuleGoogle {
     static PowerNotificationWarningsGoogleImpl providePowerNotificationWarningsGoogleImpl(Context context, ActivityStarter activityStarter,
                                                                                           BroadcastSender broadcastSender, Lazy<BatteryController> batteryControllerLazy,
                                                                                           DialogLaunchAnimator dialogLaunchAnimator, UiEventLogger uiEventLogger,
-                                                                                          BroadcastDispatcher broadcastDispatcher) {
-        return new PowerNotificationWarningsGoogleImpl(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger, broadcastDispatcher);
+                                                                                          BroadcastDispatcher broadcastDispatcher, UserTracker userTracker) {
+        return new PowerNotificationWarningsGoogleImpl(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger, broadcastDispatcher, userTracker);
     }
 
     /**

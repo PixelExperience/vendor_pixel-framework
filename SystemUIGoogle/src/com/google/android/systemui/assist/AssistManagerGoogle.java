@@ -41,6 +41,8 @@ import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.model.SysUiState;
 import com.android.systemui.navigationbar.NavigationModeController;
 import com.android.systemui.recents.OverviewProxyService;
+import com.android.systemui.settings.DisplayTracker;
+import com.android.systemui.settings.UserTracker;
 import com.android.systemui.shared.system.QuickStepContract;
 import com.android.systemui.statusbar.CommandQueue;
 import com.android.systemui.statusbar.policy.DeviceProvisionedController;
@@ -48,6 +50,7 @@ import com.google.android.systemui.assist.uihints.AssistantPresenceHandler;
 import com.google.android.systemui.assist.uihints.GoogleDefaultUiController;
 import com.google.android.systemui.assist.uihints.NgaMessageHandler;
 import com.google.android.systemui.assist.uihints.NgaUiController;
+import com.android.systemui.util.settings.SecureSettings;
 
 import javax.inject.Inject;
 
@@ -90,11 +93,15 @@ public class AssistManagerGoogle extends AssistManager {
                                AssistantPresenceHandler assistantPresenceHandler,
                                NgaUiController ngaUiController,
                                NgaMessageHandler ngaMessageHandler,
+                               UserTracker userTracker,
+                               DisplayTracker displayTracker,
+                               SecureSettings secureSettings,
                                IWindowManager iWindowManager) {
         super(controller, context, assistUtils, commandQueue,
                 phoneStateMonitor, overviewProxyService,
                 sysUiState, defaultUiController,
-                assistLogger, handler);
+                assistLogger, handler, userTracker,
+                displayTracker, secureSettings);
         mUiHandler = handler;
         mDefaultUiController = googleDefaultUiController;
         mUiController = googleDefaultUiController;
