@@ -41,14 +41,17 @@ import com.android.systemui.statusbar.policy.HotspotController;
 import com.android.systemui.statusbar.policy.SafetyController;
 import com.android.systemui.statusbar.policy.WalletController;
 import com.android.systemui.util.settings.SecureSettings;
+import com.android.systemui.qs.tileimpl.QSTileImpl;
 
 import com.google.android.systemui.statusbar.phone.AutoTileManagerGoogle;
 
+import java.util.Map;
 import javax.inject.Named;
 
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
+import dagger.multibindings.Multibinds;
 
 /**
  * Module for QS dependencies
@@ -56,6 +59,11 @@ import dagger.Provides;
 @Module(subcomponents = {QSFragmentComponent.class},
         includes = {MediaModule.class, QSExternalModule.class, QSFlagsModule.class})
 public interface QSModuleGoogle {
+
+    /** A map of internal QS tiles. Ensures that this can be injected even if
+     * it is empty */
+    @Multibinds
+    Map<String, QSTileImpl<?>> tileMap();
 
     @Provides
     static AutoTileManager provideAutoTileManager(

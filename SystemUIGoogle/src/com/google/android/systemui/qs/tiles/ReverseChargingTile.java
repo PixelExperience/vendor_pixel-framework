@@ -46,6 +46,8 @@ import com.android.systemui.statusbar.policy.BatteryController;
 import javax.inject.Inject;
 
 public class ReverseChargingTile extends QSTileImpl<QSTile.BooleanState> implements BatteryController.BatteryStateChangeCallback {
+
+    public static final String TILE_SPEC = "reverse";
     private static final boolean DEBUG = Log.isLoggable("ReverseChargingTile", 3);
     private final BatteryController mBatteryController;
     private int mBatteryLevel;
