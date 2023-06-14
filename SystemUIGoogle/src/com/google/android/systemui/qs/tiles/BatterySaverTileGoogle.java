@@ -35,6 +35,9 @@ import com.android.systemui.util.settings.SecureSettings;
 import javax.inject.Inject;
 
 public class BatterySaverTileGoogle extends BatterySaverTile {
+
+    public static final String TILE_SPEC = "battery";
+
     private boolean mExtreme;
 
     @Inject
