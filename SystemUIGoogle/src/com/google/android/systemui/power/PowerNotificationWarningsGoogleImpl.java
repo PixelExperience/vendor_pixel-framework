@@ -32,6 +32,7 @@ import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.broadcast.BroadcastSender;
 import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.power.PowerNotificationWarnings;
+import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.policy.BatteryController;
 
 import dagger.Lazy;
@@ -48,8 +49,8 @@ public final class PowerNotificationWarningsGoogleImpl extends PowerNotification
     public PowerNotificationWarningsGoogleImpl(Context context, ActivityStarter activityStarter,
                                                BroadcastSender broadcastSender, Lazy<BatteryController> batteryControllerLazy,
                                                DialogLaunchAnimator dialogLaunchAnimator, UiEventLogger uiEventLogger,
-                                               BroadcastDispatcher broadcastDispatcher) {
-        super(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger);
+                                               BroadcastDispatcher broadcastDispatcher, UserTracker userTracker) {
+        super(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger, userTracker);
         Handler handler = new Handler(Looper.getMainLooper());
         mHandler = handler;
         mBroadcastReceiver = new BroadcastReceiver() {
