@@ -41,7 +41,7 @@ constructor(
             !initializationChecker.initializeComponents() -> {
                 return
             }
-            featureFlags.isEnabled(Flags.SMARTSPACE) -> {
+            initializationChecker.initializeComponents() -> {
                 zenController.init()
                 mediaController.init()
             }
