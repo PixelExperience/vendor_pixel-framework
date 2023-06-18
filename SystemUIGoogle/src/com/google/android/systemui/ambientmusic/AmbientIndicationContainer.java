@@ -114,6 +114,9 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
             public void onInflated(View view) {
                 mTextView = (TextView) findViewById(R.id.ambient_indication_text);
                 mIconView = (ImageView) findViewById(R.id.ambient_indication_icon);
+                if (mTextView == null || mIconView == null || mContext == null) {
+                    return;
+                }
                 mAmbientIndicationContainer = (ConstraintLayout) findViewById(R.id.ambient_indication);
                 ConstraintSet constraintSet = new ConstraintSet();
                 int[] udfpsProps = context.getResources().getIntArray(
@@ -366,10 +369,10 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
         int i;
         int i2;
         int i3;
-        TextView textView2 = mTextView;
-        if (textView2 == null) {
+        if (mTextView == null || mIconView == null) {
             return;
         }
+        TextView textView2 = mTextView;
         int i4 = mIndicationTextMode;
         mIndicationTextMode = 1;
         CharSequence charSequence2 = mAmbientMusicText;
