@@ -104,6 +104,9 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
             public void onInflated(View view) {
                 mTextView = (TextView) findViewById(R.id.ambient_indication_text);
                 mIconView = (ImageView) findViewById(R.id.ambient_indication_icon);
+                if (mTextView == null || mIconView == null || mContext == null) {
+                    return;
+                }
                 mAmbientMusicAnimation = mContext.getDrawable(R.anim.audioanim_animation);
                 mAmbientMusicNoteIcon = mContext.getDrawable(R.drawable.ic_music_note);
                 mReverseChargingAnimation = mContext.getDrawable(R.anim.reverse_charging_animation);
@@ -194,6 +197,9 @@ public class AmbientIndicationContainer extends AutoReinflateContainer implement
         boolean updatePill = true;
         mIndicationTextMode = 1;
         CharSequence text = mAmbientMusicText;
+        if (mTextView == null || mIconView == null) {
+            return;
+        }
         boolean textVisible = mTextView.getVisibility() == View.VISIBLE;
         Drawable icon = textVisible ? mAmbientMusicNoteIcon : mAmbientMusicAnimation;
         if (mAmbientIconOverride != null) {
