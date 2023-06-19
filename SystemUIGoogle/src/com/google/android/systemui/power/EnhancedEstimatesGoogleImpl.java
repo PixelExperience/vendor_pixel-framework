@@ -80,6 +80,7 @@ public class EnhancedEstimatesGoogleImpl implements EnhancedEstimates {
                 }
             }
             Estimate estimate = new Estimate(query.getLong(query.getColumnIndex("battery_estimate")), z2, j);
+            Estimate.storeCachedEstimate(mContext, estimate);
             query.close();
             return estimate;
         }
