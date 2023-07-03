@@ -49,6 +49,14 @@
         android:title="@string/ring_volume_option_title"
         settings:controller="com.android.settings.notification.RingVolumePreferenceController" />
 
+    <!-- Separate Ring volume -->
+    <com.android.settings.notification.VolumeSeekBarPreference
+        android:key="separate_ring_volume"
+        android:icon="@drawable/ic_ring_volume"
+        android:title="@string/separate_ring_volume_option_title"
+        android:order="-155"
+        settings:controller="com.android.settings.notification.SeparateRingVolumePreferenceController"/>
+
     <com.android.settings.notification.VolumeSeekBarPreference
         android:icon="@drawable/ic_notifications"
         android:key="notification_volume"
