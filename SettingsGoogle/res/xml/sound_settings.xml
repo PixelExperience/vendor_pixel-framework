@@ -1,53 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:key="sound_settings"
     android:title="@string/sound_settings"
+    android:key="sound_settings"
     settings:keywords="@string/keywords_sounds">
 
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="sound_illustration"
+        settings:lottie_rawRes="@raw/sound_illustration"
+        android:order="-1001" />
+
+    <!-- Remote volume group -->
     <PreferenceCategory
         android:key="remote_media_group"
-        android:order="-185"
         android:title=""
+        android:order="-185"
         settings:allowDividerBelow="true"
-        settings:controller="com.android.settings.notification.RemoteVolumeGroupController" />
+        settings:controller="com.android.settings.notification.RemoteVolumeGroupController">
+    </PreferenceCategory>
 
+    <!-- Media volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@drawable/ic_media_stream"
         android:key="media_volume"
-        android:order="-180"
+        android:icon="@drawable/ic_media_stream"
         android:title="@string/media_volume_option_title"
-        settings:controller="com.android.settings.notification.MediaVolumePreferenceController" />
+        android:order="-180"
+        settings:controller="com.android.settings.notification.MediaVolumePreferenceController"
+        settings:position="top"/>
 
-    <Preference
-        android:dialogTitle="@string/media_output_title"
+    <!-- Media output switcher -->
+    <com.rising.settings.preferences.AdaptivePreference
         android:key="media_output"
-        android:order="-175"
+        android:icon="@drawable/ic_app_volume"
         android:title="@string/media_output_title"
-        settings:controller="com.android.settings.sound.MediaOutputPreferenceController" />
+        android:dialogTitle="@string/media_output_title"
+        android:order="-179"
+        settings:searchable="false"
+        settings:controller="com.android.settings.sound.MediaOutputPreferenceController"
+        settings:position="middle"/>
 
+    <!-- Call volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@drawable/ic_local_phone_24_lib"
         android:key="call_volume"
-        android:order="-170"
+        android:icon="@drawable/ic_local_phone_24_lib"
         android:title="@string/call_volume_option_title"
-        settings:controller="com.android.settings.notification.CallVolumePreferenceController" />
+        android:order="-170"
+        settings:controller="com.android.settings.notification.CallVolumePreferenceController"
+        settings:position="middle"/>
 
-    <ListPreference
-        android:dialogTitle="@string/take_call_on_title"
+    <!-- Hands free profile output switcher -->
+    <com.rising.settings.preferences.AdaptiveListPreference
         android:key="take_call_on_output"
-        android:order="-165"
         android:title="@string/take_call_on_title"
+        android:dialogTitle="@string/take_call_on_title"
+        android:order="-165"
+        settings:searchable="false"
         settings:controller="com.android.settings.sound.HandsFreeProfileOutputPreferenceController"
-        settings:searchable="false" />
+        settings:position="middle"/>
 
+    <!-- Ring volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@drawable/ic_notifications"
         android:key="ring_volume"
-        android:order="-160"
+        android:icon="@drawable/ic_volume_ringer"
         android:title="@string/ring_volume_option_title"
-        settings:controller="com.android.settings.notification.RingVolumePreferenceController" />
+        android:order="-160"
+        settings:controller="com.android.settings.notification.RingVolumePreferenceController"
+        settings:position="middle"/>
 
     <!-- Separate Ring volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
@@ -55,157 +89,275 @@
         android:icon="@drawable/ic_ring_volume"
         android:title="@string/separate_ring_volume_option_title"
         android:order="-155"
+        settings:position="middle"
         settings:controller="com.android.settings.notification.SeparateRingVolumePreferenceController"/>
 
+    <!-- Notification volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@drawable/ic_notifications"
         android:key="notification_volume"
-        android:order="-150"
+        android:icon="@drawable/ic_notifications"
         android:title="@string/notification_volume_option_title"
-        settings:controller="com.android.settings.notification.NotificationVolumePreferenceController" />
+        android:order="-150"
+        settings:position="middle"
+        settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"
+        settings:unavailableSliceSubtitle="@string/notification_volume_disabled_summary"/>
 
+    <!-- Alarm volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@*android:drawable/ic_audio_alarm"
         android:key="alarm_volume"
-        android:order="-140"
+        android:icon="@*android:drawable/ic_audio_alarm"
         android:title="@string/alarm_volume_option_title"
-        settings:controller="com.android.settings.notification.AlarmVolumePreferenceController" />
+        android:order="-140"
+        settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"
+        settings:position="bottom"/>
 
-    <com.android.settingslib.RestrictedPreference
-        android:fragment="com.android.settings.notification.zen.ZenModeSettings"
+    <!-- Notif group -->
+    <PreferenceCategory
+        android:key="notification_sounds"
+        android:title="@string/notification_sounds_title"
+        android:order="-139">
+
+    <!-- Link ringtone and notification volumes -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
+        android:key="volume_link_notification"
+        android:title="@string/volume_link_notification_title"
+        android:order="-138"
+        settings:position="top"
+        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
+
+    <!-- Increasing ring -->
+    <com.rising.settings.preferences.SystemSettingSwitchPreference
+        android:key="increasing_ring"
+        android:title="@string/increasing_ring_volume_option_title"
+        android:order="-136"
+        settings:isLineageSettings="true"
+        settings:position="middle"
+        settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
+
+    <!-- Increasing ring volume -->
+    <com.android.settings.notification.IncreasingRingVolumePreference
+        android:key="increasing_ring_volume"
+        android:icon="@drawable/ring_notif_increasing"
+        android:dependency="increasing_ring"
+        android:order="-135"
+        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
+
+    <!-- TODO(b/174964721): make this a PrimarySwitchPreference -->
+    <!-- Interruptions -->
+    <com.rising.settings.preferences.AdaptiveRestrictedPreference
         android:key="zen_mode"
-        android:order="-130"
         android:title="@string/zen_mode_settings_title"
-        settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"
+        android:fragment="com.android.settings.notification.zen.ZenModeSettings"
+        android:order="-130"
+        settings:useAdminDisabledSummary="true"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
-        settings:useAdminDisabledSummary="true" />
+        settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"
+        settings:position="middle"/>
 
+    <!-- Phone ringtone -->
     <com.android.settings.DefaultRingtonePreference
-        android:dialogTitle="@string/ringtone_title"
         android:key="phone_ringtone"
-        android:order="-120"
-        android:ringtoneType="ringtone"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/ringtone_title"
-        settings:keywords="@string/sound_settings" />
-
-    <!-- Phone ringtone for Slot2 -->
-    <com.android.settings.DefaultRingtonePreference
-        android:key="ringtone2"
         android:title="@string/ringtone_title"
         android:dialogTitle="@string/ringtone_title"
         android:summary="@string/summary_placeholder"
         android:ringtoneType="ringtone"
-        settings:allowDividerAbove="false"
-        android:order="-119"/>
+        android:order="-120"
+        settings:keywords="@string/sound_settings"
+        settings:position="bottom"/>
 
-    <Preference
-        android:fragment="com.android.settings.notification.SpatialAudioSettings"
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="system_sounds"
+        android:title="@string/system_sounds_title"
+        android:order="-119">
+
+    <!-- Live Caption -110 and Now Playing -105-->
+
+    <!-- Spatial audio -->
+    <com.rising.settings.preferences.AdaptivePreference
         android:key="spatial_audio_summary"
-        android:order="-107"
         android:title="@string/spatial_audio_title"
-        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController" />
+        android:fragment="com.android.settings.notification.SpatialAudioSettings"
+        android:order="-107"
+        settings:position="top"
+        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
 
-    <Preference
-        android:fragment="com.android.settings.sound.MediaControlsSettings"
+    <com.rising.settings.preferences.AdaptivePreference
         android:key="media_controls_summary"
-        android:order="-100"
         android:title="@string/media_controls_title"
+        android:fragment="com.android.settings.sound.MediaControlsSettings"
+        android:order="-100"
+        settings:position="middle"
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
-        settings:keywords="@string/keywords_media_controls" />
+        settings:keywords="@string/keywords_media_controls"/>
 
-    <Preference
+    <!-- System Haptics intensities preference -->
+    <com.rising.settings.preferences.AdaptivePreference
+        android:key="haptics_settings"
+        android:title="@string/haptics_settings_title"
+        android:summary="@string/haptics_settings_summary"
+        android:order="-91"
+        settings:position="middle"
+        android:fragment="com.android.settings.sound.HapticsPreferenceFragment"/>
+
+    <!-- Also vibration -->
+    <com.rising.settings.preferences.AdaptivePreference
         android:fragment="com.android.settings.accessibility.VibrationSettings"
         android:key="vibration_and_haptics"
-        android:order="-90"
         android:title="@string/accessibility_vibration_settings_title"
+        android:order="-90"
+        settings:position="middle"
         settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
-        settings:keywords="@string/keywords_vibration" />
+        settings:keywords="@string/keywords_vibration"/>
 
-    <com.android.settingslib.PrimarySwitchPreference
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+    <com.rising.settings.preferences.AdaptiveListPreference
+        android:key="vibration_pattern"
+        android:title="@string/vibration_pattern_title"
+        android:order="-85"
+        settings:position="middle"
+        android:entries="@array/vibration_pattern_entries"
+        android:entryValues="@array/vibration_pattern_values"/>
+
+    <!-- Custom ringtone vibration pattern preference -->
+    <com.rising.settings.preferences.AdaptivePreference
+        android:key="custom_vibration_pattern"
+        android:title="@string/custom_vibration_pattern_title"
+        android:summary="@string/custom_vibration_pattern_summary"
+        android:order="-83"
+        settings:position="middle"
+        android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
+        android:visibility="gone"/>
+
+    <com.rising.settings.preferences.AdaptivePrimarySwitchPreference
         android:key="gesture_prevent_ringing_sound"
-        android:order="-80"
         android:title="@string/gesture_prevent_ringing_sound_title"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+        android:order="-80"
+        settings:position="middle"
+        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
 
+    <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
-        android:dialogTitle="@string/notification_ringtone_title"
         android:key="notification_ringtone"
-        android:order="-70"
-        android:ringtoneType="notification"
+        android:title="@string/notification_ringtone_title"
+        android:dialogTitle="@string/notification_ringtone_title"
         android:summary="@string/summary_placeholder"
-        android:title="@string/notification_ringtone_title" />
+        settings:position="middle"
+        android:ringtoneType="notification"
+        android:order="-70"/>
 
+    <!-- Default alarm ringtone -->
     <com.android.settings.DefaultRingtonePreference
-        android:dialogTitle="@string/alarm_ringtone_title"
         android:key="alarm_ringtone"
-        android:order="-60"
+        android:title="@string/alarm_ringtone_title"
+        android:dialogTitle="@string/alarm_ringtone_title"
+        android:summary="@string/summary_placeholder"
+        settings:position="middle"
         android:persistent="false"
         android:ringtoneType="alarm"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/alarm_ringtone_title" />
+        android:order="-60"/>
 
-    <Preference
+    <com.rising.settings.preferences.AdaptivePreference
         android:fragment="com.google.android.settings.notification.ClearCallingSettings"
         android:key="clear_calling"
-        android:order="-55"
+        android:order="-58"
+        settings:position="middle"
         android:summary="@string/clear_calling_topintro"
         android:title="@string/clear_calling_title"
         settings:controller="com.google.android.settings.notification.ClearCallingPreferenceController" />
 
-    <SwitchPreference
+    <com.rising.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="false"
+        settings:position="middle"
+        android:order="-55"/>
+
+    <!-- Dial pad tones -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
         android:key="dial_pad_tones"
-        android:order="-50"
-        android:title="@string/dial_pad_tones_title" />
+        android:title="@string/dial_pad_tones_title"
+        settings:position="middle"
+        android:order="-50"/>
 
-    <SwitchPreference
+    <!-- Screen locking sounds -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
         android:key="screen_locking_sounds"
-        android:order="-45"
-        android:title="@string/screen_locking_sounds_title" />
+        android:title="@string/screen_locking_sounds_title"
+        settings:position="middle"
+        android:order="-45"/>
 
-    <SwitchPreference
-        android:key="charging_sounds"
-        android:order="-40"
-        android:title="@string/charging_sounds_title" />
-
-    <SwitchPreference
+    <!-- Docking sounds -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
         android:key="docking_sounds"
-        android:order="-35"
-        android:title="@string/docking_sounds_title" />
+        android:title="@string/docking_sounds_title"
+        settings:position="middle"
+        android:order="-35"/>
 
-    <SwitchPreference
+    <!-- Touch sounds -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
         android:key="touch_sounds"
-        android:order="-30"
-        android:title="@string/touch_sounds_title" />
+        android:title="@string/touch_sounds_title"
+        settings:position="middle"
+        android:order="-30"/>
 
-    <SwitchPreference
+    <!-- Show vibrate icon in status bar -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
         android:key="vibrate_icon"
-        android:order="-27"
-        android:title="@string/vibrate_icon_title" />
+        android:title="@string/vibrate_icon_title"
+        settings:position="middle"
+        android:order="-27"/>
 
+
+    <!-- Charging sounds -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
+        android:key="charging_sounds"
+        android:title="@string/charging_sounds_title"
+        settings:position="bottom"
+        android:order="-25"/>
+
+    <!-- Custom charging sounds -->
+    <com.rising.settings.preferences.RisingAdaptivePartsPreference
+        android:key="charging_sounds_settings"
+        settings:position="bottom"
+        settings:replacesKey="charging_sounds" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other_sounds"
+        android:title="@string/other_sounds_title"
+        android:order="-111">
+
+
+    </PreferenceCategory>
+
+    <!-- Boot sounds -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
+        android:key="boot_sounds"
+        android:title="@string/boot_sounds_title"
+        android:order="-15"/>
+
+    <!-- Dock speaker plays -->
     <DropDownPreference
         android:key="dock_audio_media"
-        android:order="-25"
+        android:title="@string/dock_audio_media_title"
         android:summary="%s"
-        android:title="@string/dock_audio_media_title" />
-
-    <SwitchPreference
-        android:key="boot_sounds"
-        android:order="-20"
-        android:title="@string/boot_sounds_title" />
-
+        android:order="-14"/>
+        
+    <!-- Emergency tone -->
     <DropDownPreference
         android:key="emergency_tone"
-        android:order="-15"
+        android:title="@string/emergency_tone_title"
         android:summary="%s"
-        android:title="@string/emergency_tone_title" />
+        android:order="-10"/>
 
     <Preference
-        android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:key="sound_work_settings"
-        android:order="100"
         android:title="@string/sound_work_settings"
-        settings:controller="com.android.settings.notification.WorkSoundsPreferenceController" />
-
+        android:fragment="com.android.settings.notification.SoundWorkSettings"
+        android:order="100"
+        settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
 </PreferenceScreen>
