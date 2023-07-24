@@ -62,7 +62,17 @@ public class AdaptiveChargingManager {
     }
 
     public boolean hasAdaptiveChargingFeature() {
-        return mContext.getPackageManager().hasSystemFeature("com.google.android.feature.ADAPTIVE_CHARGING");
+        return mContext.getPackageManager().hasSystemFeature("com.google.android.feature.ADAPTIVE_CHARGING")
+                && isGoogleBatteryServiceAvailable();
+    }
+
+    private boolean isGoogleBatteryServiceAvailable() {
+        try {
+            IBinder binder = ServiceManager.getService("vendor.google.google_battery.IGoogleBattery");
+            return binder != null;
+        } catch (SecurityException e) {
+            return false;
+        }
     }
 
     public boolean isAvailable() {
@@ -115,14 +125,14 @@ public class AdaptiveChargingManager {
 
     public void queryStatus(final AdaptiveChargingStatusReceiver adaptiveChargingStatusReceiver) {
         IBinder.DeathRecipient deathRecipient = new IBinder.DeathRecipient() {
-                @Override
-                public final void binderDied() {
-                    if (DEBUG) {
-                        Log.d("AdaptiveChargingManager", "serviceDied");
-                    }
-                    adaptiveChargingStatusReceiver.onDestroyInterface();
+           @Override
+            public final void binderDied() {
+                if (DEBUG) {
+                    Log.d("AdaptiveChargingManager", "serviceDied");
                 }
-            };
+                adaptiveChargingStatusReceiver.onDestroyInterface();
+            }
+        };
         IGoogleBattery googBatteryIntf = initHalInterface(deathRecipient);
         if (googBatteryIntf == null) {
             adaptiveChargingStatusReceiver.onDestroyInterface();
@@ -152,7 +162,7 @@ public class AdaptiveChargingManager {
             Log.d("AdaptiveChargingManager", "initHalInterface");
         }
         try {
-            IBinder binder = Binder.allowBlocking(ServiceManager.waitForDeclaredService("vendor.google.google_battery.IGoogleBattery/default"));
+            IBinder binder = ServiceManager.getService("vendor.google.google_battery.IGoogleBattery");
             IGoogleBattery batteryInterface = null;
             if (binder != null) {
                 batteryInterface = IGoogleBattery.Stub.asInterface(binder);
@@ -162,7 +172,7 @@ public class AdaptiveChargingManager {
             }
             return batteryInterface;
         } catch (RemoteException | NoSuchElementException | SecurityException e) {
-            Log.e("AdaptiveChargingManager", "failed to get Google Battery HAL: ", e);
+            Log.e("AdaptiveChargingManager", "Failed to get Google Battery HAL: ", e);
             return null;
         }
     }
