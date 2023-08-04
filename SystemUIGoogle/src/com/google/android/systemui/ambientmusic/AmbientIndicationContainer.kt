@@ -128,7 +128,7 @@ class AmbientIndicationContainer @JvmOverloads constructor(
                 mIconView!!.setOnClickListener { v: View? -> onIconClick(v) }
             }
         })
-        addOnLayoutChangeListener { _, left, top, right, bottom, oldLeft, oldTop, oldRight, oldBottom ->
+        addOnLayoutChangeListener { _, _, _, _, _, _, _, _, _ ->
             updateBottomSpacing()
         }
     }
