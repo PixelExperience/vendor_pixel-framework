@@ -285,17 +285,19 @@ class AmbientIndicationContainer @JvmOverloads constructor(
         if (TextUtils.isEmpty(text) && !showAmbientMusicText) {
             updatePill = false
         }
-        val vis: Int
-        vis = if (!updatePill) {
+        val vis: Int = if (!updatePill) {
             View.GONE
         } else {
             View.VISIBLE
         }
-        mTextView!!.visibility = vis
-        if (icon == null) {
-            mIconView!!.visibility = View.GONE
+
+        mTextView?.visibility = vis
+
+        val iconView = mIconView
+        if (icon == null || (iconView != null && !iconView.isClickable)) {
+            iconView?.visibility = View.GONE
         } else {
-            mIconView!!.visibility = vis
+            iconView?.visibility = vis
         }
         if (!updatePill) {
             mTextView!!.animate().cancel()
