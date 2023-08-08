@@ -208,6 +208,10 @@ class AmbientIndicationContainer @JvmOverloads constructor(
     private fun updatePill() {
         if (isMediaPlaying()) {
             hideAmbientMusic()
+            val iconView = mIconView
+            val textView = mTextView
+            textView?.visibility = View.GONE
+            iconView?.visibility = View.GONE
             return
         }
         val indicationTextMode = mIndicationTextMode
