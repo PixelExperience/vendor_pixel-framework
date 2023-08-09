@@ -131,7 +131,11 @@ public class ReverseChargingViewController extends BroadcastReceiver implements 
     }
 
     private void updateMessage() {
+        Log.d("ReverseChargingViewController=", (mAmbientIndicationContainer == null ? "null" : "not null"));
         if (mAmbientIndicationContainer != null) {
+           Log.d("ReverseChargingViewController=", (mReverse ? "true" : "false"));
+           Log.d("ReverseChargingViewController,mName=", (TextUtils.isEmpty(mName) ? "" : "mName"));
+           Log.d("ReverseChargingViewController,mBatteryController.isWirelessCharging()=", (mBatteryController.isWirelessCharging() ? "true" : "false"));
             if (!mReverse && mBatteryController.isWirelessCharging() && !TextUtils.isEmpty(mName)) {
                 String string = mContext.getResources().getString(R.string.reverse_charging_device_providing_charge_text, mName, Utils.formatPercentage(mLevel));
                 if (DEBUG) {
