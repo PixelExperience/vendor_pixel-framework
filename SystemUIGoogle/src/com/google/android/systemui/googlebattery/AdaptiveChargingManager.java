@@ -113,7 +113,6 @@ public class AdaptiveChargingManager {
                 if (DEBUG) {
                     Log.d("AdaptiveChargingManager", "serviceDied");
                 }
-                adaptiveChargingStatusReceiver.onDestroyInterface();
             }
         };
         IGoogleBattery initHalInterface = GoogleBatteryManager.initHalInterface(deathRecipient);
