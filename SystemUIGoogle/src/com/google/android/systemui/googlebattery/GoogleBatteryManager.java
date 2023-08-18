@@ -35,7 +35,6 @@ public final class GoogleBatteryManager {
             }
             return asInterface;
         } catch (RemoteException | SecurityException | NoSuchElementException e) {
-            Log.e("GoogleBatteryManager", "failed to get Google Battery HAL: ", e);
             return null;
         }
     }
