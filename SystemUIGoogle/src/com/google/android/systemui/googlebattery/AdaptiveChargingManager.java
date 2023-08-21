@@ -40,9 +40,11 @@ public class AdaptiveChargingManager {
     private static final String TAG = "AdaptiveChargingManager";
 
     private Context mContext;
+    private boolean mHasSystemFeature = false;
 
     public AdaptiveChargingManager(Context context) {
         mContext = context;
+        mHasSystemFeature = mContext.getPackageManager().hasSystemFeature("com.google.android.feature.ADAPTIVE_CHARGING");
     }
 
     public interface AdaptiveChargingStatusReceiver {
@@ -61,8 +63,7 @@ public class AdaptiveChargingManager {
     }
 
     public boolean hasAdaptiveChargingFeature() {
-        return mContext.getPackageManager().hasSystemFeature("com.google.android.feature.ADAPTIVE_CHARGING")
-                && isGoogleBatteryServiceAvailable();
+        return mHasSystemFeature ? isGoogleBatteryServiceAvailable() : false;
     }
 
     private boolean isGoogleBatteryServiceAvailable() {
@@ -115,7 +116,10 @@ public class AdaptiveChargingManager {
                 }
             }
         };
-        IGoogleBattery initHalInterface = GoogleBatteryManager.initHalInterface(deathRecipient);
+        IGoogleBattery initHalInterface = null;
+        if(mHasSystemFeature) {
+            initHalInterface = GoogleBatteryManager.initHalInterface(deathRecipient);
+        }
         if (initHalInterface == null) {
             return false;
         }
@@ -140,7 +144,10 @@ public class AdaptiveChargingManager {
                 adaptiveChargingStatusReceiver.onDestroyInterface();
             }
         };
-        IGoogleBattery initHalInterface = GoogleBatteryManager.initHalInterface(deathRecipient);
+        IGoogleBattery initHalInterface = null;
+        if(mHasSystemFeature) {
+            initHalInterface = GoogleBatteryManager.initHalInterface(deathRecipient);
+        }
         if (initHalInterface == null) {
             adaptiveChargingStatusReceiver.onDestroyInterface();
             return;
