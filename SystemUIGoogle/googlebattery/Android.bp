@@ -1,0 +1,7 @@
+java_library {
+    name: "google-battery",
+    srcs: ["src/**/*.java"],
+    static_libs: [
+        "vendor.google.google_battery-V1-java",
+    ],
+}
