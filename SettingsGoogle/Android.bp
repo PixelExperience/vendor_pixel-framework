@@ -48,3 +48,8 @@ java_import  {
     sdk_version: "current",
     jars: ["libs/SettingsGoogle-lib.jar"],
 }
+
+filegroup {
+    name: "SettingsGoogle_manifest",
+    srcs: ["AndroidManifest.xml"],
+}
