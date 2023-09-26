@@ -174,23 +174,23 @@
 
     <!-- Live Caption -110 and Now Playing -105-->
 
+    <com.rising.settings.preferences.AdaptivePreference
+        android:key="media_controls_summary"
+        android:title="@string/media_controls_title"
+        android:fragment="com.android.settings.sound.MediaControlsSettings"
+        android:order="-107"
+        settings:position="top"
+        settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
+        settings:keywords="@string/keywords_media_controls"/>
+
     <!-- Spatial audio -->
     <com.rising.settings.preferences.AdaptivePreference
         android:key="spatial_audio_summary"
         android:title="@string/spatial_audio_title"
         android:fragment="com.android.settings.notification.SpatialAudioSettings"
-        android:order="-107"
-        settings:position="top"
-        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
-
-    <com.rising.settings.preferences.AdaptivePreference
-        android:key="media_controls_summary"
-        android:title="@string/media_controls_title"
-        android:fragment="com.android.settings.sound.MediaControlsSettings"
         android:order="-100"
         settings:position="middle"
-        settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
-        settings:keywords="@string/keywords_media_controls"/>
+        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
 
     <!-- System Haptics intensities preference -->
     <com.rising.settings.preferences.AdaptivePreference
