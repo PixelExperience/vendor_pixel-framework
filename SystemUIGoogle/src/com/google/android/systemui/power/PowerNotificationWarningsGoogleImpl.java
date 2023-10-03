@@ -70,7 +70,7 @@ public final class PowerNotificationWarningsGoogleImpl extends PowerNotification
             long currentTimeMillis = System.currentTimeMillis();
             mBatteryDefenderNotification = new BatteryDefenderNotification(context, uiEventLogger);
             mAdaptiveChargingNotification = new AdaptiveChargingNotification(context);
-            mBatteryInfoBroadcast = new BatteryInfoBroadcast(context);
+            mBatteryInfoBroadcast = new BatteryInfoBroadcast(context, broadcastSender);
             IntentFilter intentFilter = new IntentFilter();
             intentFilter.addAction("android.intent.action.BATTERY_CHANGED");
             intentFilter.addAction("PNW.defenderResumeCharging");
