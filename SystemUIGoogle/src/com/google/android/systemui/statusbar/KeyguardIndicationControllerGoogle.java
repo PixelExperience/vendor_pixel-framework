@@ -97,6 +97,7 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
                 triggerAdaptiveChargingStatusUpdate();
             } else {
                 mAdaptiveChargingActive = false;
+                triggerAdaptiveChargingStatusUpdate();
             }
         }
     }
@@ -136,6 +137,14 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
             public final void onReceive(Context context, Intent intent) {
                 if ("com.google.android.systemui.adaptivecharging.ADAPTIVE_CHARGING_DEADLINE_SET".equals(intent.getAction())) {
                     triggerAdaptiveChargingStatusUpdate();
+                } else if (Intent.ACTION_BATTERY_CHANGED.equals(intent.getAction())) {
+                    int status = intent.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
+                    mIsCharging = status == BatteryManager.BATTERY_STATUS_CHARGING;
+                    int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+                    int scale = intent.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
+                    float batterylvl = (level / (float) scale) * 100;
+                    mBatteryLevel = (int) batterylvl;
+                    updateDeviceEntryIndication(true);
                 }
             }
         };
@@ -164,7 +173,7 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
 
     @Override
     public String computePowerIndication() {
-        if (mIsCharging && mAdaptiveChargingEnabledInSettings && mAdaptiveChargingActive) {
+        if (mIsCharging && mAdaptiveChargingActive) {
             String formatTimeToFull = mAdaptiveChargingManager.formatTimeToFull(mEstimatedChargeCompletion);
             return mContext.getResources().getString(R.string.adaptive_charging_time_estimate, NumberFormat.getPercentInstance().format(mBatteryLevel / 100.0f), formatTimeToFull);
         }
@@ -211,7 +220,10 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
                 }
         });
         triggerAdaptiveChargingStatusUpdate();
-        mBroadcastDispatcher.registerReceiver(mBroadcastReceiver, new IntentFilter("com.google.android.systemui.adaptivecharging.ADAPTIVE_CHARGING_DEADLINE_SET"), null, UserHandle.ALL);
+        IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction("com.google.android.systemui.adaptivecharging.ADAPTIVE_CHARGING_DEADLINE_SET");
+        intentFilter.addAction(Intent.ACTION_BATTERY_CHANGED);
+        mBroadcastDispatcher.registerReceiver(mBroadcastReceiver, intentFilter, null, UserHandle.ALL);
     }
 
     public void triggerAdaptiveChargingStatusUpdate() {
