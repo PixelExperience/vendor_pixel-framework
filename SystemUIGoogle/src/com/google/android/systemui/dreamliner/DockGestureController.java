@@ -34,7 +34,7 @@ import androidx.dynamicanimation.animation.DynamicAnimation;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.systemui.R;
-import com.android.systemui.animation.Interpolators;
+import com.android.app.animation.Interpolators;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
 import com.android.systemui.statusbar.CrossFadeHelper;
 import com.android.systemui.statusbar.policy.ConfigurationController;

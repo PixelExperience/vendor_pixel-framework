@@ -26,7 +26,7 @@ public class OpaLockscreen implements FeedbackEffect {
     }
 
     private void refreshLockscreenOpaLayout() {
-        KeyguardBottomAreaView keyguardBottomAreaView = mCentralSurfaces.getNotificationPanelViewController().mKeyguardBottomArea;
+        KeyguardBottomAreaView keyguardBottomAreaView = mCentralSurfaces.getNotificationPanelViewController().getKeyguardBottomAreaView();
         if (keyguardBottomAreaView != null && mKeyguardStateController.isShowing()) {
             if (mLockscreenOpaLayout == null || !keyguardBottomAreaView.equals(mKeyguardBottomAreaView)) {
                 mKeyguardBottomAreaView = keyguardBottomAreaView;

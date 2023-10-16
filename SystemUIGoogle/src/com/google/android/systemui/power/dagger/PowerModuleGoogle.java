@@ -18,7 +18,6 @@ package com.google.android.systemui.power.dagger;
 
 import android.content.Context;
 
-import com.android.internal.logging.UiEventLogger;
 import com.android.systemui.animation.DialogLaunchAnimator;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.broadcast.BroadcastSender;
@@ -27,8 +26,10 @@ import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.power.EnhancedEstimates;
 import com.android.systemui.power.PowerUI;
 import com.android.systemui.power.data.repository.PowerRepositoryModule;
+import com.android.systemui.qs.QsEventLogger;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.policy.BatteryController;
+import com.android.systemui.util.settings.GlobalSettings;
 import com.google.android.systemui.power.EnhancedEstimatesGoogleImpl;
 import com.google.android.systemui.power.PowerNotificationWarningsGoogleImpl;
 
@@ -51,9 +52,9 @@ public interface PowerModuleGoogle {
     @SysUISingleton
     static PowerNotificationWarningsGoogleImpl providePowerNotificationWarningsGoogleImpl(Context context, ActivityStarter activityStarter,
                                                                                           BroadcastSender broadcastSender, Lazy<BatteryController> batteryControllerLazy,
-                                                                                          DialogLaunchAnimator dialogLaunchAnimator, UiEventLogger uiEventLogger,
-                                                                                          BroadcastDispatcher broadcastDispatcher, UserTracker userTracker) {
-        return new PowerNotificationWarningsGoogleImpl(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger, broadcastDispatcher, userTracker);
+                                                                                          DialogLaunchAnimator dialogLaunchAnimator, QsEventLogger uiEventLogger,
+                                                                                          BroadcastDispatcher broadcastDispatcher, GlobalSettings globalSettings, UserTracker userTracker) {
+        return new PowerNotificationWarningsGoogleImpl(context, activityStarter, broadcastSender, batteryControllerLazy, dialogLaunchAnimator, uiEventLogger, broadcastDispatcher, globalSettings, userTracker);
     }
 
     /**

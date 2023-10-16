@@ -31,7 +31,6 @@ import android.telecom.TelecomManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import com.android.internal.logging.UiEventLogger;
 import com.android.keyguard.KeyguardUpdateMonitor;
 import com.android.systemui.assist.AssistManager;
 import com.android.systemui.dagger.SysUISingleton;
@@ -40,6 +39,7 @@ import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.keyguard.WakefulnessLifecycle;
 import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
+import com.android.systemui.qs.QsEventLogger;
 import com.android.systemui.recents.Recents;
 import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.CommandQueue;
@@ -276,19 +276,19 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static GestureSensorImpl provideGestureSensorImpl(Context context, UiEventLogger uiEventLogger, @Main Handler handler) {
+    static GestureSensorImpl provideGestureSensorImpl(Context context, QsEventLogger uiEventLogger, @Main Handler handler) {
         return new GestureSensorImpl(context, uiEventLogger, handler);
     }
 
     @Provides
     @SysUISingleton
-    static GestureController provideGestureController(GestureSensor gestureSensor, @Named(COLUMBUS_SOFT_GATES) Set<Gate> set, CommandRegistry commandRegistry, UiEventLogger uiEventLogger) {
+    static GestureController provideGestureController(GestureSensor gestureSensor, @Named(COLUMBUS_SOFT_GATES) Set<Gate> set, CommandRegistry commandRegistry, QsEventLogger uiEventLogger) {
         return new GestureController(gestureSensor, set, commandRegistry, uiEventLogger);
     }
 
     @Provides
     @SysUISingleton
-    static CHREGestureSensor provideCHREGestureSensor(Context context, UiEventLogger uiEventLogger, GestureConfiguration gestureConfiguration, StatusBarStateController statusBarStateController, WakefulnessLifecycle wakefulnessLifecycle, @Main Handler handler) {
+    static CHREGestureSensor provideCHREGestureSensor(Context context, QsEventLogger uiEventLogger, GestureConfiguration gestureConfiguration, StatusBarStateController statusBarStateController, WakefulnessLifecycle wakefulnessLifecycle, @Main Handler handler) {
         return new CHREGestureSensor(context, uiEventLogger, gestureConfiguration, statusBarStateController, wakefulnessLifecycle, handler);
     }
 
@@ -312,7 +312,7 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static SettingsAction provideSettingsActionColumbus(Context context, CentralSurfacesGoogle centralSurfacesGoogle, UiEventLogger uiEventLogger) {
+    static SettingsAction provideSettingsActionColumbus(Context context, CentralSurfacesGoogle centralSurfacesGoogle, QsEventLogger uiEventLogger) {
         return new SettingsAction(context, centralSurfacesGoogle, uiEventLogger);
     }
 
@@ -336,13 +336,13 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static ManageMedia provideManageMedia(Context context, AudioManager audioManager, UiEventLogger uiEventLogger) {
+    static ManageMedia provideManageMedia(Context context, AudioManager audioManager, QsEventLogger uiEventLogger) {
         return new ManageMedia(context, audioManager, uiEventLogger);
     }
 
     @Provides
     @SysUISingleton
-    static LaunchApp provideLaunchApp(Context context, LauncherApps launcherApps, ActivityStarter activityStarter, StatusBarKeyguardViewManager statusBarKeyguardViewManager, IActivityManager iActivityManager, UserManager userManager, ColumbusSettings columbusSettings, KeyguardVisibility keyguardVisibility, KeyguardUpdateMonitor keyguardUpdateMonitor, @Main Handler handler, @Background Handler handlerB, Executor executor, UiEventLogger uiEventLogger, UserTracker userTracker) {
+    static LaunchApp provideLaunchApp(Context context, LauncherApps launcherApps, ActivityStarter activityStarter, StatusBarKeyguardViewManager statusBarKeyguardViewManager, IActivityManager iActivityManager, UserManager userManager, ColumbusSettings columbusSettings, KeyguardVisibility keyguardVisibility, KeyguardUpdateMonitor keyguardUpdateMonitor, @Main Handler handler, @Background Handler handlerB, Executor executor, QsEventLogger uiEventLogger, UserTracker userTracker) {
         return new LaunchApp(context, launcherApps, activityStarter, statusBarKeyguardViewManager, iActivityManager, userManager, columbusSettings, keyguardVisibility, keyguardUpdateMonitor, handler, handlerB, executor, uiEventLogger, userTracker);
     }
 
@@ -354,13 +354,13 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static LaunchOverview provideLaunchOverview(Context context, Recents recents, UiEventLogger uiEventLogger) {
+    static LaunchOverview provideLaunchOverview(Context context, Recents recents, QsEventLogger uiEventLogger) {
         return new LaunchOverview(context, recents, uiEventLogger);
     }
 
     @Provides
     @SysUISingleton
-    static com.google.android.systemui.columbus.actions.LaunchOpa provideLaunchOpaColumbus(Context context, CentralSurfacesGoogle centralSurfacesGoogle, Set<FeedbackEffect> set, AssistManager assistManager, Lazy<KeyguardManager> lazy, TunerService tunerService, ColumbusContentObserver.Factory factory, UiEventLogger uiEventLogger) {
+    static com.google.android.systemui.columbus.actions.LaunchOpa provideLaunchOpaColumbus(Context context, CentralSurfacesGoogle centralSurfacesGoogle, Set<FeedbackEffect> set, AssistManager assistManager, Lazy<KeyguardManager> lazy, TunerService tunerService, ColumbusContentObserver.Factory factory, QsEventLogger uiEventLogger) {
         return new com.google.android.systemui.columbus.actions.LaunchOpa(context, centralSurfacesGoogle, set, assistManager, lazy, tunerService, factory, uiEventLogger);
     }
 
@@ -372,13 +372,13 @@ public class ColumbusModule {
 
     @Provides
     @SysUISingleton
-    static OpenNotificationShade provideOpenNotificationShade(Context context, Lazy<NotificationShadeWindowController> lazy, Lazy<CentralSurfacesGoogle> lazyB, UiEventLogger uiEventLogger) {
+    static OpenNotificationShade provideOpenNotificationShade(Context context, Lazy<NotificationShadeWindowController> lazy, Lazy<CentralSurfacesGoogle> lazyB, QsEventLogger uiEventLogger) {
         return new OpenNotificationShade(context, lazy, lazyB, uiEventLogger);
     }
 
     @Provides
     @SysUISingleton
-    static TakeScreenshot provideTakeScreenshot(Context context, Handler handler, UiEventLogger uiEventLogger) {
+    static TakeScreenshot provideTakeScreenshot(Context context, Handler handler, QsEventLogger uiEventLogger) {
         return new TakeScreenshot(context, handler, uiEventLogger);
     }
 

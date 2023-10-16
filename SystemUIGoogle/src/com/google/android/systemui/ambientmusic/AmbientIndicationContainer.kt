@@ -48,11 +48,13 @@ import com.android.internal.annotations.VisibleForTesting
 import com.android.systemui.AutoReinflateContainer
 import com.android.systemui.Dependency
 import com.android.systemui.R
-import com.android.systemui.animation.Interpolators
+import com.android.app.animation.Interpolators
 import com.android.systemui.doze.DozeReceiver
 import com.android.systemui.plugins.statusbar.StatusBarStateController
 import com.android.systemui.statusbar.NotificationMediaManager
 import com.android.systemui.statusbar.phone.CentralSurfaces
+import com.android.systemui.shade.NotificationPanelViewController
+import com.android.systemui.shade.ShadeViewController
 import com.android.systemui.util.wakelock.DelayedWakeLock
 import com.android.systemui.util.wakelock.WakeLock
 import java.util.Objects
@@ -90,6 +92,7 @@ class AmbientIndicationContainer @JvmOverloads constructor(
     private var mTextColorAnimator: ValueAnimator? = null
     private var mTextView: TextView? = null
     private var mWirelessChargingMessage: CharSequence? = null
+    private var mInflated = false
 
     init {
         mIconBounds = Rect()
@@ -101,7 +104,7 @@ class AmbientIndicationContainer @JvmOverloads constructor(
 
     @VisibleForTesting
     fun createWakeLock(context: Context, handler: Handler): WakeLock {
-        return DelayedWakeLock(handler, WakeLock.createPartial(context, "AmbientIndication"))
+        return DelayedWakeLock(handler, WakeLock.createPartial(context, null, "AmbientIndication"))
     }
 
     fun initializeView(centralSurfaces: CentralSurfaces) {
@@ -131,6 +134,7 @@ class AmbientIndicationContainer @JvmOverloads constructor(
         addOnLayoutChangeListener { _, _, _, _, _, _, _, _, _ ->
             updateBottomSpacing()
         }
+        mInflated = true
     }
 
     override fun onAttachedToWindow() {
@@ -343,23 +347,25 @@ class AmbientIndicationContainer @JvmOverloads constructor(
             mBottomMarginPx = dimensionPixelSize
             (layoutParams as FrameLayout.LayoutParams).bottomMargin = mBottomMarginPx
         }
-        mCentralSurfaces!!.notificationPanelViewController.setAmbientIndicationTop(top, mTextView!!.visibility == View.VISIBLE)
+        val shadeViewController = mCentralSurfaces!!.getShadeViewController()
+        val notificationPanelViewController = shadeViewController as NotificationPanelViewController
+        notificationPanelViewController.setAmbientIndicationTop(top, mTextView!!.visibility == View.VISIBLE)
     }
 
     fun hideAmbientMusic() {
         setAmbientMusic(null, null, null, 0, false, null)
     }
 
-    private fun onTextClick(view: View?) {
+    fun onTextClick(view: View?) {
         if (mOpenIntent != null) {
             mCentralSurfaces!!.wakeUpIfDozing(
-                SystemClock.uptimeMillis(), view, "AMBIENT_MUSIC_CLICK",
+                SystemClock.uptimeMillis(), "AMBIENT_MUSIC_CLICK",
                 PowerManager.WAKE_REASON_GESTURE
             )
             if (mAmbientSkipUnlock) {
                 sendBroadcastWithoutDismissingKeyguard(mOpenIntent!!)
             } else {
-                mCentralSurfaces!!.startPendingIntentDismissingKeyguard(mOpenIntent!!)
+                 mCentralSurfaces!!.startPendingIntentDismissingKeyguard(mOpenIntent!!)
             }
         }
     }
@@ -367,7 +373,7 @@ class AmbientIndicationContainer @JvmOverloads constructor(
     private fun onIconClick(view: View?) {
         if (mFavoritingIntent != null) {
             mCentralSurfaces!!.wakeUpIfDozing(
-                SystemClock.uptimeMillis(), view, "AMBIENT_MUSIC_CLICK",
+                SystemClock.uptimeMillis(), "AMBIENT_MUSIC_CLICK",
                 PowerManager.WAKE_REASON_GESTURE
             )
             sendBroadcastWithoutDismissingKeyguard(mFavoritingIntent!!)

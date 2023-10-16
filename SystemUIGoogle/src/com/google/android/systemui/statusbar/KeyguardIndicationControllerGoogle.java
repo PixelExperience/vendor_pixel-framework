@@ -46,10 +46,12 @@ import com.android.systemui.dagger.SysUISingleton;
 import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.dock.DockManager;
+import com.android.systemui.flags.FeatureFlags;
 import com.android.systemui.keyguard.KeyguardIndication;
 import com.android.systemui.keyguard.ScreenLifecycle;
 import com.android.systemui.plugins.FalsingManager;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;
+import com.android.systemui.settings.UserTracker;
 import com.android.systemui.statusbar.KeyguardIndicationController;
 import com.android.systemui.statusbar.phone.KeyguardBypassController;
 import com.android.systemui.statusbar.policy.KeyguardStateController;
@@ -127,11 +129,13 @@ public class KeyguardIndicationControllerGoogle extends KeyguardIndicationContro
             DeviceConfigProxy deviceConfigProxy,
             KeyguardLogger keyguardLogger,
             AlternateBouncerInteractor alternateBouncerInteractor,
-            AlarmManager alarmManager) {
+            AlarmManager alarmManager,
+            UserTracker userTracker,
+            FeatureFlags featureFlags) {
         super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor,
             dockManager, broadcastDispatcher, devicePolicyManager, iBatteryStats, userManager, executor, bgExecutor,
             falsingManager, authController, lockPatternUtils, screenLifecycle, keyguardBypassController,
-            accessibilityManager, faceHelpMessageDeferral, keyguardLogger, alternateBouncerInteractor, alarmManager);
+            accessibilityManager, faceHelpMessageDeferral, keyguardLogger, alternateBouncerInteractor, alarmManager, userTracker, featureFlags);
         mBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public final void onReceive(Context context, Intent intent) {

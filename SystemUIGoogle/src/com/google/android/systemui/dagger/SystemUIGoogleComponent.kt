@@ -20,6 +20,7 @@ package com.google.android.systemui.dagger
 import com.android.systemui.dagger.*
 import com.android.systemui.keyguard.dagger.KeyguardModule
 import com.android.systemui.recents.RecentsModule
+import com.android.systemui.globalactions.ShutdownUiModule;
 import com.android.systemui.keyguard.CustomizationProvider
 import com.android.systemui.statusbar.NotificationInsetsModule
 import com.android.systemui.statusbar.QsFrameTranslateModule
@@ -36,6 +37,7 @@ import dagger.Subcomponent
         DependencyProvider::class,
         NotificationInsetsModule::class,
         QsFrameTranslateModule::class,
+        ShutdownUiModule::class,
         SystemUIGoogleBinder::class,
         SystemUIModule::class,
         SystemUIGoogleCoreStartableModule::class,

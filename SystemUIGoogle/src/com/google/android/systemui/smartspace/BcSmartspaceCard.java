@@ -14,7 +14,7 @@ import android.widget.TextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import com.android.launcher3.icons.GraphicsUtils;
 import com.android.systemui.R;
-import com.android.systemui.animation.Interpolators;
+import com.android.app.animation.Interpolators;
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
 import com.google.android.systemui.smartspace.logging.BcSmartspaceCardLoggingInfo;
 import com.google.android.systemui.smartspace.logging.BcSmartspaceCardMetadataLoggingInfo;

@@ -17,6 +17,7 @@
 
 package com.google.android.systemui.theme
 
+import android.app.UiModeManager
 import android.app.WallpaperManager
 import android.content.Context
 import android.content.res.Resources
@@ -32,13 +33,10 @@ import com.android.systemui.flags.FeatureFlags
 import com.android.systemui.flags.SystemPropertiesHelper
 import com.android.systemui.keyguard.WakefulnessLifecycle
 import com.android.systemui.settings.UserTracker
-import com.android.systemui.statusbar.policy.ConfigurationController
 import com.android.systemui.statusbar.policy.DeviceProvisionedController
 import com.android.systemui.theme.ThemeOverlayApplier
 import com.android.systemui.theme.ThemeOverlayController
 import com.android.systemui.util.settings.SecureSettings
-import com.android.systemui.util.settings.SystemSettings
-import com.android.systemui.tuner.TunerService
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
@@ -51,17 +49,15 @@ class ThemeOverlayControllerGoogle @Inject constructor(
     @Background bgExecutor: Executor,
     themeOverlayApplier: ThemeOverlayApplier,
     secureSettings: SecureSettings,
-    systemSettings: SystemSettings,
     wallpaperManager: WallpaperManager,
     userManager: UserManager,
-    configurationController: ConfigurationController,
     deviceProvisionedController: DeviceProvisionedController,
     userTracker: UserTracker,
     dumpManager: DumpManager,
     featureFlags: FeatureFlags,
     @Main resources: Resources,
     wakefulnessLifecycle: WakefulnessLifecycle,
-    tunerService: TunerService,
+    uiModeManager: UiModeManager,
     @param:Main private val mainResources: Resources,
     private val systemPropertiesHelper: SystemPropertiesHelper
 ) : ThemeOverlayController(
@@ -72,17 +68,15 @@ class ThemeOverlayControllerGoogle @Inject constructor(
     bgExecutor,
     themeOverlayApplier,
     secureSettings,
-    systemSettings,
     wallpaperManager,
     userManager,
-    configurationController,
     deviceProvisionedController,
     userTracker,
     dumpManager,
     featureFlags,
     resources,
     wakefulnessLifecycle,
-    tunerService
+    uiModeManager
 ) {
     init {
         configurationController.addCallback(object :

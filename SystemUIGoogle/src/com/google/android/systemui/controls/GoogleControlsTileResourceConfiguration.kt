@@ -17,6 +17,13 @@ class GoogleControlsTileResourceConfigurationImpl @Inject constructor(
    val componentName: ComponentName
         get() = controlsController.getPreferredSelection().componentName
 
+    override fun getPackageName(): String? {
+        if (componentName.getPackageName().equals(GOOGLE_HOME_PACKAGE)) {
+            return componentName.getPackageName()
+        }
+        return null
+    }
+
     override fun getTileImageId(): Int {
         if (componentName.getPackageName().equals(GOOGLE_HOME_PACKAGE)) {
             return R.drawable.home_controls_icon

@@ -26,10 +26,11 @@ import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.media.dagger.MediaModule;
 import com.android.systemui.qs.AutoAddTracker;
 import com.android.systemui.qs.QSHost;
-import com.android.systemui.qs.QSTileHost;
 import com.android.systemui.qs.ReduceBrightColorsController;
 import com.android.systemui.qs.dagger.QSFlagsModule;
 import com.android.systemui.qs.dagger.QSFragmentComponent;
+import com.android.systemui.qs.dagger.QSHostModule;
+import com.android.systemui.qs.pipeline.dagger.QSPipelineModule;
 import com.android.systemui.qs.external.QSExternalModule;
 import com.android.systemui.statusbar.phone.AutoTileManager;
 import com.android.systemui.statusbar.phone.ManagedProfileController;
@@ -48,7 +49,6 @@ import com.google.android.systemui.statusbar.phone.AutoTileManagerGoogle;
 import java.util.Map;
 import javax.inject.Named;
 
-import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
 import dagger.multibindings.Multibinds;
@@ -57,7 +57,14 @@ import dagger.multibindings.Multibinds;
  * Module for QS dependencies
  */
 @Module(subcomponents = {QSFragmentComponent.class},
-        includes = {MediaModule.class, QSExternalModule.class, QSFlagsModule.class})
+        includes = {
+                MediaModule.class,
+                QSExternalModule.class,
+                QSFlagsModule.class,
+                QSHostModule.class,
+                QSPipelineModule.class,
+        }
+)
 public interface QSModuleGoogle {
 
     /** A map of internal QS tiles. Ensures that this can be injected even if
@@ -69,7 +76,7 @@ public interface QSModuleGoogle {
     static AutoTileManager provideAutoTileManager(
             Context context,
             AutoAddTracker.Builder autoAddTrackerBuilder,
-            QSTileHost host,
+            QSHost host,
             @Background Handler handler,
             SecureSettings secureSettings,
             HotspotController hotspotController,
@@ -104,8 +111,4 @@ public interface QSModuleGoogle {
         manager.init();
         return manager;
     }
-
-    /** */
-    @Binds
-    QSHost provideQsHost(QSTileHost controllerImpl);
 }

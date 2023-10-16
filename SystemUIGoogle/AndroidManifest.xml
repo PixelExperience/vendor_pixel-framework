@@ -69,6 +69,12 @@
     <protected-broadcast android:name="com.breel.wallpapers.NOTIFICATION_RECEIVED"/>
     <protected-broadcast android:name="com.google.android.apps.privacy.wildlife.WIFI_STATE_CHANGED"/>
     <uses-permission android:name="com.google.android.ambientindication.permission.AMBIENT_INDICATION"/>
+    <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.QSB"/>
+    <permission android:name="com.android.systemui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.systemui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.CAPTURE_BLACKOUT_CONTENT"/>
+    <uses-permission android:name="android.permission.ROTATE_SURFACE_FLINGER"/>
+    <uses-permission android:name="android.permission.WAKEUP_SURFACE_FLINGER"/>
 
     <application>
         <provider

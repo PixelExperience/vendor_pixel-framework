@@ -24,7 +24,7 @@ import android.os.Handler;
 
 import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.qs.AutoAddTracker;
-import com.android.systemui.qs.QSTileHost;
+import com.android.systemui.qs.QSHost;
 import com.android.systemui.qs.ReduceBrightColorsController;
 import com.android.systemui.statusbar.phone.AutoTileManager;
 import com.android.systemui.statusbar.phone.ManagedProfileController;
@@ -59,7 +59,7 @@ public class AutoTileManagerGoogle extends AutoTileManager {
     };
 
     public AutoTileManagerGoogle(Context context, AutoAddTracker.Builder autoAddTrackerBuilder,
-                                 QSTileHost host,
+                                 QSHost host,
                                  @Background Handler handler,
                                  SecureSettings secureSettings,
                                  HotspotController hotspotController,

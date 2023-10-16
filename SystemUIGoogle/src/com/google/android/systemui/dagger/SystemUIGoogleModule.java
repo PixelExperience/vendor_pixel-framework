@@ -26,7 +26,7 @@ import android.os.PowerManager;
 
 import androidx.annotation.Nullable;
 
-import com.android.internal.logging.UiEventLogger;
+import com.android.systemui.qs.QsEventLogger;
 import com.android.keyguard.KeyguardViewController;
 import com.android.systemui.assist.AssistManager;
 import com.android.systemui.broadcast.BroadcastDispatcher;
@@ -184,7 +184,7 @@ public abstract class SystemUIGoogleModule {
             ConfigurationController configurationController,
             @Main Handler handler,
             AccessibilityManagerWrapper accessibilityManagerWrapper,
-            UiEventLogger uiEventLogger,
+            QsEventLogger uiEventLogger,
             ShadeExpansionStateManager shadeExpansionStateManager) {
         return new HeadsUpManagerPhone(
                 context,

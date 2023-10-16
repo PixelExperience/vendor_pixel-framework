@@ -19,10 +19,10 @@ package org.pixelexperience.systemui.columbus;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
-import com.android.internal.logging.UiEventLogger;
 
 import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.dagger.qualifiers.Main;
+import com.android.systemui.qs.QsEventLogger;
 import com.android.systemui.settings.UserTracker;
 import com.google.android.systemui.columbus.ColumbusTargetRequestService;
 import com.google.android.systemui.columbus.ColumbusSettings;
@@ -36,12 +36,12 @@ public class ColumbusTargetRequestServiceWrapper extends ColumbusTargetRequestSe
     private final UserTracker mUserTracker;
     private final ColumbusSettings mColumbusSettings;
     private final ColumbusStructuredDataManager mColumbusStructuredDataManager;
-    private final UiEventLogger mUiEventLogger;
+    private final QsEventLogger mUiEventLogger;
     private final Handler mHandler;
     private final Looper mLooper;
 
     @Inject
-    public ColumbusTargetRequestServiceWrapper(Context context, UserTracker userTracker, ColumbusSettings columbusSettings, ColumbusStructuredDataManager columbusStructuredDataManager, UiEventLogger uiEventLogger, @Main Handler handler, @Background Looper looper) {
+    public ColumbusTargetRequestServiceWrapper(Context context, UserTracker userTracker, ColumbusSettings columbusSettings, ColumbusStructuredDataManager columbusStructuredDataManager, QsEventLogger uiEventLogger, @Main Handler handler, @Background Looper looper) {
         super(context, userTracker, columbusSettings, columbusStructuredDataManager, uiEventLogger, handler, looper);
         mContext = context;
         mUserTracker = userTracker;
