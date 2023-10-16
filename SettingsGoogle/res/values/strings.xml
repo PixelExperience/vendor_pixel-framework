@@ -7,6 +7,7 @@
     <string name="aware_settings_description"/>
     <string name="aware_settings_summary"/>
     <string name="aware_settings_title">Aware Settings</string>
+    <string name="advanced_battery_graph_subtext">Battery left estimate is based on your device usage</string>
     <string name="gesture_silence_title">Silence alerts gesture</string>
     <string name="gesture_skip_title">Skip gesture</string>
     <string name="gesture_tap_title">Tap Gesture</string>
@@ -23,6 +24,7 @@
     <string name="adaptive_alert_vibration_summary">Reduces vibration strength while your phone is still and the screen is facing up</string>
     <string name="adaptive_alert_vibration_title">Adaptive alert vibration</string>
     <string name="adaptive_charging">Adaptive Charging</string>
+    <string name="adaptive_charging_title">Adaptive Charging</string>
     <string name="adaptive_charging_description">Extend battery lifespan by charging steadily during longer charging periods. Activated based on your usage cycle.</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptive Charging</b> • Full by %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferences</annotation></string>
@@ -350,7 +352,6 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_action_disabled_by_it_admin">https://support.google.com/work/android?p=work_device_help</string>
     <string name="help_url_action_disabled_by_restricted_settings">https://support.google.com/android/?p=restricted_settings</string>
     <string name="help_url_adaptive_sleep">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_adaptive_sleep;end</string>
-    <string name="help_url_app_usage_settings">https://support.google.com/pixelphone?p=battery_usage</string>
     <string name="help_url_apps_and_notifications">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_and_notifications;end</string>
     <string name="help_url_audio_accessory_not_supported">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=help_url_audio_accessory_not_supported;end</string>
     <string name="help_url_auto_brightness" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_auto_brightness;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_auto_brightness;end</string>
@@ -360,7 +361,6 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_battery" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
     <string name="help_url_battery_defender" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end</string>
     <string name="help_url_battery_missing">https://support.google.com/pixelphone/?p=p4xl_battery</string>
-    <string name="help_url_battery_saver_settings">https://support.google.com/pixelphone/?p=battery_saver_settings</string>
     <string name="help_url_bluetooth" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
     <string name="help_url_caption">https://support.google.com/accessibility/android/answer/6006554</string>
     <string name="help_url_choose_lockscreen" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>

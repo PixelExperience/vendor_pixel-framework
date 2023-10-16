@@ -1,78 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/transparent"
-    android:clickable="false"
-    android:gravity="center_vertical"
-    android:minHeight="?android:listPreferredItemHeight"
-    android:orientation="horizontal"
-    android:paddingEnd="?android:listPreferredItemPaddingEnd"
-    android:paddingStart="?android:listPreferredItemPaddingStart">
-
-    <RelativeLayout
-        android:layout_width="0.0dip"
-        android:layout_height="fill_parent"
-        android:clipToPadding="false"
-        android:layout_weight="1.0">
-
-        <LinearLayout
-            android:id="@id/icon_frame"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="44.0dip"
-            android:paddingTop="24.0dip">
-
-            <com.android.internal.widget.PreferenceImageView
-                android:id="@android:id/icon"
-                android:layout_width="24.0dip"
-                android:layout_height="24.0dip" />
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <RelativeLayout android:clipToPadding="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:id="@+id/icon_frame" android:paddingTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="44dp">
+            <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="24dp" android:layout_height="24dp"/>
         </LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/icon_frame"
-            android:layout_weight="1.0"
-            android:paddingBottom="16.0dip"
-            android:paddingTop="16.0dip">
-
-            <TextView
-                android:id="@android:id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="12.0dip"
-                android:singleLine="true"
-                android:textAppearance="@*android:style/PrimaryAllowLogAccess"
-                android:textColor="?android:textColorPrimary" />
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@android:id/title"
-                android:layout_below="@android:id/title"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@id/percentage_number"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="12.0dip"
-                    android:textAppearance="?android:textAppearanceSmall"
-                    android:textColor="?android:textColorSecondary" />
-
-                <SeekBar
-                    android:id="@*android:id/seekbar"
-                    android:layout_width="fill_parent"
-                    android:layout_height="48.0dip"
-                    android:layout_gravity="center_vertical" />
-
+        <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_toEndOf="@+id/icon_frame">
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Headline" android:textColor="?android:attr/textColorPrimary" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="12dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/percentage_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12dp"/>
+                <SeekBar android:layout_gravity="center_vertical" android:id="@*android:id/seekbar" android:layout_width="match_parent" android:layout_height="48dp"/>
             </LinearLayout>
-
         </RelativeLayout>
-
     </RelativeLayout>
-
 </LinearLayout>
