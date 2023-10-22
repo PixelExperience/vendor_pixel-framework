@@ -33,6 +33,7 @@ import com.android.systemui.flags.FeatureFlags
 import com.android.systemui.flags.SystemPropertiesHelper
 import com.android.systemui.keyguard.WakefulnessLifecycle
 import com.android.systemui.settings.UserTracker
+import com.android.systemui.statusbar.policy.ConfigurationController
 import com.android.systemui.statusbar.policy.DeviceProvisionedController
 import com.android.systemui.theme.ThemeOverlayApplier
 import com.android.systemui.theme.ThemeOverlayController
@@ -59,7 +60,8 @@ class ThemeOverlayControllerGoogle @Inject constructor(
     wakefulnessLifecycle: WakefulnessLifecycle,
     uiModeManager: UiModeManager,
     @param:Main private val mainResources: Resources,
-    private val systemPropertiesHelper: SystemPropertiesHelper
+    private val systemPropertiesHelper: SystemPropertiesHelper,
+    configurationController: ConfigurationController
 ) : ThemeOverlayController(
     context,
     broadcastDispatcher,
@@ -76,7 +78,8 @@ class ThemeOverlayControllerGoogle @Inject constructor(
     featureFlags,
     resources,
     wakefulnessLifecycle,
-    uiModeManager
+    uiModeManager,
+    configurationController
 ) {
     init {
         configurationController.addCallback(object :
