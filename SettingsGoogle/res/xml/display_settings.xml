@@ -16,8 +16,6 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/category_name_color">
         <SwitchPreference android:title="@string/display_white_balance_title" android:key="display_white_balance" android:summary="@string/display_white_balance_summary" settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
-        <SwitchPreference android:key="pocket_mode" android:title="@string/pocket_mode_title" android:summary="@string/pocket_mode_summary"
-            settings:keywords="@string/keyword_pocket" settings:controller="com.android.settings.display.PocketModeSettingsController"/>
         <com.android.settingslib.PrimarySwitchPreference android:title="@string/night_display_title" android:key="night_display" android:fragment="com.android.settings.display.NightDisplaySettings" settings:controller="com.android.settings.display.NightDisplayPreferenceController" settings:keywords="@string/keywords_display_night_display"/>
         <Preference android:title="@string/color_mode_title" android:key="color_mode" android:fragment="com.android.settings.display.ColorModePreferenceFragment" settings:controller="com.android.settings.display.ColorModePreferenceController" settings:keywords="@string/keywords_color_mode"/>
     </PreferenceCategory>
@@ -30,6 +28,8 @@
         <SwitchPreference android:title="@string/show_operator_name_title" android:key="show_operator_name" android:summary="@string/show_operator_name_summary"/>
         <SwitchPreference android:title="@string/camera_gesture_title" android:key="camera_gesture" android:summary="@string/camera_gesture_desc"/>
         <SwitchPreference android:title="@string/lift_to_wake_title" android:key="lift_to_wake"/>
+        <SwitchPreference android:key="pocket_mode" android:title="@string/pocket_mode_title" android:summary="@string/pocket_mode_summary"
+            settings:keywords="@string/keyword_pocket" settings:controller="com.android.settings.display.PocketModeSettingsController"/>
         <SwitchPreference android:title="@string/tap_to_wake" android:key="tap_to_wake" android:summary="@string/tap_to_wake_summary"/>
         <ListPreference android:title="@string/device_theme" android:key="theme" android:summary="@string/summary_placeholder"/>
         <Preference android:title="@string/display_vr_pref_title" android:key="vr_display_pref" android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
