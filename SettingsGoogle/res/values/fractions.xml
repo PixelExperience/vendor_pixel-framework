@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <fraction name="battery_button_height_fraction">10.5%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">0%</fraction>
+    <fraction name="bt_battery_button_height_fraction">7.8%</fraction>
+    <fraction name="bt_battery_ratio_fraction">35%</fraction>
+    <fraction name="display_density_max_scale">150%</fraction>
+    <fraction name="display_density_min_scale">85%</fraction>
+    <fraction name="display_density_min_scale_interval">9%</fraction>
+    <fraction name="fingerprint_sensor_location_fraction_x">50%</fraction>
+    <fraction name="fingerprint_sensor_location_fraction_y">30%</fraction>
+</resources>

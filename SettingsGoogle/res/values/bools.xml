@@ -31,4 +31,9 @@
     <bool name="hats_lib_survey_should_display_close_button">true</bool>
     <bool name="hats_lib_survey_should_display_scrim">true</bool>
     <bool name="suwUseTabletLayout">false</bool>
+    <bool name="config_battery_manager_consider_ac">true</bool>
+    <bool name="settingslib_config_allow_divider">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="simple_cache_enable_im_memory">false</bool>
+    <bool name="suc_footer_bar_button_align_end">false</bool>
 </resources>

@@ -77,4 +77,19 @@
     <color name="suw_navbar_bg_light">#ffe4e7e9</color>
     <color name="suw_progress_bar_color_dark">#ffffcd40</color>
     <color name="suw_progress_bar_color_light">#fff4b400</color>
+    <color name="bt_color_bg_1">#fad2cf</color>
+    <color name="bt_color_bg_2">#ceead6</color>
+    <color name="bt_color_bg_3">#feefc3</color>
+    <color name="bt_color_bg_4">#fedfc8</color>
+    <color name="bt_color_bg_5">#fdcfe8</color>
+    <color name="bt_color_bg_6">#e9d2fd</color>
+    <color name="bt_color_bg_7">#cbf0f8</color>
+    <color name="bt_color_icon_1">#b4a50e0e</color>
+    <color name="bt_color_icon_2">#b40d652d</color>
+    <color name="bt_color_icon_3">#b4e37400</color>
+    <color name="bt_color_icon_4">#b4b06000</color>
+    <color name="bt_color_icon_5">#b49c166b</color>
+    <color name="bt_color_icon_6">#b4681da8</color>
+    <color name="bt_color_icon_7">#b4007b83</color>
+    <color name="bt_outline_color">#1f000000</color>
 </resources>
