@@ -56,7 +56,7 @@ public class GoogleServices extends VendorServices {
             addService(new TouchContextService(mContext));
         }
         AmbientIndicationContainer ambientIndicationContainer = (AmbientIndicationContainer) mCentralSurfaces.getNotificationShadeWindowView().findViewById(R.id.ambient_indication_container);
-        ambientIndicationContainer.initializeView(mCentralSurfaces);
+        ambientIndicationContainer.initializeView(mContext, mCentralSurfaces, ambientIndicationContainer);
         addService(new AmbientIndicationService(mContext, ambientIndicationContainer, mAlarmManager));
     }
 
