@@ -159,7 +159,7 @@ public class DockObserver extends BroadcastReceiver implements DockManager {
             Log.i("DLObserver", "wireless charger is null, check dock component.");
         }
         mStatusBarStateController = statusBarStateController;
-        context.registerReceiver(this, getDockIntentFilter(), PERMISSION_WIRELESS_CHARGER_STATUS, null);
+        context.registerReceiver(this, getDockIntentFilter(), PERMISSION_WIRELESS_CHARGER_STATUS, null, 2);
         mDockAlignmentController = new DockAlignmentController(wirelessCharger, this);
         notificationInterruptStateProvider.addSuppressor(notificationInterruptSuppressor);
         mConfigurationController = configurationController;
@@ -1384,7 +1384,7 @@ public class DockObserver extends BroadcastReceiver implements DockManager {
 
         public void registerReceiver(Context context) {
             if (!mListening) {
-                context.registerReceiverAsUser(this, UserHandle.ALL, getIntentFilter(), DockObserver.PERMISSION_WIRELESS_CHARGER_STATUS, null);
+                context.registerReceiverAsUser(this, UserHandle.ALL, getIntentFilter(), DockObserver.PERMISSION_WIRELESS_CHARGER_STATUS, null, 2);
                 mListening = true;
             }
         }
