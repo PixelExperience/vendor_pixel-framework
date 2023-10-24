@@ -26,6 +26,9 @@
     <string name="adaptive_charging">Adaptive Charging</string>
     <string name="adaptive_charging_title">Adaptive Charging</string>
     <string name="adaptive_charging_description">Extend battery lifespan by charging steadily during longer charging periods. Activated based on your usage cycle.</string>
+    <string name="adaptive_charging_footer">To help extend battery lifespan, your phone learns your charging routine and waits until you need it to fully charge.</string>
+    <string name="adaptive_charging_link_a11y">Learn more about Adaptive Charging</string>
+    <string name="adaptive_charging_main_switch_title">Use Adaptive Charging</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptive Charging</b> • Full by %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferences</annotation></string>
     <string name="ambient_display_wake_screen_summary"/>
