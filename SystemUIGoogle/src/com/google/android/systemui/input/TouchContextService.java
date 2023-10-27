@@ -39,15 +39,24 @@ public class TouchContextService implements DisplayManager.DisplayListener {
     private int mLastRotation = -1;
 
     public TouchContextService(Context context) {
-        DisplayManager displayManager = (DisplayManager) context.getSystemService(DisplayManager.class);
+        DisplayManager displayManager = (DisplayManager) context.getSystemService(Context.DISPLAY_SERVICE);
         mDm = displayManager;
-        if (!ServiceManager.isDeclared(INTERFACE)) {
+        if (!isTouchContextServiceDeclared()) {
             Log.d("TouchContextService", "No ITouchContextService declared in manifest, not sending input context");
             return;
         }
         Handler handler = BackgroundThread.getHandler();
         displayManager.registerDisplayListener(this, handler);
-        handler.post((Runnable) () -> onDisplayChanged(0));
+        handler.post(() -> onDisplayChanged(0));
+    }
+
+    private boolean isTouchContextServiceDeclared() {
+        try {
+            return ServiceManager.isDeclared(INTERFACE);
+        } catch (Exception e) {
+            Log.d("TouchContextService", "ITouchContextService is not supported, aborting initialization");
+            return false;
+        }
     }
 
     private static byte toOrientation(int i, int i2, int i3) {
