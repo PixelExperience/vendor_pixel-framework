@@ -93,9 +93,41 @@
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
 
+    <Preference
+        android:key="three_finger_gesture_summary"
+        android:title="@string/swipe_to_screenshot_gesture_title"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    <Preference
+        android:key="power_button_torch_summary"
+        android:title="@string/power_button_torch_title"
+        android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    <com.android.settings.custom.preference.RemotePreference
+            android:key="touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.touch.gestures"
+            android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
+    </com.android.settings.custom.preference.RemotePreference>
+
+    <com.android.settings.custom.preference.RemotePreference
+            android:key="device_touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:replacesKey="touchscreen_gesture_settings"
+            settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
+        <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
+    </com.android.settings.custom.preference.RemotePreference>
 </PreferenceScreen>
