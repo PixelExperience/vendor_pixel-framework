@@ -51,7 +51,7 @@
         settings:unavailableSliceSubtitle="@string/notification_volume_disabled_summary"/>
 
     <com.android.settings.notification.VolumeSeekBarPreference
-        android:icon="@*android:drawable/ic_bt_misc_hid"
+        android:icon="@*android:drawable/ic_audio_alarm"
         android:title="@string/alarm_volume_option_title"
         android:key="alarm_volume"
         android:order="-140"
