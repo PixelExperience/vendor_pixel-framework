@@ -184,6 +184,13 @@
         android:defaultValue="false"
         settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
 
+	<!-- QS Tiles haptic -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_tiles_haptic"
+        android:title="@string/qs_tiles_haptic_title"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
+
     <!-- Volume slider haptic -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="volume_slider_haptic"
