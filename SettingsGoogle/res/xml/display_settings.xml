@@ -179,6 +179,13 @@
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false"
+            android:enabled="@*android:bool/config_pocketModeSupported" />
+
         <SwitchPreference
             android:title="@string/show_operator_name_title" 
             android:key="show_operator_name"
