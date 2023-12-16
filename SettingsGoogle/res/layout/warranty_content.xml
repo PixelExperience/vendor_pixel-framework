@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -14,8 +13,8 @@
             android:id="@id/warranty_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingEnd="?android:listPreferredItemPaddingEnd"
             android:paddingStart="?android:listPreferredItemPaddingStart"
+            android:paddingEnd="?android:listPreferredItemPaddingEnd"
             android:textAlignment="viewStart"
             android:textAppearance="@*android:style/PreferenceFragment.Material"
             android:textColor="?android:textColorSecondary" />

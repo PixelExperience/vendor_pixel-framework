@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SuwGlifHeaderContainer"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    style="@style/SuwGlifHeaderContainer">
+    android:orientation="vertical">
 
     <ImageView
         android:id="@id/suw_layout_icon"
+        style="?suwGlifIconStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@null"
-        android:visibility="gone"
-        style="?suwGlifIconStyle" />
+        android:visibility="gone" />
 
     <TextView
         android:id="@id/suw_layout_title"
+        style="@style/SuwGlifHeaderTitle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        style="@style/SuwGlifHeaderTitle" />
+        android:layout_height="wrap_content" />
 
     <ViewStub
         android:id="@id/suw_layout_progress_stub"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inflatedId="@id/suw_layout_progress"
-        android:layout="@layout/suw_progress_bar"
-        android:layout_marginBottom="@dimen/suw_glif_progress_bar_margin_vertical"
         android:layout_marginLeft="?suwMarginSides"
+        android:layout_marginTop="@dimen/suw_glif_progress_bar_margin_vertical"
         android:layout_marginRight="?suwMarginSides"
-        android:layout_marginTop="@dimen/suw_glif_progress_bar_margin_vertical" />
+        android:layout_marginBottom="@dimen/suw_glif_progress_bar_margin_vertical"
+        android:inflatedId="@id/suw_layout_progress"
+        android:layout="@layout/suw_progress_bar" />
 
 </LinearLayout>

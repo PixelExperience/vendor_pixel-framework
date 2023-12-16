@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.setupwizardlib.view.StatusBarBackgroundLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.setupwizardlib.view.StatusBarBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/suw_pattern_bg"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <include
-        layout="@layout/suw_glif_list_template_content" />
+    <include layout="@layout/suw_glif_list_template_content" />
 
 </com.android.setupwizardlib.view.StatusBarBackgroundLayout>

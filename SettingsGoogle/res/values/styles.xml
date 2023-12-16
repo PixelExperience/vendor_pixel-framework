@@ -1,20 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
     <style name="Animation.SuwWindowAnimation" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/suw_slide_next_in</item>
         <item name="android:activityOpenExitAnimation">@anim/suw_slide_next_out</item>
         <item name="android:activityCloseEnterAnimation">@anim/suw_slide_back_in</item>
         <item name="android:activityCloseExitAnimation">@anim/suw_slide_back_out</item>
     </style>
+
     <style name="AssistGestureTrainingProgressBar">
         <item name="android:padding">8.0dip</item>
     </style>
+
     <style name="BottomSheetButtonBorderless" parent="@android:style/Widget.DeviceDefault.Button.Borderless.Colored">
         <item name="android:textColor">?android:colorAccent</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAllCaps">false</item>
     </style>
+
     <style name="BottomSheetStyle" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
@@ -26,20 +30,25 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
+
     <style name="ContextualSuggestionCardStyle">
         <item name="cardBackgroundColor">?androidprv:attr/colorAccentPrimary</item>
         <item name="cardCornerRadius">@dimen/suggestion_card_corner_radius</item>
         <item name="cardElevation">0.0dip</item>
     </style>
+
     <style name="ContextualSuggestionCardStyle.TwoPane" parent="@style/ContextualSuggestionCardStyle">
         <item name="cardBackgroundColor">?androidprv:attr/colorSurface</item>
     </style>
+
     <style name="DreamSudCardStyle" parent="@style/DreamCardStyle">
         <item name="cardBackgroundColor">@color/dream_card_suw_color_state_list</item>
     </style>
+
     <style name="HatsLibFlatButton" parent="@style/Theme.AppCompat.Light">
         <item name="colorControlHighlight">@color/hats_lib_survey_highlight_color</item>
     </style>
+
     <style name="HatsLibPromptTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -48,17 +57,22 @@
         <item name="android:colorControlActivated">#ff4285f4</item>
         <item name="android:colorPrimaryDark">@android:color/transparent</item>
     </style>
+
     <style name="HatsLibQuestionTextStyle" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">@color/hats_lib_survey_question_text_color</item>
         <item name="android:background">@color/hats_lib_white_100</item>
-        <item name="android:lineSpacingMultiplier">@dimen/hats_lib_survey_header_question_line_spacing_multiplier</item>
+        <item name="android:lineSpacingMultiplier">
+            @dimen/hats_lib_survey_header_question_line_spacing_multiplier
+        </item>
     </style>
+
     <style name="HatsLibThankYouTextStyle" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">@color/hats_lib_prompt_text_color</item>
         <item name="android:fontFamily">roboto-medium</item>
     </style>
+
     <style name="MarlinColors">
         <item name="color_iphonecircle">#ffcecece</item>
         <item name="color_iphoneface">#ffededed</item>
@@ -73,12 +87,17 @@
         <item name="fingerprint_sensor_location_color6">#ff9b9b9b</item>
         <item name="fingerprint_sensor_location_color7">#ffcecece</item>
     </style>
-    <style name="MarlinColors.Blue" parent="@style/MarlinColors"/>
-    <style name="MarlinColors.Graphite" parent="@style/MarlinColors"/>
-    <style name="MarlinColors.Silver" parent="@style/MarlinColors"/>
+
+    <style name="MarlinColors.Blue" parent="@style/MarlinColors" />
+
+    <style name="MarlinColors.Graphite" parent="@style/MarlinColors" />
+
+    <style name="MarlinColors.Silver" parent="@style/MarlinColors" />
+
     <style name="NoScreenSaverTextColor">
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="Preference.SeekBarPreference.Material" parent="@style/Preference.SeekBarPreference">
         <item name="android:layout">@layout/preference_widget_seekbar_material</item>
         <item name="allowDividerAbove">false</item>
@@ -87,33 +106,44 @@
         <item name="iconSpaceReserved">@bool/config_materialPreferenceIconSpaceReserved</item>
         <item name="showSeekBarValue">false</item>
     </style>
+
     <style name="SecurityShowMoreWarningsCard" parent="@style/ContextualCardStyle">
         <item name="strokeWidth">0.0dip</item>
     </style>
+
     <style name="SuggestionCardIcon">
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginStart">12.0dip</item>
         <item name="android:layout_marginEnd">12.0dip</item>
         <item name="android:layout_alignParentStart">false</item>
     </style>
+
     <style name="SuggestionCardIconStyle">
         <item name="android:tint">?android:textColorPrimary</item>
     </style>
+
     <style name="SuggestionCardIconStyle.TwoPane" parent="@style/SuggestionCardIconStyle">
         <item name="android:tint">?android:textColorPrimary</item>
     </style>
+
     <style name="SuggestionCardSummaryColor">
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
+
     <style name="SuggestionCardText">
         <item name="android:textAlignment">center</item>
     </style>
+
     <style name="SuggestionCardTitleColor">
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
-    <style name="SuwAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog.Alert"/>
-    <style name="SuwAlertDialogTheme.Light" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"/>
-    <style name="SuwBase.ProgressBarLarge" parent="@android:style/Widget.Material.ProgressBar.Large"/>
+
+    <style name="SuwAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+
+    <style name="SuwAlertDialogTheme.Light" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+
+    <style name="SuwBase.ProgressBarLarge" parent="@android:style/Widget.Material.ProgressBar.Large" />
+
     <style name="SuwBaseCardTitle">
         <item name="android:textAppearance">@style/TextAppearance.SuwCardTitle</item>
         <item name="android:ellipsize">end</item>
@@ -125,21 +155,27 @@
         <item name="android:paddingStart">@dimen/suw_card_title_padding_start</item>
         <item name="android:paddingEnd">@dimen/suw_card_title_padding_end</item>
     </style>
+
     <style name="SuwBaseHeaderTitle">
         <item name="android:textSize">@dimen/suw_header_title_size</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_gravity">top</item>
         <item name="android:maxLines">3</item>
     </style>
+
     <style name="SuwBaseThemeGlifV3.Light" parent="@style/SuwThemeGlifV2.Light">
         <item name="colorAccent">@color/suw_color_accent_glif_v3</item>
         <item name="suwButtonAllCaps">false</item>
         <item name="suwButtonCornerRadius">@dimen/suw_glif_v3_button_corner_radius</item>
         <item name="suwButtonFontFamily">@string/suwFontSecondaryMedium</item>
     </style>
-    <style name="SuwButtonItem"/>
-    <style name="SuwButtonItem.Colored" parent="@style/SuwGlifButton.Primary"/>
-    <style name="SuwCardTitle" parent="@style/SuwBaseCardTitle"/>
+
+    <style name="SuwButtonItem" />
+
+    <style name="SuwButtonItem.Colored" parent="@style/SuwGlifButton.Primary" />
+
+    <style name="SuwCardTitle" parent="@style/SuwBaseCardTitle" />
+
     <style name="SuwCheckBox">
         <item name="android:textAppearance">@style/TextAppearance.SuwDescription</item>
         <item name="android:paddingLeft">@dimen/suw_check_box_padding_start</item>
@@ -150,9 +186,11 @@
         <item name="android:paddingStart">@dimen/suw_check_box_padding_start</item>
         <item name="android:layout_marginStart">@dimen/suw_check_box_margin_start</item>
     </style>
+
     <style name="SuwCheckBox.Multiline" parent="@style/SuwCheckBox">
         <item name="android:gravity">top</item>
     </style>
+
     <style name="SuwContentFrame">
         <item name="android:paddingLeft">?suwMarginSides</item>
         <item name="android:paddingTop">@dimen/suw_content_frame_padding_top</item>
@@ -160,10 +198,12 @@
         <item name="android:paddingBottom">@dimen/suw_content_frame_padding_bottom</item>
         <item name="android:clipToPadding">false</item>
     </style>
+
     <style name="SuwContentIllustration">
         <item name="android:layout_gravity">center</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
+
     <style name="SuwDescription">
         <item name="android:textAppearance">@style/TextAppearance.SuwDescription</item>
         <item name="android:layout_gravity">top</item>
@@ -171,17 +211,20 @@
         <item name="android:layout_marginBottom">@dimen/suw_description_margin_bottom</item>
         <item name="android:lineSpacingExtra">@dimen/suw_description_line_spacing_extra</item>
     </style>
+
     <style name="SuwDescription.Glif" parent="@style/SuwDescription">
         <item name="android:gravity">?suwGlifHeaderGravity</item>
         <item name="android:layout_marginTop">@dimen/suw_description_glif_margin_top</item>
         <item name="android:textAlignment">gravity</item>
     </style>
+
     <style name="SuwEditText" parent="@android:style/Widget.Material.EditText">
         <item name="android:background">@drawable/suw_edittext_bg</item>
         <item name="android:paddingLeft">@dimen/suw_edit_text_padding_horizontal</item>
         <item name="android:paddingRight">@dimen/suw_edit_text_padding_horizontal</item>
         <item name="android:minHeight">@dimen/suw_edit_text_min_height</item>
     </style>
+
     <style name="SuwFillContentLayout">
         <item name="android:paddingTop">@dimen/suw_content_illustration_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/suw_content_illustration_padding_vertical</item>
@@ -190,6 +233,7 @@
         <item name="android:minWidth">@dimen/suw_content_illustration_min_width</item>
         <item name="android:minHeight">@dimen/suw_content_illustration_min_height</item>
     </style>
+
     <style name="SuwFourColorIndeterminateProgressBar" parent="@style/SuwBase.ProgressBarLarge">
         <item name="android:layout_gravity">center</item>
         <item name="android:indeterminate">true</item>
@@ -199,6 +243,7 @@
         <item name="android:indeterminateTint">@null</item>
         <item name="android:indeterminateTintMode">@null</item>
     </style>
+
     <style name="SuwGlifButton.BaseTertiary" parent="@style/SuwGlifButton.Secondary">
         <item name="android:theme">@style/SuwGlifButton.Tertiary</item>
         <item name="android:buttonStyle">@style/SuwGlifButton.Tertiary</item>
@@ -208,6 +253,7 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+
     <style name="SuwGlifButton.Primary" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:theme">@style/SuwGlifButton.Primary</item>
         <item name="android:buttonStyle">@style/SuwGlifButton.Primary</item>
@@ -219,6 +265,7 @@
         <item name="buttonStyle">@style/SuwGlifButton.Primary</item>
         <item name="textAllCaps">?suwButtonAllCaps</item>
     </style>
+
     <style name="SuwGlifButton.Secondary" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
         <item name="android:theme">@style/SuwGlifButton.Secondary</item>
         <item name="android:buttonStyle">@style/SuwGlifButton.Secondary</item>
@@ -233,10 +280,12 @@
         <item name="colorControlHighlight">@color/suw_flat_button_highlight</item>
         <item name="textAllCaps">?suwButtonAllCaps</item>
     </style>
+
     <style name="SuwGlifButton.Tertiary" parent="@style/SuwGlifButton.BaseTertiary">
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="textAllCaps">false</item>
     </style>
+
     <style name="SuwGlifButtonBar">
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">horizontal</item>
@@ -251,19 +300,24 @@
         <item name="android:paddingStart">@dimen/suw_glif_button_margin_start</item>
         <item name="android:paddingEnd">@dimen/suw_glif_button_margin_end</item>
     </style>
+
     <style name="SuwGlifButtonBar.Stackable" parent="@style/SuwGlifButtonBar">
         <item name="android:gravity">center</item>
     </style>
+
     <style name="SuwGlifCardBackground">
         <item name="android:background">?android:colorPrimary</item>
     </style>
+
     <style name="SuwGlifCardContainer">
         <item name="android:background">?android:colorBackground</item>
         <item name="android:elevation">@dimen/suw_glif_card_elevation</item>
     </style>
+
     <style name="SuwGlifHeaderContainer">
         <item name="android:gravity">?suwGlifHeaderGravity</item>
     </style>
+
     <style name="SuwGlifHeaderTitle" parent="@style/SuwBaseHeaderTitle">
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:gravity">?suwGlifHeaderGravity</item>
@@ -274,6 +328,7 @@
         <item name="android:fontFamily">@string/suwFontSecondary</item>
         <item name="android:textAlignment">gravity</item>
     </style>
+
     <style name="SuwGlifIcon">
         <item name="android:layout_marginLeft">?suwMarginSides</item>
         <item name="android:layout_marginTop">@dimen/suw_glif_margin_top</item>
@@ -282,6 +337,7 @@
         <item name="android:adjustViewBounds">true</item>
         <item name="android:maxHeight">@dimen/suw_glif_icon_max_height</item>
     </style>
+
     <style name="SuwHeaderTitle" parent="@style/SuwBaseHeaderTitle">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:paddingTop">@dimen/suw_header_title_padding_top</item>
@@ -291,6 +347,7 @@
         <item name="android:layout_marginBottom">@dimen/suw_header_title_margin_bottom</item>
         <item name="android:lineSpacingExtra">@dimen/suw_header_title_line_spacing_extra</item>
     </style>
+
     <style name="SuwItemContainer">
         <item name="android:paddingTop">@dimen/suw_items_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/suw_items_padding_vertical</item>
@@ -298,32 +355,40 @@
         <item name="android:paddingStart">?android:listPreferredItemPaddingStart</item>
         <item name="android:paddingEnd">?android:listPreferredItemPaddingEnd</item>
     </style>
+
     <style name="SuwItemContainer.Description" parent="@style/SuwItemContainer">
         <item name="android:paddingTop">@dimen/suw_description_margin_top</item>
         <item name="android:paddingBottom">@dimen/suw_description_margin_bottom_lists</item>
     </style>
+
     <style name="SuwItemContainer.Description.Glif" parent="@style/SuwItemContainer.Description">
         <item name="android:paddingTop">@dimen/suw_description_glif_margin_top</item>
         <item name="android:paddingBottom">@dimen/suw_description_glif_margin_bottom_lists</item>
         <item name="android:minHeight">0.0dip</item>
     </style>
+
     <style name="SuwItemContainer.Verbose" parent="@style/SuwItemContainer">
         <item name="android:paddingTop">@dimen/suw_items_verbose_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/suw_items_verbose_padding_vertical</item>
     </style>
+
     <style name="SuwItemSummary">
         <item name="android:textAppearance">?android:textAppearanceListItemSmall</item>
     </style>
+
     <style name="SuwItemTitle">
         <item name="android:textAppearance">?android:textAppearanceListItem</item>
     </style>
+
     <style name="SuwItemTitle.GlifDescription" parent="@style/SuwItemTitle">
         <item name="android:gravity">?suwGlifHeaderGravity</item>
         <item name="android:textAlignment">gravity</item>
     </style>
+
     <style name="SuwItemTitle.Verbose" parent="@style/SuwItemTitle">
         <item name="android:textAppearance">@style/TextAppearance.SuwGlifBody</item>
     </style>
+
     <style name="SuwNavBarButtonStyle" parent="@android:style/Widget.Material.Button.Borderless">
         <item name="android:textSize">@dimen/suw_navbar_text_size</item>
         <item name="android:textColor">?suwNavBarTextColor</item>
@@ -334,6 +399,7 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+
     <style name="SuwNavBarTheme">
         <item name="android:orientation">horizontal</item>
         <item name="android:background">?suwNavBarBackgroundColor</item>
@@ -342,14 +408,17 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="suwNavBarTextColor">?android:textColorPrimary</item>
     </style>
+
     <style name="SuwNavBarThemeDark" parent="@style/SuwNavBarTheme">
         <item name="suwNavBarBackgroundColor">@color/suw_navbar_bg_dark</item>
         <item name="suwNavBarButtonBackground">@drawable/suw_navbar_btn_bg</item>
     </style>
+
     <style name="SuwNavBarThemeLight" parent="@style/SuwNavBarTheme">
         <item name="suwNavBarBackgroundColor">@color/suw_navbar_bg_light</item>
         <item name="suwNavBarButtonBackground">@drawable/suw_navbar_btn_bg</item>
     </style>
+
     <style name="SuwRadioButton">
         <item name="android:textAppearance">@style/TextAppearance.SuwDescription</item>
         <item name="android:paddingLeft">@dimen/suw_radio_button_padding_start</item>
@@ -360,16 +429,19 @@
         <item name="android:paddingStart">@dimen/suw_radio_button_padding_start</item>
         <item name="android:layout_marginStart">@dimen/suw_radio_button_margin_start</item>
     </style>
+
     <style name="SuwSwitchStyle">
         <item name="android:paddingLeft">@dimen/suw_switch_padding_start</item>
         <item name="android:paddingRight">@dimen/suw_switch_padding_end</item>
         <item name="android:paddingStart">@dimen/suw_switch_padding_start</item>
         <item name="android:paddingEnd">@dimen/suw_switch_padding_end</item>
     </style>
+
     <style name="SuwSwitchStyle.Divided" parent="@style/SuwSwitchStyle">
         <item name="android:paddingRight">?listPreferredItemPaddingRight</item>
         <item name="android:paddingEnd">?listPreferredItemPaddingRight</item>
     </style>
+
     <style name="SuwThemeGlif" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:colorBackground">@color/suw_glif_background_color_dark</item>
         <item name="android:listPreferredItemHeight">@dimen/suw_items_preferred_height</item>
@@ -407,7 +479,9 @@
         <item name="textAppearanceListItem">@style/TextAppearance.SuwGlifItemTitle</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.SuwGlifItemSummary</item>
     </style>
-    <style name="SuwThemeGlif.DayNight" parent="@style/SuwThemeGlif.Light"/>
+
+    <style name="SuwThemeGlif.DayNight" parent="@style/SuwThemeGlif.Light" />
+
     <style name="SuwThemeGlif.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">@color/suw_glif_background_color_light</item>
         <item name="android:listPreferredItemHeight">@dimen/suw_items_preferred_height</item>
@@ -445,6 +519,7 @@
         <item name="textAppearanceListItem">@style/TextAppearance.SuwGlifItemTitle</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.SuwGlifItemSummary</item>
     </style>
+
     <style name="SuwThemeGlifV2" parent="@style/SuwThemeGlif">
         <item name="android:colorBackground">@color/suw_glif_background_color_dark</item>
         <item name="android:editTextStyle">@style/SuwEditText</item>
@@ -459,7 +534,9 @@
         <item name="suwGlifHeaderGravity">center_horizontal</item>
         <item name="suwScrollIndicators">bottom|top</item>
     </style>
-    <style name="SuwThemeGlifV2.DayNight" parent="@style/SuwThemeGlifV2.Light"/>
+
+    <style name="SuwThemeGlifV2.DayNight" parent="@style/SuwThemeGlifV2.Light" />
+
     <style name="SuwThemeGlifV2.Light" parent="@style/SuwThemeGlif.Light">
         <item name="android:colorBackground">@color/suw_glif_background_color_light</item>
         <item name="android:editTextStyle">@style/SuwEditText</item>
@@ -474,18 +551,24 @@
         <item name="suwGlifHeaderGravity">center_horizontal</item>
         <item name="suwScrollIndicators">bottom|top</item>
     </style>
+
     <style name="SuwThemeGlifV3" parent="@style/SuwThemeGlifV2">
         <item name="colorAccent">@color/suw_color_accent_glif_v3</item>
         <item name="suwButtonAllCaps">false</item>
         <item name="suwButtonCornerRadius">@dimen/suw_glif_v3_button_corner_radius</item>
         <item name="suwButtonFontFamily">@string/suwFontSecondaryMedium</item>
     </style>
-    <style name="SuwThemeGlifV3.DayNight" parent="@style/SuwThemeGlifV3.Light"/>
+
+    <style name="SuwThemeGlifV3.DayNight" parent="@style/SuwThemeGlifV3.Light" />
+
     <style name="SuwThemeGlifV3.Light" parent="@style/SuwBaseThemeGlifV3.Light">
         <item name="android:navigationBarColor">@color/suw_glif_v3_nav_bar_color_light</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarDividerColor">@color/suw_glif_v3_nav_bar_divider_color_light</item>
+        <item name="android:navigationBarDividerColor">
+            @color/suw_glif_v3_nav_bar_divider_color_light
+        </item>
     </style>
+
     <style name="SuwThemeMaterial" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:colorBackground">@color/suw_color_background_dark</item>
         <item name="android:listPreferredItemHeight">@dimen/suw_items_preferred_height</item>
@@ -518,7 +601,9 @@
         <item name="suwNavBarTheme">@style/SuwNavBarThemeDark</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.SuwItemSummary</item>
     </style>
-    <style name="SuwThemeMaterial.DayNight" parent="@style/SuwThemeMaterial.Light"/>
+
+    <style name="SuwThemeMaterial.DayNight" parent="@style/SuwThemeMaterial.Light" />
+
     <style name="SuwThemeMaterial.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">@color/suw_color_background_light</item>
         <item name="android:listPreferredItemHeight">@dimen/suw_items_preferred_height</item>
@@ -551,58 +636,73 @@
         <item name="suwNavBarTheme">@style/SuwNavBarThemeLight</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.SuwItemSummary</item>
     </style>
+
     <style name="TextAppearance.FaceErrorText" parent="@android:style/TextAppearance.Material.Body1">
         <item name="android:textColor">?android:colorError</item>
     </style>
+
     <style name="TextAppearance.SecurityShowMoreTitle" parent="@style/TextAppearance.SecurityStatusSummary">
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.SecurityStatusSummary" parent="@android:style/TextAppearance.DeviceDefault.Small">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:fontFamily">@*android:string/config_bodyFontFamilyMedium</item>
     </style>
+
     <style name="TextAppearance.SecurityStatusTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium">
         <item name="android:textSize">22.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFeatureSettings</item>
     </style>
+
     <style name="TextAppearance.SuggestionCardSummary" parent="@style/SuggestionCardSummaryColor">
         <item name="android:textSize">14.0sp</item>
         <item name="android:fontFamily">@*android:string/config_bodyFontFamilyMedium</item>
     </style>
+
     <style name="TextAppearance.SuggestionCardSummary.TwoPane" parent="@style/TextAppearance.SuggestionCardSummary">
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
+
     <style name="TextAppearance.SuggestionCardTitle" parent="@style/SuggestionCardTitleColor">
         <item name="android:textSize">20.0sp</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFeatureSettings</item>
     </style>
+
     <style name="TextAppearance.SuggestionCardTitle.TwoPane" parent="@style/TextAppearance.SuggestionCardTitle">
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.SuwCardTitle" parent="@android:style/TextAppearance.Material.Display1">
         <item name="android:textColor">@android:color/white</item>
     </style>
+
     <style name="TextAppearance.SuwDescription" parent="@android:style/TextAppearance.Material.Medium">
         <item name="android:textSize">@dimen/suw_description_text_size</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.SuwDescription.Secondary" parent="@style/TextAppearance.SuwDescription">
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
+
     <style name="TextAppearance.SuwGlifBody" parent="@android:style/TextAppearance">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.SuwGlifItemSummary" parent="@android:style/TextAppearance">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
+
     <style name="TextAppearance.SuwGlifItemTitle" parent="@android:style/TextAppearance">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
     <style name="TextAppearance.SuwItemSummary" parent="@android:style/TextAppearance">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">?android:textColorSecondary</item>

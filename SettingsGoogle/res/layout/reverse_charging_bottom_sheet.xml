@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/card"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
     android:background="@drawable/bottom_sheet_bg"
     android:gravity="bottom"
-    android:layout_gravity="bottom|center"
     android:minHeight="@dimen/reverse_charging_bottom_sheet_min_height"
     android:orientation="vertical"
     android:theme="@style/Theme.AlertDialog"
@@ -18,15 +17,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="32.0dip"
-        android:paddingRight="32.0dip"
-        android:paddingTop="24.0dip">
+        android:paddingTop="24.0dip"
+        android:paddingRight="32.0dip">
 
         <TextView
             android:id="@id/toolbar_title"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+            android:layout_gravity="center" />
 
     </FrameLayout>
 
@@ -35,9 +34,9 @@
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0"
-        android:paddingEnd="40.0dip"
         android:paddingStart="40.0dip"
         android:paddingTop="16.0dip"
+        android:paddingEnd="40.0dip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -83,17 +82,17 @@
 
             <Button
                 android:id="@id/learn_more_btn"
-                android:text="@string/learn_more"
                 style="@style/BottomSheetButtonBorderless"
+                android:text="@string/learn_more"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@id/ok_btn"
+                style="@style/SettingsLibButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@android:string/ok"
-                style="@style/SettingsLibButtonStyle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?suwItemDescriptionStyle"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:baselineAligned="false"
-    android:orientation="horizontal"
-    style="?suwItemDescriptionStyle">
+    android:orientation="horizontal">
 
     <FrameLayout
         android:id="@id/suw_items_icon_container"
         android:layout_width="@dimen/suw_items_icon_container_width"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:gravity="start">
 
         <ImageView
             android:id="@id/suw_items_icon"
@@ -29,20 +28,20 @@
 
         <com.android.setupwizardlib.view.RichTextView
             android:id="@id/suw_items_title"
+            style="?suwItemDescriptionTitleStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="@dimen/suw_description_line_spacing_extra"
-            android:textAppearance="@style/TextAppearance.SuwDescription"
-            style="?suwItemDescriptionTitleStyle" />
+            android:textAppearance="@style/TextAppearance.SuwDescription" />
 
         <com.android.setupwizardlib.view.RichTextView
             android:id="@id/suw_items_summary"
+            style="@style/SuwItemSummary"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
             android:textAlignment="viewStart"
-            android:visibility="gone"
-            style="@style/SuwItemSummary" />
+            android:visibility="gone" />
 
     </LinearLayout>
 

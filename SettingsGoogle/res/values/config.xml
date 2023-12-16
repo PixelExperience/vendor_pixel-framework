@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fully-qualified class name for the implementation of the FeatureFactory to be instantiated. -->
     <string name="config_featureFactory" translatable="false">com.google.android.settings.overlay.FeatureFactoryImplGoogle</string>
-    
+
     <!-- Settings intelligence package name -->
     <string name="config_settingsintelligence_package_name" translatable="false">
         com.google.android.settings.intelligence

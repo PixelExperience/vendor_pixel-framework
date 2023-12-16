@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
     <SeekBar
         android:id="@id/assist_gesture_sensitivity_seekbar"
+        style="@android:style/Widget.Material.SeekBar.Discrete"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:max="@integer/gesture_assist_sensitivity_max"
-        android:paddingBottom="16.0dip"
         android:paddingTop="16.0dip"
-        android:progress="@integer/gesture_assist_sensitivity_default"
-        style="@android:style/Widget.Material.SeekBar.Discrete" />
+        android:paddingBottom="16.0dip"
+        android:progress="@integer/gesture_assist_sensitivity_default" />
 
     <FrameLayout
         android:layout_width="fill_parent"

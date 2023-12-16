@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/layout"
     android:layout_width="fill_parent"
@@ -9,18 +8,18 @@
     app:sucHeaderText="@string/assist_gesture_training_intro_title">
 
     <LinearLayout
+        style="@style/SudContentFrame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center_horizontal"
-        android:orientation="vertical"
-        style="@style/SudContentFrame">
+        android:orientation="vertical">
 
         <TextView
             android:id="@id/sud_layout_description"
+            style="@style/SudDescription.Glif"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/assist_gesture_training_intro_text"
-            style="@style/SudDescription.Glif" />
+            android:text="@string/assist_gesture_training_intro_text" />
 
         <Space
             android:layout_width="0.0dip"
@@ -32,8 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <include
-                layout="@layout/assist_gesture_illustration" />
+            <include layout="@layout/assist_gesture_illustration" />
 
         </FrameLayout>
 

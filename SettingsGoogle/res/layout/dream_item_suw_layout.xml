@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/container"
+    style="@style/DreamSudCardStyle"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:clickable="true"
     android:layout_margin="@dimen/suw_dream_item_margin"
-    style="@style/DreamSudCardStyle">
+    android:clickable="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="fill_parent"
@@ -39,11 +38,11 @@
 
         <Button
             android:id="@id/customize_button"
+            style="@style/ActionPrimaryButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/customize_button_title"
             android:visibility="gone"
-            style="@style/ActionPrimaryButton"
             app:layout_constraintBottom_toBottomOf="@id/preview"
             app:layout_constraintEnd_toEndOf="@id/preview"
             app:layout_constraintStart_toStartOf="@id/preview"
@@ -53,12 +52,12 @@
             android:id="@id/title_text"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dream_item_title_margin_top"
+            android:layout_marginBottom="@dimen/dream_item_title_margin_bottom"
             android:drawablePadding="@dimen/suw_dream_item_icon_padding"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:gravity="center_vertical"
-            android:layout_marginBottom="@dimen/dream_item_title_margin_bottom"
-            android:layout_marginTop="@dimen/dream_item_title_margin_top"
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
             android:singleLine="true"
@@ -73,8 +72,8 @@
             android:id="@id/summary_text"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
             android:layout_marginBottom="@dimen/dream_item_title_margin_bottom"
+            android:ellipsize="end"
             android:maxLines="4"
             android:minLines="3"
             android:textColor="@color/dream_card_text_color_state_list"

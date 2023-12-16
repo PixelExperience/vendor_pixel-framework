@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/face_enroll_participation"
+    style="@style/FaceLayoutTheme"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    style="@style/FaceLayoutTheme"
     app:sucHeaderText="@string/face_enrolling_participation_title">
 
     <LinearLayout
+        style="@style/SudContentFrame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:clipChildren="false"
         android:clipToPadding="false"
-        android:orientation="vertical"
-        style="@style/SudContentFrame">
+        android:orientation="vertical">
 
         <TextView
+            style="@*android:style/PreferenceFragmentList"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
             android:lineSpacingExtra="5.0dip"
-            android:text="@string/face_enrolling_participation_description"
-            style="@*android:style/PreferenceFragmentList" />
+            android:text="@string/face_enrolling_participation_description" />
 
         <Space
             android:layout_width="0.0dip"
@@ -30,18 +29,18 @@
             android:layout_weight="1.0" />
 
         <LinearLayout
+            style="@style/SudContentFrame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:orientation="horizontal"
-            style="@style/SudContentFrame">
+            android:orientation="horizontal">
 
             <CheckBox
                 android:id="@id/agree_to_participate"
+                style="@*android:style/PreferenceFragmentList"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/face_consent"
-                style="@*android:style/PreferenceFragmentList" />
+                android:text="@string/face_consent" />
 
         </LinearLayout>
 

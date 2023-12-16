@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/hats_white_button"
@@ -9,10 +8,10 @@
     android:focusable="true"
     android:minHeight="@dimen/hats_lib_survey_answer_height"
     android:orientation="horizontal"
-    android:paddingBottom="@dimen/hats_lib_multiple_choice_item_padding"
     android:paddingLeft="@dimen/hats_lib_survey_horizontal_padding"
+    android:paddingTop="@dimen/hats_lib_multiple_choice_item_padding"
     android:paddingRight="@dimen/hats_lib_survey_horizontal_right_padding"
-    android:paddingTop="@dimen/hats_lib_multiple_choice_item_padding">
+    android:paddingBottom="@dimen/hats_lib_multiple_choice_item_padding">
 
     <ImageView
         android:id="@id/hats_lib_survey_multiple_choice_icon"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -21,15 +20,14 @@
 
             <TextView
                 android:id="@id/suw_layout_title"
+                style="@style/SuwHeaderTitle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:tag="sticky"
-                style="@style/SuwHeaderTitle" />
+                android:tag="sticky" />
 
         </com.android.setupwizardlib.view.Illustration>
 
-        <include
-            layout="@layout/suw_progress_bar_stub" />
+        <include layout="@layout/suw_progress_bar_stub" />
 
         <FrameLayout
             android:id="@id/suw_layout_content"
@@ -41,8 +39,8 @@
 
     <com.android.setupwizardlib.view.NavigationBar
         android:id="@id/suw_layout_navigation_bar"
+        style="@style/SuwNavBarTheme"
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/suw_navbar_height"
-        style="@style/SuwNavBarTheme" />
+        android:layout_height="@dimen/suw_navbar_height" />
 
 </LinearLayout>

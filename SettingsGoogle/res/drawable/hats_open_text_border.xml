@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_focused="false" android:state_pressed="false">
-        <layer-list
-          xmlns:android="http://schemas.android.com/apk/res/android">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
             <item>
                 <shape android:shape="rectangle">
                     <solid android:color="@color/hats_lib_survey_control_normal" />
@@ -17,8 +15,7 @@
         </layer-list>
     </item>
     <item>
-        <layer-list
-          xmlns:android="http://schemas.android.com/apk/res/android">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
             <item>
                 <shape android:shape="rectangle">
                     <solid android:color="@color/hats_lib_open_text_underline" />

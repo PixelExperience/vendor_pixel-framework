@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SuwItemContainer"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:baselineAligned="false"
-    android:orientation="horizontal"
-    style="@style/SuwItemContainer">
+    android:orientation="horizontal">
 
     <FrameLayout
         android:id="@id/suw_items_icon_container"
         android:layout_width="@dimen/suw_items_icon_container_width"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:gravity="start">
 
         <ImageView
             android:id="@id/suw_items_icon"
@@ -30,29 +29,29 @@
 
         <com.android.setupwizardlib.view.RichTextView
             android:id="@id/suw_items_title"
+            style="@style/SuwItemTitle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
             android:labelFor="@id/suw_items_switch"
-            android:textAlignment="viewStart"
-            style="@style/SuwItemTitle" />
+            android:textAlignment="viewStart" />
 
         <com.android.setupwizardlib.view.RichTextView
             android:id="@id/suw_items_summary"
+            style="@style/SuwItemSummary"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
             android:textAlignment="viewStart"
-            android:visibility="gone"
-            style="@style/SuwItemSummary" />
+            android:visibility="gone" />
 
     </LinearLayout>
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@id/suw_items_switch"
+        style="@style/SuwSwitchStyle"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_gravity="center_vertical"
-        style="@style/SuwSwitchStyle" />
+        android:layout_gravity="center_vertical" />
 
 </LinearLayout>

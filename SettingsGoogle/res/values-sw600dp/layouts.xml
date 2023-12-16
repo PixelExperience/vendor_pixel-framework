@@ -1,18 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <item type="layout" name="suw_glif_blank_template">@layout/suw_glif_blank_template_card</item>
-    <item type="layout" name="suw_glif_list_template">@layout/suw_glif_list_template_card</item>
-    <item type="layout" name="suw_glif_preference_template">@layout/suw_glif_blank_template_card</item>
-    <item type="layout" name="suw_glif_recycler_template">@layout/suw_glif_recycler_template_card</item>
-    <item type="layout" name="suw_glif_template">@layout/suw_glif_template_card</item>
-    <item type="layout" name="suw_list_template">@layout/suw_list_template_card</item>
-    <item type="layout" name="suw_list_template_short">@layout/suw_list_template_card</item>
-    <item type="layout" name="suw_no_scroll_template">@layout/suw_no_scroll_template_card</item>
-    <item type="layout" name="suw_no_scroll_template_short">@layout/suw_no_scroll_template_card</item>
-    <item type="layout" name="suw_preference_recycler_view">@layout/suw_preference_recycler_view_normal</item>
-    <item type="layout" name="suw_preference_template">@layout/suw_no_scroll_template_card</item>
-    <item type="layout" name="suw_recycler_template">@layout/suw_recycler_template_card</item>
-    <item type="layout" name="suw_recycler_template_short">@layout/suw_recycler_template_card</item>
-    <item type="layout" name="suw_template">@layout/suw_template_card</item>
-    <item type="layout" name="suw_template_short">@layout/suw_template_card</item>
+    <item name="suw_glif_blank_template" type="layout">@layout/suw_glif_blank_template_card</item>
+    <item name="suw_glif_list_template" type="layout">@layout/suw_glif_list_template_card</item>
+    <item name="suw_glif_preference_template" type="layout">@layout/suw_glif_blank_template_card
+    </item>
+    <item name="suw_glif_recycler_template" type="layout">@layout/suw_glif_recycler_template_card
+    </item>
+    <item name="suw_glif_template" type="layout">@layout/suw_glif_template_card</item>
+    <item name="suw_list_template" type="layout">@layout/suw_list_template_card</item>
+    <item name="suw_list_template_short" type="layout">@layout/suw_list_template_card</item>
+    <item name="suw_no_scroll_template" type="layout">@layout/suw_no_scroll_template_card</item>
+    <item name="suw_no_scroll_template_short" type="layout">@layout/suw_no_scroll_template_card
+    </item>
+    <item name="suw_preference_recycler_view" type="layout">
+        @layout/suw_preference_recycler_view_normal
+    </item>
+    <item name="suw_preference_template" type="layout">@layout/suw_no_scroll_template_card</item>
+    <item name="suw_recycler_template" type="layout">@layout/suw_recycler_template_card</item>
+    <item name="suw_recycler_template_short" type="layout">@layout/suw_recycler_template_card</item>
+    <item name="suw_template" type="layout">@layout/suw_template_card</item>
+    <item name="suw_template_short" type="layout">@layout/suw_template_card</item>
 </resources>

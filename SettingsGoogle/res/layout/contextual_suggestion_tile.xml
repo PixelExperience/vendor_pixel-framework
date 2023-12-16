@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/suggestion_card"
+    style="@style/ContextualSuggestionCardStyle"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="@dimen/suggestion_card_margin_horizontal"
-    android:layout_marginTop="@dimen/suggestion_card_margin_vertical"
-    style="@style/ContextualSuggestionCardStyle">
+    android:layout_marginTop="@dimen/suggestion_card_margin_vertical">
 
     <LinearLayout
         android:id="@id/card_container"
@@ -19,12 +18,12 @@
 
         <ImageView
             android:id="@android:id/icon"
+            style="@style/SuggestionCardIconStyle"
             android:layout_width="@dimen/contextual_card_icon_size"
             android:layout_height="@dimen/contextual_card_icon_size"
-            android:contentDescription="@null"
             android:layout_marginStart="@dimen/suggestion_card_icon_margin_start"
-            android:tintMode="src_in"
-            style="@style/SuggestionCardIconStyle" />
+            android:contentDescription="@null"
+            android:tintMode="src_in" />
 
         <LinearLayout
             android:id="@id/text_container"
@@ -32,9 +31,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:orientation="vertical"
-            android:paddingEnd="@dimen/suggestion_card_text_padding_end"
+            android:paddingVertical="@dimen/suggestion_card_text_padding_vertical"
             android:paddingStart="@dimen/suggestion_card_text_padding_start"
-            android:paddingVertical="@dimen/suggestion_card_text_padding_vertical">
+            android:paddingEnd="@dimen/suggestion_card_text_padding_end">
 
             <TextView
                 android:id="@android:id/title"

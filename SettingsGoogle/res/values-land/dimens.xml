@@ -7,5 +7,5 @@
     <dimen name="suw_decor_padding_top">0.0dip</dimen>
     <dimen name="suw_glif_card_height">560.0dip</dimen>
     <dimen name="suw_glif_card_width">672.0dip</dimen>
-    <item type="dimen" name="suw_illustration_aspect_ratio">0.0</item>
+    <item name="suw_illustration_aspect_ratio" type="dimen">0.0</item>
 </resources>

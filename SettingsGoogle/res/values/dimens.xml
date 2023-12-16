@@ -29,8 +29,8 @@
     <dimen name="columbus_illustration_layout_width">240.0dip</dimen>
     <dimen name="columbus_list_item_text_spacing">32.0dip</dimen>
     <dimen name="face_error_text_appear_distance">16.0dip</dimen>
-    <item type="dimen" name="face_preview_translate_x">-130.0</item>
-    <item type="dimen" name="face_preview_translate_y">-460.0</item>
+    <item name="face_preview_translate_x" type="dimen">-130.0</item>
+    <item name="face_preview_translate_y" type="dimen">-460.0</item>
     <dimen name="hats_lib_close_button_bottom_left_padding">18.0dip</dimen>
     <dimen name="hats_lib_close_button_size">42.0dip</dimen>
     <dimen name="hats_lib_close_button_top_right_padding">6.0dip</dimen>
@@ -63,7 +63,7 @@
     <dimen name="hats_lib_rounded_corner_radius">2.0dip</dimen>
     <dimen name="hats_lib_survey_answer_font_size">16.0sp</dimen>
     <dimen name="hats_lib_survey_answer_height">48.0dip</dimen>
-    <item type="dimen" name="hats_lib_survey_answer_line_spacing_multiplier">1.1</item>
+    <item name="hats_lib_survey_answer_line_spacing_multiplier" type="dimen">1.1</item>
     <dimen name="hats_lib_survey_answers_padding_top_and_bottom">8.0dip</dimen>
     <dimen name="hats_lib_survey_controls_height">48.0dip</dimen>
     <dimen name="hats_lib_survey_controls_logo_height">18.0dip</dimen>
@@ -73,7 +73,7 @@
     <dimen name="hats_lib_survey_controls_view_elevation">35.0dip</dimen>
     <dimen name="hats_lib_survey_header_bottom_padding">16.0dip</dimen>
     <dimen name="hats_lib_survey_header_font_size">20.0sp</dimen>
-    <item type="dimen" name="hats_lib_survey_header_question_line_spacing_multiplier">1.1</item>
+    <item name="hats_lib_survey_header_question_line_spacing_multiplier" type="dimen">1.1</item>
     <dimen name="hats_lib_survey_header_top_padding">24.0dip</dimen>
     <dimen name="hats_lib_survey_horizontal_padding">24.0dip</dimen>
     <dimen name="hats_lib_survey_horizontal_right_padding">12.0dip</dimen>
@@ -155,7 +155,7 @@
     <dimen name="suw_header_title_padding_bottom">2.0dip</dimen>
     <dimen name="suw_header_title_padding_top">16.0dip</dimen>
     <dimen name="suw_header_title_size">24.0sp</dimen>
-    <item type="dimen" name="suw_illustration_aspect_ratio">2.22</item>
+    <item name="suw_illustration_aspect_ratio" type="dimen">2.22</item>
     <dimen name="suw_items_glif_icon_divider_inset">72.0dip</dimen>
     <dimen name="suw_items_glif_text_divider_inset">24.0dip</dimen>
     <dimen name="suw_items_icon_container_width">48.0dip</dimen>

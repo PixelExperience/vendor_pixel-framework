@@ -1,12 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <item type="layout" name="suw_list_template">@layout/suw_list_template_card_wide</item>
-    <item type="layout" name="suw_list_template_short">@layout/suw_list_template_card_wide</item>
-    <item type="layout" name="suw_no_scroll_template">@layout/suw_no_scroll_template_card_wide</item>
-    <item type="layout" name="suw_no_scroll_template_short">@layout/suw_no_scroll_template_card_wide</item>
-    <item type="layout" name="suw_preference_template">@layout/suw_no_scroll_template_card_wide</item>
-    <item type="layout" name="suw_recycler_template">@layout/suw_recycler_template_card_wide</item>
-    <item type="layout" name="suw_recycler_template_short">@layout/suw_recycler_template_card_wide</item>
-    <item type="layout" name="suw_template">@layout/suw_template_card_wide</item>
-    <item type="layout" name="suw_template_short">@layout/suw_template_card_wide</item>
+    <item name="suw_list_template" type="layout">@layout/suw_list_template_card_wide</item>
+    <item name="suw_list_template_short" type="layout">@layout/suw_list_template_card_wide</item>
+    <item name="suw_no_scroll_template" type="layout">@layout/suw_no_scroll_template_card_wide
+    </item>
+    <item name="suw_no_scroll_template_short" type="layout">
+        @layout/suw_no_scroll_template_card_wide
+    </item>
+    <item name="suw_preference_template" type="layout">@layout/suw_no_scroll_template_card_wide
+    </item>
+    <item name="suw_recycler_template" type="layout">@layout/suw_recycler_template_card_wide</item>
+    <item name="suw_recycler_template_short" type="layout">@layout/suw_recycler_template_card_wide
+    </item>
+    <item name="suw_template" type="layout">@layout/suw_template_card_wide</item>
+    <item name="suw_template_short" type="layout">@layout/suw_template_card_wide</item>
 </resources>

@@ -1,104 +1,104 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <item type="id" name="agree_to_participate"/>
-    <item type="id" name="animation"/>
-    <item type="id" name="assist_gesture_illustration_animation"/>
-    <item type="id" name="assist_gesture_sensitivity_seekbar"/>
-    <item type="id" name="assist_gesture_training_check"/>
-    <item type="id" name="assist_gesture_training_illustration"/>
-    <item type="id" name="browser_actions_header_text"/>
-    <item type="id" name="browser_actions_menu_item_icon"/>
-    <item type="id" name="browser_actions_menu_item_text"/>
-    <item type="id" name="browser_actions_menu_items"/>
-    <item type="id" name="browser_actions_menu_view"/>
-    <item type="id" name="card"/>
-    <item type="id" name="columbus_gesture_illustration"/>
-    <item type="id" name="content_container"/>
-    <item type="id" name="current_score"/>
-    <item type="id" name="distance_indicator_view"/>
-    <item type="id" name="dream_container"/>
-    <item type="id" name="dream_setup_list"/>
-    <item type="id" name="face_check"/>
-    <item type="id" name="face_enroll_confirmation"/>
-    <item type="id" name="face_enroll_participation"/>
-    <item type="id" name="face_enrolled_anim"/>
-    <item type="id" name="face_smiley"/>
-    <item type="id" name="game_view"/>
-    <item type="id" name="hats_lib_close_button"/>
-    <item type="id" name="hats_lib_multiple_select_checkbox"/>
-    <item type="id" name="hats_lib_next"/>
-    <item type="id" name="hats_lib_overall_container"/>
-    <item type="id" name="hats_lib_prompt_banner"/>
-    <item type="id" name="hats_lib_prompt_buttons"/>
-    <item type="id" name="hats_lib_prompt_container"/>
-    <item type="id" name="hats_lib_prompt_no_thanks_button"/>
-    <item type="id" name="hats_lib_prompt_no_thanks_wrapper"/>
-    <item type="id" name="hats_lib_prompt_take_survey_button"/>
-    <item type="id" name="hats_lib_prompt_take_survey_wrapper"/>
-    <item type="id" name="hats_lib_prompt_title_text"/>
-    <item type="id" name="hats_lib_star_rating_bar"/>
-    <item type="id" name="hats_lib_survey_answers_container"/>
-    <item type="id" name="hats_lib_survey_container"/>
-    <item type="id" name="hats_lib_survey_controls_container"/>
-    <item type="id" name="hats_lib_survey_multiple_choice_icon"/>
-    <item type="id" name="hats_lib_survey_multiple_choice_text"/>
-    <item type="id" name="hats_lib_survey_open_text"/>
-    <item type="id" name="hats_lib_survey_question_rating_container"/>
-    <item type="id" name="hats_lib_survey_question_text"/>
-    <item type="id" name="hats_lib_survey_rating_high_value_text"/>
-    <item type="id" name="hats_lib_survey_rating_icon"/>
-    <item type="id" name="hats_lib_survey_rating_images_container"/>
-    <item type="id" name="hats_lib_survey_rating_low_value_text"/>
-    <item type="id" name="hats_lib_survey_viewpager"/>
-    <item type="id" name="hats_lib_thank_you"/>
-    <item type="id" name="hats_survey_question_scroll_view"/>
-    <item type="id" name="indicator_view"/>
-    <item type="id" name="item_language"/>
-    <item type="id" name="items_container"/>
-    <item type="id" name="learn_more_btn"/>
-    <item type="id" name="nav_bar"/>
-    <item type="id" name="ok_btn"/>
-    <item type="id" name="percentage_number"/>
-    <item type="id" name="play_view"/>
-    <item type="id" name="preview_caption"/>
-    <item type="id" name="preview_image"/>
-    <item type="id" name="show_more_title"/>
-    <item type="id" name="square_frame_layout"/>
-    <item type="id" name="status_image"/>
-    <item type="id" name="status_summary"/>
-    <item type="id" name="status_title"/>
-    <item type="id" name="suw_bottom_scroll_view"/>
-    <item type="id" name="suw_footer_button_bar"/>
-    <item type="id" name="suw_items_expandable_switch_content"/>
-    <item type="id" name="suw_items_icon"/>
-    <item type="id" name="suw_items_icon_container"/>
-    <item type="id" name="suw_items_summary"/>
-    <item type="id" name="suw_items_switch"/>
-    <item type="id" name="suw_items_switch_divider"/>
-    <item type="id" name="suw_items_title"/>
-    <item type="id" name="suw_large_progress_bar"/>
-    <item type="id" name="suw_layout_content"/>
-    <item type="id" name="suw_layout_decor"/>
-    <item type="id" name="suw_layout_footer"/>
-    <item type="id" name="suw_layout_header"/>
-    <item type="id" name="suw_layout_icon"/>
-    <item type="id" name="suw_layout_navigation_bar"/>
-    <item type="id" name="suw_layout_progress"/>
-    <item type="id" name="suw_layout_progress_stub"/>
-    <item type="id" name="suw_layout_sticky_header"/>
-    <item type="id" name="suw_layout_title"/>
-    <item type="id" name="suw_navbar_back"/>
-    <item type="id" name="suw_navbar_more"/>
-    <item type="id" name="suw_navbar_next"/>
-    <item type="id" name="suw_original_weight"/>
-    <item type="id" name="suw_pattern_bg"/>
-    <item type="id" name="suw_recycler_view"/>
-    <item type="id" name="suw_scroll_view"/>
-    <item type="id" name="suw_warranty_dialog"/>
-    <item type="id" name="text_container"/>
-    <item type="id" name="toolbar_title"/>
-    <item type="id" name="toolbar_wrapper"/>
-    <item type="id" name="video_view"/>
-    <item type="id" name="warranty_scroll_view"/>
-    <item type="id" name="warranty_text"/>
+    <item name="agree_to_participate" type="id" />
+    <item name="animation" type="id" />
+    <item name="assist_gesture_illustration_animation" type="id" />
+    <item name="assist_gesture_sensitivity_seekbar" type="id" />
+    <item name="assist_gesture_training_check" type="id" />
+    <item name="assist_gesture_training_illustration" type="id" />
+    <item name="browser_actions_header_text" type="id" />
+    <item name="browser_actions_menu_item_icon" type="id" />
+    <item name="browser_actions_menu_item_text" type="id" />
+    <item name="browser_actions_menu_items" type="id" />
+    <item name="browser_actions_menu_view" type="id" />
+    <item name="card" type="id" />
+    <item name="columbus_gesture_illustration" type="id" />
+    <item name="content_container" type="id" />
+    <item name="current_score" type="id" />
+    <item name="distance_indicator_view" type="id" />
+    <item name="dream_container" type="id" />
+    <item name="dream_setup_list" type="id" />
+    <item name="face_check" type="id" />
+    <item name="face_enroll_confirmation" type="id" />
+    <item name="face_enroll_participation" type="id" />
+    <item name="face_enrolled_anim" type="id" />
+    <item name="face_smiley" type="id" />
+    <item name="game_view" type="id" />
+    <item name="hats_lib_close_button" type="id" />
+    <item name="hats_lib_multiple_select_checkbox" type="id" />
+    <item name="hats_lib_next" type="id" />
+    <item name="hats_lib_overall_container" type="id" />
+    <item name="hats_lib_prompt_banner" type="id" />
+    <item name="hats_lib_prompt_buttons" type="id" />
+    <item name="hats_lib_prompt_container" type="id" />
+    <item name="hats_lib_prompt_no_thanks_button" type="id" />
+    <item name="hats_lib_prompt_no_thanks_wrapper" type="id" />
+    <item name="hats_lib_prompt_take_survey_button" type="id" />
+    <item name="hats_lib_prompt_take_survey_wrapper" type="id" />
+    <item name="hats_lib_prompt_title_text" type="id" />
+    <item name="hats_lib_star_rating_bar" type="id" />
+    <item name="hats_lib_survey_answers_container" type="id" />
+    <item name="hats_lib_survey_container" type="id" />
+    <item name="hats_lib_survey_controls_container" type="id" />
+    <item name="hats_lib_survey_multiple_choice_icon" type="id" />
+    <item name="hats_lib_survey_multiple_choice_text" type="id" />
+    <item name="hats_lib_survey_open_text" type="id" />
+    <item name="hats_lib_survey_question_rating_container" type="id" />
+    <item name="hats_lib_survey_question_text" type="id" />
+    <item name="hats_lib_survey_rating_high_value_text" type="id" />
+    <item name="hats_lib_survey_rating_icon" type="id" />
+    <item name="hats_lib_survey_rating_images_container" type="id" />
+    <item name="hats_lib_survey_rating_low_value_text" type="id" />
+    <item name="hats_lib_survey_viewpager" type="id" />
+    <item name="hats_lib_thank_you" type="id" />
+    <item name="hats_survey_question_scroll_view" type="id" />
+    <item name="indicator_view" type="id" />
+    <item name="item_language" type="id" />
+    <item name="items_container" type="id" />
+    <item name="learn_more_btn" type="id" />
+    <item name="nav_bar" type="id" />
+    <item name="ok_btn" type="id" />
+    <item name="percentage_number" type="id" />
+    <item name="play_view" type="id" />
+    <item name="preview_caption" type="id" />
+    <item name="preview_image" type="id" />
+    <item name="show_more_title" type="id" />
+    <item name="square_frame_layout" type="id" />
+    <item name="status_image" type="id" />
+    <item name="status_summary" type="id" />
+    <item name="status_title" type="id" />
+    <item name="suw_bottom_scroll_view" type="id" />
+    <item name="suw_footer_button_bar" type="id" />
+    <item name="suw_items_expandable_switch_content" type="id" />
+    <item name="suw_items_icon" type="id" />
+    <item name="suw_items_icon_container" type="id" />
+    <item name="suw_items_summary" type="id" />
+    <item name="suw_items_switch" type="id" />
+    <item name="suw_items_switch_divider" type="id" />
+    <item name="suw_items_title" type="id" />
+    <item name="suw_large_progress_bar" type="id" />
+    <item name="suw_layout_content" type="id" />
+    <item name="suw_layout_decor" type="id" />
+    <item name="suw_layout_footer" type="id" />
+    <item name="suw_layout_header" type="id" />
+    <item name="suw_layout_icon" type="id" />
+    <item name="suw_layout_navigation_bar" type="id" />
+    <item name="suw_layout_progress" type="id" />
+    <item name="suw_layout_progress_stub" type="id" />
+    <item name="suw_layout_sticky_header" type="id" />
+    <item name="suw_layout_title" type="id" />
+    <item name="suw_navbar_back" type="id" />
+    <item name="suw_navbar_more" type="id" />
+    <item name="suw_navbar_next" type="id" />
+    <item name="suw_original_weight" type="id" />
+    <item name="suw_pattern_bg" type="id" />
+    <item name="suw_recycler_view" type="id" />
+    <item name="suw_scroll_view" type="id" />
+    <item name="suw_warranty_dialog" type="id" />
+    <item name="text_container" type="id" />
+    <item name="toolbar_title" type="id" />
+    <item name="toolbar_wrapper" type="id" />
+    <item name="video_view" type="id" />
+    <item name="warranty_scroll_view" type="id" />
+    <item name="warranty_text" type="id" />
 </resources>

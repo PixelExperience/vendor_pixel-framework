@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/suw_pattern_bg"
+    style="@style/SuwGlifCardBackground"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
     android:gravity="center_horizontal"
-    android:orientation="vertical"
-    style="@style/SuwGlifCardBackground">
+    android:orientation="vertical">
 
     <View
         android:layout_width="0.0dip"
@@ -16,13 +15,12 @@
         android:visibility="invisible" />
 
     <com.android.setupwizardlib.view.IntrinsicSizeFrameLayout
+        style="@style/SuwGlifCardContainer"
         android:layout_width="@dimen/suw_glif_card_width"
         android:layout_height="wrap_content"
-        android:height="@dimen/suw_glif_card_height"
-        style="@style/SuwGlifCardContainer">
+        android:height="@dimen/suw_glif_card_height">
 
-        <include
-            layout="@layout/suw_glif_blank_template_content" />
+        <include layout="@layout/suw_glif_blank_template_content" />
 
     </com.android.setupwizardlib.view.IntrinsicSizeFrameLayout>
 

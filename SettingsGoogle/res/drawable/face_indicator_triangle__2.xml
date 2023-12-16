@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set android:ordering="together"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <objectAnimator android:interpolator="@drawable/face_indicator_triangle__2__0" android:duration="1233" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 14,39.875C 14,35.6875 14,18.9375 14,14.75" android:propertyXName="translateX" android:propertyYName="translateY" />
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:ordering="together">
+    <objectAnimator
+        android:duration="1233"
+        android:interpolator="@drawable/face_indicator_triangle__2__0"
+        android:pathData="M 14,39.875C 14,35.6875 14,18.9375 14,14.75"
+        android:propertyName="translateXY"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"
+        android:startOffset="0" />
 </set>

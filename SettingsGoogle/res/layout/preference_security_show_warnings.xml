@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SecurityShowMoreWarningsCard"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="12.0dip"
-    android:layout_marginEnd="16.0dip"
     android:layout_marginStart="16.0dip"
-    style="@style/SecurityShowMoreWarningsCard">
+    android:layout_marginEnd="16.0dip"
+    android:layout_marginBottom="12.0dip">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1.0"
         android:minHeight="60.0dip"
-        android:paddingEnd="20.0dip"
-        android:paddingStart="20.0dip">
+        android:paddingStart="20.0dip"
+        android:paddingEnd="20.0dip">
 
         <TextView
             android:id="@id/show_more_title"
@@ -27,14 +26,14 @@
         <com.android.internal.widget.PreferenceImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autoMirrored="true"
-            android:importantForAccessibility="no"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:maxHeight="48.0dip"
+            android:autoMirrored="true"
+            android:importantForAccessibility="no"
             android:maxWidth="48.0dip"
-            android:paddingEnd="0.0dip"
+            android:maxHeight="48.0dip"
             android:paddingStart="20.0dip"
+            android:paddingEnd="0.0dip"
             android:src="@drawable/ic_security_chevron_right" />
 
     </RelativeLayout>

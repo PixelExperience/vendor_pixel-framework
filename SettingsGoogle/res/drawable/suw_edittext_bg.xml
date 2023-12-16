@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
         <layer-list>
-            <item android:drawable="@drawable/suw_edit_text_bg_shape" android:bottom="1.0dip" />
+            <item android:bottom="1.0dip" android:drawable="@drawable/suw_edit_text_bg_shape" />
             <item android:gravity="bottom">
                 <shape>
                     <size android:height="1.0dip" />
@@ -14,7 +13,7 @@
     </item>
     <item android:state_focused="false" android:state_pressed="false">
         <layer-list>
-            <item android:drawable="@drawable/suw_edit_text_bg_shape" android:bottom="1.0dip" />
+            <item android:bottom="1.0dip" android:drawable="@drawable/suw_edit_text_bg_shape" />
             <item android:gravity="bottom">
                 <shape>
                     <size android:height="1.0dip" />
@@ -25,7 +24,7 @@
     </item>
     <item>
         <layer-list>
-            <item android:drawable="@drawable/suw_edit_text_bg_shape" android:bottom="2.0dip" />
+            <item android:bottom="2.0dip" android:drawable="@drawable/suw_edit_text_bg_shape" />
             <item android:gravity="bottom">
                 <shape>
                     <size android:height="2.0dip" />
