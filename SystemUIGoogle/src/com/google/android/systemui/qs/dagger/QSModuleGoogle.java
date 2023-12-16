@@ -23,6 +23,7 @@ import android.hardware.display.NightDisplayListener;
 import android.os.Handler;
 
 import com.android.systemui.dagger.qualifiers.Background;
+import com.android.systemui.dagger.NightDisplayListenerModule;
 import com.android.systemui.media.dagger.MediaModule;
 import com.android.systemui.qs.AutoAddTracker;
 import com.android.systemui.qs.QSHost;
@@ -82,7 +83,7 @@ public interface QSModuleGoogle {
             HotspotController hotspotController,
             DataSaverController dataSaverController,
             ManagedProfileController managedProfileController,
-            NightDisplayListener nightDisplayListener,
+            NightDisplayListenerModule.Builder nightDisplayListenerBuilder,
             CastController castController,
             ReduceBrightColorsController reduceBrightColorsController,
             DeviceControlsController deviceControlsController,
@@ -99,7 +100,7 @@ public interface QSModuleGoogle {
                 hotspotController,
                 dataSaverController,
                 managedProfileController,
-                nightDisplayListener,
+                nightDisplayListenerBuilder,
                 castController,
                 reduceBrightColorsController,
                 deviceControlsController,

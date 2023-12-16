@@ -34,6 +34,7 @@ import com.android.systemui.globalactions.GlobalActionsComponent
 import com.android.systemui.keyboard.KeyboardUI
 import com.android.systemui.keyboard.PhysicalKeyboardCoreStartable
 import com.android.systemui.keyguard.KeyguardViewMediator
+import com.android.systemui.keyguard.KeyguardViewConfigurator
 import com.android.systemui.keyguard.data.quickaffordance.MuteQuickAffordanceCoreStartable
 import com.android.systemui.log.SessionTracker
 import com.android.systemui.media.RingtonePlayer
@@ -48,6 +49,9 @@ import com.android.systemui.settings.dagger.MultiUserUtilsModule
 import com.android.systemui.shortcut.ShortcutKeyDispatcher
 import com.android.systemui.statusbar.notification.InstantAppNotifier
 import com.android.systemui.statusbar.phone.KeyguardLiftController
+import com.android.systemui.statusbar.phone.LockscreenWallpaper
+import com.android.systemui.statusbar.phone.ScrimController
+import com.android.systemui.statusbar.phone.StatusBarHeadsUpChangeListener
 import com.android.systemui.stylus.StylusUsiPowerStartable
 import com.android.systemui.temporarydisplay.chipbar.ChipbarCoordinator
 import com.android.systemui.theme.ThemeOverlayController
@@ -56,6 +60,7 @@ import com.android.systemui.usb.StorageNotification
 import com.android.systemui.util.NotificationChannels
 import com.android.systemui.util.StartBinderLoggerModule
 import com.android.systemui.volume.VolumeUI
+import com.android.systemui.wallpapers.dagger.WallpaperModule
 import com.android.systemui.wmshell.WMShell
 
 import com.google.android.systemui.theme.ThemeOverlayControllerGoogle
@@ -76,6 +81,7 @@ import com.android.systemui.smartpixels.SmartPixelsReceiver;
     MultiUserUtilsModule::class,
     StartControlsStartableModule::class,
     StartBinderLoggerModule::class,
+    WallpaperModule::class,
 ])
 
 abstract class SystemUIGoogleCoreStartableModule {
@@ -304,6 +310,29 @@ abstract class SystemUIGoogleCoreStartableModule {
     @ClassKey(AssistantAttentionMonitor::class)
     abstract fun bindAssistantAttentionMonitor(sysui: AssistantAttentionMonitor): CoreStartable
 
+    @Binds
+    @IntoMap
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    @ClassKey(KeyguardViewConfigurator::class)
+    abstract fun bindKeyguardViewConfigurator(impl: KeyguardViewConfigurator): CoreStartable
+
+    @Binds
+    @IntoMap
+    @ClassKey(LockscreenWallpaper::class)
+    abstract fun bindLockscreenWallpaper(impl: LockscreenWallpaper): CoreStartable
+
+    @Binds
+    @IntoMap
+    @ClassKey(ScrimController::class)
+    abstract fun bindScrimController(impl: ScrimController): CoreStartable
+
+    @Binds
+    @IntoMap
+    @ClassKey(StatusBarHeadsUpChangeListener::class)
+    abstract fun bindStatusBarHeadsUpChangeListener(
+        impl: StatusBarHeadsUpChangeListener
+    ): CoreStartable
+
     /** Inject into GoogleServices.  */
     @Binds
     @IntoMap
@@ -316,7 +345,7 @@ abstract class SystemUIGoogleCoreStartableModule {
     @IntoMap
     @ClassKey(KeyguardSmartspaceStartable::class)
     abstract fun bindKeyguardSmartspaceStartable(sysui: KeyguardSmartspaceStartable): CoreStartable
-    
+
     /** Inject into SmartPixelsReceiver.  */
     @Binds
     @IntoMap

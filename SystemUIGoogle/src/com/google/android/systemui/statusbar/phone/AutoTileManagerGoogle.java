@@ -23,6 +23,7 @@ import android.hardware.display.NightDisplayListener;
 import android.os.Handler;
 
 import com.android.systemui.dagger.qualifiers.Background;
+import com.android.systemui.dagger.NightDisplayListenerModule;
 import com.android.systemui.qs.AutoAddTracker;
 import com.android.systemui.qs.QSHost;
 import com.android.systemui.qs.ReduceBrightColorsController;
@@ -65,7 +66,7 @@ public class AutoTileManagerGoogle extends AutoTileManager {
                                  HotspotController hotspotController,
                                  DataSaverController dataSaverController,
                                  ManagedProfileController managedProfileController,
-                                 NightDisplayListener nightDisplayListener,
+                                 NightDisplayListenerModule.Builder nightDisplayListenerBuilder,
                                  CastController castController,
                                  ReduceBrightColorsController reduceBrightColorsController,
                                  DeviceControlsController deviceControlsController,
@@ -75,7 +76,7 @@ public class AutoTileManagerGoogle extends AutoTileManager {
                                  BatteryController batteryController) {
         super(context, autoAddTrackerBuilder, host, handler, secureSettings,
             hotspotController, dataSaverController, managedProfileController,
-            nightDisplayListener, castController, reduceBrightColorsController,
+            nightDisplayListenerBuilder, castController, reduceBrightColorsController,
             deviceControlsController, walletController, safetyController, isReduceBrightColorsAvailable);
         mBatteryController = batteryController;
     }

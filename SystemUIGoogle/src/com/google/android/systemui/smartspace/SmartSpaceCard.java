@@ -268,7 +268,7 @@ public final class SmartSpaceCard {
                     strArr[i] = getDurationText(formatParam);
                 }
             }
-            return String.format(str, strArr);
+            return String.format(str, (Object[]) strArr);
         }
         return str;
     }
