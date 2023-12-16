@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/spatial_audio_title">
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="spatial_audio_top_intro"
+        android:title="@string/spatial_audio_text"
+        settings:searchable="false" />
+    <com.android.settingslib.widget.ButtonPreference
+        android:icon="@drawable/ic_lightbulb_tips"
+        android:key="discover_tips"
+        android:title="@string/discover_tips_button"
+        settings:controller="com.google.android.settings.notification.SpatialAudioTipsButtonPreferenceController" />
+    <SwitchPreference
+        android:key="spatial_audio"
+        android:title="@string/spatial_audio_speaker"
+        settings:controller="com.android.settings.notification.SpatialAudioPreferenceController" />
+    <SwitchPreference
+        android:key="spatial_audio_wired_headphones"
+        android:title="@string/spatial_audio_wired_headphones"
+        settings:controller="com.android.settings.notification.SpatialAudioWiredHeadphonesController" />
+    <com.android.settingslib.widget.FooterPreference
+        android:key="spatial_audio_footer"
+        android:selectable="false"
+        android:title="@string/spatial_audio_footer_title"
+        settings:searchable="false" />
+</PreferenceScreen>

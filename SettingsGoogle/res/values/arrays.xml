@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="allowlist_hide_background_in_battery_usage">
         <item>com.google.android.GoogleCamera</item>
@@ -6,9 +6,9 @@
     <string-array name="allowlist_hide_entry_in_battery_usage">
         <item>com.google.android.gms.persistent</item>
     </string-array>
-    <array name="allowlist_ignore_screen_on_time_in_battery_usage">
+    <string-array name="allowlist_ignore_screen_on_time_in_battery_usage">
         <item>android.service.dreams.DreamActivity</item>
-    </array>
+    </string-array>
     <!--string-array name="config_color_mode_options_strings">
         <item>@string/color_mode_option_natural</item>
         <item>@string/color_mode_option_boosted</item>
@@ -23,10 +23,21 @@
         <item>3</item>
         <item>256</item>
     </integer-array-->
-    <array name="config_disable_optimization_mode_apps">
+    <string-array name="allowlist_others_custom_compenent_names_in_battery_usage">
+        <item>GPU</item>
+        <item>TPU</item>
+    </string-array>
+    <integer-array name="allowlist_others_system_compenents_in_battery_usage">
+        <item>4</item>
+        <item>5</item>
+        <item>9</item>
+        <item>13</item>
+        <item>17</item>
+    </integer-array>
+    <string-array name="config_disable_optimization_mode_apps">
         <item>com.google.android.deskclock</item>
         <item>com.google.android.apps.turbo</item>
-    </array>
+    </string-array>
     <string-array name="config_disallowed_app_localeChange_packages">
         <item>com.google.android.apps.internal.betterbug</item>
         <item>com.google.android.apps.tips</item>
@@ -38,25 +49,19 @@
         <item>com.google.TrafficMeasurementHub</item>
         <item>com.google.android.apps.wellbeing</item>
     </string-array>
-    <array name="config_exempt_wifi_permission_uid_name">
+    <string-array name="config_exempt_wifi_permission_uid_name">
         <item>@string/config_settingsintelligence_package_name</item>
         <item>android.uid.system:1000</item>
-    </array>
-    <array name="config_order_audio_services">
+    </string-array>
+    <string-array name="config_order_audio_services">
         <item>toggle_audio_description</item>
-        <item>
-            com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity
-        </item>
-        <item>
-            com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.SoundAmplifierService
-        </item>
-        <item>
-            com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity
-        </item>
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.SoundAmplifierService</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
         <item>flash_notifications_preference</item>
         <item>hearing_aid_preference</item>
         <item>audio_adjustment_preference_screen</item>
-    </array>
+    </string-array>
     <string-array name="config_order_captions_services">
         <item>live_caption</item>
         <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
@@ -71,21 +76,18 @@
         <item>magnification_preference_screen</item>
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
-    <array name="config_order_interaction_control_services">
-        <item>
-            com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService
-        </item>
-        <item>
-            com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService
-        </item>
+    <string-array name="config_order_interaction_control_services">
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>
         <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
-        <item>
-            com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService
-        </item>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
         <item>tap_assistance_preference_screen</item>
         <item>system_controls_preference_screen</item>
         <item>vibration_preference_screen</item>
-    </array>
+    </string-array>
+    <string-array name="config_order_speech_services">
+        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity</item>
+    </string-array>
     <string-array name="config_preinstalled_audio_services">
         <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
         <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.SoundAmplifierService</item>
@@ -99,22 +101,33 @@
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
     <array name="config_preinstalled_dream_components" />
-    <array name="config_preinstalled_interaction_control_services">
-        <item>
-            com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService
-        </item>
-        <item>
-            com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService
-        </item>
+    <string-array name="config_preinstalled_interaction_control_services">
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>
         <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
-        <item>
-            com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService
-        </item>
-    </array>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
+    </string-array>
     <string-array name="config_preinstalled_screen_reader_services">
         <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
     </string-array>
+    <string-array name="config_preinstalled_speech_services">
+        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity</item>
+    </string-array>
     <array name="face_enroll_primary_buckets" />
+    <integer-array name="network_mode_3g_deprecated_carrier_id">
+        <item>3</item>
+        <item>4</item>
+        <item>15</item>
+        <item>718</item>
+        <item>850</item>
+        <item>1345</item>
+        <item>1487</item>
+        <item>1505</item>
+        <item>1691</item>
+        <item>2018</item>
+        <item>2032</item>
+        <item>2092</item>
+    </integer-array>
     <string-array name="skip_direction_entries">
         <item>@string/gesture_skip_direction_rtl</item>
         <item>@string/gesture_skip_direction_ltr</item>
@@ -144,14 +157,6 @@
         <item>@color/bt_color_icon_6</item>
         <item>@color/bt_color_icon_7</item>
     </array>
-    <array name="config_order_speech_services">
-        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity
-        </item>
-    </array>
-    <array name="config_preinstalled_speech_services">
-        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity
-        </item>
-    </array>
     <array name="config_panel_keep_observe_uri">
         <item>content://com.android.settings.slices/intent/media_output_indicator</item>
     </array>
@@ -163,16 +168,5 @@
     </array>
     <array name="allowlist_hide_system_compenents_in_battery_usage">
         <item>16</item>
-    </array>
-    <array name="allowlist_others_custom_compenent_names_in_battery_usage">
-        <item>GPU</item>
-        <item>TPU</item>
-    </array>
-    <array name="allowlist_others_system_compenents_in_battery_usage">
-        <item>4</item>
-        <item>5</item>
-        <item>9</item>
-        <item>13</item>
-        <item>17</item>
     </array>
 </resources>

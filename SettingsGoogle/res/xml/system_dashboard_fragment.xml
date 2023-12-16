@@ -47,38 +47,6 @@
         android:order="-250"
         android:title="@string/gesture_preference_title"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController" />
-
-    <!-- Button Settings -->
-    <Preference
-        android:fragment="com.android.settings.custom.buttons.ButtonSettings"
-        android:icon="@drawable/ic_button_settings"
-        android:key="button_settings"
-        android:order="-249"
-        android:title="@string/button_pref_title" />
-
-    <!-- Statusbar Settings -->
-    <Preference
-        android:fragment="com.android.settings.custom.statusbar.StatusBarSettings"
-        android:icon="@drawable/ic_settings_statusbar"
-        android:key="statusbar_settings"
-        android:order="-248"
-        android:title="@string/status_bar_title" />
-
-    <Preference
-        android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
-        android:icon="@drawable/ic_usb_24"
-        android:key="default_usb_configuration"
-        android:order="-245"
-        android:title="@string/usb_default_config_title" />
-
-    <!-- Custom Advanced Settings -->
-    <Preference
-        android:fragment="com.android.settings.custom.advanced.AdvancedSettings"
-        android:icon="@drawable/ic_advanced_settings"
-        android:key="advanced_settings"
-        android:order="-242"
-        android:title="@string/advanced_pref_title" />
-
     <Preference
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         android:icon="@drawable/ic_settings_date_time"
@@ -113,6 +81,17 @@
         settings:keywords="@string/keywords_system_update_settings">
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
     </Preference>
+    <!-- Preference
+        android:icon="@drawable/ic_repair_mode"
+        android:title="@string/repair_mode_title"
+        android:key="repair_mode_settings"
+        android:summary="@string/summary_placeholder"
+        android:order="-40"
+        settings:controller="com.google.android.settings.repairmode.RepairModePreferenceController">
+        <intent
+            android:targetPackage="com.google.android.repairmode"
+            android:action="com.google.android.intent.action.REPAIR_MODE_SETTINGS" />
+    </Preference -->
     <Preference
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         android:icon="@drawable/ic_restore"

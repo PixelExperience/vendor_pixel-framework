@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/special_access">
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="manage_external_storage"
+        android:order="-2000"
+        android:title="@string/manage_external_storage_title">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ManageExternalStorageActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesSettings"
+        android:key="interact_across_profiles"
+        android:order="-1900"
+        android:title="@string/interact_across_profiles_title"
+        settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesController"
+        settings:keywords="@string/interact_across_profiles_keywords" />
+    <Preference
+        android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings"
+        android:key="device_administrators"
+        android:order="-1800"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/manage_device_admin"
+        settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController"
+        settings:searchable="false" />
+    <Preference
+        android:key="debugging_data"
+        android:order="-1700"
+        android:title="@string/debugging_data_title"
+        settings:controller="com.google.android.settings.applications.specialaccess.DebuggingDataPreferenceController" />
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="system_alert_window_app_list"
+        android:order="-1600"
+        android:title="@string/system_alert_window_settings"
+        settings:controller="com.android.settings.applications.specialaccess.SystemAlertWindowPreferenceController"
+        settings:keywords="@string/keywords_draw_overlay">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$OverlaySettingsActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.notification.zen.ZenAccessSettings"
+        android:key="zen_access"
+        android:order="-1500"
+        android:title="@string/manage_zen_access_title"
+        settings:controller="com.android.settings.applications.specialaccess.zenaccess.ZenAccessController" />
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="media_management_apps"
+        android:order="-1400"
+        android:title="@string/media_management_apps_title"
+        settings:keywords="@string/keywords_media_management_apps">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$MediaManagementAppsActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="write_settings_apps"
+        android:order="-1300"
+        android:title="@string/write_settings"
+        settings:keywords="@string/keywords_write_settings">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$WriteSettingsActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.notification.NotificationAccessSettings"
+        android:key="notification_access"
+        android:order="-1200"
+        android:title="@string/manage_notification_access_title"
+        settings:controller="com.android.settings.applications.specialaccess.notificationaccess.NotificationAccessController" />
+    <Preference
+        android:key="use_full_screen_intent"
+        android:title="@string/full_screen_intent_title"
+        settings:controller="com.android.settings.spa.app.specialaccess.UseFullScreenIntentPreferenceController" />
+    <Preference
+        android:fragment="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureSettings"
+        android:key="picture_in_picture"
+        android:order="-1100"
+        android:title="@string/picture_in_picture_title"
+        settings:controller="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureController"
+        settings:keywords="@string/picture_in_picture_keywords" />
+    <Preference
+        android:fragment="com.android.settings.applications.specialaccess.premiumsms.PremiumSmsAccess"
+        android:key="premium_sms"
+        android:order="-1000"
+        android:title="@string/premium_sms_access"
+        settings:controller="com.android.settings.applications.specialaccess.premiumsms.PremiumSmsController"
+        settings:isPreferenceVisible="@bool/config_show_premium_sms" />
+    <Preference
+        android:fragment="com.android.settings.datausage.UnrestrictedDataAccess"
+        android:key="data_saver"
+        android:order="-900"
+        android:title="@string/unrestricted_data_saver"
+        settings:controller="com.android.settings.applications.specialaccess.DataSaverController"
+        settings:isPreferenceVisible="@bool/config_show_data_saver" />
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="long_background_tasks"
+        android:order="-800"
+        android:title="@string/long_background_tasks_title"
+        settings:isPreferenceVisible="false"
+        settings:keywords="@string/keywords_long_background_tasks"
+        settings:searchable="false">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$LongBackgroundTasksActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="manage_external_sources"
+        android:order="-700"
+        android:title="@string/install_other_apps"
+        settings:keywords="@string/keywords_install_other_apps">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ManageExternalSourcesActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="alarms_and_reminders"
+        android:order="-600"
+        android:title="@string/alarms_and_reminders_title"
+        settings:keywords="@string/keywords_alarms_and_reminders">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$AlarmsAndRemindersActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="special_app_usage_access"
+        android:order="-500"
+        android:title="@string/usage_access"
+        settings:keywords="@string/keywords_write_settings">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$UsageAccessSettingsActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.specialaccess.vrlistener.VrListenerSettings"
+        android:key="enabled_vr_listeners"
+        android:order="-400"
+        android:title="@string/vr_listeners_title"
+        settings:controller="com.android.settings.applications.specialaccess.vrlistener.EnabledVrListenersController"
+        settings:keywords="@string/keywords_vr_listener">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$VrListenersSettingsActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="change_wifi_state"
+        android:order="-300"
+        android:title="@string/change_wifi_state_title"
+        settings:keywords="@string/keywords_change_wifi_state">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ChangeWifiStateActivity" />
+    </Preference>
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="turn_screen_on"
+        android:order="-200"
+        android:title="@string/turn_screen_on_title">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$TurnScreenOnSettingsActivity" />
+    </Preference>
+    <Preference
+        android:key="special_access_more"
+        android:order="-100"
+        android:title="@string/special_access_more"
+        settings:controller="com.android.settings.applications.specialaccess.MoreSpecialAccessPreferenceController" />
+    <Preference
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:key="change_nfc_tag_apps_state"
+        android:title="@string/change_nfc_tag_apps_title"
+        settings:controller="com.android.settings.nfc.NfcTagAppsPreferenceController"
+        settings:keywords="@string/keywords_change_nfc_tag_apps_state">
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ChangeNfcTagAppsActivity" />
+    </Preference>
+</PreferenceScreen>

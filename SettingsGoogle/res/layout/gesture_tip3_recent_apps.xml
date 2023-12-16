@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="32.0dip"
+        android:layout_marginRight="24.0dip"
+        android:text="@string/gesture_title_recent_apps"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="?android:textColorPrimary" />
+
+    <TextView
+        android:id="@id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginRight="24.0dip"
+        android:text="@string/gesture_summary_recent_apps"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="?android:textColorSecondary" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/gesture_tip3_recent_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/gesture_tip3_recent_apps" />
+    </FrameLayout>
+</LinearLayout>

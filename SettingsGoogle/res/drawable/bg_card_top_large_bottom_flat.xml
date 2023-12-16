@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <item
+        android:left="@dimen/customized_bg_card_padding_left"
+        android:right="@dimen/customized_bg_card_padding_right">
+        <shape android:shape="rectangle">
+            <solid android:color="?androidprv:attr/colorSurface" />
+            <corners
+                android:bottomLeftRadius="@dimen/customized_bg_card_corner_flat_radius"
+                android:bottomRightRadius="@dimen/customized_bg_card_corner_flat_radius"
+                android:topLeftRadius="@dimen/customized_bg_card_corner_large_radius"
+                android:topRightRadius="@dimen/customized_bg_card_corner_large_radius" />
+        </shape>
+    </item>
+</layer-list>

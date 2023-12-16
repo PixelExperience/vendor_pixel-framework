@@ -17,7 +17,5 @@
             android:paddingEnd="@dimen/suw_warranty_dialog_layout_padding_end"
             android:scrollbarAlwaysDrawVerticalTrack="true"
             android:scrollbars="vertical" />
-
     </ScrollView>
-
 </LinearLayout>

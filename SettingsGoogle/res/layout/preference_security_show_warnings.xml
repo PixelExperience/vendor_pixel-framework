@@ -35,7 +35,5 @@
             android:paddingStart="20.0dip"
             android:paddingEnd="0.0dip"
             android:src="@drawable/ic_security_chevron_right" />
-
     </RelativeLayout>
-
 </com.google.android.material.card.MaterialCardView>

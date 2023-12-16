@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="gesture_navigation_settings_page"
+    android:title="@string/gesture_settings_activity_title"
+    settings:keywords="@string/keywords_gesture_navigation_settings">
+    <PreferenceCategory
+        android:key="assistant_gesture_category"
+        android:persistent="false"
+        android:title="@string/assistant_gesture_category_title">
+        <SwitchPreference
+            android:key="assistant_gesture_corner_swipe"
+            android:summary="@string/assistant_corner_gesture_summary"
+            android:title="@string/assistant_corner_gesture_title"
+            settings:controller="com.android.settings.gestures.GestureNavigationSettingsAssistController" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="search_gesture_category"
+        android:persistent="false"
+        android:title="@string/search_gesture_category_title"
+        settings:controller="com.google.android.settings.gestures.GestureNavigationSettingsGoogleSearchController">
+        <SwitchPreference
+            android:key="search_gesture_press_hold"
+            android:summary="@string/search_press_hold_gesture_summary"
+            android:title="@string/search_press_hold_gesture_title"
+            settings:controller="com.google.android.settings.gestures.GestureNavigationSettingsGoogleSearchController"
+            settings:highlightableMenuKey="@string/menu_key_system" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="back_sensitivity_category"
+        android:persistent="false"
+        android:title="@string/back_sensitivity_dialog_title">
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_left_back_sensitivity"
+            android:max="2"
+            android:title="@string/left_edge"
+            settings:textEnd="@string/high_label"
+            settings:textStart="@string/low_label" />
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_right_back_sensitivity"
+            android:max="2"
+            android:title="@string/right_edge"
+            settings:textEnd="@string/high_label"
+            settings:textStart="@string/low_label" />
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference
+        android:key="gesture_navigation_settings_footer"
+        android:selectable="false"
+        android:title="@string/back_sensitivity_dialog_message"
+        settings:searchable="false" />
+</PreferenceScreen>

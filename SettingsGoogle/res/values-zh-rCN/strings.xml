@@ -1,21 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">闲置时锁定屏幕</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">“将提醒设为静音”手势</string>
     <string name="gesture_skip_title">“跳过”手势</string>
     <string name="keywords_touch_sensitivity">轻触, 灵敏度, 灵敏, 屏幕保护膜, 电影, 响应, 响应度</string>
+    <string name="keywords_wake_display" />
     <string name="touch_sensitivity_summary">在使用屏幕保护膜时提升轻触灵敏度和改进轻触效果</string>
     <string name="touch_sensitivity_title">屏幕保护膜模式</string>
     <string name="columbus_title">快速轻触即可执行相关操作</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge 已设置。请转到下一个屏幕或继续调整。</string>
     <string name="accessibility_keyboard_haptics_title">键盘触感反馈</string>
-    <string name="adaptive_alert_vibration_summary">当手机平稳不动且屏幕朝上时，降低振动强度</string>
+    <string name="adaptive_alert_vibration_summary">当手机平稳不动且屏幕朝上时，系统就会降低振动强度</string>
     <string name="adaptive_alert_vibration_title">自动调整振动强度</string>
+    <string name="adaptive_battery_switch_des">为延长电池续航时间，“自适应电池”功能可能会降低性能并减少后台活动。部分通知可能会延迟。</string>
+    <string name="adaptive_battery_switch_title">使用自适应电池</string>
     <string name="adaptive_charging">自适应充电</string>
     <string name="adaptive_charging_description">如果需要长时间充电，系统会以稳定充电的方式延长电池寿命。此功能会根据您的使用周期启动。</string>
+    <string name="adaptive_charging_footer">为了延长电池寿命，手机会记住您的日常充电习惯，等到您需要时再充满电。</string>
+    <string name="adaptive_charging_link_a11y">详细了解自适应充电功能</string>
+    <string name="adaptive_charging_main_switch_title">使用自适应充电功能</string>
     <string name="adaptive_charging_time_estimate"><b>正在自适应充电</b> • %1$s前充满</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">偏好设置</annotation></string>
-    <string name="app_and_notification_dashboard_summary">Google 助理、最近使用的应用、默认应用</string>
+    <string name="adaptive_charging_title">自适应充电</string>
+    <string name="add_bypassed_application_hint">未添加任何应用</string>
+    <string name="advanced_vpn_preference_group_title">内置</string>
+    <string name="all_apps_category_title">所有应用</string>
+    <string name="allow_debugging_data_description">Google 会根据<a href="https://policies.google.com/privacy">隐私权政策</a>"使用错误报告来诊断应用和设备问题。
+
+"<b>错误报告中包含应用和系统日志</b>"，还可能包含个人和设备信息，比如姓名、电子邮件地址、电话号码、位置数据、设备标识符、已连接的设备，以及网络信息。系统或许会将报告共享给可能受您的问题影响的工程合作伙伴。
+
+获得访问权限后，此应用将能"<b>自动收集并上传错误报告</b>"，报告中将包含所有问题报告的应用和系统日志。
+
+若被撤消访问权限，此应用将需要针对每份具体的问题报告，向您请求权限以收集并上传对应的错误报告。"</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">偏好设置</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">继续使用智能助理</string>
     <string name="assist_gesture_enrollment_do_it_later">以后再说</string>
     <string name="assist_gesture_enrollment_seekbar_light">轻轻握压</string>
@@ -45,17 +69,10 @@
     <string name="assist_gesture_training_suggestion_summary">与智能助理对话，将来电静音</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">与智能助理对话，将闹钟和来电静音</string>
     <string name="assist_gesture_training_suggestion_title">握压手机然后再松开即可启动智能助理</string>
-    <string name="automatic_storage_manager_activation_warning">连接到网络后，您仍可以按备份时选择的分辨率来查看照片和视频</string>
-    <string name="automatic_storage_manager_days_title">移除已备份的照片和视频</string>
-    <string name="automatic_storage_manager_deactivation_warning">"要关闭智能存储功能吗？
-
-这样一来，当存储空间即将用尽时，智能存储功能将不会为您释放空间。"</string>
-    <string name="automatic_storage_manager_downloads_days_title">已备份的下载内容</string>
-    <string name="automatic_storage_manager_preference_title">智能存储</string>
-    <string name="automatic_storage_manager_primary_switch_title">使用智能存储</string>
-    <string name="automatic_storage_manager_settings">智能存储</string>
-    <string name="automatic_storage_manager_text">当存储空间即将用尽时，系统会移除已备份的照片和视频。不过，您仍然可以在 Google 相册中找到这些内容。</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">开启</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">以后再说</string>
     <string name="aware_footer_when_airplane_batterysaver_on">无法使用 Motion Sense 功能，因为已开启飞行模式和省电模式</string>
     <string name="aware_footer_when_airplane_on">无法使用 Motion Sense 功能，因为已开启飞行模式</string>
@@ -64,42 +81,32 @@
     <string name="aware_gesture_summary_on_non_assist">快速手势操作已开启，Active Edge 已开启</string>
     <string name="aware_gesture_summary_on_with_assist">快速手势操作已开启，Active Edge 已开启，握压手机即可启动 Google 助理</string>
     <string name="aware_info_button_description">更多设置</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">无法使用，因为已开启飞行模式和省电模式</string>
     <string name="aware_summary_when_airplane_on">无法使用，因为已开启飞行模式</string>
     <string name="aware_summary_when_batterysaver_on">无法使用，因为已开启省电模式</string>
-    <string name="backup_data_summary">将应用数据、WLAN 密码和其他设置备份到 Google 服务器</string>
-    <string name="backup_suggestion_cancel">取消</string>
-    <string name="backup_suggestion_dialog_description">此操作会删除您手机内部存储空间中的所有数据。</string>
-    <string name="backup_suggestion_dialog_title">要重置此设备吗？</string>
-    <string name="backup_suggestion_get_started">了解详情</string>
-    <string name="backup_suggestion_item_summary">从 Android 或 iPhone® 设备中复制</string>
-    <string name="backup_suggestion_item_title">旧手机中的数据不见了？</string>
-    <string name="backup_suggestion_missing_description">"如果您看不到自己的部分数据（例如短信和照片），可以使用数据线将这些数据转移到您的 Pixel 手机。
-
-要开始转移，您需要重置 Pixel 手机。重置后，此手机上的所有数据（包括自定义设置和未同步到云端的内容）都将遭到删除。"</string>
-    <string name="backup_suggestion_missing_title">您的部分数据不见了？</string>
-    <string name="backup_suggestion_next">下一步</string>
-    <string name="backup_suggestion_other_ways_to_copy">复制数据的其他方法</string>
-    <string name="backup_suggestion_reset_description">"在下一个屏幕上，您可以重置自己的 Pixel 手机。这是使用数据线转移数据的唯一方式。
-
-重置后，请完成设置流程，然后选择从您以前的手机复制数据。"</string>
-    <string name="backup_suggestion_reset_title">重置您的 Pixel 手机</string>
-    <string name="backup_suggestion_what_is_needed_summary">"重置手机后，您将需要：
-
-• 您之前使用的手机（系统支持大多数运行 Android 5.0+ 或 iOS® 8.0+ 版本LINK_BEGIN的手机LINK_END）
-• 您之前使用的手机的充电线或数据线
-• Pixel 手机随附的 Quick Switch Adapter"</string>
-    <string name="backup_suggestion_what_is_needed_title">需要准备的东西</string>
-    <string name="battery_manager_summary">延长电池续航时间并优化充电</string>
-    <string name="battery_manager_summary_unsupported">延长电池续航时间</string>
-    <string name="battery_missing_link_message">了解详情</string>
-    <string name="battery_suggestion_summary">开启自适应电池</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。开启深色主题（如果尚未开启）。</string>
+    <string name="basic_battery_saver_title">标准省电模式</string>
+    <string name="battery_saver_reminder_category">提醒</string>
+    <string name="battery_saver_reminder_switch_summary">在电量低时接收提醒</string>
+    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
+    <string name="battery_saver_schedule_category">时间表</string>
+    <string name="battery_saver_schedule_switch_summary">在电量降至您设置的水平时开启省电模式</string>
+    <string name="battery_saver_schedule_switch_title">视电池电量开启</string>
+    <string name="battery_schedule_summary">管理省电模式的开启时间</string>
+    <string name="battery_schedule_title">预设和提醒</string>
     <string name="battery_tip_limited_temporarily_extra_summary">为保护您的电池，在您的平板电脑已插入基座期间，电池充电进程会在电量达到 %1$s 后暂停</string>
-    <string name="battery_tip_smart_battery_summary">开启自适应电池</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">%1$s不会再与关联到此 Google 帐号的任何设备配对</string>
-    <string name="clear_calling_footer">"为保护您的隐私，“清晰通话”功能绝不会将音频或对话内容发送给 Google。
+    <string name="clear_calling_footer">"为保护您的隐私，“清晰通话”功能不会将音频或对话内容发送给 Google。
 
-“清晰通话”功能是否可用取决于您的 WLAN 和移动网络。"</string>
+“清晰通话”功能适用于 WLAN 通话和大多数网络，不适用于 3G 网络。"</string>
     <string name="clear_calling_title">清晰通话</string>
     <string name="clear_calling_toggle">使用“清晰通话”功能</string>
     <string name="clear_calling_topintro">在通话期间降低背景噪声</string>
@@ -132,7 +139,7 @@
     <string name="columbus_name">快速轻触</string>
     <string name="columbus_radio_button_extra_widget_a11y_label">“%1$s”设置</string>
     <string name="columbus_setting_action_assistant_title">访问您的数字助理</string>
-    <string name="columbus_setting_action_flashlight_title">开启/关闭闪光灯</string>
+    <string name="columbus_setting_action_flashlight_title">开启/关闭手电筒</string>
     <string name="columbus_setting_action_launch_summary_no_selection">未选择任何应用</string>
     <string name="columbus_setting_action_launch_summary_not_installed">未安装该应用</string>
     <string name="columbus_setting_action_launch_title">打开应用</string>
@@ -147,31 +154,37 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">选择通过“快速轻触”打开该应用时要执行的操作。</string>
     <string name="columbus_setting_enable_switch_title">使用“快速轻触”</string>
     <string name="columbus_setting_sensitivity_title">需要更大的点按力度</string>
-    <string name="communal_cast_summary">投放到此设备或从此设备投放</string>
     <string name="communal_lock_screen_summary">隐私设置、通知及主屏幕控制</string>
-    <string name="communal_settings_summary_1">锁定及插入基座的行为</string>
-    <string name="communal_settings_summary_2">基座上选项</string>
-    <string name="communal_settings_summary_3">插入基座及锁定屏幕选项</string>
-    <string name="communal_settings_summary_4">锁定屏幕及基座上选项</string>
-    <string name="communal_settings_title">充电模式</string>
-    <string name="communal_smartspace_summary">来自 Google 助理的提醒、警报等讯息</string>
-    <string name="communal_smartspace_title">速览</string>
-    <string name="communal_what_to_show">要显示的项目</string>
-    <string name="communal_what_to_use">要使用的项目</string>
+    <string name="communal_other">其他</string>
+    <string name="communal_smartspace_summary">来自 Google 助理的提醒、通知等</string>
+    <string name="communal_smartspace_title">资讯一览</string>
+    <string name="communal_what_to_show">可显示的项目</string>
+    <string name="communal_what_to_use">可使用的项目</string>
     <string name="connectivity_helper_call_quality_category">通话质量</string>
     <string name="connectivity_helper_call_quality_summary">接收关于通话期间连接问题原因的通知</string>
     <string name="connectivity_helper_call_quality_title">接收通知</string>
     <string name="connectivity_helper_d2d_summary">当您的手机在通话期间出现连接问题时，通知对方</string>
     <string name="connectivity_helper_d2d_title">分享连接信息</string>
     <string name="connectivity_helper_footnote">当通话对方使用受支持的设备和网络时，您可以分享连接信息</string>
-    <string name="content_capture">使用应用数据提供个性化服务</string>
-    <string name="copy_toast_msg">链接已复制到剪贴板</string>
-    <string name="dark_ui_text">深色主题使用黑色背景，有助于延长电池续航时间。深色主题开启时间设置会等到屏幕进入关闭状态后才应用。</string>
+    <string name="debugging_data_title">调试数据</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">Discover tips</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">正在为手机充电</string>
-    <string name="double_twist_for_camera_mode_summary">使用 Google 相机时，只需转动两次设备，即可开启或关闭自拍模式。</string>
-    <string name="downloads_backup_text">下载的文件将备份到 Google 云端硬盘</string>
-    <string name="duration_less_than_one_minute">不到 1 分钟</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">包含上方所列的所有更改。还会暂停非必需应用及其通知。</string>
+    <string name="extreme_battery_saver_title">超级省电模式</string>
+    <string name="face_confirmation_hide_illustration_description">现在，当您拿起手机或点按屏幕时，可以通过刷脸来解锁手机。</string>
+    <string name="face_confirmation_info_enough_light">当光线充足并且您未戴口罩或墨镜时，“人脸解锁”功能的效果最好。</string>
+    <string name="face_confirmation_info_outside_screen">“人脸解锁”功能只能在外屏幕上使用</string>
     <string name="face_enrolling_center_head">让您的面部处于内框中</string>
+    <string name="face_enrolling_close_to_continue">请在设置期间合上手机</string>
+    <string name="face_enrolling_close_to_continue_description">要设置或使用人脸解锁，手机必须处于折叠状态</string>
     <string name="face_enrolling_description">系统会从各个角度拍摄您的面部。等所有图块都消失后，即表示拍摄完成。</string>
     <string name="face_enrolling_do_it_later">以后再说</string>
     <string name="face_enrolling_gaze_dialog_cancel">取消</string>
@@ -190,54 +203,63 @@
     <string name="face_enrolling_too_right">请将手机向左移动</string>
     <string name="face_enrolling_turn_head_to_arrow">请朝箭头方向转动头部</string>
     <string name="face_enrolling_turned_too_far">请将头部稍微转向传感器</string>
-    <string name="fallback_menu_item_copy_link">复制链接</string>
-    <string name="fallback_menu_item_open_in_browser">在浏览器中打开</string>
-    <string name="fallback_menu_item_share_link">分享链接</string>
-    <string name="fullbackup_data_summary">"将设备数据（例如 WLAN 密码和通话记录）和应用数据（例如应用存储的设置和文件）自动备份到 Google 云端硬盘。
-
-启用自动备份功能后，系统会定期将设备和应用数据保存到您在 Google 云端硬盘上的私人文件夹中。应用数据可以是应用根据开发者设置保存的任何数据，包括通讯录、邮件、消息、照片等可能具有敏感性的数据。
-
-备份数据不会计入云端硬盘存储空间配额。此外，系统不会备份大型文件或开发者已选择从备份服务中排除的文件。"</string>
-    <string name="fullbackup_erase_dialog_message">要停止备份设备数据（例如 WLAN 密码和通话记录）和应用数据（例如应用存储的设置和文件），并清除 Google 云端硬盘上的所有副本吗？</string>
+    <string name="firmware_update_status_category">设备固件状态</string>
+    <string name="firmware_update_status_title">有可用的固件更新</string>
+    <string name="firmware_update_version_number_category">设备固件版本</string>
+    <string name="firmware_update_version_number_title">Pixel 键盘固件</string>
     <string name="gesture_aware_confirmation_action_button">知道了</string>
-    <string name="gesture_aware_footer"><annotation link="link">偏好设置</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">偏好设置</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">偏好设置</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">偏好设置</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">从左向右</string>
     <string name="gesture_skip_direction_rtl">从右向左</string>
     <string name="gesture_skip_direction_title">“跳过”手势的方向</string>
-    <string name="gesture_skip_footer"><annotation link="link">偏好设置</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">偏好设置</annotation></string>
-    <string name="global_actions_panel_short_title">银行卡和卡券</string>
-    <string name="global_actions_panel_summary">要获取您的付款方式和登机牌等内容，请按住电源按钮。</string>
-    <string name="global_actions_panel_title">显示银行卡和卡券</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">偏好设置</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">偏好设置</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">允许安装来自 Play 商店以外其他来源的应用</string>
-    <string name="keywords_accessibility_menu">电机, 快捷菜单, 辅助菜单, 轻触, 灵活, motor, quick menu, assistive menu, touch, dexterity</string>
     <string name="keywords_adaptive_alert_vibration">触感反馈, 振动, 手机, 通话, 铃声, 提醒, 通知, 大音量, 静音, 噪音, 保护壳, 自适应, haptics, vibrate, phone, call, ring, alert, notifications, loud, quiet, noise, case, adaptive</string>
     <string name="keywords_adaptive_charging">充电, 设备充电, 智能充电, 自适应充电, 电池, 电池状况</string>
-    <string name="keywords_assist_gesture_launch">手势, 边缘, 侧边, Active Edge, 握压, 握紧, 辅助, 智能助理, Ok Google, Google 助理</string>
     <string name="keywords_assist_gesture_silence">手势, 边缘, 侧边, Active Edge, 静音, 延后, 闹钟, 来电, 勿扰, 显示屏, 锁定屏幕, 握压, 握紧, 停止</string>
     <string name="keywords_assist_gesture_wake">手势, 边缘, 侧边, Active Edge, 唤醒, 通知, 屏幕, 显示屏, 屏幕关闭, 屏幕开启, 握压, 睡眠, 休眠, 握紧</string>
     <string name="keywords_battery_share">电池共享, 无线充电, battery share, wireless charging</string>
     <string name="keywords_battery_share_settings">电池共享，反向无线充电</string>
-    <string name="keywords_content_capture">内容捕获, 应用内容, 应用数据</string>
-    <string name="keywords_global_actions_panel">银行卡, 卡券</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">保修, 保证, 有限保修, 承诺, 维修, 更换, warranty, guarantee, limited warranty, promise, repair, rma, replacement</string>
-    <string name="keywords_live_transcribe">字幕, 实时字幕, 听障, 听力受损, 语音转文字, Captions, closed captions, CC, Live Caption, hard of hearing, hearing loss, CART, speech to text, subtitle</string>
     <string name="keywords_reverse_charging_stop_threshold">当手机电量降至以下值时，停止共享电池：</string>
-    <string name="keywords_select_to_speak">听文字, 朗读, 朗读屏幕内容, 屏幕阅读器, Hear text, read aloud, speak screen, screen reader</string>
-    <string name="keywords_sound_amplifier">公共安全应答点, 扩大, 声音扩大, 听障, 听力受损, 扩声, PSAP, amplify, sound amplification, hard of hearing, hearing loss, amplification</string>
-    <string name="keywords_sound_notifications">通知, 听障, 听力受损, 告知, Notifications, hard of hearing, hearing loss, notify</string>
-    <string name="keywords_switch_access">电机, 切换, 手, 辅助技术, 瘫痪, 渐冻症, 扫描, 循序扫描, motor, switch, hand, AT, assistive technology, paralysis, ALS, scanning, step scanning</string>
-    <string name="keywords_talkback">屏幕阅读器, 旁白, 配音, 语音辅助, 盲人, 弱视, 文字转语音, 语音反馈, Screen reader, Voice Over, VoiceOver, Voice Assistance, Blind, Low Vision, TTS, text to speech, spoken feedback</string>
-    <string name="keywords_voice_access">语音, 语音控制, 电机, 手, 麦克, 麦克风, 语音输入, 说话, 控制, voice, voice control, motor, hand, mic, microphone, dictation, talk, control</string>
-    <string name="language_input_gesture_summary_off">已关闭 Active Edge</string>
-    <string name="language_input_gesture_summary_on_non_assist">已开启 Active Edge</string>
-    <string name="language_input_gesture_summary_on_with_assist">Active Edge 已开启。握压手机即可启动 Google 助理</string>
+    <string name="led_preference_title">LED 指示灯模式</string>
+    <string name="legal_source_code_description">如需详细了解以开源方式提供的组件的源代码，您可前往 Pixel 帮助中心。</string>
+    <string name="legal_source_code_title">源代码</string>
     <string name="limited_warranty_introduction">点按购买地所在国家/地区即可查看此设备的保修信息。还可以在 g.co/devicewarranty 查看保修信息</string>
     <string name="limited_warranty_title">有限保修</string>
-    <string name="me_card_title">我的 Pixel</string>
-    <string name="my_device_info_account_preference_title">Google 帐号</string>
-    <string name="owner_info_settings_edit_text_hint">例如，小明的 Pixel。</string>
+    <string name="lockscreen_show_weather_summary">查看当前天气状况</string>
+    <string name="lockscreen_show_weather_title">显示天气信息</string>
+    <string name="permit_debugging_data">允许访问错误报告</string>
+    <string name="play_application_detail_indication_summary">检查更新</string>
+    <string name="play_application_update_entry_title">应用更新</string>
+    <string name="repair_mode_active_summary">处于维修模式</string>
+    <string name="repair_mode_summary">适合设备维修的安全环境</string>
+    <string name="repair_mode_title">维修模式</string>
+    <string name="request_google_account_summary">添加 Google 账号</string>
     <string name="reverse_charging_auto_turn_on_subtitle">当手机连接到充电器时，此功能会自动开启并在短时间内保持开启状态</string>
     <string name="reverse_charging_auto_turn_on_title">自动开启</string>
     <string name="reverse_charging_charging_wirelessly_message">该功能无法使用，因为手机正在无线充电</string>
@@ -256,64 +278,26 @@
     <string name="reverse_charging_is_on_and_discharging_summary">正在共享电池电量</string>
     <string name="reverse_charging_is_on_summary">已开启/可为其他设备充电</string>
     <string name="reverse_charging_main_switch">使用电池共享功能</string>
-    <string name="reverse_charging_off_low_battery_summary">已关闭/手机电池电量低于 %1$s</string>
-    <string name="reverse_charging_off_sharing_level_summary">已关闭/电池电量低于可共享的水平</string>
     <string name="reverse_charging_overheat_summary">Pixel 手机过热，因此这项功能无法使用。请等待手机降温，然后重试。</string>
     <string name="reverse_charging_power_save_mode_is_on_message">该功能无法使用，因为省电模式已开启</string>
     <string name="reverse_charging_sharing_level_message">该功能无法使用，因为电池电量低于可共享的水平</string>
-    <string name="reverse_charging_switch_summary">将相应设备放在 Pixel 的背面</string>
     <string name="reverse_charging_switch_title">将其他设备放在 Pixel 的背面，即可为这些设备充电</string>
-    <string name="reverse_charging_switch_title_message">为其他设备充电</string>
     <string name="reverse_charging_title">电池共享</string>
     <string name="reverse_charging_unplug_usb_cable_message">该功能无法使用，因为手机已连接 USB-C 设备</string>
     <string name="reverse_charging_warning_summary">该功能无法使用，因为电池电量低于 %1$s</string>
     <string name="reverse_charging_warning_title">电池共享功能无法使用，因为电池电量低于 %1$s</string>
-    <string name="rtt_settings_always_visible">始终显示</string>
-    <string name="rtt_settings_no_visible">不显示</string>
-    <string name="rtt_settings_title">实时信息 (RTT)</string>
-    <string name="rtt_settings_visible_during_call">在通话中显示</string>
-    <string name="screen_time_summary_usage_today">今天使用了%1$s</string>
-    <string name="search_bar_account_avatar_content_description">个人资料照片，点按两次即可打开 Google 帐号</string>
+    <string name="search_gesture_category_title">屏幕搜索</string>
+    <string name="search_long_press_home_button_summary">按住主屏幕按钮即可启动 Google 屏幕搜索。</string>
+    <string name="search_long_press_home_button_title">按住主屏幕按钮即可进行搜索</string>
+    <string name="search_press_hold_gesture_summary">按住导航手柄即可调出屏幕搜索功能。</string>
+    <string name="search_press_hold_gesture_title">按住手柄即可进行搜索</string>
     <string name="security_dismiss_dialog_dismiss_button">关闭</string>
     <string name="security_dismiss_dialog_title">要关闭此警告吗？</string>
-    <string name="security_settings_face_enroll_education_message">在下一个屏幕上，请转动头部，让系统从各个角度拍摄您的脸部</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">转到下一个屏幕后，请将手机举到与眼睛齐平的位置</string>
-    <string name="security_settings_face_enroll_error_timeout_dialog_message">面孔注册操作超时。请重试。</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">人脸解锁设置操作已超时</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">现在，您可以通过刷脸来解锁手机或验证自己的身份，例如在登录应用或批准购买交易时</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">现在您可以用脸部解锁手机或在需要时验证自己的身份，例如在登录应用或批准购买交易时</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"现在，当您拿起手机或点按屏幕时，可以通过刷脸来解锁手机。
 
 当光线充足并且您未戴口罩或墨镜时，人脸解锁功能的效果最好。"</string>
-    <string name="security_settings_face_enroll_finish_title">圆满完成！</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">供视觉不佳或头部无法正常转动者采用的设置</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">使用人脸解锁功能时，您的脸部可能需要尽量位于手机正前方。</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">需要睁眼</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"您和您的孩子可以随时在“设置”部分删除其脸部模型或关闭人脸解锁功能。脸部模型会存储在手机上，直到被删除为止。
-
-如需了解详情，请访问 g.co/pixel/faceunlock。"</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">一切由您和您的孩子掌握</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"您可以随时在“设置”部分删除自己的脸部模型或关闭人脸解锁功能。脸部模型会存储在手机上，直到您将其删除为止。
-
-如需了解详情，请访问 g.co/pixel/faceunlock。"</string>
-    <string name="security_settings_face_enroll_introduction_control_title">一切由您掌控</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"人脸解锁功能会为您的孩子创建一个具有唯一性的脸部模型，用于验证其身份。为了在设置过程中创建脸部模型，您的孩子需要拍摄不同角度的脸部图片。
-
-在您的孩子使用人脸解锁功能时，系统会使用图片来更新其脸部模型。系统不会存储创建您孩子的脸部模型时所用的图片，但会将脸部模型安全地存储在手机上，并且绝不会将其传送到手机以外的其他位置。所有处理都是在手机上安全进行。"</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"人脸解锁功能会为您创建一个具有唯一性的脸部模型，用于验证您的身份。为了在设置过程中创建脸部模型，您需要拍摄不同角度的脸部图片。
-
-在您使用人脸解锁功能时，系统会使用图片来更新您的脸部模型。系统不会存储创建您的脸部模型时所用的图片，但会将脸部模型安全地存储在手机上，并且绝不会将其传送到手机以外的其他位置。所有处理都是在您的手机上安全进行。"</string>
-    <string name="security_settings_face_enroll_introduction_how_title">运作方式</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">如果使用人脸解锁功能，系统可能会要求您的孩子睁着眼睛以便解锁手机或验证身份。您和孩子可以随时在“设置”中开启此选项。</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">如果您的孩子平时戴眼镜，在设置过程中可以不把它摘下来。</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">使用孩子的脸部解锁手机在安全性上可能不及使用安全系数高的图案、PIN 码或密码</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">脸部对准手机可能会让手机意外解锁。长相与您的孩子非常相似的人（例如孪生兄弟姐妹）也能够解锁您孩子的手机。此外，有人将您孩子的手机对准您孩子的脸部时，手机也会解锁。</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">人脸解锁功能可以要求您必须睁着眼睛才能解锁手机或验证身份。您可以随时在“设置”中开启此选项。</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">可以戴眼镜或浅色太阳镜。</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">用脸部解锁手机的安全性可能不及安全系数高的图案、PIN 码或密码</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">脸部对准手机可能会让手机意外解锁。长相与您非常相似的人（例如孪生兄弟姐妹）也能够解锁您的手机。此外，有人将手机对准您的脸部时，您的手机也会解锁。</string>
-    <string name="security_settings_face_enroll_introduction_info_title">注意事项</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">您可以通过刷脸来解锁手机或验证自己的身份，例如在登录应用或批准购买交易时。</string>
-    <string name="security_settings_face_enroll_introduction_title">设置人脸解锁</string>
     <string name="security_settings_face_enroll_next">继续</string>
     <string name="security_settings_face_enroll_partial_message">如要改善识别效果，您可以在“设置”部分重新设置人脸解锁</string>
     <string name="security_settings_face_enroll_partial_start_over">重新开始</string>
@@ -328,33 +312,60 @@
     <string name="security_settings_face_enroll_too_hot_message">手机过热，无法完成人脸解锁设置。请先让手机降温，然后再重试。</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">跳过人脸解锁</string>
     <string name="security_settings_face_enroll_too_hot_title">手机过热</string>
-    <string name="security_settings_fingerprint_preference_summary_none">点按即可设置指纹</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"如需详细了解 Pixel 指纹解锁，请访问 &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;。"</string>
-    <string name="security_settings_work_fingerprint_preference_title">工作资料的 Pixel Imprint</string>
-    <string name="setup_suggestion_summary">复制数据，使用手机付款等等</string>
+    <string name="setup_suggestion_summary">只需再执行几个步骤</string>
     <string name="setup_suggestion_title">完成设置</string>
-    <string name="smart_battery_footer">为延长电池续航时间，“自适应电池”功能可能会降低性能并减少后台活动。部分通知可能会延迟。</string>
-    <string name="smart_battery_manager_title">自适应功能偏好设置</string>
-    <string name="smart_battery_title">自适应电池</string>
-    <string name="sound_dashboard_summary">音量、触感反馈、勿扰</string>
-    <string name="storage_manager_indicator">智能存储：^1</string>
-    <string name="suw_back_button_label">返回</string>
+    <string name="software_update_can_be_updated_header">让您的 Pixel 更臻完善</string>
+    <string name="software_update_detail_indication_1_update_available">有 1 项可用更新</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">有 %1$d 项可用更新</string>
+    <string name="software_update_detail_indication_action_required">建议采取行动</string>
+    <string name="software_update_entry_title">软件更新</string>
+    <string name="software_update_entry_up_to_date_summary">让您的 Pixel 升级到最新版本</string>
+    <string name="software_update_pending_update_summary">待更新</string>
+    <string name="software_update_unknown_state_summary">请稍后再回来查看</string>
+    <string name="software_update_up_to_date_header">您的 Pixel 已是最新版本</string>
+    <string name="software_update_up_to_date_summary">已是最新版本</string>
+    <string name="software_update_up_to_specific_date_summary">更新日期：%1$s</string>
+    <string name="software_update_update_available_summary">有可用的更新</string>
+    <string name="speed_boost_summary_off">已关闭</string>
+    <string name="speed_boost_summary_on">已开启</string>
+    <string name="speed_boost_title">Spectrum Speed Boost</string>
     <string name="suw_limited_warranty_title">有限保修</string>
-    <string name="suw_more_button_label">更多</string>
-    <string name="suw_next_button_label">下一步</string>
     <string name="suw_warranty_description">如需查看您的有限保修信息，请选择此设备的购买地所属的国家/地区。&lt;br /&gt;&lt;br /&gt;您也可以依次前往&lt;b&gt;设置 &gt; 关于手机 &gt; 有限保修&lt;/b&gt;，或者在 g.co/devicewarranty 上查看保修信息。</string>
     <string name="suw_warranty_description_content">如需查看您的有限保修信息，请选择此设备的购买地所属的国家/地区。您也可以前往“设置”，选择“关于手机”，然后选择“有限保修”，或者在 g.co/devicewarranty 上查看保修信息。</string>
     <string name="suw_warranty_next_button_text">继续</string>
     <string name="suw_warranty_positive_button_text">关闭</string>
-    <string name="time_remaining_warning_subtext">根据过往使用情况，大约还可使用%1$s</string>
-    <string name="time_remaining_warning_text">电池电量即将耗尽</string>
+    <string name="system_update_entry_title">系统更新</string>
+    <string name="system_updates_group_title">Pixel 更新</string>
     <string name="tips_suggestion_summary">探索手机的各项功能</string>
     <string name="tips_suggestion_title">了解您的 Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">请将手机举到您脸部的正前方</string>
-    <string name="usb_use_file_transfers">文件传输/Android Auto</string>
-    <string name="wallpaper_dashboard_summary">颜色、带主题的图标、应用网格</string>
+    <string name="unified_battery_saver_page_intro">节省电量，以帮助延长手机在每次充电后的续航能力</string>
+    <string name="vpn_app_bypass">排除所选应用</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">当前运营商应用</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">要从 VPN 中排除 %1$d 个运营商应用吗？</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">某些运营商应用只能使用他们自己的网络</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">此设备未安装任何运营商应用</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">当您安装任何新的运营商应用时，都会收到通知</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">要从 VPN 中排除 %1$d 个运营商应用吗？</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">要从 VPN 中排除运营商应用吗？</string>
+    <string name="vpn_bypass_cancel">取消</string>
+    <string name="vpn_bypass_carrier_accessibility_description">开启/关闭“排除运营商应用”功能</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">通过允许运营商应用忽略 VPN 并使用手机的常规网络连接，可以防止运营商应用无法正常运行。</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">查看新安装的运营商应用</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">切换运营商应用</string>
+    <string name="vpn_bypass_carrier_description">排除运营商应用</string>
+    <string name="vpn_bypass_category_title">已从 VPN 中排除的应用</string>
+    <string name="vpn_bypass_description">已排除的应用将不会使用 VPN。某些移动运营商应用只能使用运营商自己的网络，而不能使用 VPN。</string>
+    <string name="vpn_bypass_exclude">排除</string>
+    <string name="vpn_exclude_ntf_content">您最近新安装的运营商应用可能无法使用 VPN</string>
+    <string name="vpn_exclude_ntf_title">要从 VPN 中排除新应用吗？</string>
+    <string name="vpn_preference_group_title">其他</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s（%2$s）</string>
-    <string name="wifi_subscription_summary">查看或更改 OpenRoaming 订阅</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">已通过“%1$s”连接</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">点按即可连接</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">无法连接。点按即可重试。</string>

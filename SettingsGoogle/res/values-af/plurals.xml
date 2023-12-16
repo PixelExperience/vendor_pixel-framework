@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="security_settings_hub_show_warnings_preference">
         <item quantity="other">Sien alle waarskuwings (%1$d)</item>

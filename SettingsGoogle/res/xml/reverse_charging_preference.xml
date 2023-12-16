@@ -2,9 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/reverse_charging_title">
-
     <com.android.settingslib.widget.IllustrationPreference
         android:key="auto_reverse_charging_bottom_sheet"
         android:selectable="false" />
-
 </PreferenceScreen>

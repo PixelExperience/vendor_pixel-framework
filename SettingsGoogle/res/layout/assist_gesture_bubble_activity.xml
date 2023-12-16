@@ -21,5 +21,4 @@
         android:gravity="end"
         android:padding="12.0dip"
         android:textColor="#ffffffff" />
-
 </FrameLayout>

@@ -16,7 +16,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@android:id/icon"
+            android:id="@*android:id/icon"
             style="@style/SuggestionCardIconStyle.TwoPane"
             android:layout_width="@dimen/contextual_card_icon_size"
             android:layout_height="@dimen/contextual_card_icon_size"
@@ -35,19 +35,16 @@
             android:paddingEnd="@dimen/suggestion_card_text_padding_end">
 
             <TextView
-                android:id="@android:id/title"
+                android:id="@*android:id/title"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.SuggestionCardTitle.TwoPane" />
 
             <TextView
-                android:id="@android:id/summary"
+                android:id="@*android:id/summary"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.SuggestionCardSummary.TwoPane" />
-
         </LinearLayout>
-
     </LinearLayout>
-
 </com.google.android.material.card.MaterialCardView>

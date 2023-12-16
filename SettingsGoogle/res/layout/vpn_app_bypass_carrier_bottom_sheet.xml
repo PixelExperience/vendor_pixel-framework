@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/vpn_bottom_sheet_bg"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+        android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/app_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/app_bypass_header_icon_size"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_default_margin"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_vpn_cell_tower"
+            android:tint="?android:colorAccent" />
+
+        <TextView
+            android:id="@id/bottom_sheet_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_title_margin_top"
+            android:fontFamily="google-sans"
+            android:gravity="center_horizontal"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/app_bypass_bottom_sheet_title_font_size" />
+
+        <TextView
+            android:id="@id/bottom_sheet_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_title_margin_bottom"
+            android:fontFamily="google-sans-text"
+            android:text="@string/vpn_bypass_bottom_sheet_new_installed_description"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/app_bypass_description_text_font_size" />
+
+        <FrameLayout
+            android:id="@id/carrier_apps_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_list_margin_top"
+            android:background="@drawable/vpn_carrier_app_list_bg"
+            android:minHeight="@dimen/app_bypass_bottom_sheet_list_minimal_height">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/carrier_apps_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/app_bypass_bottom_sheet_list_content_default_margin"
+                android:overScrollMode="never" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@id/notification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_default_margin"
+            android:drawableStart="@drawable/ic_notifications"
+            android:drawablePadding="10.0dip"
+            android:drawableTint="?androidprv:attr/colorAccentPrimaryVariant"
+            android:fontFamily="google-sans-text"
+            android:lineHeight="@dimen/app_bypass_bottom_sheet_notification_line_height"
+            android:text="@string/vpn_bypass_bottom_sheet_notification_description"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/app_bypass_description_text_font_size" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_bypass_bottom_sheet_button_margin_top"
+            android:layout_marginBottom="@dimen/app_bypass_bottom_sheet_button_margin_bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vpn_carrier_app_bottom_sheet_btn_bg"
+                android:fontFamily="google-sans-text"
+                android:fontWeight="@integer/app_bypass_bottom_sheet_notification_weight"
+                android:gravity="center"
+                android:minHeight="@dimen/app_bypass_bottom_sheet_button_height"
+                android:paddingStart="@dimen/app_bypass_bottom_sheet_button_padding_horizontal"
+                android:paddingEnd="@dimen/app_bypass_bottom_sheet_button_padding_horizontal"
+                android:text="@string/vpn_bypass_cancel"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/app_bypass_description_text_font_size" />
+
+            <Space
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@id/ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vpn_carrier_app_bottom_sheet_btn_bg"
+                android:fontFamily="google-sans-text"
+                android:fontWeight="@integer/app_bypass_bottom_sheet_notification_weight"
+                android:gravity="center"
+                android:minHeight="@dimen/app_bypass_bottom_sheet_button_height"
+                android:paddingStart="@dimen/app_bypass_bottom_sheet_button_padding_horizontal"
+                android:paddingEnd="@dimen/app_bypass_bottom_sheet_button_padding_horizontal"
+                android:text="@string/vpn_bypass_exclude"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/app_bypass_description_text_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

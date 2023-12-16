@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/face_enroll_confirmation"
+    style="@style/FaceLayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        style="@style/SudContentFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/BiometricEnrollIntroTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/security_settings_face_enroll_introduction_info_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@id/icon_fold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_face_unlock_outside_screen" />
+
+                <Space
+                    android:layout_width="16.0dip"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@id/info_outside_screen"
+                    style="@style/BiometricEnrollIntroMessage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_confirmation_info_outside_screen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@id/icon_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_face_unlock_enough_light" />
+
+                <Space
+                    android:layout_width="16.0dip"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@id/info_enough_light"
+                    style="@style/BiometricEnrollIntroMessage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_confirmation_info_enough_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

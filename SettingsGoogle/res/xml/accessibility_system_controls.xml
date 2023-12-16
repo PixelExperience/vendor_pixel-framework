@@ -4,7 +4,6 @@
     android:key="accessibility_system_controls"
     android:persistent="false"
     android:title="@string/accessibility_system_controls_title">
-
     <Preference
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         android:key="gesture_system_navigation_input_summary_accessibility"
@@ -12,7 +11,6 @@
         android:title="@string/system_navigation_title"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:searchable="false" />
-
     <Preference
         android:fragment="com.android.settings.gestures.OneHandedSettings"
         android:key="gesture_system_navigation_one_handed_accessibility"
@@ -20,13 +18,11 @@
         android:title="@string/one_handed_title"
         settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController"
         settings:searchable="false" />
-
     <SwitchPreference
         android:key="toggle_power_button_ends_call_preference"
         android:persistent="false"
         android:title="@string/accessibility_power_button_ends_call_prerefence_title"
         settings:controller="com.android.settings.accessibility.PowerButtonEndsCallPreferenceController" />
-
     <com.android.settingslib.PrimarySwitchPreference
         android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
         android:key="toggle_lock_screen_rotation_preference"
@@ -35,7 +31,6 @@
         android:title="@string/accelerometer_title"
         settings:controller="com.android.settings.accessibility.LockScreenRotationPreferenceController"
         settings:keywords="@string/keywords_auto_rotate" />
-
     <Preference
         android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
         android:key="device_state_auto_rotate_accessibility"
@@ -43,5 +38,4 @@
         android:title="@string/accelerometer_title"
         settings:controller="com.android.settings.display.DeviceStateAutoRotateOverviewController"
         settings:keywords="@string/keywords_auto_rotate" />
-
 </PreferenceScreen>

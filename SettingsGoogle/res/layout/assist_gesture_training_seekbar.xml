@@ -5,7 +5,7 @@
 
     <SeekBar
         android:id="@id/assist_gesture_sensitivity_seekbar"
-        style="@android:style/Widget.Material.SeekBar.Discrete"
+        style="@*android:style/Widget.Material.SeekBar.Discrete"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -32,7 +32,5 @@
             android:layout_gravity="end|center|top"
             android:layout_marginEnd="16.0dip"
             android:text="@string/assist_gesture_enrollment_seekbar_strong" />
-
     </FrameLayout>
-
 </merge>

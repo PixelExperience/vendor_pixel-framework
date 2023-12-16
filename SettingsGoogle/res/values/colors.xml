@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="active_edge_indicator">#ff4182ef</color>
     <color name="battery_bad_color_light">#ffd93025</color>
@@ -11,6 +11,9 @@
     <color name="browser_actions_title_color">#ff646464</color>
     <color name="columbus_highlight">#ff82b1ff</color>
     <color name="contextual_card_dismissal_background">#fff1f3f4</color>
+    <color name="dream_card_preview_bg_color">@*android:color/system_surface_container_light</color>
+    <color name="dream_no_screensaver_icon_color">@*android:color/system_on_surface_variant_light
+    </color>
     <color name="face_enroll_cell_enrolled">#14ffffff</color>
     <color name="face_enroll_cell_no_activity_end">#ffd2e3fc</color>
     <color name="face_enroll_cell_no_activity_start">#00d2e3fc</color>
@@ -37,21 +40,7 @@
     <color name="face_pill_pulsing">#ffbdc1c6</color>
     <color name="face_pill_shrinked">#ff4285f4</color>
     <color name="face_progress_bar_complete">#ff1a73e8</color>
-    <color name="hats_lib_checkbox_tint">#8c333333</color>
-    <color name="hats_lib_open_text_underline">#ff4285f4</color>
-    <color name="hats_lib_prompt_take_survey_blue">#ff4285f4</color>
-    <color name="hats_lib_prompt_take_survey_blue_focused">#ff21437c</color>
-    <color name="hats_lib_prompt_take_survey_blue_pressed">#ff3d7ce3</color>
-    <color name="hats_lib_prompt_text_color">#ff212121</color>
-    <color name="hats_lib_survey_control_normal">#ff9b9b9b</color>
-    <color name="hats_lib_survey_highlight_color">#ffeeeeee</color>
-    <color name="hats_lib_survey_question_text_color">#ff333333</color>
-    <color name="hats_lib_survey_text_color">#ff757575</color>
-    <color name="hats_lib_survey_white_ripple_color">#ff757575</color>
-    <color name="hats_lib_survey_white_shape_color">#ffffffff</color>
-    <color name="hats_lib_survey_white_shape_focused_color">#ff848484</color>
-    <color name="hats_lib_survey_white_shape_pressed_color">#ffeeeeee</color>
-    <color name="hats_lib_white_100">#ffffffff</color>
+    <color name="software_update_yellow_700">#fff29900</color>
     <color name="icon_launcher_setting_color">@color/material_blue_500</color>
     <color name="security_green">#ff1e8e3e</color>
     <color name="security_red">#ffd93025</color>

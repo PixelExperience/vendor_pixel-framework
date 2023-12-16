@@ -18,6 +18,8 @@
     <string name="columbus_title">Quick Tap to start actions</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge set up. Go to the next screen or keep adjusting.</string>
     <string name="accessibility_keyboard_haptics_title">Keyboard haptics</string>
+    <string name="adaptive_battery_switch_des">To extend battery life, Adaptive Battery may reduce performance and background activity. Some notifications may be delayed.</string>
+    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
     <string name="account_confirmation_class">com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity</string>
     <string name="account_confirmation_package">com.google.android.gms</string>
     <string name="account_type">com.google</string>
@@ -32,6 +34,16 @@
     <string name="adaptive_charging_time_estimate"><b>Adaptive Charging</b> • Full by %1$s</string>
     <string name="ambient_display_wake_screen_footer"><annotation link="link">Preferences</annotation></string>
     <string name="ambient_display_wake_screen_summary" />
+    <string name="add_bypassed_application_hint">No apps added</string>
+    <string name="advanced_vpn_preference_group_title">Built-in</string>
+    <string name="all_apps_category_title">All apps</string>
+    <string name="allow_debugging_data_description">Google uses bug reports to diagnose app and device issues in accordance with our <a href="https://policies.google.com/privacy">Privacy Policy</a>".
+
+"<b>Bug reports contain app and system logs</b>" and may include personal and device information, such as names, email addresses, phone numbers, location data, device identifiers, connected devices, and network information. Reports may be shared with engineering partners potentially impacted by your issue.
+
+Granting access will allow this app to "<b>automatically collect and upload bug reports</b>" containing app and system logs for all issue reports.
+
+Revoking access will require the app to request your permission to collect and upload a bug report for each individual issue report."</string>
     <string name="ambient_display_wake_screen_summary_on" />
     <string name="app_and_notification_dashboard_summary">Assistant, recent apps, default apps</string>
     <string name="assist_gesture_enrollment_continue_to_assistant">Continue to Assistant</string>
@@ -127,9 +139,9 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="battery_tip_limited_temporarily_extra_summary">To protect your battery, charging is paused at %1$s while your tablet is docked</string>
     <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this Google Account</string>
-    <string name="clear_calling_footer">"To protect your privacy, Clear Calling never sends audio or conversations to Google.
+    <string name="clear_calling_footer">"To protect your privacy, Clear Calling does not send audio or conversations to Google.
 
-Clear Calling is available depending on your Wi‑Fi and mobile network."</string>
+Clear Calling works on Wi‑Fi calling and most networks, not available for 3G networks."</string>
     <string name="clear_calling_footer_learn_more_link">https://support.google.com/pixelphone?p=clear_calling</string>
     <string name="clear_calling_title">Clear Calling</string>
     <string name="clear_calling_toggle">Use Clear Calling</string>
@@ -140,6 +152,16 @@ Clear Calling is available depending on your Wi‑Fi and mobile network."</strin
     <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
     <string name="columbus_gesture_enrollment_try_it">Try it</string>
     <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
+    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
+    <string name="basic_battery_saver_title">Standard Battery Saver</string>
+    <string name="battery_saver_reminder_category">Reminders</string>
+    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
+    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
+    <string name="battery_saver_schedule_category">Schedule</string>
+    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
+    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
+    <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
+    <string name="battery_schedule_title">Schedule and reminders</string>
     <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
     <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
     <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
@@ -214,6 +236,7 @@ Clear Calling is available depending on your Wi‑Fi and mobile network."</strin
     <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollTrampoline</string>
     <string name="config_face_enroll_traffic_light_package" />
+    <string name="config_limited_warranty_overlay_package_name" />
     <string name="config_featureFactory">com.google.android.settings.overlay.FeatureFactoryImpl</string>
     <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
     <string name="config_non_public_slice_query_uri">content://com.android.settings.slices/settings_internal_slices</string>
@@ -226,9 +249,16 @@ Clear Calling is available depending on your Wi‑Fi and mobile network."</strin
     <string name="config_wallpaper_picker_action">android.intent.action.MAIN</string>
     <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
+    <string name="discover_tips_button">Discover tips</string>
+    <string name="debugging_data_title">Debugging data</string>
     <string name="connectivity_helper_call_quality_category">Call quality</string>
     <string name="connectivity_helper_call_quality_summary">Get notified about causes of connection issues during calls</string>
     <string name="connectivity_helper_call_quality_title">Get notifications</string>
+    <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
+    <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
+    <string name="face_confirmation_hide_illustration_description">Now when you pick up your phone or tap the screen, you can use your face to unlock.</string>
+    <string name="face_confirmation_info_enough_light">Face Unlock works best when there’s enough light and you’re not wearing a mask or dark glasses.</string>
+    <string name="face_confirmation_info_outside_screen">Face Unlock works from the outside screen only</string>
     <string name="connectivity_helper_d2d_summary">Notify the other person when your phone has connection issues during calls</string>
     <string name="connectivity_helper_d2d_title">Share connection info</string>
     <string name="connectivity_helper_footnote">You can share connection info when the other caller is using a supported device and network</string>
@@ -237,6 +267,8 @@ Clear Calling is available depending on your Wi‑Fi and mobile network."</strin
     <string name="dark_ui_text">Dark theme uses a black background to help keep your battery alive longer. Dark theme schedules wait to turn on until your screen is off.</string>
     <string name="dialog_aware_settings_message" />
     <string name="dialog_aware_settings_ok" />
+    <string name="face_enrolling_close_to_continue">Fold phone during setup</string>
+    <string name="face_enrolling_close_to_continue_description">The phone must be folded to set up or use Face Unlock</string>
     <string name="dialog_aware_settings_title" />
     <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">Charging phone</string>
@@ -264,6 +296,10 @@ If you volunteer to participate, data collected from unlock attempts (e.g. facia
     <string name="face_enrolling_participation_title">Help make Face Unlock better</string>
     <string name="face_enrolling_skip_help_debug">Skip</string>
     <string name="face_enrolling_title">Hold the phone still. Rotate your head. Go slow.</string>
+    <string name="firmware_update_status_category">Device firmware status</string>
+    <string name="firmware_update_status_title">Firmware update available</string>
+    <string name="firmware_update_version_number_category">Device firmware version</string>
+    <string name="firmware_update_version_number_title">Pixel keyboard firmware</string>
     <string name="face_enrolling_title_accessibility">Look directly at your phone</string>
     <string name="face_enrolling_title_accessibility_progress">Keep looking directly at your phone</string>
     <string name="face_enrolling_too_close">Move phone farther away</string>
@@ -356,6 +392,9 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_accessibility_shortcut">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_shortcut;end</string>
     <string name="help_url_account_detail">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account_detail;end</string>
     <string name="help_url_accounts" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_accounts;end</string>
+    <string name="help_url_adaptive_charging_settings">https://support.google.com/pixelphone/?p=adaptive_charging</string>
+    <string name="help_url_legal_source_code">https://support.google.com/pixelphone?p=open_source_details</string>
+    <string name="help_url_app_usage_settings">https://support.google.com/pixelphone?p=battery_usage</string>
     <string name="help_url_action_disabled_by_it_admin">https://support.google.com/work/android?p=work_device_help</string>
     <string name="help_url_action_disabled_by_restricted_settings">https://support.google.com/android/?p=restricted_settings</string>
     <string name="help_url_adaptive_sleep">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_adaptive_sleep;end</string>
@@ -368,6 +407,7 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_battery" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
     <string name="help_url_battery_defender" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end</string>
     <string name="help_url_battery_missing">https://support.google.com/pixelphone/?p=p4xl_battery</string>
+    <string name="help_url_battery_saver_settings">https://support.google.com/pixelphone/?p=battery_saver_settings</string>
     <string name="help_url_bluetooth" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
     <string name="help_url_caption">https://support.google.com/accessibility/android/answer/6006554</string>
     <string name="help_url_choose_lockscreen" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>
@@ -545,7 +585,7 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Learn more about Pixel fingerprint unlock at &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for work</string>
     <string name="settingslib_config_headlineFontFamily">google-sans</string>
-    <string name="setup_suggestion_summary">Copy data, pay with your phone, and more</string>
+    <string name="setup_suggestion_summary">Just a few more steps</string>
     <string name="setup_suggestion_title">Finish setting up</string>
     <string name="smart_battery_footer">To extend battery life, Adaptive Battery may reduce performance and background activity. Some notifications may be delayed.</string>
     <string name="smart_battery_manager_title">Adaptive preferences</string>
@@ -582,4 +622,59 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tap to connect</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Can’t connect. Tap to try again.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connecting…</string>
+    <string name="unified_battery_saver_page_intro">Save power to help your phone battery last longer between charges</string>
+    <string name="vpn_app_bypass">Exclude selected apps</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">Current carrier apps</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">Exclude %1$d carrier apps from VPN?</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">Some carrier apps only work on their own networks</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">No carrier apps on this device</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">"You'll be notified when you install any new carrier apps"</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">Exclude %1$d carrier app from VPN?</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">Exclude carrier apps from VPN?</string>
+    <string name="vpn_bypass_cancel">Cancel</string>
+    <string name="vpn_bypass_carrier_accessibility_description">Exclude carrier apps ON/OFF</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">"By allowing carrier apps to ignore the VPN and use your phone's regular network connection, it may prevent carrier apps from malfunctioning."</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">Review newly installed carrier apps</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">toggle carrier apps</string>
+    <string name="vpn_bypass_carrier_description">Exclude carrier apps</string>
+    <string name="vpn_bypass_category_title">Apps excluded from VPN</string>
+    <string name="vpn_bypass_description">"Excluded apps won't use VPN. Some mobile carrier apps only work on their own networks without VPN."</string>
+    <string name="vpn_bypass_exclude">Exclude</string>
+    <string name="vpn_exclude_ntf_content">You have newly installed carrier apps that may not work with the VPN</string>
+    <string name="vpn_exclude_ntf_title">Exclude new apps from VPN?</string>
+    <string name="vpn_preference_group_title">Others</string>
+    <string name="system_update_entry_title">System update</string>
+    <string name="system_updates_group_title">Pixel updates</string>
+    <string name="software_update_can_be_updated_header">Make your Pixel even better</string>
+    <string name="software_update_detail_indication_1_update_available">1 update available</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">%1$d updates available</string>
+    <string name="software_update_detail_indication_action_required">Action required</string>
+    <string name="software_update_entry_title">Software updates</string>
+    <string name="software_update_entry_up_to_date_summary">Keep your Pixel up to date</string>
+    <string name="software_update_pending_update_summary">Pending update</string>
+    <string name="software_update_unknown_state_summary">Check again later</string>
+    <string name="software_update_up_to_date_header">Your Pixel is up to date</string>
+    <string name="software_update_up_to_date_summary">Up to date</string>
+    <string name="software_update_up_to_specific_date_summary">Updated to %1$s</string>
+    <string name="software_update_update_available_summary">Update available</string>
+    <string name="speed_boost_summary_off">Off</string>
+    <string name="speed_boost_summary_on">On</string>
+    <string name="speed_boost_title">Spectrum Speed Boost</string>
+    <string name="search_gesture_category_title">Screen search</string>
+    <string name="search_long_press_home_button_summary">Press and hold the home button to initiate Google search over your screen.</string>
+    <string name="search_long_press_home_button_title">Hold Home to search</string>
+    <string name="search_press_hold_gesture_summary">Press and hold the navigation handle to invoke search over your screen.</string>
+    <string name="search_press_hold_gesture_title">Hold handle to search</string>
+    <string name="lockscreen_show_weather_summary">See current weather conditions</string>
+    <string name="lockscreen_show_weather_title">Show weather</string>
+    <string name="permit_debugging_data">Allow bug report access</string>
+    <string name="play_application_detail_indication_summary">Check for updates</string>
+    <string name="play_application_update_entry_title">App updates</string>
+    <string name="repair_mode_active_summary">In repair mode</string>
+    <string name="repair_mode_summary">Secure environment for device repair</string>
+    <string name="repair_mode_title">Repair mode</string>
+    <string name="request_google_account_summary">Add a Google account</string>
+    <string name="led_preference_title">LED indicator patterns</string>
+    <string name="legal_source_code_description">Details about the source code for components made available as open source can be found at the Pixel help center.</string>
+    <string name="legal_source_code_title">Source code</string>
 </resources>

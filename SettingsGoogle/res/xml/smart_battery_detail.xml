@@ -15,8 +15,8 @@
         settings:controller="com.google.android.settings.fuelgauge.adaptivecharging.AdaptiveChargingMainSwitchPreferenceController"
         settings:keywords="@string/keywords_adaptive_charging" />
     <com.android.settingslib.widget.FooterPreference
-        android:key="smart_battery_detail_footer"
-        android:selectable="false"
+        android:key="adaptive_charging_footer_preference"
         android:title="@string/adaptive_charging_footer"
+        settings:controller="com.google.android.settings.fuelgauge.adaptivecharging.AdaptiveChargingFooterPreferenceController"
         settings:searchable="false" />
 </PreferenceScreen>

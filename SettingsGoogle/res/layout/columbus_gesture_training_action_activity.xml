@@ -68,7 +68,5 @@
             android:text="@string/columbus_setting_action_launch_title"
             android:textAppearance="?android:textAppearanceListItem"
             app:secureValue="@string/columbus_setting_action_launch_value" />
-
     </RadioGroup>
-
 </com.google.android.setupdesign.GlifLayout>

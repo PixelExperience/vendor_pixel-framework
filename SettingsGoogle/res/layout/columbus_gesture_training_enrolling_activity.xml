@@ -24,5 +24,4 @@
         android:layout_height="@dimen/columbus_illustration_layout_height"
         android:layout_gravity="center"
         android:importantForAccessibility="no" />
-
 </com.google.android.setupdesign.GlifLayout>

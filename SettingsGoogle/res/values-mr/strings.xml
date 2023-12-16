@@ -1,106 +1,114 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">लॉक स्‍क्रीन निष्क्रिय</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">शांत सूचना जेश्चर</string>
     <string name="gesture_skip_title">जेश्चर वगळा</string>
     <string name="keywords_touch_sensitivity">स्पर्श करा, संवेदनशीलता, संवेदनशील, स्क्रीन प्रोटेक्टर, फिल्म, प्रतिसादात्मक, प्रतिसादक्षमता</string>
-    <string name="touch_sensitivity_summary">स्पर्शाची संवेदनशीलता वाढवा आणि स्क्रीन प्रोटेक्‍टर वापरताना स्पर्श करण्याच्या संवेदनशीलतेमध्ये सुधारणा करा</string>
+    <string name="keywords_wake_display" />
+    <string name="touch_sensitivity_summary">स्क्रीन प्रोटेक्‍टर वापरताना स्पर्शाची संवेदनशीलता वाढवा आणि स्पर्शात सुधारणा करा</string>
     <string name="touch_sensitivity_title">स्क्रीन प्रोटेक्‍टर मोड</string>
     <string name="columbus_title">कृती सुरू करण्यासाठी, क्विक टॅप करा</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge सेट करा. पुढील स्क्रीनवर जा किंवा ॲडजस्‍ट करत राहा.</string>
     <string name="accessibility_keyboard_haptics_title">कीबोर्ड हॅप्टिक</string>
     <string name="adaptive_alert_vibration_summary">तुमचा फोन स्थिर असताना आणि स्क्रीन वरती असताना व्हायब्रेशनची तीव्रता कमी करते</string>
     <string name="adaptive_alert_vibration_title">अडॅप्टिव्ह सूचना व्हायब्रेशन</string>
+    <string name="adaptive_battery_switch_des">बॅटरी लाइफ वाढवण्यासाठी अडॅप्टिव्ह बॅटरी परफॉर्मन्स आणि बॅकग्राउंड अ‍ॅक्टिव्हिटी कमी करू शकते. काही सूचना उशिराने मिळू शकतात.</string>
+    <string name="adaptive_battery_switch_title">अ‍डॅप्टिव्ह बॅटरी वापरा</string>
     <string name="adaptive_charging">अडॅप्टिव्ह चार्जिंग</string>
     <string name="adaptive_charging_description">दीर्घ चार्जिंग कालावधीत सतत चार्ज करून बॅटरी लाइफ वाढवा. तुमच्या वापर चक्राच्या आधारे ॲक्टिव्हेट केले.</string>
+    <string name="adaptive_charging_footer">बॅटरीचा कालावधी वाढवण्‍यात मदत करण्‍यासाठी, तुमचा फोन तुमच्‍या चार्जिंगच्या दिनक्रमाची माहिती मिळवत राहतो आणि तुम्‍हाला तो पूर्ण चार्ज होण्‍याची आवश्‍यकता होईपर्यंत प्रतीक्षा करतो.</string>
+    <string name="adaptive_charging_link_a11y">अडॅप्टिव्ह चार्जिंगविषयी अधिक जाणून घ्या</string>
+    <string name="adaptive_charging_main_switch_title">अडॅप्टिव्ह चार्जिंग वापरा</string>
     <string name="adaptive_charging_time_estimate"><b>अडॅप्टिव्ह चार्जिंग</b> • %1$s वाजता पूर्ण होईल</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">प्राधान्ये</annotation></string>
-    <string name="app_and_notification_dashboard_summary">Assistant, अलीकडील अ‍ॅप्स, डीफॉल्ट अ‍ॅप्स</string>
+    <string name="adaptive_charging_title">अडॅप्टिव्ह चार्जिंग</string>
+    <string name="add_bypassed_application_hint">कोणतीही अ‍ॅप्स जोडलेली नाहीत</string>
+    <string name="advanced_vpn_preference_group_title">बिल्ट-इन</string>
+    <string name="all_apps_category_title">सर्व अ‍ॅप्स</string>
+    <string name="allow_debugging_data_description">अ‍ॅप आणि डिव्हाइसशी संबंधित समस्यांचे निदान करण्यासाठी आमच्या <a href="https://policies.google.com/privacy">गोपनीयता धोरणानुसार Google बग रिपोर्ट वापरते</a>".
+
+"<b>बग रिपोर्टमध्ये अ‍ॅप आणि सिस्टीम लॉग असतात</b>" व नाव, ईमेल अ‍ॅड्रेस, फोन नंबर, स्‍थान डेटा, डिव्हाइस आयडेंटिफायर, कनेक्‍ट केलेली डिव्हाइस आणि नेटवर्कशी संबंधित माहिती यांसारखी वैयक्तिक व डिव्हाइसची माहिती समाविष्ट असू शकते. तुमच्या समस्येचा संभाव्यतः परिणाम झालेल्या इंजिनियरिंग भागीदारांसोबत अहवाल शेअर केले जाऊ शकतात.
+
+ अ‍ॅक्सेस दिल्यामुळे या अ‍ॅपला "<b> सर्व समस्यांच्या अहवालांसाठी </b>"अ‍ॅप आणि सिस्टीम लॉग असलेले बग रिपोर्ट आपोआप गोळा करून अपलोड करण्याची अनुमती मिळते.
+
+अ‍ॅक्सेस मागे घेण्यासाठी प्रत्येक वेगळ्या समस्येच्या अहवालाकरिता बग रिपोर्ट गोळा करून अपलोड करण्यासाठी अ‍ॅपने तुमच्या परवानगीची विनंती करणे आवश्यक असेल."</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">प्राधान्ये</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">साहाय्यक सुरू ठेवा</string>
     <string name="assist_gesture_enrollment_do_it_later">हे नंतर करा</string>
     <string name="assist_gesture_enrollment_seekbar_light">हलकेच स्क्वीझ करा</string>
-    <string name="assist_gesture_enrollment_seekbar_strong">जोराने दाबा</string>
+    <string name="assist_gesture_enrollment_seekbar_strong">जोराने प्रेस करा</string>
     <string name="assist_gesture_enrollment_settings">सेटिंग्ज</string>
-    <string name="assist_gesture_setting_enable_assistant_text">तुमच्या Assistant शी बोलण्यासाठी, तुमच्या फोनचा तळाचा अर्धा भाग पटकन दाबा आणि नंतर सोडा</string>
-    <string name="assist_gesture_setting_enable_assistant_title">तुमच्या Assistant साठी दाबा</string>
-    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">अलार्म, टायमर, सूचना आणि इनकमिंग कॉल सायलंट करण्यासाठी दाबा.</string>
-    <string name="assist_gesture_setting_enable_ring_silence_text">सूचना आणि इनकमिंग कॉल शांत करण्यासाठी दाबा</string>
-    <string name="assist_gesture_setting_enable_ring_silence_title">फोन सायलंट करण्यासाठी दाबा</string>
+    <string name="assist_gesture_setting_enable_assistant_text">तुमच्या Assistant शी बोलण्यासाठी, तुमच्या फोनचा तळाचा अर्धा भाग पटकन प्रेस करा आणि नंतर सोडा</string>
+    <string name="assist_gesture_setting_enable_assistant_title">तुमच्या Assistant साठी प्रेस करा</string>
+    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">अलार्म, टायमर, सूचना आणि इनकमिंग कॉल सायलंट करण्यासाठी प्रेस करा.</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">सूचना आणि इनकमिंग कॉल शांत करण्यासाठी प्रेस करा</string>
+    <string name="assist_gesture_setting_enable_ring_silence_title">फोन सायलंट करण्यासाठी प्रेस करा</string>
     <string name="assist_gesture_setting_enable_wake_title">स्क्रीन बंद असताना Assistant उघडा</string>
-    <string name="assist_gesture_squeeze_help_maximum_sensitivity">हलकेच दाबा</string>
-    <string name="assist_gesture_squeeze_help_minimum_sensitivity">जोराने दाबा</string>
+    <string name="assist_gesture_squeeze_help_maximum_sensitivity">हलकेच प्रेस करा</string>
+    <string name="assist_gesture_squeeze_help_minimum_sensitivity">जोराने प्रेस करा</string>
     <string name="assist_gesture_squeeze_sensitivity_label">दाबण्याची संवेदनक्षमता</string>
     <string name="assist_gesture_training_enrolling_error_may_cause_falsing">चुकून कदाचित साहाय्यक उघडेल</string>
-    <string name="assist_gesture_training_enrolling_error_squeeze_bottom">तुमच्या Pixel चा तळाचा अर्धा भाग दाबा</string>
-    <string name="assist_gesture_training_enrolling_error_squeeze_faster">जलद दाबा</string>
-    <string name="assist_gesture_training_enrolling_error_squeeze_harder">जोरात दाबा</string>
-    <string name="assist_gesture_training_enrolling_error_squeeze_release_quickly">पटकन दाबा आणि मग सोडा</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_bottom">तुमच्या Pixel चा तळाचा अर्धा भाग प्रेस करा</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_faster">जलद प्रेस करा</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_harder">जोरात प्रेस करा</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_release_quickly">पटकन प्रेस करा आणि मग सोडा</string>
     <string name="assist_gesture_training_enrolling_error_try_adjusting">स्लायडर ॲडजस्ट करून पहा</string>
-    <string name="assist_gesture_training_enrolling_text">तुमच्या फोनचा तळाचा अर्धा भाग दाबा. तुम्ही किती जोरात दाबू शकता ते तुम्ही समायोजित करू शकता.</string>
-    <string name="assist_gesture_training_enrolling_title">पटकन दाबा आणि सोडा</string>
+    <string name="assist_gesture_training_enrolling_text">तुमच्या फोनचा तळाचा अर्धा भाग प्रेस करा. तुम्ही किती जोरात दाबू शकता ते तुम्ही समायोजित करू शकता.</string>
+    <string name="assist_gesture_training_enrolling_title">पटकन प्रेस करा आणि सोडा</string>
     <string name="assist_gesture_training_finished_text">स्क्वीझ करण्याची संवेदनक्षमता तुम्ही नंतर सेटिंग्जमधून बदलू शकता</string>
     <string name="assist_gesture_training_finished_title">ॲडजस्ट करणे पूर्ण करा किंवा सुरू ठेवा</string>
-    <string name="assist_gesture_training_intro_text">तुमच्या असिस्टंटशी कधीही बोलण्यासाठी तुमच्या फोनचा खालचा अर्धा भाग पटकन दाबून सोडा</string>
-    <string name="assist_gesture_training_intro_title">Assistant सुरू करण्यासाठी दाबा</string>
+    <string name="assist_gesture_training_intro_text">तुमच्या असिस्टंटशी कधीही बोलण्यासाठी तुमच्या फोनचा खालचा अर्धा भाग पटकन प्रेस करून सोडा</string>
+    <string name="assist_gesture_training_intro_title">Assistant सुरू करण्यासाठी प्रेस करा</string>
     <string name="assist_gesture_training_suggestion_summary">Assistant शी बोला, कॉल सायलंट करा</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">साहाय्यकाशी बोला, अलार्म आणि कॉल शांत करा</string>
-    <string name="assist_gesture_training_suggestion_title">Assistant साठी दाबा आणि सोडा</string>
-    <string name="automatic_storage_manager_activation_warning">कनेक्ट केल्यावरही तुम्ही बॅकअपसाठी निवडलेल्या गुणवत्तेचे फोटो आणि व्हिडिओ अ‍ॅक्सेस करू शकता</string>
-    <string name="automatic_storage_manager_days_title">बॅकअप घेतलेेले फोटो आणि व्हिडिओ काढले</string>
-    <string name="automatic_storage_manager_deactivation_warning">"स्मार्ट स्टोरेज बंद करायचा? 
-
-तुमचा स्टोरेज जवळजवळ भरलेला असताना स्मार्ट स्टोरेज जागा मोकळी करणार नाही."</string>
-    <string name="automatic_storage_manager_downloads_days_title">बॅक अप घेतलेले डाउनलोड</string>
-    <string name="automatic_storage_manager_preference_title">स्मार्ट स्टोरेज</string>
-    <string name="automatic_storage_manager_primary_switch_title">स्मार्ट स्टोरेज वापरा</string>
-    <string name="automatic_storage_manager_settings">स्‍मार्ट स्‍टोरेज</string>
-    <string name="automatic_storage_manager_text">स्टोरेज भरायला येते तेव्हा बॅकअप घेतलेले फोटो आणि व्हिडिओ काढून टाका. स्टोरेजमधून काढले तरी तुम्ही ते Google Photos मध्ये पाहू शकता.</string>
+    <string name="assist_gesture_training_suggestion_title">Assistant साठी प्रेस करा आणि सोडा</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">सुरू करा</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">आता नको</string>
     <string name="aware_footer_when_airplane_batterysaver_on">विमान मोड आणि बॅटरी सेव्हर सुरू असल्यामुळे Motion Sense उपलब्ध नाही</string>
     <string name="aware_footer_when_airplane_on">विमान मोड सुरू असल्यामुळे Motion Sense उपलब्ध नाही</string>
     <string name="aware_footer_when_batterysaver_on">बॅटरी सेव्हर सुरू असल्यामुळे Motion Sense उपलब्ध नाही</string>
     <string name="aware_gesture_summary_off">क्विक जेश्चर सुरू आहे, Active Edge बंद केले आहे</string>
     <string name="aware_gesture_summary_on_non_assist">क्विक जेश्चर सुरू आहे, Active Edge सुरू केले आहे</string>
-    <string name="aware_gesture_summary_on_with_assist">क्विक जेश्चर सुरू आहे, Active Edge सुरू आहे, Assistant साठी दाबा</string>
+    <string name="aware_gesture_summary_on_with_assist">क्विक जेश्चर सुरू आहे, Active Edge सुरू आहे, Assistant साठी प्रेस करा</string>
     <string name="aware_info_button_description">आणखी सेटिंग्ज</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">विमान मोड आणि बॅटरी सेव्हर सुरू असल्यामुळे उपलब्ध नाही</string>
     <string name="aware_summary_when_airplane_on">विमान मोड सुरू असल्यामुळे उपलब्ध नाही</string>
     <string name="aware_summary_when_batterysaver_on">बॅटरी सेव्हर सुरू असल्यामुळे उपलब्ध नाही</string>
-    <string name="backup_suggestion_cancel">रद्द करा</string>
-    <string name="backup_suggestion_dialog_description">हे आपल्या फोनच्या अंतर्गत संचयामधील सर्व डेटा हटवेल.</string>
-    <string name="backup_suggestion_dialog_title">हे डिव्हाइस रीसेट करायचे?</string>
-    <string name="backup_suggestion_get_started">अधिक जाणून घ्या</string>
-    <string name="backup_suggestion_item_summary">Android किंवा iPhone® डिव्हाइसवरुन कॉपी करा</string>
-    <string name="backup_suggestion_item_title">जुन्या फोनचा डेटा गहाळ झालाय?</string>
-    <string name="backup_suggestion_missing_description">"जर तुम्ही तुमचा SMS मेसेज आणि फोटोसारखा काही डेटा पाहू शकत नसाल तर तुम्ही तो केबलच्या साहाय्याने आपल्या Pixel मध्ये ट्रान्सफर करु शकता. 
-
- सुरू करण्यासाठी तुमचा Pixel रीसेट करणे आवश्यक आहे. या फोनवरील कस्टम सेटिंग्ज आणि आशयासह क्लाउडशी सिंक न केलेला सगळा डेटा हटवला जाईल."</string>
-    <string name="backup_suggestion_missing_title">तुमचा डेटा गहाळ आहे?</string>
-    <string name="backup_suggestion_next">पुढील</string>
-    <string name="backup_suggestion_other_ways_to_copy">डेटा कॉपी करण्याचे इतर मार्ग</string>
-    <string name="backup_suggestion_reset_description">"पुढील स्क्रीनवर तुम्ही तुमचा Pixel रीसेट करु शकता. केबल वापरुन डेटा स्थानांतरित करण्याचा हा एकमेव पर्याय आहे.
-
- रीसेट होताच, सेटअप प्रक्रियेबद्दल माहिती करुन घ्या आणि आपल्या पूर्वीच्या फोनवरुन डेटा परत आणण्याचे निवडा."</string>
-    <string name="backup_suggestion_reset_title">तुमचा Pixel रीसेट करा</string>
-    <string name="backup_suggestion_what_is_needed_summary">"तुमचा फोन तुम्ही रीसेट केल्यानंतर, तुम्हाला पुढील गोष्‍टींची आवश्‍यकता असेल:
-
-• तुमचा पूर्वीचा फोन (LINK_BEGINबहुतांशी फोनLINK_END Android 5.0+ किंवा iOS® 8.0+ चा सपोर्ट असलेले आहेत)
-• तुमच्या पूर्वीच्या फोनसाठी चार्जिंग किंवा डेटा केबल
-• तुमच्या Pixel सोबत आलेले Quick Switch Adapter"</string>
-    <string name="backup_suggestion_what_is_needed_title">तुम्हाला काय आवश्यक असेल</string>
-    <string name="battery_manager_summary">बॅटरी लाइफ वाढवते आणि चार्जिंग ऑप्टिमाइझ करते</string>
-    <string name="battery_manager_summary_unsupported">बॅटरी लाइफ वाढवा</string>
-    <string name="battery_missing_link_message">अधिक जाणून घ्या</string>
-    <string name="battery_suggestion_summary">ॲडॅप्टिव्ह बॅटरी सुरू करा</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">व्हिज्युअल इफेक्ट आणि बॅकग्राउंड अ‍ॅक्टिव्हिटी मर्यादित करते. आधीपासून सुरू नसल्यास, गडद थीम सुरू करते.</string>
+    <string name="basic_battery_saver_title">साधारण बॅटरी सेव्हर</string>
+    <string name="battery_saver_reminder_category">रिमाइंडर</string>
+    <string name="battery_saver_reminder_switch_summary">बॅटरी कमी असताना रिमाइंडर मिळवा</string>
+    <string name="battery_saver_reminder_switch_title">बॅटरी सेव्हर रिमाइंडर</string>
+    <string name="battery_saver_schedule_category">शेड्युल करणे</string>
+    <string name="battery_saver_schedule_switch_summary">तुम्ही सेट केलेल्या पातळीवर बॅटरी येते, तेव्हा बॅटरी सेव्हर सुरू होते</string>
+    <string name="battery_saver_schedule_switch_title">बॅटरीच्या पातळीवर आधारित सुरू करा</string>
+    <string name="battery_schedule_summary">बॅटरी सेव्हर सुरू झाल्यावर व्यवस्थापित करा</string>
+    <string name="battery_schedule_title">शेड्युल आणि रिमाइंडर</string>
     <string name="battery_tip_limited_temporarily_extra_summary">तुमच्या बॅटरीचे संरक्षण करण्यासाठी, तुमचा टॅबलेट डॉक केलेला असताना चार्ज करणे %1$s वर थांबवले आहे</string>
-    <string name="battery_tip_smart_battery_summary">ॲडॅप्टिव्ह बॅटरी सुरू करा</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">या Google खात्याशी लिंक केलेल्या कोणत्याही डिव्हाइसशी यापुढे %1$s पेअर केले जाणार नाही</string>
-    <string name="clear_calling_footer">"तुमची गोपनीयता सुरक्षित ठेवण्यासाठी, सुस्पष्ट कॉलिंग Google ला कधीच ऑडिओ किंवा संभाषणे पाठवत नाही.
+    <string name="clear_calling_footer">"तुमच्या गोपनीयतेचे संरक्षण करण्यासाठी, सुस्पष्ट कॉलिंग हे Google ला ऑडिओ किंवा संभाषणे पाठवत नाही.
 
-तुमच्या वाय-फाय आणि मोबाइल नेटवर्कवर अवलंबून सुस्पष्ट कॉलिंग उपलब्ध आहे."</string>
-    <string name="clear_calling_title">क्लिअर कॉलिंग</string>
-    <string name="clear_calling_toggle">क्लिअर कॉलिंग वापरा</string>
+सुस्पष्ट कॉलिंग हे वाय-फाय कॉलिंग आणि बहुतांश नेटवर्कवर काम करते, 3G नेटवर्कवर उपलब्ध नाही."</string>
+    <string name="clear_calling_title">सुस्पष्ट कॉलिंग</string>
+    <string name="clear_calling_toggle">सुस्पष्ट कॉलिंग वापरा</string>
     <string name="clear_calling_topintro">कॉलदरम्यान बॅकग्राउंडमधील आवाज कमी करते</string>
     <string name="columbus_gesture_detected">क्विक टॅप डिटेक्ट केले!</string>
     <string name="columbus_gesture_enrollment_complete">पूर्ण झाले</string>
@@ -146,14 +154,9 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">तुम्ही हे ॲप क्विक टॅप वापरून उघडता तेव्हा, काय होईल ते निवडा.</string>
     <string name="columbus_setting_enable_switch_title">क्विक टॅप वापरा</string>
     <string name="columbus_setting_sensitivity_title">जोरात टॅप करणे आवश्यक आहे</string>
-    <string name="communal_cast_summary">या डिव्हाइसवर आणि डिव्हाइसमधून कास्ट करा</string>
     <string name="communal_lock_screen_summary">गोपनीयता, सूचना आणि होम कंट्रोल्स</string>
-    <string name="communal_settings_summary_1">लॉक आणि डॉक केलेले असतानाचे वर्तन</string>
-    <string name="communal_settings_summary_2">डॉकवरील पर्याय</string>
-    <string name="communal_settings_summary_3">डॉक आणि लॉक स्‍क्रीन पर्याय</string>
-    <string name="communal_settings_summary_4">लॉक स्‍क्रीन आणि डॉकवरील पर्याय</string>
-    <string name="communal_settings_title">हब मोड</string>
-    <string name="communal_smartspace_summary">Assistant कडून रिमाइंडर, सूचनाआणि आणखी बरेच काही</string>
+    <string name="communal_other">इतर</string>
+    <string name="communal_smartspace_summary">Assistant कडून रिमाइंडर, सूचना आणि आणखी बरेच काही</string>
     <string name="communal_smartspace_title">एक दृष्‍टिक्षेप</string>
     <string name="communal_what_to_show">काय दाखवायचे</string>
     <string name="communal_what_to_use">काय वापरावे</string>
@@ -163,14 +166,25 @@
     <string name="connectivity_helper_d2d_summary">कॉलदरम्यान तुमच्या फोनला कनेक्शनसंबंधित समस्या येते तेव्हा दुसऱ्या व्यक्तीला सूचित करा</string>
     <string name="connectivity_helper_d2d_title">कनेक्शनसंबंधित माहिती शेअर करा</string>
     <string name="connectivity_helper_footnote">दुसरा कॉलर सपोर्ट असलेले डिव्हाइस आणि नेटवर्क वापरतो तेव्हा तुम्ही कनेक्शनसंबंधित माहिती शेअर करू शकता</string>
-    <string name="content_capture">अ‍ॅप डेटा वापरून पर्सनलाइझ करा</string>
-    <string name="copy_toast_msg">लिंक क्लिपबोर्डवर कॉपी केली</string>
-    <string name="dark_ui_text">तुमची बॅटरी अधिक काळ टिकून राहावी यासाठी गडद थीम काळी बॅकग्राउंड वापरते. तुमची स्क्रीन बंद होईपर्यंत गडद थीमची शेड्युल सुरू होत नाहीत.</string>
+    <string name="debugging_data_title">डेटा डीबग करणे</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">टिपा शोधा</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">फोन चार्ज होत आहे</string>
-    <string name="double_twist_for_camera_mode_summary">Google कॅमेरा मध्ये सेल्फी मोडमध्ये जाण्यासाठी आणि त्यातून बाहेर येण्यासाठी, तुम्ही अ‍ॅपमध्ये असताना दोनदा फिरवा.</string>
-    <string name="downloads_backup_text">डाउनलोड केलेल्या फायलींचा Google ड्राइव्हवर बॅक अप घेतला जाईल</string>
-    <string name="duration_less_than_one_minute">एका मिनिटापेक्षा कमी</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">वर सूचीबद्ध केलेल्या सर्व बदलांचा समावेश करते. अत्यावश्यक नसलेली अ‍ॅप्स आणि त्यांच्या सूचनादेखील थांबवते.</string>
+    <string name="extreme_battery_saver_title">एक्स्ट्रीम बॅटरी सेव्हर</string>
+    <string name="face_confirmation_hide_illustration_description">तुम्ही तुमचा फोन उचलता किंवा स्क्रीनवर टॅप करता, तेव्हा अनलॉक करण्यासाठी आता तुम्ही तुमचा चेहरा वापरू शकता.</string>
+    <string name="face_confirmation_info_enough_light">पुरेसा प्रकाश असल्यास आणि तुम्ही मास्क किंवा गडद चष्मा घातलेला नसल्यास, फेस अनलॉक सर्वोत्तम काम करते.</string>
+    <string name="face_confirmation_info_outside_screen">फेस अनलॉक फक्त बाहेरील स्क्रीनवरून काम करते</string>
     <string name="face_enrolling_center_head">आतील फ्रेममध्ये तुमचा चेहरा ठेवा</string>
+    <string name="face_enrolling_close_to_continue">सेटअपदरम्यान फोन फोल्ड करा</string>
+    <string name="face_enrolling_close_to_continue_description">सेट अप किंवा फेस अनलॉक वापरण्यासाठी फोन फोल्ड केलेला असावा</string>
     <string name="face_enrolling_description">सर्व टाइल काढून तुमच्या चेहेऱ्याचे सर्व कोन कॅप्चर करा.</string>
     <string name="face_enrolling_do_it_later">हे नंतर करा</string>
     <string name="face_enrolling_gaze_dialog_cancel">रद्द करा</string>
@@ -189,55 +203,63 @@
     <string name="face_enrolling_too_right">फोन तुमच्या डावीकडे हलवा</string>
     <string name="face_enrolling_turn_head_to_arrow">तुमचे डोके बाणाच्या दिशेने वळवा</string>
     <string name="face_enrolling_turned_too_far">डोके थोडे कमी वळवा</string>
-    <string name="fallback_menu_item_copy_link">लिंक कॉपी करा</string>
-    <string name="fallback_menu_item_open_in_browser">ब्राउझरमध्ये उघडा</string>
-    <string name="fallback_menu_item_share_link">लिंक शेअर करा</string>
-    <string name="fullbackup_data_summary">"Google ड्राइव्हवर (वाय-फाय पासवर्ड आणि कॉल इतिहास यासारख्या) डिव्हाइस डेटाचा आणि (अ‍ॅप्सद्वारे स्टोअर केलेल्या सेटिंग्ज आणि फाइल यासारख्या) अ‍ॅप डेटाचा आपोआप बॅक अप घ्या.
-
-तुम्ही स्वयंचलित बॅकअप सुरू करता तेव्हा, Google ड्राइव्हमधील एका खाजगी फोल्डरमध्ये डिव्हाइस आणि अ‍ॅप डेटा अधूनमधून सेव्ह केला जातो. अ‍ॅप डेटा हे अ‍ॅप ने सेव्ह केलेला (डेव्हलपर सेटिंग्जवर आधारित), संपर्क, मेसेज आणि फोटो यासारख्या संभाव्य संवेदनशील डेटासह, कोणताही डेटा असू शकतो.
-
-बॅकअप डेटाची तुमच्या ड्राइव्ह स्टोरेज कोट्यासाठी गणना केली जाणार नाही. मोठ्या फाइल किंवा डेव्हलपरनी सेवेतून वगळण्यासाठी निवडलेल्या फाईलचा बॅकअप घेतला जाणार नाही."</string>
-    <string name="fullbackup_erase_dialog_message">डिव्हाइस डेटाचा (वाय-फाय पासवर्ड आणि कॉल इतिहास यासारख्या) आणि (अ‍ॅप्सद्वारे स्टोअर केलेल्या सेटिंग्ज आणि फाइल यासारख्या) अ‍ॅप डेटाचा बॅकअप घेणे थांबवून, Google ड्राइव्हवरील सर्व प्रती मिटवायच्या?</string>
+    <string name="firmware_update_status_category">डिव्हाइस फर्मवेयर स्टेटस</string>
+    <string name="firmware_update_status_title">फर्मवेअर अपडेट उपलब्ध आहे</string>
+    <string name="firmware_update_version_number_category">डिव्हाइस फर्मवेयर आवृत्ती</string>
+    <string name="firmware_update_version_number_title">Pixel कीबोर्ड फर्मवेअर</string>
     <string name="gesture_aware_confirmation_action_button">समजले</string>
-    <string name="gesture_aware_footer"><annotation link="link">प्राधान्ये</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">प्राधान्ये</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">प्राधान्ये</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">प्राधान्ये</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">डावीकडून उजवीकडे</string>
     <string name="gesture_skip_direction_rtl">उजवीकडून डावीकडे</string>
     <string name="gesture_skip_direction_title">वगळण्यासाठीची दिशा</string>
-    <string name="gesture_skip_footer"><annotation link="link">प्राधान्ये</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">प्राधान्ये</annotation></string>
-    <string name="global_actions_panel_short_title">कार्ड आणि पास</string>
-    <string name="global_actions_panel_summary">तुमच्या पमेंट पद्धती आणि बोर्डिंग पास यांसारख्या गोष्टी अ‍ॅक्सेस करण्यासाठी, पॉवर बटण दाबा आणि धरून ठेवा.</string>
-    <string name="global_actions_panel_title">कार्ड आणि पास दाखवा</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">प्राधान्ये</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">प्राधान्ये</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">Play Store च्या व्यतिरिक्त इतर स्रोतांवरील ॲप्सच्या स्थापनेस अनुमती द्या</string>
-    <string name="keywords_accessibility_menu">मोटर, क्विक मेनू, साहाय्यकारी मेनू, स्पर्श करणे, कौशल्य</string>
     <string name="keywords_adaptive_alert_vibration">हॅप्टीक्स, व्हायब्रेट, फोन, कॉल, रिंग, इशारा, सूचना, मोठा आवाज, शांत, गोंगाट, केस, अडॅप्टिव्ह</string>
     <string name="keywords_adaptive_charging">चार्ज करा, चार्जिंग, स्मार्ट चार्जिंग, अडॅप्टिव्ह चार्जिंग, बॅटरी, बॅटरीची स्थिती</string>
-    <string name="keywords_assist_gesture_launch">जेश्चर, कोपरा, बाजू, सक्रिय कोपरा, स्क्वीझ, पकड, साहाय्य, साहाय्यक, स्क्वीझ, ok google, Google Assistant</string>
     <string name="keywords_assist_gesture_silence">जेश्चर, कोपरा, बाजू, सक्रिय कोपरा, शांतता, स्नूझ, अलार्म, येणारा कॉल, गप्प, डिस्प्ले, लॉकस्क्रीन, स्क्वीझ, पकड, थांबा</string>
     <string name="keywords_assist_gesture_wake">जेश्चर, कोपरा, बाजू, सक्रिय कोपरा, जागे करा, सूचना, स्क्रीन, डिस्प्ले, स्क्रीन बंद, स्क्रीन सुरू, स्क्वीझ, झोपलेला, झोपणे, पकड</string>
     <string name="keywords_battery_share">बॅटरी शेअर, वायरलेस चार्जिंग</string>
     <string name="keywords_battery_share_settings">बॅटरी शेअर, रिव्हर्स वायरलेस चार्जिंग</string>
-    <string name="keywords_content_capture">आशय कॅप्चर, अ‍ॅप आशय, अ‍ॅप डेटा</string>
-    <string name="keywords_gesture">जेश्चर, हालचाली</string>
-    <string name="keywords_global_actions_panel">कार्ड, पास</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">वाॅरंटी, गॅरंटी, मर्यादित हमी, प्रॉमिस, दुरुस्ती, RMA, बदल</string>
-    <string name="keywords_live_transcribe">कॅप्शन, सबटायटल, सबटायटल, लाइव्ह कॅप्शन, कमी ऐकू येणे, ऐकू न येणे, CART, स्‍पीच टू टेक्‍स्‍ट, सबटायटल</string>
     <string name="keywords_reverse_charging_stop_threshold">फोनच्या बॅटरीने ही पातळी गाठल्यास, ती शेअर करणे थांबवा:</string>
-    <string name="keywords_select_to_speak">मजकूर ऐका, मोठ्याने वाचा, स्क्रीन वाचा, स्क्रीन रीडर</string>
-    <string name="keywords_sound_amplifier">PSAP, अँप्लिफाय करा, साउंड अँप्लिफिकेशन, कमी ऐकू येणे, ऐकू न येणे, अँप्लिफिकेशन</string>
-    <string name="keywords_sound_notifications">सूचना, कमी ऐकू येणे, ऐकू न येणे, सूचित करा</string>
-    <string name="keywords_switch_access">मोटर, स्विच, हात, AT, साहाय्यकारी तंत्रज्ञान, अर्धांगवायु, ALS, स्कॅन करणे, पायऱ्या स्कॅन करणे</string>
-    <string name="keywords_talkback">स्क्रीन रीडर, व्हॉइस ओव्हर, व्हॉइसओव्हर, व्हॉइस असिस्ट, अंध, कमी दृश्यमानता, TTS, टेक्‍स्‍ट टू स्‍पीच, वाचिक फीडबॅक</string>
-    <string name="keywords_voice_access">व्हॉइस, व्हॉइस नियंत्रण, मोटर, हात, माइक, मायक्रोफोन, डिक्टेशन, बोलणे, नियंत्रण</string>
-    <string name="language_input_gesture_summary_off">Active Edge बंद आहे</string>
-    <string name="language_input_gesture_summary_on_non_assist">Active Edge सुरू केले</string>
-    <string name="language_input_gesture_summary_on_with_assist">Active Edge सुरू आहे, तुमच्या साहाय्यकासाठी दाबा</string>
+    <string name="led_preference_title">LED इंडिकेटरचे पॅटर्न</string>
+    <string name="legal_source_code_description">मुक्त स्रोत म्हणून उपलब्ध असलेल्या घटकांसाठीच्या स्रोत कोडचे तपशील Pixel मदत केंद्रावर मिळतील.</string>
+    <string name="legal_source_code_title">स्रोत कोड</string>
     <string name="limited_warranty_introduction">या डिव्हाइससाठी हमी पाहण्याकरिता, जेथे खरेदी केली त्या देशावर टॅप करा. हमी g.co/devicewarranty येथेदेखील उपलब्ध आहे</string>
     <string name="limited_warranty_title">मर्यादित हमी</string>
-    <string name="me_card_title">माझे Pixel</string>
-    <string name="my_device_info_account_preference_title">Google खाते</string>
-    <string name="owner_info_settings_edit_text_hint">उदा. जो चा Pixel</string>
+    <string name="lockscreen_show_weather_summary">सध्याची हवामान परिस्थिती पहा</string>
+    <string name="lockscreen_show_weather_title">हवामान दाखवा</string>
+    <string name="permit_debugging_data">बग रिपोर्ट अ‍ॅक्सेस करण्याची अनुमती द्या</string>
+    <string name="play_application_detail_indication_summary">अपडेट तपासा</string>
+    <string name="play_application_update_entry_title">ॲप अपडेट</string>
+    <string name="repair_mode_active_summary">रिपेअर मोडमध्ये आहे</string>
+    <string name="repair_mode_summary">डिव्हाइस दुरुस्तीसाठी सुरक्षित वातावरण</string>
+    <string name="repair_mode_title">रिपेअर मोड</string>
+    <string name="request_google_account_summary">Google खाते जोडा</string>
     <string name="reverse_charging_auto_turn_on_subtitle">तुमचा फोन हा चार्जरमध्ये प्लग इन केलेला असेल, तेव्हा तो थोड्या कालावधीसाठी आपोआप सुरू होईल</string>
     <string name="reverse_charging_auto_turn_on_title">आपोआप सुरू करा</string>
     <string name="reverse_charging_charging_wirelessly_message">फोन वायरलेस पद्धतीने चार्ज होत असल्यामुळे उपलब्ध नाही</string>
@@ -256,66 +278,26 @@
     <string name="reverse_charging_is_on_and_discharging_summary">बॅटरी शेअर करत आहे</string>
     <string name="reverse_charging_is_on_summary">सुरू आहे / इतर डिव्हाइस चार्ज करा</string>
     <string name="reverse_charging_main_switch">बॅटरी शेअर वापरा</string>
-    <string name="reverse_charging_off_low_battery_summary">बंद आहे / फोनची बॅटरी %1$s पेक्षा कमी आहे</string>
-    <string name="reverse_charging_off_sharing_level_summary">बंद आहे / बॅटरी शेअरिंग पातळीपेक्षा कमी आहे</string>
     <string name="reverse_charging_overheat_summary">Pixel फोन खूप गरम झाल्यामुळे उपलब्ध नाही. फोन थंड होण्याची प्रतीक्षा करा आणि पुन्हा प्रयत्न करा.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">बॅटरी सेव्हर सुरू असल्यामुळे उपलब्ध नाही</string>
     <string name="reverse_charging_sharing_level_message">बॅटरी शेअरिंग पातळीपेक्षा कमी असल्यामुळे उपलब्ध नाही</string>
-    <string name="reverse_charging_switch_summary">तुमच्या Pixel च्या मागच्या बाजूवर डिव्हाइस ठेवा</string>
     <string name="reverse_charging_switch_title">इतर डिव्हाइस तुमच्या Pixel च्या मागच्या बाजूवर ठेवून ती चार्ज करा</string>
-    <string name="reverse_charging_switch_title_message">इतर डिव्हाइस चार्ज करा</string>
     <string name="reverse_charging_title">बॅटरी शेअर</string>
     <string name="reverse_charging_unplug_usb_cable_message">USB-C डिव्हाइस प्लग-इन केले असल्यामुळे उपलब्ध नाही</string>
     <string name="reverse_charging_warning_summary">बॅटरी %1$s पेक्षा कमी असल्यामुळे उपलब्ध नाही</string>
     <string name="reverse_charging_warning_title">बॅटरी %1$s पेक्षा कमी असल्यामुळे बॅटरी शेअर उपलब्ध नाही</string>
-    <string name="rtt_settings_always_visible">नेहमी दृश्‍यमान</string>
-    <string name="rtt_settings_no_visible">दृश्यमान नसलेले</string>
-    <string name="rtt_settings_title">रीअल-टाइम टेक्‍स्‍ट (RTT)</string>
-    <string name="rtt_settings_visible_during_call">कॉलच्या दरम्यान दृश्यमान असलेले</string>
-    <string name="screen_time_summary_usage_today">आज %1$s</string>
-    <string name="search_bar_account_avatar_content_description">प्रोफाइल चित्र, Google खाते उघडण्यासाठी दोनदा टॅप करा</string>
+    <string name="search_gesture_category_title">स्क्रीनवर शोधा</string>
+    <string name="search_long_press_home_button_summary">तुमच्या स्क्रीनवर Google Search सुरू करण्यासाठी होम बटण प्रेस करून धरून ठेवा.</string>
+    <string name="search_long_press_home_button_title">शोधण्यासाठी होम बटण धरून ठेवा</string>
+    <string name="search_press_hold_gesture_summary">तुमच्या स्क्रीनवर शोध सुरू करण्यासाठी नेव्हिगेशन हँडल प्रेस करून धरून ठेवा.</string>
+    <string name="search_press_hold_gesture_title">शोधण्यासाठी हँडल धरून ठेवा</string>
     <string name="security_dismiss_dialog_dismiss_button">डिसमिस करा</string>
     <string name="security_dismiss_dialog_title">चेतावणी डिसमिस करायची का?</string>
-    <string name="security_settings_face_enroll_consent_introduction_title">फेस अनलॉक ला अनुमती देणे</string>
-    <string name="security_settings_face_enroll_education_message">स्क्रीन पुढे, तुमच्या चेहऱ्यावरील सर्व कोन कॅप्चर करण्यासाठी तुमचे डोके फिरवा</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">पुढील स्क्रीनवर, तुमचा फोन डोळ्याच्या पातळीवर धरा</string>
-    <string name="security_settings_face_enroll_error_generic_dialog_message">फेस एनरोलमेंटचा उपयोग झाला नाही.</string>
-    <string name="security_settings_face_enroll_error_timeout_dialog_message">फेस एनरोलमेंट वेळ मर्यादा गाठली. पुन्हा प्रयत्न करा.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">फेस अनलॉक सेट करण्याची वेळ संपली</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी किंवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी, आता तुम्ही तुमचा चेहरा वापरू शकता</string>
-    <string name="security_settings_face_enroll_finish_description_without_bp">"आता तुम्ही तुमचा फोन उचलता किंवा स्क्रीनवर टॅप करता तेव्हा, अनलॉक करण्यासाठी, तुम्ही तुमचा चेहरा वापरू शकता.
+    <string name="security_settings_face_enroll_finish_description_with_bp">ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी अथवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी, आता तुम्ही तुमचा चेहरा वापरू शकता</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"तुम्ही तुमचा फोन उचलता किंवा स्क्रीनवर टॅप करता, तेव्हा तो अनलॉक करण्यासाठी, आता तुम्ही तुमचा चेहरा वापरू शकता.
 
-पुरेसा प्रकाश असताना आणि तुम्ही मास्क किंवा गडद चष्मा घातला असताना, फेस अनलॉक अधिक चांगले काम करते."</string>
-    <string name="security_settings_face_enroll_finish_title">कोणत्याही समस्या नाहीत!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">मर्यादित दृष्टी/डोक्याच्या हालचालीचे सेटअप</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">फेस अनलॉक वापरताना, तुमचे डोके थेट तुमच्या फोनच्या अगदी समोर असणे आवश्यक आहे.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">सावध राहण्याची आवश्यकता आहे</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"तुम्ही आणि तुमचे लहान मूल त्यांचे फेस मॉडेल हटवू शकते किंवा सेटिंग्ज मध्ये फेस अनलॉक कधीही बंद करू शकते. फेस मॉडेल हटवली जात नाहीत तोपर्यंत ती फोनवर स्टोअर केली जातात.
-
- g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">तुम्ही आणि तुमच्या लहान मुलाकडे नियंत्रण आहे</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"तुम्ही सेटिंग्ज मध्ये कधीही तुमचे फेस मॉडेल हटवू शकता किंवा फेस अनलॉक बंद करू शकता. तुम्ही फेस मॉडेल हटवेपर्यंत ती फोनवर स्टोअर केली जातात.
-
-g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">तुम्ही नियंत्रक आहात</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"ते तुमचे लहान मूल आहे याची पडताळणी करण्यासाठी फेस अनलॉक हे त्यांच्या चेहऱ्याचे युनिक मॉडेल तयार करते. सेटअपदरम्यान हे फेस मॉडेल तयार करण्यासाठी, तुमचे लहान मूल त्यांच्या चेहऱ्याचे वेगवेगळ्या बाजूने फोटो काढेल.
-
-ते फेस अनलॉक वापरतात तेव्हा, त्यांचे फेस मॉडेल अपडेट करण्यासाठी इमेज वापरल्या जातात. त्यांचे फेस मॉडेल तयार करण्यासाठी वापरलेल्या इमेज स्टोअर केल्या जात नाहीत, पण फेस मॉडेल फोनवर सुरक्षितरीत्या स्टोअर केले जाते आणि ते फोनमध्ये कायम राहते. फोनवर सर्व प्रक्रिया सुरक्षितरीत्या होते."</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"ते तुम्ही आहात याची पडताळणी करण्यासाठी फेस अनलॉक हे तुमच्या चेहऱ्याचे युनिक मॉडेल तयार करते. सेटअपदरम्यान हे फेस मॉडेल तयार करण्यासाठी, तुम्ही तुमच्या चेहऱ्याचे वेगवेगळ्या बाजूने फोटो काढाल.
-
-तुम्ही फेस अनलॉक वापरता तेव्हा, तुमचे फेस मॉडेल अपडेट करण्यासाठी इमेज वापरल्या जातात. तुमचे फेस मॉडेल तयार करण्यासाठी वापरलेल्या इमेज स्टोअर केल्या जात नाहीत, पण फेस मॉडेल तुमच्या फोनवर सुरक्षितरीत्या स्टोअर केले जाते आणि ते फोनमध्ये कायम राहते. तुमच्या फोनवर सर्व प्रक्रिया सुरक्षितरीत्या होते."</string>
-    <string name="security_settings_face_enroll_introduction_how_title">हे कसे काम करते</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">फेस अनलॉक ला फोन अनलॉक करण्यासाठी किंवा तुमच्या लहान मुलाच्या ओळखीची पडताळणी करण्यासाठी त्यांचे डोळे उघडे ठेवण्याची आवश्यकता भासू शकते. तुमचे लहान मूल आणि तुम्ही सेटिंग्ज मध्ये हा पर्याय कधीही सुरू करू शकता.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">तुमचे लहान मूल नेहमी चष्मा वापरत असल्यास, ते सेटअपदरम्यान तो घालू शकतात.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">तुमच्‍या लहान मुलाचा फोन अनलॉक करण्‍यासाठी त्यांचा चेहरा वापरणे हे क्लिष्ट पॅटर्न, पिन किंवा पासवर्डपेक्षा कमी सुरक्षित असू शकते</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">फोन अनलॉक करायचा नसतानाही त्यांनी त्याकडे पाहिल्यास तो अनलॉक होऊ शकतो. त्यांच्यासारखे दिसणारे भावंड फोनसमोर आल्यास किंवा त्यांचा फोन त्यांच्या चेहऱ्यासमोर धरल्यामुळेदेखील तो अनलॉक केला जाऊ शकतो.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">फेस अनलॉक ला फोन अनलॉक करण्यासाठी किंवा तुमच्या ओळखीची पडताळणी करण्यासाठी तुमचे डोळे उघडे ठेवण्याची आवश्यकता भासू शकते. तुम्ही सेटिंग्ज मध्ये हा पर्याय कधीही सुरू करू शकता.</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">चष्मा किंवा हलक्या रंगाचा सनग्लास ठीक आहे.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">तुमचा फोन अनलॉक करण्यासाठी चेहरा वापरणे हे क्लिष्ट पॅटर्न, पिन किंवा पासवर्डपेक्षा कमी सुरक्षित असू शकते</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">फोन अनलॉक करायचा नसतानाही तुम्ही त्याकडे पाहिल्यास तो अनलॉक होऊ शकतो. तुमच्यासारखे दिसणारे भावंड फोनसमोर आल्यास किंवा एखाद्या व्यक्तीने तुमचा फोन तुमच्या चेहऱ्यासमोर धरल्यामुळेदेखील तो अनलॉक केला जाऊ शकतो.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">लक्षात ठेवा</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">तुम्ही ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना तुमचा फोन अनलॉक करण्यासाठी किंवा ते तुम्हीच आहात याची पडताळणी करण्यासाठी तुमचा चेहरा वापरा.</string>
-    <string name="security_settings_face_enroll_introduction_title">फेस अनलॉक सेट करा</string>
+पुरेसा प्रकाश असल्यास आणि तुम्ही मास्क किंवा गडद चष्मा घातलेला नसल्यास, फेस अनलॉक सर्वोत्तम काम करते."</string>
     <string name="security_settings_face_enroll_next">पुढील</string>
     <string name="security_settings_face_enroll_partial_message">परफॉर्मन्समध्ये सुधारणा करण्यासाठी, तुम्ही सेटिंग्ज मध्ये फेस अनलॉक पुन्हा सेट करू शकता</string>
     <string name="security_settings_face_enroll_partial_start_over">पुन्हा सुरू करा</string>
@@ -330,35 +312,60 @@ g.co/pixel/faceunlock येथे अधिक जाणून घ्या."</
     <string name="security_settings_face_enroll_too_hot_message">फोन खूपच गरम झाल्यामुळे फेस अनलॉक सेट करणे पूर्ण करता आले नाही. फोन थंड झाल्यानंतर पुन्हा प्रयत्न करा.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">फेस अनलॉक करणे वगळा</string>
     <string name="security_settings_face_enroll_too_hot_title">फोन खूपच गरम झाला आहे</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message">तो तुमच्या फोनच्या मागील भागावर आहे. तुमची तर्जनी वापरा.</string>
-    <string name="security_settings_fingerprint_preference_summary_none">फिंगरप्रिंट सेट करण्यासाठी टॅप करा</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel फिंगरप्रिंट अनलॉकबद्दल &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; येथे अधिक जाणून घ्या."</string>
-    <string name="security_settings_work_fingerprint_preference_title">ऑफिससाठी Pixel Imprint</string>
-    <string name="setup_suggestion_summary">डेटा कॉपी, फोनने पेमेंट व इतर गोष्टी करा</string>
+    <string name="setup_suggestion_summary">फक्त आणखी काही पायऱ्या शिल्लक आहेत</string>
     <string name="setup_suggestion_title">सेट अप करणे पूर्ण करा</string>
-    <string name="smart_battery_footer">बॅटरी लाइफ वाढवण्यासाठी अडॅप्टिव्ह बॅटरी परफॉर्मन्स आणि बॅकग्राउंड अ‍ॅक्टिव्हिटी कमी करू शकते. काही सूचना उशिराने मिळू शकतात.</string>
-    <string name="smart_battery_manager_title">अडॅप्टिव्ह प्राधान्ये</string>
-    <string name="smart_battery_title">अडॅप्टिव्ह बॅटरी</string>
-    <string name="sound_dashboard_summary">व्हॉल्यूम, हॅप्टिक, व्यत्यय आणू नका</string>
-    <string name="sound_settings">आवाज आणि व्हायब्रेशन</string>
-    <string name="storage_manager_indicator">स्मार्ट स्टोरेज: ^1</string>
-    <string name="suw_back_button_label">मागे</string>
+    <string name="software_update_can_be_updated_header">तुमचे Pixel आणखी चांगले बनवा</string>
+    <string name="software_update_detail_indication_1_update_available">१ अपडेट उपलब्ध आहे</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">%1$d अपडेट उपलब्ध आहेत</string>
+    <string name="software_update_detail_indication_action_required">कृती आवश्यक आहे</string>
+    <string name="software_update_entry_title">सॉफ्टवेअर अपडेट</string>
+    <string name="software_update_entry_up_to_date_summary">तुमचे Pixel अप टू डेट ठेवा</string>
+    <string name="software_update_pending_update_summary">अपडेट प्रलंबित आहे</string>
+    <string name="software_update_unknown_state_summary">नंतर पुन्हा तपासा</string>
+    <string name="software_update_up_to_date_header">तुमचा Pixel अप टू डेट आहे</string>
+    <string name="software_update_up_to_date_summary">अप टू डेट आहे</string>
+    <string name="software_update_up_to_specific_date_summary">%1$s रोजी अपडेट केले आहे</string>
+    <string name="software_update_update_available_summary">अपडेट उपलब्ध आहे</string>
+    <string name="speed_boost_summary_off">बंद आहे</string>
+    <string name="speed_boost_summary_on">सुरू आहे</string>
+    <string name="speed_boost_title">स्पेक्ट्रम स्पीड बूस्ट</string>
     <string name="suw_limited_warranty_title">मर्यादित हमी</string>
-    <string name="suw_more_button_label">अधिक</string>
-    <string name="suw_next_button_label">पुढे जा</string>
     <string name="suw_warranty_description">तुमची मर्यादित हमी पाहण्यासाठी, तुम्ही हे डिव्हाइस जेथून खरेदी केले आहे तो देश निवडा.&lt;br /&gt;&lt;br /&gt;वॉरंटी ही &lt;b&gt;सेटिंग्ज &gt; फोनबद्दल &gt; मर्यादित हमी&lt;/b&gt; आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
-    <string name="suw_warranty_description_content">तुमची मर्यादित हमी पाहण्यासाठी, तुम्ही हे डिव्हाइस जेथून खरेदी केले आहे तो देश निवडा. वॉरंटी ही सेटिंग्ज त्यानंतर फोनबद्दल वर जाऊन मर्यादित हमी आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
+    <string name="suw_warranty_description_content">तुमची मर्यादित हमी पाहण्यासाठी, तुम्ही हे डिव्हाइस जेथून खरेदी केले आहे तो देश निवडा. वॉरंटी ही सेटिंग्ज त्यानंतर फोनबद्दल त्यानंतर मर्यादित हमी आणि g.co/devicewarranty येथेदेखील उपलब्ध आहे.</string>
     <string name="suw_warranty_next_button_text">पुढील</string>
     <string name="suw_warranty_positive_button_text">बंद करा</string>
-    <string name="time_remaining_warning_subtext">तुमच्या वापरानुसार अंदाजे %1$s पुरेल इतकी बॅटरी शिल्लक आहे</string>
-    <string name="time_remaining_warning_text">बॅटरी लवकरच संपण्याची शक्यता आहे</string>
-    <string name="tips_suggestion_summary">फोनने काय करू शकता ते एक्सप्लोर करा</string>
+    <string name="system_update_entry_title">सिस्टीम अपडेट</string>
+    <string name="system_updates_group_title">Pixel चे अपडेट</string>
+    <string name="tips_suggestion_summary">तुम्ही तुमचा फोन वापरून काय करू शकता ते एक्सप्लोर करा</string>
     <string name="tips_suggestion_title">Pixel बाबत जाणून घ्या</string>
     <string name="traffic_light_face_enrolling_title_accessibility">तुमच्या चेहऱ्यासमोर फोन धरा</string>
-    <string name="usb_use_file_transfers">फाइल ट्रान्सफर / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">रंग, थीम असलेले आयकन, अ‍ॅप ग्रिड</string>
+    <string name="unified_battery_saver_page_intro">दोन चार्जदरम्यान तुमच्या फोनची बॅटरी दीर्घकाळ टिकण्यात मदत करण्यासाठी पॉवरची बचत करा</string>
+    <string name="vpn_app_bypass">निवडलेली अ‍ॅप्स वगळा</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">सध्याची वाहक ॲप्स</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">VPN मधून %1$d वाहक अ‍ॅप्स वगळायची आहेत का?</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">काही वाहक अ‍ॅप्स ही फक्त त्यांच्या स्वतःच्या नेटवर्कवर काम करतात</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">या डिव्हाइसवर कोणतीही वाहक अ‍ॅप्स नाहीत</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">तुम्ही कोणतीही नवीन वाहक ॲप्स इंस्टॉल करता, तेव्हा तुम्हाला सूचित केले जाईल</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">VPN मधून %1$d वाहक अ‍ॅप काढून टाकायचे आहे का?</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">VPN मधून वाहक अ‍ॅप्स काढून टाकायची आहेत का?</string>
+    <string name="vpn_bypass_cancel">रद्द करा</string>
+    <string name="vpn_bypass_carrier_accessibility_description">वाहकाची अ‍ॅप सुरू/बंद करणे वगळा</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">वाहक अ‍ॅप्सना VPN कडे दुर्लक्ष करण्याची आणि तुमच्या फोनचे नियमित नेटवर्क कनेक्शन वापरण्याची अनुमती देऊन, ते वाहक अ‍ॅप्समध्ये बिघाड होण्यापासून रोखू शकते.</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">वाहकाशी संबंधित नवीन इंस्टॉल केलेल्या अ‍ॅप्सचे पुनरावलोकन करा</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">वाहक अ‍ॅप्स टॉगल करा</string>
+    <string name="vpn_bypass_carrier_description">वाहक अ‍ॅप्स वगळा</string>
+    <string name="vpn_bypass_category_title">VPN मधून अ‍ॅप्स वगळली</string>
+    <string name="vpn_bypass_description">वगळलेली अ‍ॅप्स ही VPN वापरणार नाहीत. काही मोबाइल वाहक अ‍ॅप्स फक्त त्यांच्या स्वतःच्या नेटवर्कवर VPN शिवाय काम करतात.</string>
+    <string name="vpn_bypass_exclude">वगळा</string>
+    <string name="vpn_exclude_ntf_content">तुमच्याकडे नव्याने इंस्टॉल केलेली वाहक अ‍ॅप्स आहेत, जी कदाचित VPN सह काम करणार नाहीत</string>
+    <string name="vpn_exclude_ntf_title">VPN मधून नवीन अ‍ॅप्स काढून टाकायची आहेत का?</string>
+    <string name="vpn_preference_group_title">इतर</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s (%2$s)</string>
-    <string name="wifi_subscription_summary">OpenRoaming सदस्यत्व पहा किंवा बदला</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$s सह कनेक्ट केले</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">कनेक्ट करण्यासाठी टॅप करा</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">कनेक्ट करू शकत नाही. पुन्हा प्रयत्न करण्यासाठी टॅप करा.</string>

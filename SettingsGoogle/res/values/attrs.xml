@@ -22,6 +22,21 @@
     <attr name="fingerprint_sensor_location_color5" format="color" />
     <attr name="fingerprint_sensor_location_color6" format="color" />
     <attr name="fingerprint_sensor_location_color7" format="color" />
+    <attr name="lineDivider">
+        <enum name="bottom" value="2" />
+        <enum name="none" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="roundDirection">
+        <enum name="bottom" value="3" />
+        <enum name="middle" value="2" />
+        <enum name="none" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="tier">
+        <enum name="first" value="20" />
+        <enum name="second" value="18" />
+    </attr>
     <attr name="firstAction" format="string" />
     <attr name="name" format="string" />
     <attr name="resultCode" format="integer" />

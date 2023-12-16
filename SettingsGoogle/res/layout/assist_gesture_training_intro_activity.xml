@@ -32,14 +32,11 @@
             android:layout_height="wrap_content">
 
             <include layout="@layout/assist_gesture_illustration" />
-
         </FrameLayout>
 
         <Space
             android:layout_width="50.0dip"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
-
     </LinearLayout>
-
 </com.google.android.setupdesign.GlifLayout>

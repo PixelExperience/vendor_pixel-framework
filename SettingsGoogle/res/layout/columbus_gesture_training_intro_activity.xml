@@ -15,5 +15,4 @@
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/gesture_columbus_circle" />
-
 </com.google.android.setupdesign.GlifLayout>

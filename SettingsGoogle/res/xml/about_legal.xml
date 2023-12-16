@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/legal_information">
+    <Preference
+        android:key="copyright"
+        android:title="@string/copyright_title"
+        settings:controller="com.android.settings.deviceinfo.legal.CopyrightPreferenceController" />
+    <Preference
+        android:key="license"
+        android:title="@string/license_title"
+        settings:controller="com.android.settings.deviceinfo.legal.LicensePreferenceController" />
+    <Preference
+        android:key="terms"
+        android:title="@string/terms_title"
+        settings:controller="com.android.settings.deviceinfo.legal.TermsPreferenceController" />
+    <Preference
+        android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard"
+        android:key="module_license"
+        android:title="@string/module_license_title"
+        settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController" />
+    <Preference
+        android:key="webview_license"
+        android:title="@string/webview_license_title"
+        settings:controller="com.android.settings.deviceinfo.legal.WebViewLicensePreferenceController" />
+    <Preference
+        android:key="legal_source_code"
+        android:summary="@string/legal_source_code_description"
+        android:title="@string/legal_source_code_title"
+        settings:controller="com.google.android.settings.deviceinfo.legal.SourceCodeController" />
+    <Preference
+        android:key="wallpaper_attributions"
+        android:selectable="false"
+        android:summary="@string/wallpaper_attributions_values"
+        android:title="@string/wallpaper_attributions"
+        settings:controller="com.android.settings.deviceinfo.legal.WallpaperAttributionsPreferenceController" />
+</PreferenceScreen>

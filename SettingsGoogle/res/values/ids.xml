@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="agree_to_participate" type="id" />
     <item name="animation" type="id" />
@@ -11,53 +11,48 @@
     <item name="browser_actions_menu_item_text" type="id" />
     <item name="browser_actions_menu_items" type="id" />
     <item name="browser_actions_menu_view" type="id" />
+    <item name="bottom_sheet_description" type="id" />
+    <item name="bottom_sheet_title" type="id" />
+    <item name="candidate_apps_header_text" type="id" />
+    <item name="candidate_apps_list" type="id" />
     <item name="card" type="id" />
+    <item name="carrier_app_bypass_label" type="id" />
+    <item name="carrier_app_bypass_layout" type="id" />
+    <item name="carrier_app_bypass_toggle" type="id" />
+    <item name="carrier_apps_layout" type="id" />
+    <item name="carrier_apps_list" type="id" />
+    <item name="carrier_apps_suggestion_chip" type="id" />
     <item name="columbus_gesture_illustration" type="id" />
     <item name="content_container" type="id" />
     <item name="current_score" type="id" />
     <item name="distance_indicator_view" type="id" />
     <item name="dream_container" type="id" />
     <item name="dream_setup_list" type="id" />
+    <item name="enabled_apps_header_text" type="id" />
+    <item name="enabled_apps_hint_text" type="id" />
+    <item name="enabled_apps_list" type="id" />
+    <item name="end_icon" type="id" />
+    <item name="expand_icon" type="id" />
+    <item name="expand_title" type="id" />
     <item name="face_check" type="id" />
     <item name="face_enroll_confirmation" type="id" />
     <item name="face_enroll_participation" type="id" />
     <item name="face_enrolled_anim" type="id" />
     <item name="face_smiley" type="id" />
     <item name="game_view" type="id" />
-    <item name="hats_lib_close_button" type="id" />
-    <item name="hats_lib_multiple_select_checkbox" type="id" />
-    <item name="hats_lib_next" type="id" />
-    <item name="hats_lib_overall_container" type="id" />
-    <item name="hats_lib_prompt_banner" type="id" />
-    <item name="hats_lib_prompt_buttons" type="id" />
-    <item name="hats_lib_prompt_container" type="id" />
-    <item name="hats_lib_prompt_no_thanks_button" type="id" />
-    <item name="hats_lib_prompt_no_thanks_wrapper" type="id" />
-    <item name="hats_lib_prompt_take_survey_button" type="id" />
-    <item name="hats_lib_prompt_take_survey_wrapper" type="id" />
-    <item name="hats_lib_prompt_title_text" type="id" />
-    <item name="hats_lib_star_rating_bar" type="id" />
-    <item name="hats_lib_survey_answers_container" type="id" />
-    <item name="hats_lib_survey_container" type="id" />
-    <item name="hats_lib_survey_controls_container" type="id" />
-    <item name="hats_lib_survey_multiple_choice_icon" type="id" />
-    <item name="hats_lib_survey_multiple_choice_text" type="id" />
-    <item name="hats_lib_survey_open_text" type="id" />
-    <item name="hats_lib_survey_question_rating_container" type="id" />
-    <item name="hats_lib_survey_question_text" type="id" />
-    <item name="hats_lib_survey_rating_high_value_text" type="id" />
-    <item name="hats_lib_survey_rating_icon" type="id" />
-    <item name="hats_lib_survey_rating_images_container" type="id" />
-    <item name="hats_lib_survey_rating_low_value_text" type="id" />
-    <item name="hats_lib_survey_viewpager" type="id" />
-    <item name="hats_lib_thank_you" type="id" />
-    <item name="hats_survey_question_scroll_view" type="id" />
+    <item name="icon_fold" type="id" />
+    <item name="icon_light" type="id" />
+    <item name="illustration_software_update" type="id" />
     <item name="indicator_view" type="id" />
+    <item name="info_enough_light" type="id" />
+    <item name="info_outside_screen" type="id" />
     <item name="item_language" type="id" />
     <item name="items_container" type="id" />
     <item name="learn_more_btn" type="id" />
     <item name="nav_bar" type="id" />
+    <item name="notification_text" type="id" />
     <item name="ok_btn" type="id" />
+    <item name="ok_button" type="id" />
     <item name="percentage_number" type="id" />
     <item name="play_view" type="id" />
     <item name="preview_caption" type="id" />
@@ -98,7 +93,9 @@
     <item name="text_container" type="id" />
     <item name="toolbar_title" type="id" />
     <item name="toolbar_wrapper" type="id" />
+    <item name="top_divider" type="id" />
     <item name="video_view" type="id" />
     <item name="warranty_scroll_view" type="id" />
     <item name="warranty_text" type="id" />
+    <item name="widget" type="id" />
 </resources>

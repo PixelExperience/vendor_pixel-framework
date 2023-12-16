@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <TextView
+        android:id="@id/expand_title"
+        style="@style/PreferenceCategoryTitleTextStyle"
+        android:layout_width="0.0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingEnd="4.0dip"
+        android:textAlignment="viewStart" />
+
+    <ImageView
+        android:id="@id/expand_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_settings_expand_more" />
+</LinearLayout>

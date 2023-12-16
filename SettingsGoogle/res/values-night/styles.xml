@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <style name="NoScreenSaverTextColor">
-        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="*android:textColor">?*android:textColorPrimaryInverse</item>
     </style>
 
     <style name="SuggestionCardIconStyle">
-        <item name="android:tint">?android:textColorPrimaryInverse</item>
+        <item name="*android:tint">?*android:textColorPrimaryInverse</item>
     </style>
 
     <style name="SuggestionCardSummaryColor">
-        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="*android:textColor">?*android:textColorSecondaryInverse</item>
     </style>
 
     <style name="SuggestionCardTitleColor">
-        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="*android:textColor">?*android:textColorPrimaryInverse</item>
     </style>
 </resources>

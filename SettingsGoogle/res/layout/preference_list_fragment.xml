@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    android:id="@id/container_material"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*android:color/transparent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@id/pinned_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground"
+        android:elevation="1.0dip"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@*android:id/list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0px"
+        android:layout_weight="1.0">
+
+        <include layout="@layout/loading_container" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@*android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:padding="@*android:dimen/preference_fragment_padding_side"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@id/tab_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:orientation="vertical"
+        android:theme="@style/Theme.TabTheme"
+        android:visibility="gone">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@id/tabs"
+            style="@style/SettingsLibTabsStyle" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

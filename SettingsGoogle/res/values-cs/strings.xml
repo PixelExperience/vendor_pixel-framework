@@ -1,21 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">Neaktivní zamčená obrazovka</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">Gesto ke ztišení upozornění</string>
     <string name="gesture_skip_title">Přeskočit gesto</string>
     <string name="keywords_touch_sensitivity">dotyk, citlivost, citlivý, ochrana displeje, fólie, responzivní, responzivita</string>
-    <string name="touch_sensitivity_summary">Zvýšit citlivost dotyku a vylepšit reakci na dotyk při použití chrániče obrazovky</string>
+    <string name="keywords_wake_display" />
+    <string name="touch_sensitivity_summary">Zvýší citlivost dotyku a vylepší reakci na dotyk při použití chrániče obrazovky</string>
     <string name="touch_sensitivity_title">Režim ochrany displeje</string>
     <string name="columbus_title">Rychlým poklepáním spouštět akce</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Nastavení funkce Active Edge. Přejděte na další obrazovku nebo pokračujte v úpravách.</string>
     <string name="accessibility_keyboard_haptics_title">Hmatová odezva klávesnice</string>
     <string name="adaptive_alert_vibration_summary">Snižuje sílu vibrací, když je telefon v klidu a otočený displejem nahoru</string>
     <string name="adaptive_alert_vibration_title">Adaptivní vibrační upozornění</string>
+    <string name="adaptive_battery_switch_des">Adaptivní baterie může za účelem prodloužení výdrže baterie omezit výkon a aktivitu na pozadí. Některá oznámení se mohou zpožďovat.</string>
+    <string name="adaptive_battery_switch_title">Používat adaptivní baterii</string>
     <string name="adaptive_charging">Adaptivní nabíjení</string>
     <string name="adaptive_charging_description">Prodloužit životnost baterie plynulým nabíjením během delší doby nabíjení. Aktivuje se podle vašeho cyklu používání.</string>
+    <string name="adaptive_charging_footer">Za účelem prodloužení životnosti baterie se telefon učí vaše zvyklosti při nabíjení a vyčkává, dokud ho nebudete potřebovat plně nabít.</string>
+    <string name="adaptive_charging_link_a11y">Další informace o adaptivním nabíjení</string>
+    <string name="adaptive_charging_main_switch_title">Používání adaptivního nabíjení</string>
     <string name="adaptive_charging_time_estimate"><b>Adaptivní nabíjení</b> • Plně nabito za %1$s</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">Předvolby</annotation></string>
-    <string name="app_and_notification_dashboard_summary">Asistent, nedávné aplikace, výchozí aplikace</string>
+    <string name="adaptive_charging_title">Adaptivní nabíjení</string>
+    <string name="add_bypassed_application_hint">Nebyly přidány žádné aplikace</string>
+    <string name="advanced_vpn_preference_group_title">Integrováno</string>
+    <string name="all_apps_category_title">Všechny aplikace</string>
+    <string name="allow_debugging_data_description">Zprávy o chybách používá společnost Google k diagnostice problémů s aplikacemi a zařízeními v souladu se <a href="https://policies.google.com/privacy">zásadami ochrany soukromí</a>".
+
+"<b>Zprávy o chybách obsahují protokoly aplikací a systému</b>" a mohou zahrnovat osobní údaje a informace o zařízení, jako jsou jména, e‑mailové adresy, telefonní čísla, údaje o poloze, identifikátory zařízení, připojená zařízení a informace o síti. Hlášení mohou být sdílena s technickými partnery, kterých se váš problém může týkat.
+
+Udělením přístupu této aplikaci umožníte "<b>automaticky shromažďovat a nahrávat zprávy o chybách</b>" obsahující protokoly aplikací a systému pro všechna hlášení problémů.
+
+Pokud přístup zrušíte, bude vás aplikace muset požádat o povolení ke shromáždění a nahrání zprávy o chybě u každého jednotlivého hlášení o problému."</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">Předvolby</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">Spustit Asistenta</string>
     <string name="assist_gesture_enrollment_do_it_later">Provést později</string>
     <string name="assist_gesture_enrollment_seekbar_light">Slabé zmáčknutí</string>
@@ -45,17 +69,10 @@
     <string name="assist_gesture_training_suggestion_summary">Mluvení s Asistentem, ztlumení hovorů</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">Mluvení s Asistentem, ztlumení budíků a hovorů</string>
     <string name="assist_gesture_training_suggestion_title">Spuštění Asistenta zmáčknutím a uvolněním</string>
-    <string name="automatic_storage_manager_activation_warning">Když budete připojeni, budete mít nadále přístup k fotkám a videím v kvalitě vybrané pro zálohu.</string>
-    <string name="automatic_storage_manager_days_title">Odstraňovat zálohované fotky a videa</string>
-    <string name="automatic_storage_manager_deactivation_warning">"Vypnout funkci Chytré úložiště? 
-
-Funkce Chytré úložiště neuvolní místo, až budete mít úložiště téměř plné."</string>
-    <string name="automatic_storage_manager_downloads_days_title">Zálohované stažené soubory</string>
-    <string name="automatic_storage_manager_preference_title">Chytré úložiště</string>
-    <string name="automatic_storage_manager_primary_switch_title">Používat Chytré úložiště</string>
-    <string name="automatic_storage_manager_settings">Chytré úložiště</string>
-    <string name="automatic_storage_manager_text">Když se úložiště začne zaplňovat, funkce odstraní zálohované fotky a videa. Obsah bude nadále dostupný ve Fotkách Google.</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">Zapnout</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">Teď ne</string>
     <string name="aware_footer_when_airplane_batterysaver_on">Funkce Motion Sense není k dispozici, protože je zapnutý režim Letadlo a Spořič baterie</string>
     <string name="aware_footer_when_airplane_on">Funkce Motion Sense není k dispozici, protože je zapnutý režim Letadlo</string>
@@ -64,44 +81,34 @@ Funkce Chytré úložiště neuvolní místo, až budete mít úložiště tém�
     <string name="aware_gesture_summary_on_non_assist">Rychlá gesta jsou zapnutá, funkce Active Edge je zapnutá</string>
     <string name="aware_gesture_summary_on_with_assist">Rychlá gesta jsou zapnutá, funkce Active Edge je zapnutá, zmáčknutím aktivujete Asistenta</string>
     <string name="aware_info_button_description">Další nastavení</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">Nedostupné, protože je zapnutý režim Letadlo a Spořič baterie</string>
     <string name="aware_summary_when_airplane_on">Nedostupné, protože je zapnutý režim Letadlo</string>
     <string name="aware_summary_when_batterysaver_on">Nedostupné, protože je zapnutý Spořič baterie</string>
-    <string name="backup_data_summary">Zálohovat data aplikací, hesla sítí Wi-Fi a další nastavení na serverech Google</string>
-    <string name="backup_suggestion_cancel">Zrušit</string>
-    <string name="backup_suggestion_dialog_description">Smažete tím veškerá data z interního úložiště vašeho telefonu.</string>
-    <string name="backup_suggestion_dialog_title">Resetovat zařízení?</string>
-    <string name="backup_suggestion_get_started">další informace</string>
-    <string name="backup_suggestion_item_summary">Zkopírujte data ze zařízení Android nebo iPhone®</string>
-    <string name="backup_suggestion_item_title">Chybí vám původní data?</string>
-    <string name="backup_suggestion_missing_description">"Pokud nemůžete najít některá data (např. zprávy SMS a fotky), můžete je do telefonu Pixel přenést přes kabel.
-
-Telefon Pixel je nejprve potřeba resetovat. Smažete tím veškerá data v tomto telefonu, včetně přizpůsobených nastavení a obsahu, který není synchronizován v cloudu."</string>
-    <string name="backup_suggestion_missing_title">Chybí vám vaše data?</string>
-    <string name="backup_suggestion_next">další</string>
-    <string name="backup_suggestion_other_ways_to_copy">Další způsoby kopírování dat</string>
-    <string name="backup_suggestion_reset_description">"Na další obrazovce můžete telefon Pixel resetovat. Je to jediný způsob, jak přenést data přes kabel.
-
-Po resetování zopakujte proces úvodního nastavení a zkopírujte data z předchozího telefonu."</string>
-    <string name="backup_suggestion_reset_title">Resetování telefonu Pixel</string>
-    <string name="backup_suggestion_what_is_needed_summary">"Po resetování telefonu budete potřebovat následující:
-
-• předchozí telefon (je podporována LINK_BEGINvětšina telefonůLINK_END se systémem Android 5.0 nebo novějším, případně iOS 8.0 nebo novějším),
-• nabíjecí nebo datový kabel původního telefonu,
-• Quick Switch Adapter, který je součástí balení telefonu Pixel."</string>
-    <string name="backup_suggestion_what_is_needed_title">Co budete potřebovat</string>
-    <string name="battery_manager_summary">Prodlužuje výdrž baterie a optimalizuje nabíjení</string>
-    <string name="battery_manager_summary_unsupported">Prodloužení výdrže baterie</string>
-    <string name="battery_missing_link_message">Další informace</string>
-    <string name="battery_suggestion_summary">Zapněte adaptivní baterii</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">Omezuje vizuální efekty a aktivitu na pozadí. Zapne tmavý motiv, pokud již není zapnutý.</string>
+    <string name="basic_battery_saver_title">Standardní spořič baterie</string>
+    <string name="battery_saver_reminder_category">Připomenutí</string>
+    <string name="battery_saver_reminder_switch_summary">Zobrazit připomenutí, když je baterie téměř vybitá</string>
+    <string name="battery_saver_reminder_switch_title">Připomenutí spořiče baterie</string>
+    <string name="battery_saver_schedule_category">Plán</string>
+    <string name="battery_saver_schedule_switch_summary">Spořič baterie se zapne, když nabití baterie klesne na stanovenou úroveň</string>
+    <string name="battery_saver_schedule_switch_title">Zapínat podle stavu baterie</string>
+    <string name="battery_schedule_summary">Spravovat po zapnutí spořiče baterie</string>
+    <string name="battery_schedule_title">Plán a připomenutí</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Když je tablet v doku, za účelem ochrany baterie se nabíjení při %1$s pozastaví</string>
-    <string name="battery_tip_smart_battery_summary">Zapněte adaptivní baterii</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">Zařízení %1$s již nebude spárováno s žádným zařízením, které je s tímto účtem Google propojeno</string>
-    <string name="clear_calling_footer">"Z důvodu ochrany vašeho soukromí funkce Čistý zvuk volání nikdy neodesílá zvuk ani konverzace do Googlu.
+    <string name="clear_calling_footer">"Z důvodu ochrany vašeho soukromí funkce Čistý zvuk volání neodesílá zvuk ani konverzace do Googlu.
 
-Funkce Čistý zvuk volání je k dispozici v závislosti na připojení přes Wi-Fi nebo mobilní síť."</string>
-    <string name="clear_calling_title">Clear Calling</string>
-    <string name="clear_calling_toggle">Používat funkci Clear Calling</string>
+Funkce Čistý zvuk volání funguje při volání přes Wi-Fi a ve většině sítí, pro 3G sítě dostupná není."</string>
+    <string name="clear_calling_title">Čistý zvuk volání</string>
+    <string name="clear_calling_toggle">Používat Čistý zvuk volání</string>
     <string name="clear_calling_topintro">Snižuje hluk v pozadí během hovorů</string>
     <string name="columbus_gesture_detected">Bylo zjištěno rychlé poklepání.</string>
     <string name="columbus_gesture_enrollment_complete">Hotovo</string>
@@ -147,13 +154,8 @@ Funkce Čistý zvuk volání je k dispozici v závislosti na připojení přes
     <string name="columbus_setting_app_shortcut_selection_help_text">Vyberte, co se stane, když tuto aplikaci otevřete pomocí rychlého poklepání.</string>
     <string name="columbus_setting_enable_switch_title">Používat rychlé poklepání</string>
     <string name="columbus_setting_sensitivity_title">Vyžadovat silnější klepnutí</string>
-    <string name="communal_cast_summary">Odesílat do nebo z tohoto zařízení</string>
     <string name="communal_lock_screen_summary">Soukromí, oznámení a ovládání domácnosti</string>
-    <string name="communal_settings_summary_1">Chování při uzamčení a v doku</string>
-    <string name="communal_settings_summary_2">Možnosti chování v doku</string>
-    <string name="communal_settings_summary_3">Možnosti obrazovky uzamčení a chování v doku</string>
-    <string name="communal_settings_summary_4">Možnosti obrazovky uzamčení a chování v doku</string>
-    <string name="communal_settings_title">Režim centra</string>
+    <string name="communal_other">Jiné</string>
     <string name="communal_smartspace_summary">Připomenutí, upozornění a další sdělení od Asistenta</string>
     <string name="communal_smartspace_title">Přehled událostí</string>
     <string name="communal_what_to_show">Co zobrazovat</string>
@@ -164,14 +166,25 @@ Funkce Čistý zvuk volání je k dispozici v závislosti na připojení přes
     <string name="connectivity_helper_d2d_summary">Oznámit během hovoru druhé straně, že váš telefon má problémy s připojením</string>
     <string name="connectivity_helper_d2d_title">Sdílet údaje o připojení</string>
     <string name="connectivity_helper_footnote">Když druhá strana používá podporované zařízení a síť, můžete s ní sdílet údaje o připojení</string>
-    <string name="content_capture">Přizpůsobit pomocí dat aplikací</string>
-    <string name="copy_toast_msg">Odkaz zkopírován do schránky</string>
-    <string name="dark_ui_text">Tmavý motiv používá černé pozadí, a pomáhá tak prodloužit výdrž baterie. Plány tmavého motivu čekají na zapnutí, dokud se obrazovka nevypne.</string>
+    <string name="debugging_data_title">Ladicí data</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">Prozkoumejte tipy</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">Nabíjení telefonu</string>
-    <string name="double_twist_for_camera_mode_summary">Režim selfie ve Fotoaparátu Google aktivujete či deaktivujete tak, že dvakrát pootočíte zápěstím, když máte fotoaparát otevřený.</string>
-    <string name="downloads_backup_text">Stažené soubory budou zálohovány na Disk Google</string>
-    <string name="duration_less_than_one_minute">méně než 1 minuta</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">Zahrnuje všechny výše uvedené změny. Pozastaví také méně důležité aplikace a jejich oznámení.</string>
+    <string name="extreme_battery_saver_title">Super spořič baterie</string>
+    <string name="face_confirmation_hide_illustration_description">Když teď zvednete telefon nebo klepnete na obrazovku, můžete k odemknutí použít obličej.</string>
+    <string name="face_confirmation_info_enough_light">Odemknutí obličejem funguje nejlépe v dobře osvětleném prostoru. Nemějte zakrytý obličej ani nasazené tmavé brýle.</string>
+    <string name="face_confirmation_info_outside_screen">Odemknutí obličejem funguje pouze z vnějšího displeje</string>
     <string name="face_enrolling_center_head">Obličej musí vyplňovat vnitřní rámeček</string>
+    <string name="face_enrolling_close_to_continue">Při nastavování mějte telefon složený</string>
+    <string name="face_enrolling_close_to_continue_description">K nastavení nebo použití odemknutí obličejem musí být telefon složený</string>
     <string name="face_enrolling_description">Když odstraníte všechny dlaždice, zachytíte obličej ze všech úhlů.</string>
     <string name="face_enrolling_do_it_later">Později</string>
     <string name="face_enrolling_gaze_dialog_cancel">Zrušit</string>
@@ -190,57 +203,65 @@ Funkce Čistý zvuk volání je k dispozici v závislosti na připojení přes
     <string name="face_enrolling_too_right">Posuňte telefon doleva</string>
     <string name="face_enrolling_turn_head_to_arrow">Otáčejte hlavu směrem k šipce</string>
     <string name="face_enrolling_turned_too_far">Natočte hlavu trochu méně</string>
-    <string name="fallback_menu_item_copy_link">Kopírovat odkaz</string>
-    <string name="fallback_menu_item_open_in_browser">Otevřít v prohlížeči</string>
-    <string name="fallback_menu_item_share_link">Sdílet odkaz</string>
-    <string name="fullbackup_data_summary">"Automaticky zálohujte data zařízení (jako jsou hesla sítí Wi-Fi a historie volání) a data aplikací (jako jsou nastavení a soubory uložené aplikacemi) na Disk Google.
-
-Když zapnete automatické zálohování, data zařízení a aplikací budou pravidelně ukládána do soukromé složky na Disku Google. Data aplikací mohou zahrnovat data, která uložila aplikace (v závislosti na nastavení vývojáře), včetně potenciálně citlivých dat, jako jsou kontakty, zprávy a fotky.
-
-Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké soubory nebo soubory, které se vývojáři rozhodli ze služby vyloučit, zálohovány nebudou."</string>
-    <string name="fullbackup_erase_dialog_message">Zastavit zálohování dat zařízení (jako jsou hesla sítí Wi-Fi a historie volání) a dat aplikací (jako jsou nastavení a soubory uložené aplikacemi) a vymazat všechny kopie na Disku Google?</string>
+    <string name="firmware_update_status_category">Stav firmwaru zařízení</string>
+    <string name="firmware_update_status_title">K dispozici je aktualizace firmwaru</string>
+    <string name="firmware_update_version_number_category">Verze firmwaru zařízení</string>
+    <string name="firmware_update_version_number_title">Firmware klávesnice Pixel</string>
     <string name="gesture_aware_confirmation_action_button">Rozumím</string>
-    <string name="gesture_aware_footer"><annotation link="link">Předvolby</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">Předvolby</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">Předvolby</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">Předvolby</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">Zleva doprava</string>
     <string name="gesture_skip_direction_rtl">Zprava doleva</string>
     <string name="gesture_skip_direction_title">Přeskočit směr</string>
-    <string name="gesture_skip_footer"><annotation link="link">Předvolby</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">Předvolby</annotation></string>
-    <string name="global_actions_panel_short_title">Platební karty a lístky</string>
-    <string name="global_actions_panel_summary">Chcete-li mít přístup k věcem, jako jsou vaše platební metody a palubní lístky, stiskněte a podržte vypínač.</string>
-    <string name="global_actions_panel_title">Zobrazit karty a lístky</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">Předvolby</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">Předvolby</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">Povolit instalaci aplikací z jiných zdrojů než Obchod Play</string>
-    <string name="keywords_accessibility_menu">motorika, rychlá nabídka, nabídka pomocných funkcí, dotyk, zručnost</string>
     <string name="keywords_adaptive_alert_vibration">hmatová odezva, vibrace, telefon, hovor, vyzvánění, upozornění, oznámení, hlasité, tiché, hluk, pouzdro, adaptivní</string>
     <string name="keywords_adaptive_charging">nabíjení, chytré nabíjení, adaptivní nabíjení, baterie, životnost baterie</string>
-    <string name="keywords_assist_gesture_launch">gesto, okraj, strana, active edge, aktivní okraj, zmáčknout, uchopit, asistence, asistent, zmáčknutí, ok google, asistent google</string>
     <string name="keywords_assist_gesture_silence">gesto, okraj, strana, active edge, aktivní okraj, ticho, odložit, budík, příchozí hovor, tichý, displej, obrazovka uzamčení, zmáčknout, uchopit, zastavit</string>
     <string name="keywords_assist_gesture_wake">gesto, okraj, strana, active edge, aktivní okraj, probudit, oznámení, obrazovka, displej, vypnutí obrazovky, zapnutí obrazovky, zmáčknout, spánek, režim spánku, uchopit</string>
     <string name="keywords_battery_share">sdílení baterie, bezdrátové nabíjení</string>
     <string name="keywords_battery_share_settings">sdílení baterie, reverzní bezdrátové nabíjení</string>
-    <string name="keywords_content_capture">zachycení obsahu, obsah aplikací, data aplikací</string>
-    <string name="keywords_gesture">gesta, pohyby</string>
-    <string name="keywords_global_actions_panel">platební karty, lístky</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">záruka, omezená záruka, oprava, rma, výměna</string>
-    <string name="keywords_live_transcribe">Titulky pro neslyšící, skryté titulky, živý přepis, nedoslýchavost, ztráta sluchu, převod řeči na text, titulky</string>
     <string name="keywords_reverse_charging_stop_threshold">Přestat sdílet, když baterie klesne na:</string>
-    <string name="keywords_select_to_speak">Poslech textu, čtení nahlas, čtení obsahu obrazovky nahlas, čtečka obrazovky</string>
-    <string name="keywords_sound_amplifier">Zesílit, zesílení zvuku, nedoslýchavost, ztráta sluchu, zesílení</string>
-    <string name="keywords_sound_notifications">Oznámení, nedoslýchavost, ztráta sluchu, oznámení</string>
-    <string name="keywords_switch_access">motorika, přepínač, ruka, asistenční technologie, asistivní technologie, paralýza, ALS, skenování, postupné prohledávání</string>
-    <string name="keywords_talkback">Čtečka obrazovky, hlasový komentář, Hlasová asistence, nevidomí, slabozrakost, TTS, převod textu na řeč, hlasová odezva</string>
-    <string name="keywords_voice_access">hlas, hlasové ovládání, motorika, ruka, mikrofon, diktování, řeč, ovládání</string>
-    <string name="language_input_gesture_summary_off">Active Edge je vypnuto</string>
-    <string name="language_input_gesture_summary_on_non_assist">Active Edge je zapnuto</string>
-    <string name="language_input_gesture_summary_on_with_assist">Active Edge je zapnuto. Zmáčknutím aktivujete Asistenta.</string>
+    <string name="led_preference_title">Vzory kontrolky LED</string>
+    <string name="legal_source_code_description">Podrobnosti o zdrojovém kódu komponent, který byl zpřístupněn jako open source, naleznete v centru nápovědy k telefonům Pixel.</string>
+    <string name="legal_source_code_title">Zdrojový kód</string>
     <string name="limited_warranty_introduction">Klepnutím na zemi, ve které jste toto zařízení zakoupili, zobrazíte záruku. Záruka je také k dispozici na adrese g.co/devicewarranty</string>
     <string name="limited_warranty_title">Omezená záruka</string>
-    <string name="me_card_title">Můj Pixel</string>
-    <string name="my_device_info_account_preference_title">Účet Google</string>
-    <string name="owner_info_settings_edit_text_hint">Např. Tomův Pixel.</string>
+    <string name="lockscreen_show_weather_summary">Zobrazit aktuální počasí</string>
+    <string name="lockscreen_show_weather_title">Ukázat počasí</string>
+    <string name="permit_debugging_data">Povolit přístup k hlášení chyb</string>
+    <string name="play_application_detail_indication_summary">Kontrola dostupnosti aktualizací</string>
+    <string name="play_application_update_entry_title">Aktualizace aplikací</string>
+    <string name="repair_mode_active_summary">V režimu opravy</string>
+    <string name="repair_mode_summary">Bezpečné prostředí pro opravu zařízení</string>
+    <string name="repair_mode_title">Režim opravy</string>
+    <string name="request_google_account_summary">Přidat účet Google</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Na krátkou dobu se automaticky zapne po zapojení telefonu do nabíječky</string>
-    <string name="reverse_charging_auto_turn_on_title">Zapnout automaticky</string>
+    <string name="reverse_charging_auto_turn_on_title">Zapínat automaticky</string>
     <string name="reverse_charging_charging_wirelessly_message">Nedostupné, protože se telefon bezdrátově nabíjí</string>
     <string name="reverse_charging_detail_charging_overheat_message">Sdílení baterie není k dispozici, protože Pixel je příliš zahřátý. Počkejte, až se telefon zchladí, a zkuste to znovu.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Sdílení baterie není k dispozici, protože se telefon bezdrátově nabíjí</string>
@@ -250,77 +271,38 @@ Zálohovaná data se do kvóty úložiště na Disku nezapočítávají. Velké 
 Pokud baterii budete sdílet, rychleji se vybije. Pokud druhé zařízení nebude detekováno, sdílení baterie se po několika minutách vypne. Nabíjení bude probíhat lépe, když telefon vyjmete z pouzdra a odstraníte další věci, které mohou nabíjení narušovat (například kovové předměty)."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Sdílení baterie není k dispozici, protože je zapnutý spořič baterie</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Sdílení baterie není k dispozici, protože je připojeno zařízení USB-C</string>
-    <string name="reverse_charging_instructions_title">"Nabíjejte z telefonu Pixel jiná zařízení.
-Pokud to chcete zkusit, otočte telefon."</string>
+    <string name="reverse_charging_instructions_title">"Pomocí Pixelu můžete nabíjet jiná zařízení.
+Otočte telefon a zkuste to."</string>
     <string name="reverse_charging_is_off_summary">Vypnuto</string>
     <string name="reverse_charging_is_on_and_charging_summary">Sdílení a nabíjení baterie</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Sdílení baterie</string>
     <string name="reverse_charging_is_on_summary">Zapnuto / nabíjet ostatní zařízení</string>
     <string name="reverse_charging_main_switch">Použít sdílení baterie</string>
-    <string name="reverse_charging_off_low_battery_summary">Vypnuto / baterie telefonu je pod %1$s</string>
-    <string name="reverse_charging_off_sharing_level_summary">Vypnuto / baterie není dost nabitá</string>
     <string name="reverse_charging_overheat_summary">Není k dispozici, protože Pixel je příliš zahřátý. Počkejte, až se telefon zchladí, a zkuste to znovu.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Nedostupné, protože je zapnutý spořič baterie</string>
     <string name="reverse_charging_sharing_level_message">Nedostupné, protože baterie není dost nabitá</string>
-    <string name="reverse_charging_switch_summary">Přiložte zařízení k zadní straně telefonu Pixel</string>
     <string name="reverse_charging_switch_title">Nabíjejte ostatní zařízení tím, že je přiložíte k zadní straně telefonu Pixel</string>
-    <string name="reverse_charging_switch_title_message">Nabíjení ostatních zařízení</string>
     <string name="reverse_charging_title">Sdílení baterie</string>
     <string name="reverse_charging_unplug_usb_cable_message">Nedostupné, protože je připojeno zařízení USB-C</string>
     <string name="reverse_charging_warning_summary">Nedostupné, protože baterie telefonu je pod %1$s</string>
     <string name="reverse_charging_warning_title">Sdílení baterie není k dispozici, protože baterie je pod %1$s</string>
-    <string name="rtt_settings_always_visible">Vždy zobrazovat</string>
-    <string name="rtt_settings_no_visible">Nezobrazovat</string>
-    <string name="rtt_settings_title">SMS během hovoru (RTT)</string>
-    <string name="rtt_settings_visible_during_call">Zobrazovat během hovoru</string>
-    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
-    <string name="search_bar_account_avatar_content_description">Profilová fotka, dvojitým klepnutím otevřete účet Google</string>
+    <string name="search_gesture_category_title">Přímé vyhledávání</string>
+    <string name="search_long_press_home_button_summary">Podržením tlačítka plochy spustíte Vyhledávání Google na obrazovce.</string>
+    <string name="search_long_press_home_button_title">Vyhledávání podržením tlačítka plochy</string>
+    <string name="search_press_hold_gesture_summary">Stisknutím a podržením navigačního úchytu vyvoláte vyhledávání na obrazovce.</string>
+    <string name="search_press_hold_gesture_title">Podržením úchytu aktivujete vyhledávání</string>
     <string name="security_dismiss_dialog_dismiss_button">Zavřít</string>
     <string name="security_dismiss_dialog_title">Zavřít upozornění?</string>
-    <string name="security_settings_face_enroll_education_message">Na další obrazovce bude potřeba, abyste otáčeli hlavou a obličej nechali zachytit ze všech úhlů</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Na další obrazovce držte telefon v úrovni očí</string>
-    <string name="security_settings_face_enroll_error_generic_dialog_message">Registrace obličeje nefungovala.</string>
-    <string name="security_settings_face_enroll_error_timeout_dialog_message">Bylo dosaženo časového limitu registrace obličeje. Zkuste to znovu.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Časový limit vypršel</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">Odteď můžete obličejem odemykat telefon nebo ověřovat svoji identitu, například při přihlašování do aplikací nebo schvalování nákupů</string>
-    <string name="security_settings_face_enroll_finish_description_without_bp">"Odteď když zvednete telefon nebo klepnete na obrazovku, můžete ho odemknout obličejem.
+    <string name="security_settings_face_enroll_finish_description_with_bp">Odteď můžete obličejem odemykat telefon nebo ověřovat svoji totožnost, například při přihlašování do aplikací nebo schvalování nákupů.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Když teď zvednete telefon nebo klepnete na obrazovku, můžete k odemknutí použít obličej.
 
 Odemknutí obličejem funguje nejlépe v dobře osvětleném prostoru. Nemějte zakrytý obličej ani nasazené tmavé brýle."</string>
-    <string name="security_settings_face_enroll_finish_title">A je to.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Nastavení pro špatný zrak nebo hybnost hlavy</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Je možné, že při odemykání obličejem bude muset být vaše hlava příměji před telefonem.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">Musíte mít otevřené oči</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"V Nastavení můžete vy nebo vaše dítě model obličeje kdykoli smazat, případně odemknutí obličejem vypnout. Modely obličeje jsou v telefonu uloženy, dokud je nesmažete.
-
-Další informace: g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">Vy a dítě máte vše pod kontrolou</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"V Nastavení můžete model obličeje kdykoli smazat nebo odemknutí obličejem vypnout. Modely obličeje jsou v telefonu uloženy, dokud je nesmažete.
-
-Další informace: g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">Vše máte ve svých rukou</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Odemknutí obličejem vytváří jedinečný model obličeje dítěte, podle kterého ho při ověření poznáme. Model obličeje vytvoříme při nastavování na základě snímků obličeje dítěte z různých úhlů.
-
-Když dítě používá odemknutí obličejem, snímky slouží k aktualizaci modelu jeho obličeje. Snímky použité k vytvoření modelu obličeje se neukládají, ale model obličeje je bezpečně uložen v telefonu (a nikdy ho neopouští). Ke zpracování dochází bezpečně v telefonu."</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Funkce Odemknutí obličejem vytváří jedinečný model vašeho obličeje k ověření vaší identity. Model obličeje se vytvoří při nastavování na základě snímků vašeho obličeje z různých úhlů.
-
-Když používáte odemknutí obličejem, snímky slouží k aktualizaci modelu vašeho obličeje. Snímky použité k vytvoření modelu obličeje se neukládají, ale model obličeje je bezpečně uložen v telefonu a nikdy ho neopouští. Ke zpracování dochází bezpečně v telefonu."</string>
-    <string name="security_settings_face_enroll_introduction_how_title">Princip</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, aby dítě mělo otevřené oči. Tuto možnost můžete vy nebo vaše dítě kdykoliv zapnout v Nastavení.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Pokud dítě běžně nosí brýle, může je mít i při nastavování.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Odemykání telefonu dítěte obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Dítě telefon může odemknout pohledem, i když zrovna nechce. Telefon bude moci odemknout také někdo, kdo je dítěti hodně podobný, například jeho identické dvojče, nebo někdo, kdo mu telefon podrží před obličejem.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, abyste měli otevřené oči. Tuto možnost můžete kdykoliv zapnout v Nastavení.</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">Brýle nebo lehce zabarvené sluneční brýle jsou v pořádku.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Odemykání telefonu obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Telefon je možné odemknout pohledem, i když zrovna nechcete. Telefon bude moci odemknout také někdo, kdo je vám hodně podobný, například vaše jednovaječné dvojče. Telefon se může odemknout i v případě, že vám ho někdo podrží před obličejem.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">Upozornění</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">Odemykejte telefon a ověřujte svou identitu v aplikacích (např. při přihlašování nebo schvalování nákupů) pomocí obličeje.</string>
-    <string name="security_settings_face_enroll_introduction_title">Nastavení Odemknutí obličejem</string>
     <string name="security_settings_face_enroll_next">Další</string>
     <string name="security_settings_face_enroll_partial_message">Za účelem zvýšení výkonu můžete odemknutí obličejem nastavit znovu v Nastavení</string>
     <string name="security_settings_face_enroll_partial_start_over">Začít znovu</string>
     <string name="security_settings_face_enroll_partial_title">Nastavení odemknutí obličejem bylo dokončeno</string>
-    <string name="security_settings_face_enroll_timeout_message">"Zkuste raději rychlé nastavení. Připomínáme, že hlava musí být při odemykání obličejem příměji před telefonem.
+    <string name="security_settings_face_enroll_timeout_message">"Zkuste raději rychlé nastavení. Připomínáme, že hlava musí být při odemykání obličejem přímo před telefonem.
 
 Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nastavit znovu."</string>
     <string name="security_settings_face_enroll_timeout_title">V nastavování nelze pokračovat</string>
@@ -330,33 +312,60 @@ Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nasta
     <string name="security_settings_face_enroll_too_hot_message">Nastavení odemknutí obličejem nelze dokončit, protože je telefon příliš zahřátý. Zkuste to později, až telefon zchladne.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Přeskočit odemknutí obličejem</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon je příliš zahřátý</string>
-    <string name="security_settings_fingerprint_preference_summary_none">Otisk prstu nastavíte klepnutím</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Další informace o odemknutí otiskem prstu v telefonu Pixel najdete na stránce &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
-    <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint pro práci</string>
-    <string name="setup_suggestion_summary">Kopírování dat, platby telefonem atd.</string>
+    <string name="setup_suggestion_summary">Ještě pár kroků</string>
     <string name="setup_suggestion_title">Dokončete nastavování</string>
-    <string name="smart_battery_footer">Adaptivní baterie může za účelem prodloužení výdrže baterie omezit výkon a aktivitu na pozadí. Některá oznámení se mohou zpožďovat.</string>
-    <string name="smart_battery_manager_title">Adaptivní předvolby</string>
-    <string name="smart_battery_title">Adaptivní baterie</string>
-    <string name="sound_dashboard_summary">Hlasitost, hmatová odezva, režim Nerušit</string>
-    <string name="storage_manager_indicator">Chytré úložiště: ^1</string>
-    <string name="suw_back_button_label">Zpět</string>
+    <string name="software_update_can_be_updated_header">Váš Pixel bude ještě lepší</string>
+    <string name="software_update_detail_indication_1_update_available">Je dostupná 1 aktualizace</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">Jsou k dispozici aktualizace (%1$d)</string>
+    <string name="software_update_detail_indication_action_required">Vyžadována akce</string>
+    <string name="software_update_entry_title">Aktualizace softwaru</string>
+    <string name="software_update_entry_up_to_date_summary">Mějte Pixel aktualizovaný</string>
+    <string name="software_update_pending_update_summary">Čeká na aktualizaci</string>
+    <string name="software_update_unknown_state_summary">Podívejte se sem později</string>
+    <string name="software_update_up_to_date_header">Telefon Pixel je aktuální</string>
+    <string name="software_update_up_to_date_summary">Aktuální</string>
+    <string name="software_update_up_to_specific_date_summary">Aktualizováno %1$s</string>
+    <string name="software_update_update_available_summary">K dispozici je aktualizace</string>
+    <string name="speed_boost_summary_off">Vypnuto</string>
+    <string name="speed_boost_summary_on">Zapnuto</string>
+    <string name="speed_boost_title">Spectrum Speed Boost</string>
     <string name="suw_limited_warranty_title">Omezená záruka</string>
-    <string name="suw_more_button_label">Další</string>
-    <string name="suw_next_button_label">Další</string>
     <string name="suw_warranty_description">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili.&lt;br /&gt;&lt;br /&gt;Záruka je také k dispozici v sekci &lt;b&gt;Nastavení &gt; Informace o telefonu &gt; Omezená záruka&lt;/b&gt; a na adrese g.co/devicewarranty.</string>
     <string name="suw_warranty_description_content">Pokud chcete zobrazit omezenou záruku, vyberte zemi, ve které jste toto zařízení zakoupili. Záruka je také k dispozici v sekci Nastavení, poté Informace o telefonu a poté Omezená záruka a na adrese g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Další</string>
     <string name="suw_warranty_positive_button_text">Zavřít</string>
-    <string name="time_remaining_warning_subtext">Podle předchozího používání zbývá přibližně %1$s</string>
-    <string name="time_remaining_warning_text">Baterie se může brzy vybít</string>
+    <string name="system_update_entry_title">Aktualizace systému</string>
+    <string name="system_updates_group_title">Aktualizace telefonu Pixel</string>
     <string name="tips_suggestion_summary">Zjistěte, co všechno můžete s telefonem dělat</string>
     <string name="tips_suggestion_title">Poznejte svůj Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Podržte si telefon před obličejem</string>
-    <string name="usb_use_file_transfers">Přenos souborů / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">Barvy, tematické ikony, mřížka aplikací</string>
+    <string name="unified_battery_saver_page_intro">Šetřete energii, aby baterie telefonu vydržela mezi nabitími déle</string>
+    <string name="vpn_app_bypass">Vyloučit vybrané aplikace</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">Aktuální aplikace operátora</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">Vyloučit aplikace operátora (celkem %1$d) z VPN?</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">Některé aplikace operátora fungují pouze ve vlastních sítích</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">Na tomto zařízení žádné aplikace operátora nejsou</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">Při instalaci nových aplikací operátora se vám zobrazí oznámení</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">Vyloučit %1$d aplikaci operátora z VPN?</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">Vyloučit aplikace operátora z VPN?</string>
+    <string name="vpn_bypass_cancel">Zrušit</string>
+    <string name="vpn_bypass_carrier_accessibility_description">Zapnout/vypnout vyloučení aplikací operátora</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">Tím, že aplikacím operátora umožníte ignorovat VPN a používat běžné síťové připojení telefonu, můžete předejít nesprávnému fungování aplikací operátora.</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">Zkontrolujte nově nainstalované aplikace operátora</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">přepnout aplikace operátora</string>
+    <string name="vpn_bypass_carrier_description">Vyloučit aplikace operátora</string>
+    <string name="vpn_bypass_category_title">Aplikace vyloučené z VPN</string>
+    <string name="vpn_bypass_description">Vyloučené aplikace nebudou používat VPN. Některé aplikace mobilních operátorů fungují pouze ve vlastních sítích bez VPN.</string>
+    <string name="vpn_bypass_exclude">Vyloučit</string>
+    <string name="vpn_exclude_ntf_content">Máte nově nainstalované aplikace operátora, které nemusí fungovat s VPN</string>
+    <string name="vpn_exclude_ntf_title">Vyloučit nové aplikace z VPN?</string>
+    <string name="vpn_preference_group_title">Jiné</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s (%2$s)</string>
-    <string name="wifi_subscription_summary">Zobrazení nebo změna odběru OpenRoaming</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Připojeno přes %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Připojíte se klepnutím</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Nelze se připojit. Klepnutím opakujte akci.</string>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+            android:text="@string/vpn_bypass_description"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/app_bypass_description_text_font_size" />
+
+        <RelativeLayout
+            android:id="@id/carrier_app_bypass_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginTop="@dimen/app_bypass_enabled_app_title_margin_top"
+            android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/carrier_app_bypass_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/carrier_app_bypass_toggle"
+                android:contentDescription="@string/vpn_bypass_carrier_accessibility_description"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/app_bypass_button_minimal_height"
+                android:text="@string/vpn_bypass_carrier_description"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/app_bypass_preference_text_font_size" />
+
+            <Switch
+                android:id="@id/carrier_app_bypass_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/app_bypass_end_button_margin_start"
+                android:checked="true"
+                android:contentDescription="@string/vpn_bypass_carrier_app_toggle_description"
+                android:switchMinWidth="@dimen/app_bypass_button_minimal_height" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/carrier_apps_suggestion_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginTop="@dimen/app_bypass_default_margin_top"
+            android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+            android:background="@drawable/vpn_carrier_app_suggestion_btn_bg"
+            android:gravity="center"
+            android:minHeight="@dimen/app_bypass_bottom_sheet_button_height"
+            android:paddingStart="@dimen/app_bypass_suggestion_button_padding_horizontal"
+            android:paddingEnd="@dimen/app_bypass_suggestion_button_padding_horizontal"
+            android:text="@string/vpn_bypass_carrier_app_suggestion_text"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:textColorPrimary"
+            android:textFontWeight="500"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/enabled_apps_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginTop="@dimen/app_bypass_enabled_app_title_margin_top"
+            android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+            android:layout_marginBottom="@dimen/app_bypass_candidate_app_title_margin_bottom"
+            android:singleLine="true"
+            android:text="@string/vpn_bypass_category_title"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:colorAccent"
+            android:textFontWeight="500" />
+
+        <TextView
+            android:id="@id/enabled_apps_hint_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
+            android:layout_marginBottom="@dimen/app_bypass_enabled_app_hint_margin_bottom"
+            android:singleLine="true"
+            android:text="@string/add_bypassed_application_hint"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/app_bypass_second_text_font_size" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/enabled_apps_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginBottom="@dimen/app_bypass_enabled_app_list_margin_bottom"
+            android:overScrollMode="never"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="?android:listDivider" />
+
+        <TextView
+            android:id="@id/candidate_apps_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:layout_marginTop="@dimen/app_bypass_candidate_app_title_margin_top"
+            android:layout_marginBottom="@dimen/app_bypass_candidate_app_title_margin_bottom"
+            android:fontFamily="google-sans-text"
+            android:singleLine="true"
+            android:text="@string/all_apps_category_title"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textColor="?android:colorAccent"
+            android:textFontWeight="500" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/candidate_apps_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_bypass_default_margin_start"
+            android:overScrollMode="never"
+            android:paddingTop="0.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,9 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">Tegevusetu lukustuskuva</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">Teatiste vaigistamise liigutus</string>
     <string name="gesture_skip_title">Vahelejätmise liigutus</string>
     <string name="keywords_touch_sensitivity">puudutus, tundlikkus, tundlik, ekraanikaitse, plastikkate, reageeriv, reaktsioon</string>
+    <string name="keywords_wake_display" />
     <string name="touch_sensitivity_summary">Suurendab puudutuse tundlikkust ja täiustab puudutuste toimimist ekraanikaitse kasutamisel</string>
     <string name="touch_sensitivity_title">Ekraanikaitse režiim</string>
     <string name="columbus_title">Kiirpuudutus toimingute käivitamiseks</string>
@@ -11,11 +16,30 @@
     <string name="accessibility_keyboard_haptics_title">Klaviatuuri värintagasiside</string>
     <string name="adaptive_alert_vibration_summary">Vähendab vibreerimise tugevust, kui teie telefon seisab paigal ja ekraan on ülespoole</string>
     <string name="adaptive_alert_vibration_title">Hoiatuste kohanduv vibreerimine</string>
+    <string name="adaptive_battery_switch_des">Aku tööea pikendamiseks võib kohanduv akuhaldur vähendada jõudlust ja taustategevusi. Mõni märguanne võib viibida.</string>
+    <string name="adaptive_battery_switch_title">Kasuta kohanduvat akuhaldurit</string>
     <string name="adaptive_charging">Kohanduv laadimine</string>
     <string name="adaptive_charging_description">Pikendage aku tööiga, laadides pidevalt pikema aja jooksul. Aktiveeritakse teie kasutustsükli põhjal.</string>
+    <string name="adaptive_charging_footer">Aku tööea pikendamiseks õpib telefon teie laadimisrutiini selgeks ja ootab, kuni vajate täislaetud akut.</string>
+    <string name="adaptive_charging_link_a11y">Lisateave adaptiivse laadimise kohta</string>
+    <string name="adaptive_charging_main_switch_title">Kasuta adaptiivset laadimist</string>
     <string name="adaptive_charging_time_estimate"><b>Kohanduv laadimine</b> • Täis %1$s</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">Eelistused</annotation></string>
-    <string name="app_and_notification_dashboard_summary">Assistent, hiljutised rakendused, vaikerakendused</string>
+    <string name="adaptive_charging_title">Adaptiivne laadimine</string>
+    <string name="add_bypassed_application_hint">Rakendusi pole lisatud</string>
+    <string name="advanced_vpn_preference_group_title">Sisseehitatud</string>
+    <string name="all_apps_category_title">Kõik rakendused</string>
+    <string name="allow_debugging_data_description">Google kasutab veaaruandeid rakenduse ja seadme probleemide diagnoosimiseks meie <a href="https://policies.google.com/privacy">privaatsuseeskirjade</a>" järgi.
+
+"<b>Veaaruanded sisaldavad rakenduse- ja süsteemilogisid</b>" ning võivad hõlmata isiklikku ja seadme teavet, nagu nimed, e-posti aadressid, telefoninumbrid, asukohaandmed, seadme identifikaatorid, ühendatud seadmed ja võrguteave. Aruandeid võidakse jagada inseneridest partneritega, keda teie probleem võib mõjutada.
+
+Juurdepääsu andmisel lubatakse sellel rakendusel "<b>automaatselt koguda ja laadida üles veaaruandeid</b>", mis sisaldavad kõigi teavitatud probleemide rakenduse- ja süsteemilogisid.
+
+Juurdepääsu eemaldamisel peab rakendus iga konkreetse probleemi korral taotlema teilt luba veaaruande kogumiseks ja üleslaadimiseks."</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">Eelistused</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">Jätka ja ava abimees</string>
     <string name="assist_gesture_enrollment_do_it_later">Teen seda hiljem</string>
     <string name="assist_gesture_enrollment_seekbar_light">Kerge pigistus</string>
@@ -45,17 +69,10 @@
     <string name="assist_gesture_training_suggestion_summary">Abimehega rääkimine, kõnede vaigistamine</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">Abimehega rääkimine, alarmide ja kõnede vaigistamine</string>
     <string name="assist_gesture_training_suggestion_title">Pigistage ja vabastage assistendi kasutamiseks</string>
-    <string name="automatic_storage_manager_activation_warning">Kui olete ühendatud, pääsete fotodele ja videotele juurde siiski kvaliteediga, mille varundamiseks valisite</string>
-    <string name="automatic_storage_manager_days_title">Varundatud fotode ja videote eemaldamine</string>
-    <string name="automatic_storage_manager_deactivation_warning">"Kas soovite nutika salvestusruumi välja lülitada? 
-
-Nutikas salvestusruum ei vabasta ruumi, kui salvestusruum hakkab täis saama."</string>
-    <string name="automatic_storage_manager_downloads_days_title">Varundatud allalaadimised</string>
-    <string name="automatic_storage_manager_preference_title">Nutikas salvestusruum</string>
-    <string name="automatic_storage_manager_primary_switch_title">Kasuta nutikat salvestusruumi</string>
-    <string name="automatic_storage_manager_settings">Nutikas salvestusruum</string>
-    <string name="automatic_storage_manager_text">Kui salvestusruum hakkab täis saama, eemaldage varundatud fotod ja videod. Leiate need edaspidi teenusest Google Photos.</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">Lülita sisse</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">Mitte praegu</string>
     <string name="aware_footer_when_airplane_batterysaver_on">Motion Sense ei ole saadaval, kuna lennukirežiim ja akusäästja on sees</string>
     <string name="aware_footer_when_airplane_on">Motion Sense ei ole saadaval, kuna lennukirežiim on sees</string>
@@ -64,44 +81,34 @@ Nutikas salvestusruum ei vabasta ruumi, kui salvestusruum hakkab täis saama."</
     <string name="aware_gesture_summary_on_non_assist">Kiirviiped on sees, Active Edge on sees</string>
     <string name="aware_gesture_summary_on_with_assist">Kiirviiped on sees, Active Edge on sees, pigistage seadet assistendiga rääkimiseks</string>
     <string name="aware_info_button_description">Rohkem seadeid</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">Pole saadaval, kuna lennukirežiim ja akusäästja on sees</string>
     <string name="aware_summary_when_airplane_on">Ei ole saadaval, kuna lennukirežiim on sees</string>
     <string name="aware_summary_when_batterysaver_on">Ei ole saadaval, kuna akusäästja on sees</string>
-    <string name="backup_data_summary">"Varundage rakenduste andmed, WiFi-paroolid ja muud seaded Google'i serverites"</string>
-    <string name="backup_suggestion_cancel">Tühista</string>
-    <string name="backup_suggestion_dialog_description">See kustutab teie telefoni sisemälust kõik andmed.</string>
-    <string name="backup_suggestion_dialog_title">Kas lähtestada see seade?</string>
-    <string name="backup_suggestion_get_started">lisateave</string>
-    <string name="backup_suggestion_item_summary">Kopeerige Android- või iPhone®-i seadmest</string>
-    <string name="backup_suggestion_item_title">Vana telefoni andmed puuduvad?</string>
-    <string name="backup_suggestion_missing_description">"Kui te ei näe teatud andmeid (nt SMS-sõnumeid ja fotosid), saate need kaabli kaudu oma Pixeli seadmesse üle kanda.
-
-Alustamiseks tuleb Pixeli seade lähtestada. Kõik selles telefonis olevad andmed (sh kohandatud seaded ja pilve sünkroonimata sisu) kustutatakse."</string>
-    <string name="backup_suggestion_missing_title">Kas teie andmed on puudu?</string>
-    <string name="backup_suggestion_next">edasi</string>
-    <string name="backup_suggestion_other_ways_to_copy">Muud viisid andmete kopeerim.</string>
-    <string name="backup_suggestion_reset_description">"Järgmisel ekraanil saate oma Pixeli seadme lähtestada. See on ainus viis andmete ülekandmiseks kaabli kaudu.
-
-Kui see on lähtestatud, läbige seadistusprotsess ning hankige oma eelmisest telefonist andmed."</string>
-    <string name="backup_suggestion_reset_title">Pixeli seadme lähtestamine</string>
-    <string name="backup_suggestion_what_is_needed_summary">"Pärast telefoni lähtestamist on teil vaja:
-
-• teie eelmist telefoni (LINK_BEGINtoetatakse enamikku telefone,LINK_END milles on Android 5.0 või uuem või iOS® 8.0 või uuem);
-• teie eelmise telefoni laadimis- või andmesidekaablit;
-• Pixeli seadmega kaasas olnud adapterit Quick Switch Adapter."</string>
-    <string name="backup_suggestion_what_is_needed_title">Mida vajate?</string>
-    <string name="battery_manager_summary">Pikendage aku tööiga ja optimeerige laadimist</string>
-    <string name="battery_manager_summary_unsupported">Aku tööea pikendamine</string>
-    <string name="battery_missing_link_message">Lisateave</string>
-    <string name="battery_suggestion_summary">Kohanduva akuhalduri sisselülitamine</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">Piirab visuaalseid efekte ja taustategevusi. Lülitab sisse tumeda teema, kui see ei ole juba sisse lülitatud.</string>
+    <string name="basic_battery_saver_title">Standardne akusäästja</string>
+    <string name="battery_saver_reminder_category">Meeldetuletused</string>
+    <string name="battery_saver_reminder_switch_summary">Hankige meeldetuletusi, kui akutase on madal</string>
+    <string name="battery_saver_reminder_switch_title">Akusäästja meeldetuletused</string>
+    <string name="battery_saver_schedule_category">Ajakava</string>
+    <string name="battery_saver_schedule_switch_summary">Akusäästja lülitub sisse, kui akutase langeb teie määratud tasemele</string>
+    <string name="battery_saver_schedule_switch_title">Lülita sisse akutaseme alusel</string>
+    <string name="battery_schedule_summary">Hallake, millal akusäästja sisse lülitatakse</string>
+    <string name="battery_schedule_title">Ajakava ja meeldetuletused</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Aku seisukorra kaitsmiseks peatatakse laadimine %1$s juures, kui teie tahvelarvuti on dokitud</string>
-    <string name="battery_tip_smart_battery_summary">Kohanduva akuhalduri sisselülitamine</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">"Seadet %1$s ei seota enam ühegi selle Google'i kontoga lingitud seadmega"</string>
-    <string name="clear_calling_footer">"Teie privaatsuse kaitsmiseks ei saada funktsioon Selge heliga helistamine Google'ile kunagi heli ega vestlusi.
+    <string name="clear_calling_footer">"Teie privaatsuse kaitsmiseks ei saada funktsioon Selge heliga helistamine Google'ile heli ega vestlusi.
 
-Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendusest."</string>
-    <string name="clear_calling_title">Selged kõned</string>
-    <string name="clear_calling_toggle">Kasuta funktsiooni Selged kõned</string>
+Selge heliga helistamine toimib WiFi-kõnede ja enamiku võrkude puhul, kuid pole saadaval 3G-võrkudes."</string>
+    <string name="clear_calling_title">Selge heliga helistamine</string>
+    <string name="clear_calling_toggle">Kasuta selge heliga helistamise funktsiooni</string>
     <string name="clear_calling_topintro">Vähendab kõnede ajal taustamüra</string>
     <string name="columbus_gesture_detected">Tuvastati kiirpuudutus!</string>
     <string name="columbus_gesture_enrollment_complete">Valmis</string>
@@ -132,7 +139,7 @@ Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendus
     <string name="columbus_name">Kiirpuudutus</string>
     <string name="columbus_radio_button_extra_widget_a11y_label">Toimingu %1$s seaded</string>
     <string name="columbus_setting_action_assistant_title">Juurdepääs digitaalsele assistendile</string>
-    <string name="columbus_setting_action_flashlight_title">Taskulambi lüliti</string>
+    <string name="columbus_setting_action_flashlight_title">Taskulambi lülitamine</string>
     <string name="columbus_setting_action_launch_summary_no_selection">Ühtegi rakendust pole valitud</string>
     <string name="columbus_setting_action_launch_summary_not_installed">Rakendust pole installitud</string>
     <string name="columbus_setting_action_launch_title">Rakenduse avamine</string>
@@ -145,15 +152,10 @@ Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendus
     <string name="columbus_setting_additional_settings_title">Kiirpuudutuse tugevus</string>
     <string name="columbus_setting_app_selection_help_text">Valige rakendus, mis avada, kui puudutate telefoni tagakülge kaks korda. Kui rakenduse desinstallite, lülitatakse kiirpuudutus välja, kuni valite teise rakenduse.</string>
     <string name="columbus_setting_app_shortcut_selection_help_text">Valige, mis juhtub, kui selle rakenduse kiirpuudutusega avate.</string>
-    <string name="columbus_setting_enable_switch_title">Kiirpuudutuse kasutamine</string>
-    <string name="columbus_setting_sensitivity_title">Tugevamate puudutuste nõudmine</string>
-    <string name="communal_cast_summary">Ülekandmine sellesse seadmesse / sellest seadmest</string>
+    <string name="columbus_setting_enable_switch_title">Kasuta kiirpuudutusi</string>
+    <string name="columbus_setting_sensitivity_title">Nõua tugevamaid puudutusi</string>
     <string name="communal_lock_screen_summary">Privaatsus, märguanded ja kodu juhtelemendid</string>
-    <string name="communal_settings_summary_1">Käitumine lukustatud ja dokitud olekus</string>
-    <string name="communal_settings_summary_2">Valikud dokis olles</string>
-    <string name="communal_settings_summary_3">Doki ja lukustuskuva valikud</string>
-    <string name="communal_settings_summary_4">Lukustuskuva ja dokis oleku valikud</string>
-    <string name="communal_settings_title">Kontrollerirežiim</string>
+    <string name="communal_other">Muu</string>
     <string name="communal_smartspace_summary">Assistendi meeldetuletused, hoiatused ja muu</string>
     <string name="communal_smartspace_title">Ülevaade</string>
     <string name="communal_what_to_show">Mida kuvada?</string>
@@ -164,14 +166,25 @@ Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendus
     <string name="connectivity_helper_d2d_summary">Teavitage teist inimest, kui teie telefonil on kõne ajal ühendusprobleeme</string>
     <string name="connectivity_helper_d2d_title">Ühendusteabe jagamine</string>
     <string name="connectivity_helper_footnote">Saate jagada ühendusteavet, kui teine helistaja kasutab toetatud seadet ja võrku</string>
-    <string name="content_capture">Isikupärastamine rakenduste andmete abil</string>
-    <string name="copy_toast_msg">Link kopeeriti lõikelauale</string>
-    <string name="dark_ui_text">Tume teema kasutab musta tausta, et teie aku kestaks kauem. Tumeda teema ajakava lülitatakse sisse siis, kui ekraan on väljas.</string>
+    <string name="debugging_data_title">Silumisandmed</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">Avastage nõuandeid</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">Telefoni laadimine</string>
-    <string name="double_twist_for_camera_mode_summary">"Google'i kaameras selfirežiimi sisse- ja väljalülitamiseks pöörake telefoni rakenduses olles kaks korda edasi-tagasi."</string>
-    <string name="downloads_backup_text">"Allalaaditud failid varundatakse Google Drive'i"</string>
-    <string name="duration_less_than_one_minute">alla ühe minuti</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">Hõlmab kõiki ülaltoodud muudatusi. Peatatakse ka ebaolulised rakendused ja nende märguanded.</string>
+    <string name="extreme_battery_saver_title">Ekstreemne akusäästja</string>
+    <string name="face_confirmation_hide_illustration_description">Nüüd saate telefoni kättevõtmisel või ekraani puudutamisel avamiseks oma nägu kasutada.</string>
+    <string name="face_confirmation_info_enough_light">Näoga avamine toimib kõige paremini, kui valgust on piisavalt ja te ei kanna maski ega tumedaid prille.</string>
+    <string name="face_confirmation_info_outside_screen">Näoga avamine toimib ainult välisekraani kaudu</string>
     <string name="face_enrolling_center_head">Paigutage oma nägu sisemise raami sisse</string>
+    <string name="face_enrolling_close_to_continue">Telefoni voltimine seadistamise ajal</string>
+    <string name="face_enrolling_close_to_continue_description">Näoga avamise seadistamiseks või kasutamiseks peab telefon olema volditud</string>
     <string name="face_enrolling_description">Jäädvustage oma nägu iga nurga alt, eemaldades kõik paanid.</string>
     <string name="face_enrolling_do_it_later">Teen seda hiljem</string>
     <string name="face_enrolling_gaze_dialog_cancel">Tühista</string>
@@ -185,60 +198,68 @@ Selge heliga helistamise saadavus oleneb teie WiFi- ja mobiilsidevõrgu ühendus
     <string name="face_enrolling_too_close">Liigutage telefon kaugemale</string>
     <string name="face_enrolling_too_far">Liigutage telefon lähemale</string>
     <string name="face_enrolling_too_high">Liigutage telefoni allapoole</string>
-    <string name="face_enrolling_too_left">Liigutage telefoni oma paremale</string>
+    <string name="face_enrolling_too_left">Liigutage telefoni paremale</string>
     <string name="face_enrolling_too_low">Liigutage telefoni kõrgemale</string>
-    <string name="face_enrolling_too_right">Liigutage telefoni oma vasakule</string>
+    <string name="face_enrolling_too_right">Liigutage telefoni vasakule</string>
     <string name="face_enrolling_turn_head_to_arrow">Pöörake oma pead noole suunas</string>
     <string name="face_enrolling_turned_too_far">Pöörake pead veidi vähem</string>
-    <string name="fallback_menu_item_copy_link">Kopeeri link</string>
-    <string name="fallback_menu_item_open_in_browser">Ava brauseris</string>
-    <string name="fallback_menu_item_share_link">Jaga linki</string>
-    <string name="fullbackup_data_summary">"Varundage seadme andmed (nt WiFi-paroolid ja kõneajalugu) ning rakenduse andmed (nt seaded ja rakenduste salvestatud failid) automaatselt Google Drive'i.
-
-Kui lülitate automaatse varundamise sisse, salvestatakse seadme ja rakenduse andmed regulaarselt Google Drive'is privaatsesse kausta. Rakenduse andmed võivad olla mis tahes andmed, mille rakendus on salvestanud (arendaja seadete põhjal), sh potentsiaalselt tundlikud andmed, nagu kontaktid, sõnumid ja fotod.
-
-Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja faile, mille arendajad on otsustanud teenusest välja jätta, ei varundata."</string>
-    <string name="fullbackup_erase_dialog_message">"Kas soovite peatada seadme andmete (nt WiFi-paroolid ja kõneajalugu) ning rakenduse andmete (nt seaded ja rakenduste salvestatud failid) varundamise ning kustutada kõik Google Drive'is olevad koopiad?"</string>
+    <string name="firmware_update_status_category">Seadme püsivara olek</string>
+    <string name="firmware_update_status_title">Saadaval on püsivaravärskendus</string>
+    <string name="firmware_update_version_number_category">Seadme püsivara versioon</string>
+    <string name="firmware_update_version_number_title">Pixeli klaviatuuri püsivara</string>
     <string name="gesture_aware_confirmation_action_button">Selge</string>
-    <string name="gesture_aware_footer"><annotation link="link">Eelistused</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">Eelistused</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">Eelistused</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">Eelistused</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">Vasakult paremale</string>
     <string name="gesture_skip_direction_rtl">Paremalt vasakule</string>
     <string name="gesture_skip_direction_title">Vahelejätmise suund</string>
-    <string name="gesture_skip_footer"><annotation link="link">Eelistused</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">Eelistused</annotation></string>
-    <string name="global_actions_panel_short_title">Kaardid ja pääsmed</string>
-    <string name="global_actions_panel_summary">Kui soovite juurde pääseda näiteks oma makseviisidele ja pardakaartidele, vajutage pikalt toitenuppu.</string>
-    <string name="global_actions_panel_title">Kuva kaarte ja pääsmeid</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">Eelistused</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">Eelistused</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">Luba rakenduste installimine muudest allikatest peale Play poe</string>
-    <string name="keywords_accessibility_menu">motoorika, kiirmenüü, abistav menüü, puude, käeline osavus</string>
     <string name="keywords_adaptive_alert_vibration">puutepõhine, vibreerimine, telefon, kõne, helin, helisemine, hoiatus, märguanded, vali, vaikne, lärmakas, lärm, ümbris, kohanduv</string>
     <string name="keywords_adaptive_charging">laadima, laadimine, nutikas laadimine, kohanduv laadimine, aku, aku toimivus</string>
-    <string name="keywords_assist_gesture_launch">"liigutus, serv, külg, aktiivne serv, pigistamine, haare, abi, assistent, pigistamine, ok google, google'i assistent"</string>
     <string name="keywords_assist_gesture_silence">liigutus, serv, külg, aktiivne serv, vaikus, edasilükkamine, alarm, sissetulev kõne, vaikne, ekraanikuva, lukustuskuva, pigistamine, haare, peatamine</string>
     <string name="keywords_assist_gesture_wake">liigutus, serv, külg, aktiivne serv, äratamine, märguanded, ekraan, ekraanikuva, ekraani väljalülitamine, ekraani sisselülitamine, pigistamine, uni, unerežiim, haare</string>
     <string name="keywords_battery_share">aku jagamine, juhtmeta laadimine</string>
     <string name="keywords_battery_share_settings">aku jagamine, vastastikune juhtmeta laadimine</string>
-    <string name="keywords_content_capture">sisu jäädvustamine, rakenduse sisu, rakenduse andmed</string>
-    <string name="keywords_gesture">liigutus, liigutused</string>
-    <string name="keywords_global_actions_panel">kaardid, pääsmed</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">garantii, piiratud garantii, lubadus, parandus, parandamine, remont, RMA, kaubatagastuse volitus, asendus, asendamine</string>
-    <string name="keywords_live_transcribe">Subtiitrid, reaalajas subtiitrid, kuulmislangus, kuulmiskadu, CART, kõnesüntees</string>
     <string name="keywords_reverse_charging_stop_threshold">Lõpeta aku jagamine, kui akutase on:</string>
-    <string name="keywords_select_to_speak">teksti kuulmine, ettelugemine, ekraanikuvalt lugemine, ekraanilugeja</string>
-    <string name="keywords_sound_amplifier">PSAP, võimendus, heli võimendamine, kuulmislangus, kuulmiskadu, võimendamine</string>
-    <string name="keywords_sound_notifications">Märguanded, kuulmislangus, kuulmiskadu, teavitama</string>
-    <string name="keywords_switch_access">motoorika, lüliti, käsi, AT, abistav tehnoloogia, halvatus, ALS, skannimine, sammu skannimine</string>
-    <string name="keywords_talkback">Ekraanilugeja, Voice Over, VoiceOver, häälabi, pime, halb nähtavus, TTS, kõnesüntees, suuline tagasiside</string>
-    <string name="keywords_voice_access">hääl, hääljuhtimine, motoorika, käsi, mikrofon, dikteerimine, kõnelemine, juhtimine</string>
-    <string name="language_input_gesture_summary_off">Active Edge on välja lülitatud</string>
-    <string name="language_input_gesture_summary_on_non_assist">Active Edge on sisse lülitatud</string>
-    <string name="language_input_gesture_summary_on_with_assist">Active Edge on sees, pigistage assistendi kasutamiseks</string>
+    <string name="led_preference_title">LED-näidiku muster</string>
+    <string name="legal_source_code_description">Lisateave komponentide lähtekoodi kohta muudetakse avatud lähtekoodina kättesaadavaks ja leiate selle Pixeli abikeskusest.</string>
+    <string name="legal_source_code_title">Lähtekood</string>
     <string name="limited_warranty_introduction">Selle seadme garantii vaatamiseks puudutage riiki, kust seade osteti. Garantii on saadaval ka aadressil g.co/devicewarranty</string>
     <string name="limited_warranty_title">Piiratud garantii</string>
-    <string name="me_card_title">Minu Pixel</string>
-    <string name="my_device_info_account_preference_title">"Google'i konto"</string>
-    <string name="owner_info_settings_edit_text_hint">Nt Karli Pixel.</string>
+    <string name="lockscreen_show_weather_summary">Vaadake praegust ilma</string>
+    <string name="lockscreen_show_weather_title">Ilmateate kuvamine</string>
+    <string name="permit_debugging_data">Luba juurdepääs veaaruandele</string>
+    <string name="play_application_detail_indication_summary">Kontrollige värskendusi</string>
+    <string name="play_application_update_entry_title">Rakenduse värskendused</string>
+    <string name="repair_mode_active_summary">Parandamisrežiimis</string>
+    <string name="repair_mode_summary">Turvaline keskkond seadme parandamiseks</string>
+    <string name="repair_mode_title">Parandamisrežiim</string>
+    <string name="request_google_account_summary">"Lisage Google'i konto"</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Lülitub lühikeseks ajaks automaatselt sisse, kui teie telefon on laadijaga ühendatud</string>
     <string name="reverse_charging_auto_turn_on_title">Lülita automaatselt sisse</string>
     <string name="reverse_charging_charging_wirelessly_message">Pole saadaval, kuna telefon laeb juhtmeta</string>
@@ -257,64 +278,26 @@ Proovimiseks pöörake telefon ümber."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Aku jagamine</string>
     <string name="reverse_charging_is_on_summary">Sees / muu seadme laadimine</string>
     <string name="reverse_charging_main_switch">Kasuta aku jagamist</string>
-    <string name="reverse_charging_off_low_battery_summary">Väljas / Telefoni aku laetus on alla %1$s</string>
-    <string name="reverse_charging_off_sharing_level_summary">Väljas / Aku laetus on allapoole jagamistaset</string>
     <string name="reverse_charging_overheat_summary">Pole saadaval, kuna Pixel on liiga kuum. Oodake, kuni telefon jahtub, ja proovige uuesti.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Pole saadaval, kuna akusäästja on sees</string>
     <string name="reverse_charging_sharing_level_message">Pole saadaval, kuna aku laetus on allapoole jagamistaset</string>
-    <string name="reverse_charging_switch_summary">Asetage seadmed Pixeli tagaküljele</string>
     <string name="reverse_charging_switch_title">Laadige teisi seadmeid, asetades need Pixeli tagaküljele</string>
-    <string name="reverse_charging_switch_title_message">Muude seadmete laadimine</string>
     <string name="reverse_charging_title">Aku jagamine</string>
     <string name="reverse_charging_unplug_usb_cable_message">Pole saadaval, kuna USB-C-seade on ühendatud</string>
     <string name="reverse_charging_warning_summary">Pole saadaval, kuna aku laetus on alla %1$s</string>
     <string name="reverse_charging_warning_title">Aku jagamine pole saadaval, kuna aku laetus on alla %1$s</string>
-    <string name="rtt_settings_always_visible">Alati nähtav</string>
-    <string name="rtt_settings_no_visible">Ei ole nähtav</string>
-    <string name="rtt_settings_title">Reaalajas teksti saatmine (RTT)</string>
-    <string name="rtt_settings_visible_during_call">Kõne ajal nähtav</string>
-    <string name="screen_time_summary_usage_today">Täna: %1$s</string>
-    <string name="search_bar_account_avatar_content_description">"Profiilipilt, topeltpuudutage Google'i konto avamiseks"</string>
+    <string name="search_gesture_category_title">Ekraaniotsing</string>
+    <string name="search_long_press_home_button_summary">"Google'i otsingu avamiseks vajutage pikalt avakuva nuppu."</string>
+    <string name="search_long_press_home_button_title">Otsimiseks pikalt avakuva nupu puudutamine</string>
+    <string name="search_press_hold_gesture_summary">Ekraanil otsingu käivitamiseks vajutage ja hoidke navigeerimispidet all.</string>
+    <string name="search_press_hold_gesture_title">Otsimiseks pideme hoidmine</string>
     <string name="security_dismiss_dialog_dismiss_button">Loobu</string>
     <string name="security_dismiss_dialog_title">Kas loobuda hoiatusest?</string>
-    <string name="security_settings_face_enroll_education_message">Pöörake järgmisel ekraanikuval oma pead, et nägu jäädvustada iga nurga alt.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">Hoidke järgmisel kuval telefoni silmade kõrgusel</string>
-    <string name="security_settings_face_enroll_error_timeout_dialog_message">Näo registreerimise ajalimiit on täis. Proovige uuesti.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Näoga avamise seadistamine aegus</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Nüüd saate telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostu kinnitamisel) oma nägu kasutada.</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Nüüd saate telefoni kättevõtmisel või ekraani puudutamisel avamiseks oma nägu kasutada.
 
 Näoga avamine toimib kõige paremini, kui valgust on piisavalt ja te ei kanna maski ega tumedaid prille."</string>
-    <string name="security_settings_face_enroll_finish_title">Paistab korras!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">Seadistus piiratud nägemise või pealiikumise jaoks</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">Kui kasutate funktsiooni Näoga avamine, peate võib-olla oma pead täpsemalt telefoni ees hoidma.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">Silmad peavad avatud olema</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"Seadetes saate (või saab laps) näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutatakse.
-
-Lisateave: g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">Kontroll on teie ja teie lapse käes</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"Seadetes saate oma näomudeli alati kustutada või näoga avamise funktsiooni välja lülitada. Näomudelid salvestatakse telefoni, kuni need kustutate.
-
-Lisateave: g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">Teie juhite toimuvat</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"Näoga avamise funktsioon loob teie lapse näost kordumatu mudeli, mille abil tema isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised tema näost eri nurkade all.
-
-Kui ta kasutab näoga avamist, kasutatakse kujutisi tema näomudeli värskendamiseks. Näomudeli loomiseks kasutatavaid kujutisi ei salvestata, kuid näomudel salvestatakse turvaliselt telefoni, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt telefonis."</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"Näoga avamise funktsioon loob teie näost kordumatu mudeli, mille abil teie isik kinnitada. Näomudeli loomiseks jäädvustatakse seadistamise ajal kujutised teie näost eri nurkade all.
-
-Kui kasutate näoga avamist, kasutatakse kujutisi teie näomudeli värskendamiseks. Näomudeli loomiseks kasutatavaid kujutisi ei salvestata, kuid näomudel salvestatakse turvaliselt teie telefoni, kust seda välja ei saadeta. Kogu töötlus toimub turvaliselt teie telefonis."</string>
-    <string name="security_settings_face_enroll_introduction_how_title">Tööpõhimõtted</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie lapse silmad oleksid lahti. Selle valiku saate (või saab laps) seadetes alati sisse lülitada.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kui laps kannab tavaliselt prille, võib ta neid kanda ka seadistamise ajal.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">Lapse telefoni avamiseks tema näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">Telefoni vaatamisel võib see avaneda ka siis, kui ta seda ei soovi. Temaga sarnane inimene, näiteks tema identne vend või õde, saab samuti tema telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni tema näo ees.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">Näoga avamise funktsioon võib telefoni avamiseks või isiku kinnitamiseks nõuda, et teie silmad oleksid lahti. Selle valiku saate seadetes alati sisse lülitada.</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">Prille ja heledama klaasiga päikeseprille tohib kasutada.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">Telefoni avamiseks näo kasutamine võib olla vähem turvaline kui tugev muster, PIN-kood või parool</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">Telefoni vaatamisel võib see avaneda ka siis, kui te seda ei soovi. Teiega sarnane inimene, näiteks teie identne vend või õde, saab samuti teie telefoni avada. Telefoni saab avada ka nii, et keegi hoiab telefoni teie näo ees.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">Pidage meeles</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">Kasutage oma telefoni avamiseks või oma isiku kinnitamiseks (nt rakendustesse sisselogimisel või ostude kinnitamisel) oma nägu.</string>
-    <string name="security_settings_face_enroll_introduction_title">Funktsiooni Näoga avamine seadistamine</string>
     <string name="security_settings_face_enroll_next">Järgmine</string>
     <string name="security_settings_face_enroll_partial_message">Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada</string>
     <string name="security_settings_face_enroll_partial_start_over">Alusta uuesti</string>
@@ -323,39 +306,66 @@ Kui kasutate näoga avamist, kasutatakse kujutisi teie näomudeli värskendamise
 
 Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</string>
     <string name="security_settings_face_enroll_timeout_title">Seadistust ei saa jätkata</string>
-    <string name="security_settings_face_enroll_timeout_try_again">Proovi uuesti</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Proovige uuesti</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">Kasuta kiirseadistust</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Välju seadistusest</string>
     <string name="security_settings_face_enroll_too_hot_message">Näoga avamise seadistust ei saa lõpule viia, kuna telefon on liiga kuum. Proovige uuesti, kui telefon on jahtunud.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Jäta näoga avamine vahele</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon on liiga kuum</string>
-    <string name="security_settings_fingerprint_preference_summary_none">Puudutage sõrmejälje seadistamiseks</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Lisateave Pixeli sõrmejäljega avamise funktsiooni kohta: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
-    <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint töö jaoks</string>
-    <string name="setup_suggestion_summary">Kopeerige andmeid, makske telefoniga jm</string>
+    <string name="setup_suggestion_summary">Vaid mõned toimingud veel</string>
     <string name="setup_suggestion_title">Lõpetage seadistamine</string>
-    <string name="smart_battery_footer">Aku tööea pikendamiseks võib kohanduv akuhaldur vähendada jõudlust ja taustategevusi. Mõni märguanne võib viibida.</string>
-    <string name="smart_battery_manager_title">Kohanduvad eelistused</string>
-    <string name="smart_battery_title">Kohanduv akuhaldur</string>
-    <string name="sound_dashboard_summary">Helitugevus, värintagasiside, Mitte segada</string>
-    <string name="storage_manager_indicator">Nutikas salvestusruum: ^1</string>
-    <string name="suw_back_button_label">Tagasi</string>
+    <string name="software_update_can_be_updated_header">Muutke oma Pixel veelgi paremaks</string>
+    <string name="software_update_detail_indication_1_update_available">1 värskendus on saadaval</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">Saadaval on %1$d värskendust</string>
+    <string name="software_update_detail_indication_action_required">Toiming on vajalik</string>
+    <string name="software_update_entry_title">Tarkvaravärskendused</string>
+    <string name="software_update_entry_up_to_date_summary">Hoidke oma Pixel ajakohasena</string>
+    <string name="software_update_pending_update_summary">Ootelolev värskendus</string>
+    <string name="software_update_unknown_state_summary">Vaadake hiljem uuesti</string>
+    <string name="software_update_up_to_date_header">Teie Pixel on ajakohane</string>
+    <string name="software_update_up_to_date_summary">Ajakohane</string>
+    <string name="software_update_up_to_specific_date_summary">Värskendati: %1$s</string>
+    <string name="software_update_update_available_summary">Värskendus on saadaval</string>
+    <string name="speed_boost_summary_off">Väljas</string>
+    <string name="speed_boost_summary_on">Sees</string>
+    <string name="speed_boost_title">Spectrum Speed Boost</string>
     <string name="suw_limited_warranty_title">Piiratud garantii</string>
-    <string name="suw_more_button_label">Rohkem</string>
-    <string name="suw_next_button_label">Edasi</string>
     <string name="suw_warranty_description">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite.&lt;br /&gt;&lt;br /&gt;Garantii on saadaval ka menüüs &lt;b&gt;Seaded &gt; Teave telefoni kohta &gt; Piiratud garantii&lt;/b&gt; ja saidil g.co/devicewarranty.</string>
     <string name="suw_warranty_description_content">Oma piiratud garantii vaatamiseks valige riik, kust selle seadme ostsite. Garantii on saadaval ka menüüs Seaded &gt; Teave telefoni kohta &gt; Piiratud garantii ja saidil g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Järgmine</string>
     <string name="suw_warranty_positive_button_text">Sule</string>
-    <string name="time_remaining_warning_subtext">Teie kasutuse alusel on jäänud ligikaudu %1$s</string>
-    <string name="time_remaining_warning_text">Aku võib peagi tühjaks saada</string>
+    <string name="system_update_entry_title">Süsteemivärskendus</string>
+    <string name="system_updates_group_title">Pixeli värskendused</string>
     <string name="tips_suggestion_summary">Uurige, mida saate oma telefoniga teha</string>
     <string name="tips_suggestion_title">Õppige oma Pixelit tundma</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Hoidke telefoni oma näo ees</string>
-    <string name="usb_use_file_transfers">Failiedastus / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">Värvid, temaatilised ikoonid, rakenduste ruudustik</string>
+    <string name="unified_battery_saver_page_intro">Säästke toidet, et telefoni aku kestaks laadimiste vahel kauem</string>
+    <string name="vpn_app_bypass">Valitud rakenduste välistamine</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">Praegused operaatori rakendused</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">Kas välistada %1$d operaatori rakendust VPN-ist?</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">Mõned operaatori rakendused töötavad vaid nende enda võrgus</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">Selles seadmes pole operaatori rakendusi</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">Teid teavitatakse uute operaatorirakenduste installimisest</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">Kas välistada operaatori %1$d rakendus VPN-ist?</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">Kas välistada operaatori rakendused VPN-ist?</string>
+    <string name="vpn_bypass_cancel">Tühista</string>
+    <string name="vpn_bypass_carrier_accessibility_description">Operaatori rakenduste välistamine sees/väljas</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">Lubades operaatori rakendustel VPN-i eirata ja kasutada telefoni tavapärast võrguühendust, võib see eemaldada operaatori rakenduste talitlushäired.</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">Vaadake üle hiljuti installitud operaatorirakendused</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">operaatori rakenduste lüliti</string>
+    <string name="vpn_bypass_carrier_description">Operaatori rakenduste välistamine</string>
+    <string name="vpn_bypass_category_title">VPN-ist välistatud rakendused</string>
+    <string name="vpn_bypass_description">Välistatud rakendused ei kasuta VPN-i. Mõned mobiilioperaatori rakendused töötavad ainult enda võrgus ilma VPN-ita.</string>
+    <string name="vpn_bypass_exclude">Välista</string>
+    <string name="vpn_exclude_ntf_content">Teil on hiljuti installitud operaatori rakendusi, mis ei pruugi VPN-iga töötada</string>
+    <string name="vpn_exclude_ntf_title">Kas välistada uued rakendused VPN-ist?</string>
+    <string name="vpn_preference_group_title">Muud</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s (%2$s)</string>
-    <string name="wifi_subscription_summary">Tellimuse OpenRoaming vaatamine või muutmine</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Ühendatud teenusepakkujaga %1$s</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Puudutage ühendamiseks</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Ei saa ühendust luua. Puudutage uuesti proovimiseks.</string>

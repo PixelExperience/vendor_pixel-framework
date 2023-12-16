@@ -26,7 +26,6 @@
             android:layout_height="wrap_content">
 
             <include layout="@layout/assist_gesture_illustration" />
-
         </FrameLayout>
 
         <LinearLayout
@@ -43,7 +42,6 @@
                 android:text="@string/assist_gesture_training_enrolling_error_squeeze_release_quickly"
                 android:textColor="?android:colorError"
                 android:visibility="invisible" />
-
         </LinearLayout>
 
         <Space
@@ -52,7 +50,5 @@
             android:layout_weight="1.0" />
 
         <include layout="@layout/assist_gesture_training_seekbar" />
-
     </LinearLayout>
-
 </com.google.android.setupdesign.GlifLayout>

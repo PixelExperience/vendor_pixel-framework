@@ -1,23 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">యాక్టివ్‌గా లేనప్పుడు స్క్రీన్ లాక్</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">హెచ్చరికలను నిశ్శబ్దం చేయడానికి సంజ్ఞ</string>
     <string name="gesture_skip_title">సంజ్ఞను దాటవేయండి</string>
     <string name="keywords_touch_sensitivity">స్పర్శ, సున్నితత్వం, సున్నితం, స్క్రీన్ ప్రొటెక్టర్, ఫిల్మ్, ప్రతిస్పందనాత్మకం, ప్రతిస్పందన</string>
-    <string name="touch_sensitivity_summary">స్క్రీన్ ప్రొటెక్టర్‌ను ఉపయోగిస్తున్నప్పుడు టచ్ సెన్సిటివిటీని పెంచండి, టచ్‌ని మెరుగుపరచండి</string>
+    <string name="keywords_wake_display" />
+    <string name="touch_sensitivity_summary">స్క్రీన్ గార్డ్‌ను ఉపయోగిస్తున్నప్పుడు టచ్ సెన్సిటివిటీని పెంచండి, టచ్‌ని మెరుగుపరచండి</string>
     <string name="touch_sensitivity_title">స్క్రీన్ ప్రొటెక్టర్ మోడ్</string>
     <string name="columbus_title">చర్యలను ప్రారంభించడానికి క్విక్ ట్యాప్ చేయండి</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge సెటప్ చేయబడింది. తర్వాతి స్క్రీన్‌కి వెళ్లండి లేదా సర్దుబాటు చేయడం కొనసాగించండి.</string>
     <string name="accessibility_keyboard_haptics_title">కీబోర్డ్ స్పర్శలు</string>
-    <string name="adaptive_alert_vibration_summary">ఇది మీ ఫోన్ అలా స్థిరంగా ఉన్నప్పుడు, స్క్రీన్ పైభాగం పైవైపునకు ఉన్నప్పుడు వైబ్రేషన్ బలాన్ని తగ్గిస్తుంది</string>
+    <string name="adaptive_alert_vibration_summary">ఇది మీ ఫోన్ స్థిరంగా ఉన్నప్పుడు, స్క్రీన్ పైభాగం పైవైపునకు ఉన్నప్పుడు వైబ్రేషన్ బలాన్ని తగ్గిస్తుంది</string>
     <string name="adaptive_alert_vibration_title">అనుకూల అలర్ట్ వైబ్రేషన్</string>
+    <string name="adaptive_battery_switch_des">బ్యాటరీ లైఫ్‌ను పొడిగించడానికి, బ్యాక్‌గ్రౌండ్ యాక్టివిటీతో పాటు పనితీరును అనుకూల బ్యాటరీ తగ్గించవచ్చు. కొన్ని నోటిఫికేషన్‌లు రావడం ఆలస్యం కావచ్చు.</string>
+    <string name="adaptive_battery_switch_title">అనుకూల బ్యాటరీని ఉపయోగించండి</string>
     <string name="adaptive_charging">అనుకూల ఛార్జింగ్</string>
-    <string name="adaptive_charging_description">ఎక్కువసేపు ఛార్జింగ్ చేస్తున్నప్పుడు, నెమ్మదిగా ఛార్జింగ్ చేయడం ద్వారా బ్యాటరీ జీవితకాలం పొడిగించబడుతుంది. మీ వినియోగించే వ్యవధి ఆధారంగా యాక్టివేట్ చేయబడుతుంది.</string>
+    <string name="adaptive_charging_description">ఎక్కువసేపు ఛార్జింగ్ చేస్తున్నప్పుడు, నెమ్మదిగా ఛార్జింగ్ చేయడం ద్వారా బ్యాటరీ జీవితకాలం పెరుగుతుంది. మీ వినియోగ వ్యవధి ఆధారంగా యాక్టివేట్ అవుతుంది.</string>
+    <string name="adaptive_charging_footer">బ్యాటరీ లైఫ్‌ను ఎక్స్‌టెండ్ చేయడంలో సహాయపడటానికి, మీ ఫోన్ మీ ఛార్జింగ్ కమాండ్ రొటీన్‌ను తెలుసుకుంటుంది, మీకోసం పూర్తిగా ఛార్జ్ అయ్యే వరకు వేచి ఉంటుంది.</string>
+    <string name="adaptive_charging_link_a11y">అనుకూల ఛార్జింగ్ గురించి మరింత తెలుసుకోండి</string>
+    <string name="adaptive_charging_main_switch_title">అనుకూల ఛార్జింగ్‌ను ఉపయోగించండి</string>
     <string name="adaptive_charging_time_estimate"><b>అనుకూల ఛార్జింగ్</b> • %1$sలోగా పూర్తి అవుతుంది</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">ప్రాధాన్యతలు</annotation></string>
-    <string name="app_and_notification_dashboard_summary">Assistant, ఇటీవలి యాప్‌లు, ఆటోమేటిక్‌ యాప్‌లు</string>
+    <string name="adaptive_charging_title">అనుకూల ఛార్జింగ్</string>
+    <string name="add_bypassed_application_hint">యాప్‌లు ఏవీ జోడించబడలేదు</string>
+    <string name="advanced_vpn_preference_group_title">బిల్ట్-ఇన్</string>
+    <string name="all_apps_category_title">అన్ని యాప్‌లు</string>
+    <string name="allow_debugging_data_description">మా <a href="https://policies.google.com/privacy"> గోప్యతా పాలసీకి అనుగుణంగా యాప్ సమస్యలను, పరికర సమస్యలను విశ్లేషించడానికి, Google, బగ్ రిపోర్ట్‌లను ఉపయోగిస్తుంది</a>".
+
+"<b>బగ్ రిపోర్ట్‌లలో యాప్ లాగ్‌లు, సిస్టమ్ లాగ్‌లు ఉంటాయి.</b>" వీటిలో పేర్లు, ఈమెయిల్ అడ్రస్‌లు, ఫోన్ నంబర్లు, లొకేషన్ డేటా, పరికర ఐడెంటిఫయర్లు, కనెక్ట్ అయిన పరికరాలు, నెట్‌వర్క్ సమాచారం వంటి వ్యక్తిగత సమాచారం, పరికర సమాచారం కూడా ఉండవచ్చు. మీ సమస్య వల్ల ప్రభావితం అయ్యే అవకాశం ఉన్న ఇంజనీరింగ్ పార్ట్‌నర్‌లతో ఈ రిపోర్ట్‌లు షేర్ చేయబడవచ్చు.
+
+ఈ యాప్‌నకు యాక్సెస్‌ ఇవ్వడం ద్వారా అన్ని రకాల సమస్య రిపోర్ట్‌లకు సంబంధించి "<b>యాప్ లాగ్‌లను, సిస్టమ్ లాగ్‌లను కలిగి ఉన్న బగ్ రిపోర్ట్‌లను</b>" ఆటోమేటిక్‌గా కలెక్ట్ చేసి అప్‌లోడ్ చేయడానికి అనుమతి లభిస్తుంది.
+
+యాక్సెస్‌ను ఉపసంహరిస్తే గనుక, ప్రతి ఒక్క సమస్య రిపోర్ట్ కోసం బగ్ రిపోర్ట్‌ను కలెక్ట్ చేసి, అప్‌లోడ్ చేయడానికి యాప్, మీ అనుమతిని కోరుతూ రిక్వెస్ట్ చేయాల్సి ఉంటుంది."</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">ప్రాధాన్యతలు</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">Assistantకు వెళ్లు</string>
-    <string name="assist_gesture_enrollment_do_it_later">దీనిని తర్వాత చేయి</string>
+    <string name="assist_gesture_enrollment_do_it_later">తర్వాత చేయండి</string>
     <string name="assist_gesture_enrollment_seekbar_light">తేలికగా నొక్కడం</string>
     <string name="assist_gesture_enrollment_seekbar_strong">ఒత్తిడితో నొక్కడం</string>
     <string name="assist_gesture_enrollment_settings">సెట్టింగ్‌లు</string>
@@ -45,17 +69,10 @@
     <string name="assist_gesture_training_suggestion_summary">Assistantతో మాట్లాడండి, కాల్స్‌ను మ్యూట్ చేయండి</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">Assistantతో మాట్లాడండి, అలారాలు మరియు కాల్స్‌ను మ్యూట్ చేయండి</string>
     <string name="assist_gesture_training_suggestion_title">Assistant కోసం గట్టిగా నొక్కి, విడుదల చేయండి</string>
-    <string name="automatic_storage_manager_activation_warning">మీరు కనెక్ట్ అయ్యి ఉన్నప్పుడు, ఫోటోలు, వీడియోలను ఇప్పటికీ మీరు బ్యాకప్ చేయడానికి ఎంచుకున్న క్వాలిటీలో యాక్సెస్ చేయవచ్చు</string>
-    <string name="automatic_storage_manager_days_title">బ్యాకప్ చేసిన ఫోటోలు &amp; వీడియోలను తీసివేయండి</string>
-    <string name="automatic_storage_manager_deactivation_warning">"స్మార్ట్ నిల్వను ఆఫ్ చేయాలా? 
-
-స్మార్ట్ నిల్వ మీ నిల్వ దాదాపుగా నిండిన సమయంలో స్థలాన్ని ఖాళీ చేయదు."</string>
-    <string name="automatic_storage_manager_downloads_days_title">బ్యాకప్ చేసిన డౌన్‌లోడ్‌లు</string>
-    <string name="automatic_storage_manager_preference_title">స్మార్ట్ స్టోరేజ్</string>
-    <string name="automatic_storage_manager_primary_switch_title">స్మార్ట్ స్టోరేజ్‌ను ఉపయోగించండి</string>
-    <string name="automatic_storage_manager_settings">స్మార్ట్ స్టోరేజ్</string>
-    <string name="automatic_storage_manager_text">స్టోరేజ్ దాదాపుగా నిండినప్పుడు, బ్యాకప్ చేసిన ఫోటోలు, వీడియోలను తీసివేస్తుంది. అయినప్పటికీ, మీరు వాటిని Google Photosలో పొందవచ్చు</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">ఆన్ చేయి</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">ఇప్పుడు కాదు</string>
     <string name="aware_footer_when_airplane_batterysaver_on">విమానం మోడ్, బ్యాటరీ సేవర్ ఆన్‌లో ఉన్నందున Motion Sense అందుబాటులో లేదు</string>
     <string name="aware_footer_when_airplane_on">విమానం మోడ్ ఆన్‌లో ఉన్నందున Motion Sense అందుబాటులో లేదు</string>
@@ -64,44 +81,34 @@
     <string name="aware_gesture_summary_on_non_assist">త్వరిత సంజ్ఞలు ఆన్ చేయబడ్డాయి, ఇంకా Active Edge ఆన్ చేయబడింది</string>
     <string name="aware_gesture_summary_on_with_assist">త్వరిత సంజ్ఞలు ఆన్ చేయబడ్డాయి, Active Edge ఆన్ చేయబడింది, మీ Assistant కోసం నొక్కండి</string>
     <string name="aware_info_button_description">మరిన్ని సెట్టింగ్‌లు</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">విమానం మోడ్, బ్యాటరీ సేవర్ ఆన్‌లో ఉన్నందున అందుబాటులో లేదు</string>
     <string name="aware_summary_when_airplane_on">విమానం మోడ్ ఆన్‌లో ఉన్నందున అందుబాటులో లేదు</string>
     <string name="aware_summary_when_batterysaver_on">బ్యాటరీ సేవర్ ఆన్‌లో ఉన్నందున అందుబాటులో లేదు</string>
-    <string name="backup_data_summary">యాప్‌ డేటా, Wi-Fi పాస్‌వర్డ్‌లు మరియు ఇతర సెట్టింగ్‌లను Google సర్వర్‌లకు బ్యాకప్ చేస్తుంది</string>
-    <string name="backup_suggestion_cancel">రద్దు చేయండి</string>
-    <string name="backup_suggestion_dialog_description">ఇది మీ ఫోన్ యొక్క అంతర్గత నిల్వలో ఉన్న మొత్తం డేటాను తొలగిస్తుంది</string>
-    <string name="backup_suggestion_dialog_title">ఈ పరికరాన్ని రీసెట్ చేయాలా?</string>
-    <string name="backup_suggestion_get_started">మరింత తెలుసుకోండి</string>
-    <string name="backup_suggestion_item_summary">Android లేదా iPhone® పరికరం నుండి కాపీ చేయండి</string>
-    <string name="backup_suggestion_item_title">పాత ఫోన్ డేటా కనిపించలేదా?</string>
-    <string name="backup_suggestion_missing_description">"SMS మెసేజ్‌లు, ఫోటోల వంటి మీ డేటా కనిపించకపోతే, మీరు కేబుల్‌ను ఉపయోగించి వాటిని మీ Pixelకు బదిలీ చేయవచ్చు.
-
-ప్రారంభించడానికి, మీ Pixelను రీసెట్ చేయాలి. అనుకూలంగా మార్చబడిన సెట్టింగ్‌లు, క్లౌడ్‌కు సింక్ చేయని కంటెంట్‌తో సహా ఈ ఫోన్‌లో ఉన్న డేటా మొత్తం తొలగించబడుతుంది."</string>
-    <string name="backup_suggestion_missing_title">మీ డేటా కనిపించడం లేదా?</string>
-    <string name="backup_suggestion_next">తర్వాత</string>
-    <string name="backup_suggestion_other_ways_to_copy">డేటాను కాపీ చేయడానికి ఇతర మార్గాలు</string>
-    <string name="backup_suggestion_reset_description">"తదుపరి స్క్రీన్‌లో మీ Pixelని రీసెట్ చేయవచ్చు. కేబుల్‌ని ఉపయోగించి డేటాను బదిలీ చేయడానికి ఇది ఒక్కటే మార్గం.
-
-దీనిని రీసెట్ చేసిన తర్వాత, సెటప్ ప్రక్రియను అమలు చేసి, మీ మునుపటి ఫోన్ నుండి మీ డేటాను కాపీ చేయగల ఎంపికను ఎంచుకోండి."</string>
-    <string name="backup_suggestion_reset_title">మీ Pixelని రీసెట్ చేయండి</string>
-    <string name="backup_suggestion_what_is_needed_summary">"మీరు మీ ఫోన్‌ని రీసెట్ చేసిన తర్వాత, మీ వద్ద ఇవి ఉండాలి:
-
-• మీ మునుపటి ఫోన్ (Android 5.0+ లేదా iOS® 8.0+ అమలు అవుతున్న LINK_BEGINచాలా వరకు ఫోన్‌లుLINK_END మద్దతివ్వబడతాయి)
-• మీ మునుపటి ఫోన్ కోసం ఛార్జింగ్ లేదా డేటా కేబుల్
-• మీ Pixelతో పాటు అందించబడే Quick Switch Adapter"</string>
-    <string name="backup_suggestion_what_is_needed_title">మీకు ఏమి అవసరం</string>
-    <string name="battery_manager_summary">బ్యాటరీ జీవితకాలాన్ని పొడిగించండి, ఛార్జింగ్‌ను ఆప్టిమైజ్ చేయండి</string>
-    <string name="battery_manager_summary_unsupported">బ్యాటరీ జీవితకాలాన్ని పెంచుతుంది</string>
-    <string name="battery_missing_link_message">మరింత తెలుసుకోండి</string>
-    <string name="battery_suggestion_summary">అనుకూల బ్యాటరీని ఆన్ చేయండి</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">విజువల్ ఎఫెక్ట్స్‌ను, బ్యాక్‌గ్రౌండ్ యాక్టివిటీని పరిమితం చేస్తుంది. ముదురు రంగు రూపం ఆన్‌లో లేకపోతే, దాన్ని ఆన్ చేస్తుంది.</string>
+    <string name="basic_battery_saver_title">స్టాండర్డ్ బ్యాటరీ సేవర్</string>
+    <string name="battery_saver_reminder_category">రిమైండర్‌లు</string>
+    <string name="battery_saver_reminder_switch_summary">బ్యాటరీ తక్కువగా ఉన్నప్పుడు రిమైండర్‌లను పొందండి</string>
+    <string name="battery_saver_reminder_switch_title">బ్యాటరీ సేవర్ రిమైండర్‌లు</string>
+    <string name="battery_saver_schedule_category">షెడ్యూల్</string>
+    <string name="battery_saver_schedule_switch_summary">మీరు సెట్ చేసిన స్థాయికి బ్యాటరీ పడిపోయినప్పుడు బ్యాటరీ సేవర్ ఆన్ అవుతుంది</string>
+    <string name="battery_saver_schedule_switch_title">బ్యాటరీ స్థాయి ఆధారంగా ఆన్ చేయండి</string>
+    <string name="battery_schedule_summary">బ్యాటరీ సేవర్ ఆన్ అయినప్పుడు మేనేజ్ చేయండి</string>
+    <string name="battery_schedule_title">షెడ్యూల్, రిమైండర్‌లు</string>
     <string name="battery_tip_limited_temporarily_extra_summary">మీ బ్యాటరీని సంరక్షించడానికి, మీ టాబ్లెట్ డాక్ చేయబడినప్పుడు %1$s ఛార్జింగ్ వద్ద పాజ్ చేయబడుతుంది</string>
-    <string name="battery_tip_smart_battery_summary">అనుకూల బ్యాటరీని ఆన్ చేయండి</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">%1$s ఇకపై ఈ Google ఖాతాతో లింక్ చేసిన ఏ పరికరంతోనూ జత చేయబడదు</string>
-    <string name="clear_calling_footer">"మీ గోప్యతను రక్షించడానికి, క్లియర్ కాలింగ్ ఎప్పుడూ ఆడియో లేదా సంభాషణలను Googleకు పంపదు.
+    <string name="clear_calling_footer">"మీ గోప్యతను రక్షించడానికి, క్లియర్ కాలింగ్ ఫీచర్‌, ఆడియోను లేదా సంభాషణలను Googleకు పంపదు.
 
-మీ Wi‑Fi, మొబైల్ నెట్‌వర్క్ ఆధారంగా క్లియర్ కాలింగ్ అందుబాటులో ఉంటుంది."</string>
-    <string name="clear_calling_title">Clear Calling</string>
-    <string name="clear_calling_toggle">Clear Callingను ఉపయోగించండి</string>
+క్లియర్ కాలింగ్, Wi‑Fi కాలింగ్‌తో పాటు, దాదాపుగా అన్ని నెట్‌వర్క్‌లలో పని చేస్తుంది, 3G నెట్‌వర్క్‌లకు మాత్రం అందుబాటులో లేదు."</string>
+    <string name="clear_calling_title">క్లియర్ కాలింగ్</string>
+    <string name="clear_calling_toggle">క్లియర్ కాలింగ్‌ను ఉపయోగించండి</string>
     <string name="clear_calling_topintro">కాల్స్ జరుగుతున్నప్పుడు బ్యాక్‌గ్రౌండ్ నాయిస్‌లను తగ్గిస్తుంది</string>
     <string name="columbus_gesture_detected">క్విక్ ట్యాప్ గుర్తించడం జరిగింది!</string>
     <string name="columbus_gesture_enrollment_complete">పూర్తయింది</string>
@@ -133,7 +140,7 @@
     <string name="columbus_radio_button_extra_widget_a11y_label">%1$s సెట్టింగ్‌లు</string>
     <string name="columbus_setting_action_assistant_title">మీ డిజిటల్ అసిస్టెంట్‌ను యాక్సెస్ చేయండి</string>
     <string name="columbus_setting_action_flashlight_title">ఫ్లాష్‌లైట్‌ను టోగుల్ చేయండి</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">యాప్ ఏదీ ఎంచుకోబడలేదు</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">ఏ యాప్‌నూ ఎంచుకోలేదు</string>
     <string name="columbus_setting_action_launch_summary_not_installed">యాప్ ఇన్‌స్టాల్ చేయబడలేదు</string>
     <string name="columbus_setting_action_launch_title">యాప్‌ను తెరవండి</string>
     <string name="columbus_setting_action_notification_title">నోటిఫికేషన్‌లను చూపండి</string>
@@ -147,13 +154,8 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">మీరు క్విక్ ట్యాప్‌ను ఉపయోగించి ఈ యాప్‌ను తెరిచినప్పుడు ఏమి జరుగుతుందో ఎంచుకోండి.</string>
     <string name="columbus_setting_enable_switch_title">క్విక్ ట్యాప్‌ను ఉపయోగించండి</string>
     <string name="columbus_setting_sensitivity_title">గట్టిగా ట్యాప్ చేయడం అవసరం</string>
-    <string name="communal_cast_summary">ఈ పరికరంలో ప్రసారం చేయండి లేదా ఈ పరికరం నుండి ప్రసారం చేయండి</string>
-    <string name="communal_lock_screen_summary">గోప్యతా, నోటిఫికేషన్‌లు, హోమ్ కంట్రోల్స్</string>
-    <string name="communal_settings_summary_1">లాక్ చేయబడి &amp; డాక్ చేయబడినప్పటి పనితీరు</string>
-    <string name="communal_settings_summary_2">ఆన్‌డాక్ ఆప్షన్‌లు</string>
-    <string name="communal_settings_summary_3">డాక్, లాక్ స్క్రీన్ ఆప్షన్‌లు</string>
-    <string name="communal_settings_summary_4">లాక్ స్క్రీన్, ఆన్‌డాక్ ఆప్షన్‌లు</string>
-    <string name="communal_settings_title">హబ్ మోడ్</string>
+    <string name="communal_lock_screen_summary">గోప్యత, నోటిఫికేషన్‌లు, హోమ్ కంట్రోల్స్</string>
+    <string name="communal_other">ఇతరం</string>
     <string name="communal_smartspace_summary">Assistant నుండి రిమైండర్‌లు, అలర్ట్‌లు, మరెన్నో</string>
     <string name="communal_smartspace_title">డైనమిక్ డిస్‌ప్లే</string>
     <string name="communal_what_to_show">వేటిని చూపాలి</string>
@@ -164,16 +166,27 @@
     <string name="connectivity_helper_d2d_summary">కాల్స్‌లో ఉన్నప్పుడు, మీ ఫోన్‌కు కనెక్షన్ సమస్యలు ఉన్నప్పుడు ఇతర వ్యక్తికి తెలియజేయండి</string>
     <string name="connectivity_helper_d2d_title">కనెక్షన్ సమాచారం షేర్ చేయండి</string>
     <string name="connectivity_helper_footnote">ఇతర కాలర్ సపోర్ట్ చేసే పరికరం, నెట్‌వర్క్‌ను ఉపయోగిస్తున్నప్పుడు మీరు కనెక్షన్ సమాచారాన్ని షేర్ చేయవచ్చు</string>
-    <string name="content_capture">యాప్ డేటాను ఉపయోగించుకోవడాన్ని వ్యక్తిగతీకరించు</string>
-    <string name="copy_toast_msg">క్లిప్‌బోర్డ్‌కు లింక్ కాపీ చేయబడింది</string>
-    <string name="dark_ui_text">మీ బ్యాటరీ ఎక్కువ సేపు పని చేయడానికి ముదురు రంగు థీమ్ నలుపు బ్యాక్‌గ్రౌండ్‌ను ఉపయోగిస్తుంది. ముదురు రంగు థీమ్, మీ స్క్రీన్ ఆఫ్ అయ్యే వరకు వేచి ఉండాల్సిన సమయాన్ని షెడ్యూల్ చేస్తుంది.</string>
+    <string name="debugging_data_title">డీబగ్గింగ్ డేటా</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">చిట్కాలను అన్వేషించండి</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">ఫోన్‌ని చార్జ్ చేస్తోంది</string>
-    <string name="double_twist_for_camera_mode_summary">Google Cameraలో సెల్ఫీ మోడ్‌లోకి స్విచ్ అవడానికి, నిష్క్రమించడానికి, మీరు యాప్ ఉపయోగించేటప్పుడు ఫోన్ పట్టుకున్న చేతిని రెండుసార్లు అటుఇటూ కదపండి.</string>
-    <string name="downloads_backup_text">డౌన్‌లోడ్ చేసిన ఫైళ్లు Google Driveకు బ్యాకప్ చేయబడతాయి</string>
-    <string name="duration_less_than_one_minute">1 నిమిషం కంటే తక్కువ</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">పైన లిస్ట్ చేసిన అన్ని మార్పులు ఇందులో ఉంటాయి. అనవసరమైన యాప్‌లను, వాటి నోటిఫికేషన్‌లను కూడా పాజ్ చేస్తుంది.</string>
+    <string name="extreme_battery_saver_title">అధునాతన బ్యాటరీ సేవర్</string>
+    <string name="face_confirmation_hide_illustration_description">ఇప్పుడు మీరు మీ ఫోన్‌ను పట్టుకున్నా, లేదా స్క్రీన్‌పై ట్యాప్ చేసినా, అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించవచ్చు.</string>
+    <string name="face_confirmation_info_enough_light">తగినంత వెలుతురు ఉన్నప్పుడు, మీరు మాస్క్ లేదా డార్క్ గ్లాసెస్ ధరించనప్పుడు ఫేస్ అన్‌లాక్ ఉత్తమంగా పని చేస్తుంది.</string>
+    <string name="face_confirmation_info_outside_screen">ఫేస్ అన్‌లాక్ బయటి స్క్రీన్ నుండి మాత్రమే పని చేస్తుంది</string>
     <string name="face_enrolling_center_head">మీ ముఖం లోపలి ఫ్రేమ్‌లో ఉండేలా చూడండి</string>
+    <string name="face_enrolling_close_to_continue">సెటప్ సమయంలో ఫోన్‌ను మడవండి</string>
+    <string name="face_enrolling_close_to_continue_description">ఫేస్ అన్‌లాక్‌ సెటప్‌కు లేదా ఉపయోగించడానికి ఫోన్‌ను తప్పనిసరిగా మడవాలి</string>
     <string name="face_enrolling_description">అన్ని టైల్‌లను తీసివేసి మీ ముఖాన్ని అన్ని కోణాల నుండి క్యాప్చర్ చేయండి.</string>
-    <string name="face_enrolling_do_it_later">దీనిని తర్వాత చేయి</string>
+    <string name="face_enrolling_do_it_later">తర్వాత చేయండి</string>
     <string name="face_enrolling_gaze_dialog_cancel">రద్దు చేయండి</string>
     <string name="face_enrolling_gaze_dialog_continue">కళ్ళు తెరవకుండానే సెటప్ చేయండి</string>
     <string name="face_enrolling_gaze_dialog_message">మీ కళ్లు తెరిచి ఉంచాల్సిన అవసరం లేకుండా ఫేస్ అన్‌లాక్‌ను సెటప్ చేయాలనుకుంటున్నారా? ఈ విధంగా సెట‌ప్ చేస్తే, మీరు జాగ్రత్తగా లేనప్పుడు ఎవరైనా మీ ఫోన్‌ను మీ ముఖం వైపు ఉంచి అన్‌లాక్ చేసే అవకాశం ఉంది.</string>
@@ -187,59 +200,67 @@
     <string name="face_enrolling_too_high">ఫోన్‌ను కిందికి దించండి</string>
     <string name="face_enrolling_too_left">ఫోన్‌ను మీ కుడి వైపునకు జరపండి</string>
     <string name="face_enrolling_too_low">ఫోన్‌ను పైకి పట్టుకోండి</string>
-    <string name="face_enrolling_too_right">ఫోన్‌ను మీ ఎడమవైపునకు జరపండి</string>
+    <string name="face_enrolling_too_right">ఫోన్‌ను మీ ఎడమ వైపునకు జరపండి</string>
     <string name="face_enrolling_turn_head_to_arrow">మీ తలను బాణం దిశగా తిప్పండి</string>
     <string name="face_enrolling_turned_too_far">తల కొద్దిగా తిప్పండి</string>
-    <string name="fallback_menu_item_copy_link">లింక్‌ను కాపీ చేయి</string>
-    <string name="fallback_menu_item_open_in_browser">బ్రౌజర్‌లో తెరువు</string>
-    <string name="fallback_menu_item_share_link">లింక్‌ను షేర్ చేయి</string>
-    <string name="fullbackup_data_summary">"డివైజ్ డేటాను (Wi-Fi పాస్‌వర్డ్‌లు, కాల్ హిస్టరీ వంటివి), యాప్ డేటాను (సెట్టింగ్‌లు, యాప్‌ల ద్వారా స్టోర్ చేయబడిన ఫైళ్ల వంటివి) Google Driveకు ఆటోమేటిక్‌గా బ్యాకప్ చేస్తుంది.
-
-మీరు ఆటోమేటిక్ బ్యాకప్‌ను ఆన్ చేసినప్పుడు, డివైజ్, యాప్ డేటా కాలానుగుణంగా Google Driveలో ప్రైవేట్ ఫోల్డర్‌కు సేవ్ చేయబడుతుంది. కాంటాక్ట్‌లు, మెసేజ్‌లు, ఫోటోల వంటి గోప్యమైనది కావడానికి అవకాశం ఉన్న డేటాతో సహా యాప్ సేవ్ చేసిన (డెవలపర్ సెట్టింగ్‌ల ఆధారంగా) ఎలాంటి డేటా అయినా యాప్ డేటాగా పరిగణించబడుతుంది.
-
-బ్యాకప్ డేటా మీ Drive స్టోరేజీ కోటాలో లెక్కించబడదు. పెద్ద ఫైళ్లు, లేదా డెవలపర్‌లు ఈ సర్వీస్ నుండి మినహాయించాలని ఎంచుకున్న ఫైళ్లు బ్యాకప్ చేయబడవు."</string>
-    <string name="fullbackup_erase_dialog_message">పరికర డేటా (Wi-Fi పాస్‌వర్డ్‌లు, కాల్ హిస్టరీ వంటివి) అలాగే యాప్‌ డేటాను (సెట్టింగ్‌లు, యాప్‌ల ద్వారా స్టోర్ చేయబడిన ఫైళ్లు వంటివి) బ్యాకప్ చేయడం ఆపివేసి, Google Driveలోని అన్ని కాపీలను తీసివేయాలా?</string>
+    <string name="firmware_update_status_category">పరికర ఫర్మ్‌వేర్ స్టేటస్</string>
+    <string name="firmware_update_status_title">ఫర్మ్‌వేర్ అప్‌డేట్ అందుబాటులో ఉంది</string>
+    <string name="firmware_update_version_number_category">పరికర ఫర్మ్‌వేర్ వెర్షన్</string>
+    <string name="firmware_update_version_number_title">పిక్సెల్ కీబోర్డ్ ఫర్మ్‌వేర్</string>
     <string name="gesture_aware_confirmation_action_button">అర్థమైంది</string>
-    <string name="gesture_aware_footer"><annotation link="link">ప్రాధాన్యతలు</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">ప్రాధాన్యతలు</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">ప్రాధాన్యతలు</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">ప్రాధాన్యతలు</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">ఎడమ నుండి కుడికి</string>
     <string name="gesture_skip_direction_rtl">కుడి నుంచి ఎడమకు</string>
     <string name="gesture_skip_direction_title">దాటవేయి దిశ</string>
-    <string name="gesture_skip_footer"><annotation link="link">ప్రాధాన్యతలు</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">ప్రాధాన్యతలు</annotation></string>
-    <string name="global_actions_panel_short_title">కార్డ్‌లు &amp; పాస్‌లు</string>
-    <string name="global_actions_panel_summary">మీ పేమెంట్ ఆప్షన్‌లు, బోర్డ్ పాస్‌లు వంటి వాటిని యాక్సెస్ చేయడానికి పవర్ బటన్‌ను నొక్కి, పట్టుకోండి.</string>
-    <string name="global_actions_panel_title">కార్యక్రమం కార్డ్‌లు &amp; పాస్‌లు</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">ప్రాధాన్యతలు</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">ప్రాధాన్యతలు</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">Play Store కాకుండా ఇతర మూలాల నుండి యాప్‌ల ఇన్‌స్టాలేషన్‌ను అనుమతించండి</string>
-    <string name="keywords_accessibility_menu">మోటార్, త్వరిత మెనూ, సహాయక మెనూ, టచ్, సామర్థ్యము</string>
     <string name="keywords_adaptive_alert_vibration">స్పర్శ ప్రతిస్పందన టెక్నాలజీ, వైబ్రేట్, ఫోన్, కాల్, రింగ్, అలర్ట్, నోటిఫికేషన్‌లు, లౌడ్, నిశ్శబ్దం, నాయిస్, కేస్, అనుకూలం</string>
     <string name="keywords_adaptive_charging">ఛార్జ్, ఛార్జింగ్, స్మార్ట్ ఛార్జింగ్, అనుకూల ఛార్జింగ్, బ్యాటరీ, బ్యాటరీ సామర్థ్యం</string>
-    <string name="keywords_assist_gesture_launch">సంజ్ఞ, edge, పక్కన, active edge, గట్టిగా నొక్కండి, గ్రిప్, సహాయం, Assistant, గట్టిగా నొక్కండి, ok google, Google Assistant</string>
     <string name="keywords_assist_gesture_silence">సంజ్ఞ, అంచు, పక్కన, active edge, నిశ్శబ్దం, తాత్కాలిక ఆపివేత, అలారం, ఇన్‌కమింగ్ కాల్, నిశ్శబ్దం, ప్రదర్శన, లాక్‌స్క్రీన్, గట్టిగా నొక్కండి, గ్రిప్, ఆపివేయి</string>
     <string name="keywords_assist_gesture_wake">సంజ్ఞ, అంచు, పక్కన, active edge, సక్రియపరుచు, నోటిఫికేషన్‌లు, స్క్రీన్, ప్రదర్శన, స్క్రీన్ ఆఫ్, స్క్రీన్ ఆన్, గట్టిగా నొక్కండి, నిద్రావస్థలోకి వెళ్లు, స్లీప్, గ్రిప్</string>
     <string name="keywords_battery_share">బ్యాటరీ షేరింగ్, వైర్‌లెస్ ఛార్జింగ్</string>
     <string name="keywords_battery_share_settings">బ్యాటరీ షేర్, రివర్స్ వైర్‌లెస్ ఛార్జింగ్</string>
-    <string name="keywords_content_capture">కంటెంట్ క్యాప్చర్, యాప్ కంటెంట్, యాప్ డేటా</string>
-    <string name="keywords_gesture">సంజ్ఞ, త్వరిత సంజ్ఞలు</string>
-    <string name="keywords_global_actions_panel">కార్డ్‌లు, పాస్‌లు</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">వారెంటీ, హామీ, పరిమిత వారెంటీ, వాగ్దానం, రిపేర్, rma, రీప్లేస్‌మెంట్</string>
-    <string name="keywords_live_transcribe">క్యాప్షన్‌లు, సబ్‌టైటిల్స్, CC, లైవ్ క్యాప్షన్, వినడంలో సమస్య, వినికిడి ఎర్రర్, CART, స్పీచ్ టూ టెక్స్ట్, సబ్‌టైటిల్</string>
     <string name="keywords_reverse_charging_stop_threshold">ఫోన్ బ్యాటరీ ఈ పరిమితికి చేరుకున్నప్పుడు బ్యాటరీ షేరింగ్‌ను ఆపివేయండి:</string>
-    <string name="keywords_select_to_speak">టెక్స్ట్ విను, గట్టిగా చదువు, స్క్రీన్ మీద ఉన్నది చెప్పు, స్క్రీన్ రీడర్</string>
-    <string name="keywords_sound_amplifier">PSAP, యాంప్లిఫై చేయి, సౌండ్ యాంప్లిఫికేషన్, వినడంలో సమస్య, వినికిడి ఎర్రర్, యాంప్లిఫికేషన్</string>
-    <string name="keywords_sound_notifications">నోటిఫికేషన్‌లు, వినడంలో సమస్య, వినికిడి ఎర్రర్, నోటిఫై</string>
-    <string name="keywords_switch_access">మోటార్, స్విచ్, చేయి, AT, సహాయకర టెక్నాలజీ, పారాలసిస్, ALS, స్కానింగ్, స్టెప్ స్కానింగ్</string>
-    <string name="keywords_talkback">స్క్రీన్ రీడర్, వాయిస్ ఓవర్, వాయిస్ ఓవర్, వాయిస్ అసిస్టెంట్ సహాయం, అంధత్వం, తక్కువ విజన్, TTS, టెక్స్ట్ టూ స్పీచ్, మాటల ప్రతిస్పందన</string>
-    <string name="keywords_voice_access">వాయిస్, వాయిస్ కంట్రోల్, మోటార్, చేయి, మైక్, మైక్రోఫోన్, డిక్టేషన్, టాక్, కంట్రోల్</string>
-    <string name="language_input_gesture_summary_off">Active Edge ఆఫ్ చేయబడింది</string>
-    <string name="language_input_gesture_summary_on_non_assist">Active Edge ఆన్ చేయబడింది</string>
-    <string name="language_input_gesture_summary_on_with_assist">Active Edge ఆన్‌లో ఉంది, మీ Assistant కోసం గట్టిగా నొక్కండి</string>
+    <string name="led_preference_title">LED ఇండికేటర్ ఆకృతులు</string>
+    <string name="legal_source_code_description">ఓపెన్ సోర్స్‌గా అందుబాటులో ఉంచబడిన కాంపోనెంట్‌ల సోర్స్ కోడ్ గురించిన వివరాలను Pixel సహాయ కేంద్రంలో కనుగొనవచ్చు.</string>
+    <string name="legal_source_code_title">సోర్స్ కోడ్</string>
     <string name="limited_warranty_introduction">ఈ పరికరానికి సంబంధించిన వారెంటీ సమాచారాన్ని చూడటానికి, దీనిని ఏ దేశంలో కొనుగోలు చేశారో ఆ దేశాన్ని ట్యాప్ చేయండి. వారంటీ g.co/devicewarranty లింక్ వద్ద కూడా అందుబాటులో ఉంది</string>
     <string name="limited_warranty_title">పరిమిత వారెంటీ</string>
-    <string name="me_card_title">నా Pixel</string>
-    <string name="my_device_info_account_preference_title">Google ఖాతా</string>
-    <string name="owner_info_settings_edit_text_hint">ఉదా. జో యొక్క Pixel.</string>
-    <string name="reverse_charging_auto_turn_on_subtitle">మీ ఫోన్‌ను ఛార్జర్‌కు ప్లగ్ చేసినప్పుడు తాత్కాలిక సమయం పాటు ఆటోమేటిక్‌గా ఆన్ అవుతుంది</string>
+    <string name="lockscreen_show_weather_summary">ప్రస్తుత వాతావరణ పరిస్థితులను చూడండి</string>
+    <string name="lockscreen_show_weather_title">వాతావరణాన్ని చూపు</string>
+    <string name="permit_debugging_data">బగ్ రిపోర్ట్ యాక్సెస్‌ను అనుమతించండి</string>
+    <string name="play_application_detail_indication_summary">అప్‌డేట్‌ల కోసం చెక్ చేయండి</string>
+    <string name="play_application_update_entry_title">యాప్ అప్‌డేట్‌లు</string>
+    <string name="repair_mode_active_summary">రిపేర్ మోడ్‌లో</string>
+    <string name="repair_mode_summary">పరికరం రిపేర్ కోసం సురక్షితమైన ఎన్విరాన్‌మెంట్‌</string>
+    <string name="repair_mode_title">రిపేర్ మోడ్</string>
+    <string name="request_google_account_summary">Google ఖాతాను జోడించండి</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">మీ ఫోన్ ఛార్జర్‌కు ప్లగ్ అయ్యి ఉన్నప్పుడు, కొంత సమయం పాటు ఆటోమేటిక్‌గా ఆన్ అవుతుంది</string>
     <string name="reverse_charging_auto_turn_on_title">ఆటోమేటిక్‌గా ఆన్ చేయండి</string>
     <string name="reverse_charging_charging_wirelessly_message">వైర్‌లెస్‌గా ఫోన్ ఛార్జ్ అవుతున్నందున బ్యాటరీ షేర్ అందుబాటులో లేదు</string>
     <string name="reverse_charging_detail_charging_overheat_message">Pixel చాలా వేడిగా ఉన్నందున బ్యాటరీ షేరింగ్ అందుబాటులో లేదు. ఫోన్ చల్లబడే వరకు ఆగి, మళ్లీ ట్రై చేయండి.</string>
@@ -257,63 +278,26 @@
     <string name="reverse_charging_is_on_and_discharging_summary">బ్యాటరీ షేర్ చేయబడుతోంది</string>
     <string name="reverse_charging_is_on_summary">ఆన్ / ఇతర పరికరాలను ఛార్జ్ చేయండి</string>
     <string name="reverse_charging_main_switch">బ్యాటరీ షేర్‌ను ఉపయోగించండి</string>
-    <string name="reverse_charging_off_low_battery_summary">ఆఫ్ / ఫోన్ బ్యాటరీ %1$s లోపు ఉంది</string>
-    <string name="reverse_charging_off_sharing_level_summary">"ఆఫ్ / బ్యాటరీ 'షేరింగ్ స్థాయి' కంటే తక్కువగా ఉంది"</string>
     <string name="reverse_charging_overheat_summary">Pixel చాలా వేడిగా ఉన్నందున అందుబాటులో లేదు. ఫోన్ చల్లబడే వరకు వేచి ఉండి, మళ్లీ ట్రై చేయండి.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">బ్యాటరీ సేవర్ ఆన్‌లో ఉన్నందున అందుబాటులో లేదు</string>
     <string name="reverse_charging_sharing_level_message">"బ్యాటరీ 'షేరింగ్ స్థాయి' కంటే తక్కువగా ఉన్నందున అందుబాటులో లేదు"</string>
-    <string name="reverse_charging_switch_summary">పరికరాలను మీ Pixel వెనుక భాగంలో ఉంచండి</string>
     <string name="reverse_charging_switch_title">ఇతర పరికరాలను మీ Pixel వెనుక ఉంచడం ద్వారా ఛార్జ్ చేయండి</string>
-    <string name="reverse_charging_switch_title_message">ఇతర పరికరాలను ఛార్జ్ చేయండి</string>
     <string name="reverse_charging_title">బ్యాటరీ షేరింగ్</string>
     <string name="reverse_charging_unplug_usb_cable_message">USB-C పరికరం ప్లగిన్ చేయటం వలన అందుబాటులో లేదు</string>
     <string name="reverse_charging_warning_summary">బ్యాటరీ %1$s కంటే తక్కువ ఉండటంవల్ల అందుబాటులో లేదు</string>
     <string name="reverse_charging_warning_title">బ్యాటరీ %1$s కంటే తక్కువ ఉన్నందున బ్యాటరీ షేరింగ్ అందుబాటులో లేదు</string>
-    <string name="rtt_settings_always_visible">ఎల్లప్పుడూ కనిపిస్తుంది</string>
-    <string name="rtt_settings_no_visible">కనిపించదు</string>
-    <string name="rtt_settings_title">రియ‌ల్‌-టైమ్‌ టెక్స్ట్ (RTT)</string>
-    <string name="rtt_settings_visible_during_call">కాల్ సమయంలో కనిపిస్తుంది</string>
-    <string name="screen_time_summary_usage_today">ఈ రోజు %1$s</string>
-    <string name="search_bar_account_avatar_content_description">ప్రొఫైల్ ఫోటో, Google ఖాతాని తెరవడం కోసం రెండుసార్లు నొక్కండి</string>
+    <string name="search_gesture_category_title">స్క్రీన్ కంటెంట్ సెర్చ్</string>
+    <string name="search_long_press_home_button_summary">మీ స్క్రీన్‌పై Googleలో సెర్చ్ చేయడం ప్రారంభించడానికి హోమ్ బటన్‌ను నొక్కి, పట్టుకోండి.</string>
+    <string name="search_long_press_home_button_title">సెర్చ్ చేయడానికి హోమ్ బటన్‌ను నొక్కి పట్టుకోండి</string>
+    <string name="search_press_hold_gesture_summary">మీ స్క్రీన్‌పై సెర్చ్ చేయడం ప్రారంభించేందుకు నావిగేషన్ హ్యాండిల్‌ను నొక్కి, పట్టుకోండి.</string>
+    <string name="search_press_hold_gesture_title">సెర్చ్ చేయడానికి హ్యాండిల్‌ను పట్టుకోండి</string>
     <string name="security_dismiss_dialog_dismiss_button">విస్మరించండి</string>
     <string name="security_dismiss_dialog_title">ఈ హెచ్చరికను విస్మరించాలా?</string>
-    <string name="security_settings_face_enroll_education_message">తర్వాతి స్క్రీన్‌లో, మీ ముఖం యొక్క అన్ని కోణాలను క్యాప్చర్ చేయడానికి మీ తలను తిప్పండి</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">తర్వాతి స్క్రీన్‌లో, మీ ఫోన్‌ను కంటి స్థాయిలో పట్టుకోండి</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ఫేస్ అన్‌లాక్ సెటప్ సమయం ముగిసింది</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">ఇప్పుడు మీరు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించవచ్చు లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేసినప్పుడు లేదా కొనుగోలును ఆమోదించినప్పుడు ఇది మీరేనని వెరిఫై చేయడానికి కూడా మీ ముఖాన్ని ఉపయోగించవచ్చు</string>
-    <string name="security_settings_face_enroll_finish_description_without_bp">"ఇప్పుడు మీరు మీ ఫోన్‌ను చేతిలోకి తీసుకున్నప్పుడు లేదా స్క్రీన్‌ను ట్యాప్ చేసినప్పుడు, అన్‌లాక్ చేయడానికి మీరు మీ ముఖాన్ని ఉపయోగించవచ్చు.
+    <string name="security_settings_face_enroll_finish_description_with_bp">ఇప్పుడు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేయడం లేదా కొనుగోలును ఆమోదించడం వంటివి చేసినప్పుడు, అది మీరేనని వెరిఫై చేయడానికి మీ ముఖాన్ని ఉపయోగించవచ్చు</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ఇప్పుడు మీ ఫోన్‌ను చేతిలోకి తీసుకున్నప్పుడు లేదా స్క్రీన్‌ను ట్యాప్ చేసినప్పుడు, అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించవచ్చు.
 
-తగినంత కాంతి ఉన్నప్పుడు, మీరు మాస్క్ లేదా ముదురు రంగు కళ్లద్దాలను ధరించనప్పుడు ఫేస్ అన్‌లాక్ ఫీచర్ అనేది ఉత్తమంగా పని చేస్తుంది."</string>
-    <string name="security_settings_face_enroll_finish_title">బాగుంది!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">పరిమిత చూపు, తల కదలిక కోసం సెటప్</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">ఫేస్ అన్‌లాక్‌ను ఉపయోగిస్తున్నప్పుడు, మీ తల భాగం చాలా వరకు మీ ఫోన్‌కు ఎదురుగా ఉండాలి.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">కళ్లు తెరిచి ఉంచాలి</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"మీరు, మీ చిన్నారి వారి పేస్ మోడల్‌ను తొలగించవచ్చు లేదా సెట్టింగ్‌లలో ఎప్పుడైనా ఫేస్ అన్‌లాక్ ఆఫ్ చేయవచ్చు. ఫేస్ మోడల్స్ తొలగించబడే వరకు ఫోన్‌లో స్టోర్ చేయబడతాయి.
-
-g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">మీరు అలాగే మీ చిన్నారి కంట్రోల్‌లో ఉన్నారు</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"మీరు సెట్టింగ్‌ల్లో ఎప్పుడైనా మీ ఫేస్ మోడల్‌ను తొలగించవచ్చు లేదా ఫేస్ అన్‌లాక్‌ను ఆఫ్ చేయవచ్చు. మీరు తొలగించే వరకు ఫేస్ మోడల్స్ ఫోన్‌లో స్టోర్ చేయబడతాయి
-
-g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">మీరు కంట్రోల్ చేయవచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"ఫేస్ అన్‌లాక్, మీ చిన్నారి ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ చిన్నారి ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీ చిన్నారి వేర్వేరు కోణాలలో వారి ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
-
-వారు ఫేస్ అన్‌లాక్‌ను ఉపయోగించినప్పుడు, వారి ఫేస్ మోడల్‌ను అప్‌డేట్ చేయడానికి ఇమేజ్‌లు ఉపయోగించబడతాయి. వారి ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి ఉపయోగించిన ఇమేజ్‌లు స్టోర్ చేయబడవు, కానీ ఫేస్ మోడల్ ఫోన్‌లో సురక్షితంగా స్టోర్ చేయబడుతుంది, ఫోన్ నుండి బయటకు పంపబడదు. మొత్తం ప్రాసెస్ విధానం ఫోన్‌లో సురక్షితంగా జరుగుతుంది."</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"ఫేస్ అన్‌లాక్, మీ ముఖం యొక్క ఒక ప్రత్యేకమైన మోడల్‌ను క్రియేట్ చేస్తుంది, తద్వారా మీ ముఖాన్ని వెరిఫై చేయవచ్చు. సెటప్ సమయంలో ఈ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి, మీరు వేర్వేరు కోణాలలో మీ ముఖం యొక్క ఇమేజ్‌లను క్యాప్చర్ చేస్తారు.
-
-మీరు ఫేస్ అన్‌లాక్‌ను ఉపయోగించినప్పుడు, మీ ఫేస్ మోడల్‌ను అప్‌డేట్ చేయడానికి ఇమేజ్‌లు ఉపయోగించబడతాయి. మీ ఫేస్ మోడల్‌ను క్రియేట్ చేయడానికి ఉపయోగించే ఇమేజ్‌లు స్టోర్ చేయబడవు, కానీ ఫేస్ మోడల్ మీ ఫోన్‌లో సురక్షితంగా స్టోర్ చేయబడుతుంది, ఫోన్ నుండి బయటకు పంపబడదు. మొత్తం ప్రాసెస్ విధానం మీ ఫోన్‌లో సురక్షితంగా జరుగుతుంది."</string>
-    <string name="security_settings_face_enroll_introduction_how_title">ఇది ఎలా పని చేస్తుంది</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది వారేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీ చిన్నారి కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు, మీ చిన్నారి ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">మీ చిన్నారి సాధారణంగా కళ్లద్దాలు ధరిస్తే, వారు వాటిని సెటప్ చేసే సమయంలో కూడా ధరించవచ్చు.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">మీ పిల్లల ఫోన్‌ను అన్‌లాక్ చేయడానికి వారి ముఖాన్ని ఉపయోగించడం అనేది బలమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్ కంటే తక్కువ సురక్షితమైనదిగా ఉండవచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">వారికి అన్‌లాక్ చేసే ఉద్దేశ్యం లేనప్పటికీ, కేవలం ఫోన్ వైపు చూసినా కూడా అది అన్‌లాక్ అవుతుంది. దాదాపుగా వారిలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా వారి ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా వారి ముఖం వద్ద మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">ఫోన్‌ను అన్‌లాక్ చేయడానికి లేదా అది మీరేనని వెరిఫై చేయడానికి, ఫేస్ అన్‌లాక్ కోసం మీరు కళ్లు తెరిచి ఉంచాల్సి రావచ్చు. మీరు ఈ ఆప్షన్‌ను సెట్టింగ్‌లలో ఎప్పుడైనా సరే ఆన్ చేసుకోవచ్చు.</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">కళ్లద్దాలు గానీ, కొద్దిగా లేత రంగులోని చలువ కళ్లద్దాలు గానీ ఫర్వాలేదు.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మీ ముఖాన్ని ఉపయోగించడం అనేది శక్తివంతమైన ఆకృతి, PIN, లేదా పాస్‌వర్డ్‌తో పోలిస్తే తక్కువ సురక్షితమైనది కావచ్చు</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">మీకు అన్‌లాక్ చేసే ఉద్దేశం లేకపోయినా, కేవలం ఫోన్ వైపు చూస్తే చాలు అది అన్‌లాక్ అవుతుంది. దాదాపుగా మీలాంటి రూపం కలిగి ఉన్న వ్యక్తులు, ఉదాహరణకు మీలాగే ఉండే తోబుట్టువు కూడా మీ ఫోన్‌ను అన్‌లాక్ చేయవచ్చు, లేదా ఎవరైనా మీ ముఖం ఎదురుగా మీ ఫోన్‌ను పట్టుకున్నప్పుడు కూడా ఫోన్ అన్‌లాక్ అవుతుంది.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">గుర్తుంచుకోండి</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి గానీ లేదా మీరు యాప్‌లకు సైన్ ఇన్ చేసినప్పుడు లేదా కొనుగోలును ఆమోదించినప్పుడు ఇది మీరేనని వెరిఫై చేయడానికి మీ ముఖాన్ని ఉపయోగించండి.</string>
-    <string name="security_settings_face_enroll_introduction_title">ఫేస్ అన్‌లాక్‌ను సెటప్ చేయండి</string>
+తగినంత కాంతి ఉన్నప్పుడు, అలాగే మీరు మాస్క్‌ను లేదా డార్క్ గ్లాసెస్‌ను ధరించనప్పుడు ఫేస్ అన్‌లాక్ ఫీచర్ ఉత్తమంగా పని చేస్తుంది."</string>
     <string name="security_settings_face_enroll_next">తర్వాత</string>
     <string name="security_settings_face_enroll_partial_message">పనితీరును మెరుగుపరచడానికి, మళ్ళీ సెట్టింగ్‌లలో మీరు ఫేస్ అన్‌లాక్‌ను సెటప్ చేయవచ్చు</string>
     <string name="security_settings_face_enroll_partial_start_over">మళ్ళీ ప్రారంభించండి</string>
@@ -322,39 +306,66 @@ g.co/pixel/faceunlockలో మరింత తెలుసుకోండి."<
 
 పనితీరును మెరుగుపరచడానికి, మళ్ళీ సెట్టింగ్‌లలో మీరు ఫేస్ అన్‌లాక్‌ను సెటప్ చేయవచ్చు."</string>
     <string name="security_settings_face_enroll_timeout_title">సెటప్‌ను కొనసాగించడం సాధ్యపడలేదు</string>
-    <string name="security_settings_face_enroll_timeout_try_again">మళ్ళీ ప్రయత్నించు</string>
+    <string name="security_settings_face_enroll_timeout_try_again">మళ్లీ ట్రై చేయండి</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">వేగవంతమైన సెటప్‌ను ఉపయోగించండి</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">సెటప్ నుండి నిష్క్రమించండి</string>
-    <string name="security_settings_face_enroll_too_hot_message">ఫోన్ చాలా వేడిగా ఉన్నందున ముఖంతో అన్‌లాక్ సెటప్‌ను పూర్తి చేయడం సాధ్యపడదు. ఫోన్ చల్లబడిన తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="security_settings_face_enroll_too_hot_message">ఫోన్ చాలా వేడిగా ఉన్నందున ముఖంతో అన్‌లాక్ సెటప్‌ను పూర్తి చేయడం సాధ్యపడదు. ఫోన్ చల్లబడిన తర్వాత మళ్లీ ట్రై చేయండి.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ఫేస్ అన్‌లాక్‌ను స్కిప్ చేయి</string>
     <string name="security_settings_face_enroll_too_hot_title">ఫోన్ చాలా వేడిగా ఉంది</string>
-    <string name="security_settings_fingerprint_preference_summary_none">వేలిముద్రను సెటప్ చేయడానికి నొక్కండి</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; లింక్‌లో Pixel వేలిముద్ర అన్‌లాక్ గురించి మరింత తెలుసుకోండి."</string>
-    <string name="security_settings_work_fingerprint_preference_title">ఆఫీస్ కోసం Pixel Imprint</string>
-    <string name="setup_suggestion_summary">డేటా కాపీ, మీ ఫోన్‌తో పేమెంట్ చేయడం మొ. చేయండి</string>
+    <string name="setup_suggestion_summary">మరికొన్ని దశలు మాత్రమే</string>
     <string name="setup_suggestion_title">సెటప్‌ను ముగించండి</string>
-    <string name="smart_battery_footer">బ్యాటరీ జీవితకాలాన్ని పొడిగించడానికి, అనుకూల బ్యాటరీ అనేది బ్యాక్‌గ్రౌండ్ యాక్టివిటీతో పాటు పనితీరును తగ్గించవచ్చు. కొన్ని నోటిఫికేషన్‌లు రావడం ఆలస్యం కావచ్చు.</string>
-    <string name="smart_battery_manager_title">అనుకూల ప్రాధాన్యతలు</string>
-    <string name="smart_battery_title">అనుకూల బ్యాటరీ</string>
-    <string name="sound_dashboard_summary">వాల్యూమ్, స్పర్శలు, అంతరాయం కలిగించవద్దు</string>
-    <string name="storage_manager_indicator">స్మార్ట్ నిల్వ: ^1</string>
-    <string name="suw_back_button_label">వెనుకకు</string>
+    <string name="software_update_can_be_updated_header">మీ Pixelను మరింత మెరుగుపరచండి</string>
+    <string name="software_update_detail_indication_1_update_available">1 అప్‌డేట్ అందుబాటులో ఉంది</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">%1$d అప్‌డేట్‌లు అందుబాటులో ఉన్నాయి</string>
+    <string name="software_update_detail_indication_action_required">మీరు పూర్తి చేయాల్సిన చర్య</string>
+    <string name="software_update_entry_title">సాఫ్ట్‌వేర్ అప్‌డేట్‌లు</string>
+    <string name="software_update_entry_up_to_date_summary">మీ Pixelను అప్‌డేట్ చేసి ఉంచండి</string>
+    <string name="software_update_pending_update_summary">పెండింగ్‌లో ఉన్న అప్‌డేట్</string>
+    <string name="software_update_unknown_state_summary">తర్వాత మళ్లీ చెక్ చేయండి</string>
+    <string name="software_update_up_to_date_header">మీ Pixel అప్‌డేట్ అయ్యి ఉంది</string>
+    <string name="software_update_up_to_date_summary">అప్‌డేట్ అయ్యి ఉంది</string>
+    <string name="software_update_up_to_specific_date_summary">%1$s తేదీన అప్‌డేట్ చేయబడింది</string>
+    <string name="software_update_update_available_summary">అప్‌డేట్ అందుబాటులో ఉంది</string>
+    <string name="speed_boost_summary_off">ఆఫ్ అయ్యింది</string>
+    <string name="speed_boost_summary_on">ఆన్ అయ్యింది</string>
+    <string name="speed_boost_title">స్పెక్ట్రల్ స్పీడ్ బూస్ట్</string>
     <string name="suw_limited_warranty_title">పరిమిత వారెంటీ</string>
-    <string name="suw_more_button_label">మరింత</string>
-    <string name="suw_next_button_label">తర్వాత</string>
-    <string name="suw_warranty_description">మీ పరిమిత వారంటీని చూడటానికి, మీరు ఈ పరికరాన్ని కొనుగోలు చేసిన దేశాన్ని ఎంచుకోండి.&lt;br /&gt;&lt;br /&gt;వారంటీ &lt;b&gt;సెట్టింగ్‌లు &gt; ఫోన్ గురించిన సమాచారం &gt; పరిమిత వారెంటీ&lt;/b&gt; ఇంకా g.co/devicewarrantyలో కూడా అందుబాటులో ఉంది.</string>
-    <string name="suw_warranty_description_content">మీ పరిమిత వారంటీని చూడటానికి, మీరు ఈ పరికరాన్ని కొనుగోలు చేసిన దేశాన్ని ఎంచుకోండి. వారంటీ సెట్టింగ్‌ల తర్వాత ఫోన్ గురించిన సమాచారం తర్వాత పరిమిత వారంటీ, g.co/devicewarrantyలో కూడా అందుబాటులో ఉంటుంది.</string>
+    <string name="suw_warranty_description">మీ పరిమిత వారెంటీని చూడటానికి, మీరు ఈ పరికరాన్ని ఏ దేశంలో అయితే కొనుగోలు చేశారో, ఆ దేశాన్ని ఎంచుకోండి.&lt;br /&gt;&lt;br /&gt;వారెంటీ, &lt;b&gt;సెట్టింగ్‌లు &gt; ఫోన్ గురించి సమాచారం &gt; పరిమిత వారెంటీ&lt;/b&gt; ఇంకా g.co/devicewarranty లింక్‌లో కూడా అందుబాటులో ఉంటుంది.</string>
+    <string name="suw_warranty_description_content">మీ పరిమిత వారెంటీని చూడటానికి, మీరు ఈ పరికరాన్ని ఏ దేశంలో అయితే కొనుగోలు చేశారో, ఆ దేశాన్ని ఎంచుకోండి. సెట్టింగ్‌లు, ఆ తర్వాత ఫోన్ గురించి సమాచారం, ఆ తర్వాత పరిమిత వారెంటీ, ఇంకా g.co/devicewarranty లింక్‌లో కూడా వారెంటీ అందుబాటులో ఉంటుంది.</string>
     <string name="suw_warranty_next_button_text">తర్వాత</string>
     <string name="suw_warranty_positive_button_text">మూసివేయండి</string>
-    <string name="time_remaining_warning_subtext">గత వినియోగం ఆధారంగా సుమారు %1$s మిగిలి ఉంది</string>
-    <string name="time_remaining_warning_text">బ్యాటరీ త్వరలో ఖాళీ అవ్వచ్చు</string>
-    <string name="tips_suggestion_summary">మీ ఫోన్‌తో మీరు ఏమి చేయగలరో అన్వేషించండి</string>
+    <string name="system_update_entry_title">సిస్టమ్ అప్‌డేట్</string>
+    <string name="system_updates_group_title">Pixel అప్‌డేట్‌లు</string>
+    <string name="tips_suggestion_summary">మీ ఫోన్‌తో మీరు ఏమి చేయగలరో తెలుసుకోండి</string>
     <string name="tips_suggestion_title">మీ Pixel గురించి తెలుసుకోండి</string>
-    <string name="traffic_light_face_enrolling_title_accessibility">మీ ముఖం ముందు ఫోన్‌ను పట్టుకోండి</string>
-    <string name="usb_use_file_transfers">ఫైల్ బదిలీ / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">రంగులు, రూపానికి తగిన చిహ్నాలు, యాప్ గ్రిడ్</string>
+    <string name="traffic_light_face_enrolling_title_accessibility">ఫోన్‌ను మీ ముఖానికి ఎదురుగా పట్టుకోండి</string>
+    <string name="unified_battery_saver_page_intro">మీరు మీ ఫోన్ బ్యాటరీని ఛార్జ్ చేసిన తర్వాత, అది ఎక్కువసేపు ఉండేలా పవర్‌ను ఆదా చేసుకోండి</string>
+    <string name="vpn_app_bypass">ఎంచుకున్న యాప్‌లను మినహాయించండి</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">ప్రస్తుత క్యారియర్ యాప్‌లు</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">VPN నుండి %1$d క్యారియర్ యాప్‌లను మినహాయించాలా?</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">కొన్ని క్యారియర్ యాప్‌లు వాటి స్వంత నెట్‌వర్క్‌లలో మాత్రమే పని చేస్తాయి</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">ఈ పరికరంలో క్యారియర్ యాప్‌లు ఏవీ లేవు</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">మీరు ఏవైనా కొత్త క్యారియర్ యాప్‌లను ఇన్‌స్టాల్ చేసినప్పుడు మీకు తెలియజేయబడుతుంది</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">VPN నుండి %1$d క్యారియర్ యాప్‌ను మినహాయించాలా?</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">VPN నుండి క్యారియర్ యాప్‌లను మినహాయించాలా?</string>
+    <string name="vpn_bypass_cancel">రద్దు చేయండి</string>
+    <string name="vpn_bypass_carrier_accessibility_description">క్యారియర్ యాప్‌లను ఆన్/ఆఫ్ చేయడాన్ని మినహాయించండి</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">VPNను విస్మరించడానికి, అలాగే మీ ఫోన్‌కు చెందిన సాధారణ నెట్‌వర్క్ కనెక్షన్‌ను ఉపయోగించడానికి క్యారియర్ యాప్‌లను అనుమతించడం వల్ల, క్యారియర్ యాప్‌లు సరిగ్గా పని చేయకపోవడాన్ని అది నివారించవచ్చు.</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">కొత్తగా ఇన్‌స్టాల్ చేసిన క్యారియర్ యాప్‌లను రివ్యూ చేయండి</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">క్యారియర్ యాప్‌లను టోగుల్ చేయండి</string>
+    <string name="vpn_bypass_carrier_description">క్యారియర్ యాప్‌లను మినహాయిస్తుంది</string>
+    <string name="vpn_bypass_category_title">VPN నుండి మినహాయించబడిన యాప్‌లు</string>
+    <string name="vpn_bypass_description">మినహాయించబడిన యాప్‌లు VPNను ఉపయోగించవు. కొన్ని మొబైల్ క్యారియర్ యాప్‌లు VPN లేకుండా వాటి స్వంత నెట్‌వర్క్‌లలో మాత్రమే పని చేస్తాయి.</string>
+    <string name="vpn_bypass_exclude">మినహాయించండి</string>
+    <string name="vpn_exclude_ntf_content">మీరు VPNతో పని చేయని క్యారియర్ యాప్‌లను కొత్తగా ఇన్‌స్టాల్ చేశారు</string>
+    <string name="vpn_exclude_ntf_title">VPN నుండి కొత్త యాప్‌లను మినహాయించాలా?</string>
+    <string name="vpn_preference_group_title">ఇతరం</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s (%2$s)</string>
-    <string name="wifi_subscription_summary">OpenRoaming చెల్లింపు సభ్యత్వాన్ని చూడండి లేదా మార్చండి</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">%1$sతో కనెక్ట్ అయింది</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">కనెక్ట్ చేయడానికి ట్యాప్ చేయండి</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">కనెక్ట్ చేయడం సాధ్యపడదు. మళ్ళీ ట్రై చేయడానికి ట్యాప్ చేయండి.</string>

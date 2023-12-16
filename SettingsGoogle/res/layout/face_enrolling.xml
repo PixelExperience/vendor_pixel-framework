@@ -56,14 +56,12 @@
                         android:id="@id/distance_indicator_view"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent" />
-
                 </FrameLayout>
 
                 <ImageView
                     android:id="@id/indicator_view"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent" />
-
             </com.google.android.settings.biometrics.face.SquareFrameLayout>
 
             <FrameLayout
@@ -82,11 +80,7 @@
                     android:gravity="center"
                     android:lines="3"
                     android:visibility="invisible" />
-
             </FrameLayout>
-
         </LinearLayout>
-
     </LinearLayout>
-
 </com.google.android.setupdesign.GlifLayout>

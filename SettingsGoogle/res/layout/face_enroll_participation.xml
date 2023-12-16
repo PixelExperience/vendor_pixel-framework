@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
         <TextView
-            style="@*android:style/PreferenceFragmentList"
+            style="@*android:style/TextAppearance.DeviceDefault.Body2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
@@ -37,13 +37,12 @@
 
             <CheckBox
                 android:id="@id/agree_to_participate"
-                style="@*android:style/PreferenceFragmentList"
+                style="@*android:style/TextAppearance.DeviceDefault.Body2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:minWidth="@dimen/face_enroll_participation_checkbox_minimum_size"
+                android:minHeight="@dimen/face_enroll_participation_checkbox_minimum_size"
                 android:text="@string/face_consent" />
-
         </LinearLayout>
-
     </LinearLayout>
-
 </com.google.android.setupdesign.GlifLayout>

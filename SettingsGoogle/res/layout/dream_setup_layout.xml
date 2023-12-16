@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.setupdesign.GlifRecyclerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/setup_wizard_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:icon="@drawable/ic_screen_saver"
     app:sucHeaderText="@string/dream_setup_title"
-    app:sudDescriptionText="@string/dream_setup_description">
-
-    <RelativeLayout
-        android:id="@id/dream_container"
-        style="@style/SudContentFrame"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/dream_setup_list"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:clipToPadding="true"
-            android:nestedScrollingEnabled="false" />
-
-    </RelativeLayout>
-
-</com.google.android.setupdesign.GlifLayout>
+    app:sudDescriptionText="@string/dream_setup_description" />

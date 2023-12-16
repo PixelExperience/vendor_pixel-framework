@@ -1,21 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="aware_category_display" />
+    <string name="aware_category_gesture" />
     <string name="aware_display_settings_title">شاشة القفل غير نشِطة لفترة قصيرة</string>
+    <string name="aware_settings_description" />
+    <string name="aware_settings_summary" />
     <string name="gesture_silence_title">إيماءة كتم صوت التنبيهات</string>
     <string name="gesture_skip_title">إيماءة التخطي</string>
     <string name="keywords_touch_sensitivity">لمس، حساسية، حساس، واقي شاشة، فيلم، مستجيب، استجابة</string>
+    <string name="keywords_wake_display" />
     <string name="touch_sensitivity_summary">يمكنك زيادة حساسية اللمس وتحسين الاستجابة باللمس إذا كنت تستخدم واقي شاشة.</string>
     <string name="touch_sensitivity_title">وضع \"واقي الشاشة\"</string>
     <string name="columbus_title">النقرة السريعة لبدء الإجراءات</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">‏تم إعداد Active Edge. انتقل إلى الشاشة التالية أو استمر في التعديل.</string>
     <string name="accessibility_keyboard_haptics_title">لوحات مفاتيح تعمل باللمس</string>
-    <string name="adaptive_alert_vibration_summary">لتقليل قوة الاهتزاز عندما يكون الهاتف ثابتًا والشاشة موجَّهة للأعلى.</string>
-    <string name="adaptive_alert_vibration_title">الاهتزاز التكيّفي للتنبيه</string>
+    <string name="adaptive_alert_vibration_summary">لتقليل قوة الاهتزاز عندما يكون الهاتف ثابتًا والشاشة موجَّهة للأعلى</string>
+    <string name="adaptive_alert_vibration_title">الاهتزاز التكيّفي</string>
+    <string name="adaptive_battery_switch_des">لإطالة عمر البطارية، قد تعمل ميزة \"البطارية التكيُّفية\" على تقليل مستوى الأداء والنشاط في الخلفية، وبالتالي قد يتأخّر ظهور بعض الإشعارات.</string>
+    <string name="adaptive_battery_switch_title">استخدام ميزة \"البطارية التكيُّفية\"</string>
     <string name="adaptive_charging">الشحن التكيُّفي</string>
-    <string name="adaptive_charging_description">يمكنك إطالة عمر البطارية من خلال شحنها بوتيرة ثابتة لفترات شحن أطول. يتم تفعيل خيار الشحن التكيُّفي وفقًا لدورة استخدامك.</string>
+    <string name="adaptive_charging_description">إطالة عمر البطارية من خلال شحنها بوتيرة ثابتة لفترات شحن أطول وتفعيل خيار الشحن التكيُّفي وفقًا لدورة استخدامك</string>
+    <string name="adaptive_charging_footer">للمساعدة في إطالة عمر البطارية، يتعرّف هاتفك على عادات الشحن التي تتّبعها وينتظر حتى الوقت الذي ستحتاج فيه إلى استخدامه لإكمال شحن البطارية.</string>
+    <string name="adaptive_charging_link_a11y">مزيد من المعلومات حول ميزة \"الشحن الذكي\"</string>
+    <string name="adaptive_charging_main_switch_title">استخدام ميزة \"الشحن الذكي\"</string>
     <string name="adaptive_charging_time_estimate"><b>جارٍ الشحن الذكي</b> • يكتمل الشحن بحلول %1$s.</string>
-    <string name="ambient_display_wake_screen_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
-    <string name="app_and_notification_dashboard_summary">‏\"مساعد Google\" والتطبيقات المُستخدمة مؤخرًا والتطبيقات التلقائية</string>
+    <string name="adaptive_charging_title">الشحن الذكي</string>
+    <string name="add_bypassed_application_hint">لم تتم إضافة تطبيقات.</string>
+    <string name="advanced_vpn_preference_group_title">الإعدادات المدمجة</string>
+    <string name="all_apps_category_title">جميع التطبيقات</string>
+    <string name="allow_debugging_data_description">‏تستخدم Google تقارير الأخطاء لتشخيص مشاكل التطبيقات والجهاز وفقًا <a href="https://policies.google.com/privacy">لسياسة الخصوصية</a>" التي نتّبعها.
+
+"<b>تتضمّن تقارير الأخطاء سجلّات من التطبيقات والنظام</b>" وقد تتضمّن معلومات شخصية ومعلومات الجهاز، مثلاً الأسماء وعناوين البريد الإلكتروني وأرقام الهواتف وبيانات الموقع الجغرافي ومعرّفات الأجهزة والأجهزة المتصلة ومعلومات الشبكة. يمكن أن تتم مشاركة التقارير مع شركاء هندسيين يُحتمَل أن يكونوا قد تأثروا بهذه المشكلة.
+
+عند منح إذن الوصول، سيتمكّن هذا التطبيق تلقائيًا "<b>من جمع وتحميل تقارير الأخطاء</b>" التي تتضمّن سجلّات من التطبيقات والنظام لجميع تقارير المشاكل.
+
+عند إبطال إذن الوصول، سيحتاج التطبيق إلى طلب الإذن لجمع تقارير الأخطاء وتحميلها لكل تقرير مشكلة على حدة."</string>
+    <string name="ambient_display_wake_screen_footer">
+        <annotation link="link">الإعدادات المفضّلة</annotation>
+    </string>
+    <string name="ambient_display_wake_screen_summary" />
+    <string name="ambient_display_wake_screen_summary_on" />
     <string name="assist_gesture_enrollment_continue_to_assistant">المتابعة إلى المساعد</string>
     <string name="assist_gesture_enrollment_do_it_later">تنفيذ ذلك لاحقًا</string>
     <string name="assist_gesture_enrollment_seekbar_light">ضغط خفيف</string>
@@ -45,17 +69,10 @@
     <string name="assist_gesture_training_suggestion_summary">التواصل مع المساعد وكتم صوت المكالمات</string>
     <string name="assist_gesture_training_suggestion_summary_including_alarms">التواصل مع المساعد وكتم صوت التنبيهات والمكالمات</string>
     <string name="assist_gesture_training_suggestion_title">الضغط ورفع الإصبع لتشغيل المساعد</string>
-    <string name="automatic_storage_manager_activation_warning">عند الاتصال، سيظل بإمكانك الوصول إلى الصور والفيديوهات بالجودة التي اخترتها للنسخ الاحتياطي.</string>
-    <string name="automatic_storage_manager_days_title">إزالة الصور والفيديوهات التي لديك نسخة احتياطية منها</string>
-    <string name="automatic_storage_manager_deactivation_warning">"هل تريد إيقاف التخزين الذكي؟ 
-
-لن يؤدي التخزين الذكي إلى إخلاء بعض المساحة عند امتلاء مساحة التخزين تقريبًا."</string>
-    <string name="automatic_storage_manager_downloads_days_title">المحتوى الذي تم تنزيله والمنسوخ احتياطيًا</string>
-    <string name="automatic_storage_manager_preference_title">التخزين الذكي</string>
-    <string name="automatic_storage_manager_primary_switch_title">استخدام ميزة \"التخزين الذكي\"</string>
-    <string name="automatic_storage_manager_settings">التخزين الذكي</string>
-    <string name="automatic_storage_manager_text">‏عندما توشك مساحة التخزين على الامتلاء، عليك إزالة الصور والفيديوهات التي تم الاحتفاظ بنسخة احتياطية منها؛ وسيظل بإمكانك العثور عليها في \"صور Google\".</string>
+    <string name="aware_category_security" />
     <string name="aware_disabled_preference_action">تفعيل</string>
+    <string name="aware_disabled_preference_dialog_content" />
+    <string name="aware_disabled_preference_dialog_title" />
     <string name="aware_disabled_preference_neutral">ليس الآن</string>
     <string name="aware_footer_when_airplane_batterysaver_on">‏ميزة Motion Sense غير متاحة لأنّ \"وضع الطيران\" وميزة \"توفير شحن البطارية\" مفعّلان.</string>
     <string name="aware_footer_when_airplane_on">‏ميزة Motion Sense غير متاحة لأنّ \"وضع الطيران\" مفعّل.</string>
@@ -64,44 +81,34 @@
     <string name="aware_gesture_summary_on_non_assist">‏ميزة الإيماءات السريعة مفعّلة وActive Edge مفعّل.</string>
     <string name="aware_gesture_summary_on_with_assist">‏ميزة الإيماءات السريعة مفعّلة وActive Edge مفعّل، يمكنك الضغط لاستخدام \"مساعد Google\"</string>
     <string name="aware_info_button_description">الإعدادات الإضافية</string>
+    <string name="aware_settings_disabled_info_dialog_content" />
+    <string name="aware_settings_disabled_info_dialog_title" />
+    <string name="aware_settings_enabled_info_dialog_content" />
+    <string name="aware_settings_enabled_info_dialog_title" />
+    <string name="aware_settings_suggestion_summary" />
+    <string name="aware_settings_suggestion_title" />
     <string name="aware_summary_when_airplane_batterysaver_on">غير متاحة لأنّ \"وضع الطيران\" وميزة \"توفير شحن البطارية\" مفعّلان.</string>
     <string name="aware_summary_when_airplane_on">غير متاحة لأنّ وضع الطيران مفعّل.</string>
     <string name="aware_summary_when_batterysaver_on">غير متاحة لأنّ ميزة \"توفير شحن البطارية\" مفعّلة.</string>
-    <string name="backup_data_summary">‏الاحتفاظ بنسخة احتياطية من بيانات التطبيقات، وكلمات مرور Wi-Fi، والإعدادات الأخرى على خوادم Google</string>
-    <string name="backup_suggestion_cancel">إلغاء</string>
-    <string name="backup_suggestion_dialog_description">سيؤدي هذا إلى حذف كل البيانات من وحدة التخزين الداخلية في هاتفك.</string>
-    <string name="backup_suggestion_dialog_title">هل تريد إعادة ضبط هذا الجهاز؟</string>
-    <string name="backup_suggestion_get_started">مزيد من المعلومات</string>
-    <string name="backup_suggestion_item_summary">‏النسخ من جهاز Android أو iPhone®‎</string>
-    <string name="backup_suggestion_item_title">هل تريد بيانات من هاتف قديم؟</string>
-    <string name="backup_suggestion_missing_description">"‏إذا لم تظهر لك بعض بياناتك، مثل الرسائل القصيرة SMS والصور، يمكنك نقلها إلى Pixel باستخدام كابل.
-
-للبدء، يحتاج Pixel إلى إعادة الضبط، علمًا بأنه سيتم حذف جميع بيانات هذا الهاتف، بما في ذلك الإعدادات المخصصة والمحتوى غير المتزامن مع السحابة الإلكترونية."</string>
-    <string name="backup_suggestion_missing_title">هل هناك بيانات مفقودة؟</string>
-    <string name="backup_suggestion_next">التالي</string>
-    <string name="backup_suggestion_other_ways_to_copy">طرق أخرى لنسخ البيانات</string>
-    <string name="backup_suggestion_reset_description">"‏في الشاشة التالية، يمكنك إعادة ضبط Pixel، علمًا بأن هذه هي الوسيلة الوحيدة لنقل البيانات باستخدام كابل.
-
-وبعد إعادة الضبط، يمكنك المرور بعملية الإعداد واختيار جلب بياناتك من هاتفك السابق."</string>
-    <string name="backup_suggestion_reset_title">‏إعادة ضبط هاتف Pixel</string>
-    <string name="backup_suggestion_what_is_needed_summary">"‏بعد إعادة ضبط الهاتف، يلزمك توفر ما يلي:
-
-• هاتفك السابق (LINK_BEGINمعظم الهواتفLINK_END التي تعمل بالإصدار Android 5.0 أو أحدث والإصدار iOS® 8.0 أو أحدث تُعد أجهزة متوافقة)
-• كابل شحن أو كابل بيانات للهاتف السابق
-•  Quick Switch Adapter الملحق مع Pixel."</string>
-    <string name="backup_suggestion_what_is_needed_title">الأشياء التي تحتاج إليها</string>
-    <string name="battery_manager_summary">إطالة عمر البطارية وتحسين عملية الشحن</string>
-    <string name="battery_manager_summary_unsupported">إطالة عمر البطارية</string>
-    <string name="battery_missing_link_message">مزيد من المعلومات</string>
-    <string name="battery_suggestion_summary">تفعيل ميزة \"البطارية التكيّفية\"</string>
+    <string name="aware_wake_display_summary" />
+    <string name="aware_wake_display_summary_aod_off" />
+    <string name="aware_wake_display_title" />
+    <string name="basic_battery_saver_summary">يحدّ هذا الخيار من التأثيرات المرئية والنشاط في الخلفية. ويفعِّل وضع \"المظهر الداكن\" إذا لم يكن مفعَّلاً في ذلك الوقت.</string>
+    <string name="basic_battery_saver_title">توفير شحن البطارية العادي</string>
+    <string name="battery_saver_reminder_category">التذكيرات</string>
+    <string name="battery_saver_reminder_switch_summary">في حال تفعيل هذا الخيار، ستتلقّى تذكيرات عند انخفاض شحن البطارية.</string>
+    <string name="battery_saver_reminder_switch_title">تذكيرات ميزة \"توفير شحن البطارية\"</string>
+    <string name="battery_saver_schedule_category">الجدولة</string>
+    <string name="battery_saver_schedule_switch_summary">يتم تفعيل وضع \"توفير شحن البطارية\" عندما ينخفض شحن البطارية إلى المستوى الذي تحدّده.</string>
+    <string name="battery_saver_schedule_switch_title">التفعيل بناءً على مستوى البطارية</string>
+    <string name="battery_schedule_summary">إدارة الحالات التي يتم فيها تفعيل ميزة \"توفير شحن البطارية\"</string>
+    <string name="battery_schedule_title">الجدول الزمني والتذكيرات</string>
     <string name="battery_tip_limited_temporarily_extra_summary">للحفاظ على البطارية، يتم إيقاف شحنها مؤقتًا عند وصول نسبة الشحن إلى %1$s بينما يكون الجهاز اللوحي في وضع الإرساء.</string>
-    <string name="battery_tip_smart_battery_summary">تفعيل ميزة \"البطارية التكيّفية\"</string>
-    <string name="bluetooth_untethered_unpair_dialog_body">‏لن يتم إقران %1$s بعد الآن بأي جهاز متصل بـ \"حساب Google\" هذا.</string>
-    <string name="clear_calling_footer">"‏لحماية خصوصيتك، لا يتم مطلقًا إرسال المحتوى الصوتي أو المحادثات إلى Google من خلال ميزة \"تحسين جودة المكالمات\".
+    <string name="clear_calling_footer">"‏لحماية خصوصيتك، لا يتم إرسال المحتوى الصوتي أو المحادثات إلى Google من خلال ميزة \"تحسين جودة المكالمات\".
 
-تتوفّر ميزة \"تحسين جودة المكالمات\" بناءً على توفّر شبكة Wi‑Fi وشبكة الجوال."</string>
-    <string name="clear_calling_title">إجراء المكالمات بصوت واضح</string>
-    <string name="clear_calling_toggle">استخدام إعداد إجراء المكالمات بصوت واضح</string>
+تعمل ميزة \"تحسين جودة المكالمات\" من خلال الاتصال عبر Wi-Fi ومعظم الشبكات، ولا تتوفّر لشبكات الجيل الثالث."</string>
+    <string name="clear_calling_title">تحسين جودة المكالمات</string>
+    <string name="clear_calling_toggle">استخدام ميزة \"تحسين جودة المكالمات\"</string>
     <string name="clear_calling_topintro">يقلل هذا الإعداد التشويش في الخلفية أثناء المكالمات.</string>
     <string name="columbus_gesture_detected">تم رصد \"النقرة السريعة\".</string>
     <string name="columbus_gesture_enrollment_complete">تم</string>
@@ -147,13 +154,8 @@
     <string name="columbus_setting_app_shortcut_selection_help_text">اختَر ما يحدث عندما تفتح هذا التطبيق باستخدام ميزة \"النقرة السريعة\".</string>
     <string name="columbus_setting_enable_switch_title">استخدام ميزة \"النقرة السريعة\"</string>
     <string name="columbus_setting_sensitivity_title">يجب النقر بقوة أكبر</string>
-    <string name="communal_cast_summary">البثّ من وإلى هذا الجهاز</string>
     <string name="communal_lock_screen_summary">الخصوصية والإشعارات و\"إدارة المنزل آليًّا\"</string>
-    <string name="communal_settings_summary_1">السلوك في حالتَي القفل والإرساء</string>
-    <string name="communal_settings_summary_2">خيارات وضع الإرساء</string>
-    <string name="communal_settings_summary_3">خيارات الإرساء وشاشة القفل</string>
-    <string name="communal_settings_summary_4">خيارات شاشة القفل ووضع الإرساء</string>
-    <string name="communal_settings_title">وضع الإرساء</string>
+    <string name="communal_other">غير ذلك</string>
     <string name="communal_smartspace_summary">‏التذكيرات والتنبيهات والمزيد من \"مساعد Google\"</string>
     <string name="communal_smartspace_title">نظرة سريعة</string>
     <string name="communal_what_to_show">ما يتم عرضه</string>
@@ -164,14 +166,25 @@
     <string name="connectivity_helper_d2d_summary">إشعار المتصل الآخر عندما تكون هناك مشاكل في الاتصال في هاتفك أثناء المكالمات</string>
     <string name="connectivity_helper_d2d_title">مشاركة معلومات الاتصال</string>
     <string name="connectivity_helper_footnote">يمكنك مشاركة معلومات الاتصال عندما يستخدم المتصل الآخر جهاز متوافق وشبكة متوافقة.</string>
-    <string name="content_capture">التخصيص باستخدام بيانات التطبيقات</string>
-    <string name="copy_toast_msg">تم نسخ الرابط إلى الحافظة.</string>
-    <string name="dark_ui_text">يستخدِم \"المظهر الداكن\" خلفية سوداء لتوفير طاقة البطارية والحفاظ عليها لفترة أطول. لا يتم تفعيل الجداول الزمنية لعمل \"المظهر الداكن\" إلا بعد قفل الشاشة.</string>
+    <string name="debugging_data_title">بيانات تصحيح الأخطاء</string>
+    <string name="dialog_aware_settings_message" />
+    <string name="dialog_aware_settings_ok" />
+    <string name="dialog_aware_settings_title" />
+    <string name="discover_tips_button">الاطّلاع على النصائح</string>
+    <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">شحن الهاتف</string>
-    <string name="double_twist_for_camera_mode_summary">‏لتفعيل وضع \"الصورة الذاتية\" أو إيقافه في \"كاميرا Google\"، لفّ الهاتف مرّتين بينما تستخدم التطبيق.</string>
-    <string name="downloads_backup_text">‏سيتم الاحتفاظ بنسخة احتياطية من الملفات التي تم تنزيلها في Google Drive</string>
-    <string name="duration_less_than_one_minute">أقل من دقيقة واحدة</string>
+    <string name="dream_no_screen_saver_caption" />
+    <string name="dream_no_screen_saver_description" />
+    <string name="dream_no_screen_saver_preview_caption" />
+    <string name="dream_secondary_button_title" />
+    <string name="extreme_battery_saver_summary">يشمل جميع التغييرات المذكورة أعلاه. ويتم أيضًا إيقاف التطبيقات غير الأساسية وإشعاراتها مؤقتًا.</string>
+    <string name="extreme_battery_saver_title">توفير شحن البطارية العالي</string>
+    <string name="face_confirmation_hide_illustration_description">عندما تُمسك هاتفك أو تنقر على شاشته، يمكنك الآن استخدام وجهك لفتح قفله.</string>
+    <string name="face_confirmation_info_enough_light">تعمل ميزة \"فتح الجهاز بالتعرف على الوجه\" بشكل أفضل عند وجود إضاءة كافية وبدون ارتداء كمامة أو نظارة شمسية</string>
+    <string name="face_confirmation_info_outside_screen">تعمل ميزة \"فتح الجهاز بالتعرف على الوجه\" من الشاشة الخارجية فقط</string>
     <string name="face_enrolling_center_head">يُرجى محاذاة وجهك في الإطار الداخلي.</string>
+    <string name="face_enrolling_close_to_continue">طي الهاتف أثناء الإعداد</string>
+    <string name="face_enrolling_close_to_continue_description">يجب طي الهاتف لإعداد واستخدام \"فتح الجهاز بالتعرف على الوجه\"</string>
     <string name="face_enrolling_description">يمكنك التقاط جميع زوايا وجهك عن طريق إزالة جميع المربّعات.</string>
     <string name="face_enrolling_do_it_later">تنفيذ ذلك لاحقًا</string>
     <string name="face_enrolling_gaze_dialog_cancel">إلغاء</string>
@@ -183,62 +196,70 @@
     <string name="face_enrolling_title_accessibility">يُرجى النظر مباشرةً إلى هاتفك</string>
     <string name="face_enrolling_title_accessibility_progress">مواصلة النظر إلى هاتفك مباشرةً</string>
     <string name="face_enrolling_too_close">يُرجى إبعاد الهاتف عنك.</string>
-    <string name="face_enrolling_too_far">يُرجى تقريب الهاتف منك.</string>
-    <string name="face_enrolling_too_high">يُرجى خفض الهاتف للأسفل.</string>
-    <string name="face_enrolling_too_left">يُرجى تحريك هاتفك لجهة اليمين.</string>
-    <string name="face_enrolling_too_low">يُرجى رفع الهاتف للأعلى.</string>
-    <string name="face_enrolling_too_right">يُرجى تحريك الهاتف لجهة اليسار.</string>
+    <string name="face_enrolling_too_far">يُرجى تقريب الهاتف منك</string>
+    <string name="face_enrolling_too_high">يُرجى خفض الهاتف للأسفل</string>
+    <string name="face_enrolling_too_left">يُرجى تحريك الهاتف لجهة اليمين</string>
+    <string name="face_enrolling_too_low">يُرجى رفع الهاتف للأعلى</string>
+    <string name="face_enrolling_too_right">يُرجى تحريك الهاتف لجهة اليسار</string>
     <string name="face_enrolling_turn_head_to_arrow">حرّك رأسك باتجاه السهم.</string>
     <string name="face_enrolling_turned_too_far">إدارة الرأس أقل من ذلك بقليل</string>
-    <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
-    <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
-    <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
-    <string name="fullbackup_data_summary">"‏بإمكانك الاحتفاظ تلقائيًا بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور Wi-Fi وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) في Google Drive.
-
-عند تفعيل الاحتفاظ التلقائي بنسخة احتياطية، يتم حفظ بيانات الجهاز وبيانات التطبيقات بشكل دوري في مجلد خاص في Google Drive. ويمكن أن تكون بيانات التطبيقات أي بيانات تم حفظها في التطبيق (استنادًا إلى إعدادات مطوّر البرامج) بما في ذلك البيانات المحتمل أن تكون حساسة مثل جهات الاتصال والرسائل والصور.
-
-لا يتم حساب بيانات النسخة الاحتياطية من حصتك في تخزين Drive كما لن يتم الاحتفاظ بنسخة احتياطية من الملفات الكبيرة أو الملفات التي اختار مطورو التطبيقات استبعادها من الخدمة."</string>
-    <string name="fullbackup_erase_dialog_message">‏هل تريد إيقاف الاحتفاظ بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور Wi-Fi وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) بالإضافة إلى محو بيانات جميع النسخ الموجودة على Google Drive؟</string>
+    <string name="firmware_update_status_category">حالة البرامج الثابتة على الجهاز</string>
+    <string name="firmware_update_status_title">يتوفّر تحديث للبرامج الثابتة</string>
+    <string name="firmware_update_version_number_category">إصدار البرامج الثابتة على الجهاز</string>
+    <string name="firmware_update_version_number_title">‏البرامج الثابتة للوحة مفاتيح Pixel</string>
     <string name="gesture_aware_confirmation_action_button">حسنًا</string>
-    <string name="gesture_aware_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
-    <string name="gesture_silence_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
+    <string name="gesture_aware_disabled_info_dialog_content" />
+    <string name="gesture_aware_footer">
+        <annotation link="link">الإعدادات المفضّلة</annotation>
+    </string>
+    <string name="gesture_aware_off_dialog_content" />
+    <string name="gesture_aware_off_dialog_title" />
+    <string name="gesture_silence_footer">
+        <annotation link="link">الإعدادات المفضّلة</annotation>
+    </string>
+    <string name="gesture_silence_off_summary" />
+    <string name="gesture_silence_on_summary" />
+    <string name="gesture_silence_summary" />
     <string name="gesture_skip_direction_ltr">من اليمين إلى اليسار</string>
     <string name="gesture_skip_direction_rtl">من اليسار إلى اليمين</string>
     <string name="gesture_skip_direction_title">اتجاه التخطي</string>
-    <string name="gesture_skip_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
-    <string name="gesture_tap_footer"><annotation link="link">الإعدادات المفضّلة</annotation></string>
-    <string name="global_actions_panel_short_title">البطاقات والتذاكر</string>
-    <string name="global_actions_panel_summary">للوصول إلى ميزات مثل طُرُق الدفع وبطاقات صعود الطائرة، اضغط مع الاستمرار على زر التشغيل.</string>
-    <string name="global_actions_panel_title">عرض البطاقات والتذاكر</string>
+    <string name="gesture_skip_footer">
+        <annotation link="link">الإعدادات المفضّلة</annotation>
+    </string>
+    <string name="gesture_skip_off_summary" />
+    <string name="gesture_skip_on_summary" />
+    <string name="gesture_skip_summary" />
+    <string name="gesture_tap_footer">
+        <annotation link="link">الإعدادات المفضّلة</annotation>
+    </string>
+    <string name="gesture_tap_on_summary" />
+    <string name="gesture_tap_summary" />
     <string name="install_unknown_applications">‏السماح بتثبيت التطبيقات من مصادر أخرى غير متجر Play</string>
-    <string name="keywords_accessibility_menu">المهارات الحركية، القائمة السريعة، قائمة المساعدة، اللمس، القدرة الحركية</string>
     <string name="keywords_adaptive_alert_vibration">تقنية اللمس، اهتزاز، هاتف، اتصال، رنين، إشعارات، بصوت عالٍ، بهدوء، ضوضاء، حافظة، تكيّفي</string>
     <string name="keywords_adaptive_charging">شحن، الشحن، الشحن الذكي، الشحن التكيُّفي، البطارية، سلامة البطارية</string>
-    <string name="keywords_assist_gesture_launch">‏إيماءة، حافة، جهة، active edge، ضغط، قَبض، مساعدة، مساعد، ضغط، ok google، مساعد google</string>
     <string name="keywords_assist_gesture_silence">‏إيماءة، حافة، جهة، active edge، كتم الصوت، غفوة، تنبيه، مكالمة واردة، سكون، عرض، شاشة قفل، ضغط، قَبض، إيقاف</string>
     <string name="keywords_assist_gesture_wake">‏إيماءة، حافة، جهة، active edge، تفعيل، إشعارات، شاشة، عرض، إيقاف الشاشة، تشغيل الشاشة، ضغط، في وضع السكون، سكون، قَبض</string>
     <string name="keywords_battery_share">مشاركة البطارية، الشحن اللاسلكي</string>
     <string name="keywords_battery_share_settings">مشاركة البطارية، عكس الشحن اللاسلكي</string>
-    <string name="keywords_content_capture">التقاط المحتوى، محتوى التطبيق، بيانات التطبيق</string>
-    <string name="keywords_gesture">إيماءة، حركات</string>
-    <string name="keywords_global_actions_panel">بطاقات، تذاكر</string>
+    <string name="keywords_gesture_silence" />
+    <string name="keywords_gesture_skip" />
+    <string name="keywords_gesture_tap" />
     <string name="keywords_limited_warranty">ضمان، كفالة، ضمان محدود، تعاقُد، إصلاح، الحصول على إذن بإعادة السلع، استبدال</string>
-    <string name="keywords_live_transcribe">‏شرح، ترجمة وشرح، CC، النسخ النصي التلقائي، ضعيف السمع، فقدان السمع، الترجمة في الوقت الفعلي، تحويل الكلام إلى نص، ترجمة</string>
     <string name="keywords_reverse_charging_stop_threshold">إيقاف مشاركة البطارية عندما يصل مستوى شحن الهاتف إلى:</string>
-    <string name="keywords_select_to_speak">سماع النص، القراءة بصوت عالٍ، قول ما على الشاشة، قارئ الشاشة</string>
-    <string name="keywords_sound_amplifier">‏مركز اتصال لإحالة مكالمات السلامة العامة (PSAP)، تضخيم الصوت، مضخّم الصوت، ضعيف السمع، فقدان السمع، التكبير</string>
-    <string name="keywords_sound_notifications">الإشعارات، ضعيف السمع، فقدان السمع، إشعار</string>
-    <string name="keywords_switch_access">المهارات الحركية، مفتاح التبديل، اليد، التكنولوجيا المساندة، التكنولوجيا المساعدة، الشلل، داء اعتلال الأعصاب الحركية، المسح الضوئي، المسح المرحلي.</string>
-    <string name="keywords_talkback">قارئ الشاشة، تعليق صوتيّ، تعليقات صوتية، مساعدة صوتية، كفيف، ضعف في النظر، تحويل النص إلى كلام، الوصف الشفهي للشاشة</string>
-    <string name="keywords_voice_access">الصوت، التحكّم الصوتي، اليد، الميكروفون، المايك، الإملاء، التحدّث، التحكّم</string>
-    <string name="language_input_gesture_summary_off">‏تم إيقاف Active Edge</string>
-    <string name="language_input_gesture_summary_on_non_assist">‏تم تفعيل Active Edge</string>
-    <string name="language_input_gesture_summary_on_with_assist">‏تم تفعيل Active Edge، ويمكنك الضغط لتشغيل المساعد</string>
+    <string name="led_preference_title">‏أنماط مؤشر LED</string>
+    <string name="legal_source_code_description">‏لمعرفة تفاصيل عن رموز المصادر للمكوِّنات التي يتم توفيرها كبرامج مفتوحة المصدر، انتقِل إلى مركز مساعدة Pixel.</string>
+    <string name="legal_source_code_title">رمز المصدر</string>
     <string name="limited_warranty_introduction">‏انقر على بلد الشراء لعرض بيان الضمان الخاص بهذا الجهاز. يتوفّر بيان الضمان أيضًا على g.co/devicewarranty‏.</string>
     <string name="limited_warranty_title">الضمان المحدود</string>
-    <string name="me_card_title">‏هاتف Pixel</string>
-    <string name="my_device_info_account_preference_title">‏حساب Google</string>
-    <string name="owner_info_settings_edit_text_hint">‏جهاز Pixel الخاص بهاني مثلاً</string>
+    <string name="lockscreen_show_weather_summary">الاطّلاع على أحوال الطقس الحالية</string>
+    <string name="lockscreen_show_weather_title">عرض الطقس</string>
+    <string name="permit_debugging_data">السماح بالوصول إلى تقرير الخطأ</string>
+    <string name="play_application_detail_indication_summary">البحث عن تحديثات</string>
+    <string name="play_application_update_entry_title">تحديثات التطبيقات</string>
+    <string name="repair_mode_active_summary">في وضع الإصلاح</string>
+    <string name="repair_mode_summary">بيئة آمنة لإصلاح الجهاز</string>
+    <string name="repair_mode_title">وضع الإصلاح</string>
+    <string name="request_google_account_summary">‏إضافة حساب Google</string>
     <string name="reverse_charging_auto_turn_on_subtitle">سيتم تفعيل هذه الميزة تلقائيًا لفترة قصيرة عندما يتم توصيل هاتفك بالشاحن.</string>
     <string name="reverse_charging_auto_turn_on_title">التفعيل تلقائيًا</string>
     <string name="reverse_charging_charging_wirelessly_message">الميزة غير متاحة لأنه يتم شحن الهاتف لاسلكيًا.</string>
@@ -252,68 +273,31 @@
     <string name="reverse_charging_detail_unplug_usb_cable_message">‏ميزة \"مشاركة البطارية\" غير متاحة لأنه تم توصيل جهاز USB-C.</string>
     <string name="reverse_charging_instructions_title">"‏يمكنك شحن أجهزة أخرى باستخدام هاتف Pixel.
 يمكنك قلب هاتفك لمحاولة تنفيذ ذلك."</string>
-    <string name="reverse_charging_is_off_summary">غير مفعَّل</string>
+    <string name="reverse_charging_is_off_summary">الميزة غير مفعّلة</string>
     <string name="reverse_charging_is_on_and_charging_summary">تتم الآن مشاركة البطارية وشحنها.</string>
-    <string name="reverse_charging_is_on_and_discharging_summary">تتم الآن مشاركة البطارية.</string>
+    <string name="reverse_charging_is_on_and_discharging_summary">تتم الآن مشاركة البطارية</string>
     <string name="reverse_charging_is_on_summary">الميزة مفعّلة / يمكنك شحن أجهزة أخرى</string>
     <string name="reverse_charging_main_switch">استخدام ميزة \"مشاركة البطارية\"</string>
-    <string name="reverse_charging_off_low_battery_summary">الميزة غير مفعّلة / مستوى شحن بطارية الهاتف أقل من %1$s</string>
-    <string name="reverse_charging_off_sharing_level_summary">الميزة غير مفعّلة / شحن البطارية أقل من المستوى المسموح به للمشاركة</string>
     <string name="reverse_charging_overheat_summary">‏الميزة غير متاحة لأن درجة حرارة هاتف Pixel مرتفعة جدًا. يُرجى الانتظار لتبريد الهاتف ثم إعادة المحاولة.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">الميزة غير مفعّلة لأنّ ميزة \"توفير شحن البطارية\" مفعّلة.</string>
     <string name="reverse_charging_sharing_level_message">الميزة غير متاحة لأن شحن البطارية أقل من المستوى المسموح به للمشاركة.</string>
-    <string name="reverse_charging_switch_summary">‏ضَع الجهاز على ظهر هاتف Pixel.</string>
     <string name="reverse_charging_switch_title">‏شحن الأجهزة الأخرى عن طريق وضعها على ظهر هاتف Pixel</string>
-    <string name="reverse_charging_switch_title_message">شحن أجهزة أخرى</string>
     <string name="reverse_charging_title">مشاركة البطارية</string>
     <string name="reverse_charging_unplug_usb_cable_message">‏الميزة غير متاحة لأنه تم توصيل جهاز USB-C.</string>
     <string name="reverse_charging_warning_summary">الميزة غير متاحة لأن مستوى شحن البطارية أقلّ من %1$s.</string>
     <string name="reverse_charging_warning_title">ميزة \"مشاركة البطارية\" غير متاحة لأن مستوى شحن البطارية أقل من %1$s</string>
-    <string name="rtt_settings_always_visible">مرئية دائمًا</string>
-    <string name="rtt_settings_no_visible">غير مرئية</string>
-    <string name="rtt_settings_title">‏المراسلة النصية في الوقت الفعلي (RTT)</string>
-    <string name="rtt_settings_visible_during_call">مرئية أثناء المكالمة</string>
-    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
-    <string name="search_bar_account_avatar_content_description">‏صورة الملف الشخصي، انقر مرّتين لفتح \"حساب Google\"</string>
+    <string name="search_gesture_category_title">بحث مباشر</string>
+    <string name="search_long_press_home_button_summary">‏اضغط مع الاستمرار على زر الشاشة الرئيسية لبدء \"بحث Google\" على شاشة جهازك.</string>
+    <string name="search_long_press_home_button_title">الضغط مع الاستمرار على زر الشاشة الرئيسية لبدء البحث</string>
+    <string name="search_press_hold_gesture_summary">اضغط مع الاستمرار على مقبض التنقُّل لتفعيل البحث على شاشتك.</string>
+    <string name="search_press_hold_gesture_title">اضغط مع الاستمرار على مقبض التنقُّل لاستدعاء البحث</string>
     <string name="security_dismiss_dialog_dismiss_button">إغلاق</string>
     <string name="security_dismiss_dialog_title">هل تريد إغلاق هذا التحذير؟</string>
-    <string name="security_settings_face_enroll_education_message">على الشاشة التالية، حرّك رأسك بشكل دائري ليتسنى التقاط جميع زوايا وجهك.</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" product="device">في الشاشة التالية، عليك مسك هاتفك على مستوى العين.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">انتهت مهلة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">يمكنك الآن استخدام وجهك لفتح قفل هاتفك أو إثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"عندما تُمسك هاتفك أو تنقر على شاشته، يمكنك استخدام وجهك لفتح قفله.
 
 تعمل ميزة \"فتح الجهاز بالتعرف على الوجه\" بشكل أفضل عند وجود إضاءة كافية وبدون ارتداء قناع أو نظارة شمسية."</string>
-    <string name="security_settings_face_enroll_finish_title">تم الضبط بنجاح</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">صعوبة في الرؤية أو تحريك الرأس</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="device">عندما تستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، قد تضطر إلى تثبيت رأسك أمام الهاتف مباشرةً.</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision">يتطلب فتح العينين.</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_message" product="device">"‏يمكنك أنت وطفلك حذف نموذج وجهه أو إيقاف ميزة \"فتح الجهاز بالتعرف على الوجه\" في أي وقت في \"الإعدادات\". يتم تخزين نماذج الوجوه على الهاتف حتى يتم حذفها.
-
-تعرّف على مزيد من المعلومات على الرابط g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title">ستتحكّم في هذه الميزة أنت وطفلك</string>
-    <string name="security_settings_face_enroll_introduction_control_message" product="device">"‏يمكنك حذف نموذج الوجه أو إيقاف ميزة \"فتح الجهاز بالتعرف على الوجه\" في أي وقت في \"الإعدادات\". يتم تخزين نماذج الوجوه على هاتفك حتى تحذفها.
-
-تعرّف على مزيد من المعلومات على الرابط g.co/pixel/faceunlock."</string>
-    <string name="security_settings_face_enroll_introduction_control_title">القرار لك</string>
-    <string name="security_settings_face_enroll_introduction_how_consent_message" product="device">"تنشئ ميزة \"فتح الجهاز بالتعرف على الوجه\" نموذجًا فريدًا من وجه طفلك لإثبات هويته. لإنشاء نموذج الوجه هذا أثناء عملية الإعداد، سيلتقط طفلك صورًا لوجهه من زوايا مختلفة.
-
-عندما يستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، سيتم استخدام الصور لتعديل نموذج وجهه. لا يتم تخزين الصور المستخدمة لإنشاء نموذج الوجه، ولكن يتم تخزين نموذج الوجه بأمان على الهاتف ولا يتم نقله خارج الهاتف مطلقًا. تتم كل عمليات المعالجة بأمان على الهاتف."</string>
-    <string name="security_settings_face_enroll_introduction_how_message" product="device">"تنشئ ميزة \"فتح الجهاز بالتعرف على الوجه\" نموذجًا فريدًا من وجهك لإثبات هويتك. لإنشاء نموذج الوجه هذا أثناء عملية الإعداد، سيتم التقاط صور لوجهك من زوايا مختلفة.
-
-عندما تستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، سيتم استخدام الصور لتعديل نموذج الوجه. لا يتم تخزين الصور المستخدمة لإنشاء نموذج الوجه، ولكن يتم تخزين نموذج الوجه بأمان على هاتفك ولا يتم نقله خارج هاتفك مطلقًا. تتم كل عمليات المعالجة بأمان على هاتفك."</string>
-    <string name="security_settings_face_enroll_introduction_how_title">آلية العمل</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="device">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عينا الطفل مفتوحتين لفتح قفل الهاتف أو إثبات هويته. يمكنك أنت وطفلك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses">إذا كان طفلك يرتدي نظارات في العادة، يمكنه ارتداؤها أثناء عملية الإعداد.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="device">قد يكون استخدام وجه طفلك لفتح قفل هاتفه أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
-    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="device">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كان لا يقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفه إذا كان يشبهه بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهه.</string>
-    <string name="security_settings_face_enroll_introduction_info_gaze" product="device">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عيناك مفتوحتين لفتح قفل الهاتف أو إثبات هويتك. يمكنك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses">مسموح بالنظارات العادية أو النظارات الشمسية الغامقة قليلاً.</string>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" product="device">قد يكون استخدام وجهك لفتح قفل الهاتف أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
-    <string name="security_settings_face_enroll_introduction_info_looking" product="device">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كنت لا تقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفك إذا كان يشبهك بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهك.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">تنبيه</string>
-    <string name="security_settings_face_enroll_introduction_message" product="device">يمكنك استخدام وجهك لفتح قفل الهاتف أو لإثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
-    <string name="security_settings_face_enroll_introduction_title">إعداد \"فتح الجهاز بالتعرف على الوجه\"</string>
     <string name="security_settings_face_enroll_next">التالي</string>
     <string name="security_settings_face_enroll_partial_message">لتحسين الأداء، يمكنك إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" مرة أخرى من \"الإعدادات\".</string>
     <string name="security_settings_face_enroll_partial_start_over">البدء من جديد</string>
@@ -328,33 +312,60 @@
     <string name="security_settings_face_enroll_too_hot_message">يتعذّر إكمال إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" لأن درجة حرارة الهاتف مرتفعة جدًا. يُرجى إعادة المحاولة بعد انخفاض درجة حرارة الهاتف.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">تخطّي إعداد \"فتح الجهاز بالتعرف على الوجه\"</string>
     <string name="security_settings_face_enroll_too_hot_title">درجة حرارة الهاتف مرتفعة جدًا</string>
-    <string name="security_settings_fingerprint_preference_summary_none">النقر لإعداد بصمة الإصبع</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏تعرَّف على مزيد من المعلومات عن فتح قفل هاتف Pixel باستخدام بصمة الإصبع على الرابط &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
-    <string name="security_settings_work_fingerprint_preference_title">‏Pixel Imprint للملف الشخصي للعمل</string>
-    <string name="setup_suggestion_summary">نسخ البيانات والدفع عبر الهاتف والمزيد</string>
+    <string name="setup_suggestion_summary">تتبقى بضع خطوات أخرى.</string>
     <string name="setup_suggestion_title">إنهاء الإعداد</string>
-    <string name="smart_battery_footer">لإطالة عمر البطارية، قد تعمل ميزة \"البطارية التكيُّفية\" على تقليل مستوى الأداء والنشاط في الخلفية، وبالتالي قد يتأخّر ظهور بعض الإشعارات.</string>
-    <string name="smart_battery_manager_title">الإعدادات المفضّلة للميزات التكيُّفية</string>
-    <string name="smart_battery_title">البطارية التكيُّفية</string>
-    <string name="sound_dashboard_summary">مستوى الصوت والميزات التي تعمل باللمس وعدم الإزعاج</string>
-    <string name="storage_manager_indicator">التخزين الذكي: ^1</string>
-    <string name="suw_back_button_label">رجوع</string>
+    <string name="software_update_can_be_updated_header">‏تحسين أداء جهاز Pixel</string>
+    <string name="software_update_detail_indication_1_update_available">يتوفّر تحديث واحد</string>
+    <string name="software_update_detail_indication_2_or_more_updates_available">عدد التحديثات المتوفرة: %1$d</string>
+    <string name="software_update_detail_indication_action_required">مطلوب اتخاذ إجراء</string>
+    <string name="software_update_entry_title">تحديثات البرامج</string>
+    <string name="software_update_entry_up_to_date_summary">‏احرص على تحديث جهاز Pixel باستمرار.</string>
+    <string name="software_update_pending_update_summary">في انتظار التحديث</string>
+    <string name="software_update_unknown_state_summary">يُرجى إعادة التحقّق لاحقًا.</string>
+    <string name="software_update_up_to_date_header">‏هاتف Pixel مُحدّث</string>
+    <string name="software_update_up_to_date_summary">محدّث</string>
+    <string name="software_update_up_to_specific_date_summary">‏تم تحديثه في ‎%1$s.</string>
+    <string name="software_update_update_available_summary">يتوفّر تحديث</string>
+    <string name="speed_boost_summary_off">الخيار غير مفعَّل</string>
+    <string name="speed_boost_summary_on">الخيار مفعَّل</string>
+    <string name="speed_boost_title">Spectrum Speed Boost</string>
     <string name="suw_limited_warranty_title">الضمان المحدود</string>
-    <string name="suw_more_button_label">المزيد</string>
-    <string name="suw_next_button_label">التالي</string>
     <string name="suw_warranty_description">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز.&lt;br /&gt;&lt;br /&gt;يتوفّر الضمان أيضًا في &lt;b&gt;الإعدادات &gt; لمحة عن الهاتف &gt; الضمان المحدود&lt;/b&gt; وعلى الرابط g.co/devicewarranty.</string>
     <string name="suw_warranty_description_content">‏لعرض الضمان المحدود، اختَر البلد الذي اشتريت منه هذا الجهاز. يتوفّر الضمان أيضًا في \"الإعدادات\" ثم \"لمحة عن الهاتف\" ثم \"الضمان المحدود\" وعلى الرابط g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">التالي</string>
     <string name="suw_warranty_positive_button_text">إغلاق</string>
-    <string name="time_remaining_warning_subtext">يتبقى %1$s تقريبًا بناءً على الاستخدام الماضي</string>
-    <string name="time_remaining_warning_text">قد ينفد شحن البطارية قريبًا</string>
+    <string name="system_update_entry_title">تحديث النظام</string>
+    <string name="system_updates_group_title">‏تحديثات هاتف Pixel</string>
     <string name="tips_suggestion_summary">استكشاف ما يمكنك فعله باستخدام هاتفك</string>
     <string name="tips_suggestion_title">‏التعرّف على هاتف Pixel</string>
     <string name="traffic_light_face_enrolling_title_accessibility">عليك تثبيت الهاتف أمام وجهك</string>
-    <string name="usb_use_file_transfers">‏نقل الملفات / Android Auto</string>
-    <string name="wallpaper_dashboard_summary">الألوان والرموز المرتبطة بموضوع معيّن وشبكة التطبيقات</string>
+    <string name="unified_battery_saver_page_intro">وفِّر الطاقة للمساعدة في إطالة عمر بطارية هاتفك بين كل عملية شحن وأخرى.</string>
+    <string name="vpn_app_bypass">استثناء التطبيقات المحدّدة</string>
+    <string name="vpn_bypass_bottom_sheet_current_carrier_app">تطبيقات مشغّل شبكة الجوّال الحالية</string>
+    <string name="vpn_bypass_bottom_sheet_more_than_one_carrier_app_title">‏هل تريد استثناء %1$d تطبيق مشغّل شبكة جوّال من استخدام شبكة VPN؟</string>
+    <string name="vpn_bypass_bottom_sheet_new_installed_description">لا تعمل بعض تطبيقات مشغّل شبكة الجوّال إلا على شبكاتها الخاصة.</string>
+    <string name="vpn_bypass_bottom_sheet_no_carrier_apps">ما مِن تطبيقات مشغّل شبكة جوّال على هذا الجهاز.</string>
+    <string name="vpn_bypass_bottom_sheet_notification_description">سيتم إعلامك عندما تثبِّت أي تطبيقات مشغّل شبكة جوّال جديدة.</string>
+    <string name="vpn_bypass_bottom_sheet_one_carrier_app_title">‏هل تريد استثناء تطبيق مشغّل شبكة الجوّال واحد (%1$d) من استخدام شبكة VPN؟</string>
+    <string name="vpn_bypass_bottom_sheet_zero_carrier_app_title">‏هل تريد استثناء تطبيقات مشغّل شبكة الجوّال من استخدام شبكة VPN؟</string>
+    <string name="vpn_bypass_cancel">إلغاء</string>
+    <string name="vpn_bypass_carrier_accessibility_description">تفعيل/إيقاف استثناء تطبيقات مشغّل شبكة الجوّال</string>
+    <string name="vpn_bypass_carrier_app_bottom_sheet_description">‏من خلال السماح لتطبيقات مشغّل شبكة الجوّال بتجاهل شبكة VPN واستخدام الاتصال العادي بالشبكة، يمكن منع تعطّل تطبيقات مشغّل شبكة الجوّال.</string>
+    <string name="vpn_bypass_carrier_app_suggestion_text">مراجعة تطبيقات مشغّل شبكة الجوّال المثبَّتة حديثًا</string>
+    <string name="vpn_bypass_carrier_app_toggle_description">إيقاف تطبيقات مشغّل شبكة الجوّال أو تفعيلها</string>
+    <string name="vpn_bypass_carrier_description">استثناء تطبيقات مشغّل شبكة الجوّال</string>
+    <string name="vpn_bypass_category_title">‏التطبيقات المستثناة من استخدام شبكة VPN</string>
+    <string name="vpn_bypass_description">‏لن يتم استخدام شبكة VPN مع التطبيقات المستثناة. لا تعمل بعض تطبيقات مشغّل شبكة الجوّال إلا على شبكاتها الخاصة بها وبدون استخدام شبكة VPN.</string>
+    <string name="vpn_bypass_exclude">استثناء</string>
+    <string name="vpn_exclude_ntf_content">‏لقد ثبَّت مؤخرًا تطبيقات مشغّل شبكة جوّال قد لا تستخدم شبكة VPN.</string>
+    <string name="vpn_exclude_ntf_title">‏هل تريد استثناء التطبيقات الجديدة من استخدام شبكة VPN؟</string>
+    <string name="vpn_preference_group_title">الإعدادات الأخرى</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_content" />
+    <string name="wake_screen_aware_off_dialog_title" />
+    <string name="wake_screen_suggestion_summary" />
+    <string name="wake_screen_suggestion_title" />
     <string name="warranty_country_information">%1$s (%2$s)</string>
-    <string name="wifi_subscription_summary">‏عرض اشتراك OpenRoaming أو تغييره</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">الشبكة متصلة بـ %1$s.</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">انقر للاتصال بالإنترنت.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">يتعذّر الاتصال بالإنترنت. انقر لإعادة المحاولة.</string>

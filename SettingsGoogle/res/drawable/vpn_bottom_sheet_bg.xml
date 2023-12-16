@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:color="?androidprv:attr/materialColorSurfaceContainer" />
+    <corners
+        android:topLeftRadius="@dimen/app_bypass_bottom_sheet_background_radius"
+        android:topRightRadius="@dimen/app_bypass_bottom_sheet_background_radius" />
+</shape>

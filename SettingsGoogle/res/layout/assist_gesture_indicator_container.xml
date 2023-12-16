@@ -18,5 +18,4 @@
         android:id="@id/indicator_right"
         android:layout_width="@dimen/assist_gesture_indicator_width"
         android:layout_height="fill_parent" />
-
 </LinearLayout>
