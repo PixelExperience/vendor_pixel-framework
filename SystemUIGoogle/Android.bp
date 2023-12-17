@@ -45,7 +45,10 @@ android_library {
 
 android_app {
     name: "SystemUIGoogle",
-    defaults: ["platform_app_defaults"],
+    defaults: [
+        "platform_app_defaults",
+        "SystemUI_optimized_defaults",
+    ],
     static_libs: [
         "SystemUIGoogle-core",
     ],
@@ -58,6 +61,10 @@ android_app {
         "-0 .vocab",
     ],
 
+    libs: [
+        "ims-common",
+    ],
+
     platform_apis: true,
     system_ext_specific: true,
     certificate: "platform",
@@ -67,12 +74,12 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 
-    javacflags: ["-Adagger.fastInit=enabled"],
     kotlincflags: ["-Xjvm-default=enable"],
 
     dxflags: ["--multi-dex"],
     required: [
         "privapp_whitelist_com.android.systemui",
+        "wmshell.protolog.json.gz",
     ],
     overrides: [
         "SystemUI",
