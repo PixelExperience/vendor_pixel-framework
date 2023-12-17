@@ -394,7 +394,8 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_accounts" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_accounts;end</string>
     <string name="help_url_adaptive_charging_settings">https://support.google.com/pixelphone/?p=adaptive_charging</string>
     <string name="help_url_legal_source_code">https://support.google.com/pixelphone?p=open_source_details</string>
-    <string name="help_url_app_usage_settings">https://support.google.com/pixelphone?p=battery_usage</string>
+    <string name="help_url_app_usage_settings" product="default">https://support.google.com/pixelphone?p=battery_usage</string>
+    <string name="help_url_app_usage_settings" product="tablet">https://support.google.com/googlepixeltablet/?p=battery_drain</string>
     <string name="help_url_action_disabled_by_it_admin">https://support.google.com/work/android?p=work_device_help</string>
     <string name="help_url_action_disabled_by_restricted_settings">https://support.google.com/android/?p=restricted_settings</string>
     <string name="help_url_adaptive_sleep">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_adaptive_sleep;end</string>
@@ -407,7 +408,8 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="help_url_battery" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
     <string name="help_url_battery_defender" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end</string>
     <string name="help_url_battery_missing">https://support.google.com/pixelphone/?p=p4xl_battery</string>
-    <string name="help_url_battery_saver_settings">https://support.google.com/pixelphone/?p=battery_saver_settings</string>
+    <string name="help_url_battery_saver_settings" product="default">https://support.google.com/pixelphone/?p=battery_saver_settings</string>
+    <string name="help_url_battery_saver_settings" product="tablet">https://support.google.com/googlepixeltablet/?p=battery_saver</string>
     <string name="help_url_bluetooth" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
     <string name="help_url_caption">https://support.google.com/accessibility/android/answer/6006554</string>
     <string name="help_url_choose_lockscreen" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>
