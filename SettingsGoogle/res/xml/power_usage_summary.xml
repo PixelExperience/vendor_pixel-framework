@@ -46,26 +46,11 @@
         settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingPreferenceController"
         settings:keywords="@string/keywords_battery_share_settings"
         settings:searchable="true" />
-
-     <com.pixys.support.preference.SystemSettingSwitchPreference
-	android:key="arcane_idle_manager" 
-        android:title="@string/idle_manager_title"
-	android:summary="@string/idle_manager_summary"
-        android:defaultValue="false" />
-
-    <Preference android:key="high_power_apps" 
-	android:title="@string/high_power_apps" 
-        android:summary="@string/high_power_apps_summary"> 
-		<intent 
-        android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
-    </Preference>
-
     <SwitchPreference
         android:key="battery_percentage"
         android:summary="@string/battery_percentage_description"
         android:title="@string/battery_percentage"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
-
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:selectable="false"

@@ -19,5 +19,4 @@
         android:title="@string/adaptive_charging_footer"
         settings:controller="com.google.android.settings.fuelgauge.adaptivecharging.AdaptiveChargingFooterPreferenceController"
         settings:searchable="false" />
-
 </PreferenceScreen>
