@@ -120,7 +120,6 @@ import com.android.systemui.statusbar.phone.StatusBarTouchableRegionManager;
 import com.android.systemui.statusbar.phone.dagger.CentralSurfacesComponent;
 import com.android.systemui.statusbar.phone.ongoingcall.OngoingCallController;
 import com.android.systemui.statusbar.policy.BatteryController;
-import com.android.systemui.statusbar.policy.BurnInProtectionController;
 import com.android.systemui.statusbar.policy.ConfigurationController;
 import com.android.systemui.statusbar.policy.DeviceProvisionedController;
 import com.android.systemui.statusbar.policy.ExtensionController;
@@ -141,7 +140,6 @@ import com.google.android.systemui.dreamliner.DockObserver;
 import com.google.android.systemui.reversecharging.ReverseChargingViewController;
 import com.google.android.systemui.smartspace.SmartSpaceController;
 import com.google.android.systemui.statusbar.KeyguardIndicationControllerGoogle;
-import com.android.systemui.statusbar.policy.FlashlightController;
 
 import java.util.Optional;
 import java.util.concurrent.Executor;
@@ -219,7 +217,6 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
             NavigationBarController navigationBarController,
             AccessibilityFloatingMenuController accessibilityFloatingMenuController,
             Lazy<AssistManager> assistManagerLazy,
-	    FlashlightController flashlightController,
             ConfigurationController configurationController,
             NotificationShadeWindowController notificationShadeWindowController,
             Lazy<NotificationShadeWindowViewController> notificationShadeWindowViewControllerLazy,
@@ -279,7 +276,6 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
             UserTracker userTracker,
             Provider<FingerprintManager> fingerprintManager,
             ActivityStarter activityStarter,
-            BurnInProtectionController burnInProtectionController,
             WallpaperNotifier wallpaperNotifier,
             SmartSpaceController smartSpaceController,
             Optional<ReverseChargingViewController> reverseChargingViewControllerOptional,
@@ -292,13 +288,13 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
                 broadcastDispatcher, notificationGutsManager, notificationLogger, notificationInterruptStateProvider,
                 shadeExpansionStateManager, keyguardViewMediator,
                 displayMetrics, metricsLogger, shadeLogger, uiBgExecutor, shadeSurface, notificationMediaManager,
-                notificationLockscreenUserManagerGoogle, remoteInputManager, quickSettingsController, 
+                notificationLockscreenUserManagerGoogle, remoteInputManager, quickSettingsController,
                 userSwitcherController, batteryController, colorExtractor, screenLifecycle,
                 wakefulnessLifecycle, powerInteractor, statusBarStateController,
                 bubblesOptional, noteTaskControllerLazy, deviceProvisionedController,
                 navigationBarController, accessibilityFloatingMenuController, assistManagerLazy,
-                flashlightController, configurationController, notificationShadeWindowController,
-                notificationShadeWindowViewControllerLazy, 
+                configurationController, notificationShadeWindowController,
+                notificationShadeWindowViewControllerLazy,
                 notificationShelfController, notificationStackScrollLayoutController, notificationPresenterLazy,
                 notificationExpansionRepository, dozeParameters, scrimController, lockscreenWallpaperLazy,
                 biometricUnlockControllerLazy, authRippleController, dozeServiceHost, backActionInteractor,
@@ -316,8 +312,7 @@ public class CentralSurfacesGoogle extends CentralSurfacesImpl {
                 messageRouter, wallpaperManager, startingSurfaceOptional, activityLaunchAnimator,
                 jankMonitor, deviceStateManager, wiredChargingRippleController,
                 dreamManager, cameraLauncherLazy, lightRevealScrimViewModelLazy, lightRevealScrim, alternateBouncerInteractor,
-                userTracker, fingerprintManager, activityStarter,
-                burnInProtectionController);
+                userTracker, fingerprintManager, activityStarter);
         mContext = context;
         mBatteryStateChangeCallback = new BatteryController.BatteryStateChangeCallback() {
             @Override
