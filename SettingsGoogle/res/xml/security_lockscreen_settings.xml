@@ -10,7 +10,6 @@
             android:summary="@string/summary_placeholder"
             android:title="@string/lock_screen_notifications_title"
             settings:keywords="@string/keywords_lock_screen_notif" />
-
         <com.android.settings.custom.preference.SecureSettingListPreference
             android:key="face_unlock_method"
             android:title="@string/face_unlock_method_title"
@@ -21,7 +20,6 @@
             android:defaultValue="0"
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
-
         <SwitchPreference
             android:key="security_dispaly_lockscreen_bypass"
             android:summary="@string/lockscreen_bypass_summary"
@@ -101,6 +99,13 @@
             android:summary="@string/doze_summary"
             android:title="@string/doze_title"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
+        <com.android.settings.custom.preference.RemotePreference
+            android:key="doze_device_settings"
+            android:title="@string/ambient_display_screen_title"
+            settings:requiresAction="org.lineageos.settings.device.DOZE_SETTINGS"
+            settings:replacesKey="ambient_display_always_on|ambient_display_notification">
+            <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+        </com.android.settings.custom.preference.RemotePreference>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"

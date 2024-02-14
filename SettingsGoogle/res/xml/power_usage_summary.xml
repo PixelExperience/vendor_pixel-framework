@@ -32,6 +32,10 @@
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
+    <SwitchPreference
+        android:key="battery_light_enabled"
+        android:title="@string/battery_light_title"
+        settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
@@ -51,6 +55,12 @@
         android:summary="@string/battery_percentage_description"
         android:title="@string/battery_percentage"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
+        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:selectable="false"
